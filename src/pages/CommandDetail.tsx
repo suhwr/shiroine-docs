@@ -3,7 +3,6 @@ import { Link, useParams } from 'react-router-dom';
 import { Heart, ChevronRight, AlertCircle, Play, TerminalSquare, Info } from 'lucide-react';
 import { CopyButton } from '../components/ui/CopyButton';
 import { ArgumentsBuilder } from '../components/command/ArgumentsBuilder';
-import { SimulatedChat } from '../components/command/SimulatedChat';
 
 export function CommandDetail({ favorites, toggleFavorite, addRecent }: {
   favorites: Array<{name: string, category: string}>;
@@ -127,12 +126,27 @@ export function CommandDetail({ favorites, toggleFavorite, addRecent }: {
             )}
           </div>
 
-          <div className="card" style={{ padding: '1.5rem' }}>
-            <h3 className="section-title"><Play className="w-5 h-5 text-accent" /> Simulated Output</h3>
-            <div style={{ marginTop: '1rem' }}>
-              <SimulatedChat cmdName={cmdName!} details={details} />
+          {details.videoUrl && (
+            <div className="card" style={{ padding: '1.5rem' }}>
+              <h3 className="section-title"><Play className="w-5 h-5 text-accent" /> Tutorial</h3>
+              <div style={{ marginTop: '1rem', overflow: 'hidden', borderRadius: '12px', background: 'rgba(0,0,0,0.2)' }}>
+                {details.videoUrl.includes('youtube.com') || details.videoUrl.includes('youtu.be') ? (
+                  <iframe 
+                    width="100%" 
+                    height="315" 
+                    src={details.videoUrl.replace('watch?v=', 'embed/').replace('youtu.be/', 'www.youtube.com/embed/')} 
+                    title="Tutorial Video" 
+                    frameBorder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowFullScreen
+                    style={{ display: 'block', border: 'none' }}
+                  ></iframe>
+                ) : (
+                  <video src={details.videoUrl} controls style={{ width: '100%', display: 'block' }} />
+                )}
+              </div>
             </div>
-          </div>
+          )}
 
         </div>
 
