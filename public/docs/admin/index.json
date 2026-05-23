@@ -1,33 +1,49 @@
 {
   "commands": [
     {
-      "description": "Broadcast message to Newsletter",
-      "name": "broadcast",
+      "description": "Clear data from specific database tables (message_daily_stats)",
+      "name": "cleardb",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
       "tags": [
-        "broadcast",
-        "bc"
-      ]
-    },
-    {
-      "description": "Permanently delete 'name' table (considered useless)",
-      "name": "deletenametable",
-      "tags": [
-        "deletenametable"
+        "cleardb"
       ]
     },
     {
       "description": "Broadcast message to Community/Group",
       "name": "bcgroup",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
       "tags": [
         "bcgroup",
         "broadcastgroup"
       ]
     },
     {
-      "description": "Clear data from specific database tables (message_daily_stats)",
-      "name": "cleardb",
+      "description": "Permanently delete 'name' table (considered useless)",
+      "name": "deletenametable",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
       "tags": [
-        "cleardb"
+        "deletenametable"
+      ]
+    },
+    {
+      "description": "Broadcast message to Newsletter",
+      "name": "broadcast",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "broadcast",
+        "bc"
       ]
     }
   ]

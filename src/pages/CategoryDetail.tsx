@@ -54,10 +54,14 @@ export function CategoryDetail() {
             <Link to={`/command/${catId}/${cmd.name}`} key={cmd.name} className="card card-interactive" style={{ padding: '1.25rem', display: 'flex', flexDirection: 'column' }}>
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
                 <span style={{ fontWeight: 600, fontSize: '1.1rem' }}>.{cmd.name}</span>
-                {cmd.premiumOnly && <span className="badge badge-warning" style={{ fontSize: '0.65rem', padding: '0.15rem 0.4rem', gap: '2px' }}>⭐ PREMIUM</span>}
-                {cmd.permissions?.owner && <span className="badge badge-danger" style={{ fontSize: '0.65rem', padding: '0.15rem 0.4rem', marginLeft: '0.3rem' }}>Owner</span>}
-                {cmd.permissions?.subowner && <span className="badge badge-primary" style={{ fontSize: '0.65rem', padding: '0.15rem 0.4rem', marginLeft: '0.3rem' }}>Sub‑owner</span>}
-                {cmd.permissions?.admin && <span className="badge badge-success" style={{ fontSize: '0.65rem', padding: '0.15rem 0.4rem', marginLeft: '0.3rem' }}>Admin</span>}
+                <div style={{ display: 'flex', gap: '0.3rem', alignItems: 'center' }}>
+                  {cmd.premiumOnly && <span className="badge badge-warning" style={{ fontSize: '0.65rem', padding: '0.15rem 0.4rem', gap: '2px' }}>⭐ PREMIUM</span>}
+                  {cmd.permissions?.owner && <span className="badge badge-danger" style={{ fontSize: '0.65rem', padding: '0.15rem 0.4rem' }}>Owner</span>}
+                  {cmd.permissions?.subowner && <span className="badge badge-primary" style={{ fontSize: '0.65rem', padding: '0.15rem 0.4rem' }}>Sub‑owner</span>}
+                  {cmd.permissions?.admin && <span className="badge badge-success" style={{ fontSize: '0.65rem', padding: '0.15rem 0.4rem' }}>Admin</span>}
+                  {cmd.permissions?.bot && <span className="badge badge-primary" style={{ fontSize: '0.65rem', padding: '0.15rem 0.4rem' }}>Bot</span>}
+                  {cmd.permissions?.hasbot && <span className="badge badge-primary" style={{ fontSize: '0.65rem', padding: '0.15rem 0.4rem' }}>Has Bot</span>}
+                </div>
               </div>
               <div className="text-secondary" style={{ fontSize: '0.9rem', marginBottom: '1rem', flexGrow: 1 }}>{cmd.description || "No description"}</div>
               {cmd.tags && (

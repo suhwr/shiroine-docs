@@ -115,7 +115,7 @@ export function CommandDetail({ favorites, toggleFavorite, addRecent }: {
               <div style={{ marginTop: '1.5rem' }}>
                 <span style={{ fontSize: '0.9rem', fontWeight: 600, color: 'var(--text-secondary)' }}>Examples:</span>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', marginTop: '0.75rem' }}>
-                  {details.examples.map((ex: string, idx: number) => (
+                  {Array.from(new Set(details.examples)).map((ex: any, idx: number) => (
                     <div key={idx} className="code-block flex-between" style={{ padding: '0.75rem 1rem' }}>
                       <span className="text-secondary">.{ex}</span>
                       <CopyButton text={`.${ex}`} />

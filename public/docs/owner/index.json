@@ -1,24 +1,37 @@
 {
   "commands": [
     {
-      "description": "",
-      "name": "logger",
-      "tags": [
-        "param",
-        "params"
-      ]
-    },
-    {
       "description": "View dependency error logs",
       "name": "errors",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
       "tags": [
         "errors",
         "errlog"
       ]
     },
     {
+      "description": "Show global ban list",
+      "name": "hardbanlist",
+      "permissions": {
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "hardbanlist",
+        "hbanlist"
+      ]
+    },
+    {
       "description": "Add/update premium manually (owner only)",
       "name": "addprem",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
       "tags": [
         "addprem",
         "addpremium"
@@ -27,47 +40,23 @@
     {
       "description": "Unban user from global ban list",
       "name": "hardunban",
+      "permissions": {
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
       "tags": [
         "hardunban",
         "hunban"
       ]
     },
     {
-      "description": "Ban a user from all bots you own",
-      "name": "ban-user",
-      "tags": [
-        "ban-user",
-        "banuser"
-      ]
-    },
-    {
-      "description": "Unban a user from all bots you own",
-      "name": "unban-user",
-      "tags": [
-        "unban-user",
-        "unbanuser"
-      ]
-    },
-    {
-      "description": "Unban group from global ban list",
-      "name": "hardunbangc",
-      "tags": [
-        "hardunbangc",
-        "hunbangc",
-        "hardunbangrup"
-      ]
-    },
-    {
-      "description": "Create redeem code (owner only)",
-      "name": "create-redeem",
-      "tags": [
-        "create-redeem",
-        "createredeem"
-      ]
-    },
-    {
       "description": "Ban group globally (all bots)",
       "name": "hardbangc",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
       "tags": [
         "hardbangc",
         "hbangc",
@@ -75,8 +64,24 @@
       ]
     },
     {
+      "description": "Create redeem code (owner only)",
+      "name": "create-redeem",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "create-redeem",
+        "createredeem"
+      ]
+    },
+    {
       "description": "Update and restart application via PM2",
       "name": "update",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
       "tags": [
         "update"
       ]
@@ -84,45 +89,106 @@
     {
       "description": "Execute a command in the server terminal",
       "name": "$",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
       "tags": [
         "$"
       ]
     },
     {
-      "description": "Flag media as NSFW — instantly blocked in all groups",
-      "name": "banmedia",
+      "description": "Unban group from global ban list",
+      "name": "hardunbangc",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
       "tags": [
-        "banmedia"
-      ]
-    },
-    {
-      "description": "Restart application via PM2",
-      "name": "restart",
-      "tags": [
-        "restart"
+        "hardunbangc",
+        "hunbangc",
+        "hardunbangrup"
       ]
     },
     {
       "description": "Ban user globally (permanent)",
       "name": "hardban",
+      "permissions": {
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
       "tags": [
         "hardban",
         "hban"
       ]
     },
     {
-      "description": "Show global ban list",
-      "name": "hardbanlist",
+      "description": "Unban a user from all bots you own",
+      "name": "unban-user",
+      "permissions": {
+        "hasbot": true
+      },
+      "premiumOnly": "",
       "tags": [
-        "hardbanlist",
-        "hbanlist"
+        "unban-user",
+        "unbanuser"
+      ]
+    },
+    {
+      "description": "Flag media as NSFW — instantly blocked in all groups",
+      "name": "banmedia",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "banmedia"
+      ]
+    },
+    {
+      "description": "Configure logger in realtime",
+      "name": "logger",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "logger"
+      ]
+    },
+    {
+      "description": "Restart application via PM2",
+      "name": "restart",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "restart"
       ]
     },
     {
       "description": "Create limit redeem code without quota (owner only)",
       "name": "credeem",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
       "tags": [
         "credeem"
+      ]
+    },
+    {
+      "description": "Ban a user from all bots you own",
+      "name": "ban-user",
+      "permissions": {
+        "hasbot": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "ban-user",
+        "banuser"
       ]
     }
   ]
