@@ -1,0 +1,75 @@
+{
+  "aliases": [
+    "pinterestvideo",
+    "pinvid"
+  ],
+  "args": {},
+  "categories": [
+    "search"
+  ],
+  "category": "search",
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "commands": [
+    "pinterestvideo",
+    "pinvid"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "Search and download videos from Pinterest",
+    "id": "Cari dan download video dari Pinterest"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "pinterest video"
+  ],
+  "examples": [
+    "pinterestvideo cooking",
+    "pinterestvideo funny cats #5",
+    "pinterestvideo cooking",
+    "pinterestvideo funny cats #5"
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 0,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 0,
+  "name": "pinterest video",
+  "nsfwOnly": false,
+  "permissions": {},
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "source": {
+    "file": "internal/plugins/search",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "pinterestvideo cooking"
+}

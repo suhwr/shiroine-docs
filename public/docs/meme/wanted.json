@@ -1,0 +1,66 @@
+{
+  "aliases": [],
+  "args": {},
+  "categories": [
+    "meme"
+  ],
+  "category": "meme",
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "commands": [
+    "wanted"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "Create wanted meme from image",
+    "id": "Buat meme wanted dari gambar"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "wanted"
+  ],
+  "examples": [],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 1,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 0,
+  "name": "wanted",
+  "nsfwOnly": false,
+  "permissions": {},
+  "premiumOnly": "",
+  "requireMedia": "i",
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "source": {
+    "file": "internal/plugins/meme",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": ".wanted"
+}

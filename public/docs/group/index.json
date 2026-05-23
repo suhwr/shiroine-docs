@@ -1,0 +1,440 @@
+{
+  "commands": [
+    {
+      "description": "Enable/disable anti-bot system for the group",
+      "name": "antibot",
+      "tags": [
+        "antibot"
+      ]
+    },
+    {
+      "description": "Set group profile picture",
+      "name": "setppgc",
+      "tags": [
+        "setppgc",
+        "setgrouppp",
+        "setppgroup",
+        "set-group-pict",
+        "setgrouppict"
+      ]
+    },
+    {
+      "description": "Set group welcome message",
+      "name": "set-welcome",
+      "tags": [
+        "set-welcome",
+        "setwelcome"
+      ]
+    },
+    {
+      "description": "Show most active users",
+      "name": "top-active",
+      "tags": [
+        "top-active",
+        "topaktif",
+        "topactive"
+      ]
+    },
+    {
+      "description": "Reset group invite link",
+      "name": "revoke",
+      "tags": [
+        "revoke",
+        "newlinkgc",
+        "resetlink"
+      ]
+    },
+    {
+      "description": "Ban this group from all bots you own",
+      "name": "ban-chat",
+      "tags": [
+        "ban-chat",
+        "banchat"
+      ]
+    },
+    {
+      "description": "Ban member from using bot in this group",
+      "name": "ban-member",
+      "tags": [
+        "ban-member",
+        "banmember"
+      ]
+    },
+    {
+      "description": "Show group message statistics this month",
+      "name": "group-stats",
+      "tags": [
+        "group-stats",
+        "grupstats",
+        "gstats"
+      ]
+    },
+    {
+      "description": "Resend quoted message to your DM",
+      "name": "send",
+      "tags": [
+        "send",
+        "sendme"
+      ]
+    },
+    {
+      "description": "Set group prefix",
+      "name": "groupprefix",
+      "tags": [
+        "groupprefix",
+        "group-prefix",
+        "gprefix"
+      ]
+    },
+    {
+      "description": "Tag all members with neat format",
+      "name": "tagall",
+      "tags": [
+        "tagall",
+        "tag"
+      ]
+    },
+    {
+      "description": "View available timezone list",
+      "name": "listtimezone",
+      "tags": [
+        "listtimezone",
+        "timezones",
+        "tzlist"
+      ]
+    },
+    {
+      "description": "Issue a warning to a member",
+      "name": "warn",
+      "tags": [
+        "warn"
+      ]
+    },
+    {
+      "description": "Tag all members hidden",
+      "name": "hidetag",
+      "tags": [
+        "hidetag",
+        "ht",
+        "h"
+      ]
+    },
+    {
+      "description": "Delete replied message",
+      "name": "delete",
+      "tags": [
+        "delete",
+        "del",
+        "d"
+      ]
+    },
+    {
+      "description": "Manage group auto-response system",
+      "name": "autorespon",
+      "tags": [
+        "autorespon"
+      ]
+    },
+    {
+      "description": "Set group language (admin only) or personal language (private chat)",
+      "name": "set-lang",
+      "tags": [
+        "set-lang",
+        "setlang",
+        "set-language",
+        "setlanguage"
+      ]
+    },
+    {
+      "description": "Show list of banned entities by category",
+      "name": "banlist",
+      "tags": [
+        "banlist"
+      ]
+    },
+    {
+      "description": "View group information",
+      "name": "groupinfo",
+      "tags": [
+        "groupinfo",
+        "group",
+        "ginfo"
+      ]
+    },
+    {
+      "description": "Set auto open/close schedule",
+      "name": "setschedule",
+      "tags": [
+        "setschedule",
+        "schedule",
+        "autoopen"
+      ]
+    },
+    {
+      "description": "Show group features and their status",
+      "name": "groupsettings",
+      "tags": [
+        "groupsettings",
+        "gsettings"
+      ]
+    },
+    {
+      "description": "Unban this group from all bots you own",
+      "name": "unban-chat",
+      "tags": [
+        "unban-chat",
+        "unbanchat"
+      ]
+    },
+    {
+      "description": "Get group invite link",
+      "name": "linkgc",
+      "tags": [
+        "linkgc",
+        "gruplink",
+        "link"
+      ]
+    },
+    {
+      "description": "Enable automatic NSFW media filter in group",
+      "name": "antinsfwmedia",
+      "tags": [
+        "antinsfwmedia",
+        "antinsfw"
+      ]
+    },
+    {
+      "description": "View member's warning history",
+      "name": "warnings",
+      "tags": [
+        "warnings",
+        "warnlist"
+      ]
+    },
+    {
+      "description": "Add member to group",
+      "name": "add",
+      "tags": [
+        "add"
+      ]
+    },
+    {
+      "description": "View list of muted users",
+      "name": "listmute",
+      "tags": [
+        "listmute",
+        "mutelist"
+      ]
+    },
+    {
+      "description": "Unban member to use bot in this group",
+      "name": "unban-member",
+      "tags": [
+        "unban-member",
+        "unbanmember"
+      ]
+    },
+    {
+      "description": "Configure anti tag status",
+      "name": "antisw",
+      "tags": [
+        "antisw"
+      ]
+    },
+    {
+      "description": "Remove bot from group",
+      "name": "leave-group",
+      "tags": [
+        "leave-group",
+        "leavegc"
+      ]
+    },
+    {
+      "description": "Configure anti link",
+      "name": "antilink",
+      "tags": [
+        "antilink"
+      ]
+    },
+    {
+      "description": "Configure anti tag status",
+      "name": "antitagsw",
+      "tags": [
+        "antitagsw"
+      ]
+    },
+    {
+      "description": "Manage badword filter list",
+      "name": "badword",
+      "tags": [
+        "badword"
+      ]
+    },
+    {
+      "description": "Open group (all members can chat)",
+      "name": "open",
+      "tags": [
+        "open",
+        "opn"
+      ]
+    },
+    {
+      "description": "View list of members with active warnings",
+      "name": "listwarning",
+      "tags": [
+        "listwarning",
+        "warninglist"
+      ]
+    },
+    {
+      "description": "Reset member's warnings",
+      "name": "resetwarn",
+      "tags": [
+        "resetwarn",
+        "clearwarn"
+      ]
+    },
+    {
+      "description": "Disable or enable a command in this group",
+      "name": "cmd",
+      "tags": [
+        "cmd"
+      ]
+    },
+    {
+      "description": "Remove member from group",
+      "name": "remove",
+      "tags": [
+        "remove"
+      ]
+    },
+    {
+      "description": "Unmute bot or user in group",
+      "name": "unmute",
+      "tags": [
+        "unmute"
+      ]
+    },
+    {
+      "description": "Delete group cache to refresh with new data from WhatsApp API",
+      "name": "sync-group",
+      "tags": [
+        "sync-group"
+      ]
+    },
+    {
+      "description": "Configure group notification",
+      "name": "info",
+      "tags": [
+        "info"
+      ]
+    },
+    {
+      "description": "Configure left notification",
+      "name": "left",
+      "tags": [
+        "left"
+      ]
+    },
+    {
+      "description": "Set group goodbye message",
+      "name": "set-goodbye",
+      "tags": [
+        "set-goodbye",
+        "setgoodbye"
+      ]
+    },
+    {
+      "description": "Change group name",
+      "name": "setsubject",
+      "tags": [
+        "setsubject"
+      ]
+    },
+    {
+      "description": "Demote admin to member",
+      "name": "demote",
+      "tags": [
+        "demote"
+      ]
+    },
+    {
+      "description": "Display group ID for premium purchase",
+      "name": "groupid",
+      "tags": [
+        "groupid"
+      ]
+    },
+    {
+      "description": "Mute bot or user in group",
+      "name": "mute",
+      "tags": [
+        "mute"
+      ]
+    },
+    {
+      "description": "Configure welcome message",
+      "name": "welcome",
+      "tags": [
+        "welcome"
+      ]
+    },
+    {
+      "description": "Configure group anti media with specific types",
+      "name": "antimedia",
+      "tags": [
+        "antimedia"
+      ]
+    },
+    {
+      "description": "Configure ephemeral messages",
+      "name": "ephemeral",
+      "tags": [
+        "ephemeral"
+      ]
+    },
+    {
+      "description": "Close group (only admins can chat)",
+      "name": "close",
+      "tags": [
+        "close",
+        "cls"
+      ]
+    },
+    {
+      "description": "Promote member to admin",
+      "name": "promote",
+      "tags": [
+        "promote"
+      ]
+    },
+    {
+      "description": "View list of banned members in group",
+      "name": "listban",
+      "tags": [
+        "listban"
+      ]
+    },
+    {
+      "description": "Check inactive members (siders) in group",
+      "name": "sider",
+      "tags": [
+        "sider"
+      ]
+    },
+    {
+      "description": "Change group description",
+      "name": "setdesc",
+      "tags": [
+        "setdesc"
+      ]
+    },
+    {
+      "description": "Configure anti link strict",
+      "name": "antilinkv2",
+      "tags": [
+        "antilinkv2"
+      ]
+    }
+  ]
+}

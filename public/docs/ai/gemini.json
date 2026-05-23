@@ -1,0 +1,73 @@
+{
+  "aliases": [],
+  "args": {},
+  "categories": [
+    "ai"
+  ],
+  "category": "ai",
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "commands": [
+    "gemini"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "Chat with Gemini Flash without persona (supports text \u0026 media, premium user/group only)",
+    "id": "Chat dengan Gemini Flash tanpa persona (mendukung teks \u0026 media, khusus user/grup premium)"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "gemini"
+  ],
+  "examples": [
+    "gemini halo!",
+    "gemini [kirim gambar] apa isi gambar ini?",
+    "gemini clear",
+    "gemini hello!",
+    "gemini [send image] what is in this image?",
+    "gemini clear"
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 0,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 0,
+  "name": "gemini",
+  "nsfwOnly": false,
+  "permissions": {},
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "source": {
+    "file": "internal/plugins/ai",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "gemini hello!"
+}

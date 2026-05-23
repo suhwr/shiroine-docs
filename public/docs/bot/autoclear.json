@@ -1,0 +1,65 @@
+{
+  "aliases": [],
+  "args": {},
+  "categories": [
+    "bot"
+  ],
+  "category": "bot",
+  "chatPermissions": [
+    "private"
+  ],
+  "chatTypes": {
+    "private": true
+  },
+  "commands": [
+    "autoclear"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "Enable/disable automatic chat clearing every midnight",
+    "id": "Aktifkan/nonaktifkan pembersihan chat otomatis setiap tengah malam"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "autoclear"
+  ],
+  "examples": [
+    "autoclear on",
+    "autoclear on"
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 0,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 0,
+  "name": "autoclear",
+  "nsfwOnly": false,
+  "permissions": {
+    "bot": true
+  },
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "autoclear on"
+}

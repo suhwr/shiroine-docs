@@ -1,0 +1,74 @@
+{
+  "aliases": [
+    "creator",
+    "developer"
+  ],
+  "args": {},
+  "categories": [
+    "general"
+  ],
+  "category": "general",
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "commands": [
+    "owner",
+    "creator",
+    "developer"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "Show bot number owner information",
+    "id": "Tampilkan informasi pemilik nomor bot"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "owner"
+  ],
+  "examples": [
+    "owner",
+    "owner"
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 0,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 0,
+  "name": "owner",
+  "nsfwOnly": false,
+  "permissions": {},
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "source": {
+    "file": "internal/plugins/general",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "owner"
+}

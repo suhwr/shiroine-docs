@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "httpreq",
+    "fetch",
+    "request"
+  ],
+  "args": {},
+  "categories": [
+    "tools"
+  ],
+  "category": "tools",
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "commands": [
+    "httprequest",
+    "httpreq",
+    "fetch",
+    "request"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "Make HTTP requests with various methods (GET default, POST, PUT, DELETE, etc) with support for custom headers, form data, JSON, and file upload",
+    "id": "Melakukan HTTP request dengan berbagai method (GET default, POST, PUT, DELETE, dll) dengan dukungan custom headers, form data, JSON, dan file upload"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "httprequest"
+  ],
+  "examples": [
+    "httprequest https://api.github.com",
+    "httprequest GET https://api.github.com",
+    "httprequest POST https://httpbin.org/post {\"json\":{\"name\":\"test\"}}",
+    "httprequest GET https://api.example.com {\"headers\":{\"Authorization\":\"Bearer token\"}}",
+    "httprequest POST https://api.example.com {\"data\":{\"username\":\"test\",\"password\":\"123\"}}",
+    "httprequest POST https://api.example.com (dengan media untuk upload file)",
+    "httprequest https://api.github.com",
+    "httprequest GET https://api.github.com",
+    "httprequest POST https://httpbin.org/post {\"json\":{\"name\":\"test\"}}",
+    "httprequest GET https://api.example.com {\"headers\":{\"Authorization\":\"Bearer token\"}}",
+    "httprequest POST https://api.example.com {\"data\":{\"username\":\"test\",\"password\":\"123\"}}",
+    "httprequest POST https://api.example.com (with media to upload file)"
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 0,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 0,
+  "name": "httprequest",
+  "nsfwOnly": false,
+  "permissions": {
+    "owner": true
+  },
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "httprequest https://api.github.com"
+}

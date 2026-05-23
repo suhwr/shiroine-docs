@@ -1,0 +1,63 @@
+{
+  "aliases": [],
+  "args": {},
+  "categories": [
+    "search"
+  ],
+  "category": "search",
+  "chatPermissions": null,
+  "chatTypes": {},
+  "commands": [
+    "jadwalsholat"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "View today's prayer schedule by city",
+    "id": "Lihat jadwal sholat hari ini berdasarkan kota"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "jadwalsholat"
+  ],
+  "examples": [
+    "jadwalsholat bandung",
+    "jadwalsholat jakarta",
+    "jadwalsholat surabaya",
+    "jadwalsholat bandung",
+    "jadwalsholat jakarta",
+    "jadwalsholat surabaya"
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 0,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 1,
+  "name": "jadwalsholat",
+  "nsfwOnly": false,
+  "permissions": {},
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "source": {
+    "file": "internal/plugins/search",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "jadwalsholat bandung"
+}

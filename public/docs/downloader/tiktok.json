@@ -1,0 +1,74 @@
+{
+  "aliases": [
+    "ttdl",
+    "tt"
+  ],
+  "args": {},
+  "categories": [
+    "downloader"
+  ],
+  "category": "downloader",
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "commands": [
+    "tiktok",
+    "ttdl",
+    "tt"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "Download video/photo from TikTok",
+    "id": "Download video/foto dari TikTok"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "tiktok"
+  ],
+  "examples": [
+    "tiktok https://tiktok.com/@user/video/123456789",
+    "tiktok https://tiktok.com/@user/video/123456789"
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 1,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 0,
+  "name": "tiktok",
+  "nsfwOnly": false,
+  "permissions": {},
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": true,
+  "source": {
+    "file": "internal/plugins/downloader",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "tiktok https://tiktok.com/@user/video/123456789"
+}

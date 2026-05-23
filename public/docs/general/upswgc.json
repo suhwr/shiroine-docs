@@ -1,0 +1,74 @@
+{
+  "aliases": [
+    "upstatusgrup"
+  ],
+  "args": {},
+  "categories": [
+    "general"
+  ],
+  "category": "general",
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "commands": [
+    "upswgc",
+    "upstatusgrup"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "Upload media to group status",
+    "id": "Upload media ke status grup"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "upswgc"
+  ],
+  "examples": [
+    "upswgc Hello from group!",
+    "upswgc Check this out!",
+    "upswgc Hello from group!",
+    "upswgc Check this out!"
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 0,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 0,
+  "name": "upswgc",
+  "nsfwOnly": false,
+  "permissions": {
+    "admin": true,
+    "owner": true,
+    "subowner": true
+  },
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "source": {
+    "file": "internal/plugins/general",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "upswgc Hello from group!"
+}

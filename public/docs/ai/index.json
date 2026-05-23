@@ -1,0 +1,94 @@
+{
+  "commands": [
+    {
+      "description": "Chat with GPT-5 Nano without persona (supports text \u0026 image, premium only)",
+      "name": "gpt",
+      "tags": [
+        "gpt"
+      ]
+    },
+    {
+      "description": "Chat with Qwen3-32B without persona (text only)",
+      "name": "qwen",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "description": "Manage AI character",
+      "name": "aichara",
+      "tags": [
+        "aichara"
+      ]
+    },
+    {
+      "description": "Convert photo to anime v2 style using AI",
+      "name": "jadianimev2",
+      "tags": [
+        "jadianimev2",
+        "toanimev2"
+      ]
+    },
+    {
+      "description": "Convert photo to anime style using AI",
+      "name": "jadianime",
+      "tags": [
+        "jadianime",
+        "toanime"
+      ]
+    },
+    {
+      "description": "Reset AI chat history in group (Admin only)",
+      "name": "reset-ai-group",
+      "tags": [
+        "reset-ai-group",
+        "resetaigroup",
+        "resetaigrup"
+      ]
+    },
+    {
+      "description": "Clear all private conversation history with AI and start a new session without previous context. Useful when you want to start a new topic unrelated to previous conversations.",
+      "name": "reset-ai",
+      "tags": [
+        "reset-ai",
+        "resetai"
+      ]
+    },
+    {
+      "description": "Convert photo to Studio Ghibli style using AI",
+      "name": "jadighibli",
+      "tags": [
+        "jadighibli",
+        "toghibli"
+      ]
+    },
+    {
+      "description": "Chat with DeepSeek without persona (text only)",
+      "name": "deepseek",
+      "tags": [
+        "deepseek"
+      ]
+    },
+    {
+      "description": "Chat with Gemini Flash without persona (supports text \u0026 media, premium user/group only)",
+      "name": "gemini",
+      "tags": [
+        "gemini"
+      ]
+    },
+    {
+      "description": "Select AI model to use",
+      "name": "llm",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "description": "Talk with AI using selected character",
+      "name": "ai",
+      "tags": [
+        "ai"
+      ]
+    }
+  ]
+}

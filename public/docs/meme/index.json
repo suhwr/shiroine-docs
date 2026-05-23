@@ -1,0 +1,53 @@
+{
+  "commands": [
+    {
+      "description": "Create jail meme from image",
+      "name": "jail",
+      "tags": [
+        "jail"
+      ]
+    },
+    {
+      "description": "Create trash meme from image",
+      "name": "trash",
+      "tags": [
+        "trash"
+      ]
+    },
+    {
+      "description": "Create beautiful meme from image",
+      "name": "beautiful",
+      "tags": [
+        "beautiful"
+      ]
+    },
+    {
+      "description": "Create wanted meme from image",
+      "name": "wanted",
+      "tags": [
+        "wanted"
+      ]
+    },
+    {
+      "description": "Create trigger meme from image",
+      "name": "trigger",
+      "tags": [
+        "trigger"
+      ]
+    },
+    {
+      "description": "Create shit meme from image",
+      "name": "shit",
+      "tags": [
+        "shit"
+      ]
+    },
+    {
+      "description": "Create wasted meme from image",
+      "name": "wasted",
+      "tags": [
+        "wasted"
+      ]
+    }
+  ]
+}

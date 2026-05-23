@@ -1,0 +1,77 @@
+{
+  "aliases": [
+    "calc",
+    "kalkulator"
+  ],
+  "args": {},
+  "categories": [
+    "tools"
+  ],
+  "category": "tools",
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "commands": [
+    "calc",
+    "kalkulator"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "Complex calculator (supports math functions)",
+    "id": "Kalkulator kompleks (mendukung fungsi matematika)"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "calculator"
+  ],
+  "examples": [
+    "calc 5 * 5",
+    "calc sin(0.5) * PI",
+    "calc 2^10",
+    "calc 5 * 5",
+    "calc sin(0.5) * PI",
+    "calc 2^10"
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 0,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 1,
+  "name": "calculator",
+  "nsfwOnly": false,
+  "permissions": {},
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "calc 5 * 5"
+}

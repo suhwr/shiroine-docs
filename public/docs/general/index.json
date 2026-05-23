@@ -1,0 +1,186 @@
+{
+  "commands": [
+    {
+      "description": "View all benefits of becoming premium",
+      "name": "cekbenefit",
+      "tags": [
+        "cekbenefit"
+      ]
+    },
+    {
+      "description": "Show bot number owner information",
+      "name": "owner",
+      "tags": [
+        "owner",
+        "creator",
+        "developer"
+      ]
+    },
+    {
+      "description": "Show bot's group list",
+      "name": "listgroup",
+      "tags": [
+        "listgroup",
+        "listgrup",
+        "grouplist"
+      ]
+    },
+    {
+      "description": "Add/update donatur to list (owner only)",
+      "name": "adddonatur",
+      "tags": [
+        "adddonatur",
+        "tambahdonatur"
+      ]
+    },
+    {
+      "description": "Toggle NSFW mode (in group: admin only, in private: bot only)",
+      "name": "nsfw",
+      "tags": [
+        "nsfw",
+        "nsfwmode"
+      ]
+    },
+    {
+      "description": "Upload media to group status",
+      "name": "upswgc",
+      "tags": [
+        "upswgc",
+        "upstatusgrup"
+      ]
+    },
+    {
+      "description": "Show sub-owners list",
+      "name": "listsubowners",
+      "tags": [
+        "listsubowners",
+        "listsub",
+        "subowners",
+        "sublist"
+      ]
+    },
+    {
+      "description": "View list of all donaturs \u0026 total donations",
+      "name": "donatur",
+      "tags": [
+        "donatur",
+        "listdonatur",
+        "donaturs"
+      ]
+    },
+    {
+      "description": "Show donation methods",
+      "name": "donate",
+      "tags": [
+        "donate",
+        "donasi"
+      ]
+    },
+    {
+      "description": "Show command menu",
+      "name": "menu",
+      "tags": [
+        "menu"
+      ]
+    },
+    {
+      "description": "Get the link to this bot's script",
+      "name": "sc",
+      "tags": [
+        "sc",
+        "script"
+      ]
+    },
+    {
+      "description": "Upload media to WhatsApp status with group tag option",
+      "name": "upsw2",
+      "tags": [
+        "upsw2"
+      ]
+    },
+    {
+      "description": "Add a new sub-owner",
+      "name": "addsubowner",
+      "tags": [
+        "addsubowner",
+        "addsub"
+      ]
+    },
+    {
+      "description": "Upload media to WhatsApp status (no group tagging)",
+      "name": "upsw",
+      "tags": [
+        "upsw",
+        "upstatus"
+      ]
+    },
+    {
+      "description": "Remove a sub-owner",
+      "name": "removesubowner",
+      "tags": [
+        "removesubowner",
+        "removesub",
+        "delsub",
+        "delsubowner"
+      ]
+    },
+    {
+      "description": "Information about the bot",
+      "name": "about",
+      "tags": [
+        "about"
+      ]
+    },
+    {
+      "description": "Show help for a specific command",
+      "name": "help",
+      "tags": [
+        "help"
+      ]
+    },
+    {
+      "description": "Buy premium using payment gateway",
+      "name": "premium",
+      "tags": [
+        "premium",
+        "buyprem",
+        "buypremium"
+      ]
+    },
+    {
+      "description": "Join WhatsApp group via invite link",
+      "name": "join",
+      "tags": [
+        "join"
+      ]
+    },
+    {
+      "description": "Check bot latency and database status",
+      "name": "ping",
+      "tags": [
+        "ping"
+      ]
+    },
+    {
+      "description": "View your daily limit information",
+      "name": "limit",
+      "tags": [
+        "limit"
+      ]
+    },
+    {
+      "description": "Claim daily rewards based on your level",
+      "name": "daily",
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "description": "Redeem a code to get rewards",
+      "name": "redeem",
+      "tags": [
+        "redeem"
+      ]
+    }
+  ]
+}

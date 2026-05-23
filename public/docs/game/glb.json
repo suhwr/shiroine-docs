@@ -1,0 +1,70 @@
+{
+  "aliases": [
+    "grouplb"
+  ],
+  "args": {},
+  "categories": [
+    "game"
+  ],
+  "category": "game",
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "private": true
+  },
+  "commands": [
+    "glb",
+    "grouplb"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "View group leaderboard",
+    "id": "Lihat leaderboard grup"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "glb"
+  ],
+  "examples": [
+    "glb\nglb daily\nglb weekly\nglb season\nglb math\nglb activity\nglb rewards",
+    "glb\nglb daily\nglb weekly\nglb season\nglb math\nglb activity\nglb rewards"
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 0,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 0,
+  "name": "glb",
+  "nsfwOnly": false,
+  "permissions": {},
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "source": {
+    "file": "internal/plugins/game",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "glb\nglb daily\nglb weekly\nglb season\nglb math\nglb activity\nglb rewards"
+}

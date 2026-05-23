@@ -1,0 +1,74 @@
+{
+  "aliases": [
+    "googlelens"
+  ],
+  "args": {},
+  "categories": [
+    "tools"
+  ],
+  "category": "tools",
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "commands": [
+    "lens",
+    "googlelens"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "Search image information using Google Lens (send or reply to an image then type the command)",
+    "id": "Cari informasi dari gambar menggunakan Google Lens (kirim atau reply gambar lalu ketik perintah)"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "lens"
+  ],
+  "examples": [
+    "lens",
+    "lens (reply gambar)",
+    "lens",
+    "lens (reply image)"
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 1,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 0,
+  "name": "lens",
+  "nsfwOnly": false,
+  "permissions": {},
+  "premiumOnly": "",
+  "requireMedia": "is",
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "lens"
+}

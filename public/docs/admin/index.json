@@ -1,0 +1,34 @@
+{
+  "commands": [
+    {
+      "description": "Broadcast message to Newsletter",
+      "name": "broadcast",
+      "tags": [
+        "broadcast",
+        "bc"
+      ]
+    },
+    {
+      "description": "Permanently delete 'name' table (considered useless)",
+      "name": "deletenametable",
+      "tags": [
+        "deletenametable"
+      ]
+    },
+    {
+      "description": "Broadcast message to Community/Group",
+      "name": "bcgroup",
+      "tags": [
+        "bcgroup",
+        "broadcastgroup"
+      ]
+    },
+    {
+      "description": "Clear data from specific database tables (message_daily_stats)",
+      "name": "cleardb",
+      "tags": [
+        "cleardb"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "aliases": [
+    "ss",
+    "screenshot"
+  ],
+  "args": {
+    "full": {
+      "en": "Take full-page screenshot (with scroll)",
+      "id": "Ambil screenshot halaman penuh (scroll)"
+    }
+  },
+  "categories": [
+    "tools"
+  ],
+  "category": "tools",
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "commands": [
+    "ssweb",
+    "ss",
+    "screenshot"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "Take a screenshot of a web page",
+    "id": "Ambil screenshot halaman web"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "ssweb"
+  ],
+  "examples": [
+    "ssweb https://google.com",
+    "ssweb https://google.com --full",
+    "ssweb https://google.com",
+    "ssweb https://google.com --full"
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 1,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 1,
+  "name": "ssweb",
+  "nsfwOnly": false,
+  "permissions": {},
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "ssweb https://google.com"
+}

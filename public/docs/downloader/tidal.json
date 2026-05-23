@@ -1,0 +1,75 @@
+{
+  "aliases": [],
+  "args": {},
+  "categories": [
+    "downloader"
+  ],
+  "category": "downloader",
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "commands": [
+    "tidal"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "Search or download track, album, or video from Tidal (HiFi quality)",
+    "id": "Cari atau download track, album, atau video dari Tidal (HiFi quality)"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "tidal"
+  ],
+  "examples": [
+    "tidal never gonna give you up",
+    "tidal album the book",
+    "tidal video never gonna give you up",
+    "tidal https://tidal.com/browse/track/123456",
+    "tidal never gonna give you up",
+    "tidal album the book",
+    "tidal video never gonna give you up",
+    "tidal https://tidal.com/browse/track/123456"
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 1,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 0,
+  "name": "tidal",
+  "nsfwOnly": false,
+  "permissions": {},
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": true,
+  "source": {
+    "file": "internal/plugins/downloader",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "tidal never gonna give you up"
+}

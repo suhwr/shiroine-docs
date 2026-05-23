@@ -1,0 +1,72 @@
+{
+  "aliases": [
+    "banchat"
+  ],
+  "args": {},
+  "categories": [
+    "group"
+  ],
+  "category": "group",
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "commands": [
+    "ban-chat",
+    "banchat"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "Ban this group from all bots you own",
+    "id": "Ban grup ini dari semua bot yang kamu miliki"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "ban-chat"
+  ],
+  "examples": [
+    "ban-chat",
+    "ban-chat spam",
+    "ban-chat",
+    "ban-chat spam"
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 0,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 0,
+  "name": "ban-chat",
+  "nsfwOnly": false,
+  "permissions": {
+    "hasbot": true
+  },
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "ban-chat"
+}

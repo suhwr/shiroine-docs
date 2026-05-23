@@ -1,0 +1,70 @@
+{
+  "aliases": [
+    "set-prefix"
+  ],
+  "args": {},
+  "categories": [
+    "profile"
+  ],
+  "category": "profile",
+  "chatPermissions": [
+    "private"
+  ],
+  "chatTypes": {
+    "private": true
+  },
+  "commands": [
+    "setprefix",
+    "set-prefix"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "Set personal prefix (private chat only)",
+    "id": "Mengatur prefix pribadi (hanya untuk chat private)"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "setprefix"
+  ],
+  "examples": [
+    "setprefix ~",
+    "setprefix \u003e",
+    "setprefix !",
+    "setprefix ~",
+    "setprefix \u003e",
+    "setprefix !"
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 0,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 0,
+  "name": "setprefix",
+  "nsfwOnly": false,
+  "permissions": {},
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "source": {
+    "file": "internal/plugins/profile",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "setprefix ~"
+}

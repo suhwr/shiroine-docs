@@ -1,0 +1,129 @@
+{
+  "commands": [
+    {
+      "description": "",
+      "name": "logger",
+      "tags": [
+        "param",
+        "params"
+      ]
+    },
+    {
+      "description": "View dependency error logs",
+      "name": "errors",
+      "tags": [
+        "errors",
+        "errlog"
+      ]
+    },
+    {
+      "description": "Add/update premium manually (owner only)",
+      "name": "addprem",
+      "tags": [
+        "addprem",
+        "addpremium"
+      ]
+    },
+    {
+      "description": "Unban user from global ban list",
+      "name": "hardunban",
+      "tags": [
+        "hardunban",
+        "hunban"
+      ]
+    },
+    {
+      "description": "Ban a user from all bots you own",
+      "name": "ban-user",
+      "tags": [
+        "ban-user",
+        "banuser"
+      ]
+    },
+    {
+      "description": "Unban a user from all bots you own",
+      "name": "unban-user",
+      "tags": [
+        "unban-user",
+        "unbanuser"
+      ]
+    },
+    {
+      "description": "Unban group from global ban list",
+      "name": "hardunbangc",
+      "tags": [
+        "hardunbangc",
+        "hunbangc",
+        "hardunbangrup"
+      ]
+    },
+    {
+      "description": "Create redeem code (owner only)",
+      "name": "create-redeem",
+      "tags": [
+        "create-redeem",
+        "createredeem"
+      ]
+    },
+    {
+      "description": "Ban group globally (all bots)",
+      "name": "hardbangc",
+      "tags": [
+        "hardbangc",
+        "hbangc",
+        "hardbangrup"
+      ]
+    },
+    {
+      "description": "Update and restart application via PM2",
+      "name": "update",
+      "tags": [
+        "update"
+      ]
+    },
+    {
+      "description": "Execute a command in the server terminal",
+      "name": "$",
+      "tags": [
+        "$"
+      ]
+    },
+    {
+      "description": "Flag media as NSFW — instantly blocked in all groups",
+      "name": "banmedia",
+      "tags": [
+        "banmedia"
+      ]
+    },
+    {
+      "description": "Restart application via PM2",
+      "name": "restart",
+      "tags": [
+        "restart"
+      ]
+    },
+    {
+      "description": "Ban user globally (permanent)",
+      "name": "hardban",
+      "tags": [
+        "hardban",
+        "hban"
+      ]
+    },
+    {
+      "description": "Show global ban list",
+      "name": "hardbanlist",
+      "tags": [
+        "hardbanlist",
+        "hbanlist"
+      ]
+    },
+    {
+      "description": "Create limit redeem code without quota (owner only)",
+      "name": "credeem",
+      "tags": [
+        "credeem"
+      ]
+    }
+  ]
+}

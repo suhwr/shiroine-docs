@@ -1,0 +1,95 @@
+{
+  "aliases": [
+    "stiker",
+    "swm",
+    "s"
+  ],
+  "args": {
+    "crop": {
+      "en": "Manual crop to 1:1 ratio",
+      "id": "Crop manual ke rasio 1:1"
+    },
+    "full": {
+      "en": "Keep full image without cropping",
+      "id": "Pertahankan gambar penuh tanpa crop"
+    },
+    "null": {
+      "en": "Don't add pack name/author metadata",
+      "id": "Jangan tambahkan metadata nama pack/author"
+    },
+    "smart": {
+      "en": "Auto crop with smart detection",
+      "id": "Crop otomatis dengan deteksi pintar"
+    }
+  },
+  "categories": [
+    "tools"
+  ],
+  "category": "tools",
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "commands": [
+    "sticker",
+    "stiker",
+    "swm",
+    "s"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "Convert image/video to WhatsApp sticker with various cropping modes",
+    "id": "Ubah gambar/video menjadi sticker WhatsApp dengan berbagai mode cropping"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "sticker"
+  ],
+  "examples": [
+    "sticker",
+    "sticker MyPack|MyAuthor",
+    "sticker",
+    "sticker MyPack|MyAuthor"
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 0,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 0,
+  "name": "sticker",
+  "nsfwOnly": false,
+  "permissions": {},
+  "premiumOnly": "",
+  "requireMedia": "siv",
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "sticker"
+}

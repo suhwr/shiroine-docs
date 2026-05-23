@@ -1,0 +1,73 @@
+{
+  "aliases": [],
+  "args": {},
+  "categories": [
+    "downloader"
+  ],
+  "category": "downloader",
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "commands": [
+    "spotify"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "Download or search music from Spotify",
+    "id": "Download atau cari musik dari Spotify"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "spotify"
+  ],
+  "examples": [
+    "spotify seandainya",
+    "spotify https://open.spotify.com/track/...",
+    "spotify https://open.spotify.com/album/...",
+    "spotify seandainya",
+    "spotify https://open.spotify.com/track/...",
+    "spotify https://open.spotify.com/album/..."
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 1,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 0,
+  "name": "spotify",
+  "nsfwOnly": false,
+  "permissions": {},
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": true,
+  "source": {
+    "file": "internal/plugins/downloader",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "spotify seandainya"
+}

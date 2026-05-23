@@ -1,0 +1,69 @@
+{
+  "aliases": [],
+  "args": {},
+  "categories": [
+    "downloader"
+  ],
+  "category": "downloader",
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "commands": [
+    "downloadstickerpack"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "Download a WhatsApp sticker pack message as a ZIP file",
+    "id": "Download stiker pack WhatsApp sebagai file ZIP"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "downloadstickerpack"
+  ],
+  "examples": [
+    "downloadstickerpack (reply to a sticker pack message)",
+    "downloadstickerpack (balas ke pesan stiker pack)"
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 1,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 0,
+  "name": "downloadstickerpack",
+  "nsfwOnly": false,
+  "permissions": {},
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "source": {
+    "file": "internal/plugins/downloader",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "downloadstickerpack (reply to a sticker pack message)"
+}

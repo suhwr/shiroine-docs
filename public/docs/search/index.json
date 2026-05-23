@@ -1,0 +1,62 @@
+{
+  "commands": [
+    {
+      "description": "View today's prayer schedule by city",
+      "name": "jadwalsholat",
+      "tags": [
+        "jadwalsholat"
+      ]
+    },
+    {
+      "description": "Search for information using Google",
+      "name": "google",
+      "tags": [
+        "google",
+        "gsearch",
+        "cari"
+      ]
+    },
+    {
+      "description": "Find anime/illustration image source using SauceNAO (send/reply image)",
+      "name": "saucenao",
+      "tags": [
+        "saucenao",
+        "sauce",
+        "source"
+      ]
+    },
+    {
+      "description": "Search and download images from Pinterest",
+      "name": "pinterest",
+      "tags": [
+        "pinterest",
+        "pin"
+      ]
+    },
+    {
+      "description": "Search song lyrics",
+      "name": "lyric",
+      "tags": [
+        "lyric",
+        "lirik",
+        "lyrics"
+      ]
+    },
+    {
+      "description": "Search and download videos from Pinterest",
+      "name": "pinterest video",
+      "tags": [
+        "pinterestvideo",
+        "pinvid"
+      ]
+    },
+    {
+      "description": "Search and download wallpapers from Wallhaven",
+      "name": "wallhaven",
+      "tags": [
+        "wallhaven",
+        "wh"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "aliases": [],
+  "args": {},
+  "categories": [
+    "group"
+  ],
+  "category": "group",
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "commands": [
+    "autorespon"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "Manage group auto-response system",
+    "id": "Kelola sistem autorespon grup"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "autorespon"
+  ],
+  "examples": [
+    "autorespon add intro Halo! Silakan perkenalkan diri kamu",
+    "autorespon add intro (reply pesan/gambar/video)",
+    "autorespon edit intro Selamat datang! Silakan perkenalkan diri",
+    "autorespon delete intro",
+    "autorespon on",
+    "autorespon off",
+    "autorespon list",
+    "autorespon add intro Hello! Please introduce yourself",
+    "autorespon add intro (reply message/image/video)",
+    "autorespon edit intro Welcome! Please introduce yourself",
+    "autorespon delete intro",
+    "autorespon on",
+    "autorespon off",
+    "autorespon list"
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 0,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 1,
+  "name": "autorespon",
+  "nsfwOnly": false,
+  "permissions": {
+    "admin": true,
+    "owner": true,
+    "subowner": true
+  },
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "autorespon add intro Hello! Please introduce yourself"
+}

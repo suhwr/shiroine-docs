@@ -1,0 +1,78 @@
+{
+  "aliases": [
+    "group-prefix",
+    "gprefix"
+  ],
+  "args": {},
+  "categories": [
+    "group"
+  ],
+  "category": "group",
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "commands": [
+    "groupprefix",
+    "group-prefix",
+    "gprefix"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "Set group prefix",
+    "id": "Mengatur prefix grup"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "groupprefix"
+  ],
+  "examples": [
+    "groupprefix ~",
+    "groupprefix \u003e",
+    "groupprefix !",
+    "groupprefix ~",
+    "groupprefix \u003e",
+    "groupprefix !"
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 0,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 0,
+  "name": "groupprefix",
+  "nsfwOnly": false,
+  "permissions": {
+    "admin": true,
+    "owner": true,
+    "subowner": true
+  },
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "groupprefix ~"
+}

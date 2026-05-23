@@ -1,0 +1,73 @@
+{
+  "aliases": [
+    "pindl",
+    "ptdl"
+  ],
+  "args": {},
+  "categories": [
+    "downloader"
+  ],
+  "category": "downloader",
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "commands": [
+    "pindl",
+    "ptdl"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "Download photo/video from Pinterest",
+    "id": "Download foto/video dari Pinterest"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "pinterest dl"
+  ],
+  "examples": [
+    "pindl https://pinterest.com/pin/123456789",
+    "pindl https://pinterest.com/pin/123456789"
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 1,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 0,
+  "name": "pinterest dl",
+  "nsfwOnly": false,
+  "permissions": {},
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": true,
+  "source": {
+    "file": "internal/plugins/downloader",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "pindl https://pinterest.com/pin/123456789"
+}

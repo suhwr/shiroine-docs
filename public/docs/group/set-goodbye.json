@@ -1,0 +1,72 @@
+{
+  "aliases": [
+    "setgoodbye"
+  ],
+  "args": {},
+  "categories": [
+    "group"
+  ],
+  "category": "group",
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "commands": [
+    "set-goodbye",
+    "setgoodbye"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "Set group goodbye message",
+    "id": "Atur pesan goodbye grup"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "set-goodbye"
+  ],
+  "examples": [
+    "setgoodbye Selamat tinggal {mentions}!",
+    "setgoodbye Goodbye {mentions}!"
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 0,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 0,
+  "name": "set-goodbye",
+  "nsfwOnly": false,
+  "permissions": {
+    "admin": true,
+    "owner": true,
+    "subowner": true
+  },
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "setgoodbye Goodbye {mentions}!"
+}
