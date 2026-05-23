@@ -141,7 +141,7 @@ export function CommandDetail({ favorites, toggleFavorite, addRecent }: {
                     allowFullScreen
                     style={{ display: 'block', border: 'none' }}
                   ></iframe>
-                ) : details.videoUrl.match(/\\.(jpeg|jpg|gif|png|webp)($|\\?)/i) ? (
+                ) : details.videoUrl.match(/\.(jpeg|jpg|gif|png|webp)($|\?)/i) ? (
                   <img src={details.videoUrl} alt="Tutorial" style={{ width: '100%', display: 'block', borderRadius: '8px' }} />
                 ) : (
                   <video src={details.videoUrl} controls style={{ width: '100%', display: 'block', borderRadius: '8px' }} />
