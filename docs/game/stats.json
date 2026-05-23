@@ -1,38 +1,47 @@
 {
-  "aliases": [],
+  "aliases": [
+    "mystats",
+    "mygamescore"
+  ],
   "args": {},
   "categories": [
     "game"
   ],
   "category": "game",
   "chatPermissions": [
+    "private",
     "group",
-    "group_community"
+    "group_community",
+    "newsletter"
   ],
   "chatTypes": {
     "group": true,
-    "group_community": true
+    "group_community": true,
+    "newsletter": true,
+    "private": true
   },
   "commands": [
-    "tebakgambar"
+    "stats",
+    "mystats",
+    "mygamescore"
   ],
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 3,
+  "delaySeconds": 0,
   "description": {
-    "en": "Start picture guessing game",
-    "id": "Mulai game tebak gambar"
+    "en": "View personal game statistics",
+    "id": "Lihat statistik game personal"
   },
   "disableProcessLimit": false,
   "disabled": false,
   "disabledReason": "",
   "display": [
-    "tebakgambar"
+    "stats"
   ],
   "examples": [
-    "tebakgambar",
-    "tebakgambar"
+    "stats",
+    "stats"
   ],
   "ignoreQueue": false,
   "lastUpdated": "2026-05-23T13:58:08Z",
@@ -43,7 +52,7 @@
     "video": ""
   },
   "minArgs": 0,
-  "name": "tebakgambar",
+  "name": "stats",
   "nsfwOnly": false,
   "permissions": {},
   "premiumOnly": "",
@@ -61,5 +70,5 @@
     "enabled": true,
     "hidden": false
   },
-  "usage": "tebakgambar"
+  "usage": "stats"
 }

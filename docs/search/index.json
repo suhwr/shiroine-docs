@@ -3,39 +3,17 @@
     {
       "description": "View today's prayer schedule by city",
       "name": "jadwalsholat",
+      "permissions": {},
+      "premiumOnly": "",
       "tags": [
         "jadwalsholat"
       ]
     },
     {
-      "description": "Search for information using Google",
-      "name": "google",
-      "tags": [
-        "google",
-        "gsearch",
-        "cari"
-      ]
-    },
-    {
-      "description": "Find anime/illustration image source using SauceNAO (send/reply image)",
-      "name": "saucenao",
-      "tags": [
-        "saucenao",
-        "sauce",
-        "source"
-      ]
-    },
-    {
-      "description": "Search and download images from Pinterest",
-      "name": "pinterest",
-      "tags": [
-        "pinterest",
-        "pin"
-      ]
-    },
-    {
       "description": "Search song lyrics",
       "name": "lyric",
+      "permissions": {},
+      "premiumOnly": "",
       "tags": [
         "lyric",
         "lirik",
@@ -43,19 +21,55 @@
       ]
     },
     {
-      "description": "Search and download videos from Pinterest",
-      "name": "pinterest video",
+      "description": "Search and download images from Pinterest",
+      "name": "pinterest",
+      "permissions": {},
+      "premiumOnly": "",
       "tags": [
-        "pinterestvideo",
-        "pinvid"
+        "pinterest",
+        "pin"
+      ]
+    },
+    {
+      "description": "Find anime/illustration image source using SauceNAO (send/reply image)",
+      "name": "saucenao",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "saucenao",
+        "sauce",
+        "source"
       ]
     },
     {
       "description": "Search and download wallpapers from Wallhaven",
       "name": "wallhaven",
+      "permissions": {},
+      "premiumOnly": "",
       "tags": [
         "wallhaven",
         "wh"
+      ]
+    },
+    {
+      "description": "Search for information using Google",
+      "name": "google",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "google",
+        "gsearch",
+        "cari"
+      ]
+    },
+    {
+      "description": "Search and download videos from Pinterest",
+      "name": "pinterest video",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "pinterestvideo",
+        "pinvid"
       ]
     }
   ]

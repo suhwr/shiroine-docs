@@ -1,70 +1,88 @@
 {
   "commands": [
     {
-      "description": "Download video from YouTube",
-      "name": "ytmp4",
-      "tags": [
-        "ytmp4",
-        "ytvideo"
-      ]
-    },
-    {
       "description": "Search videos on YouTube",
       "name": "yts",
+      "permissions": {},
+      "premiumOnly": "",
       "tags": [
         "yts",
         "ytsearch"
       ]
     },
     {
-      "description": "YouTube helper - choose to download audio, video, or album",
-      "name": "yt",
+      "description": "Search and play videos from YouTube",
+      "name": "play2",
+      "permissions": {},
+      "premiumOnly": "",
       "tags": [
-        "yt",
-        "youtube"
+        "play2"
       ]
     },
     {
       "description": "Search music on YouTube Music",
       "name": "ytms",
+      "permissions": {},
+      "premiumOnly": "",
       "tags": [
         "ytms",
         "ytmusicsearch"
       ]
     },
     {
-      "description": "Download song from YouTube URL",
-      "name": "play-downloader",
+      "description": "YouTube helper - choose to download audio, video, or album",
+      "name": "yt",
+      "permissions": {},
+      "premiumOnly": "",
       "tags": [
-        "play-downloader"
-      ]
-    },
-    {
-      "description": "Search and play videos from YouTube",
-      "name": "play2",
-      "tags": [
-        "play2"
-      ]
-    },
-    {
-      "description": "Download album from YouTube Music",
-      "name": "album",
-      "tags": [
-        "album"
+        "yt",
+        "youtube"
       ]
     },
     {
       "description": "Search and download songs from YouTube as MP3",
       "name": "ytmp3",
+      "permissions": {},
+      "premiumOnly": "",
       "tags": [
         "ytmp3"
       ]
     },
     {
+      "description": "Download video from YouTube",
+      "name": "ytmp4",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "ytmp4",
+        "ytvideo"
+      ]
+    },
+    {
       "description": "Search and play songs from YouTube Music",
       "name": "play",
+      "permissions": {},
+      "premiumOnly": "",
       "tags": [
         "play"
+      ]
+    },
+    {
+      "description": "Download album from YouTube Music",
+      "name": "album",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "album"
+      ]
+    },
+    {
+      "description": "Download song from YouTube URL",
+      "name": "play-downloader",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "play-downloader"
       ]
     }
   ]

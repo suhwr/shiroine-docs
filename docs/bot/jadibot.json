@@ -35,19 +35,19 @@
     "jadibot"
   ],
   "examples": [
-    "jadibot pair Your Bot Name",
-    "jadibot qr Your Bot Name",
+    "jadibot pair Nama Bot Kamu",
+    "jadibot qr Nama Bot Kamu",
     "jadibot logout",
     "jadibot remove 628xxxxxxxxx",
     "jadibot eula",
-    "jadibot pair Nama Bot Kamu",
-    "jadibot qr Nama Bot Kamu",
+    "jadibot pair Your Bot Name",
+    "jadibot qr Your Bot Name",
     "jadibot logout",
     "jadibot remove 628xxxxxxxxx",
     "jadibot eula"
   ],
   "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T03:19:22Z",
+  "lastUpdated": "2026-05-23T13:58:08Z",
   "level": 0,
   "limitCost": 0,
   "media": {

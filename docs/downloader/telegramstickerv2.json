@@ -38,11 +38,11 @@
     "telegramstickerv2"
   ],
   "examples": [
-    "telegramstickerv2 https://t.me/addstickers/NamaPackStikernya",
-    "telegramstickerv2 https://t.me/addstickers/PackName"
+    "telegramstickerv2 https://t.me/addstickers/PackName",
+    "telegramstickerv2 https://t.me/addstickers/NamaPackStikernya"
   ],
   "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T03:19:22Z",
+  "lastUpdated": "2026-05-23T13:58:08Z",
   "level": 0,
   "limitCost": 1,
   "media": {

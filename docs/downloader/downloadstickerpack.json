@@ -35,11 +35,11 @@
     "downloadstickerpack"
   ],
   "examples": [
-    "downloadstickerpack (reply to a sticker pack message)",
-    "downloadstickerpack (balas ke pesan stiker pack)"
+    "downloadstickerpack (balas ke pesan stiker pack)",
+    "downloadstickerpack (reply to a sticker pack message)"
   ],
   "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T03:19:22Z",
+  "lastUpdated": "2026-05-23T13:58:08Z",
   "level": 0,
   "limitCost": 1,
   "media": {

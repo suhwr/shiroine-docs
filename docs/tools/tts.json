@@ -38,15 +38,15 @@
     "tts"
   ],
   "examples": [
-    "tts Hello world",
-    "tts id Halo dunia",
-    "tts ja こんにちは",
     "tts Halo, apa kabar?",
     "tts en Hello world",
+    "tts ja こんにちは",
+    "tts Hello world",
+    "tts id Halo dunia",
     "tts ja こんにちは"
   ],
   "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T03:19:22Z",
+  "lastUpdated": "2026-05-23T13:58:08Z",
   "level": 0,
   "limitCost": 0,
   "media": {

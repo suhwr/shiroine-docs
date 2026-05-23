@@ -1,16 +1,19 @@
 {
   "commands": [
     {
-      "description": "Check a certain category percentage on someone",
-      "name": "cek",
+      "description": "Ship two group members deterministically per hour",
+      "name": "ship",
+      "permissions": {},
+      "premiumOnly": "",
       "tags": [
-        "cek",
-        "check"
+        "ship"
       ]
     },
     {
       "description": "Roll a random dice 1–6, optionally guess the number",
       "name": "dadu",
+      "permissions": {},
+      "premiumOnly": "",
       "tags": [
         "dadu",
         "dice"
@@ -19,14 +22,28 @@
     {
       "description": "Flip a coin and guess the outcome",
       "name": "koin",
+      "permissions": {},
+      "premiumOnly": "",
       "tags": [
         "koin",
         "coin"
       ]
     },
     {
+      "description": "Check a certain category percentage on someone",
+      "name": "cek",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "cek",
+        "check"
+      ]
+    },
+    {
       "description": "Play rock-paper-scissors against the bot",
       "name": "suit",
+      "permissions": {},
+      "premiumOnly": "",
       "tags": [
         "suit",
         "rps"
@@ -35,20 +52,17 @@
     {
       "description": "List all available reaction commands",
       "name": "reaction",
+      "permissions": {},
+      "premiumOnly": "",
       "tags": [
         "reaction"
       ]
     },
     {
-      "description": "Ship two group members deterministically per hour",
-      "name": "ship",
-      "tags": [
-        "ship"
-      ]
-    },
-    {
       "description": "Roast yourself or someone else randomly",
       "name": "roast",
+      "permissions": {},
+      "premiumOnly": "",
       "tags": [
         "roast"
       ]

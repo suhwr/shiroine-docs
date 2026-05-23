@@ -2,56 +2,57 @@
   "aliases": [],
   "args": {},
   "categories": [
-    "game"
+    "meme"
   ],
-  "category": "game",
+  "category": "meme",
   "chatPermissions": [
+    "private",
     "group",
-    "group_community"
+    "group_community",
+    "newsletter"
   ],
   "chatTypes": {
     "group": true,
-    "group_community": true
+    "group_community": true,
+    "newsletter": true,
+    "private": true
   },
   "commands": [
-    "tebakgambar"
+    "delete"
   ],
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 3,
+  "delaySeconds": 0,
   "description": {
-    "en": "Start picture guessing game",
-    "id": "Mulai game tebak gambar"
+    "en": "Create delete meme from image",
+    "id": "Buat meme delete dari gambar"
   },
   "disableProcessLimit": false,
   "disabled": false,
   "disabledReason": "",
   "display": [
-    "tebakgambar"
+    "delete"
   ],
-  "examples": [
-    "tebakgambar",
-    "tebakgambar"
-  ],
+  "examples": [],
   "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
+  "lastUpdated": "2026-05-23T16:00:00Z",
   "level": 0,
-  "limitCost": 0,
+  "limitCost": 1,
   "media": {
     "image": "",
     "video": ""
   },
   "minArgs": 0,
-  "name": "tebakgambar",
+  "name": "delete",
   "nsfwOnly": false,
   "permissions": {},
   "premiumOnly": "",
-  "requireMedia": "",
+  "requireMedia": "i",
   "sendsToPrivate": false,
   "showPromotion": false,
   "source": {
-    "file": "internal/plugins/game",
+    "file": "internal/plugins/meme",
     "line": 1
   },
   "specialLimit": false,
@@ -61,5 +62,5 @@
     "enabled": true,
     "hidden": false
   },
-  "usage": "tebakgambar"
+  "usage": ".delete"
 }
