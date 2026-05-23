@@ -55,6 +55,9 @@ export function CategoryDetail() {
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
                 <span style={{ fontWeight: 600, fontSize: '1.1rem' }}>.{cmd.name}</span>
                 {cmd.premiumOnly && <span className="badge badge-warning" style={{ fontSize: '0.65rem', padding: '0.15rem 0.4rem', gap: '2px' }}>⭐ PREMIUM</span>}
+                {cmd.permissions?.owner && <span className="badge badge-danger" style={{ fontSize: '0.65rem', padding: '0.15rem 0.4rem', marginLeft: '0.3rem' }}>Owner</span>}
+                {cmd.permissions?.subowner && <span className="badge badge-primary" style={{ fontSize: '0.65rem', padding: '0.15rem 0.4rem', marginLeft: '0.3rem' }}>Sub‑owner</span>}
+                {cmd.permissions?.admin && <span className="badge badge-success" style={{ fontSize: '0.65rem', padding: '0.15rem 0.4rem', marginLeft: '0.3rem' }}>Admin</span>}
               </div>
               <div className="text-secondary" style={{ fontSize: '0.9rem', marginBottom: '1rem', flexGrow: 1 }}>{cmd.description || "No description"}</div>
               {cmd.tags && (
