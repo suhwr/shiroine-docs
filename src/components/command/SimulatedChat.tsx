@@ -63,7 +63,7 @@ export function SimulatedChat({ cmdName, details }: { cmdName: string; details: 
         </div>
 
         {/* Dynamic content rendering based on tags/name */}
-        {details.tags?.includes('download') || cmdName.includes('dl') ? (
+        {(details.category === 'downloader' || details.category === 'youtube' || details.requireMedia === 'image' || details.requireMedia === 'video') ? (
           <div style={{ background: '#111B21', borderRadius: '6px', overflow: 'hidden', marginBottom: '6px' }}>
             <div style={{ background: '#2A3942', height: '120px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
               <div style={{ width: '40px', height: '40px', background: 'rgba(0,0,0,0.5)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
