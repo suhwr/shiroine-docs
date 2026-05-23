@@ -60,9 +60,9 @@ export function CommandDetail({ favorites, toggleFavorite, addRecent }: {
   return (
     <div className="animate-enter">
       <div className="flex-center animate-enter stagger-1" style={{ justifyContent: 'flex-start', gap: '0.5rem', marginBottom: '2rem', fontSize: '0.9rem', position: 'sticky', top: '1rem', zIndex: 10, background: 'var(--bg-card)', padding: '0.75rem 1rem', borderRadius: '12px', backdropFilter: 'blur(16px)', border: '1px solid var(--border-color)', boxShadow: 'var(--shadow-soft)' }}>
-        <Link to="/" viewTransition className="text-secondary hover:text-primary">Home</Link>
+        <Link to="/" className="text-secondary hover:text-primary">Home</Link>
         <ChevronRight className="w-4 h-4 text-muted" />
-        <Link to={`/category/${catId}`} viewTransition className="text-secondary hover:text-primary" style={{ textTransform: 'capitalize' }}>{catId}</Link>
+        <Link to={`/category/${catId}`} className="text-secondary hover:text-primary" style={{ textTransform: 'capitalize' }}>{catId}</Link>
         <ChevronRight className="w-4 h-4 text-muted" />
         <span className="text-primary" style={{ fontWeight: 600 }}>.{cmdName}</span>
       </div>
@@ -166,7 +166,7 @@ export function CommandDetail({ favorites, toggleFavorite, addRecent }: {
               <h3 className="section-title">Related</h3>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', marginTop: '1rem' }}>
                 {related.map(r => (
-                  <Link key={r.name} to={`/command/${catId}/${r.name}`} viewTransition className="card card-interactive flex-between" style={{ padding: '0.75rem 1rem' }}>
+                  <Link key={r.name} to={`/command/${catId}/${r.name}`} className="card card-interactive flex-between" style={{ padding: '0.75rem 1rem' }}>
                     <span style={{ fontWeight: 500, fontSize: '0.95rem' }}>.{r.name}</span>
                     <ChevronRight className="w-4 h-4 text-muted" />
                   </Link>

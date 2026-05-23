@@ -27,13 +27,13 @@ export function CategoryDetail() {
   return (
     <div className="animate-enter">
       <div className="flex-center animate-enter stagger-1" style={{ justifyContent: 'flex-start', gap: '0.5rem', marginBottom: '2rem', fontSize: '0.9rem' }}>
-        <Link to="/" viewTransition className="text-secondary hover:text-primary">Home</Link>
+        <Link to="/" className="text-secondary hover:text-primary">Home</Link>
         <ChevronRight className="w-4 h-4 text-muted" />
         <span className="text-primary">{catName || catId}</span>
       </div>
 
       <div className="flex-center animate-enter stagger-2" style={{ justifyContent: 'flex-start', gap: '1rem', marginBottom: '2rem' }}>
-        <Link to="/" viewTransition className="btn-icon card card-interactive">
+        <Link to="/" className="btn-icon card card-interactive">
           <ArrowLeft className="w-5 h-5" />
         </Link>
         <h1 style={{ fontSize: '2rem', fontWeight: 700, textTransform: 'capitalize' }} className="text-gradient">{catName || catId} Commands</h1>
@@ -50,11 +50,11 @@ export function CategoryDetail() {
         </div>
       ) : (
         <div className="grid-cols-auto animate-enter stagger-3">
-          {commands.map((cmd: any, idx: number) => (
-            <Link to={`/command/${catId}/${cmd.name}`} key={cmd.name} viewTransition className="card card-interactive animate-enter" style={{ animationDelay: `${0.15 + (Math.min(idx, 10) * 0.05)}s`, padding: '1.25rem', display: 'flex', flexDirection: 'column' }}>
+          {commands.map((cmd: any) => (
+            <Link to={`/command/${catId}/${cmd.name}`} key={cmd.name} className="card card-interactive" style={{ padding: '1.25rem', display: 'flex', flexDirection: 'column' }}>
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
                 <span style={{ fontWeight: 600, fontSize: '1.1rem' }}>.{cmd.name}</span>
-                {cmd.premiumOnly && <span title="Premium" style={{ fontSize: '0.9rem' }}>⭐</span>}
+                {cmd.premiumOnly && <span className="badge badge-warning" style={{ fontSize: '0.65rem', padding: '0.15rem 0.4rem', gap: '2px' }}>⭐ PREMIUM</span>}
               </div>
               <div className="text-secondary" style={{ fontSize: '0.9rem', marginBottom: '1rem', flexGrow: 1 }}>{cmd.description || "No description"}</div>
               {cmd.tags && (

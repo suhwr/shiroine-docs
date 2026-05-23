@@ -47,8 +47,8 @@ export function Home({ favorites, recents }: { favorites: Array<{name: string, c
         </div>
       ) : (
         <div className="grid-cols-auto animate-enter stagger-3" style={{ marginTop: '1.5rem' }}>
-          {categories.map((cat, idx) => (
-            <Link to={`/category/${cat.id}`} key={cat.id} viewTransition className={`card card-interactive animate-enter`} style={{ animationDelay: `${0.15 + (idx * 0.05)}s`, padding: '1.5rem', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+          {categories.map((cat) => (
+            <Link to={`/category/${cat.id}`} key={cat.id} className="card card-interactive" style={{ padding: '1.5rem', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <span style={{ fontWeight: 600, fontSize: '1.1rem' }}>{cat.name}</span>
                 <ChevronRight className="text-muted w-5 h-5" />
@@ -71,7 +71,7 @@ export function Home({ favorites, recents }: { favorites: Array<{name: string, c
                 {favorites.map(f => (
                   <div key={f.name} className="card flex-between animate-enter" style={{ padding: '1rem 1.25rem' }}>
                     <span style={{ fontWeight: 600 }}>.{f.name}</span>
-                    <Link to={`/command/${f.category}/${f.name}`} viewTransition className="btn">View</Link>
+                    <Link to={`/command/${f.category}/${f.name}`} className="btn">View</Link>
                   </div>
                 ))}
               </div>
@@ -88,7 +88,7 @@ export function Home({ favorites, recents }: { favorites: Array<{name: string, c
                 {recents.map(r => (
                   <div key={r.name} className="card flex-between animate-enter" style={{ padding: '1rem 1.25rem' }}>
                     <span style={{ fontWeight: 600 }}>.{r.name}</span>
-                    <Link to={`/command/${r.category}/${r.name}`} viewTransition className="btn">View</Link>
+                    <Link to={`/command/${r.category}/${r.name}`} className="btn">View</Link>
                   </div>
                 ))}
               </div>
