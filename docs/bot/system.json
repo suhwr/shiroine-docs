@@ -1,0 +1,78 @@
+{
+  "aliases": [
+    "test",
+    "tes",
+    "sysinfo",
+    "runtime"
+  ],
+  "args": {},
+  "categories": [
+    "bot"
+  ],
+  "category": "bot",
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "commands": [
+    "test",
+    "tes",
+    "sysinfo",
+    "runtime",
+    "system"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "Show system and Go runtime info",
+    "id": "Tampilkan informasi sistem dan Go runtime"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "system"
+  ],
+  "examples": [
+    "sysinfo",
+    "sysinfo"
+  ],
+  "ignoreQueue": true,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 0,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 0,
+  "name": "system",
+  "nsfwOnly": false,
+  "permissions": {},
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "sysinfo"
+}

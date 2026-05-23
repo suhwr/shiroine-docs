@@ -1,0 +1,78 @@
+{
+  "aliases": [
+    "youtube"
+  ],
+  "args": {},
+  "categories": [
+    "youtube"
+  ],
+  "category": "youtube",
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "commands": [
+    "yt",
+    "youtube"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "YouTube helper - choose to download audio, video, or album",
+    "id": "Helper YouTube - pilih aksi download audio, video, atau album"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "yt"
+  ],
+  "examples": [
+    "yt Despacito",
+    "yt music Despacito",
+    "yt album the book",
+    "yt https://youtube.com/watch?v=...",
+    "yt Despacito",
+    "yt music Despacito",
+    "yt album the book",
+    "yt https://youtube.com/watch?v=..."
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 0,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 0,
+  "name": "yt",
+  "nsfwOnly": false,
+  "permissions": {},
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "source": {
+    "file": "internal/plugins/youtube",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "yt Despacito"
+}

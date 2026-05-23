@@ -1,0 +1,67 @@
+{
+  "aliases": [
+    "clearchat"
+  ],
+  "args": {},
+  "categories": [
+    "bot"
+  ],
+  "category": "bot",
+  "chatPermissions": [
+    "private"
+  ],
+  "chatTypes": {
+    "private": true
+  },
+  "commands": [
+    "clearchat"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "Clear all chat history without deleting the chat list",
+    "id": "Membersihkan seluruh riwayat chat tanpa menghapus daftar chat"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "Clear Chat"
+  ],
+  "examples": [
+    "clearchat",
+    "clearchat"
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 0,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 0,
+  "name": "Clear Chat",
+  "nsfwOnly": false,
+  "permissions": {
+    "bot": true
+  },
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "clearchat"
+}

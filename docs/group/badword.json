@@ -1,0 +1,85 @@
+{
+  "aliases": [],
+  "args": {},
+  "categories": [
+    "group"
+  ],
+  "category": "group",
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "commands": [
+    "badword"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "Manage badword filter list",
+    "id": "Kelola daftar kata terlarang"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "badword"
+  ],
+  "examples": [
+    "badword add anjing",
+    "badword add bajingan force",
+    "badword on",
+    "badword off",
+    "badword status",
+    "badword del anjing",
+    "badword list",
+    "badword clear",
+    "badword set 4",
+    "badword add badword",
+    "badword add badword force",
+    "badword on",
+    "badword off",
+    "badword status",
+    "badword del badword",
+    "badword list",
+    "badword clear",
+    "badword set 4"
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 0,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 1,
+  "name": "badword",
+  "nsfwOnly": false,
+  "permissions": {
+    "admin": true,
+    "owner": true,
+    "subowner": true
+  },
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "badword add badword"
+}

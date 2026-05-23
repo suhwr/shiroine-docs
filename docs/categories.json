@@ -1,0 +1,88 @@
+{
+  "categories": [
+    {
+      "description": "Group management and administration commands.",
+      "icon": "shield",
+      "id": "admin",
+      "name": "Group Admin"
+    },
+    {
+      "description": "Developer-only and system owner controls.",
+      "icon": "key",
+      "id": "owner",
+      "name": "Bot Owner"
+    },
+    {
+      "description": "Interact with artificial intelligence assistants, image generation, and chat tools.",
+      "icon": "cpu",
+      "id": "ai",
+      "name": "AI \u0026 Chatbots"
+    },
+    {
+      "description": "Download media from various social media platforms like YouTube, TikTok, Instagram, etc.",
+      "icon": "download",
+      "id": "downloader",
+      "name": "Downloader"
+    },
+    {
+      "description": "RPG and multi-player chat games.",
+      "icon": "gamepad",
+      "id": "game",
+      "name": "Interactive Games"
+    },
+    {
+      "description": "Download and convert YouTube videos \u0026 audio.",
+      "icon": "youtube",
+      "id": "youtube",
+      "name": "YouTube Downloader"
+    },
+    {
+      "description": "Games, trivia, and entertaining commands.",
+      "icon": "smile",
+      "id": "fun",
+      "name": "Fun \u0026 Games"
+    },
+    {
+      "description": "Search tools for Wikipedia, Google, etc.",
+      "icon": "search",
+      "id": "search",
+      "name": "Information Search"
+    },
+    {
+      "description": "Create stickers and humorous images.",
+      "icon": "image",
+      "id": "meme",
+      "name": "Meme Generators"
+    },
+    {
+      "description": "Helpful and basic bot commands.",
+      "icon": "info",
+      "id": "general",
+      "name": "General Commands"
+    },
+    {
+      "description": "Settings and utilities for WhatsApp groups.",
+      "icon": "users",
+      "id": "group",
+      "name": "Group Chat Settings"
+    },
+    {
+      "description": "General bot settings and diagnostic tools.",
+      "icon": "bot",
+      "id": "bot",
+      "name": "Bot Utilities"
+    },
+    {
+      "description": "Track limits, level up, and check stats.",
+      "icon": "user",
+      "id": "profile",
+      "name": "User Profiles"
+    },
+    {
+      "description": "Various utility and helper tools for daily tasks.",
+      "icon": "tool",
+      "id": "tools",
+      "name": "Utility Tools"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "commands": [
+    {
+      "description": "View group MVP",
+      "name": "groupmvp",
+      "tags": [
+        "groupmvp"
+      ]
+    },
+    {
+      "description": "Check remaining daily game limit",
+      "name": "gamelimit",
+      "tags": [
+        "gamelimit"
+      ]
+    },
+    {
+      "description": "Start song lyrics guessing game",
+      "name": "tebaklirik",
+      "tags": [
+        "tebaklirik"
+      ]
+    },
+    {
+      "description": "Play Tictactoe with 2 players in group",
+      "name": "tictactoe",
+      "tags": [
+        "tictactoe",
+        "ttt"
+      ]
+    },
+    {
+      "description": "View your game profile",
+      "name": "profilegame",
+      "tags": [
+        "profilegame",
+        "gameprofile"
+      ]
+    },
+    {
+      "description": "Show game leaderboard",
+      "name": "leaderboard",
+      "tags": [
+        "leaderboard",
+        "lb",
+        "ranking"
+      ]
+    },
+    {
+      "description": "View your badge collection",
+      "name": "badges",
+      "tags": [
+        "badges",
+        "mybadges"
+      ]
+    },
+    {
+      "description": "Start country flag guessing game",
+      "name": "tebakbendera",
+      "tags": [
+        "tebakbendera"
+      ]
+    },
+    {
+      "description": "View group leaderboard",
+      "name": "glb",
+      "tags": [
+        "glb",
+        "grouplb"
+      ]
+    },
+    {
+      "description": "View group achievements",
+      "name": "groupachievements",
+      "tags": [
+        "groupachievements",
+        "ga"
+      ]
+    },
+    {
+      "description": "View group top contributors",
+      "name": "groupcontrib",
+      "tags": [
+        "groupcontrib",
+        "gc"
+      ]
+    },
+    {
+      "description": "Start word guessing game from hints",
+      "name": "tebakkata",
+      "tags": [
+        "tebakkata"
+      ]
+    },
+    {
+      "description": "View your closest rival",
+      "name": "rival",
+      "tags": [
+        "rival"
+      ]
+    },
+    {
+      "description": "Detect carry player in group",
+      "name": "groupcarry",
+      "tags": [
+        "groupcarry"
+      ]
+    },
+    {
+      "description": "Start brain teaser / trivia game",
+      "name": "asahotak",
+      "tags": [
+        "asahotak"
+      ]
+    },
+    {
+      "description": "Start word scramble game",
+      "name": "susunkata",
+      "tags": [
+        "susunkata"
+      ]
+    },
+    {
+      "description": "Compare your group vs rival",
+      "name": "groupcompare",
+      "tags": [
+        "groupcompare"
+      ]
+    },
+    {
+      "description": "Start caklontong / funny riddle game",
+      "name": "caklontong",
+      "tags": [
+        "caklontong"
+      ]
+    },
+    {
+      "description": "Start picture guessing game",
+      "name": "tebakgambar",
+      "tags": [
+        "tebakgambar"
+      ]
+    },
+    {
+      "description": "Start math game with difficulty level",
+      "name": "math",
+      "tags": [
+        "math"
+      ]
+    },
+    {
+      "description": "Start Tebak Bom game – avoid the bomb among 9 numbers",
+      "name": "tebakbom",
+      "tags": [
+        "tebakbom"
+      ]
+    },
+    {
+      "description": "View group game statistics",
+      "name": "groupstats",
+      "tags": [
+        "groupstats"
+      ]
+    },
+    {
+      "description": "Start who am I guessing game",
+      "name": "siapakahaku",
+      "tags": [
+        "siapakahaku"
+      ]
+    }
+  ]
+}

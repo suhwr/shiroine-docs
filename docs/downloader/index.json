@@ -1,0 +1,103 @@
+{
+  "commands": [
+    {
+      "description": "Download video/photo from Twitter/X",
+      "name": "twitter",
+      "tags": [
+        "twitter",
+        "twdl",
+        "tw",
+        "x"
+      ]
+    },
+    {
+      "description": "Search or download track, album, or video from Tidal (HiFi quality)",
+      "name": "tidal",
+      "tags": [
+        "tidal"
+      ]
+    },
+    {
+      "description": "Download video/photo from TikTok",
+      "name": "tiktok",
+      "tags": [
+        "tiktok",
+        "ttdl",
+        "tt"
+      ]
+    },
+    {
+      "description": "Download photo/video from Instagram",
+      "name": "instagram",
+      "tags": [
+        "instagram",
+        "igdl",
+        "ig"
+      ]
+    },
+    {
+      "description": "Download photo/video from Pinterest",
+      "name": "pinterest dl",
+      "tags": [
+        "pindl",
+        "ptdl"
+      ]
+    },
+    {
+      "description": "Download NSFW artwork from Pixiv (search or ID/URL)",
+      "name": "pixiv",
+      "tags": [
+        "pixiv",
+        "pxdl"
+      ]
+    },
+    {
+      "description": "Download a Telegram sticker pack and send it as WhatsApp stickers",
+      "name": "telegramsticker",
+      "tags": [
+        "telegramsticker",
+        "tgsticker",
+        "tgs"
+      ]
+    },
+    {
+      "description": "Download a Telegram sticker pack as ZIP without conversion",
+      "name": "telegramstickerv2",
+      "tags": [
+        "telegramstickerv2",
+        "tgsv2"
+      ]
+    },
+    {
+      "description": "Download video/photo from Facebook",
+      "name": "facebook",
+      "tags": [
+        "facebook",
+        "fb"
+      ]
+    },
+    {
+      "description": "Download video from various platforms",
+      "name": "ytdl",
+      "tags": [
+        "dl",
+        "download",
+        "ytdl"
+      ]
+    },
+    {
+      "description": "Download or search music from Spotify",
+      "name": "spotify",
+      "tags": [
+        "spotify"
+      ]
+    },
+    {
+      "description": "Download a WhatsApp sticker pack message as a ZIP file",
+      "name": "downloadstickerpack",
+      "tags": [
+        "downloadstickerpack"
+      ]
+    }
+  ]
+}

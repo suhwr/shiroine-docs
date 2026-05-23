@@ -1,0 +1,68 @@
+{
+  "aliases": [
+    "gc"
+  ],
+  "args": {},
+  "categories": [
+    "game"
+  ],
+  "category": "game",
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "commands": [
+    "groupcontrib",
+    "gc"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "View group top contributors",
+    "id": "Lihat top contributor grup"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "groupcontrib"
+  ],
+  "examples": [
+    "groupcontrib\ngroupcontrib all\ngc\ngc all",
+    "groupcontrib\ngroupcontrib all\ngc\ngc all"
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 0,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 0,
+  "name": "groupcontrib",
+  "nsfwOnly": false,
+  "permissions": {},
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "source": {
+    "file": "internal/plugins/game",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "groupcontrib\ngroupcontrib all\ngc\ngc all"
+}

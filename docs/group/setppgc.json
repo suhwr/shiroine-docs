@@ -1,0 +1,82 @@
+{
+  "aliases": [
+    "setgrouppp",
+    "setppgroup",
+    "set-group-pict",
+    "setgrouppict"
+  ],
+  "args": {},
+  "categories": [
+    "group"
+  ],
+  "category": "group",
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "commands": [
+    "setppgc",
+    "setgrouppp",
+    "setppgroup",
+    "set-group-pict",
+    "setgrouppict"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "Set group profile picture",
+    "id": "Set foto profil grup"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "setppgc"
+  ],
+  "examples": [
+    "setppgc (kirim foto)",
+    "setppgc -f (foto full)",
+    "setppgc (reply foto)",
+    "setppgc (send photo)",
+    "setppgc -f (full photo)",
+    "setppgc (reply photo)"
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 0,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 0,
+  "name": "setppgc",
+  "nsfwOnly": false,
+  "permissions": {
+    "admin": true,
+    "owner": true,
+    "subowner": true
+  },
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "setppgc (send photo)"
+}

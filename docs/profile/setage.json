@@ -1,0 +1,78 @@
+{
+  "aliases": [
+    "set-age"
+  ],
+  "args": {},
+  "categories": [
+    "profile"
+  ],
+  "category": "profile",
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "commands": [
+    "setage",
+    "set-age"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments",
+    "en": "❌ Enter age. Example: `setage 25`",
+    "id": "❌ Masukkan umur. Contoh: `setage 25`"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "Set profile age",
+    "id": "Mengatur umur profil"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "setage"
+  ],
+  "examples": [
+    "setage 25",
+    "setage 18",
+    "setage 30",
+    "setage 25",
+    "setage 18",
+    "setage 30"
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 0,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 1,
+  "name": "setage",
+  "nsfwOnly": false,
+  "permissions": {},
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "source": {
+    "file": "internal/plugins/profile",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "setage 25"
+}

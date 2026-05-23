@@ -1,0 +1,65 @@
+{
+  "aliases": [],
+  "args": {},
+  "categories": [
+    "game"
+  ],
+  "category": "game",
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "commands": [
+    "math"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 3,
+  "description": {
+    "en": "Start math game with difficulty level",
+    "id": "Mulai game matematika dengan level pilihan"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "math"
+  ],
+  "examples": [
+    "math\nmath e\nmath easy\nmath n\nmath normal\nmath h\nmath hard\nmath ex\nmath expert\nmath nm\nmath nightmare",
+    "math\nmath e\nmath easy\nmath n\nmath normal\nmath h\nmath hard\nmath ex\nmath expert\nmath nm\nmath nightmare"
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 0,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 0,
+  "name": "math",
+  "nsfwOnly": false,
+  "permissions": {},
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "source": {
+    "file": "internal/plugins/game",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "math\nmath e\nmath easy\nmath n\nmath normal\nmath h\nmath hard\nmath ex\nmath expert\nmath nm\nmath nightmare"
+}

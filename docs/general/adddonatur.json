@@ -1,0 +1,74 @@
+{
+  "aliases": [
+    "tambahdonatur"
+  ],
+  "args": {},
+  "categories": [
+    "general"
+  ],
+  "category": "general",
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "commands": [
+    "adddonatur",
+    "tambahdonatur"
+  ],
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "delaySeconds": 0,
+  "description": {
+    "en": "Add/update donatur to list (owner only)",
+    "id": "Tambah/update donatur ke daftar (owner only)"
+  },
+  "disableProcessLimit": false,
+  "disabled": false,
+  "disabledReason": "",
+  "display": [
+    "adddonatur"
+  ],
+  "examples": [
+    "adddonatur 6281234567890 100000 Terima kasih!",
+    "adddonatur 0 50000 Anonymous donation"
+  ],
+  "ignoreQueue": false,
+  "lastUpdated": "2026-05-23T03:19:22Z",
+  "level": 0,
+  "limitCost": 0,
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "minArgs": 2,
+  "name": "adddonatur",
+  "nsfwOnly": false,
+  "permissions": {
+    "owner": true
+  },
+  "premiumOnly": "",
+  "requireMedia": "",
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "source": {
+    "file": "internal/plugins/general",
+    "line": 1
+  },
+  "specialLimit": false,
+  "status": {
+    "beta": false,
+    "deprecated": false,
+    "enabled": true,
+    "hidden": false
+  },
+  "usage": "adddonatur 0 50000 Anonymous donation"
+}

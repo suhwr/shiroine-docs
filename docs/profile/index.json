@@ -1,0 +1,89 @@
+{
+  "commands": [
+    {
+      "description": "View your level and XP",
+      "name": "level",
+      "tags": [
+        "level"
+      ]
+    },
+    {
+      "description": "Set profile bio/about",
+      "name": "setbio",
+      "tags": [
+        "set-bio",
+        "setbio"
+      ]
+    },
+    {
+      "description": "Set profile age",
+      "name": "setage",
+      "tags": [
+        "setage",
+        "set-age"
+      ]
+    },
+    {
+      "description": "Get profile picture",
+      "name": "getpp",
+      "tags": [
+        "getpp",
+        "getpic"
+      ]
+    },
+    {
+      "description": "Set personal prefix (private chat only)",
+      "name": "setprefix",
+      "tags": [
+        "setprefix",
+        "set-prefix"
+      ]
+    },
+    {
+      "description": "Set profile gender",
+      "name": "setgender",
+      "tags": [
+        "setgender",
+        "set-gender"
+      ]
+    },
+    {
+      "description": "Check remaining premium duration",
+      "name": "cekpremium",
+      "tags": [
+        "cekpremium"
+      ]
+    },
+    {
+      "description": "View user profile",
+      "name": "profile",
+      "tags": [
+        "profile",
+        "me"
+      ]
+    },
+    {
+      "description": "Set profile name",
+      "name": "setname",
+      "tags": [
+        "set-name",
+        "setname"
+      ]
+    },
+    {
+      "description": "Change password for website login",
+      "name": "change-password",
+      "tags": [
+        "change-password",
+        "changepassword"
+      ]
+    },
+    {
+      "description": "Set AFK status with reason",
+      "name": "afk",
+      "tags": [
+        "afk"
+      ]
+    }
+  ]
+}

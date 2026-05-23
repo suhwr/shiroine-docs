@@ -1,0 +1,57 @@
+{
+  "commands": [
+    {
+      "description": "Check a certain category percentage on someone",
+      "name": "cek",
+      "tags": [
+        "cek",
+        "check"
+      ]
+    },
+    {
+      "description": "Roll a random dice 1–6, optionally guess the number",
+      "name": "dadu",
+      "tags": [
+        "dadu",
+        "dice"
+      ]
+    },
+    {
+      "description": "Flip a coin and guess the outcome",
+      "name": "koin",
+      "tags": [
+        "koin",
+        "coin"
+      ]
+    },
+    {
+      "description": "Play rock-paper-scissors against the bot",
+      "name": "suit",
+      "tags": [
+        "suit",
+        "rps"
+      ]
+    },
+    {
+      "description": "List all available reaction commands",
+      "name": "reaction",
+      "tags": [
+        "reaction"
+      ]
+    },
+    {
+      "description": "Ship two group members deterministically per hour",
+      "name": "ship",
+      "tags": [
+        "ship"
+      ]
+    },
+    {
+      "description": "Roast yourself or someone else randomly",
+      "name": "roast",
+      "tags": [
+        "roast"
+      ]
+    }
+  ]
+}
