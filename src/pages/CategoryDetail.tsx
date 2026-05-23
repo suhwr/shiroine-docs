@@ -51,8 +51,11 @@ export function CategoryDetail() {
       ) : (
         <div className="grid-cols-auto animate-enter stagger-3">
           {commands.map((cmd: any, idx: number) => (
-            <Link to={`/command/${catId}/${cmd.name}`} key={cmd.name} viewTransition className="card card-interactive animate-enter" style={{ animationDelay: `${0.15 + (idx * 0.05)}s`, padding: '1.25rem', display: 'flex', flexDirection: 'column' }}>
-              <div style={{ fontWeight: 600, fontSize: '1.1rem', marginBottom: '0.5rem' }}>.{cmd.name}</div>
+            <Link to={`/command/${catId}/${cmd.name}`} key={cmd.name} viewTransition className="card card-interactive animate-enter" style={{ animationDelay: `${0.15 + (Math.min(idx, 10) * 0.05)}s`, padding: '1.25rem', display: 'flex', flexDirection: 'column' }}>
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
+                <span style={{ fontWeight: 600, fontSize: '1.1rem' }}>.{cmd.name}</span>
+                {cmd.premiumOnly && <span title="Premium" style={{ fontSize: '0.9rem' }}>⭐</span>}
+              </div>
               <div className="text-secondary" style={{ fontSize: '0.9rem', marginBottom: '1rem', flexGrow: 1 }}>{cmd.description || "No description"}</div>
               {cmd.tags && (
                 <div style={{ display: 'flex', gap: '0.4rem', flexWrap: 'wrap' }}>

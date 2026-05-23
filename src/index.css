@@ -73,13 +73,18 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   transition: background-color var(--transition-normal), color var(--transition-normal);
-  
-  /* Rich mesh gradient background */
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; width: 100vw; height: 100vh;
+  z-index: -1;
+  pointer-events: none;
   background-image: 
     radial-gradient(circle at 15% 50%, rgba(124, 58, 237, 0.05) 0%, transparent 50%),
     radial-gradient(circle at 85% 30%, rgba(196, 181, 253, 0.04) 0%, transparent 50%),
     radial-gradient(circle at 50% 0%, rgba(139, 92, 246, 0.06) 0%, transparent 60%);
-  background-attachment: fixed;
 }
 
 /* View Transitions API */
@@ -160,17 +165,20 @@ button, input {
   min-height: 100vh;
 }
 
-/* Glassmorphism Cards */
+/* Optimized Cards (No heavy backdrop-filter) */
 .card {
-  background: var(--bg-card);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  background: rgba(24, 24, 27, 0.7);
   border: 1px solid var(--border-color);
   border-radius: 20px;
   box-shadow: var(--shadow-soft);
-  transition: all var(--transition-normal);
+  transition: border-color var(--transition-normal), transform var(--transition-fast), box-shadow var(--transition-normal);
   position: relative;
   overflow: hidden;
+  will-change: transform;
+}
+
+[data-theme="light"] .card {
+  background: rgba(255, 255, 255, 0.95);
 }
 
 /* Subtle inner glow for cards */
