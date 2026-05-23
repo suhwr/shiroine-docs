@@ -142,6 +142,12 @@ export function CommandDetail({ favorites, toggleFavorite, addRecent }: {
                 <span className="text-secondary">Min Args</span>
                 <span style={{ fontWeight: 600 }}>{details.minArgs || 0}</span>
               </div>
+              {details.requireMedia && (
+                <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '0.75rem', borderBottom: '1px solid var(--border-color)' }}>
+                  <span className="text-secondary">Require Media</span>
+                  <span style={{ fontWeight: 600, textTransform: 'capitalize' }}>{details.requireMedia}</span>
+                </div>
+              )}
             </div>
 
             <div style={{ marginTop: '1.5rem' }}>

@@ -30,16 +30,16 @@ export function SearchModal({ onClose }: { onClose: () => void }) {
       setResults([]);
       return;
     }
-    fetch('./docs/search.json')
+    fetch(`${import.meta.env.BASE_URL}docs/search.json`)
       .then(res => res.json())
       .then(data => {
         const q = debouncedQuery.toLowerCase();
         const filtered = (data.commands || []).filter((cmd: any) => {
           return (
-            cmd.name.toLowerCase().includes(q) ||
-            (cmd.aliases && cmd.aliases.some((a: string) => a.toLowerCase().includes(q))) ||
-            (cmd.tags && cmd.tags.some((t: string) => t.toLowerCase().includes(q))) ||
-            cmd.category.toLowerCase().includes(q)
+            cmd.name?.toLowerCase().includes(q) ||
+            (cmd.aliases && cmd.aliases.some((a: string) => a?.toLowerCase().includes(q))) ||
+            (cmd.tags && cmd.tags.some((t: string) => t?.toLowerCase().includes(q))) ||
+            cmd.category?.toLowerCase().includes(q)
           );
         });
         setResults(filtered.slice(0, 10));

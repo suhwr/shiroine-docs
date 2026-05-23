@@ -5,13 +5,31 @@ export function ArgumentsBuilder({ details }: { details: any }) {
   // Render booleans as Status Chips
   const booleanKeys = Object.keys(details).filter(k => typeof details[k] === 'boolean');
   
-  // Render arrays like chatTypes as badges
-  const chatTypes = details.chatTypes || [];
-  const permissions = details.permissions || [];
+  // chatTypes and permissions are objects (e.g. { "private": true }), we need to get keys
+  const chatTypes = Object.keys(details.chatTypes || {});
+  const permissions = Object.keys(details.permissions || {});
+  const args = details.args || {};
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
       
+      {/* Arguments */}
+      {Object.keys(args).length > 0 && (
+        <div>
+          <h4 className="text-secondary" style={{ fontSize: '0.85rem', marginBottom: '0.5rem', textTransform: 'uppercase' }}>Arguments Format</h4>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+            {Object.entries(args).map(([argName, argLangs]: any) => (
+              <div key={argName} className="card" style={{ padding: '0.75rem 1rem', background: 'rgba(255,255,255,0.02)' }}>
+                <div style={{ fontWeight: 600, color: 'var(--accent)', marginBottom: '0.25rem' }}>{argName}</div>
+                <div className="text-secondary" style={{ fontSize: '0.85rem' }}>
+                  {argLangs.id || argLangs.en || JSON.stringify(argLangs)}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
       {/* Boolean Statuses */}
       {booleanKeys.length > 0 && (
         <div>
