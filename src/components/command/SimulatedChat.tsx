@@ -30,6 +30,13 @@ export function SimulatedChat({ cmdName, details }: { cmdName: string; details: 
         boxShadow: '0 1px 0.5px rgba(11,20,26,.13)',
         position: 'relative'
       }}>
+        {details.requireMedia && (
+          <div style={{ background: '#111B21', borderRadius: '6px', overflow: 'hidden', marginBottom: '6px' }}>
+            <div style={{ background: '#2A3942', height: '100px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              <div style={{ fontSize: '0.75rem', color: '#8696A0' }}>[ Lampiran {details.requireMedia} ]</div>
+            </div>
+          </div>
+        )}
         .{cmdName} {details.examples?.[0] ? details.examples[0].replace(cmdName, "").trim() : ""}
         <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', gap: '4px', marginTop: '2px' }}>
           <span style={{ fontSize: '0.65rem', color: 'rgba(255,255,255,0.6)' }}>11:30</span>

@@ -6,8 +6,8 @@ import { ArgumentsBuilder } from '../components/command/ArgumentsBuilder';
 import { SimulatedChat } from '../components/command/SimulatedChat';
 
 export function CommandDetail({ favorites, toggleFavorite, addRecent }: {
-  favorites: string[];
-  toggleFavorite: (n: string) => void;
+  favorites: Array<{name: string, category: string}>;
+  toggleFavorite: (n: string, c: string) => void;
   addRecent: (name: string, category: string) => void;
 }) {
   const { catId, cmdName } = useParams();
@@ -55,7 +55,7 @@ export function CommandDetail({ favorites, toggleFavorite, addRecent }: {
     );
   }
 
-  const isFavorite = favorites.includes(cmdName!);
+  const isFavorite = favorites.some(f => f.name === cmdName);
 
   return (
     <div>
@@ -84,12 +84,24 @@ export function CommandDetail({ favorites, toggleFavorite, addRecent }: {
           )}
         </div>
         <div style={{ display: 'flex', gap: '0.75rem' }}>
-          <button onClick={() => toggleFavorite(cmdName!)} className="btn-icon card card-interactive flex-center" style={{ width: '44px', height: '44px', color: isFavorite ? 'var(--danger)' : 'var(--text-muted)', background: isFavorite ? 'rgba(239, 68, 68, 0.1)' : 'var(--bg-card)' }}>
+          <button onClick={() => toggleFavorite(cmdName!, catId!)} className="btn-icon card card-interactive flex-center" style={{ width: '44px', height: '44px', color: isFavorite ? 'var(--danger)' : 'var(--text-muted)', background: isFavorite ? 'rgba(239, 68, 68, 0.1)' : 'var(--bg-card)' }}>
             <Heart className={`w-5 h-5 ${isFavorite ? 'fill-current' : ''}`} />
           </button>
           <CopyButton text={`.${cmdName}`} label="Copy" className="card card-interactive" />
         </div>
       </div>
+
+      {details.requireMedia && (
+        <div className="card" style={{ padding: '1rem 1.5rem', marginBottom: '2rem', border: '1px solid var(--warning)', background: 'rgba(234, 179, 8, 0.05)', display: 'flex', alignItems: 'center', gap: '1rem' }}>
+          <AlertCircle className="w-6 h-6 text-warning" />
+          <div>
+            <h4 style={{ fontWeight: 600, color: 'var(--warning)', marginBottom: '0.25rem' }}>Membutuhkan Lampiran Media</h4>
+            <p className="text-secondary" style={{ fontSize: '0.9rem', margin: 0 }}>
+              Kirim <strong>{details.requireMedia}</strong> dengan caption <code style={{ color: 'var(--text-primary)', background: 'rgba(255,255,255,0.1)', padding: '2px 4px', borderRadius: '4px' }}>.{cmdName}</code> atau <em>reply</em> pesan {details.requireMedia} dengan perintah tersebut.
+            </p>
+          </div>
+        </div>
+      )}
 
       <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 2fr) minmax(0, 1fr)', gap: '2rem' }} className="responsive-grid">
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
@@ -142,12 +154,6 @@ export function CommandDetail({ favorites, toggleFavorite, addRecent }: {
                 <span className="text-secondary">Min Args</span>
                 <span style={{ fontWeight: 600 }}>{details.minArgs || 0}</span>
               </div>
-              {details.requireMedia && (
-                <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '0.75rem', borderBottom: '1px solid var(--border-color)' }}>
-                  <span className="text-secondary">Require Media</span>
-                  <span style={{ fontWeight: 600, textTransform: 'capitalize' }}>{details.requireMedia}</span>
-                </div>
-              )}
             </div>
 
             <div style={{ marginTop: '1.5rem' }}>

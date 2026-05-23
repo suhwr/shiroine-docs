@@ -6,19 +6,30 @@ import { CategoryDetail } from './pages/CategoryDetail';
 import { CommandDetail } from './pages/CommandDetail';
 
 export default function App() {
-  const [favorites, setFavorites] = useState<string[]>(() => {
-    return JSON.parse(localStorage.getItem('favorites') || '[]');
+  const [favorites, setFavorites] = useState<Array<{ name: string; category: string }>>(() => {
+    try {
+      const data = JSON.parse(localStorage.getItem('favorites') || '[]');
+      if (data.length > 0 && typeof data[0] === 'string') {
+        localStorage.removeItem('favorites');
+        return [];
+      }
+      return data;
+    } catch { return []; }
   });
 
   const [recents, setRecents] = useState<Array<{ name: string; category: string }>>(() => {
     return JSON.parse(localStorage.getItem('recents') || '[]');
   });
 
-  const toggleFavorite = (cmdName: string) => {
+  const toggleFavorite = (cmdName: string, category: string) => {
     setFavorites(prev => {
-      const updated = prev.includes(cmdName)
-        ? prev.filter(n => n !== cmdName)
-        : [...prev, cmdName];
+      const exists = prev.find(n => n.name === cmdName);
+      let updated;
+      if (exists) {
+        updated = prev.filter(n => n.name !== cmdName);
+      } else {
+        updated = [...prev, { name: cmdName, category }];
+      }
       localStorage.setItem('favorites', JSON.stringify(updated));
       return updated;
     });

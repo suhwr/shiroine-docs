@@ -16,16 +16,21 @@ export function ArgumentsBuilder({ details }: { details: any }) {
       {/* Arguments */}
       {Object.keys(args).length > 0 && (
         <div>
-          <h4 className="text-secondary" style={{ fontSize: '0.85rem', marginBottom: '0.5rem', textTransform: 'uppercase' }}>Arguments Format</h4>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-            {Object.entries(args).map(([argName, argLangs]: any) => (
-              <div key={argName} className="card" style={{ padding: '0.75rem 1rem', background: 'rgba(255,255,255,0.02)' }}>
-                <div style={{ fontWeight: 600, color: 'var(--accent)', marginBottom: '0.25rem' }}>{argName}</div>
-                <div className="text-secondary" style={{ fontSize: '0.85rem' }}>
-                  {argLangs.id || argLangs.en || JSON.stringify(argLangs)}
+          <h4 className="text-secondary" style={{ fontSize: '0.85rem', marginBottom: '0.5rem', textTransform: 'uppercase' }}>Format Parameter</h4>
+          <div className="card" style={{ padding: '1rem', background: 'rgba(255,255,255,0.02)' }}>
+            <p className="text-secondary" style={{ fontSize: '0.9rem', marginBottom: '1rem', lineHeight: 1.5 }}>
+              Tambahkan parameter berikut di belakang perintah (contoh: <code style={{ color: 'var(--accent)' }}>.command --parameter</code>)
+            </p>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+              {Object.entries(args).map(([argName, argLangs]: any) => (
+                <div key={argName} style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start', paddingBottom: '0.75rem', borderBottom: '1px solid var(--border-color)' }}>
+                  <code style={{ fontWeight: 600, color: 'var(--primary)', whiteSpace: 'nowrap' }}>{argName}</code>
+                  <div className="text-secondary" style={{ fontSize: '0.9rem', lineHeight: 1.5 }}>
+                    {argLangs.id || argLangs.en || JSON.stringify(argLangs)}
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       )}

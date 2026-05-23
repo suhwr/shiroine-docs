@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Cpu, Heart, History, ChevronRight, Search } from 'lucide-react';
 
-export function Home({ favorites, recents }: { favorites: string[], recents: any[] }) {
+export function Home({ favorites, recents }: { favorites: Array<{name: string, category: string}>, recents: any[] }) {
   const [categories, setCategories] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
 
@@ -28,7 +28,7 @@ export function Home({ favorites, recents }: { favorites: string[], recents: any
         <div 
           className="search-input-wrapper card card-interactive" 
           style={{ padding: '1rem 1.5rem', display: 'flex', alignItems: 'center', gap: '0.75rem', cursor: 'pointer' }}
-          onClick={() => document.dispatchEvent(new KeyboardEvent('keydown', { ctrlKey: true, key: 'k' }))}
+          onClick={() => window.dispatchEvent(new CustomEvent('open-search'))}
         >
           <Search className="text-muted w-5 h-5" />
           <span className="text-muted" style={{ flexGrow: 1, textAlign: 'left' }}>Search commands...</span>
@@ -69,9 +69,9 @@ export function Home({ favorites, recents }: { favorites: string[], recents: any
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', marginTop: '1rem' }}>
                 {favorites.map(f => (
-                  <div key={f} className="card flex-between" style={{ padding: '1rem 1.25rem' }}>
-                    <span style={{ fontWeight: 600 }}>.{f}</span>
-                    <Link to={`/command/general/${f}`} className="btn">View</Link>
+                  <div key={f.name} className="card flex-between" style={{ padding: '1rem 1.25rem' }}>
+                    <span style={{ fontWeight: 600 }}>.{f.name}</span>
+                    <Link to={`/command/${f.category}/${f.name}`} className="btn">View</Link>
                   </div>
                 ))}
               </div>
