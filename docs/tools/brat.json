@@ -88,5 +88,6 @@
     "enabled": true,
     "hidden": false
   },
-  "usage": "brat hello world"
+  "usage": "brat hello world",
+  "videoUrl": "https://file-examples.com/storage/fe9df280dc6a11487a19eb7/2017/04/file_example_MP4_1280_10MG.mp4"
 }
