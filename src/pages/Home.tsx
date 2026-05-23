@@ -17,9 +17,9 @@ export function Home({ favorites, recents }: { favorites: Array<{name: string, c
   }, []);
 
   return (
-    <div>
-      <div style={{ maxWidth: '600px', margin: '0 auto 3rem', textAlign: 'center' }}>
-        <h1 style={{ fontSize: '2.5rem', fontWeight: 800, marginBottom: '1rem', background: 'linear-gradient(to right, var(--primary), var(--accent))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
+    <div className="animate-enter">
+      <div style={{ maxWidth: '600px', margin: '0 auto 3rem', textAlign: 'center' }} className="animate-enter stagger-1">
+        <h1 style={{ fontSize: '2.5rem', fontWeight: 800, marginBottom: '1rem' }} className="text-gradient">
           Documentation Hub
         </h1>
         <p className="text-secondary" style={{ fontSize: '1.1rem', marginBottom: '2rem' }}>
@@ -36,19 +36,19 @@ export function Home({ favorites, recents }: { favorites: Array<{name: string, c
         </div>
       </div>
 
-      <div className="section-title">
+      <div className="section-title animate-enter stagger-2">
         <Cpu className="text-primary w-5 h-5" />
         Browse Categories
       </div>
       
       {loading ? (
-        <div className="grid-cols-auto" style={{ marginTop: '1.5rem' }}>
+        <div className="grid-cols-auto animate-enter stagger-3" style={{ marginTop: '1.5rem' }}>
           {[1,2,3,4].map(n => <div key={n} className="card skeleton" style={{ height: '140px' }} />)}
         </div>
       ) : (
-        <div className="grid-cols-auto" style={{ marginTop: '1.5rem' }}>
-          {categories.map(cat => (
-            <Link to={`/category/${cat.id}`} key={cat.id} className="card card-interactive" style={{ padding: '1.5rem', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+        <div className="grid-cols-auto animate-enter stagger-3" style={{ marginTop: '1.5rem' }}>
+          {categories.map((cat, idx) => (
+            <Link to={`/category/${cat.id}`} key={cat.id} viewTransition className={`card card-interactive animate-enter`} style={{ animationDelay: `${0.15 + (idx * 0.05)}s`, padding: '1.5rem', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <span style={{ fontWeight: 600, fontSize: '1.1rem' }}>{cat.name}</span>
                 <ChevronRight className="text-muted w-5 h-5" />
@@ -69,9 +69,9 @@ export function Home({ favorites, recents }: { favorites: Array<{name: string, c
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', marginTop: '1rem' }}>
                 {favorites.map(f => (
-                  <div key={f.name} className="card flex-between" style={{ padding: '1rem 1.25rem' }}>
+                  <div key={f.name} className="card flex-between animate-enter" style={{ padding: '1rem 1.25rem' }}>
                     <span style={{ fontWeight: 600 }}>.{f.name}</span>
-                    <Link to={`/command/${f.category}/${f.name}`} className="btn">View</Link>
+                    <Link to={`/command/${f.category}/${f.name}`} viewTransition className="btn">View</Link>
                   </div>
                 ))}
               </div>
@@ -86,9 +86,9 @@ export function Home({ favorites, recents }: { favorites: Array<{name: string, c
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', marginTop: '1rem' }}>
                 {recents.map(r => (
-                  <div key={r.name} className="card flex-between" style={{ padding: '1rem 1.25rem' }}>
+                  <div key={r.name} className="card flex-between animate-enter" style={{ padding: '1rem 1.25rem' }}>
                     <span style={{ fontWeight: 600 }}>.{r.name}</span>
-                    <Link to={`/command/${r.category}/${r.name}`} className="btn">View</Link>
+                    <Link to={`/command/${r.category}/${r.name}`} viewTransition className="btn">View</Link>
                   </div>
                 ))}
               </div>

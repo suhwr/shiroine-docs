@@ -58,16 +58,16 @@ export function CommandDetail({ favorites, toggleFavorite, addRecent }: {
   const isFavorite = favorites.some(f => f.name === cmdName);
 
   return (
-    <div>
-      <div className="flex-center" style={{ justifyContent: 'flex-start', gap: '0.5rem', marginBottom: '2rem', fontSize: '0.9rem' }}>
-        <Link to="/" className="text-secondary hover:text-primary">Home</Link>
+    <div className="animate-enter">
+      <div className="flex-center animate-enter stagger-1" style={{ justifyContent: 'flex-start', gap: '0.5rem', marginBottom: '2rem', fontSize: '0.9rem', position: 'sticky', top: '1rem', zIndex: 10, background: 'var(--bg-card)', padding: '0.75rem 1rem', borderRadius: '12px', backdropFilter: 'blur(16px)', border: '1px solid var(--border-color)', boxShadow: 'var(--shadow-soft)' }}>
+        <Link to="/" viewTransition className="text-secondary hover:text-primary">Home</Link>
         <ChevronRight className="w-4 h-4 text-muted" />
-        <Link to={`/category/${catId}`} className="text-secondary hover:text-primary" style={{ textTransform: 'capitalize' }}>{catId}</Link>
+        <Link to={`/category/${catId}`} viewTransition className="text-secondary hover:text-primary" style={{ textTransform: 'capitalize' }}>{catId}</Link>
         <ChevronRight className="w-4 h-4 text-muted" />
-        <span className="text-primary">.{cmdName}</span>
+        <span className="text-primary" style={{ fontWeight: 600 }}>.{cmdName}</span>
       </div>
 
-      <div className="card" style={{ padding: '2rem', marginBottom: '2rem', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'flex-start', gap: '1.5rem' }}>
+      <div className="card animate-enter stagger-2" style={{ padding: '2rem', marginBottom: '2rem', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'flex-start', gap: '1.5rem' }}>
         <div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '0.75rem' }}>
             <h1 style={{ fontSize: '2.5rem', fontWeight: 800 }}>.{cmdName}</h1>
@@ -92,7 +92,7 @@ export function CommandDetail({ favorites, toggleFavorite, addRecent }: {
       </div>
 
       {details.requireMedia && (
-        <div className="card" style={{ padding: '1rem 1.5rem', marginBottom: '2rem', border: '1px solid var(--warning)', background: 'rgba(234, 179, 8, 0.05)', display: 'flex', alignItems: 'center', gap: '1rem' }}>
+        <div className="card animate-enter stagger-3" style={{ padding: '1rem 1.5rem', marginBottom: '2rem', border: '1px solid var(--warning)', background: 'rgba(251, 191, 36, 0.05)', display: 'flex', alignItems: 'center', gap: '1rem' }}>
           <AlertCircle className="w-6 h-6 text-warning" />
           <div>
             <h4 style={{ fontWeight: 600, color: 'var(--warning)', marginBottom: '0.25rem' }}>Membutuhkan Lampiran Media</h4>
@@ -136,7 +136,7 @@ export function CommandDetail({ favorites, toggleFavorite, addRecent }: {
 
         </div>
 
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }} className="animate-enter stagger-4">
           
           <div className="card" style={{ padding: '1.5rem' }}>
             <h3 className="section-title"><Info className="w-5 h-5 text-primary" /> Specifications</h3>
@@ -166,7 +166,7 @@ export function CommandDetail({ favorites, toggleFavorite, addRecent }: {
               <h3 className="section-title">Related</h3>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', marginTop: '1rem' }}>
                 {related.map(r => (
-                  <Link key={r.name} to={`/command/${catId}/${r.name}`} className="card card-interactive flex-between" style={{ padding: '0.75rem 1rem' }}>
+                  <Link key={r.name} to={`/command/${catId}/${r.name}`} viewTransition className="card card-interactive flex-between" style={{ padding: '0.75rem 1rem' }}>
                     <span style={{ fontWeight: 500, fontSize: '0.95rem' }}>.{r.name}</span>
                     <ChevronRight className="w-4 h-4 text-muted" />
                   </Link>

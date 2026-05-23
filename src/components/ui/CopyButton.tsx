@@ -27,7 +27,7 @@ export function CopyButton({ text, label, className = '' }: { text: string; labe
   };
 
   return (
-    <button onClick={handleCopy} className={`btn ${className}`}>
+    <button onClick={handleCopy} className={`btn ${className}`} style={{ transform: copied ? 'scale(1.05)' : 'scale(1)', transition: 'transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1)' }}>
       {copied ? <Check className="w-4 h-4 text-success" /> : <Copy className="w-4 h-4" />}
       {label && <span>{copied ? "Copied!" : label}</span>}
     </button>
