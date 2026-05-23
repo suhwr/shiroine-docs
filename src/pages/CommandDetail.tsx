@@ -58,7 +58,7 @@ export function CommandDetail({ favorites, toggleFavorite, addRecent }: {
 
   return (
     <div className="animate-enter">
-      <div className="flex-center animate-enter stagger-1" style={{ justifyContent: 'flex-start', gap: '0.5rem', marginBottom: '2rem', fontSize: '0.9rem', position: 'sticky', top: '1rem', zIndex: 10, background: 'var(--bg-card)', padding: '0.75rem 1rem', borderRadius: '12px', backdropFilter: 'blur(16px)', border: '1px solid var(--border-color)', boxShadow: 'var(--shadow-soft)' }}>
+      <div className="flex-center animate-enter stagger-1" style={{ justifyContent: 'flex-start', gap: '0.5rem', marginBottom: '2rem', fontSize: '0.9rem', position: 'sticky', top: '1rem', zIndex: 10, background: 'var(--bg-main)', padding: '0.75rem 1rem', borderRadius: '12px', border: '1px solid var(--border-color)', boxShadow: 'var(--shadow-soft)' }}>
         <Link to="/" className="text-secondary hover:text-primary">Home</Link>
         <ChevronRight className="w-4 h-4 text-muted" />
         <Link to={`/category/${catId}`} className="text-secondary hover:text-primary" style={{ textTransform: 'capitalize' }}>{catId}</Link>
@@ -129,7 +129,7 @@ export function CommandDetail({ favorites, toggleFavorite, addRecent }: {
           {details.videoUrl && (
             <div className="card" style={{ padding: '1.5rem' }}>
               <h3 className="section-title"><Play className="w-5 h-5 text-accent" /> Tutorial</h3>
-              <div style={{ marginTop: '1rem', overflow: 'hidden', borderRadius: '12px', background: 'rgba(0,0,0,0.2)' }}>
+              <div style={{ marginTop: '1rem', background: 'rgba(0,0,0,0.2)' }}>
                 {details.videoUrl.includes('youtube.com') || details.videoUrl.includes('youtu.be') ? (
                   <iframe 
                     width="100%" 
@@ -141,8 +141,10 @@ export function CommandDetail({ favorites, toggleFavorite, addRecent }: {
                     allowFullScreen
                     style={{ display: 'block', border: 'none' }}
                   ></iframe>
+                ) : details.videoUrl.match(/\\.(jpeg|jpg|gif|png|webp)($|\\?)/i) ? (
+                  <img src={details.videoUrl} alt="Tutorial" style={{ width: '100%', display: 'block', borderRadius: '8px' }} />
                 ) : (
-                  <video src={details.videoUrl} controls style={{ width: '100%', display: 'block' }} />
+                  <video src={details.videoUrl} controls style={{ width: '100%', display: 'block', borderRadius: '8px' }} />
                 )}
               </div>
             </div>

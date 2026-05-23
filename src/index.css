@@ -174,7 +174,6 @@ button, input {
   transition: border-color var(--transition-normal), transform var(--transition-fast), box-shadow var(--transition-normal);
   position: relative;
   overflow: hidden;
-  will-change: transform;
 }
 
 [data-theme="light"] .card {
@@ -270,7 +269,6 @@ button, input {
   border: 1px solid var(--border-color);
   background: var(--bg-card);
   color: var(--text-primary);
-  backdrop-filter: blur(12px);
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
