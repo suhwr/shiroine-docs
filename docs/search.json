@@ -2,42 +2,388 @@
   "commands": [
     {
       "aliases": [
-        "nsfwmode"
+        "broadcastgroup"
       ],
-      "category": "general",
-      "name": "nsfw",
-      "path": "/commands/general/nsfw",
+      "category": "admin",
+      "name": "bcgroup",
+      "path": "/commands/admin/bcgroup",
       "tags": [
-        "nsfw",
-        "nsfwmode"
+        "bcgroup",
+        "broadcastgroup"
       ]
     },
     {
       "aliases": [
-        "unbanchat"
+        "bc"
       ],
-      "category": "group",
-      "name": "unban-chat",
-      "path": "/commands/group/unban-chat",
+      "category": "admin",
+      "name": "broadcast",
+      "path": "/commands/admin/broadcast",
       "tags": [
-        "unban-chat",
-        "unbanchat"
+        "broadcast",
+        "bc"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "admin",
+      "name": "cleardb",
+      "path": "/commands/admin/cleardb",
+      "tags": [
+        "cleardb"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "admin",
+      "name": "deletenametable",
+      "path": "/commands/admin/deletenametable",
+      "tags": [
+        "deletenametable"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "admin",
+      "name": "index",
+      "path": "/commands/admin/index",
+      "tags": [
+        "index"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "ai",
+      "name": "ai",
+      "path": "/commands/ai/ai",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "ai",
+      "name": "aichara",
+      "path": "/commands/ai/aichara",
+      "tags": [
+        "aichara"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "ai",
+      "name": "deepseek",
+      "path": "/commands/ai/deepseek",
+      "tags": [
+        "deepseek"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "ai",
+      "name": "gemini",
+      "path": "/commands/ai/gemini",
+      "tags": [
+        "gemini"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "ai",
+      "name": "gpt",
+      "path": "/commands/ai/gpt",
+      "tags": [
+        "gpt"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "ai",
+      "name": "index",
+      "path": "/commands/ai/index",
+      "tags": [
+        "index"
       ]
     },
     {
       "aliases": [
-        "setlang",
-        "set-language",
-        "setlanguage"
+        "toanime"
       ],
-      "category": "group",
-      "name": "set-lang",
-      "path": "/commands/group/set-lang",
+      "category": "ai",
+      "name": "jadianime",
+      "path": "/commands/ai/jadianime",
       "tags": [
-        "set-lang",
-        "setlang",
-        "set-language",
-        "setlanguage"
+        "jadianime",
+        "toanime"
+      ]
+    },
+    {
+      "aliases": [
+        "toanimev2"
+      ],
+      "category": "ai",
+      "name": "jadianimev2",
+      "path": "/commands/ai/jadianimev2",
+      "tags": [
+        "jadianimev2",
+        "toanimev2"
+      ]
+    },
+    {
+      "aliases": [
+        "toghibli"
+      ],
+      "category": "ai",
+      "name": "jadighibli",
+      "path": "/commands/ai/jadighibli",
+      "tags": [
+        "jadighibli",
+        "toghibli"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "ai",
+      "name": "llm",
+      "path": "/commands/ai/llm",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "ai",
+      "name": "qwen",
+      "path": "/commands/ai/qwen",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "aliases": [
+        "resetaigroup",
+        "resetaigrup"
+      ],
+      "category": "ai",
+      "name": "reset-ai-group",
+      "path": "/commands/ai/reset-ai-group",
+      "tags": [
+        "reset-ai-group",
+        "resetaigroup",
+        "resetaigrup"
+      ]
+    },
+    {
+      "aliases": [
+        "resetai"
+      ],
+      "category": "ai",
+      "name": "reset-ai",
+      "path": "/commands/ai/reset-ai",
+      "tags": [
+        "reset-ai",
+        "resetai"
+      ]
+    },
+    {
+      "aliases": [
+        "clearchat"
+      ],
+      "category": "bot",
+      "name": "Clear Chat",
+      "path": "/commands/bot/Clear Chat",
+      "tags": [
+        "Clear Chat",
+        "clearchat"
+      ]
+    },
+    {
+      "aliases": [
+        "deletechat"
+      ],
+      "category": "bot",
+      "name": "Delete Chat",
+      "path": "/commands/bot/Delete Chat",
+      "tags": [
+        "Delete Chat",
+        "deletechat"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "autoclear",
+      "path": "/commands/bot/autoclear",
+      "tags": [
+        "autoclear"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "autodelete",
+      "path": "/commands/bot/autodelete",
+      "tags": [
+        "autodelete"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "autoread",
+      "path": "/commands/bot/autoread",
+      "tags": [
+        "autoread"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "bot",
+      "path": "/commands/bot/bot",
+      "tags": [
+        "bot"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "botinfo",
+      "path": "/commands/bot/botinfo",
+      "tags": [
+        "botinfo"
+      ]
+    },
+    {
+      "aliases": [
+        "listbot"
+      ],
+      "category": "bot",
+      "name": "botlist",
+      "path": "/commands/bot/botlist",
+      "tags": [
+        "botlist",
+        "listbot"
+      ]
+    },
+    {
+      "aliases": [
+        "official"
+      ],
+      "category": "bot",
+      "name": "botofficial",
+      "path": "/commands/bot/botofficial",
+      "tags": [
+        "botofficial",
+        "official"
+      ]
+    },
+    {
+      "aliases": [
+        "settings"
+      ],
+      "category": "bot",
+      "name": "botsettings",
+      "path": "/commands/bot/botsettings",
+      "tags": [
+        "botsettings",
+        "settings"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "get-otp-login",
+      "path": "/commands/bot/get-otp-login",
+      "tags": [
+        "get-otp-login"
+      ]
+    },
+    {
+      "aliases": [
+        "getprivacy"
+      ],
+      "category": "bot",
+      "name": "getprivacysetting",
+      "path": "/commands/bot/getprivacysetting",
+      "tags": [
+        "getprivacysetting",
+        "getprivacy"
+      ]
+    },
+    {
+      "aliases": [
+        "gm"
+      ],
+      "category": "bot",
+      "name": "groupmode",
+      "path": "/commands/bot/groupmode",
+      "tags": [
+        "groupmode",
+        "gm"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "index",
+      "path": "/commands/bot/index",
+      "tags": [
+        "index"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "jadibot",
+      "path": "/commands/bot/jadibot",
+      "tags": [
+        "jadibot"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "joinmode",
+      "path": "/commands/bot/joinmode",
+      "tags": [
+        "joinmode"
+      ]
+    },
+    {
+      "aliases": [
+        "bot_msgstats"
+      ],
+      "category": "bot",
+      "name": "msgstats",
+      "path": "/commands/bot/msgstats",
+      "tags": [
+        "msgstats",
+        "bot_msgstats"
+      ]
+    },
+    {
+      "aliases": [
+        "rc"
+      ],
+      "category": "bot",
+      "name": "rejectcall",
+      "path": "/commands/bot/rejectcall",
+      "tags": [
+        "rejectcall",
+        "rc"
+      ]
+    },
+    {
+      "aliases": [
+        "resetpassword"
+      ],
+      "category": "bot",
+      "name": "reset-password",
+      "path": "/commands/bot/reset-password",
+      "tags": [
+        "reset-password",
+        "resetpassword"
       ]
     },
     {
@@ -47,6 +393,135 @@
       "path": "/commands/bot/selfmode",
       "tags": [
         "selfmode"
+      ]
+    },
+    {
+      "aliases": [
+        "setnamebot",
+        "set-bot-name"
+      ],
+      "category": "bot",
+      "name": "setbotname",
+      "path": "/commands/bot/setbotname",
+      "tags": [
+        "setbotname",
+        "setnamebot",
+        "set-bot-name"
+      ]
+    },
+    {
+      "aliases": [
+        "setowner",
+        "sbo"
+      ],
+      "category": "bot",
+      "name": "setbotowner",
+      "path": "/commands/bot/setbotowner",
+      "tags": [
+        "setbotowner",
+        "setowner",
+        "sbo"
+      ]
+    },
+    {
+      "aliases": [
+        "setbotpp",
+        "setppbot"
+      ],
+      "category": "bot",
+      "name": "setpp",
+      "path": "/commands/bot/setpp",
+      "tags": [
+        "setpp",
+        "setbotpp",
+        "setppbot"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "setprivacy",
+      "path": "/commands/bot/setprivacy",
+      "tags": [
+        "setprivacy"
+      ]
+    },
+    {
+      "aliases": [
+        "statistics"
+      ],
+      "category": "bot",
+      "name": "stats",
+      "path": "/commands/bot/stats",
+      "tags": [
+        "stats",
+        "statistics"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "swap",
+      "path": "/commands/bot/swap",
+      "tags": [
+        "swap"
+      ]
+    },
+    {
+      "aliases": [
+        "test",
+        "tes",
+        "sysinfo",
+        "runtime"
+      ],
+      "category": "bot",
+      "name": "system",
+      "path": "/commands/bot/system",
+      "tags": [
+        "system",
+        "test",
+        "tes",
+        "sysinfo",
+        "runtime"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "track-bot",
+      "path": "/commands/bot/track-bot",
+      "tags": [
+        "track-bot"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "downloader",
+      "name": "downloadstickerpack",
+      "path": "/commands/downloader/downloadstickerpack",
+      "tags": [
+        "downloadstickerpack"
+      ]
+    },
+    {
+      "aliases": [
+        "fb"
+      ],
+      "category": "downloader",
+      "name": "facebook",
+      "path": "/commands/downloader/facebook",
+      "tags": [
+        "facebook",
+        "fb"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "downloader",
+      "name": "index",
+      "path": "/commands/downloader/index",
+      "tags": [
+        "index"
       ]
     },
     {
@@ -64,281 +539,87 @@
       ]
     },
     {
-      "aliases": [],
-      "category": "search",
-      "name": "jadwalsholat",
-      "path": "/commands/search/jadwalsholat",
+      "aliases": [
+        "pindl",
+        "ptdl"
+      ],
+      "category": "downloader",
+      "name": "pinterest dl",
+      "path": "/commands/downloader/pinterest dl",
       "tags": [
-        "jadwalsholat"
+        "pinterest dl",
+        "pindl",
+        "ptdl"
       ]
     },
     {
       "aliases": [
-        "topaktif",
-        "topactive"
+        "pxdl"
       ],
-      "category": "group",
-      "name": "top-active",
-      "path": "/commands/group/top-active",
+      "category": "downloader",
+      "name": "pixiv",
+      "path": "/commands/downloader/pixiv",
       "tags": [
-        "top-active",
-        "topaktif",
-        "topactive"
-      ]
-    },
-    {
-      "aliases": [
-        "lirik",
-        "lyrics"
-      ],
-      "category": "search",
-      "name": "lyric",
-      "path": "/commands/search/lyric",
-      "tags": [
-        "lyric",
-        "lirik",
-        "lyrics"
-      ]
-    },
-    {
-      "aliases": [
-        "del",
-        "d"
-      ],
-      "category": "group",
-      "name": "delete",
-      "path": "/commands/group/delete",
-      "tags": [
-        "delete",
-        "del",
-        "d"
-      ]
-    },
-    {
-      "aliases": [
-        "gsettings"
-      ],
-      "category": "group",
-      "name": "groupsettings",
-      "path": "/commands/group/groupsettings",
-      "tags": [
-        "groupsettings",
-        "gsettings"
-      ]
-    },
-    {
-      "aliases": [
-        "errlog"
-      ],
-      "category": "owner",
-      "name": "errors",
-      "path": "/commands/owner/errors",
-      "tags": [
-        "errors",
-        "errlog"
-      ]
-    },
-    {
-      "aliases": [
-        "hbanlist"
-      ],
-      "category": "owner",
-      "name": "hardbanlist",
-      "path": "/commands/owner/hardbanlist",
-      "tags": [
-        "hardbanlist",
-        "hbanlist"
-      ]
-    },
-    {
-      "aliases": [
-        "addsub"
-      ],
-      "category": "general",
-      "name": "addsubowner",
-      "path": "/commands/general/addsubowner",
-      "tags": [
-        "addsubowner",
-        "addsub"
-      ]
-    },
-    {
-      "aliases": [
-        "getpic"
-      ],
-      "category": "profile",
-      "name": "getpp",
-      "path": "/commands/profile/getpp",
-      "tags": [
-        "getpp",
-        "getpic"
+        "pixiv",
+        "pxdl"
       ]
     },
     {
       "aliases": [],
-      "category": "game",
-      "name": "tebaklirik",
-      "path": "/commands/game/tebaklirik",
+      "category": "downloader",
+      "name": "spotify",
+      "path": "/commands/downloader/spotify",
       "tags": [
-        "tebaklirik"
+        "spotify"
       ]
     },
     {
       "aliases": [
-        "listsub",
-        "subowners",
-        "sublist"
+        "tgsticker",
+        "tgs"
       ],
-      "category": "general",
-      "name": "listsubowners",
-      "path": "/commands/general/listsubowners",
+      "category": "downloader",
+      "name": "telegramsticker",
+      "path": "/commands/downloader/telegramsticker",
       "tags": [
-        "listsubowners",
-        "listsub",
-        "subowners",
-        "sublist"
+        "telegramsticker",
+        "tgsticker",
+        "tgs"
       ]
     },
     {
       "aliases": [
-        "clearchat"
+        "tgsv2"
       ],
-      "category": "bot",
-      "name": "Clear Chat",
-      "path": "/commands/bot/Clear Chat",
+      "category": "downloader",
+      "name": "telegramstickerv2",
+      "path": "/commands/downloader/telegramstickerv2",
       "tags": [
-        "clearchat"
-      ]
-    },
-    {
-      "aliases": [
-        "bot_msgstats"
-      ],
-      "category": "bot",
-      "name": "msgstats",
-      "path": "/commands/bot/msgstats",
-      "tags": [
-        "msgstats",
-        "bot_msgstats"
-      ]
-    },
-    {
-      "aliases": [
-        "mybadges"
-      ],
-      "category": "game",
-      "name": "badges",
-      "path": "/commands/game/badges",
-      "tags": [
-        "badges",
-        "mybadges"
-      ]
-    },
-    {
-      "aliases": [
-        "setgoodbye"
-      ],
-      "category": "group",
-      "name": "set-goodbye",
-      "path": "/commands/group/set-goodbye",
-      "tags": [
-        "set-goodbye",
-        "setgoodbye"
+        "telegramstickerv2",
+        "tgsv2"
       ]
     },
     {
       "aliases": [],
-      "category": "fun",
-      "name": "ship",
-      "path": "/commands/fun/ship",
+      "category": "downloader",
+      "name": "tidal",
+      "path": "/commands/downloader/tidal",
       "tags": [
-        "ship"
+        "tidal"
       ]
     },
     {
       "aliases": [
-        "leavegc"
+        "ttdl",
+        "tt"
       ],
-      "category": "group",
-      "name": "leave-group",
-      "path": "/commands/group/leave-group",
+      "category": "downloader",
+      "name": "tiktok",
+      "path": "/commands/downloader/tiktok",
       "tags": [
-        "leave-group",
-        "leavegc"
-      ]
-    },
-    {
-      "aliases": [
-        "addpremium"
-      ],
-      "category": "owner",
-      "name": "addprem",
-      "path": "/commands/owner/addprem",
-      "tags": [
-        "addprem",
-        "addpremium"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "bot",
-      "name": "autodelete",
-      "path": "/commands/bot/autodelete",
-      "tags": [
-        "autodelete"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "ai",
-      "name": "aichara",
-      "path": "/commands/ai/aichara",
-      "tags": [
-        "aichara"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "general",
-      "name": "about",
-      "path": "/commands/general/about",
-      "tags": [
-        "about"
-      ]
-    },
-    {
-      "aliases": [
-        "creator",
-        "developer"
-      ],
-      "category": "general",
-      "name": "owner",
-      "path": "/commands/general/owner",
-      "tags": [
-        "owner",
-        "creator",
-        "developer"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "setdesc",
-      "path": "/commands/group/setdesc",
-      "tags": [
-        "setdesc"
-      ]
-    },
-    {
-      "aliases": [
-        "resetpassword"
-      ],
-      "category": "bot",
-      "name": "reset-password",
-      "path": "/commands/bot/reset-password",
-      "tags": [
-        "reset-password",
-        "resetpassword"
+        "tiktok",
+        "ttdl",
+        "tt"
       ]
     },
     {
@@ -359,93 +640,130 @@
     },
     {
       "aliases": [
-        "set-gender"
+        "dl",
+        "download"
       ],
-      "category": "profile",
-      "name": "setgender",
-      "path": "/commands/profile/setgender",
+      "category": "downloader",
+      "name": "ytdl",
+      "path": "/commands/downloader/ytdl",
       "tags": [
-        "setgender",
-        "set-gender"
+        "ytdl",
+        "dl",
+        "download"
       ]
     },
     {
       "aliases": [
-        "pin"
+        "check"
       ],
-      "category": "search",
-      "name": "pinterest",
-      "path": "/commands/search/pinterest",
+      "category": "fun",
+      "name": "cek",
+      "path": "/commands/fun/cek",
       "tags": [
-        "pinterest",
-        "pin"
+        "cek",
+        "check"
       ]
     },
     {
       "aliases": [
-        "listbot"
+        "dice"
       ],
-      "category": "bot",
-      "name": "botlist",
-      "path": "/commands/bot/botlist",
+      "category": "fun",
+      "name": "dadu",
+      "path": "/commands/fun/dadu",
       "tags": [
-        "botlist",
-        "listbot"
-      ]
-    },
-    {
-      "aliases": [
-        "upscale",
-        "remini",
-        "hd"
-      ],
-      "category": "tools",
-      "name": "upscaler",
-      "path": "/commands/tools/upscaler",
-      "tags": [
-        "upscaler",
-        "upscale",
-        "remini",
-        "hd"
-      ]
-    },
-    {
-      "aliases": [
-        "test",
-        "tes",
-        "sysinfo",
-        "runtime"
-      ],
-      "category": "bot",
-      "name": "system",
-      "path": "/commands/bot/system",
-      "tags": [
-        "test",
-        "tes",
-        "sysinfo",
-        "runtime",
-        "system"
-      ]
-    },
-    {
-      "aliases": [
-        "changepassword"
-      ],
-      "category": "profile",
-      "name": "change-password",
-      "path": "/commands/profile/change-password",
-      "tags": [
-        "change-password",
-        "changepassword"
+        "dadu",
+        "dice"
       ]
     },
     {
       "aliases": [],
-      "category": "ai",
-      "name": "gpt",
-      "path": "/commands/ai/gpt",
+      "category": "fun",
+      "name": "index",
+      "path": "/commands/fun/index",
       "tags": [
-        "gpt"
+        "index"
+      ]
+    },
+    {
+      "aliases": [
+        "coin"
+      ],
+      "category": "fun",
+      "name": "koin",
+      "path": "/commands/fun/koin",
+      "tags": [
+        "koin",
+        "coin"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "reaction",
+      "path": "/commands/fun/reaction",
+      "tags": [
+        "reaction"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "roast",
+      "path": "/commands/fun/roast",
+      "tags": [
+        "roast"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "ship",
+      "path": "/commands/fun/ship",
+      "tags": [
+        "ship"
+      ]
+    },
+    {
+      "aliases": [
+        "rps"
+      ],
+      "category": "fun",
+      "name": "suit",
+      "path": "/commands/fun/suit",
+      "tags": [
+        "suit",
+        "rps"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
+      "name": "asahotak",
+      "path": "/commands/game/asahotak",
+      "tags": [
+        "asahotak"
+      ]
+    },
+    {
+      "aliases": [
+        "mybadges"
+      ],
+      "category": "game",
+      "name": "badges",
+      "path": "/commands/game/badges",
+      "tags": [
+        "badges",
+        "mybadges"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
+      "name": "caklontong",
+      "path": "/commands/game/caklontong",
+      "tags": [
+        "caklontong"
       ]
     },
     {
@@ -459,30 +777,426 @@
     },
     {
       "aliases": [
-        "schedule",
-        "autoopen"
+        "grouplb"
       ],
-      "category": "group",
-      "name": "setschedule",
-      "path": "/commands/group/setschedule",
+      "category": "game",
+      "name": "glb",
+      "path": "/commands/game/glb",
       "tags": [
-        "setschedule",
-        "schedule",
-        "autoopen"
+        "glb",
+        "grouplb"
       ]
     },
     {
       "aliases": [
-        "rmbg",
-        "rbg"
+        "ga"
       ],
-      "category": "tools",
-      "name": "removebg",
-      "path": "/commands/tools/removebg",
+      "category": "game",
+      "name": "groupachievements",
+      "path": "/commands/game/groupachievements",
       "tags": [
-        "removebg",
-        "rmbg",
-        "rbg"
+        "groupachievements",
+        "ga"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
+      "name": "groupcarry",
+      "path": "/commands/game/groupcarry",
+      "tags": [
+        "groupcarry"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
+      "name": "groupcompare",
+      "path": "/commands/game/groupcompare",
+      "tags": [
+        "groupcompare"
+      ]
+    },
+    {
+      "aliases": [
+        "gc"
+      ],
+      "category": "game",
+      "name": "groupcontrib",
+      "path": "/commands/game/groupcontrib",
+      "tags": [
+        "groupcontrib",
+        "gc"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
+      "name": "groupmvp",
+      "path": "/commands/game/groupmvp",
+      "tags": [
+        "groupmvp"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
+      "name": "groupstats",
+      "path": "/commands/game/groupstats",
+      "tags": [
+        "groupstats"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
+      "name": "index",
+      "path": "/commands/game/index",
+      "tags": [
+        "index"
+      ]
+    },
+    {
+      "aliases": [
+        "lb",
+        "ranking"
+      ],
+      "category": "game",
+      "name": "leaderboard",
+      "path": "/commands/game/leaderboard",
+      "tags": [
+        "leaderboard",
+        "lb",
+        "ranking"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
+      "name": "math",
+      "path": "/commands/game/math",
+      "tags": [
+        "math"
+      ]
+    },
+    {
+      "aliases": [
+        "gameprofile"
+      ],
+      "category": "game",
+      "name": "profilegame",
+      "path": "/commands/game/profilegame",
+      "tags": [
+        "profilegame",
+        "gameprofile"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
+      "name": "rival",
+      "path": "/commands/game/rival",
+      "tags": [
+        "rival"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
+      "name": "siapakahaku",
+      "path": "/commands/game/siapakahaku",
+      "tags": [
+        "siapakahaku"
+      ]
+    },
+    {
+      "aliases": [
+        "mystats",
+        "mygamescore"
+      ],
+      "category": "game",
+      "name": "stats",
+      "path": "/commands/game/stats",
+      "tags": [
+        "stats",
+        "mystats",
+        "mygamescore"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
+      "name": "susunkata",
+      "path": "/commands/game/susunkata",
+      "tags": [
+        "susunkata"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
+      "name": "tebakbendera",
+      "path": "/commands/game/tebakbendera",
+      "tags": [
+        "tebakbendera"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
+      "name": "tebakbom",
+      "path": "/commands/game/tebakbom",
+      "tags": [
+        "tebakbom"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
+      "name": "tebakgambar",
+      "path": "/commands/game/tebakgambar",
+      "tags": [
+        "tebakgambar"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
+      "name": "tebakkata",
+      "path": "/commands/game/tebakkata",
+      "tags": [
+        "tebakkata"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
+      "name": "tebaklirik",
+      "path": "/commands/game/tebaklirik",
+      "tags": [
+        "tebaklirik"
+      ]
+    },
+    {
+      "aliases": [
+        "ttt"
+      ],
+      "category": "game",
+      "name": "tictactoe",
+      "path": "/commands/game/tictactoe",
+      "tags": [
+        "tictactoe",
+        "ttt"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "general",
+      "name": "about",
+      "path": "/commands/general/about",
+      "tags": [
+        "about"
+      ]
+    },
+    {
+      "aliases": [
+        "tambahdonatur"
+      ],
+      "category": "general",
+      "name": "adddonatur",
+      "path": "/commands/general/adddonatur",
+      "tags": [
+        "adddonatur",
+        "tambahdonatur"
+      ]
+    },
+    {
+      "aliases": [
+        "addsub"
+      ],
+      "category": "general",
+      "name": "addsubowner",
+      "path": "/commands/general/addsubowner",
+      "tags": [
+        "addsubowner",
+        "addsub"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "general",
+      "name": "cekbenefit",
+      "path": "/commands/general/cekbenefit",
+      "tags": [
+        "cekbenefit"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "general",
+      "name": "daily",
+      "path": "/commands/general/daily",
+      "tags": [
+        "daily"
+      ]
+    },
+    {
+      "aliases": [
+        "donasi"
+      ],
+      "category": "general",
+      "name": "donate",
+      "path": "/commands/general/donate",
+      "tags": [
+        "donate",
+        "donasi"
+      ]
+    },
+    {
+      "aliases": [
+        "listdonatur",
+        "donaturs"
+      ],
+      "category": "general",
+      "name": "donatur",
+      "path": "/commands/general/donatur",
+      "tags": [
+        "donatur",
+        "listdonatur",
+        "donaturs"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "general",
+      "name": "help",
+      "path": "/commands/general/help",
+      "tags": [
+        "help"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "general",
+      "name": "index",
+      "path": "/commands/general/index",
+      "tags": [
+        "index"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "general",
+      "name": "join",
+      "path": "/commands/general/join",
+      "tags": [
+        "join"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "general",
+      "name": "limit",
+      "path": "/commands/general/limit",
+      "tags": [
+        "limit"
+      ]
+    },
+    {
+      "aliases": [
+        "listgrup",
+        "grouplist"
+      ],
+      "category": "general",
+      "name": "listgroup",
+      "path": "/commands/general/listgroup",
+      "tags": [
+        "listgroup",
+        "listgrup",
+        "grouplist"
+      ]
+    },
+    {
+      "aliases": [
+        "listsub",
+        "subowners",
+        "sublist"
+      ],
+      "category": "general",
+      "name": "listsubowners",
+      "path": "/commands/general/listsubowners",
+      "tags": [
+        "listsubowners",
+        "listsub",
+        "subowners",
+        "sublist"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "general",
+      "name": "menu",
+      "path": "/commands/general/menu",
+      "tags": [
+        "menu"
+      ]
+    },
+    {
+      "aliases": [
+        "nsfwmode"
+      ],
+      "category": "general",
+      "name": "nsfw",
+      "path": "/commands/general/nsfw",
+      "tags": [
+        "nsfw",
+        "nsfwmode"
+      ]
+    },
+    {
+      "aliases": [
+        "creator",
+        "developer"
+      ],
+      "category": "general",
+      "name": "owner",
+      "path": "/commands/general/owner",
+      "tags": [
+        "owner",
+        "creator",
+        "developer"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "general",
+      "name": "ping",
+      "path": "/commands/general/ping",
+      "tags": [
+        "ping"
+      ]
+    },
+    {
+      "aliases": [
+        "buyprem",
+        "buypremium"
+      ],
+      "category": "general",
+      "name": "premium",
+      "path": "/commands/general/premium",
+      "tags": [
+        "premium",
+        "buyprem",
+        "buypremium"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "general",
+      "name": "redeem",
+      "path": "/commands/general/redeem",
+      "tags": [
+        "redeem"
       ]
     },
     {
@@ -503,65 +1217,140 @@
     },
     {
       "aliases": [
-        "ytsearch"
+        "script"
       ],
-      "category": "youtube",
-      "name": "yts",
-      "path": "/commands/youtube/yts",
+      "category": "general",
+      "name": "sc",
+      "path": "/commands/general/sc",
       "tags": [
-        "yts",
-        "ytsearch"
+        "sc",
+        "script"
       ]
     },
     {
       "aliases": [
-        "ttdl",
-        "tt"
+        "upstatus"
       ],
-      "category": "downloader",
-      "name": "tiktok",
-      "path": "/commands/downloader/tiktok",
+      "category": "general",
+      "name": "upsw",
+      "path": "/commands/general/upsw",
       "tags": [
-        "tiktok",
-        "ttdl",
-        "tt"
-      ]
-    },
-    {
-      "aliases": [
-        "grupstats",
-        "gstats"
-      ],
-      "category": "group",
-      "name": "group-stats",
-      "path": "/commands/group/group-stats",
-      "tags": [
-        "group-stats",
-        "grupstats",
-        "gstats"
-      ]
-    },
-    {
-      "aliases": [
-        "sauce",
-        "source"
-      ],
-      "category": "search",
-      "name": "saucenao",
-      "path": "/commands/search/saucenao",
-      "tags": [
-        "saucenao",
-        "sauce",
-        "source"
+        "upsw",
+        "upstatus"
       ]
     },
     {
       "aliases": [],
       "category": "general",
-      "name": "daily",
-      "path": "/commands/general/daily",
+      "name": "upsw2",
+      "path": "/commands/general/upsw2",
       "tags": [
-        "daily"
+        "upsw2"
+      ]
+    },
+    {
+      "aliases": [
+        "upstatusgrup"
+      ],
+      "category": "general",
+      "name": "upswgc",
+      "path": "/commands/general/upswgc",
+      "tags": [
+        "upswgc",
+        "upstatusgrup"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "add",
+      "path": "/commands/group/add",
+      "tags": [
+        "add"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "antibot",
+      "path": "/commands/group/antibot",
+      "tags": [
+        "antibot"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "antilink",
+      "path": "/commands/group/antilink",
+      "tags": [
+        "antilink"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "antilinkv2",
+      "path": "/commands/group/antilinkv2",
+      "tags": [
+        "antilinkv2"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "antimedia",
+      "path": "/commands/group/antimedia",
+      "tags": [
+        "antimedia"
+      ]
+    },
+    {
+      "aliases": [
+        "antinsfw"
+      ],
+      "category": "group",
+      "name": "antinsfwmedia",
+      "path": "/commands/group/antinsfwmedia",
+      "tags": [
+        "antinsfwmedia",
+        "antinsfw"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "antisw",
+      "path": "/commands/group/antisw",
+      "tags": [
+        "antisw"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "antitagsw",
+      "path": "/commands/group/antitagsw",
+      "tags": [
+        "antitagsw"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "autorespon",
+      "path": "/commands/group/autorespon",
+      "tags": [
+        "autorespon"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "badword",
+      "path": "/commands/group/badword",
+      "tags": [
+        "badword"
       ]
     },
     {
@@ -578,145 +1367,23 @@
     },
     {
       "aliases": [
-        "resetai"
-      ],
-      "category": "ai",
-      "name": "reset-ai",
-      "path": "/commands/ai/reset-ai",
-      "tags": [
-        "reset-ai",
-        "resetai"
-      ]
-    },
-    {
-      "aliases": [
-        "calc",
-        "kalkulator"
-      ],
-      "category": "tools",
-      "name": "calculator",
-      "path": "/commands/tools/calculator",
-      "tags": [
-        "calc",
-        "kalkulator"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "general",
-      "name": "help",
-      "path": "/commands/general/help",
-      "tags": [
-        "help"
-      ]
-    },
-    {
-      "aliases": [
-        "tag"
+        "banmember"
       ],
       "category": "group",
-      "name": "tagall",
-      "path": "/commands/group/tagall",
+      "name": "ban-member",
+      "path": "/commands/group/ban-member",
       "tags": [
-        "tagall",
-        "tag"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "meme",
-      "name": "trigger",
-      "path": "/commands/meme/trigger",
-      "tags": [
-        "trigger"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "meme",
-      "name": "delete",
-      "path": "/commands/meme/delete",
-      "tags": [
-        "delete"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "game",
-      "name": "tebakkata",
-      "path": "/commands/game/tebakkata",
-      "tags": [
-        "tebakkata"
+        "ban-member",
+        "banmember"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "sider",
-      "path": "/commands/group/sider",
+      "name": "banlist",
+      "path": "/commands/group/banlist",
       "tags": [
-        "sider"
-      ]
-    },
-    {
-      "aliases": [
-        "setbotpp",
-        "setppbot"
-      ],
-      "category": "bot",
-      "name": "setpp",
-      "path": "/commands/bot/setpp",
-      "tags": [
-        "setpp",
-        "setbotpp",
-        "setppbot"
-      ]
-    },
-    {
-      "aliases": [
-        "wh"
-      ],
-      "category": "search",
-      "name": "wallhaven",
-      "path": "/commands/search/wallhaven",
-      "tags": [
-        "wallhaven",
-        "wh"
-      ]
-    },
-    {
-      "aliases": [
-        "toaudio",
-        "tovn"
-      ],
-      "category": "tools",
-      "name": "tomp3",
-      "path": "/commands/tools/tomp3",
-      "tags": [
-        "tomp3",
-        "toaudio",
-        "tovn"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "general",
-      "name": "cekbenefit",
-      "path": "/commands/general/cekbenefit",
-      "tags": [
-        "cekbenefit"
-      ]
-    },
-    {
-      "aliases": [
-        "script"
-      ],
-      "category": "general",
-      "name": "sc",
-      "path": "/commands/general/sc",
-      "tags": [
-        "sc",
-        "script"
+        "banlist"
       ]
     },
     {
@@ -734,6 +1401,38 @@
     {
       "aliases": [],
       "category": "group",
+      "name": "cmd",
+      "path": "/commands/group/cmd",
+      "tags": [
+        "cmd"
+      ]
+    },
+    {
+      "aliases": [
+        "del",
+        "d"
+      ],
+      "category": "group",
+      "name": "delete",
+      "path": "/commands/group/delete",
+      "tags": [
+        "delete",
+        "del",
+        "d"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "demote",
+      "path": "/commands/group/demote",
+      "tags": [
+        "demote"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
       "name": "ephemeral",
       "path": "/commands/group/ephemeral",
       "tags": [
@@ -741,174 +1440,17 @@
       ]
     },
     {
-      "aliases": [],
-      "category": "group",
-      "name": "remove",
-      "path": "/commands/group/remove",
-      "tags": [
-        "remove"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "downloader",
-      "name": "spotify",
-      "path": "/commands/downloader/spotify",
-      "tags": [
-        "spotify"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "general",
-      "name": "menu",
-      "path": "/commands/general/menu",
-      "tags": [
-        "menu"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "general",
-      "name": "limit",
-      "path": "/commands/general/limit",
-      "tags": [
-        "limit"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "antisw",
-      "path": "/commands/group/antisw",
-      "tags": [
-        "antisw"
-      ]
-    },
-    {
       "aliases": [
-        "httpreq",
-        "fetch",
-        "request"
-      ],
-      "category": "tools",
-      "name": "httprequest",
-      "path": "/commands/tools/httprequest",
-      "tags": [
-        "httprequest",
-        "httpreq",
-        "fetch",
-        "request"
-      ]
-    },
-    {
-      "aliases": [
-        "gm"
-      ],
-      "category": "bot",
-      "name": "groupmode",
-      "path": "/commands/bot/groupmode",
-      "tags": [
-        "groupmode",
-        "gm"
-      ]
-    },
-    {
-      "aliases": [
-        "romaji",
-        "roman"
-      ],
-      "category": "tools",
-      "name": "romanize",
-      "path": "/commands/tools/romanize",
-      "tags": [
-        "romanize",
-        "romaji",
-        "roman"
-      ]
-    },
-    {
-      "aliases": [
-        "timezones",
-        "tzlist"
+        "grupstats",
+        "gstats"
       ],
       "category": "group",
-      "name": "listtimezone",
-      "path": "/commands/group/listtimezone",
+      "name": "group-stats",
+      "path": "/commands/group/group-stats",
       "tags": [
-        "listtimezone",
-        "timezones",
-        "tzlist"
-      ]
-    },
-    {
-      "aliases": [
-        "ss",
-        "screenshot"
-      ],
-      "category": "tools",
-      "name": "ssweb",
-      "path": "/commands/tools/ssweb",
-      "tags": [
-        "ssweb",
-        "ss",
-        "screenshot"
-      ]
-    },
-    {
-      "aliases": [
-        "group-prefix",
-        "gprefix"
-      ],
-      "category": "group",
-      "name": "groupprefix",
-      "path": "/commands/group/groupprefix",
-      "tags": [
-        "groupprefix",
-        "group-prefix",
-        "gprefix"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "sync-group",
-      "path": "/commands/group/sync-group",
-      "tags": [
-        "sync-group"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "meme",
-      "name": "shit",
-      "path": "/commands/meme/shit",
-      "tags": [
-        "shit"
-      ]
-    },
-    {
-      "aliases": [
-        "hunban"
-      ],
-      "category": "owner",
-      "name": "hardunban",
-      "path": "/commands/owner/hardunban",
-      "tags": [
-        "hardunban",
-        "hunban"
-      ]
-    },
-    {
-      "aliases": [
-        "toghibli"
-      ],
-      "category": "ai",
-      "name": "jadighibli",
-      "path": "/commands/ai/jadighibli",
-      "tags": [
-        "jadighibli",
-        "toghibli"
+        "group-stats",
+        "grupstats",
+        "gstats"
       ]
     },
     {
@@ -936,35 +1478,584 @@
     },
     {
       "aliases": [
-        "set-bio"
+        "group-prefix",
+        "gprefix"
       ],
-      "category": "profile",
-      "name": "setbio",
-      "path": "/commands/profile/setbio",
+      "category": "group",
+      "name": "groupprefix",
+      "path": "/commands/group/groupprefix",
       "tags": [
-        "set-bio",
-        "setbio"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "hex",
-      "path": "/commands/tools/hex",
-      "tags": [
-        "hex"
+        "groupprefix",
+        "group-prefix",
+        "gprefix"
       ]
     },
     {
       "aliases": [
-        "ttt"
+        "gsettings"
       ],
-      "category": "game",
-      "name": "tictactoe",
-      "path": "/commands/game/tictactoe",
+      "category": "group",
+      "name": "groupsettings",
+      "path": "/commands/group/groupsettings",
       "tags": [
-        "tictactoe",
-        "ttt"
+        "groupsettings",
+        "gsettings"
+      ]
+    },
+    {
+      "aliases": [
+        "ht",
+        "h"
+      ],
+      "category": "group",
+      "name": "hidetag",
+      "path": "/commands/group/hidetag",
+      "tags": [
+        "hidetag",
+        "ht",
+        "h"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "index",
+      "path": "/commands/group/index",
+      "tags": [
+        "index"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "info",
+      "path": "/commands/group/info",
+      "tags": [
+        "info"
+      ]
+    },
+    {
+      "aliases": [
+        "leavegc"
+      ],
+      "category": "group",
+      "name": "leave-group",
+      "path": "/commands/group/leave-group",
+      "tags": [
+        "leave-group",
+        "leavegc"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "left",
+      "path": "/commands/group/left",
+      "tags": [
+        "left"
+      ]
+    },
+    {
+      "aliases": [
+        "gruplink",
+        "link"
+      ],
+      "category": "group",
+      "name": "linkgc",
+      "path": "/commands/group/linkgc",
+      "tags": [
+        "linkgc",
+        "gruplink",
+        "link"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "listban",
+      "path": "/commands/group/listban",
+      "tags": [
+        "listban"
+      ]
+    },
+    {
+      "aliases": [
+        "mutelist"
+      ],
+      "category": "group",
+      "name": "listmute",
+      "path": "/commands/group/listmute",
+      "tags": [
+        "listmute",
+        "mutelist"
+      ]
+    },
+    {
+      "aliases": [
+        "timezones",
+        "tzlist"
+      ],
+      "category": "group",
+      "name": "listtimezone",
+      "path": "/commands/group/listtimezone",
+      "tags": [
+        "listtimezone",
+        "timezones",
+        "tzlist"
+      ]
+    },
+    {
+      "aliases": [
+        "warninglist"
+      ],
+      "category": "group",
+      "name": "listwarning",
+      "path": "/commands/group/listwarning",
+      "tags": [
+        "listwarning",
+        "warninglist"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "mute",
+      "path": "/commands/group/mute",
+      "tags": [
+        "mute"
+      ]
+    },
+    {
+      "aliases": [
+        "opn"
+      ],
+      "category": "group",
+      "name": "open",
+      "path": "/commands/group/open",
+      "tags": [
+        "open",
+        "opn"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "promote",
+      "path": "/commands/group/promote",
+      "tags": [
+        "promote"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "remove",
+      "path": "/commands/group/remove",
+      "tags": [
+        "remove"
+      ]
+    },
+    {
+      "aliases": [
+        "clearwarn"
+      ],
+      "category": "group",
+      "name": "resetwarn",
+      "path": "/commands/group/resetwarn",
+      "tags": [
+        "resetwarn",
+        "clearwarn"
+      ]
+    },
+    {
+      "aliases": [
+        "newlinkgc",
+        "resetlink"
+      ],
+      "category": "group",
+      "name": "revoke",
+      "path": "/commands/group/revoke",
+      "tags": [
+        "revoke",
+        "newlinkgc",
+        "resetlink"
+      ]
+    },
+    {
+      "aliases": [
+        "sendme"
+      ],
+      "category": "group",
+      "name": "send",
+      "path": "/commands/group/send",
+      "tags": [
+        "send",
+        "sendme"
+      ]
+    },
+    {
+      "aliases": [
+        "setgoodbye"
+      ],
+      "category": "group",
+      "name": "set-goodbye",
+      "path": "/commands/group/set-goodbye",
+      "tags": [
+        "set-goodbye",
+        "setgoodbye"
+      ]
+    },
+    {
+      "aliases": [
+        "setlang",
+        "set-language",
+        "setlanguage"
+      ],
+      "category": "group",
+      "name": "set-lang",
+      "path": "/commands/group/set-lang",
+      "tags": [
+        "set-lang",
+        "setlang",
+        "set-language",
+        "setlanguage"
+      ]
+    },
+    {
+      "aliases": [
+        "setwelcome"
+      ],
+      "category": "group",
+      "name": "set-welcome",
+      "path": "/commands/group/set-welcome",
+      "tags": [
+        "set-welcome",
+        "setwelcome"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "setdesc",
+      "path": "/commands/group/setdesc",
+      "tags": [
+        "setdesc"
+      ]
+    },
+    {
+      "aliases": [
+        "setgrouppp",
+        "setppgroup",
+        "set-group-pict",
+        "setgrouppict"
+      ],
+      "category": "group",
+      "name": "setppgc",
+      "path": "/commands/group/setppgc",
+      "tags": [
+        "setppgc",
+        "setgrouppp",
+        "setppgroup",
+        "set-group-pict",
+        "setgrouppict"
+      ]
+    },
+    {
+      "aliases": [
+        "schedule",
+        "autoopen"
+      ],
+      "category": "group",
+      "name": "setschedule",
+      "path": "/commands/group/setschedule",
+      "tags": [
+        "setschedule",
+        "schedule",
+        "autoopen"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "setsubject",
+      "path": "/commands/group/setsubject",
+      "tags": [
+        "setsubject"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "sider",
+      "path": "/commands/group/sider",
+      "tags": [
+        "sider"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "sync-group",
+      "path": "/commands/group/sync-group",
+      "tags": [
+        "sync-group"
+      ]
+    },
+    {
+      "aliases": [
+        "tag"
+      ],
+      "category": "group",
+      "name": "tagall",
+      "path": "/commands/group/tagall",
+      "tags": [
+        "tagall",
+        "tag"
+      ]
+    },
+    {
+      "aliases": [
+        "topaktif",
+        "topactive"
+      ],
+      "category": "group",
+      "name": "top-active",
+      "path": "/commands/group/top-active",
+      "tags": [
+        "top-active",
+        "topaktif",
+        "topactive"
+      ]
+    },
+    {
+      "aliases": [
+        "unbanchat"
+      ],
+      "category": "group",
+      "name": "unban-chat",
+      "path": "/commands/group/unban-chat",
+      "tags": [
+        "unban-chat",
+        "unbanchat"
+      ]
+    },
+    {
+      "aliases": [
+        "unbanmember"
+      ],
+      "category": "group",
+      "name": "unban-member",
+      "path": "/commands/group/unban-member",
+      "tags": [
+        "unban-member",
+        "unbanmember"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "unmute",
+      "path": "/commands/group/unmute",
+      "tags": [
+        "unmute"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "warn",
+      "path": "/commands/group/warn",
+      "tags": [
+        "warn"
+      ]
+    },
+    {
+      "aliases": [
+        "warnlist"
+      ],
+      "category": "group",
+      "name": "warnings",
+      "path": "/commands/group/warnings",
+      "tags": [
+        "warnings",
+        "warnlist"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "welcome",
+      "path": "/commands/group/welcome",
+      "tags": [
+        "welcome"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "meme",
+      "name": "beautiful",
+      "path": "/commands/meme/beautiful",
+      "tags": [
+        "beautiful"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "meme",
+      "name": "delete",
+      "path": "/commands/meme/delete",
+      "tags": [
+        "delete"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "meme",
+      "name": "index",
+      "path": "/commands/meme/index",
+      "tags": [
+        "index"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "meme",
+      "name": "jail",
+      "path": "/commands/meme/jail",
+      "tags": [
+        "jail"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "meme",
+      "name": "shit",
+      "path": "/commands/meme/shit",
+      "tags": [
+        "shit"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "meme",
+      "name": "trash",
+      "path": "/commands/meme/trash",
+      "tags": [
+        "trash"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "meme",
+      "name": "trigger",
+      "path": "/commands/meme/trigger",
+      "tags": [
+        "trigger"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "meme",
+      "name": "wanted",
+      "path": "/commands/meme/wanted",
+      "tags": [
+        "wanted"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "meme",
+      "name": "wasted",
+      "path": "/commands/meme/wasted",
+      "tags": [
+        "wasted"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "owner",
+      "name": "$",
+      "path": "/commands/owner/$",
+      "tags": [
+        "$"
+      ]
+    },
+    {
+      "aliases": [
+        "addpremium"
+      ],
+      "category": "owner",
+      "name": "addprem",
+      "path": "/commands/owner/addprem",
+      "tags": [
+        "addprem",
+        "addpremium"
+      ]
+    },
+    {
+      "aliases": [
+        "banuser"
+      ],
+      "category": "owner",
+      "name": "ban-user",
+      "path": "/commands/owner/ban-user",
+      "tags": [
+        "ban-user",
+        "banuser"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "owner",
+      "name": "banmedia",
+      "path": "/commands/owner/banmedia",
+      "tags": [
+        "banmedia"
+      ]
+    },
+    {
+      "aliases": [
+        "createredeem"
+      ],
+      "category": "owner",
+      "name": "create-redeem",
+      "path": "/commands/owner/create-redeem",
+      "tags": [
+        "create-redeem",
+        "createredeem"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "owner",
+      "name": "credeem",
+      "path": "/commands/owner/credeem",
+      "tags": [
+        "credeem"
+      ]
+    },
+    {
+      "aliases": [
+        "errlog"
+      ],
+      "category": "owner",
+      "name": "errors",
+      "path": "/commands/owner/errors",
+      "tags": [
+        "errors",
+        "errlog"
+      ]
+    },
+    {
+      "aliases": [
+        "hban"
+      ],
+      "category": "owner",
+      "name": "hardban",
+      "path": "/commands/owner/hardban",
+      "tags": [
+        "hardban",
+        "hban"
       ]
     },
     {
@@ -983,79 +2074,79 @@
     },
     {
       "aliases": [
-        "set-age"
-      ],
-      "category": "profile",
-      "name": "setage",
-      "path": "/commands/profile/setage",
-      "tags": [
-        "setage",
-        "set-age"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "setsubject",
-      "path": "/commands/group/setsubject",
-      "tags": [
-        "setsubject"
-      ]
-    },
-    {
-      "aliases": [
-        "createredeem"
+        "hbanlist"
       ],
       "category": "owner",
-      "name": "create-redeem",
-      "path": "/commands/owner/create-redeem",
+      "name": "hardbanlist",
+      "path": "/commands/owner/hardbanlist",
       "tags": [
-        "create-redeem",
-        "createredeem"
+        "hardbanlist",
+        "hbanlist"
+      ]
+    },
+    {
+      "aliases": [
+        "hunban"
+      ],
+      "category": "owner",
+      "name": "hardunban",
+      "path": "/commands/owner/hardunban",
+      "tags": [
+        "hardunban",
+        "hunban"
+      ]
+    },
+    {
+      "aliases": [
+        "hunbangc",
+        "hardunbangrup"
+      ],
+      "category": "owner",
+      "name": "hardunbangc",
+      "path": "/commands/owner/hardunbangc",
+      "tags": [
+        "hardunbangc",
+        "hunbangc",
+        "hardunbangrup"
       ]
     },
     {
       "aliases": [],
-      "category": "bot",
-      "name": "autoread",
-      "path": "/commands/bot/autoread",
+      "category": "owner",
+      "name": "index",
+      "path": "/commands/owner/index",
       "tags": [
-        "autoread"
+        "index"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "owner",
+      "name": "logger",
+      "path": "/commands/owner/logger",
+      "tags": [
+        "logger"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "owner",
+      "name": "restart",
+      "path": "/commands/owner/restart",
+      "tags": [
+        "restart"
       ]
     },
     {
       "aliases": [
-        "deletechat"
+        "unbanuser"
       ],
-      "category": "bot",
-      "name": "Delete Chat",
-      "path": "/commands/bot/Delete Chat",
+      "category": "owner",
+      "name": "unban-user",
+      "path": "/commands/owner/unban-user",
       "tags": [
-        "deletechat"
-      ]
-    },
-    {
-      "aliases": [
-        "upstatus"
-      ],
-      "category": "general",
-      "name": "upsw",
-      "path": "/commands/general/upsw",
-      "tags": [
-        "upsw",
-        "upstatus"
-      ]
-    },
-    {
-      "aliases": [
-        "opn"
-      ],
-      "category": "group",
-      "name": "open",
-      "path": "/commands/group/open",
-      "tags": [
-        "open",
-        "opn"
+        "unban-user",
+        "unbanuser"
       ]
     },
     {
@@ -1068,49 +2159,251 @@
       ]
     },
     {
-      "aliases": [
-        "tgsticker",
-        "tgs"
-      ],
-      "category": "downloader",
-      "name": "telegramsticker",
-      "path": "/commands/downloader/telegramsticker",
+      "aliases": [],
+      "category": "profile",
+      "name": "afk",
+      "path": "/commands/profile/afk",
       "tags": [
-        "telegramsticker",
-        "tgsticker",
-        "tgs"
+        "afk"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "profile",
+      "name": "cekpremium",
+      "path": "/commands/profile/cekpremium",
+      "tags": [
+        "cekpremium"
+      ]
+    },
+    {
+      "aliases": [
+        "changepassword"
+      ],
+      "category": "profile",
+      "name": "change-password",
+      "path": "/commands/profile/change-password",
+      "tags": [
+        "change-password",
+        "changepassword"
+      ]
+    },
+    {
+      "aliases": [
+        "getpic"
+      ],
+      "category": "profile",
+      "name": "getpp",
+      "path": "/commands/profile/getpp",
+      "tags": [
+        "getpp",
+        "getpic"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "profile",
+      "name": "index",
+      "path": "/commands/profile/index",
+      "tags": [
+        "index"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "profile",
+      "name": "level",
+      "path": "/commands/profile/level",
+      "tags": [
+        "level"
+      ]
+    },
+    {
+      "aliases": [
+        "me"
+      ],
+      "category": "profile",
+      "name": "profile",
+      "path": "/commands/profile/profile",
+      "tags": [
+        "profile",
+        "me"
+      ]
+    },
+    {
+      "aliases": [
+        "set-age"
+      ],
+      "category": "profile",
+      "name": "setage",
+      "path": "/commands/profile/setage",
+      "tags": [
+        "setage",
+        "set-age"
+      ]
+    },
+    {
+      "aliases": [
+        "set-bio"
+      ],
+      "category": "profile",
+      "name": "setbio",
+      "path": "/commands/profile/setbio",
+      "tags": [
+        "setbio",
+        "set-bio"
+      ]
+    },
+    {
+      "aliases": [
+        "set-gender"
+      ],
+      "category": "profile",
+      "name": "setgender",
+      "path": "/commands/profile/setgender",
+      "tags": [
+        "setgender",
+        "set-gender"
+      ]
+    },
+    {
+      "aliases": [
+        "set-name"
+      ],
+      "category": "profile",
+      "name": "setname",
+      "path": "/commands/profile/setname",
+      "tags": [
+        "setname",
+        "set-name"
+      ]
+    },
+    {
+      "aliases": [
+        "set-prefix"
+      ],
+      "category": "profile",
+      "name": "setprefix",
+      "path": "/commands/profile/setprefix",
+      "tags": [
+        "setprefix",
+        "set-prefix"
+      ]
+    },
+    {
+      "aliases": [
+        "gsearch",
+        "cari"
+      ],
+      "category": "search",
+      "name": "google",
+      "path": "/commands/search/google",
+      "tags": [
+        "google",
+        "gsearch",
+        "cari"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "search",
+      "name": "index",
+      "path": "/commands/search/index",
+      "tags": [
+        "index"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "search",
+      "name": "jadwalsholat",
+      "path": "/commands/search/jadwalsholat",
+      "tags": [
+        "jadwalsholat"
+      ]
+    },
+    {
+      "aliases": [
+        "lirik",
+        "lyrics"
+      ],
+      "category": "search",
+      "name": "lyric",
+      "path": "/commands/search/lyric",
+      "tags": [
+        "lyric",
+        "lirik",
+        "lyrics"
+      ]
+    },
+    {
+      "aliases": [
+        "pinterestvideo",
+        "pinvid"
+      ],
+      "category": "search",
+      "name": "pinterest video",
+      "path": "/commands/search/pinterest video",
+      "tags": [
+        "pinterest video",
+        "pinterestvideo",
+        "pinvid"
+      ]
+    },
+    {
+      "aliases": [
+        "pin"
+      ],
+      "category": "search",
+      "name": "pinterest",
+      "path": "/commands/search/pinterest",
+      "tags": [
+        "pinterest",
+        "pin"
+      ]
+    },
+    {
+      "aliases": [
+        "sauce",
+        "source"
+      ],
+      "category": "search",
+      "name": "saucenao",
+      "path": "/commands/search/saucenao",
+      "tags": [
+        "saucenao",
+        "sauce",
+        "source"
+      ]
+    },
+    {
+      "aliases": [
+        "wh"
+      ],
+      "category": "search",
+      "name": "wallhaven",
+      "path": "/commands/search/wallhaven",
+      "tags": [
+        "wallhaven",
+        "wh"
       ]
     },
     {
       "aliases": [],
       "category": "tools",
-      "name": "iqc",
-      "path": "/commands/tools/iqc",
+      "name": "audioeffect",
+      "path": "/commands/tools/audioeffect",
       "tags": [
-        "iqc"
+        "audioeffect"
       ]
     },
     {
       "aliases": [],
-      "category": "owner",
-      "name": "$",
-      "path": "/commands/owner/$",
+      "category": "tools",
+      "name": "base64",
+      "path": "/commands/tools/base64",
       "tags": [
-        "$"
-      ]
-    },
-    {
-      "aliases": [
-        "setowner",
-        "sbo"
-      ],
-      "category": "bot",
-      "name": "setbotowner",
-      "path": "/commands/bot/setbotowner",
-      "tags": [
-        "setbotowner",
-        "setowner",
-        "sbo"
+        "base64"
       ]
     },
     {
@@ -1147,14 +2440,43 @@
     },
     {
       "aliases": [
-        "gc"
+        "calc",
+        "kalkulator"
       ],
-      "category": "game",
-      "name": "groupcontrib",
-      "path": "/commands/game/groupcontrib",
+      "category": "tools",
+      "name": "calculator",
+      "path": "/commands/tools/calculator",
       "tags": [
-        "groupcontrib",
-        "gc"
+        "calculator",
+        "calc",
+        "kalkulator"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "color",
+      "path": "/commands/tools/color",
+      "tags": [
+        "color"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "compress",
+      "path": "/commands/tools/compress",
+      "tags": [
+        "compress"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "crop",
+      "path": "/commands/tools/crop",
+      "tags": [
+        "crop"
       ]
     },
     {
@@ -1167,693 +2489,55 @@
       ]
     },
     {
-      "aliases": [
-        "gameprofile"
-      ],
-      "category": "game",
-      "name": "profilegame",
-      "path": "/commands/game/profilegame",
-      "tags": [
-        "profilegame",
-        "gameprofile"
-      ]
-    },
-    {
       "aliases": [],
-      "category": "game",
-      "name": "groupstats",
-      "path": "/commands/game/groupstats",
+      "category": "tools",
+      "name": "hex",
+      "path": "/commands/tools/hex",
       "tags": [
-        "groupstats"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "profile",
-      "name": "cekpremium",
-      "path": "/commands/profile/cekpremium",
-      "tags": [
-        "cekpremium"
+        "hex"
       ]
     },
     {
       "aliases": [
-        "gsearch",
-        "cari"
-      ],
-      "category": "search",
-      "name": "google",
-      "path": "/commands/search/google",
-      "tags": [
-        "google",
-        "gsearch",
-        "cari"
-      ]
-    },
-    {
-      "aliases": [
-        "donasi"
-      ],
-      "category": "general",
-      "name": "donate",
-      "path": "/commands/general/donate",
-      "tags": [
-        "donate",
-        "donasi"
-      ]
-    },
-    {
-      "aliases": [
-        "listdonatur",
-        "donaturs"
-      ],
-      "category": "general",
-      "name": "donatur",
-      "path": "/commands/general/donatur",
-      "tags": [
-        "donatur",
-        "listdonatur",
-        "donaturs"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "game",
-      "name": "rival",
-      "path": "/commands/game/rival",
-      "tags": [
-        "rival"
-      ]
-    },
-    {
-      "aliases": [
-        "toanime"
-      ],
-      "category": "ai",
-      "name": "jadianime",
-      "path": "/commands/ai/jadianime",
-      "tags": [
-        "jadianime",
-        "toanime"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "game",
-      "name": "groupcarry",
-      "path": "/commands/game/groupcarry",
-      "tags": [
-        "groupcarry"
-      ]
-    },
-    {
-      "aliases": [
-        "tourl"
+        "httpreq",
+        "fetch",
+        "request"
       ],
       "category": "tools",
-      "name": "upload",
-      "path": "/commands/tools/upload",
+      "name": "httprequest",
+      "path": "/commands/tools/httprequest",
       "tags": [
-        "upload",
-        "tourl"
-      ]
-    },
-    {
-      "aliases": [
-        "hunbangc",
-        "hardunbangrup"
-      ],
-      "category": "owner",
-      "name": "hardunbangc",
-      "path": "/commands/owner/hardunbangc",
-      "tags": [
-        "hardunbangc",
-        "hunbangc",
-        "hardunbangrup"
-      ]
-    },
-    {
-      "aliases": [
-        "settings"
-      ],
-      "category": "bot",
-      "name": "botsettings",
-      "path": "/commands/bot/botsettings",
-      "tags": [
-        "botsettings",
-        "settings"
-      ]
-    },
-    {
-      "aliases": [
-        "fb"
-      ],
-      "category": "downloader",
-      "name": "facebook",
-      "path": "/commands/downloader/facebook",
-      "tags": [
-        "facebook",
-        "fb"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "antimedia",
-      "path": "/commands/group/antimedia",
-      "tags": [
-        "antimedia"
-      ]
-    },
-    {
-      "aliases": [
-        "hban"
-      ],
-      "category": "owner",
-      "name": "hardban",
-      "path": "/commands/owner/hardban",
-      "tags": [
-        "hardban",
-        "hban"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "game",
-      "name": "math",
-      "path": "/commands/game/math",
-      "tags": [
-        "math"
-      ]
-    },
-    {
-      "aliases": [
-        "antinsfw"
-      ],
-      "category": "group",
-      "name": "antinsfwmedia",
-      "path": "/commands/group/antinsfwmedia",
-      "tags": [
-        "antinsfwmedia",
-        "antinsfw"
+        "httprequest",
+        "httpreq",
+        "fetch",
+        "request"
       ]
     },
     {
       "aliases": [],
       "category": "tools",
-      "name": "reverse",
-      "path": "/commands/tools/reverse",
+      "name": "humming",
+      "path": "/commands/tools/humming",
       "tags": [
-        "reverse"
-      ]
-    },
-    {
-      "aliases": [
-        "dice"
-      ],
-      "category": "fun",
-      "name": "dadu",
-      "path": "/commands/fun/dadu",
-      "tags": [
-        "dadu",
-        "dice"
-      ]
-    },
-    {
-      "aliases": [
-        "mutelist"
-      ],
-      "category": "group",
-      "name": "listmute",
-      "path": "/commands/group/listmute",
-      "tags": [
-        "listmute",
-        "mutelist"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "left",
-      "path": "/commands/group/left",
-      "tags": [
-        "left"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "bot",
-      "name": "autoclear",
-      "path": "/commands/bot/autoclear",
-      "tags": [
-        "autoclear"
-      ]
-    },
-    {
-      "aliases": [
-        "whatsong"
-      ],
-      "category": "tools",
-      "name": "whatmusic",
-      "path": "/commands/tools/whatmusic",
-      "tags": [
-        "whatmusic",
-        "whatsong"
-      ]
-    },
-    {
-      "aliases": [
-        "grouplb"
-      ],
-      "category": "game",
-      "name": "glb",
-      "path": "/commands/game/glb",
-      "tags": [
-        "glb",
-        "grouplb"
-      ]
-    },
-    {
-      "aliases": [
-        "listgrup",
-        "grouplist"
-      ],
-      "category": "general",
-      "name": "listgroup",
-      "path": "/commands/general/listgroup",
-      "tags": [
-        "listgroup",
-        "listgrup",
-        "grouplist"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "admin",
-      "name": "cleardb",
-      "path": "/commands/admin/cleardb",
-      "tags": [
-        "cleardb"
-      ]
-    },
-    {
-      "aliases": [
-        "getprivacy"
-      ],
-      "category": "bot",
-      "name": "getprivacysetting",
-      "path": "/commands/bot/getprivacysetting",
-      "tags": [
-        "getprivacysetting",
-        "getprivacy"
+        "humming"
       ]
     },
     {
       "aliases": [],
       "category": "tools",
-      "name": "trim",
-      "path": "/commands/tools/trim",
+      "name": "index",
+      "path": "/commands/tools/index",
       "tags": [
-        "trim"
+        "index"
       ]
     },
     {
       "aliases": [],
-      "category": "youtube",
-      "name": "play2",
-      "path": "/commands/youtube/play2",
-      "tags": [
-        "play2"
-      ]
-    },
-    {
-      "aliases": [
-        "dl",
-        "download"
-      ],
-      "category": "downloader",
-      "name": "ytdl",
-      "path": "/commands/downloader/ytdl",
-      "tags": [
-        "dl",
-        "download",
-        "ytdl"
-      ]
-    },
-    {
-      "aliases": [
-        "coin"
-      ],
-      "category": "fun",
-      "name": "koin",
-      "path": "/commands/fun/koin",
-      "tags": [
-        "koin",
-        "coin"
-      ]
-    },
-    {
-      "aliases": [
-        "unbanuser"
-      ],
-      "category": "owner",
-      "name": "unban-user",
-      "path": "/commands/owner/unban-user",
-      "tags": [
-        "unban-user",
-        "unbanuser"
-      ]
-    },
-    {
-      "aliases": [
-        "official"
-      ],
-      "category": "bot",
-      "name": "botofficial",
-      "path": "/commands/bot/botofficial",
-      "tags": [
-        "botofficial",
-        "official"
-      ]
-    },
-    {
-      "aliases": [
-        "ytmusicsearch"
-      ],
-      "category": "youtube",
-      "name": "ytms",
-      "path": "/commands/youtube/ytms",
-      "tags": [
-        "ytms",
-        "ytmusicsearch"
-      ]
-    },
-    {
-      "aliases": [
-        "youtube"
-      ],
-      "category": "youtube",
-      "name": "yt",
-      "path": "/commands/youtube/yt",
-      "tags": [
-        "yt",
-        "youtube"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "ai",
-      "name": "gemini",
-      "path": "/commands/ai/gemini",
-      "tags": [
-        "gemini"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "meme",
-      "name": "jail",
-      "path": "/commands/meme/jail",
-      "tags": [
-        "jail"
-      ]
-    },
-    {
-      "aliases": [
-        "stiker",
-        "swm",
-        "s"
-      ],
       "category": "tools",
-      "name": "sticker",
-      "path": "/commands/tools/sticker",
+      "name": "iqc",
+      "path": "/commands/tools/iqc",
       "tags": [
-        "sticker",
-        "stiker",
-        "swm",
-        "s"
-      ]
-    },
-    {
-      "aliases": [
-        "tambahdonatur"
-      ],
-      "category": "general",
-      "name": "adddonatur",
-      "path": "/commands/general/adddonatur",
-      "tags": [
-        "adddonatur",
-        "tambahdonatur"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "antibot",
-      "path": "/commands/group/antibot",
-      "tags": [
-        "antibot"
-      ]
-    },
-    {
-      "aliases": [
-        "sendme"
-      ],
-      "category": "group",
-      "name": "send",
-      "path": "/commands/group/send",
-      "tags": [
-        "send",
-        "sendme"
-      ]
-    },
-    {
-      "aliases": [
-        "check"
-      ],
-      "category": "fun",
-      "name": "cek",
-      "path": "/commands/fun/cek",
-      "tags": [
-        "cek",
-        "check"
-      ]
-    },
-    {
-      "aliases": [
-        "buyprem",
-        "buypremium"
-      ],
-      "category": "general",
-      "name": "premium",
-      "path": "/commands/general/premium",
-      "tags": [
-        "premium",
-        "buyprem",
-        "buypremium"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "banlist",
-      "path": "/commands/group/banlist",
-      "tags": [
-        "banlist"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "owner",
-      "name": "banmedia",
-      "path": "/commands/owner/banmedia",
-      "tags": [
-        "banmedia"
-      ]
-    },
-    {
-      "aliases": [
-        "setnamebot",
-        "set-bot-name"
-      ],
-      "category": "bot",
-      "name": "setbotname",
-      "path": "/commands/bot/setbotname",
-      "tags": [
-        "setbotname",
-        "setnamebot",
-        "set-bot-name"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "youtube",
-      "name": "ytmp3",
-      "path": "/commands/youtube/ytmp3",
-      "tags": [
-        "ytmp3"
-      ]
-    },
-    {
-      "aliases": [
-        "set-prefix"
-      ],
-      "category": "profile",
-      "name": "setprefix",
-      "path": "/commands/profile/setprefix",
-      "tags": [
-        "setprefix",
-        "set-prefix"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "autorespon",
-      "path": "/commands/group/autorespon",
-      "tags": [
-        "autorespon"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "mute",
-      "path": "/commands/group/mute",
-      "tags": [
-        "mute"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "ai",
-      "name": "ai",
-      "path": "/commands/ai/ai",
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "aliases": [
-        "ga"
-      ],
-      "category": "game",
-      "name": "groupachievements",
-      "path": "/commands/game/groupachievements",
-      "tags": [
-        "groupachievements",
-        "ga"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "game",
-      "name": "tebakbendera",
-      "path": "/commands/game/tebakbendera",
-      "tags": [
-        "tebakbendera"
-      ]
-    },
-    {
-      "aliases": [
-        "tl",
-        "tr"
-      ],
-      "category": "tools",
-      "name": "translate",
-      "path": "/commands/tools/translate",
-      "tags": [
-        "translate",
-        "tl",
-        "tr"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "general",
-      "name": "join",
-      "path": "/commands/general/join",
-      "tags": [
-        "join"
-      ]
-    },
-    {
-      "aliases": [
-        "ht",
-        "h"
-      ],
-      "category": "group",
-      "name": "hidetag",
-      "path": "/commands/group/hidetag",
-      "tags": [
-        "hidetag",
-        "ht",
-        "h"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "owner",
-      "name": "logger",
-      "path": "/commands/owner/logger",
-      "tags": [
-        "logger"
-      ]
-    },
-    {
-      "aliases": [
-        "set-name"
-      ],
-      "category": "profile",
-      "name": "setname",
-      "path": "/commands/profile/setname",
-      "tags": [
-        "set-name",
-        "setname"
-      ]
-    },
-    {
-      "aliases": [
-        "warninglist"
-      ],
-      "category": "group",
-      "name": "listwarning",
-      "path": "/commands/group/listwarning",
-      "tags": [
-        "listwarning",
-        "warninglist"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "profile",
-      "name": "afk",
-      "path": "/commands/profile/afk",
-      "tags": [
-        "afk"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "game",
-      "name": "siapakahaku",
-      "path": "/commands/game/siapakahaku",
-      "tags": [
-        "siapakahaku"
-      ]
-    },
-    {
-      "aliases": [
-        "resetaigroup",
-        "resetaigrup"
-      ],
-      "category": "ai",
-      "name": "reset-ai-group",
-      "path": "/commands/ai/reset-ai-group",
-      "tags": [
-        "reset-ai-group",
-        "resetaigroup",
-        "resetaigrup"
+        "iqc"
       ]
     },
     {
@@ -1870,203 +2554,44 @@
     },
     {
       "aliases": [
-        "ytvideo"
+        "googlelens"
       ],
-      "category": "youtube",
-      "name": "ytmp4",
-      "path": "/commands/youtube/ytmp4",
+      "category": "tools",
+      "name": "lens",
+      "path": "/commands/tools/lens",
       "tags": [
-        "ytmp4",
-        "ytvideo"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "game",
-      "name": "tebakgambar",
-      "path": "/commands/game/tebakgambar",
-      "tags": [
-        "tebakgambar"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "listban",
-      "path": "/commands/group/listban",
-      "tags": [
-        "listban"
-      ]
-    },
-    {
-      "aliases": [
-        "setgrouppp",
-        "setppgroup",
-        "set-group-pict",
-        "setgrouppict"
-      ],
-      "category": "group",
-      "name": "setppgc",
-      "path": "/commands/group/setppgc",
-      "tags": [
-        "setppgc",
-        "setgrouppp",
-        "setppgroup",
-        "set-group-pict",
-        "setgrouppict"
+        "lens",
+        "googlelens"
       ]
     },
     {
       "aliases": [],
       "category": "tools",
-      "name": "humming",
-      "path": "/commands/tools/humming",
+      "name": "morse",
+      "path": "/commands/tools/morse",
       "tags": [
-        "humming"
+        "morse"
       ]
     },
     {
       "aliases": [],
-      "category": "bot",
-      "name": "get-otp-login",
-      "path": "/commands/bot/get-otp-login",
+      "category": "tools",
+      "name": "ocr",
+      "path": "/commands/tools/ocr",
       "tags": [
-        "get-otp-login"
+        "ocr"
       ]
     },
     {
       "aliases": [
-        "pinterestvideo",
-        "pinvid"
-      ],
-      "category": "search",
-      "name": "pinterest video",
-      "path": "/commands/search/pinterest video",
-      "tags": [
-        "pinterestvideo",
-        "pinvid"
-      ]
-    },
-    {
-      "aliases": [
-        "gruplink",
-        "link"
-      ],
-      "category": "group",
-      "name": "linkgc",
-      "path": "/commands/group/linkgc",
-      "tags": [
-        "linkgc",
-        "gruplink",
-        "link"
-      ]
-    },
-    {
-      "aliases": [
-        "mystats",
-        "mygamescore"
-      ],
-      "category": "game",
-      "name": "stats",
-      "path": "/commands/game/stats",
-      "tags": [
-        "stats",
-        "mystats",
-        "mygamescore"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "info",
-      "path": "/commands/group/info",
-      "tags": [
-        "info"
-      ]
-    },
-    {
-      "aliases": [
-        "rps"
-      ],
-      "category": "fun",
-      "name": "suit",
-      "path": "/commands/fun/suit",
-      "tags": [
-        "suit",
-        "rps"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "add",
-      "path": "/commands/group/add",
-      "tags": [
-        "add"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "promote",
-      "path": "/commands/group/promote",
-      "tags": [
-        "promote"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "youtube",
-      "name": "play",
-      "path": "/commands/youtube/play",
-      "tags": [
-        "play"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "bot",
-      "name": "bot",
-      "path": "/commands/bot/bot",
-      "tags": [
-        "bot"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "profile",
-      "name": "level",
-      "path": "/commands/profile/level",
-      "tags": [
-        "level"
-      ]
-    },
-    {
-      "aliases": [
-        "ismeme",
-        "jsmeme",
-        "tsmeme"
+        "pixel"
       ],
       "category": "tools",
-      "name": "smeme",
-      "path": "/commands/tools/smeme",
+      "name": "pixelate",
+      "path": "/commands/tools/pixelate",
       "tags": [
-        "smeme",
-        "ismeme",
-        "jsmeme",
-        "tsmeme"
-      ]
-    },
-    {
-      "aliases": [
-        "clearwarn"
-      ],
-      "category": "group",
-      "name": "resetwarn",
-      "path": "/commands/group/resetwarn",
-      "tags": [
-        "resetwarn",
-        "clearwarn"
+        "pixelate",
+        "pixel"
       ]
     },
     {
@@ -2089,393 +2614,6 @@
     },
     {
       "aliases": [],
-      "category": "owner",
-      "name": "restart",
-      "path": "/commands/owner/restart",
-      "tags": [
-        "restart"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "fun",
-      "name": "reaction",
-      "path": "/commands/fun/reaction",
-      "tags": [
-        "reaction"
-      ]
-    },
-    {
-      "aliases": [
-        "pindl",
-        "ptdl"
-      ],
-      "category": "downloader",
-      "name": "pinterest dl",
-      "path": "/commands/downloader/pinterest dl",
-      "tags": [
-        "pindl",
-        "ptdl"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "ocr",
-      "path": "/commands/tools/ocr",
-      "tags": [
-        "ocr"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "game",
-      "name": "asahotak",
-      "path": "/commands/game/asahotak",
-      "tags": [
-        "asahotak"
-      ]
-    },
-    {
-      "aliases": [
-        "unbanmember"
-      ],
-      "category": "group",
-      "name": "unban-member",
-      "path": "/commands/group/unban-member",
-      "tags": [
-        "unban-member",
-        "unbanmember"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "owner",
-      "name": "credeem",
-      "path": "/commands/owner/credeem",
-      "tags": [
-        "credeem"
-      ]
-    },
-    {
-      "aliases": [
-        "banuser"
-      ],
-      "category": "owner",
-      "name": "ban-user",
-      "path": "/commands/owner/ban-user",
-      "tags": [
-        "ban-user",
-        "banuser"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "game",
-      "name": "caklontong",
-      "path": "/commands/game/caklontong",
-      "tags": [
-        "caklontong"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "fun",
-      "name": "roast",
-      "path": "/commands/fun/roast",
-      "tags": [
-        "roast"
-      ]
-    },
-    {
-      "aliases": [
-        "toanimev2"
-      ],
-      "category": "ai",
-      "name": "jadianimev2",
-      "path": "/commands/ai/jadianimev2",
-      "tags": [
-        "jadianimev2",
-        "toanimev2"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "meme",
-      "name": "beautiful",
-      "path": "/commands/meme/beautiful",
-      "tags": [
-        "beautiful"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "color",
-      "path": "/commands/tools/color",
-      "tags": [
-        "color"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "general",
-      "name": "ping",
-      "path": "/commands/general/ping",
-      "tags": [
-        "ping"
-      ]
-    },
-    {
-      "aliases": [
-        "rc"
-      ],
-      "category": "bot",
-      "name": "rejectcall",
-      "path": "/commands/bot/rejectcall",
-      "tags": [
-        "rejectcall",
-        "rc"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "bot",
-      "name": "swap",
-      "path": "/commands/bot/swap",
-      "tags": [
-        "swap"
-      ]
-    },
-    {
-      "aliases": [
-        "newlinkgc",
-        "resetlink"
-      ],
-      "category": "group",
-      "name": "revoke",
-      "path": "/commands/group/revoke",
-      "tags": [
-        "revoke",
-        "newlinkgc",
-        "resetlink"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "antitagsw",
-      "path": "/commands/group/antitagsw",
-      "tags": [
-        "antitagsw"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "welcome",
-      "path": "/commands/group/welcome",
-      "tags": [
-        "welcome"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "game",
-      "name": "groupmvp",
-      "path": "/commands/game/groupmvp",
-      "tags": [
-        "groupmvp"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "warn",
-      "path": "/commands/group/warn",
-      "tags": [
-        "warn"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "game",
-      "name": "tebakbom",
-      "path": "/commands/game/tebakbom",
-      "tags": [
-        "tebakbom"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "general",
-      "name": "redeem",
-      "path": "/commands/general/redeem",
-      "tags": [
-        "redeem"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "ai",
-      "name": "deepseek",
-      "path": "/commands/ai/deepseek",
-      "tags": [
-        "deepseek"
-      ]
-    },
-    {
-      "aliases": [
-        "broadcastgroup"
-      ],
-      "category": "admin",
-      "name": "bcgroup",
-      "path": "/commands/admin/bcgroup",
-      "tags": [
-        "bcgroup",
-        "broadcastgroup"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "rotate",
-      "path": "/commands/tools/rotate",
-      "tags": [
-        "rotate"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "admin",
-      "name": "deletenametable",
-      "path": "/commands/admin/deletenametable",
-      "tags": [
-        "deletenametable"
-      ]
-    },
-    {
-      "aliases": [
-        "bc"
-      ],
-      "category": "admin",
-      "name": "broadcast",
-      "path": "/commands/admin/broadcast",
-      "tags": [
-        "broadcast",
-        "bc"
-      ]
-    },
-    {
-      "aliases": [
-        "pxdl"
-      ],
-      "category": "downloader",
-      "name": "pixiv",
-      "path": "/commands/downloader/pixiv",
-      "tags": [
-        "pixiv",
-        "pxdl"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "compress",
-      "path": "/commands/tools/compress",
-      "tags": [
-        "compress"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "meme",
-      "name": "wanted",
-      "path": "/commands/meme/wanted",
-      "tags": [
-        "wanted"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "meme",
-      "name": "wasted",
-      "path": "/commands/meme/wasted",
-      "tags": [
-        "wasted"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "antilink",
-      "path": "/commands/group/antilink",
-      "tags": [
-        "antilink"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "bot",
-      "name": "setprivacy",
-      "path": "/commands/bot/setprivacy",
-      "tags": [
-        "setprivacy"
-      ]
-    },
-    {
-      "aliases": [
-        "googlelens"
-      ],
-      "category": "tools",
-      "name": "lens",
-      "path": "/commands/tools/lens",
-      "tags": [
-        "lens",
-        "googlelens"
-      ]
-    },
-    {
-      "aliases": [
-        "text2speech"
-      ],
-      "category": "tools",
-      "name": "tts",
-      "path": "/commands/tools/tts",
-      "tags": [
-        "tts",
-        "text2speech"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "bot",
-      "name": "botinfo",
-      "path": "/commands/bot/botinfo",
-      "tags": [
-        "botinfo"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "bot",
-      "name": "joinmode",
-      "path": "/commands/bot/joinmode",
-      "tags": [
-        "joinmode"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "resize",
-      "path": "/commands/tools/resize",
-      "tags": [
-        "resize"
-      ]
-    },
-    {
-      "aliases": [],
       "category": "tools",
       "name": "qr",
       "path": "/commands/tools/qr",
@@ -2494,193 +2632,149 @@
     },
     {
       "aliases": [
-        "lb",
-        "ranking"
-      ],
-      "category": "game",
-      "name": "leaderboard",
-      "path": "/commands/game/leaderboard",
-      "tags": [
-        "leaderboard",
-        "lb",
-        "ranking"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "demote",
-      "path": "/commands/group/demote",
-      "tags": [
-        "demote"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "unmute",
-      "path": "/commands/group/unmute",
-      "tags": [
-        "unmute"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "youtube",
-      "name": "album",
-      "path": "/commands/youtube/album",
-      "tags": [
-        "album"
-      ]
-    },
-    {
-      "aliases": [
-        "tgsv2"
-      ],
-      "category": "downloader",
-      "name": "telegramstickerv2",
-      "path": "/commands/downloader/telegramstickerv2",
-      "tags": [
-        "telegramstickerv2",
-        "tgsv2"
-      ]
-    },
-    {
-      "aliases": [
-        "pixel"
+        "rmbg",
+        "rbg"
       ],
       "category": "tools",
-      "name": "pixelate",
-      "path": "/commands/tools/pixelate",
+      "name": "removebg",
+      "path": "/commands/tools/removebg",
       "tags": [
-        "pixelate",
-        "pixel"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "bot",
-      "name": "jadibot",
-      "path": "/commands/bot/jadibot",
-      "tags": [
-        "jadibot"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "ai",
-      "name": "qwen",
-      "path": "/commands/ai/qwen",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "game",
-      "name": "susunkata",
-      "path": "/commands/game/susunkata",
-      "tags": [
-        "susunkata"
-      ]
-    },
-    {
-      "aliases": [
-        "banmember"
-      ],
-      "category": "group",
-      "name": "ban-member",
-      "path": "/commands/group/ban-member",
-      "tags": [
-        "ban-member",
-        "banmember"
+        "removebg",
+        "rmbg",
+        "rbg"
       ]
     },
     {
       "aliases": [],
       "category": "tools",
-      "name": "morse",
-      "path": "/commands/tools/morse",
+      "name": "resize",
+      "path": "/commands/tools/resize",
       "tags": [
-        "morse"
+        "resize"
       ]
     },
     {
       "aliases": [],
-      "category": "ai",
-      "name": "llm",
-      "path": "/commands/ai/llm",
+      "category": "tools",
+      "name": "reverse",
+      "path": "/commands/tools/reverse",
       "tags": [
-        "llm"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "bot",
-      "name": "track-bot",
-      "path": "/commands/bot/track-bot",
-      "tags": [
-        "track-bot"
+        "reverse"
       ]
     },
     {
       "aliases": [
-        "me"
+        "romaji",
+        "roman"
       ],
-      "category": "profile",
-      "name": "profile",
-      "path": "/commands/profile/profile",
+      "category": "tools",
+      "name": "romanize",
+      "path": "/commands/tools/romanize",
       "tags": [
-        "profile",
-        "me"
+        "romanize",
+        "romaji",
+        "roman"
       ]
     },
     {
       "aliases": [],
-      "category": "game",
-      "name": "groupcompare",
-      "path": "/commands/game/groupcompare",
+      "category": "tools",
+      "name": "rotate",
+      "path": "/commands/tools/rotate",
       "tags": [
-        "groupcompare"
+        "rotate"
       ]
     },
     {
       "aliases": [],
-      "category": "general",
-      "name": "upsw2",
-      "path": "/commands/general/upsw2",
+      "category": "tools",
+      "name": "setqris",
+      "path": "/commands/tools/setqris",
       "tags": [
-        "upsw2"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "badword",
-      "path": "/commands/group/badword",
-      "tags": [
-        "badword"
+        "setqris"
       ]
     },
     {
       "aliases": [
-        "setwelcome"
+        "ismeme",
+        "jsmeme",
+        "tsmeme"
       ],
-      "category": "group",
-      "name": "set-welcome",
-      "path": "/commands/group/set-welcome",
+      "category": "tools",
+      "name": "smeme",
+      "path": "/commands/tools/smeme",
       "tags": [
-        "set-welcome",
-        "setwelcome"
+        "smeme",
+        "ismeme",
+        "jsmeme",
+        "tsmeme"
+      ]
+    },
+    {
+      "aliases": [
+        "ss",
+        "screenshot"
+      ],
+      "category": "tools",
+      "name": "ssweb",
+      "path": "/commands/tools/ssweb",
+      "tags": [
+        "ssweb",
+        "ss",
+        "screenshot"
+      ]
+    },
+    {
+      "aliases": [
+        "stiker",
+        "swm",
+        "s"
+      ],
+      "category": "tools",
+      "name": "sticker",
+      "path": "/commands/tools/sticker",
+      "tags": [
+        "sticker",
+        "stiker",
+        "swm",
+        "s"
+      ]
+    },
+    {
+      "aliases": [
+        "toaudio",
+        "tovn"
+      ],
+      "category": "tools",
+      "name": "tomp3",
+      "path": "/commands/tools/tomp3",
+      "tags": [
+        "tomp3",
+        "toaudio",
+        "tovn"
+      ]
+    },
+    {
+      "aliases": [
+        "tl",
+        "tr"
+      ],
+      "category": "tools",
+      "name": "translate",
+      "path": "/commands/tools/translate",
+      "tags": [
+        "translate",
+        "tl",
+        "tr"
       ]
     },
     {
       "aliases": [],
-      "category": "downloader",
-      "name": "tidal",
-      "path": "/commands/downloader/tidal",
+      "category": "tools",
+      "name": "trim",
+      "path": "/commands/tools/trim",
       "tags": [
-        "tidal"
+        "trim"
       ]
     },
     {
@@ -2698,81 +2792,73 @@
       ]
     },
     {
-      "aliases": [],
+      "aliases": [
+        "text2speech"
+      ],
       "category": "tools",
-      "name": "audioeffect",
-      "path": "/commands/tools/audioeffect",
+      "name": "tts",
+      "path": "/commands/tools/tts",
       "tags": [
-        "audioeffect"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "setqris",
-      "path": "/commands/tools/setqris",
-      "tags": [
-        "setqris"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "antilinkv2",
-      "path": "/commands/group/antilinkv2",
-      "tags": [
-        "antilinkv2"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "meme",
-      "name": "trash",
-      "path": "/commands/meme/trash",
-      "tags": [
-        "trash"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "crop",
-      "path": "/commands/tools/crop",
-      "tags": [
-        "crop"
+        "tts",
+        "text2speech"
       ]
     },
     {
       "aliases": [
-        "upstatusgrup"
+        "tourl"
       ],
-      "category": "general",
-      "name": "upswgc",
-      "path": "/commands/general/upswgc",
+      "category": "tools",
+      "name": "upload",
+      "path": "/commands/tools/upload",
       "tags": [
-        "upswgc",
-        "upstatusgrup"
+        "upload",
+        "tourl"
       ]
     },
     {
       "aliases": [
-        "warnlist"
+        "upscale",
+        "remini",
+        "hd"
       ],
-      "category": "group",
-      "name": "warnings",
-      "path": "/commands/group/warnings",
+      "category": "tools",
+      "name": "upscaler",
+      "path": "/commands/tools/upscaler",
       "tags": [
-        "warnings",
-        "warnlist"
+        "upscaler",
+        "upscale",
+        "remini",
+        "hd"
+      ]
+    },
+    {
+      "aliases": [
+        "whatsong"
+      ],
+      "category": "tools",
+      "name": "whatmusic",
+      "path": "/commands/tools/whatmusic",
+      "tags": [
+        "whatmusic",
+        "whatsong"
       ]
     },
     {
       "aliases": [],
-      "category": "group",
-      "name": "cmd",
-      "path": "/commands/group/cmd",
+      "category": "youtube",
+      "name": "album",
+      "path": "/commands/youtube/album",
       "tags": [
-        "cmd"
+        "album"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "youtube",
+      "name": "index",
+      "path": "/commands/youtube/index",
+      "tags": [
+        "index"
       ]
     },
     {
@@ -2786,20 +2872,77 @@
     },
     {
       "aliases": [],
-      "category": "downloader",
-      "name": "downloadstickerpack",
-      "path": "/commands/downloader/downloadstickerpack",
+      "category": "youtube",
+      "name": "play",
+      "path": "/commands/youtube/play",
       "tags": [
-        "downloadstickerpack"
+        "play"
       ]
     },
     {
       "aliases": [],
-      "category": "tools",
-      "name": "base64",
-      "path": "/commands/tools/base64",
+      "category": "youtube",
+      "name": "play2",
+      "path": "/commands/youtube/play2",
       "tags": [
-        "base64"
+        "play2"
+      ]
+    },
+    {
+      "aliases": [
+        "youtube"
+      ],
+      "category": "youtube",
+      "name": "yt",
+      "path": "/commands/youtube/yt",
+      "tags": [
+        "yt",
+        "youtube"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "youtube",
+      "name": "ytmp3",
+      "path": "/commands/youtube/ytmp3",
+      "tags": [
+        "ytmp3"
+      ]
+    },
+    {
+      "aliases": [
+        "ytvideo"
+      ],
+      "category": "youtube",
+      "name": "ytmp4",
+      "path": "/commands/youtube/ytmp4",
+      "tags": [
+        "ytmp4",
+        "ytvideo"
+      ]
+    },
+    {
+      "aliases": [
+        "ytmusicsearch"
+      ],
+      "category": "youtube",
+      "name": "ytms",
+      "path": "/commands/youtube/ytms",
+      "tags": [
+        "ytms",
+        "ytmusicsearch"
+      ]
+    },
+    {
+      "aliases": [
+        "ytsearch"
+      ],
+      "category": "youtube",
+      "name": "yts",
+      "path": "/commands/youtube/yts",
+      "tags": [
+        "yts",
+        "ytsearch"
       ]
     }
   ]
