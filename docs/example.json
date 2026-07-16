@@ -1,0 +1,176 @@
+{
+  "_CATATAN": "Ini adalah TEMPLATE lengkap untuk bikin command baru. Hapus semua field '_comment*' sebelum dipake.",
+  "_SUMBER": "Semua field di sini diambil langsung dari source code: CommandDetail.tsx, CategoryDetail.tsx, ArgumentsBuilder.tsx, SimulatedChat.tsx, SearchModal.tsx, search.json, dan index.json",
+
+  "name": "namacommand",
+  "_comment_name": "[WAJIB] Nama utama command, lowercase tanpa spasi. Harus unik.",
+
+  "commands": [
+    "namacommand",
+    "aliascommand1"
+  ],
+  "_comment_commands": "[WAJIB] List semua trigger command termasuk aliases. Harus sama dengan 'name' + semua isi 'aliases'.",
+
+  "aliases": [
+    "aliascommand1"
+  ],
+  "_comment_aliases": "[WAJIB] Alias/nama lain. Gunakan [] kalau tidak ada alias. Dipakai di SearchModal untuk ditampilkan ('Also: alias1, alias2').",
+
+  "display": [
+    "namacommand"
+  ],
+  "_comment_display": "Nama yang ditampilkan di menu. Biasanya cuma nama utamanya.",
+
+  "category": "general",
+  "_comment_category": "[WAJIB] Kategori utama. Nilai yang valid: general, ai, admin, group, downloader, search, owner, fun, meme, tools, bot, game, youtube, profile. Dipakai di URL routing /command/:catId/:cmdName.",
+
+  "categories": [
+    "general"
+  ],
+  "_comment_categories": "Array kategori. Biasanya satu nilai saja.",
+
+  "tags": [
+    "namacommand",
+    "aliascommand1",
+    "katakunci-lain"
+  ],
+  "_comment_tags": "[PENTING] Kata kunci untuk search. Dirender di CategoryDetail.tsx sebagai badge. Dipakai SearchModal untuk filter hasil pencarian. Minimal isi nama command + aliasnya.",
+
+  "description": {
+    "id": "Deskripsi singkat command dalam Bahasa Indonesia",
+    "en": "Short description of the command in English"
+  },
+  "_comment_description": "[WAJIB] Deskripsi dua bahasa. Di CommandDetail.tsx ditampilkan 'en' sebagai utama, 'id' sebagai subtitle italic. Di index.json (CategoryDetail) dipakai field 'description' (string, bukan object — lihat catatan index.json di bawah).",
+
+  "usage": "namacommand <argumen_wajib> [argumen_opsional]",
+  "_comment_usage": "[WAJIB] Format penggunaan. Ditampilkan di section 'Usage'. Gunakan <wajib> dan [opsional].",
+
+  "examples": [
+    "namacommand hello world",
+    "namacommand test"
+  ],
+  "_comment_examples": "[WAJIB] Contoh penggunaan nyata tanpa dot prefix. UI otomatis tambahkan '.'. SimulatedChat.tsx pakai examples[0] untuk preview. Duplikat di-dedup otomatis oleh UI.",
+
+  "minArgs": 1,
+  "_comment_minArgs": "Minimum argumen yang dibutuhkan. 0 = bisa dipakai tanpa argumen. Ditampilkan di Specifications.",
+
+  "args": {},
+  "_comment_args": "Definisi argumen khusus. Kosongkan {} kalau tidak ada. Kalau diisi, format: { \"--nama-arg\": { \"id\": \"penjelasan indo\", \"en\": \"english explanation\" } }. Contoh: { \"--quality\": { \"id\": \"Kualitas video (360/720/1080)\", \"en\": \"Video quality (360/720/1080)\" } }. Ditampilkan di ArgumentsBuilder sebagai 'Format Parameter'.",
+
+  "requireMedia": "",
+  "_comment_requireMedia": "Tipe media yang harus dilampirkan. Nilai: '' (tidak perlu), 'image', 'video', 'audio', 'sticker', 'document'. Kalau diisi: (1) CommandDetail tampilkan warning card, (2) SimulatedChat tampilkan placeholder attachment, (3) SimulatedChat incoming menampilkan media preview.",
+
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "_comment_chatPermissions": "Jenis chat yang diizinkan. Nilai valid: 'private', 'group', 'group_community', 'newsletter'. Ditampilkan di ArgumentsBuilder sebagai 'Supported Chats'.",
+
+  "chatTypes": {
+    "private": true,
+    "group": true,
+    "group_community": true,
+    "newsletter": true
+  },
+  "_comment_chatTypes": "Versi object dari chatPermissions. Harus konsisten dengan 'chatPermissions' di atas. Keys yang ada ditampilkan sebagai badge di ArgumentsBuilder.",
+
+  "permissions": {},
+  "_comment_permissions": "Permission khusus yang diperlukan. SEMUA KEY yang dikenali kode: { 'owner': true, 'subowner': true, 'admin': true, 'bot': true, 'hasbot': true }. Setiap key=true akan ditampilkan sebagai badge di CategoryDetail dan di ArgumentsBuilder sebagai 'Permissions Required'. Kosongkan {} kalau tidak ada.",
+
+  "premiumOnly": "",
+  "_comment_premiumOnly": "Command khusus premium. Nilai: '' (semua bisa), 'user', 'group', 'all'. Kalau truthy: badge '⭐ PREMIUM' muncul di CommandDetail dan CategoryDetail.",
+
+  "nsfwOnly": false,
+  "_comment_nsfwOnly": "True = command hanya di grup NSFW. Badge '🔞 NSFW' muncul di CommandDetail.",
+
+  "level": 0,
+  "_comment_level": "Level user minimum. 0 = semua user.",
+
+  "limitCost": 1,
+  "_comment_limitCost": "Biaya limit per penggunaan. 0 = gratis. Ditampilkan di Specifications. Kalau > 0, SimulatedChat tampilkan '💎 Digunakan: X limit'.",
+
+  "delaySeconds": 3,
+  "_comment_delaySeconds": "Cooldown detik setelah dipakai. 0 = tidak ada cooldown. Ditampilkan di Specifications sebagai 'Cooldown'.",
+
+  "ignoreQueue": false,
+  "_comment_ignoreQueue": "True = langsung eksekusi tanpa antrian. Boolean ini juga ditampilkan di ArgumentsBuilder sebagai Status Chip.",
+
+  "disableProcessLimit": false,
+  "_comment_disableProcessLimit": "True = tidak terkena batas proses. Ditampilkan di ArgumentsBuilder sebagai Status Chip.",
+
+  "specialLimit": false,
+  "_comment_specialLimit": "True = pakai sistem limit khusus. Ditampilkan di ArgumentsBuilder sebagai Status Chip.",
+
+  "sendsToPrivate": false,
+  "_comment_sendsToPrivate": "True = hasil dikirim ke chat pribadi user. Ditampilkan di ArgumentsBuilder sebagai Status Chip.",
+
+  "showPromotion": false,
+  "_comment_showPromotion": "True = tampilkan pesan promosi premium setelah command. Ditampilkan di ArgumentsBuilder sebagai Status Chip.",
+
+  "disabled": false,
+  "_comment_disabled": "True = command dinonaktifkan sementara. Ditampilkan di ArgumentsBuilder sebagai Status Chip.",
+
+  "disabledReason": "",
+  "_comment_disabledReason": "Alasan dinonaktifkan. Diisi kalau 'disabled' true. Contoh: 'API provider sedang maintenance'.",
+
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "_comment_customArgsMessage": "Pesan error saat argumen kurang. '_default' adalah fallback. Bisa tambah key spesifik untuk error tertentu.",
+
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "_comment_status": "Status command. 'enabled'=aktif, 'beta'=masih uji coba, 'deprecated'=akan dihapus, 'hidden'=tidak tampil di menu tapi masih bisa dipakai. SEMUA KEY boolean di sini juga ditampilkan di ArgumentsBuilder sebagai Status Chip.",
+
+  "videoUrl": "",
+  "_comment_videoUrl": "URL tutorial opsional. Kalau diisi: CommandDetail tampilkan section 'Tutorial'. Mendukung: URL YouTube (auto-embed iframe), URL video langsung (.mp4 dll), URL gambar (.jpg/.png dll). Boleh dikosongkan.",
+
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "_comment_media": "URL media opsional untuk dokumentasi. Saat ini belum dirender di UI, tapi ada di semua JSON yang ada.",
+
+  "lastUpdated": "2026-07-16T00:00:00Z",
+  "_comment_lastUpdated": "Timestamp update terakhir. Format ISO 8601 UTC.",
+
+  "source": {
+    "file": "internal/plugins/general",
+    "line": 1
+  },
+  "_comment_source": "Lokasi source code di repository bot. 'file' = path relatif, 'line' = nomor baris.",
+
+  "_CATATAN_INDEX_JSON": "===== UNTUK FILE index.json DI TIAP FOLDER KATEGORI =====",
+  "_FORMAT_INDEX": "File index.json punya struktur berbeda. Field yang dipakai CategoryDetail.tsx untuk tiap item di array 'commands': name, description (STRING bukan object), permissions (object sama seperti di atas), premiumOnly, tags (array string). Contoh di bawah:",
+  "_CONTOH_INDEX": {
+    "commands": [
+      {
+        "name": "namacommand",
+        "description": "Deskripsi singkat dalam bahasa Inggris (STRING, bukan object bilingual)",
+        "permissions": {},
+        "premiumOnly": "",
+        "tags": ["namacommand", "alias1", "katakunci"]
+      }
+    ]
+  },
+
+  "_CATATAN_SEARCH_JSON": "===== UNTUK FILE search.json (global) =====",
+  "_FORMAT_SEARCH": "Field yang dipakai SearchModal.tsx untuk tiap item di array 'commands': name, aliases, category, tags, path. Contoh di bawah:",
+  "_CONTOH_SEARCH": {
+    "commands": [
+      {
+        "name": "namacommand",
+        "aliases": ["aliascommand1"],
+        "category": "general",
+        "path": "/commands/general/namacommand",
+        "tags": ["namacommand", "aliascommand1", "katakunci"]
+      }
+    ]
+  }
+}
