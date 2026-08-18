@@ -1,10 +1,30 @@
 {
+  "name": "level",
+  "commands": [
+    "level"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "level"
+  ],
+  "category": "profile",
   "categories": [
     "profile"
   ],
-  "category": "profile",
+  "tags": [
+    "level"
+  ],
+  "description": {
+    "en": "View your level and XP",
+    "id": "Lihat level dan XP kamu"
+  },
+  "usage": "level",
+  "examples": [
+    "level"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -17,53 +37,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "level"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "View your level and XP",
-    "id": "Lihat level dan XP kamu"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "level"
-  ],
-  "examples": [
-    "level",
-    "level"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "level",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/profile",
-    "line": 1
+    "line": 261
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "level"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

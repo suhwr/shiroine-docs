@@ -1,10 +1,31 @@
 {
+  "name": "iqc",
+  "commands": [
+    "iqc"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "iqc"
+  ],
+  "category": "tools",
   "categories": [
     "tools"
   ],
-  "category": "tools",
+  "tags": [
+    "iqc"
+  ],
+  "description": {
+    "en": "Create iPhone WhatsApp Chat screenshot (self-hosted)\nOptional args: --time=HH:MM --battery=0-100 --carrier=NAME\nEmbed image: send/reply image + text",
+    "id": "Buat screenshot iPhone WhatsApp Chat (self-host)\nArgs opsional: --time=HH:MM --battery=0-100 --carrier=NAMA\nSupport embed gambar: kirim/reply gambar + teks"
+  },
+  "usage": "iqc",
+  "examples": [
+    "iqc halo --time=09:41 --battery=37 --carrier=XL",
+    "iqc hello --time=09:41 --battery=80 --carrier=INDOSAT"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -17,53 +38,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "iqc"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Create iPhone WhatsApp Chat screenshot (self-hosted)",
-    "id": "Buat screenshot iPhone WhatsApp Chat (self-host)"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "iqc"
-  ],
-  "examples": [
-    "iqc halo dunia 😂",
-    "iqc hello world 😂"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 1,
-  "name": "iqc",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/tools",
-    "line": 1
+    "line": 86
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "iqc hello world 😂"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

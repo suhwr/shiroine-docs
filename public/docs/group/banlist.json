@@ -1,11 +1,35 @@
 {
+  "name": "banlist",
+  "commands": [
+    "banlist"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "banlist"
+  ],
+  "category": "group",
   "categories": [
     "group",
     "owner"
   ],
-  "category": "group",
+  "tags": [
+    "banlist"
+  ],
+  "description": {
+    "en": "Show list of banned entities by category",
+    "id": "Tampilkan daftar entitas yang diban berdasarkan kategori"
+  },
+  "usage": "banlist",
+  "examples": [
+    "banlist member",
+    "banlist user",
+    "banlist chat",
+    "banlist globaluser",
+    "banlist globalchat"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -18,61 +42,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "banlist"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Show list of banned entities by category",
-    "id": "Tampilkan daftar entitas yang diban berdasarkan kategori"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "banlist"
-  ],
-  "examples": [
-    "banlist member",
-    "banlist user",
-    "banlist chat",
-    "banlist globaluser",
-    "banlist globalchat",
-    "banlist member",
-    "banlist user",
-    "banlist chat",
-    "banlist globaluser",
-    "banlist globalchat"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "banlist",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/group",
-    "line": 1
+    "line": 252
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "banlist member"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

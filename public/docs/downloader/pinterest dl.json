@@ -1,13 +1,33 @@
 {
-  "aliases": [
+  "name": "pinterest dl",
+  "commands": [
     "pindl",
     "ptdl"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "pinterest dl"
+  ],
+  "category": "downloader",
   "categories": [
     "downloader"
   ],
-  "category": "downloader",
+  "tags": [
+    "pindl",
+    "ptdl",
+    "pinterest dl"
+  ],
+  "description": {
+    "en": "Download photo/video from Pinterest",
+    "id": "Download foto/video dari Pinterest"
+  },
+  "usage": "pinterest dl",
+  "examples": [
+    "pindl https://pinterest.com/pin/123456789"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -20,54 +40,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "pindl",
-    "ptdl"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": true,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Download photo/video from Pinterest",
-    "id": "Download foto/video dari Pinterest"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "pinterest dl"
-  ],
-  "examples": [
-    "pindl https://pinterest.com/pin/123456789",
-    "pindl https://pinterest.com/pin/123456789"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 1,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "pinterest dl",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": true,
   "source": {
     "file": "internal/plugins/downloader",
-    "line": 1
+    "line": 174
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "pindl https://pinterest.com/pin/123456789"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

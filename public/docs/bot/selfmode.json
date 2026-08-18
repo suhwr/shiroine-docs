@@ -1,10 +1,32 @@
 {
+  "name": "selfmode",
+  "commands": [
+    "selfmode"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "selfmode"
+  ],
+  "category": "bot",
   "categories": [
     "bot"
   ],
-  "category": "bot",
+  "tags": [
+    "selfmode"
+  ],
+  "description": {
+    "en": "Toggle self mode (bot only accepts commands from owner)",
+    "id": "Toggle self mode (bot hanya menerima perintah dari owner)"
+  },
+  "usage": "selfmode",
+  "examples": [
+    "selfmode on",
+    "selfmode off",
+    "selfmode"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -17,59 +39,37 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "selfmode"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Toggle self mode (bot only accepts commands from owner)",
-    "id": "Toggle self mode (bot hanya menerima perintah dari owner)"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "selfmode"
-  ],
-  "examples": [
-    "selfmode on",
-    "selfmode off",
-    "selfmode",
-    "selfmode on",
-    "selfmode off",
-    "selfmode"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "selfmode",
-  "nsfwOnly": false,
   "permissions": {
     "bot": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/bot",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "selfmode on"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 71
+  },
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

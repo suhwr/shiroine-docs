@@ -1,13 +1,38 @@
 {
-  "aliases": [
+  "name": "saucenao",
+  "commands": [
+    "saucenao",
     "sauce",
     "source"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "saucenao"
+  ],
+  "category": "search",
   "categories": [
     "search"
   ],
-  "category": "search",
+  "tags": [
+    "saucenao",
+    "sauce",
+    "source"
+  ],
+  "description": {
+    "en": "Find anime/illustration image source using SauceNAO (send/reply image)",
+    "id": "Cari sumber gambar anime/ilustrasi menggunakan SauceNAO (kirim/reply gambar)"
+  },
+  "usage": "saucenao",
+  "examples": [
+    "saucenao (kirim/reply gambar)",
+    "saucenao (send/reply image)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [
+    "sticker",
+    "image"
+  ],
   "chatPermissions": [
     "private",
     "group",
@@ -20,55 +45,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "saucenao",
-    "sauce",
-    "source"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Find anime/illustration image source using SauceNAO (send/reply image)",
-    "id": "Cari sumber gambar anime/ilustrasi menggunakan SauceNAO (kirim/reply gambar)"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "saucenao"
-  ],
-  "examples": [
-    "saucenao (kirim/reply gambar)",
-    "saucenao (send/reply image)"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 1,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "saucenao",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "is",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/search",
-    "line": 1
+    "line": 81
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "saucenao (send/reply image)"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

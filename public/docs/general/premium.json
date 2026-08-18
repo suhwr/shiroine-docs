@@ -1,13 +1,35 @@
 {
-  "aliases": [
+  "name": "premium",
+  "commands": [
+    "premium",
     "buyprem",
     "buypremium"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "premium"
+  ],
+  "category": "general",
   "categories": [
     "general"
   ],
-  "category": "general",
+  "tags": [
+    "premium",
+    "buyprem",
+    "buypremium"
+  ],
+  "description": {
+    "en": "Buy premium using payment gateway",
+    "id": "Beli premium menggunakan payment gateway"
+  },
+  "usage": "premium",
+  "examples": [
+    "premium",
+    "buyprem"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -20,57 +42,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "premium",
-    "buyprem",
-    "buypremium"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": true,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Buy premium using payment gateway",
-    "id": "Beli premium menggunakan payment gateway"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": true,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "premium"
-  ],
-  "examples": [
-    "premium",
-    "buyprem",
-    "premium",
-    "buyprem"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "premium",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/general",
-    "line": 1
+    "line": 657
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "premium"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

@@ -1,13 +1,34 @@
 {
-  "aliases": [
+  "name": "leaderboard",
+  "commands": [
+    "leaderboard",
     "lb",
     "ranking"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "leaderboard"
+  ],
+  "category": "game",
   "categories": [
     "game"
   ],
-  "category": "game",
+  "tags": [
+    "leaderboard",
+    "lb",
+    "ranking"
+  ],
+  "description": {
+    "en": "Show game leaderboard",
+    "id": "Tampilkan leaderboard game"
+  },
+  "usage": "leaderboard",
+  "examples": [
+    "lb\nlb daily\nlb weekly\nlb season\nlb math\nlb accuracy\nlb speed\nlb streak\nlb around\nlb mvp\nlb rewards\nlb achievements\nlb medals\nlb history\nlb trends\nlb activity\nlb comeback\nlb compare"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -20,55 +41,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "leaderboard",
-    "lb",
-    "ranking"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Show game leaderboard",
-    "id": "Tampilkan leaderboard game"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "leaderboard"
-  ],
-  "examples": [
-    "lb\nlb daily\nlb weekly\nlb season\nlb math\nlb accuracy\nlb speed\nlb streak\nlb around\nlb mvp\nlb rewards\nlb achievements\nlb medals\nlb history\nlb trends\nlb activity\nlb comeback\nlb compare",
-    "lb\nlb daily\nlb weekly\nlb season\nlb math\nlb accuracy\nlb speed\nlb streak\nlb around\nlb mvp\nlb rewards\nlb achievements\nlb medals\nlb history\nlb trends\nlb activity\nlb comeback\nlb compare"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "leaderboard",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/game",
-    "line": 1
+    "line": 533
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "lb\nlb daily\nlb weekly\nlb season\nlb math\nlb accuracy\nlb speed\nlb streak\nlb around\nlb mvp\nlb rewards\nlb achievements\nlb medals\nlb history\nlb trends\nlb activity\nlb comeback\nlb compare"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

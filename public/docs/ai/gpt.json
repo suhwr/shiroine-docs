@@ -1,10 +1,41 @@
 {
+  "name": "gpt",
+  "commands": [
+    "gpt"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "gpt"
+  ],
+  "category": "ai",
   "categories": [
     "ai"
   ],
-  "category": "ai",
+  "tags": [
+    "gpt"
+  ],
+  "description": {
+    "en": "Chat with GPT-5 Nano without persona (supports text & image, premium only)",
+    "id": "Chat dengan GPT-5 Nano tanpa persona (mendukung teks & gambar, khusus premium)"
+  },
+  "usage": "gpt",
+  "examples": [
+    "gpt halo!",
+    "gpt [kirim gambar] deskripsikan gambar ini",
+    "gpt clear",
+    "gpt hello!",
+    "gpt [send image] describe this image"
+  ],
+  "minArgs": 0,
+  "args": {
+    "pertanyaan": {
+      "id": "Pesan obrolan atau instruksi gambar (ketik 'clear' untuk menghapus riwayat)"
+    },
+    "query": {
+      "en": "Chat message or image prompt (type 'clear' to reset history)"
+    }
+  },
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -17,57 +48,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "gpt"
-  ],
+  "permissions": {},
+  "premiumOnly": "all",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Chat with GPT-5 Nano without persona (supports text \u0026 image, premium only)",
-    "id": "Chat dengan GPT-5 Nano tanpa persona (mendukung teks \u0026 gambar, khusus premium)"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "gpt"
-  ],
-  "examples": [
-    "gpt halo!",
-    "gpt [kirim gambar] deskripsikan gambar ini",
-    "gpt clear",
-    "gpt hello!",
-    "gpt [send image] describe this image",
-    "gpt clear"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 1,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "gpt",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "all",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/ai",
-    "line": 1
+    "line": 94
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "gpt hello!"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

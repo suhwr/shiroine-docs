@@ -1,0 +1,71 @@
+{
+  "name": "listaktif",
+  "commands": [
+    "listaktif"
+  ],
+  "aliases": [],
+  "display": [
+    "listaktif"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "listaktif"
+  ],
+  "description": {
+    "en": "View the list of members active today along with their total messages",
+    "id": "Lihat daftar member yang aktif hari ini beserta total pesannya"
+  },
+  "usage": "listaktif",
+  "examples": [
+    "listaktif"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {
+    "admin": true,
+    "owner": true,
+    "subowner": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 125
+  },
+  "lastUpdated": "2026-08-18T03:13:22Z"
+}

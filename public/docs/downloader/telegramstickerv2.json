@@ -1,12 +1,33 @@
 {
-  "aliases": [
+  "name": "telegramstickerv2",
+  "commands": [
+    "telegramstickerv2",
     "tgsv2"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "telegramstickerv2"
+  ],
+  "category": "downloader",
   "categories": [
     "downloader"
   ],
-  "category": "downloader",
+  "tags": [
+    "telegramstickerv2",
+    "tgsv2"
+  ],
+  "description": {
+    "en": "Download a Telegram sticker pack as ZIP without conversion",
+    "id": "Download stiker pack Telegram sebagai ZIP (tanpa konversi)"
+  },
+  "usage": "telegramstickerv2",
+  "examples": [
+    "telegramstickerv2 https://t.me/addstickers/NamaPackStikernya",
+    "telegramstickerv2 https://t.me/addstickers/PackName"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -19,54 +40,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "telegramstickerv2",
-    "tgsv2"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Download a Telegram sticker pack as ZIP without conversion",
-    "id": "Download stiker pack Telegram sebagai ZIP (tanpa konversi)"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "telegramstickerv2"
-  ],
-  "examples": [
-    "telegramstickerv2 https://t.me/addstickers/PackName",
-    "telegramstickerv2 https://t.me/addstickers/NamaPackStikernya"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 1,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "telegramstickerv2",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/downloader",
-    "line": 1
+    "line": 210
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "telegramstickerv2 https://t.me/addstickers/PackName"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

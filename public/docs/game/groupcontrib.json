@@ -1,12 +1,32 @@
 {
-  "aliases": [
+  "name": "groupcontrib",
+  "commands": [
+    "groupcontrib",
     "gc"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "groupcontrib"
+  ],
+  "category": "game",
   "categories": [
     "game"
   ],
-  "category": "game",
+  "tags": [
+    "groupcontrib",
+    "gc"
+  ],
+  "description": {
+    "en": "View group top contributors",
+    "id": "Lihat top contributor grup"
+  },
+  "usage": "groupcontrib",
+  "examples": [
+    "groupcontrib\ngroupcontrib all\ngc\ngc all"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -15,54 +35,35 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "groupcontrib",
-    "gc"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "View group top contributors",
-    "id": "Lihat top contributor grup"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "groupcontrib"
-  ],
-  "examples": [
-    "groupcontrib\ngroupcontrib all\ngc\ngc all",
-    "groupcontrib\ngroupcontrib all\ngc\ngc all"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "groupcontrib",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/game",
-    "line": 1
+    "line": 658
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "groupcontrib\ngroupcontrib all\ngc\ngc all"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

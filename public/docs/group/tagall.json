@@ -1,12 +1,33 @@
 {
-  "aliases": [
+  "name": "tagall",
+  "commands": [
+    "tagall",
     "tag"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "tagall"
+  ],
+  "category": "group",
   "categories": [
     "group"
   ],
-  "category": "group",
+  "tags": [
+    "tagall",
+    "tag"
+  ],
+  "description": {
+    "en": "Tag all members with neat format",
+    "id": "Tag semua member dengan format rapi"
+  },
+  "usage": "tagall",
+  "examples": [
+    "tagall Rapat jam 19:00",
+    "tagall Meeting at 7 PM"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -15,58 +36,39 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "tagall",
-    "tag"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Tag all members with neat format",
-    "id": "Tag semua member dengan format rapi"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "tagall"
-  ],
-  "examples": [
-    "tagall Rapat jam 19:00",
-    "tagall Meeting at 7 PM"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "tagall",
-  "nsfwOnly": false,
   "permissions": {
     "admin": true,
     "owner": true,
     "subowner": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/group",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "tagall Meeting at 7 PM"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 129
+  },
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

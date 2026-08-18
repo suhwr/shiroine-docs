@@ -1,12 +1,32 @@
 {
-  "aliases": [
+  "name": "msgstats",
+  "commands": [
+    "msgstats",
     "bot_msgstats"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "msgstats"
+  ],
+  "category": "bot",
   "categories": [
     "bot"
   ],
-  "category": "bot",
+  "tags": [
+    "msgstats",
+    "bot_msgstats"
+  ],
+  "description": {
+    "en": "Show bot message statistics for the last 24 hours",
+    "id": "Tampilkan statistik pesan bot dalam 24 jam terakhir"
+  },
+  "usage": "msgstats",
+  "examples": [
+    "msgstats"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -19,54 +39,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "msgstats",
-    "bot_msgstats"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Show bot message statistics for the last 24 hours",
-    "id": "Tampilkan statistik pesan bot dalam 24 jam terakhir"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "msgstats"
-  ],
-  "examples": [
-    "msgstats",
-    "msgstats"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "msgstats",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/bot",
-    "line": 1
+    "line": 56
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "msgstats"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

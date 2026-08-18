@@ -1,13 +1,40 @@
 {
-  "aliases": [
+  "name": "setpp",
+  "commands": [
+    "setpp",
     "setbotpp",
     "setppbot"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "setpp"
+  ],
+  "category": "bot",
   "categories": [
     "bot"
   ],
-  "category": "bot",
+  "tags": [
+    "setpp",
+    "setbotpp",
+    "setppbot"
+  ],
+  "description": {
+    "en": "Set bot profile picture",
+    "id": "Set foto profil bot"
+  },
+  "usage": "setpp",
+  "examples": [
+    "setpp",
+    "setpp -f",
+    "setpp --full"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [
+    "sticker",
+    "image",
+    "thumbnail"
+  ],
   "chatPermissions": [
     "private",
     "group",
@@ -20,61 +47,37 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "setpp",
-    "setbotpp",
-    "setppbot"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Set bot profile picture",
-    "id": "Set foto profil bot"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "setpp"
-  ],
-  "examples": [
-    "setpp",
-    "setpp -f",
-    "setpp --full",
-    "setpp",
-    "setpp -f",
-    "setpp --full"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "setpp",
-  "nsfwOnly": false,
   "permissions": {
     "bot": true
   },
   "premiumOnly": "",
-  "requireMedia": "sit",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/bot",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "setpp"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 65
+  },
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

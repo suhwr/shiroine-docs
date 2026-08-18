@@ -1,68 +1,69 @@
 {
-  "aliases": [
+  "name": "getprivacysetting",
+  "commands": [
+    "getprivacysetting",
     "getprivacy"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "getprivacysetting"
+  ],
+  "category": "bot",
   "categories": [
     "bot"
   ],
-  "category": "bot",
+  "tags": [
+    "getprivacysetting",
+    "getprivacy"
+  ],
+  "description": {
+    "en": "View all WhatsApp privacy settings",
+    "id": "Lihat semua privacy setting WhatsApp"
+  },
+  "usage": "getprivacysetting",
+  "examples": [
+    "getprivacysetting"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private"
   ],
   "chatTypes": {
     "private": true
   },
-  "commands": [
-    "getprivacysetting",
-    "getprivacy"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "View all WhatsApp privacy settings",
-    "id": "Lihat semua privacy setting WhatsApp"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "getprivacysetting"
-  ],
-  "examples": [
-    "getprivacysetting",
-    "getprivacysetting"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "getprivacysetting",
-  "nsfwOnly": false,
   "permissions": {
     "bot": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/bot",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "getprivacysetting"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 159
+  },
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

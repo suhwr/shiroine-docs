@@ -1,12 +1,32 @@
 {
-  "aliases": [
+  "name": "badges",
+  "commands": [
+    "badges",
     "mybadges"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "badges"
+  ],
+  "category": "game",
   "categories": [
     "game"
   ],
-  "category": "game",
+  "tags": [
+    "badges",
+    "mybadges"
+  ],
+  "description": {
+    "en": "View your badge collection",
+    "id": "Lihat koleksi badge Anda"
+  },
+  "usage": "badges",
+  "examples": [
+    "badges"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -19,54 +39,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "badges",
-    "mybadges"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "View your badge collection",
-    "id": "Lihat koleksi badge Anda"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "badges"
-  ],
-  "examples": [
-    "badges",
-    "badges"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "badges",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/game",
-    "line": 1
+    "line": 544
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "badges"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

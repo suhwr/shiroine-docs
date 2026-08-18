@@ -1,13 +1,38 @@
 {
-  "aliases": [
+  "name": "romanize",
+  "commands": [
+    "romanize",
     "romaji",
     "roman"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "romanize"
+  ],
+  "category": "tools",
   "categories": [
     "tools"
   ],
-  "category": "tools",
+  "tags": [
+    "romanize",
+    "romaji",
+    "roman"
+  ],
+  "description": {
+    "en": "Convert non-Latin text (Japanese, Korean, Arabic, etc.) to Latin characters",
+    "id": "Ubah teks non-Latin (Jepang, Korea, Arab, dll) ke huruf Latin"
+  },
+  "usage": "romanize",
+  "examples": [
+    "romanize こんにちは",
+    "romanize (reply teks)",
+    "romanize (reply gambar)",
+    "romanize (reply text)",
+    "romanize (reply image)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -20,59 +45,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "romanize",
-    "romaji",
-    "roman"
-  ],
+  "permissions": {},
+  "premiumOnly": "all",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Convert non-Latin text (Japanese, Korean, Arabic, etc.) to Latin characters",
-    "id": "Ubah teks non-Latin (Jepang, Korea, Arab, dll) ke huruf Latin"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "romanize"
-  ],
-  "examples": [
-    "romanize こんにちは",
-    "romanize (reply teks)",
-    "romanize (reply gambar)",
-    "romanize こんにちは",
-    "romanize (reply text)",
-    "romanize (reply image)"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "romanize",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "all",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/tools",
-    "line": 1
+    "line": 57
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "romanize こんにちは"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

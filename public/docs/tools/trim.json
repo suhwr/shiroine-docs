@@ -1,10 +1,36 @@
 {
+  "name": "trim",
+  "commands": [
+    "trim"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "trim"
+  ],
+  "category": "tools",
   "categories": [
     "tools"
   ],
-  "category": "tools",
+  "tags": [
+    "trim"
+  ],
+  "description": {
+    "en": "Trim video/audio by time range",
+    "id": "Potong video/audio berdasarkan waktu"
+  },
+  "usage": "trim",
+  "examples": [
+    "trim 0:10 0:30",
+    "trim 1:30 2:30",
+    "trim 1:30-2:30",
+    "trim -start=10 -end=30"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [
+    "video",
+    "audio"
+  ],
   "chatPermissions": [
     "private",
     "group",
@@ -17,59 +43,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "trim"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Trim video/audio by time range",
-    "id": "Potong video/audio berdasarkan waktu"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "trim"
-  ],
-  "examples": [
-    "trim 0:10 0:30",
-    "trim 1:30 2:30",
-    "trim 1:30-2:30",
-    "trim -start=10 -end=30",
-    "trim 0:10 0:30",
-    "trim 1:30 2:30",
-    "trim 1:30-2:30",
-    "trim -start=10 -end=30"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "trim",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "va",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/tools",
-    "line": 1
+    "line": 830
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "trim 0:10 0:30"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

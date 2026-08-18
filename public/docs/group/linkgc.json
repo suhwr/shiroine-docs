@@ -1,13 +1,34 @@
 {
-  "aliases": [
+  "name": "linkgc",
+  "commands": [
+    "linkgc",
     "gruplink",
     "link"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "linkgc"
+  ],
+  "category": "group",
   "categories": [
     "group"
   ],
-  "category": "group",
+  "tags": [
+    "linkgc",
+    "gruplink",
+    "link"
+  ],
+  "description": {
+    "en": "Get group invite link",
+    "id": "Dapatkan link undangan grup"
+  },
+  "usage": "linkgc",
+  "examples": [
+    "linkgc"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -16,56 +37,39 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "linkgc",
-    "gruplink",
-    "link"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Get group invite link",
-    "id": "Dapatkan link undangan grup"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "linkgc"
-  ],
-  "examples": [],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "linkgc",
-  "nsfwOnly": false,
   "permissions": {
     "admin": true,
     "owner": true,
     "subowner": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/group",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": ".linkgc"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 62
+  },
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

@@ -1,65 +1,67 @@
 {
+  "name": "autoclear",
+  "commands": [
+    "autoclear"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "autoclear"
+  ],
+  "category": "bot",
   "categories": [
     "bot"
   ],
-  "category": "bot",
+  "tags": [
+    "autoclear"
+  ],
+  "description": {
+    "en": "Enable/disable automatic chat clearing every midnight",
+    "id": "Aktifkan/nonaktifkan pembersihan chat otomatis setiap tengah malam"
+  },
+  "usage": "autoclear",
+  "examples": [
+    "autoclear on"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private"
   ],
   "chatTypes": {
     "private": true
   },
-  "commands": [
-    "autoclear"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Enable/disable automatic chat clearing every midnight",
-    "id": "Aktifkan/nonaktifkan pembersihan chat otomatis setiap tengah malam"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "autoclear"
-  ],
-  "examples": [
-    "autoclear on",
-    "autoclear on"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "autoclear",
-  "nsfwOnly": false,
   "permissions": {
     "bot": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/bot",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "autoclear on"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 145
+  },
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

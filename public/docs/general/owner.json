@@ -1,13 +1,30 @@
 {
-  "aliases": [
-    "creator",
-    "developer"
+  "name": "owner",
+  "commands": [
+    "owner"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "owner"
+  ],
+  "category": "general",
   "categories": [
     "general"
   ],
-  "category": "general",
+  "tags": [
+    "owner"
+  ],
+  "description": {
+    "en": "Show bot number owner information",
+    "id": "Tampilkan informasi pemilik nomor bot"
+  },
+  "usage": "owner",
+  "examples": [
+    "owner"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -20,55 +37,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "owner",
-    "creator",
-    "developer"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Show bot number owner information",
-    "id": "Tampilkan informasi pemilik nomor bot"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "owner"
-  ],
-  "examples": [
-    "owner",
-    "owner"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "owner",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/general",
-    "line": 1
+    "line": 86
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "owner"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

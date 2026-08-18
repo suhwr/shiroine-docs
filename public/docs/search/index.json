@@ -1,59 +1,8 @@
 {
   "commands": [
     {
-      "description": "View today's prayer schedule by city",
-      "name": "jadwalsholat",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "jadwalsholat"
-      ]
-    },
-    {
-      "description": "Search song lyrics",
-      "name": "lyric",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "lyric",
-        "lirik",
-        "lyrics"
-      ]
-    },
-    {
-      "description": "Search and download images from Pinterest",
-      "name": "pinterest",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "pinterest",
-        "pin"
-      ]
-    },
-    {
-      "description": "Find anime/illustration image source using SauceNAO (send/reply image)",
-      "name": "saucenao",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "saucenao",
-        "sauce",
-        "source"
-      ]
-    },
-    {
-      "description": "Search and download wallpapers from Wallhaven",
-      "name": "wallhaven",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "wallhaven",
-        "wh"
-      ]
-    },
-    {
-      "description": "Search for information using Google",
       "name": "google",
+      "description": "Search for information using Google",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -63,13 +12,85 @@
       ]
     },
     {
-      "description": "Search and download videos from Pinterest",
+      "name": "jadwalsholat",
+      "description": "View today's prayer schedule by city",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "jadwalsholat"
+      ]
+    },
+    {
+      "name": "lyric",
+      "description": "Search song lyrics",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "lyric",
+        "lirik",
+        "lyrics"
+      ]
+    },
+    {
+      "name": "pinterest",
+      "description": "Search and download images from Pinterest",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "pinterest",
+        "pin"
+      ]
+    },
+    {
       "name": "pinterest video",
+      "description": "Search and download videos from Pinterest",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
         "pinterestvideo",
-        "pinvid"
+        "pinvid",
+        "pinterest video"
+      ]
+    },
+    {
+      "name": "saucenao",
+      "description": "Find anime/illustration image source using SauceNAO (send/reply image)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "saucenao",
+        "sauce",
+        "source"
+      ]
+    },
+    {
+      "name": "wallhaven",
+      "description": "Search and download wallpapers from Wallhaven",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "wallhaven",
+        "wh"
+      ]
+    },
+    {
+      "name": "ytms",
+      "description": "Search music on YouTube Music",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "ytms",
+        "ytmusicsearch"
+      ]
+    },
+    {
+      "name": "yts",
+      "description": "Search videos on YouTube",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "yts",
+        "ytsearch"
       ]
     }
   ]

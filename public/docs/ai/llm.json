@@ -1,10 +1,35 @@
 {
+  "name": "llm",
+  "commands": [
+    "llm"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "llm"
+  ],
+  "category": "ai",
   "categories": [
     "ai"
   ],
-  "category": "ai",
+  "tags": [
+    "llm"
+  ],
+  "description": {
+    "en": "Select AI model to use",
+    "id": "Pilih model AI yang digunakan"
+  },
+  "usage": "llm <teks>",
+  "examples": [
+    "llm list",
+    "llm set gemma",
+    "llm set qwen",
+    "llm set gpt",
+    "llm set gemini",
+    "llm set deepseek"
+  ],
+  "minArgs": 1,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -17,61 +42,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "llm"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Select AI model to use",
-    "id": "Pilih model AI yang digunakan"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "llm"
-  ],
-  "examples": [
-    "llm list",
-    "llm set qwen",
-    "llm set gpt",
-    "llm set gemini",
-    "llm set deepseek",
-    "llm list",
-    "llm set qwen",
-    "llm set gpt",
-    "llm set gemini",
-    "llm set deepseek"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 1,
-  "name": "llm",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/ai",
-    "line": 1
+    "line": 133
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "llm list"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

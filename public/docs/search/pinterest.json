@@ -1,12 +1,33 @@
 {
-  "aliases": [
+  "name": "pinterest",
+  "commands": [
+    "pinterest",
     "pin"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "pinterest"
+  ],
+  "category": "search",
   "categories": [
     "search"
   ],
-  "category": "search",
+  "tags": [
+    "pinterest",
+    "pin"
+  ],
+  "description": {
+    "en": "Search and download images from Pinterest",
+    "id": "Cari dan download gambar dari Pinterest"
+  },
+  "usage": "pinterest",
+  "examples": [
+    "pinterest cute cat",
+    "pinterest aesthetic #10"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -19,56 +40,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "pinterest",
-    "pin"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Search and download images from Pinterest",
-    "id": "Cari dan download gambar dari Pinterest"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "pinterest"
-  ],
-  "examples": [
-    "pinterest cute cat",
-    "pinterest aesthetic #10",
-    "pinterest cute cat",
-    "pinterest aesthetic #10"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "pinterest",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/search",
-    "line": 1
+    "line": 341
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "pinterest cute cat"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

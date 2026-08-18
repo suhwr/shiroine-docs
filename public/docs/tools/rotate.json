@@ -1,10 +1,34 @@
 {
+  "name": "rotate",
+  "commands": [
+    "rotate"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "rotate"
+  ],
+  "category": "tools",
   "categories": [
     "tools"
   ],
-  "category": "tools",
+  "tags": [
+    "rotate"
+  ],
+  "description": {
+    "en": "Rotate image by a given angle (dynamic -360 to 360)",
+    "id": "Putar gambar sebesar sudut tertentu (dinamis -360 s/d 360)"
+  },
+  "usage": "rotate",
+  "examples": [
+    "rotate 90",
+    "rotate 45",
+    "rotate -90"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [
+    "image"
+  ],
   "chatPermissions": [
     "private",
     "group",
@@ -17,57 +41,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "rotate"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Rotate image by a given angle",
-    "id": "Putar gambar sebesar sudut tertentu"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "rotate"
-  ],
-  "examples": [
-    "rotate 90",
-    "rotate 180",
-    "rotate 270",
-    "rotate 90",
-    "rotate 180",
-    "rotate 270"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "rotate",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "i",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/tools",
-    "line": 1
+    "line": 759
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "rotate 90"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

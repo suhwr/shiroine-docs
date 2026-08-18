@@ -1,10 +1,31 @@
 {
+  "name": "cmd",
+  "commands": [
+    "cmd"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "cmd"
+  ],
+  "category": "group",
   "categories": [
     "group"
   ],
-  "category": "group",
+  "tags": [
+    "cmd"
+  ],
+  "description": {
+    "en": "Disable or enable a command in this group",
+    "id": "Nonaktifkan atau aktifkan command di grup ini"
+  },
+  "usage": "cmd <teks>",
+  "examples": [
+    "cmd off sticker",
+    "cmd on sticker"
+  ],
+  "minArgs": 2,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -13,59 +34,39 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "cmd"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Disable or enable a command in this group",
-    "id": "Nonaktifkan atau aktifkan command di grup ini"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "cmd"
-  ],
-  "examples": [
-    "cmd off sticker",
-    "cmd on sticker",
-    "cmd off sticker",
-    "cmd on sticker"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 2,
-  "name": "cmd",
-  "nsfwOnly": false,
   "permissions": {
     "admin": true,
     "owner": true,
     "subowner": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/group",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "cmd off sticker"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 146
+  },
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

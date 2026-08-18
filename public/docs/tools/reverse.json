@@ -1,10 +1,33 @@
 {
+  "name": "reverse",
+  "commands": [
+    "reverse"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "reverse"
+  ],
+  "category": "tools",
   "categories": [
     "tools"
   ],
-  "category": "tools",
+  "tags": [
+    "reverse"
+  ],
+  "description": {
+    "en": "Reverse text, audio (max 10 min) or video (max 1 min, premium)",
+    "id": "Balik teks, audio (maks 10 menit) atau video (maks 1 menit, premium)"
+  },
+  "usage": "reverse",
+  "examples": [
+    "reverse halo",
+    "reverse (reply audio/video/teks)",
+    "reverse hello",
+    "reverse (reply audio/video/text)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -17,53 +40,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "reverse"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Reverse audio (max 10 min) or video (max 1 min, premium)",
-    "id": "Balik audio (maks 10 menit) atau video (maks 1 menit, premium)"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "reverse"
-  ],
-  "examples": [
-    "reverse (reply audio/video)",
-    "reverse (reply audio/video)"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "reverse",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "va",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/tools",
-    "line": 1
+    "line": 178
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "reverse (reply audio/video)"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

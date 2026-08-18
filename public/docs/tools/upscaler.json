@@ -1,14 +1,42 @@
 {
-  "aliases": [
+  "name": "upscaler",
+  "commands": [
+    "upscaler",
     "upscale",
     "remini",
     "hd"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "upscaler"
+  ],
+  "category": "tools",
   "categories": [
     "tools"
   ],
-  "category": "tools",
+  "tags": [
+    "upscaler",
+    "upscale",
+    "remini",
+    "hd"
+  ],
+  "description": {
+    "en": "Enhance image quality using AI",
+    "id": "Tingkatkan kualitas gambar menggunakan AI"
+  },
+  "usage": "upscaler",
+  "examples": [
+    "upscaler",
+    "upscaler pixelcut",
+    "upscaler aiease-anime",
+    "upscaler esrgan"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [
+    "sticker",
+    "image"
+  ],
   "chatPermissions": [
     "private",
     "group",
@@ -21,62 +49,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "upscaler",
-    "upscale",
-    "remini",
-    "hd"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Enhance image quality using AI",
-    "id": "Tingkatkan kualitas gambar menggunakan AI"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "upscaler"
-  ],
-  "examples": [
-    "upscaler",
-    "upscaler pixelcut",
-    "upscaler aiease-anime",
-    "upscaler esrgan",
-    "upscaler",
-    "upscaler pixelcut",
-    "upscaler aiease-anime",
-    "upscaler esrgan"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "upscaler",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "si",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/tools",
-    "line": 1
+    "line": 208
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "upscaler"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

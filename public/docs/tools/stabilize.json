@@ -1,0 +1,73 @@
+{
+  "name": "stabilize",
+  "commands": [
+    "stabilize"
+  ],
+  "aliases": [],
+  "display": [
+    "stabilize"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "stabilize"
+  ],
+  "description": {
+    "en": "Stabilize shaky video (premium only, max 5 min)",
+    "id": "Menstabilkan video yang goyang (khusus premium, maks 5 menit)"
+  },
+  "usage": "stabilize",
+  "examples": [
+    "stabilize (reply video)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [
+    "video"
+  ],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "permissions": {},
+  "premiumOnly": "all",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": true,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 106
+  },
+  "lastUpdated": "2026-08-18T03:13:22Z"
+}

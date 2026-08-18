@@ -1,10 +1,39 @@
 {
+  "name": "badword",
+  "commands": [
+    "badword"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "badword"
+  ],
+  "category": "group",
   "categories": [
     "group"
   ],
-  "category": "group",
+  "tags": [
+    "badword"
+  ],
+  "description": {
+    "en": "Manage badword filter list",
+    "id": "Kelola daftar kata terlarang"
+  },
+  "usage": "badword",
+  "examples": [
+    "badword add anjing",
+    "badword on",
+    "badword off",
+    "badword status",
+    "badword del anjing",
+    "badword list",
+    "badword clear",
+    "badword set 4",
+    "badword add badword",
+    "badword del badword"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -13,73 +42,39 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "badword"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Manage badword filter list",
-    "id": "Kelola daftar kata terlarang"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "badword"
-  ],
-  "examples": [
-    "badword add badword",
-    "badword add badword force",
-    "badword on",
-    "badword off",
-    "badword status",
-    "badword del badword",
-    "badword list",
-    "badword clear",
-    "badword set 4",
-    "badword add anjing",
-    "badword add bajingan force",
-    "badword on",
-    "badword off",
-    "badword status",
-    "badword del anjing",
-    "badword list",
-    "badword clear",
-    "badword set 4"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 1,
-  "name": "badword",
-  "nsfwOnly": false,
   "permissions": {
     "admin": true,
     "owner": true,
     "subowner": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/group",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "badword add badword"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 220
+  },
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

@@ -1,12 +1,37 @@
 {
-  "aliases": [
+  "name": "whatmusic",
+  "commands": [
+    "whatmusic",
     "whatsong"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "whatmusic"
+  ],
+  "category": "tools",
   "categories": [
     "tools"
   ],
-  "category": "tools",
+  "tags": [
+    "whatmusic",
+    "whatsong"
+  ],
+  "description": {
+    "en": "Find song from audio or video (send or reply to audio/video then type the command)",
+    "id": "Cari lagu berdasarkan audio atau video (kirim atau reply audio/video lalu ketik perintah)"
+  },
+  "usage": "whatmusic",
+  "examples": [
+    "whatmusic (reply audio)",
+    "whatmusic (reply video)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [
+    "video",
+    "audio",
+    "document"
+  ],
   "chatPermissions": [
     "private",
     "group",
@@ -19,56 +44,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "whatmusic",
-    "whatsong"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Find song from audio or video (send or reply to audio/video then type the command)",
-    "id": "Cari lagu berdasarkan audio atau video (kirim atau reply audio/video lalu ketik perintah)"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "whatmusic"
-  ],
-  "examples": [
-    "whatmusic (reply audio)",
-    "whatmusic (reply video)",
-    "whatmusic (reply audio)",
-    "whatmusic (reply video)"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 1,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "whatmusic",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "avd",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/tools",
-    "line": 1
+    "line": 143
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "whatmusic (reply audio)"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

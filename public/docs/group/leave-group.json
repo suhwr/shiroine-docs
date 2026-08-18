@@ -1,12 +1,32 @@
 {
-  "aliases": [
+  "name": "leave-group",
+  "commands": [
+    "leave-group",
     "leavegc"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "leave-group"
+  ],
+  "category": "group",
   "categories": [
     "group"
   ],
-  "category": "group",
+  "tags": [
+    "leave-group",
+    "leavegc"
+  ],
+  "description": {
+    "en": "Remove bot from group",
+    "id": "Keluarkan bot dari grup"
+  },
+  "usage": "leave-group",
+  "examples": [
+    "leave confirm"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -15,39 +35,6 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "leave-group",
-    "leavegc"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Remove bot from group",
-    "id": "Keluarkan bot dari grup"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "leave-group"
-  ],
-  "examples": [
-    "leave confirm",
-    "leave confirm"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "leave-group",
-  "nsfwOnly": false,
   "permissions": {
     "admin": true,
     "bot": true,
@@ -56,19 +43,33 @@
     "subowner": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/group",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "leave confirm"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 30
+  },
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

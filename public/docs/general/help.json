@@ -1,10 +1,32 @@
 {
+  "name": "help",
+  "commands": [
+    "help"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "help"
+  ],
+  "category": "general",
   "categories": [
     "general"
   ],
-  "category": "general",
+  "tags": [
+    "help"
+  ],
+  "description": {
+    "en": "Show help for a specific command",
+    "id": "Tampilkan bantuan untuk command tertentu"
+  },
+  "usage": "help",
+  "examples": [
+    "help sticker",
+    "help play",
+    "help menu"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -17,57 +39,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "help"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Show help for a specific command",
-    "id": "Tampilkan bantuan untuk command tertentu"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "help"
-  ],
-  "examples": [
-    "help sticker",
-    "help play",
-    "help menu",
-    "help sticker",
-    "help play",
-    "help menu"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "help",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/general",
-    "line": 1
+    "line": 30
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "help sticker"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

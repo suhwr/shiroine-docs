@@ -1,69 +1,69 @@
 {
+  "name": "setprivacy",
+  "commands": [
+    "setprivacy"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "setprivacy"
+  ],
+  "category": "bot",
   "categories": [
     "bot"
   ],
-  "category": "bot",
+  "tags": [
+    "setprivacy"
+  ],
+  "description": {
+    "en": "Change WhatsApp privacy settings",
+    "id": "Ubah privacy setting WhatsApp"
+  },
+  "usage": "setprivacy <teks>",
+  "examples": [
+    "setprivacy groupadd contact",
+    "setprivacy lastseen all",
+    "setprivacy status none"
+  ],
+  "minArgs": 2,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private"
   ],
   "chatTypes": {
     "private": true
   },
-  "commands": [
-    "setprivacy"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Change WhatsApp privacy settings",
-    "id": "Ubah privacy setting WhatsApp"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "setprivacy"
-  ],
-  "examples": [
-    "setprivacy groupadd contact",
-    "setprivacy lastseen all",
-    "setprivacy status none",
-    "setprivacy groupadd contact",
-    "setprivacy lastseen all",
-    "setprivacy status none"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 2,
-  "name": "setprivacy",
-  "nsfwOnly": false,
   "permissions": {
     "bot": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/bot",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "setprivacy groupadd contact"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 138
+  },
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

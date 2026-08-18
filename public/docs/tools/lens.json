@@ -1,74 +1,76 @@
 {
-  "aliases": [
-    "googlelens"
-  ],
-  "args": {},
-  "categories": [
-    "tools"
-  ],
-  "category": "tools",
-  "chatPermissions": [
-    "private",
-    "group",
-    "group_community",
-    "newsletter"
-  ],
-  "chatTypes": {
-    "group": true,
-    "group_community": true,
-    "newsletter": true,
-    "private": true
-  },
+  "name": "lens",
   "commands": [
     "lens",
     "googlelens"
   ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
+  "aliases": [],
+  "display": [
+    "lens"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "lens",
+    "googlelens"
+  ],
   "description": {
     "en": "Search image information using Google Lens (send or reply to an image then type the command)",
     "id": "Cari informasi dari gambar menggunakan Google Lens (kirim atau reply gambar lalu ketik perintah)"
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "lens"
-  ],
+  "usage": "lens",
   "examples": [
     "lens",
     "lens (reply gambar)",
-    "lens",
     "lens (reply image)"
   ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [
+    "sticker",
+    "image"
+  ],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "private": true
+  },
+  "permissions": {},
+  "premiumOnly": "all",
+  "nsfwOnly": false,
   "level": 0,
-  "limitCost": 1,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": true,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "lens",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "is",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/tools",
-    "line": 1
+    "line": 74
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "lens"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

@@ -1,10 +1,30 @@
 {
+  "name": "ytmp3",
+  "commands": [
+    "ytmp3"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "ytmp3"
+  ],
+  "category": "youtube",
   "categories": [
     "youtube"
   ],
-  "category": "youtube",
+  "tags": [
+    "ytmp3"
+  ],
+  "description": {
+    "en": "Search and download songs from YouTube as MP3",
+    "id": "Cari dan unduh lagu dari YouTube sebagai MP3"
+  },
+  "usage": "ytmp3",
+  "examples": [
+    "ytmp3 Despacito"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -17,53 +37,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "ytmp3"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Search and download songs from YouTube as MP3",
-    "id": "Cari dan unduh lagu dari YouTube sebagai MP3"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "ytmp3"
-  ],
-  "examples": [
-    "ytmp3 Despacito",
-    "ytmp3 Despacito"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 1,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "ytmp3",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/youtube",
-    "line": 1
+    "line": 539
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "ytmp3 Despacito"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

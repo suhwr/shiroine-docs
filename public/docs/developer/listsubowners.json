@@ -1,0 +1,73 @@
+{
+  "name": "listsubowners",
+  "commands": [
+    "listsubowners",
+    "listsub",
+    "subowners",
+    "sublist"
+  ],
+  "aliases": [],
+  "display": [
+    "listsubowners"
+  ],
+  "category": "developer",
+  "categories": [
+    "developer"
+  ],
+  "tags": [
+    "listsubowners",
+    "listsub",
+    "subowners",
+    "sublist"
+  ],
+  "description": {
+    "en": "Show sub-owners list",
+    "id": "Tampilkan daftar sub-owner"
+  },
+  "usage": "listsubowners",
+  "examples": [
+    "listsubowners"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private"
+  ],
+  "chatTypes": {
+    "private": true
+  },
+  "permissions": {
+    "owner": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/developer",
+    "line": 131
+  },
+  "lastUpdated": "2026-08-18T03:13:22Z"
+}

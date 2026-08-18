@@ -1,13 +1,34 @@
 {
-  "aliases": [
+  "name": "reset-ai-group",
+  "commands": [
+    "reset-ai-group",
     "resetaigroup",
     "resetaigrup"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "reset-ai-group"
+  ],
+  "category": "ai",
   "categories": [
     "ai"
   ],
-  "category": "ai",
+  "tags": [
+    "reset-ai-group",
+    "resetaigroup",
+    "resetaigrup"
+  ],
+  "description": {
+    "en": "Reset AI chat history in group (Admin only)",
+    "id": "Reset riwayat chat AI di grup (Admin only)"
+  },
+  "usage": "reset-ai-group",
+  "examples": [
+    "resetaigroup"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -16,59 +37,39 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "reset-ai-group",
-    "resetaigroup",
-    "resetaigrup"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Reset AI chat history in group (Admin only)",
-    "id": "Reset riwayat chat AI di grup (Admin only)"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "reset-ai-group"
-  ],
-  "examples": [
-    "resetaigroup",
-    "resetaigroup"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "reset-ai-group",
-  "nsfwOnly": false,
   "permissions": {
     "admin": true,
     "owner": true,
     "subowner": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/ai",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "resetaigroup"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/ai",
+    "line": 42
+  },
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

@@ -1,13 +1,35 @@
 {
-  "aliases": [
+  "name": "calculator",
+  "commands": [
     "calc",
     "kalkulator"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "calculator"
+  ],
+  "category": "tools",
   "categories": [
     "tools"
   ],
-  "category": "tools",
+  "tags": [
+    "calc",
+    "kalkulator",
+    "calculator"
+  ],
+  "description": {
+    "en": "Complex calculator (supports math functions)",
+    "id": "Kalkulator kompleks (mendukung fungsi matematika)"
+  },
+  "usage": "calculator <teks>",
+  "examples": [
+    "calc 5 * 5",
+    "calc sin(0.5) * PI",
+    "calc 2^10"
+  ],
+  "minArgs": 1,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -20,58 +42,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "calc",
-    "kalkulator"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Complex calculator (supports math functions)",
-    "id": "Kalkulator kompleks (mendukung fungsi matematika)"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "calculator"
-  ],
-  "examples": [
-    "calc 5 * 5",
-    "calc sin(0.5) * PI",
-    "calc 2^10",
-    "calc 5 * 5",
-    "calc sin(0.5) * PI",
-    "calc 2^10"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 1,
-  "name": "calculator",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/tools",
-    "line": 1
+    "line": 96
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "calc 5 * 5"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

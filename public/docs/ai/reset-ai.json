@@ -1,66 +1,67 @@
 {
-  "aliases": [
+  "name": "reset-ai",
+  "commands": [
+    "reset-ai",
     "resetai"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "reset-ai"
+  ],
+  "category": "ai",
   "categories": [
     "ai"
   ],
-  "category": "ai",
+  "tags": [
+    "reset-ai",
+    "resetai"
+  ],
+  "description": {
+    "en": "Clear all private conversation history with AI and start a new session without previous context. Useful when you want to start a new topic unrelated to previous conversations.",
+    "id": "Hapus seluruh riwayat percakapan pribadi dengan AI dan mulai sesi baru tanpa konteks sebelumnya. Berguna ketika Anda ingin memulai topik baru yang tidak terkait dengan percakapan sebelumnya."
+  },
+  "usage": "reset-ai",
+  "examples": [
+    "resetai"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private"
   ],
   "chatTypes": {
     "private": true
   },
-  "commands": [
-    "reset-ai",
-    "resetai"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Clear all private conversation history with AI and start a new session without previous context. Useful when you want to start a new topic unrelated to previous conversations.",
-    "id": "Hapus seluruh riwayat percakapan pribadi dengan AI dan mulai sesi baru tanpa konteks sebelumnya. Berguna ketika Anda ingin memulai topik baru yang tidak terkait dengan percakapan sebelumnya."
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "reset-ai"
-  ],
-  "examples": [
-    "resetai",
-    "resetai"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "reset-ai",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/ai",
-    "line": 1
+    "line": 31
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "resetai"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

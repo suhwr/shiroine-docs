@@ -1,0 +1,76 @@
+{
+  "name": "unban-user",
+  "commands": [
+    "unban-user",
+    "unbanuser"
+  ],
+  "aliases": [],
+  "display": [
+    "unban-user"
+  ],
+  "category": "developer",
+  "categories": [
+    "developer"
+  ],
+  "tags": [
+    "unban-user",
+    "unbanuser"
+  ],
+  "description": {
+    "en": "Unban a user from all bots you own",
+    "id": "Unban user dari semua bot yang kamu miliki"
+  },
+  "usage": "unban-user",
+  "examples": [
+    "unban-user 628123456789",
+    "unban-user @user"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "permissions": {
+    "hasbot": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/developer",
+    "line": 121
+  },
+  "lastUpdated": "2026-08-18T03:13:22Z"
+}

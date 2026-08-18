@@ -1,12 +1,34 @@
 {
-  "aliases": [
-    "set-name"
+  "name": "setname",
+  "commands": [
+    "set-name",
+    "setname"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "setname"
+  ],
+  "category": "profile",
   "categories": [
     "profile"
   ],
-  "category": "profile",
+  "tags": [
+    "set-name",
+    "setname"
+  ],
+  "description": {
+    "en": "Set profile name",
+    "id": "Mengatur nama profil"
+  },
+  "usage": "setname",
+  "examples": [
+    "setname John Doe",
+    "setname --me",
+    "setname Jane Smith"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -19,56 +41,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "set-name",
-    "setname"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Set profile name",
-    "id": "Mengatur nama profil"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "setname"
-  ],
-  "examples": [
-    "setname John Doe",
-    "setname --me",
-    "setname Jane Smith",
-    "setname --me"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "setname",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/profile",
-    "line": 1
+    "line": 54
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "setname Jane Smith"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

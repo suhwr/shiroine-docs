@@ -1,10 +1,32 @@
 {
+  "name": "antisw",
+  "commands": [
+    "antisw"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "antisw"
+  ],
+  "category": "group",
   "categories": [
     "group"
   ],
-  "category": "group",
+  "tags": [
+    "antisw"
+  ],
+  "description": {
+    "en": "Configure anti tag status",
+    "id": "Atur anti tag status WhatsApp"
+  },
+  "usage": "antisw",
+  "examples": [
+    "antisw on",
+    "antisw off",
+    "antisw set 5"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -13,61 +35,39 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "antisw"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Configure anti tag status",
-    "id": "Atur anti tag status WhatsApp"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "antisw"
-  ],
-  "examples": [
-    "antisw on",
-    "antisw off",
-    "antisw set 5",
-    "antisw on",
-    "antisw off",
-    "antisw set 5"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "antisw",
-  "nsfwOnly": false,
   "permissions": {
     "admin": true,
     "owner": true,
     "subowner": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/group",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "antisw on"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 389
+  },
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

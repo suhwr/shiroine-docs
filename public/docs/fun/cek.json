@@ -1,12 +1,35 @@
 {
-  "aliases": [
+  "name": "cek",
+  "commands": [
+    "cek",
     "check"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "cek"
+  ],
+  "category": "fun",
   "categories": [
     "fun"
   ],
-  "category": "fun",
+  "tags": [
+    "cek",
+    "check"
+  ],
+  "description": {
+    "en": "Check a certain category percentage on someone",
+    "id": "Cek persentase kategori tertentu pada seseorang"
+  },
+  "usage": "cek",
+  "examples": [
+    "cek",
+    "cek gay",
+    "cek gay @user",
+    "cek @user"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -19,60 +42,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "cek",
-    "check"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 2,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 2,
-  "description": {
-    "en": "Check a certain category percentage on someone",
-    "id": "Cek persentase kategori tertentu pada seseorang"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "cek"
-  ],
-  "examples": [
-    "cek",
-    "cek gay",
-    "cek gay @user",
-    "cek @user",
-    "cek",
-    "cek gay",
-    "cek gay @user",
-    "cek @user"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "cek",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/fun",
-    "line": 1
+    "line": 186
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "cek"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

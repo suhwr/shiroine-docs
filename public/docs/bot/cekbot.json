@@ -1,0 +1,74 @@
+{
+  "name": "cekbot",
+  "commands": [
+    "cekbot",
+    "checkbot"
+  ],
+  "aliases": [],
+  "display": [
+    "cekbot"
+  ],
+  "category": "bot",
+  "categories": [
+    "bot"
+  ],
+  "tags": [
+    "cekbot",
+    "checkbot"
+  ],
+  "description": {
+    "en": "Check whether the target is an active bot in the Shiroine ecosystem",
+    "id": "Cek apakah nomor/tag adalah bot aktif di ekosistem Shiroine"
+  },
+  "usage": "cekbot",
+  "examples": [
+    "cekbot 628xxxx",
+    "cekbot @user"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 111
+  },
+  "lastUpdated": "2026-08-18T03:13:22Z"
+}

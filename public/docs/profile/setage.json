@@ -1,12 +1,34 @@
 {
-  "aliases": [
+  "name": "setage",
+  "commands": [
+    "setage",
     "set-age"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "setage"
+  ],
+  "category": "profile",
   "categories": [
     "profile"
   ],
-  "category": "profile",
+  "tags": [
+    "setage",
+    "set-age"
+  ],
+  "description": {
+    "en": "Set profile age",
+    "id": "Mengatur umur profil"
+  },
+  "usage": "setage <teks>",
+  "examples": [
+    "setage 25",
+    "setage 18",
+    "setage 30"
+  ],
+  "minArgs": 1,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -19,60 +41,37 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "setage",
-    "set-age"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments",
     "en": "❌ Enter age. Example: `setage 25`",
     "id": "❌ Masukkan umur. Contoh: `setage 25`"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Set profile age",
-    "id": "Mengatur umur profil"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "setage"
-  ],
-  "examples": [
-    "setage 25",
-    "setage 18",
-    "setage 30",
-    "setage 25",
-    "setage 18",
-    "setage 30"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 1,
-  "name": "setage",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/profile",
-    "line": 1
+    "line": 39
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "setage 25"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

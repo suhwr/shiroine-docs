@@ -1,32 +1,8 @@
 {
   "commands": [
     {
-      "description": "Unban this group from all bots you own",
-      "name": "unban-chat",
-      "permissions": {
-        "hasbot": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "unban-chat",
-        "unbanchat"
-      ]
-    },
-    {
-      "description": "Set group language (admin only) or personal language (private chat)",
-      "name": "set-lang",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "set-lang",
-        "setlang",
-        "set-language",
-        "setlanguage"
-      ]
-    },
-    {
-      "description": "Show most active users",
-      "name": "top-active",
+      "name": "add",
+      "description": "Add member to group",
       "permissions": {
         "admin": true,
         "owner": true,
@@ -34,14 +10,287 @@
       },
       "premiumOnly": "",
       "tags": [
-        "top-active",
-        "topaktif",
-        "topactive"
+        "add"
       ]
     },
     {
-      "description": "Delete replied message",
+      "name": "adminonly",
+      "description": "Make the bot only respond to commands from group admins",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "adminonly",
+        "onlyadmin"
+      ]
+    },
+    {
+      "name": "adzan",
+      "description": "Auto adzan & prayer reminder group settings",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "adzan",
+        "autoadzan",
+        "sholat"
+      ]
+    },
+    {
+      "name": "antibot",
+      "description": "Enable/disable anti-bot system for the group",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "antibot"
+      ]
+    },
+    {
+      "name": "antibug",
+      "description": "Configure anti bug/virtex",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "antibug"
+      ]
+    },
+    {
+      "name": "anticall",
+      "description": "Configure anti group call",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "anticall"
+      ]
+    },
+    {
+      "name": "antihidetag",
+      "description": "Configure anti hidetag",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "antihidetag"
+      ]
+    },
+    {
+      "name": "antilink",
+      "description": "Manage AntiLink features",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "antilink"
+      ]
+    },
+    {
+      "name": "antimedia",
+      "description": "Configure group anti media with specific types",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "antimedia"
+      ]
+    },
+    {
+      "name": "antinsfwmedia",
+      "description": "Enable automatic NSFW media filter in group",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "antinsfwmedia",
+        "antinsfw"
+      ]
+    },
+    {
+      "name": "antispamsticker",
+      "description": "Configure anti spam sticker",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "antispamsticker"
+      ]
+    },
+    {
+      "name": "antisw",
+      "description": "Configure anti tag status",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "antisw"
+      ]
+    },
+    {
+      "name": "antitagsw",
+      "description": "Configure anti tag status",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "antitagsw"
+      ]
+    },
+    {
+      "name": "autorespon",
+      "description": "Manage group auto-response system",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "autorespon"
+      ]
+    },
+    {
+      "name": "badword",
+      "description": "Manage badword filter list",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "badword"
+      ]
+    },
+    {
+      "name": "ban-chat",
+      "description": "Ban this group from all bots you own",
+      "permissions": {
+        "hasbot": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "ban-chat",
+        "banchat"
+      ]
+    },
+    {
+      "name": "ban-member",
+      "description": "Ban member from using bot in this group",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "ban-member",
+        "banmember"
+      ]
+    },
+    {
+      "name": "banlist",
+      "description": "Show list of banned entities by category",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "banlist"
+      ]
+    },
+    {
+      "name": "cekbotadmin",
+      "description": "Check list of bots that are admin in this group",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "cekbotadmin",
+        "cba"
+      ]
+    },
+    {
+      "name": "cektanpagrup",
+      "description": "Check community members who haven't joined any subgroup.",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "cektanpagrup"
+      ]
+    },
+    {
+      "name": "close",
+      "description": "Close group (only admins can chat)",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "close",
+        "cls"
+      ]
+    },
+    {
+      "name": "cmd",
+      "description": "Disable or enable a command in this group",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "cmd"
+      ]
+    },
+    {
       "name": "delete",
+      "description": "Delete replied message",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -51,8 +300,84 @@
       ]
     },
     {
-      "description": "Show group features and their status",
+      "name": "demote",
+      "description": "Demote admin to member",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "demote"
+      ]
+    },
+    {
+      "name": "ephemeral",
+      "description": "Configure ephemeral messages",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "ephemeral"
+      ]
+    },
+    {
+      "name": "group-stats",
+      "description": "Show group message statistics this month",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "group-stats",
+        "grupstats",
+        "gstats"
+      ]
+    },
+    {
+      "name": "groupid",
+      "description": "Display group ID for premium purchase",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "groupid"
+      ]
+    },
+    {
+      "name": "groupinfo",
+      "description": "View group information",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "groupinfo",
+        "group",
+        "ginfo"
+      ]
+    },
+    {
+      "name": "groupprefix",
+      "description": "Set group prefix",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "groupprefix",
+        "group-prefix",
+        "gprefix"
+      ]
+    },
+    {
       "name": "groupsettings",
+      "description": "Show group features and their status",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -61,8 +386,8 @@
       ]
     },
     {
-      "description": "Set group goodbye message",
-      "name": "set-goodbye",
+      "name": "hidetag",
+      "description": "Tag all members hidden",
       "permissions": {
         "admin": true,
         "owner": true,
@@ -70,13 +395,40 @@
       },
       "premiumOnly": "",
       "tags": [
-        "set-goodbye",
-        "setgoodbye"
+        "hidetag",
+        "ht",
+        "h"
       ]
     },
     {
-      "description": "Remove bot from group",
+      "name": "info",
+      "description": "Configure group notification",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "info"
+      ]
+    },
+    {
+      "name": "joinreq",
+      "description": "Manage WhatsApp group join requests",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "joinreq"
+      ]
+    },
+    {
       "name": "leave-group",
+      "description": "Remove bot from group",
       "permissions": {
         "admin": true,
         "bot": true,
@@ -91,8 +443,8 @@
       ]
     },
     {
-      "description": "Change group description",
-      "name": "setdesc",
+      "name": "left",
+      "description": "Configure left notification",
       "permissions": {
         "admin": true,
         "owner": true,
@@ -100,12 +452,12 @@
       },
       "premiumOnly": "",
       "tags": [
-        "setdesc"
+        "left"
       ]
     },
     {
-      "description": "Set auto open/close schedule",
-      "name": "setschedule",
+      "name": "linkgc",
+      "description": "Get group invite link",
       "permissions": {
         "admin": true,
         "owner": true,
@@ -113,14 +465,14 @@
       },
       "premiumOnly": "",
       "tags": [
-        "setschedule",
-        "schedule",
-        "autoopen"
+        "linkgc",
+        "gruplink",
+        "link"
       ]
     },
     {
-      "description": "Show group message statistics this month",
-      "name": "group-stats",
+      "name": "listaktif",
+      "description": "View the list of members active today along with their total messages",
       "permissions": {
         "admin": true,
         "owner": true,
@@ -128,26 +480,12 @@
       },
       "premiumOnly": "",
       "tags": [
-        "group-stats",
-        "grupstats",
-        "gstats"
+        "listaktif"
       ]
     },
     {
-      "description": "Ban this group from all bots you own",
-      "name": "ban-chat",
-      "permissions": {
-        "hasbot": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "ban-chat",
-        "banchat"
-      ]
-    },
-    {
-      "description": "Tag all members with neat format",
-      "name": "tagall",
+      "name": "listban",
+      "description": "View list of banned members in group",
       "permissions": {
         "admin": true,
         "owner": true,
@@ -155,192 +493,12 @@
       },
       "premiumOnly": "",
       "tags": [
-        "tagall",
-        "tag"
+        "listban"
       ]
     },
     {
-      "description": "Check inactive members (siders) in group",
-      "name": "sider",
-      "permissions": {
-        "admin": true,
-        "owner": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "sider"
-      ]
-    },
-    {
-      "description": "Close group (only admins can chat)",
-      "name": "close",
-      "permissions": {
-        "admin": true,
-        "owner": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "close",
-        "cls"
-      ]
-    },
-    {
-      "description": "Configure ephemeral messages",
-      "name": "ephemeral",
-      "permissions": {
-        "admin": true,
-        "owner": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "ephemeral"
-      ]
-    },
-    {
-      "description": "Remove member from group",
-      "name": "remove",
-      "permissions": {
-        "admin": true,
-        "owner": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "remove"
-      ]
-    },
-    {
-      "description": "Configure anti tag status",
-      "name": "antisw",
-      "permissions": {
-        "admin": true,
-        "owner": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "antisw"
-      ]
-    },
-    {
-      "description": "View available timezone list",
-      "name": "listtimezone",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "listtimezone",
-        "timezones",
-        "tzlist"
-      ]
-    },
-    {
-      "description": "Set group prefix",
-      "name": "groupprefix",
-      "permissions": {
-        "admin": true,
-        "owner": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "groupprefix",
-        "group-prefix",
-        "gprefix"
-      ]
-    },
-    {
-      "description": "Delete group cache to refresh with new data from WhatsApp API",
-      "name": "sync-group",
-      "permissions": {
-        "admin": true,
-        "owner": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "sync-group"
-      ]
-    },
-    {
-      "description": "Display group ID for premium purchase",
-      "name": "groupid",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "groupid"
-      ]
-    },
-    {
-      "description": "View group information",
-      "name": "groupinfo",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "groupinfo",
-        "group",
-        "ginfo"
-      ]
-    },
-    {
-      "description": "Change group name",
-      "name": "setsubject",
-      "permissions": {
-        "admin": true,
-        "owner": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "setsubject"
-      ]
-    },
-    {
-      "description": "Open group (all members can chat)",
-      "name": "open",
-      "permissions": {
-        "admin": true,
-        "owner": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "open",
-        "opn"
-      ]
-    },
-    {
-      "description": "Configure group anti media with specific types",
-      "name": "antimedia",
-      "permissions": {
-        "admin": true,
-        "owner": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "antimedia"
-      ]
-    },
-    {
-      "description": "Enable automatic NSFW media filter in group",
-      "name": "antinsfwmedia",
-      "permissions": {
-        "admin": true,
-        "owner": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "antinsfwmedia",
-        "antinsfw"
-      ]
-    },
-    {
-      "description": "View list of muted users",
       "name": "listmute",
+      "description": "View list of muted users",
       "permissions": {
         "admin": true,
         "owner": true,
@@ -353,94 +511,19 @@
       ]
     },
     {
-      "description": "Configure left notification",
-      "name": "left",
-      "permissions": {
-        "admin": true,
-        "owner": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "left"
-      ]
-    },
-    {
-      "description": "Enable/disable anti-bot system for the group",
-      "name": "antibot",
-      "permissions": {
-        "admin": true,
-        "owner": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "antibot"
-      ]
-    },
-    {
-      "description": "Resend quoted message to your DM",
-      "name": "send",
+      "name": "listtimezone",
+      "description": "View available timezone list",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "send",
-        "sendme"
+        "listtimezone",
+        "timezones",
+        "tzlist"
       ]
     },
     {
-      "description": "Show list of banned entities by category",
-      "name": "banlist",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "banlist"
-      ]
-    },
-    {
-      "description": "Manage group auto-response system",
-      "name": "autorespon",
-      "permissions": {
-        "admin": true,
-        "owner": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "autorespon"
-      ]
-    },
-    {
-      "description": "Mute bot or user in group",
-      "name": "mute",
-      "permissions": {
-        "admin": true,
-        "owner": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "mute"
-      ]
-    },
-    {
-      "description": "Tag all members hidden",
-      "name": "hidetag",
-      "permissions": {
-        "admin": true,
-        "owner": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "hidetag",
-        "ht",
-        "h"
-      ]
-    },
-    {
-      "description": "View list of members with active warnings",
       "name": "listwarning",
+      "description": "View list of members with active warnings",
       "permissions": {
         "admin": true,
         "owner": true,
@@ -453,8 +536,8 @@
       ]
     },
     {
-      "description": "View list of banned members in group",
-      "name": "listban",
+      "name": "mutemember",
+      "description": "Mute a specific user in group",
       "permissions": {
         "admin": true,
         "owner": true,
@@ -462,12 +545,145 @@
       },
       "premiumOnly": "",
       "tags": [
-        "listban"
+        "mutemember",
+        "mute-member"
       ]
     },
     {
-      "description": "Set group profile picture",
+      "name": "nsfw",
+      "description": "Toggle NSFW mode (in group: admin only, in private: bot only)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "nsfw",
+        "nsfwmode"
+      ]
+    },
+    {
+      "name": "open",
+      "description": "Open group (all members can chat)",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "open",
+        "opn"
+      ]
+    },
+    {
+      "name": "promote",
+      "description": "Promote member to admin",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "promote"
+      ]
+    },
+    {
+      "name": "remove",
+      "description": "Remove member from group",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "remove"
+      ]
+    },
+    {
+      "name": "resetwarn",
+      "description": "Reset member's warnings",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "resetwarn",
+        "clearwarn"
+      ]
+    },
+    {
+      "name": "revoke",
+      "description": "Reset group invite link",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "revoke",
+        "newlinkgc",
+        "resetlink"
+      ]
+    },
+    {
+      "name": "set-goodbye",
+      "description": "Set group goodbye message",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "set-goodbye",
+        "setgoodbye"
+      ]
+    },
+    {
+      "name": "set-lang",
+      "description": "Set group language (admin only) or personal language (private chat)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "set-lang",
+        "setlang",
+        "set-language",
+        "setlanguage"
+      ]
+    },
+    {
+      "name": "set-welcome",
+      "description": "Set group welcome message",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "set-welcome",
+        "setwelcome"
+      ]
+    },
+    {
+      "name": "setdesc",
+      "description": "Change group description",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "setdesc"
+      ]
+    },
+    {
       "name": "setppgc",
+      "description": "Set group profile picture",
       "permissions": {
         "admin": true,
         "owner": true,
@@ -483,8 +699,8 @@
       ]
     },
     {
-      "description": "Get group invite link",
-      "name": "linkgc",
+      "name": "setschedule",
+      "description": "Set auto open/close schedule",
       "permissions": {
         "admin": true,
         "owner": true,
@@ -492,14 +708,14 @@
       },
       "premiumOnly": "",
       "tags": [
-        "linkgc",
-        "gruplink",
-        "link"
+        "setschedule",
+        "schedule",
+        "autoopen"
       ]
     },
     {
-      "description": "Configure group notification",
-      "name": "info",
+      "name": "setsubject",
+      "description": "Change group name",
       "permissions": {
         "admin": true,
         "owner": true,
@@ -507,12 +723,12 @@
       },
       "premiumOnly": "",
       "tags": [
-        "info"
+        "setsubject"
       ]
     },
     {
-      "description": "Add member to group",
-      "name": "add",
+      "name": "settimezone",
+      "description": "Set group timezone for listaktif, schedule, and logs",
       "permissions": {
         "admin": true,
         "owner": true,
@@ -520,12 +736,12 @@
       },
       "premiumOnly": "",
       "tags": [
-        "add"
+        "settimezone"
       ]
     },
     {
-      "description": "Promote member to admin",
-      "name": "promote",
+      "name": "sider",
+      "description": "Manage inactive members (siders) in group",
       "permissions": {
         "admin": true,
         "owner": true,
@@ -533,12 +749,12 @@
       },
       "premiumOnly": "",
       "tags": [
-        "promote"
+        "sider"
       ]
     },
     {
-      "description": "Reset member's warnings",
-      "name": "resetwarn",
+      "name": "simulategoodbye",
+      "description": "Simulate group goodbye message using your data as example",
       "permissions": {
         "admin": true,
         "owner": true,
@@ -546,13 +762,81 @@
       },
       "premiumOnly": "",
       "tags": [
-        "resetwarn",
-        "clearwarn"
+        "simulategoodbye",
+        "previewgoodbye"
       ]
     },
     {
-      "description": "Unban member to use bot in this group",
+      "name": "simulatewelcome",
+      "description": "Simulate group welcome message using your data as example",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "simulatewelcome",
+        "previewwelcome"
+      ]
+    },
+    {
+      "name": "sync-group",
+      "description": "Delete group cache to refresh with new data from WhatsApp API",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "sync-group"
+      ]
+    },
+    {
+      "name": "tagall",
+      "description": "Tag all members with neat format",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "tagall",
+        "tag"
+      ]
+    },
+    {
+      "name": "top-active",
+      "description": "Show most active users",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "top-active",
+        "topaktif",
+        "topactive"
+      ]
+    },
+    {
+      "name": "unban-chat",
+      "description": "Unban this group from all bots you own",
+      "permissions": {
+        "hasbot": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "unban-chat",
+        "unbanchat"
+      ]
+    },
+    {
       "name": "unban-member",
+      "description": "Unban member to use bot in this group",
       "permissions": {
         "admin": true,
         "owner": true,
@@ -565,8 +849,8 @@
       ]
     },
     {
-      "description": "Reset group invite link",
-      "name": "revoke",
+      "name": "unmute-member",
+      "description": "Unmute a specific user in group",
       "permissions": {
         "admin": true,
         "owner": true,
@@ -574,14 +858,13 @@
       },
       "premiumOnly": "",
       "tags": [
-        "revoke",
-        "newlinkgc",
-        "resetlink"
+        "unmutemember",
+        "unmute-member"
       ]
     },
     {
-      "description": "Configure anti tag status",
-      "name": "antitagsw",
+      "name": "upswgc",
+      "description": "Upload media to group status",
       "permissions": {
         "admin": true,
         "owner": true,
@@ -589,25 +872,13 @@
       },
       "premiumOnly": "",
       "tags": [
-        "antitagsw"
+        "upswgc",
+        "upstatusgrup"
       ]
     },
     {
-      "description": "Configure welcome message",
-      "name": "welcome",
-      "permissions": {
-        "admin": true,
-        "owner": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "welcome"
-      ]
-    },
-    {
-      "description": "Issue a warning to a member",
       "name": "warn",
+      "description": "Issue a warning to a member",
       "permissions": {
         "admin": true,
         "owner": true,
@@ -619,101 +890,8 @@
       ]
     },
     {
-      "description": "Configure anti link",
-      "name": "antilink",
-      "permissions": {
-        "admin": true,
-        "owner": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "antilink"
-      ]
-    },
-    {
-      "description": "Demote admin to member",
-      "name": "demote",
-      "permissions": {
-        "admin": true,
-        "owner": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "demote"
-      ]
-    },
-    {
-      "description": "Unmute bot or user in group",
-      "name": "unmute",
-      "permissions": {
-        "admin": true,
-        "owner": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "unmute"
-      ]
-    },
-    {
-      "description": "Ban member from using bot in this group",
-      "name": "ban-member",
-      "permissions": {
-        "admin": true,
-        "owner": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "ban-member",
-        "banmember"
-      ]
-    },
-    {
-      "description": "Manage badword filter list",
-      "name": "badword",
-      "permissions": {
-        "admin": true,
-        "owner": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "badword"
-      ]
-    },
-    {
-      "description": "Set group welcome message",
-      "name": "set-welcome",
-      "permissions": {
-        "admin": true,
-        "owner": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "set-welcome",
-        "setwelcome"
-      ]
-    },
-    {
-      "description": "Configure anti link strict",
-      "name": "antilinkv2",
-      "permissions": {
-        "admin": true,
-        "owner": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "antilinkv2"
-      ]
-    },
-    {
-      "description": "View member's warning history",
       "name": "warnings",
+      "description": "View member's warning history",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -722,8 +900,8 @@
       ]
     },
     {
-      "description": "Disable or enable a command in this group",
-      "name": "cmd",
+      "name": "welcome",
+      "description": "Configure welcome message",
       "permissions": {
         "admin": true,
         "owner": true,
@@ -731,7 +909,7 @@
       },
       "premiumOnly": "",
       "tags": [
-        "cmd"
+        "welcome"
       ]
     }
   ]

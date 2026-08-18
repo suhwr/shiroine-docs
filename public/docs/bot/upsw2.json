@@ -1,0 +1,74 @@
+{
+  "name": "upsw2",
+  "commands": [
+    "upsw2"
+  ],
+  "aliases": [],
+  "display": [
+    "upsw2"
+  ],
+  "category": "bot",
+  "categories": [
+    "bot"
+  ],
+  "tags": [
+    "upsw2"
+  ],
+  "description": {
+    "en": "Upload media to WhatsApp status with group tag option",
+    "id": "Upload media ke status WhatsApp dengan opsi tag grup"
+  },
+  "usage": "upsw2",
+  "examples": [
+    "upsw2 Hello world!",
+    "upsw2 Check this!"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "permissions": {
+    "bot": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 495
+  },
+  "lastUpdated": "2026-08-18T03:13:22Z"
+}

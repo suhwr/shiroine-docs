@@ -1,10 +1,32 @@
 {
+  "name": "add",
+  "commands": [
+    "add"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "add"
+  ],
+  "category": "group",
   "categories": [
     "group"
   ],
-  "category": "group",
+  "tags": [
+    "add"
+  ],
+  "description": {
+    "en": "Add member to group",
+    "id": "Tambahkan member ke grup"
+  },
+  "usage": "add",
+  "examples": [
+    "add 628123456789",
+    "add @user",
+    "add (reply)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -13,61 +35,39 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "add"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Add member to group",
-    "id": "Tambahkan member ke grup"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "add"
-  ],
-  "examples": [
-    "add 628123456789",
-    "add @user",
-    "add (reply)",
-    "add 628123456789",
-    "add @user",
-    "add (reply)"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "add",
-  "nsfwOnly": false,
   "permissions": {
     "admin": true,
     "owner": true,
     "subowner": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/group",
-    "line": 1
+  "disabled": true,
+  "disabledReason": "Fitur ini dinonaktifkan sementara karena akhir-akhir ini berisiko tinggi menyebabkan nomor bot dibanned atau grup dinonaktifkan WhatsApp (This feature is temporarily disabled due to high risk of bot number ban or WhatsApp group deactivation)",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": false,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "add 628123456789"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 111
+  },
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

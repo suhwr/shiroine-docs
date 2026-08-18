@@ -1,10 +1,32 @@
 {
+  "name": "joinmode",
+  "commands": [
+    "joinmode"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "joinmode"
+  ],
+  "category": "bot",
   "categories": [
     "bot"
   ],
-  "category": "bot",
+  "tags": [
+    "joinmode"
+  ],
+  "description": {
+    "en": "Toggle join command (group join permission)",
+    "id": "Toggle join command (izin join grup)"
+  },
+  "usage": "joinmode",
+  "examples": [
+    "joinmode on",
+    "joinmode off",
+    "joinmode"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -17,59 +39,37 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "joinmode"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Toggle join command (group join permission)",
-    "id": "Toggle join command (izin join grup)"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "joinmode"
-  ],
-  "examples": [
-    "joinmode on",
-    "joinmode off",
-    "joinmode",
-    "joinmode on",
-    "joinmode off",
-    "joinmode"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "joinmode",
-  "nsfwOnly": false,
   "permissions": {
     "bot": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/bot",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "joinmode on"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 71
+  },
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

@@ -1,28 +1,26 @@
 {
   "commands": [
     {
-      "description": "Get profile picture",
-      "name": "getpp",
+      "name": "afk",
+      "description": "Set AFK status with reason",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "getpp",
-        "getpic"
+        "afk"
       ]
     },
     {
-      "description": "Set profile gender",
-      "name": "setgender",
+      "name": "cekpremium",
+      "description": "Check remaining premium duration",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "setgender",
-        "set-gender"
+        "cekpremium"
       ]
     },
     {
-      "description": "Change password for website login",
       "name": "change-password",
+      "description": "Change password for website login",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -31,18 +29,37 @@
       ]
     },
     {
-      "description": "Set profile bio/about",
-      "name": "setbio",
+      "name": "getpp",
+      "description": "Get profile picture",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "set-bio",
-        "setbio"
+        "getpp",
+        "getpic"
       ]
     },
     {
-      "description": "Set profile age",
+      "name": "level",
+      "description": "View your level and XP",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "level"
+      ]
+    },
+    {
+      "name": "profile",
+      "description": "View user profile",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "profile",
+        "me"
+      ]
+    },
+    {
       "name": "setage",
+      "description": "Set profile age",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -51,27 +68,28 @@
       ]
     },
     {
-      "description": "Check remaining premium duration",
-      "name": "cekpremium",
+      "name": "setbio",
+      "description": "Set profile bio/about",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "cekpremium"
+        "set-bio",
+        "setbio"
       ]
     },
     {
-      "description": "Set personal prefix (private chat only)",
-      "name": "setprefix",
+      "name": "setgender",
+      "description": "Set profile gender",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "setprefix",
-        "set-prefix"
+        "setgender",
+        "set-gender"
       ]
     },
     {
-      "description": "Set profile name",
       "name": "setname",
+      "description": "Set profile name",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -80,31 +98,13 @@
       ]
     },
     {
-      "description": "Set AFK status with reason",
-      "name": "afk",
+      "name": "setprefix",
+      "description": "Set personal prefix (private chat only)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "afk"
-      ]
-    },
-    {
-      "description": "View your level and XP",
-      "name": "level",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "level"
-      ]
-    },
-    {
-      "description": "View user profile",
-      "name": "profile",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "profile",
-        "me"
+        "setprefix",
+        "set-prefix"
       ]
     }
   ]

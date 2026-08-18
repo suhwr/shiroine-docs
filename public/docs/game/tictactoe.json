@@ -1,12 +1,32 @@
 {
-  "aliases": [
+  "name": "tictactoe",
+  "commands": [
+    "tictactoe",
     "ttt"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "tictactoe"
+  ],
+  "category": "game",
   "categories": [
     "game"
   ],
-  "category": "game",
+  "tags": [
+    "tictactoe",
+    "ttt"
+  ],
+  "description": {
+    "en": "Play Tictactoe with 2 players in group",
+    "id": "Main Tictactoe 2 orang di grup"
+  },
+  "usage": "tictactoe",
+  "examples": [
+    "tictactoe new"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -15,54 +35,35 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "tictactoe",
-    "ttt"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 3,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 3,
-  "description": {
-    "en": "Play Tictactoe with 2 players in group",
-    "id": "Main Tictactoe 2 orang di grup"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "tictactoe"
-  ],
-  "examples": [
-    "tictactoe new",
-    "tictactoe new"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "tictactoe",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/game",
-    "line": 1
+    "line": 629
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "tictactoe new"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

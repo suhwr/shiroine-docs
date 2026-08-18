@@ -1,34 +1,5 @@
 {
-  "aliases": [
-    "bratvid",
-    "bratvideo",
-    "ibrat",
-    "ibratvid",
-    "ibratvideo",
-    "jbrat",
-    "jbratvid",
-    "jbratvideo",
-    "tbrat",
-    "tbratvid",
-    "tbratvideo"
-  ],
-  "args": {},
-  "categories": [
-    "tools"
-  ],
-  "category": "tools",
-  "chatPermissions": [
-    "private",
-    "group",
-    "group_community",
-    "newsletter"
-  ],
-  "chatTypes": {
-    "group": true,
-    "group_community": true,
-    "newsletter": true,
-    "private": true
-  },
+  "name": "brat",
   "commands": [
     "brat",
     "bratvid",
@@ -43,50 +14,80 @@
     "tbratvid",
     "tbratvideo"
   ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
+  "aliases": [],
+  "display": [
+    "brat"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "brat",
+    "bratvid",
+    "bratvideo",
+    "ibrat",
+    "ibratvid",
+    "ibratvideo",
+    "jbrat",
+    "jbratvid",
+    "jbratvideo",
+    "tbrat",
+    "tbratvid",
+    "tbratvideo"
+  ],
   "description": {
     "en": "Create BRAT sticker",
     "id": "Buat stiker BRAT"
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "brat"
-  ],
+  "usage": "brat",
   "examples": [
-    "brat hello world",
     "brat hello world"
   ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
   "level": 0,
   "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "brat",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/tools",
-    "line": 1
+    "line": 60
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "brat hello world"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

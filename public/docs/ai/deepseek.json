@@ -1,10 +1,41 @@
 {
+  "name": "deepseek",
+  "commands": [
+    "deepseek"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "deepseek"
+  ],
+  "category": "ai",
   "categories": [
     "ai"
   ],
-  "category": "ai",
+  "tags": [
+    "deepseek"
+  ],
+  "description": {
+    "en": "Chat with DeepSeek without persona (text only)",
+    "id": "Chat dengan DeepSeek tanpa persona (hanya teks)"
+  },
+  "usage": "deepseek",
+  "examples": [
+    "deepseek halo!",
+    "deepseek jelaskan konsep AI",
+    "deepseek clear",
+    "deepseek hello!",
+    "deepseek explain AI concepts"
+  ],
+  "minArgs": 0,
+  "args": {
+    "pertanyaan": {
+      "id": "Pertanyaan atau teks instruksi (ketik 'clear' untuk reset riwayat)"
+    },
+    "query": {
+      "en": "Question or prompt text (type 'clear' to reset history)"
+    }
+  },
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -17,57 +48,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "deepseek"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 2,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Chat with DeepSeek without persona (text only)",
-    "id": "Chat dengan DeepSeek tanpa persona (hanya teks)"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "deepseek"
-  ],
-  "examples": [
-    "deepseek halo!",
-    "deepseek jelaskan konsep AI",
-    "deepseek clear",
-    "deepseek hello!",
-    "deepseek explain AI concepts",
-    "deepseek clear"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 2,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "deepseek",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/ai",
-    "line": 1
+    "line": 77
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "deepseek hello!"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

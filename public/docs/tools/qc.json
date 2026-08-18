@@ -1,15 +1,39 @@
 {
-  "aliases": [
+  "name": "qc",
+  "commands": [
+    "qc",
     "sqc",
     "isqc",
     "jsqc",
     "tsqc"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "qc"
+  ],
+  "category": "tools",
   "categories": [
     "tools"
   ],
-  "category": "tools",
+  "tags": [
+    "qc",
+    "sqc",
+    "isqc",
+    "jsqc",
+    "tsqc"
+  ],
+  "description": {
+    "en": "Create chat quotes from text/images",
+    "id": "Buat quote chat dari teks/gambar"
+  },
+  "usage": "qc",
+  "examples": [
+    "qc halo dunia",
+    "qc hello world"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -22,57 +46,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "qc",
-    "sqc",
-    "isqc",
-    "jsqc",
-    "tsqc"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Create chat quotes from text/images",
-    "id": "Buat quote chat dari teks/gambar"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "qc"
-  ],
-  "examples": [
-    "qc halo dunia",
-    "qc hello world"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "qc",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/tools",
-    "line": 1
+    "line": 115
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "qc hello world"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

@@ -1,10 +1,33 @@
 {
+  "name": "welcome",
+  "commands": [
+    "welcome"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "welcome"
+  ],
+  "category": "group",
   "categories": [
     "group"
   ],
-  "category": "group",
+  "tags": [
+    "welcome"
+  ],
+  "description": {
+    "en": "Configure welcome message",
+    "id": "Atur pesan welcome grup"
+  },
+  "usage": "welcome",
+  "examples": [
+    "welcome",
+    "welcome on",
+    "welcome off",
+    "welcome status"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -13,63 +36,39 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "welcome"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Configure welcome message",
-    "id": "Atur pesan welcome grup"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "welcome"
-  ],
-  "examples": [
-    "welcome",
-    "welcome on",
-    "welcome off",
-    "welcome status",
-    "welcome",
-    "welcome on",
-    "welcome off",
-    "welcome status"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "welcome",
-  "nsfwOnly": false,
   "permissions": {
     "admin": true,
     "owner": true,
     "subowner": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
   "source": {
     "file": "internal/plugins/group",
     "line": 1
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "welcome"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

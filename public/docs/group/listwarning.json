@@ -1,12 +1,32 @@
 {
-  "aliases": [
+  "name": "listwarning",
+  "commands": [
+    "listwarning",
     "warninglist"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "listwarning"
+  ],
+  "category": "group",
   "categories": [
     "group"
   ],
-  "category": "group",
+  "tags": [
+    "listwarning",
+    "warninglist"
+  ],
+  "description": {
+    "en": "View list of members with active warnings",
+    "id": "Lihat daftar member dengan peringatan aktif"
+  },
+  "usage": "listwarning",
+  "examples": [
+    "listwarning"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -15,58 +35,39 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "listwarning",
-    "warninglist"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "View list of members with active warnings",
-    "id": "Lihat daftar member dengan peringatan aktif"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "listwarning"
-  ],
-  "examples": [
-    "listwarning",
-    "listwarning"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "listwarning",
-  "nsfwOnly": false,
   "permissions": {
     "admin": true,
     "owner": true,
     "subowner": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/group",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "listwarning"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 66
+  },
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

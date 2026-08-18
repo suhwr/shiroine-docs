@@ -1,0 +1,72 @@
+{
+  "name": "lorem",
+  "commands": [
+    "lorem"
+  ],
+  "aliases": [],
+  "display": [
+    "lorem"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "lorem"
+  ],
+  "description": {
+    "en": "Generate Lorem Ipsum text",
+    "id": "Generate teks Lorem Ipsum"
+  },
+  "usage": "lorem",
+  "examples": [
+    "lorem",
+    "lorem 3"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 45
+  },
+  "lastUpdated": "2026-08-18T03:13:22Z"
+}

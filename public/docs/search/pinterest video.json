@@ -1,13 +1,34 @@
 {
-  "aliases": [
+  "name": "pinterest video",
+  "commands": [
     "pinterestvideo",
     "pinvid"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "pinterest video"
+  ],
+  "category": "search",
   "categories": [
     "search"
   ],
-  "category": "search",
+  "tags": [
+    "pinterestvideo",
+    "pinvid",
+    "pinterest video"
+  ],
+  "description": {
+    "en": "Search and download videos from Pinterest",
+    "id": "Cari dan download video dari Pinterest"
+  },
+  "usage": "pinterest video",
+  "examples": [
+    "pinterestvideo cooking",
+    "pinterestvideo funny cats #5"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -20,56 +41,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "pinterestvideo",
-    "pinvid"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Search and download videos from Pinterest",
-    "id": "Cari dan download video dari Pinterest"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "pinterest video"
-  ],
-  "examples": [
-    "pinterestvideo cooking",
-    "pinterestvideo funny cats #5",
-    "pinterestvideo cooking",
-    "pinterestvideo funny cats #5"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "pinterest video",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/search",
-    "line": 1
+    "line": 352
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "pinterestvideo cooking"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

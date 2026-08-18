@@ -1,13 +1,37 @@
 {
-  "aliases": [
+  "name": "google",
+  "commands": [
+    "google",
     "gsearch",
     "cari"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "google"
+  ],
+  "category": "search",
   "categories": [
     "search"
   ],
-  "category": "search",
+  "tags": [
+    "google",
+    "gsearch",
+    "cari"
+  ],
+  "description": {
+    "en": "Search for information using Google",
+    "id": "Cari informasi menggunakan Google"
+  },
+  "usage": "google <teks>",
+  "examples": [
+    "google cara membuat nasi goreng",
+    "google berita hari ini",
+    "google how to cook fried rice",
+    "google latest news"
+  ],
+  "minArgs": 1,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -20,57 +44,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "google",
-    "gsearch",
-    "cari"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Search for information using Google",
-    "id": "Cari informasi menggunakan Google"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "google"
-  ],
-  "examples": [
-    "google cara membuat nasi goreng",
-    "google berita hari ini",
-    "google how to cook fried rice",
-    "google latest news"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 1,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 1,
-  "name": "google",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/search",
-    "line": 1
+    "line": 79
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "google how to cook fried rice"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }
