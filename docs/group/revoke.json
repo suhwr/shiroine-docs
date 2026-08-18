@@ -23,7 +23,9 @@
     "id": "Reset link undangan grup"
   },
   "usage": "revoke",
-  "examples": null,
+  "examples": [
+    "revoke"
+  ],
   "minArgs": 0,
   "args": {},
   "requireMedia": [],
@@ -67,7 +69,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 72
+    "line": 74
   },
-  "lastUpdated": "2026-08-18T02:57:14Z"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

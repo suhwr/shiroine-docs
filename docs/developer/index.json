@@ -271,7 +271,7 @@
     },
     {
       "name": "param",
-      "description": "",
+      "description": "Inspect incoming WhatsApp message parameters as JSON",
       "permissions": {
         "owner": true
       },

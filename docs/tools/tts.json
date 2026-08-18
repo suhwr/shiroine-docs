@@ -29,7 +29,14 @@
     "tts id Halo dunia"
   ],
   "minArgs": 1,
-  "args": {},
+  "args": {
+    "kode_bahasa | teks": {
+      "id": "Kode bahasa opsional (misal: 'en' untuk Inggris) diikuti oleh teks yang ingin diubah menjadi suara"
+    },
+    "lang_code | text": {
+      "en": "Optional language code (e.g. 'en' for English) followed by the text to convert to speech"
+    }
+  },
   "requireMedia": [],
   "chatPermissions": [
     "private",
@@ -73,5 +80,5 @@
     "file": "internal/plugins/tools",
     "line": 67
   },
-  "lastUpdated": "2026-08-18T02:57:14Z"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

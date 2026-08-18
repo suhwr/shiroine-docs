@@ -23,7 +23,9 @@
     "id": "Dapatkan link undangan grup"
   },
   "usage": "linkgc",
-  "examples": null,
+  "examples": [
+    "linkgc"
+  ],
   "minArgs": 0,
   "args": {},
   "requireMedia": [],
@@ -69,5 +71,5 @@
     "file": "internal/plugins/group",
     "line": 62
   },
-  "lastUpdated": "2026-08-18T02:57:14Z"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

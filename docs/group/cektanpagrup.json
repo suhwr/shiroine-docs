@@ -19,7 +19,9 @@
     "id": "Periksa anggota komunitas yang belum bergabung ke grup mana pun."
   },
   "usage": "cektanpagrup",
-  "examples": null,
+  "examples": [
+    "cektanpagrup"
+  ],
   "minArgs": 0,
   "args": {},
   "requireMedia": [],
@@ -63,5 +65,5 @@
     "file": "internal/plugins/group",
     "line": 90
   },
-  "lastUpdated": "2026-08-18T02:57:14Z"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

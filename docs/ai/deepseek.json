@@ -27,7 +27,14 @@
     "deepseek explain AI concepts"
   ],
   "minArgs": 0,
-  "args": {},
+  "args": {
+    "pertanyaan": {
+      "id": "Pertanyaan atau teks instruksi (ketik 'clear' untuk reset riwayat)"
+    },
+    "query": {
+      "en": "Question or prompt text (type 'clear' to reset history)"
+    }
+  },
   "requireMedia": [],
   "chatPermissions": [
     "private",
@@ -71,5 +78,5 @@
     "file": "internal/plugins/ai",
     "line": 77
   },
-  "lastUpdated": "2026-08-18T02:57:14Z"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

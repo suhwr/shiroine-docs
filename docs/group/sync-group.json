@@ -19,7 +19,9 @@
     "id": "Hapus cache group agar data diperbarui dari API WhatsApp"
   },
   "usage": "sync-group",
-  "examples": null,
+  "examples": [
+    "sync-group"
+  ],
   "minArgs": 0,
   "args": {},
   "requireMedia": [],
@@ -65,5 +67,5 @@
     "file": "internal/plugins/group",
     "line": 18
   },
-  "lastUpdated": "2026-08-18T02:57:14Z"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

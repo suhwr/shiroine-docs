@@ -27,7 +27,14 @@
     "gpt [send image] describe this image"
   ],
   "minArgs": 0,
-  "args": {},
+  "args": {
+    "pertanyaan": {
+      "id": "Pesan obrolan atau instruksi gambar (ketik 'clear' untuk menghapus riwayat)"
+    },
+    "query": {
+      "en": "Chat message or image prompt (type 'clear' to reset history)"
+    }
+  },
   "requireMedia": [],
   "chatPermissions": [
     "private",
@@ -71,5 +78,5 @@
     "file": "internal/plugins/ai",
     "line": 94
   },
-  "lastUpdated": "2026-08-18T02:57:14Z"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

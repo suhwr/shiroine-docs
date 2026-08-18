@@ -21,7 +21,9 @@
     "id": "Tutup grup (hanya admin bisa chat)"
   },
   "usage": "close",
-  "examples": null,
+  "examples": [
+    "close"
+  ],
   "minArgs": 0,
   "args": {},
   "requireMedia": [],
@@ -65,7 +67,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 97
+    "line": 99
   },
-  "lastUpdated": "2026-08-18T02:57:14Z"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

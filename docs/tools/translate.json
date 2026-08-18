@@ -32,7 +32,14 @@
     "translate (reply text)"
   ],
   "minArgs": 1,
-  "args": {},
+  "args": {
+    "kode_bahasa | teks": {
+      "id": "Kode bahasa target diikuti teks yang ingin diterjemahkan (contoh: 'en Halo') atau kode bahasa saja jika mereply pesan"
+    },
+    "lang_code | text": {
+      "en": "Target language code followed by text to translate (e.g., 'en Halo') or target language code only when replying to a message"
+    }
+  },
   "requireMedia": [],
   "chatPermissions": [
     "private",
@@ -76,5 +83,5 @@
     "file": "internal/plugins/tools",
     "line": 113
   },
-  "lastUpdated": "2026-08-18T02:57:14Z"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

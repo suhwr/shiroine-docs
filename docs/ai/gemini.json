@@ -27,7 +27,14 @@
     "gemini [send image] what is in this image?"
   ],
   "minArgs": 0,
-  "args": {},
+  "args": {
+    "pertanyaan": {
+      "id": "Pertanyaan atau teks instruksi (ketik 'clear' untuk menghapus riwayat obrolan)"
+    },
+    "query": {
+      "en": "Question or instruction text (type 'clear' to reset chat memory)"
+    }
+  },
   "requireMedia": [],
   "chatPermissions": [
     "private",
@@ -71,5 +78,5 @@
     "file": "internal/plugins/ai",
     "line": 101
   },
-  "lastUpdated": "2026-08-18T02:57:14Z"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }

@@ -26,7 +26,12 @@
     "dl https://twitter.com/user/status/..."
   ],
   "minArgs": 0,
-  "args": {},
+  "args": {
+    "url": {
+      "en": "Social media URL to download (supports TikTok, Instagram, Facebook, Twitter, Pinterest, YouTube, Telegram Sticker)",
+      "id": "Tautan/link media sosial yang ingin didownload (mendukung TikTok, Instagram, Facebook, Twitter, Pinterest, YouTube, Telegram Sticker)"
+    }
+  },
   "requireMedia": [],
   "chatPermissions": [
     "private",
@@ -70,5 +75,5 @@
     "file": "internal/plugins/downloader",
     "line": 282
   },
-  "lastUpdated": "2026-08-18T02:57:14Z"
+  "lastUpdated": "2026-08-18T03:13:22Z"
 }
