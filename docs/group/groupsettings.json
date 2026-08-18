@@ -1,12 +1,33 @@
 {
-  "aliases": [
+  "name": "groupsettings",
+  "commands": [
+    "groupsettings",
     "gsettings"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "groupsettings"
+  ],
+  "category": "group",
   "categories": [
     "group"
   ],
-  "category": "group",
+  "tags": [
+    "groupsettings",
+    "gsettings"
+  ],
+  "description": {
+    "en": "Show group features and their status",
+    "id": "Lihat daftar fitur grup dan statusnya"
+  },
+  "usage": "groupsettings",
+  "examples": [
+    "groupsettings",
+    "gsettings"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -15,56 +36,35 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "groupsettings",
-    "gsettings"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Show group features and their status",
-    "id": "Lihat daftar fitur grup dan statusnya"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "groupsettings"
-  ],
-  "examples": [
-    "groupsettings",
-    "gsettings",
-    "groupsettings",
-    "gsettings"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "groupsettings",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/group",
-    "line": 1
+    "line": 430
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "groupsettings"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

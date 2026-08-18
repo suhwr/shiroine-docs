@@ -1,10 +1,30 @@
 {
+  "name": "math",
+  "commands": [
+    "math"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "math"
+  ],
+  "category": "game",
   "categories": [
     "game"
   ],
-  "category": "game",
+  "tags": [
+    "math"
+  ],
+  "description": {
+    "en": "Start math game with difficulty level",
+    "id": "Mulai game matematika dengan level pilihan"
+  },
+  "usage": "math",
+  "examples": [
+    "math\nmath e\nmath easy\nmath n\nmath normal\nmath h\nmath hard\nmath ex\nmath expert\nmath nm\nmath nightmare"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -13,53 +33,35 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "math"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 3,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 3,
-  "description": {
-    "en": "Start math game with difficulty level",
-    "id": "Mulai game matematika dengan level pilihan"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "math"
-  ],
-  "examples": [
-    "math\nmath e\nmath easy\nmath n\nmath normal\nmath h\nmath hard\nmath ex\nmath expert\nmath nm\nmath nightmare",
-    "math\nmath e\nmath easy\nmath n\nmath normal\nmath h\nmath hard\nmath ex\nmath expert\nmath nm\nmath nightmare"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "math",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/game",
-    "line": 1
+    "line": 301
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "math\nmath e\nmath easy\nmath n\nmath normal\nmath h\nmath hard\nmath ex\nmath expert\nmath nm\nmath nightmare"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

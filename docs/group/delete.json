@@ -1,13 +1,39 @@
 {
-  "aliases": [
+  "name": "delete",
+  "commands": [
+    "delete",
     "del",
     "d"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "delete"
+  ],
+  "category": "group",
   "categories": [
     "group"
   ],
-  "category": "group",
+  "tags": [
+    "delete",
+    "del",
+    "d"
+  ],
+  "description": {
+    "en": "Delete replied message",
+    "id": "Hapus pesan yang di-reply"
+  },
+  "usage": "delete",
+  "examples": [
+    "del (reply pesan)",
+    "del 5s",
+    "del 1m 10s",
+    "del satu menit 3 detik (maksimal 5 menit)",
+    "del (reply message)",
+    "del 1m 10s (max 5 minutes)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -18,60 +44,35 @@
     "group_community": true,
     "private": true
   },
-  "commands": [
-    "delete",
-    "del",
-    "d"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": true,
+  "disableProcessLimit": true,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Delete replied message",
-    "id": "Hapus pesan yang di-reply"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": true,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "delete"
-  ],
-  "examples": [
-    "del (reply pesan)",
-    "del 5s",
-    "del 1m 10s",
-    "del satu menit 3 detik (maksimal 5 menit)",
-    "del (reply message)",
-    "del 5s",
-    "del 1m 10s (max 5 minutes)"
-  ],
-  "ignoreQueue": true,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "delete",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/group",
-    "line": 1
+    "line": 147
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "del (reply message)"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

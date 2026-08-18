@@ -1,13 +1,35 @@
 {
-  "aliases": [
+  "name": "groupinfo",
+  "commands": [
+    "groupinfo",
     "group",
     "ginfo"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "groupinfo"
+  ],
+  "category": "group",
   "categories": [
     "group"
   ],
-  "category": "group",
+  "tags": [
+    "groupinfo",
+    "group",
+    "ginfo"
+  ],
+  "description": {
+    "en": "View group information",
+    "id": "Lihat informasi grup"
+  },
+  "usage": "groupinfo",
+  "examples": [
+    "groupinfo",
+    "ginfo"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -16,57 +38,35 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "groupinfo",
-    "group",
-    "ginfo"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "View group information",
-    "id": "Lihat informasi grup"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "groupinfo"
-  ],
-  "examples": [
-    "groupinfo",
-    "ginfo",
-    "groupinfo",
-    "ginfo"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "groupinfo",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/group",
-    "line": 1
+    "line": 40
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "groupinfo"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

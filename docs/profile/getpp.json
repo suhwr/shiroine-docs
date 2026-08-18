@@ -1,12 +1,36 @@
 {
-  "aliases": [
+  "name": "getpp",
+  "commands": [
+    "getpp",
     "getpic"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "getpp"
+  ],
+  "category": "profile",
   "categories": [
     "profile"
   ],
-  "category": "profile",
+  "tags": [
+    "getpp",
+    "getpic"
+  ],
+  "description": {
+    "en": "Get profile picture",
+    "id": "Ambil foto profil"
+  },
+  "usage": "getpp",
+  "examples": [
+    "getpp +628123456789",
+    "getpp @mention1 @mention2",
+    "getpp grup",
+    "getpp (reply)",
+    "getpp group"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -19,60 +43,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "getpp",
-    "getpic"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Get profile picture",
-    "id": "Ambil foto profil"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "getpp"
-  ],
-  "examples": [
-    "getpp +628123456789",
-    "getpp @mention1 @mention2",
-    "getpp grup",
-    "getpp (reply)",
-    "getpp +628123456789",
-    "getpp @mention1 @mention2",
-    "getpp group",
-    "getpp (reply)"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "getpp",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/profile",
-    "line": 1
+    "line": 121
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "getpp +628123456789"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

@@ -1,14 +1,40 @@
 {
-  "aliases": [
+  "name": "smeme",
+  "commands": [
+    "smeme",
     "ismeme",
     "jsmeme",
     "tsmeme"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "smeme"
+  ],
+  "category": "tools",
   "categories": [
     "tools"
   ],
-  "category": "tools",
+  "tags": [
+    "smeme",
+    "ismeme",
+    "jsmeme",
+    "tsmeme"
+  ],
+  "description": {
+    "en": "Create meme from image",
+    "id": "Buat meme dari gambar"
+  },
+  "usage": "smeme",
+  "examples": [
+    "smeme halo|dunia",
+    "smeme hello|world"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [
+    "sticker",
+    "image"
+  ],
   "chatPermissions": [
     "private",
     "group",
@@ -21,56 +47,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "smeme",
-    "ismeme",
-    "jsmeme",
-    "tsmeme"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Create meme from image",
-    "id": "Buat meme dari gambar"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "smeme"
-  ],
-  "examples": [
-    "smeme halo|dunia",
-    "smeme hello|world"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "smeme",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "si",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/tools",
-    "line": 1
+    "line": 70
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "smeme hello|world"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

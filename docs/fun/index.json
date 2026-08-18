@@ -1,37 +1,8 @@
 {
   "commands": [
     {
-      "description": "Ship two group members deterministically per hour",
-      "name": "ship",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "ship"
-      ]
-    },
-    {
-      "description": "Roll a random dice 1–6, optionally guess the number",
-      "name": "dadu",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "dadu",
-        "dice"
-      ]
-    },
-    {
-      "description": "Flip a coin and guess the outcome",
-      "name": "koin",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "koin",
-        "coin"
-      ]
-    },
-    {
-      "description": "Check a certain category percentage on someone",
       "name": "cek",
+      "description": "Check a certain category percentage on someone",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -40,18 +11,37 @@
       ]
     },
     {
-      "description": "Play rock-paper-scissors against the bot",
-      "name": "suit",
+      "name": "dadu",
+      "description": "Roll a random dice 1–6, optionally guess the number",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "suit",
-        "rps"
+        "dadu",
+        "dice"
       ]
     },
     {
-      "description": "List all available reaction commands",
+      "name": "koin",
+      "description": "Flip a coin and guess the outcome",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "koin",
+        "coin"
+      ]
+    },
+    {
+      "name": "meme",
+      "description": "Create meme from image using various templates",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "meme"
+      ]
+    },
+    {
       "name": "reaction",
+      "description": "List all available reaction commands",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -59,12 +49,31 @@
       ]
     },
     {
-      "description": "Roast yourself or someone else randomly",
       "name": "roast",
+      "description": "Roast yourself or someone else randomly",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
         "roast"
+      ]
+    },
+    {
+      "name": "ship",
+      "description": "Ship two group members deterministically per hour",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "ship"
+      ]
+    },
+    {
+      "name": "suit",
+      "description": "Play rock-paper-scissors against the bot",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "suit",
+        "rps"
       ]
     }
   ]

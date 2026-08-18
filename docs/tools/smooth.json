@@ -1,0 +1,72 @@
+{
+  "name": "smooth",
+  "commands": [
+    "smooth"
+  ],
+  "aliases": [],
+  "display": [
+    "smooth"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "smooth"
+  ],
+  "description": {
+    "en": "Smooth video with 120fps frame interpolation (Premium, max. 1:30 min)",
+    "id": "Haluskan video menggunakan interpolasi frame 120fps (Premium, maks. 1:30 menit)"
+  },
+  "usage": "smooth",
+  "examples": [
+    "smooth",
+    "smooth (reply video)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [
+    "video"
+  ],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "private": true
+  },
+  "permissions": {},
+  "premiumOnly": "all",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": true,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 85
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
+}

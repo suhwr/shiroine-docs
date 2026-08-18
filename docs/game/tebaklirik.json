@@ -1,10 +1,30 @@
 {
+  "name": "tebaklirik",
+  "commands": [
+    "tebaklirik"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "tebaklirik"
+  ],
+  "category": "game",
   "categories": [
     "game"
   ],
-  "category": "game",
+  "tags": [
+    "tebaklirik"
+  ],
+  "description": {
+    "en": "Start song lyrics guessing game",
+    "id": "Mulai game tebak lirik lagu"
+  },
+  "usage": "tebaklirik",
+  "examples": [
+    "tebaklirik"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -13,53 +33,35 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "tebaklirik"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 3,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 3,
-  "description": {
-    "en": "Start song lyrics guessing game",
-    "id": "Mulai game tebak lirik lagu"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "tebaklirik"
-  ],
-  "examples": [
-    "tebaklirik",
-    "tebaklirik"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "tebaklirik",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/game",
-    "line": 1
+    "line": 226
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "tebaklirik"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

@@ -1,10 +1,31 @@
 {
+  "name": "join",
+  "commands": [
+    "join"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "join"
+  ],
+  "category": "general",
   "categories": [
     "general"
   ],
-  "category": "general",
+  "tags": [
+    "join"
+  ],
+  "description": {
+    "en": "Join WhatsApp group via invite link",
+    "id": "Join ke grup WhatsApp via link invite"
+  },
+  "usage": "join <teks>",
+  "examples": [
+    "join https://chat.whatsapp.com/xxxxx",
+    "join https://chat.whatsapp.com/xxxxx --force"
+  ],
+  "minArgs": 1,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -17,55 +38,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "join"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Join WhatsApp group via invite link",
-    "id": "Join ke grup WhatsApp via link invite"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "join"
-  ],
-  "examples": [
-    "join https://chat.whatsapp.com/xxxxx",
-    "join https://chat.whatsapp.com/xxxxx --force",
-    "join https://chat.whatsapp.com/xxxxx",
-    "join https://chat.whatsapp.com/xxxxx --force"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 1,
-  "name": "join",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/general",
-    "line": 1
+    "line": 197
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "join https://chat.whatsapp.com/xxxxx"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

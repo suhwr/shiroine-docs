@@ -1,0 +1,74 @@
+{
+  "name": "removesubowner",
+  "commands": [
+    "removesubowner",
+    "removesub",
+    "delsub",
+    "delsubowner"
+  ],
+  "aliases": [],
+  "display": [
+    "removesubowner"
+  ],
+  "category": "developer",
+  "categories": [
+    "developer"
+  ],
+  "tags": [
+    "removesubowner",
+    "removesub",
+    "delsub",
+    "delsubowner"
+  ],
+  "description": {
+    "en": "Remove a sub-owner",
+    "id": "Hapus sub-owner"
+  },
+  "usage": "removesubowner",
+  "examples": [
+    "removesubowner 628123456789",
+    "removesubowner @user"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private"
+  ],
+  "chatTypes": {
+    "private": true
+  },
+  "permissions": {
+    "owner": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/developer",
+    "line": 113
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
+}

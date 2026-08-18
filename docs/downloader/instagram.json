@@ -1,13 +1,34 @@
 {
-  "aliases": [
+  "name": "instagram",
+  "commands": [
+    "instagram",
     "igdl",
     "ig"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "instagram"
+  ],
+  "category": "downloader",
   "categories": [
     "downloader"
   ],
-  "category": "downloader",
+  "tags": [
+    "instagram",
+    "igdl",
+    "ig"
+  ],
+  "description": {
+    "en": "Download photo/video from Instagram",
+    "id": "Download foto/video dari Instagram"
+  },
+  "usage": "instagram",
+  "examples": [
+    "instagram https://instagram.com/p/123456789"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -20,55 +41,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "instagram",
-    "igdl",
-    "ig"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": true,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Download photo/video from Instagram",
-    "id": "Download foto/video dari Instagram"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "instagram"
-  ],
-  "examples": [
-    "instagram https://instagram.com/p/123456789",
-    "instagram https://instagram.com/p/123456789"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 1,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "instagram",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": true,
   "source": {
     "file": "internal/plugins/downloader",
-    "line": 1
+    "line": 97
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "instagram https://instagram.com/p/123456789"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

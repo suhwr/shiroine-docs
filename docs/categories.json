@@ -1,88 +1,82 @@
 {
   "categories": [
     {
-      "description": "RPG and multi-player chat games.",
-      "icon": "gamepad",
-      "id": "game",
-      "name": "Interactive Games"
-    },
-    {
-      "description": "Download and convert YouTube videos \u0026 audio.",
-      "icon": "youtube",
-      "id": "youtube",
-      "name": "YouTube Downloader"
-    },
-    {
-      "description": "Create stickers and humorous images.",
-      "icon": "image",
-      "id": "meme",
-      "name": "Meme Generators"
-    },
-    {
-      "description": "Group management and administration commands.",
-      "icon": "shield",
-      "id": "admin",
-      "name": "Group Admin"
-    },
-    {
-      "description": "Helpful and basic bot commands.",
-      "icon": "info",
-      "id": "general",
-      "name": "General Commands"
-    },
-    {
-      "description": "Settings and utilities for WhatsApp groups.",
-      "icon": "users",
-      "id": "group",
-      "name": "Group Chat Settings"
-    },
-    {
-      "description": "Download media from various social media platforms like YouTube, TikTok, Instagram, etc.",
-      "icon": "download",
-      "id": "downloader",
-      "name": "Downloader"
-    },
-    {
-      "description": "Search tools for Wikipedia, Google, etc.",
-      "icon": "search",
-      "id": "search",
-      "name": "Information Search"
-    },
-    {
-      "description": "Developer-only and system owner controls.",
-      "icon": "key",
-      "id": "owner",
-      "name": "Bot Owner"
-    },
-    {
-      "description": "Games, trivia, and entertaining commands.",
-      "icon": "smile",
-      "id": "fun",
-      "name": "Fun \u0026 Games"
-    },
-    {
-      "description": "Interact with artificial intelligence assistants, image generation, and chat tools.",
-      "icon": "cpu",
       "id": "ai",
-      "name": "AI \u0026 Chatbots"
+      "name": "AI & Chatbots",
+      "description": "Interact with artificial intelligence assistants, image generation, and chat tools.",
+      "icon": "cpu"
     },
     {
-      "description": "Various utility and helper tools for daily tasks.",
-      "icon": "tool",
-      "id": "tools",
-      "name": "Utility Tools"
-    },
-    {
-      "description": "General bot settings and diagnostic tools.",
-      "icon": "bot",
       "id": "bot",
-      "name": "Bot Utilities"
+      "name": "Bot Utilities",
+      "description": "General bot settings and diagnostic tools.",
+      "icon": "bot"
     },
     {
-      "description": "Track limits, level up, and check stats.",
-      "icon": "user",
+      "id": "developer",
+      "name": "Developer & Owner",
+      "description": "Developer-only and system owner controls.",
+      "icon": "key"
+    },
+    {
+      "id": "downloader",
+      "name": "Downloader",
+      "description": "Download media from various social media platforms like YouTube, TikTok, Instagram, etc.",
+      "icon": "download"
+    },
+    {
+      "id": "fun",
+      "name": "Fun & Games",
+      "description": "Games, trivia, and entertaining commands.",
+      "icon": "smile"
+    },
+    {
+      "id": "game",
+      "name": "Interactive Games",
+      "description": "RPG and multi-player chat games.",
+      "icon": "gamepad"
+    },
+    {
+      "id": "general",
+      "name": "General Commands",
+      "description": "Helpful and basic bot commands.",
+      "icon": "info"
+    },
+    {
+      "id": "group",
+      "name": "Group Chat Settings",
+      "description": "Settings and utilities for WhatsApp groups.",
+      "icon": "users"
+    },
+    {
+      "id": "owner",
+      "name": "Bot Owner",
+      "description": "Developer-only and system owner controls.",
+      "icon": "key"
+    },
+    {
       "id": "profile",
-      "name": "User Profiles"
+      "name": "User Profiles",
+      "description": "Track limits, level up, and check stats.",
+      "icon": "user"
+    },
+    {
+      "id": "search",
+      "name": "Information Search",
+      "description": "Search tools for Wikipedia, Google, etc.",
+      "icon": "search"
+    },
+    {
+      "id": "tools",
+      "name": "Utility Tools",
+      "description": "Various utility and helper tools for daily tasks.",
+      "icon": "tool"
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube Downloader",
+      "description": "Download and convert YouTube videos & audio.",
+      "icon": "youtube"
     }
   ]
 }

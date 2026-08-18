@@ -1,0 +1,73 @@
+{
+  "name": "meme",
+  "commands": [
+    "meme"
+  ],
+  "aliases": [],
+  "display": [
+    "meme"
+  ],
+  "category": "fun",
+  "categories": [
+    "fun"
+  ],
+  "tags": [
+    "meme"
+  ],
+  "description": {
+    "en": "Create meme from image using various templates",
+    "id": "Buat meme dari gambar menggunakan berbagai template"
+  },
+  "usage": "meme",
+  "examples": [
+    "meme wasted",
+    "meme jail",
+    "meme delete"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/fun",
+    "line": 55
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
+}

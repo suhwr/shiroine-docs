@@ -1,70 +1,69 @@
 {
-  "aliases": [
+  "name": "setprefix",
+  "commands": [
+    "setprefix",
     "set-prefix"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "setprefix"
+  ],
+  "category": "profile",
   "categories": [
     "profile"
   ],
-  "category": "profile",
+  "tags": [
+    "setprefix",
+    "set-prefix"
+  ],
+  "description": {
+    "en": "Set personal prefix (private chat only)",
+    "id": "Mengatur prefix pribadi (hanya untuk chat private)"
+  },
+  "usage": "setprefix",
+  "examples": [
+    "setprefix ~",
+    "setprefix >",
+    "setprefix !"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private"
   ],
   "chatTypes": {
     "private": true
   },
-  "commands": [
-    "setprefix",
-    "set-prefix"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Set personal prefix (private chat only)",
-    "id": "Mengatur prefix pribadi (hanya untuk chat private)"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "setprefix"
-  ],
-  "examples": [
-    "setprefix ~",
-    "setprefix \u003e",
-    "setprefix !",
-    "setprefix ~",
-    "setprefix \u003e",
-    "setprefix !"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "setprefix",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/profile",
-    "line": 1
+    "line": 48
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "setprefix ~"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

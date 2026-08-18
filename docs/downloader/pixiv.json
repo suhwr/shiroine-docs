@@ -1,12 +1,34 @@
 {
-  "aliases": [
+  "name": "pixiv",
+  "commands": [
+    "pixiv",
     "pxdl"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "pixiv"
+  ],
+  "category": "downloader",
   "categories": [
     "downloader"
   ],
-  "category": "downloader",
+  "tags": [
+    "pixiv",
+    "pxdl"
+  ],
+  "description": {
+    "en": "Download NSFW artwork from Pixiv (search or ID/URL)",
+    "id": "Download artwork NSFW dari Pixiv (pencarian atau ID/URL)"
+  },
+  "usage": "pixiv",
+  "examples": [
+    "pixiv elaina",
+    "pixiv 12345678",
+    "pixiv https://www.pixiv.net/artworks/12345678"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -19,58 +41,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "pixiv",
-    "pxdl"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": true,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": true,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Download NSFW artwork from Pixiv (search or ID/URL)",
-    "id": "Download artwork NSFW dari Pixiv (pencarian atau ID/URL)"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "pixiv"
-  ],
-  "examples": [
-    "pixiv elaina",
-    "pixiv 12345678",
-    "pixiv https://www.pixiv.net/artworks/12345678",
-    "pixiv elaina",
-    "pixiv 12345678",
-    "pixiv https://www.pixiv.net/artworks/12345678"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 1,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "pixiv",
-  "nsfwOnly": true,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": true,
   "source": {
     "file": "internal/plugins/downloader",
-    "line": 1
+    "line": 170
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "pixiv elaina"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

@@ -1,10 +1,31 @@
 {
+  "name": "roast",
+  "commands": [
+    "roast"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "roast"
+  ],
+  "category": "fun",
   "categories": [
     "fun"
   ],
-  "category": "fun",
+  "tags": [
+    "roast"
+  ],
+  "description": {
+    "en": "Roast yourself or someone else randomly",
+    "id": "Roast diri sendiri atau orang lain secara random"
+  },
+  "usage": "roast",
+  "examples": [
+    "roast",
+    "roast @user"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -17,55 +38,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "roast"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 2,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 2,
-  "description": {
-    "en": "Roast yourself or someone else randomly",
-    "id": "Roast diri sendiri atau orang lain secara random"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "roast"
-  ],
-  "examples": [
-    "roast",
-    "roast @user",
-    "roast",
-    "roast @user"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "roast",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/fun",
-    "line": 1
+    "line": 177
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "roast"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

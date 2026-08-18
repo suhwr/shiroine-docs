@@ -1,12 +1,36 @@
 {
-  "aliases": [
+  "name": "jadianimev2",
+  "commands": [
+    "jadianimev2",
     "toanimev2"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "jadianimev2"
+  ],
+  "category": "ai",
   "categories": [
     "ai"
   ],
-  "category": "ai",
+  "tags": [
+    "jadianimev2",
+    "toanimev2"
+  ],
+  "description": {
+    "en": "Convert photo to anime v2 style using AI",
+    "id": "Ubah foto menjadi gaya anime v2 menggunakan AI"
+  },
+  "usage": "jadianimev2",
+  "examples": [
+    "jadianimev2",
+    "toanimev2"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [
+    "sticker",
+    "image"
+  ],
   "chatPermissions": [
     "private",
     "group",
@@ -19,56 +43,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "jadianimev2",
-    "toanimev2"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Convert photo to anime v2 style using AI",
-    "id": "Ubah foto menjadi gaya anime v2 menggunakan AI"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "jadianimev2"
-  ],
-  "examples": [
-    "jadianimev2",
-    "toanimev2",
-    "jadianimev2",
-    "toanimev2"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "jadianimev2",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "si",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/ai",
-    "line": 1
+    "line": 70
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "jadianimev2"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

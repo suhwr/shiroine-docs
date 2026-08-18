@@ -1,35 +1,24 @@
 {
-  "aliases": [],
-  "args": {},
-  "categories": [
-    "group"
-  ],
-  "category": "group",
-  "chatPermissions": [
-    "group",
-    "group_community"
-  ],
-  "chatTypes": {
-    "group": true,
-    "group_community": true
-  },
+  "name": "autorespon",
   "commands": [
     "autorespon"
   ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
+  "aliases": [],
+  "display": [
+    "autorespon"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "autorespon"
+  ],
   "description": {
     "en": "Manage group auto-response system",
     "id": "Kelola sistem autorespon grup"
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "autorespon"
-  ],
+  "usage": "autorespon",
   "examples": [
     "autorespon add intro Halo! Silakan perkenalkan diri kamu",
     "autorespon add intro (reply pesan/gambar/video)",
@@ -40,42 +29,52 @@
     "autorespon list",
     "autorespon add intro Hello! Please introduce yourself",
     "autorespon add intro (reply message/image/video)",
-    "autorespon edit intro Welcome! Please introduce yourself",
-    "autorespon delete intro",
-    "autorespon on",
-    "autorespon off",
-    "autorespon list"
+    "autorespon edit intro Welcome! Please introduce yourself"
   ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
   },
-  "minArgs": 1,
-  "name": "autorespon",
-  "nsfwOnly": false,
   "permissions": {
     "admin": true,
     "owner": true,
     "subowner": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/group",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "autorespon add intro Hello! Please introduce yourself"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 348
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

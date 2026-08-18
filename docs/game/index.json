@@ -1,17 +1,17 @@
 {
   "commands": [
     {
-      "description": "Start song lyrics guessing game",
-      "name": "tebaklirik",
+      "name": "asahotak",
+      "description": "Start brain teaser / trivia game",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "tebaklirik"
+        "asahotak"
       ]
     },
     {
-      "description": "View your badge collection",
       "name": "badges",
+      "description": "View your badge collection",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -20,8 +20,17 @@
       ]
     },
     {
-      "description": "Check remaining daily game limit",
+      "name": "caklontong",
+      "description": "Start caklontong / funny riddle game",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "caklontong"
+      ]
+    },
+    {
       "name": "gamelimit",
+      "description": "Check remaining daily game limit",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -29,83 +38,20 @@
       ]
     },
     {
-      "description": "Start word guessing game from hints",
-      "name": "tebakkata",
+      "name": "gamestats",
+      "description": "View personal game statistics",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "tebakkata"
+        "gamestats",
+        "mystats",
+        "mygamescore",
+        "statsgame"
       ]
     },
     {
-      "description": "Play Tictactoe with 2 players in group",
-      "name": "tictactoe",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "tictactoe",
-        "ttt"
-      ]
-    },
-    {
-      "description": "View group top contributors",
-      "name": "groupcontrib",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "groupcontrib",
-        "gc"
-      ]
-    },
-    {
-      "description": "View your game profile",
-      "name": "profilegame",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "profilegame",
-        "gameprofile"
-      ]
-    },
-    {
-      "description": "View group game statistics",
-      "name": "groupstats",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "groupstats"
-      ]
-    },
-    {
-      "description": "View your closest rival",
-      "name": "rival",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "rival"
-      ]
-    },
-    {
-      "description": "Detect carry player in group",
-      "name": "groupcarry",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "groupcarry"
-      ]
-    },
-    {
-      "description": "Start math game with difficulty level",
-      "name": "math",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "math"
-      ]
-    },
-    {
-      "description": "View group leaderboard",
       "name": "glb",
+      "description": "View group leaderboard",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -114,8 +60,8 @@
       ]
     },
     {
-      "description": "View group achievements",
       "name": "groupachievements",
+      "description": "View group achievements",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -124,64 +70,36 @@
       ]
     },
     {
-      "description": "Start country flag guessing game",
-      "name": "tebakbendera",
+      "name": "groupcarry",
+      "description": "Detect carry player in group",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "tebakbendera"
+        "groupcarry"
       ]
     },
     {
-      "description": "Start who am I guessing game",
-      "name": "siapakahaku",
+      "name": "groupcompare",
+      "description": "Compare your group vs rival",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "siapakahaku"
+        "groupcompare"
       ]
     },
     {
-      "description": "Start picture guessing game",
-      "name": "tebakgambar",
+      "name": "groupcontrib",
+      "description": "View group top contributors",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "tebakgambar"
+        "groupcontrib",
+        "gc"
       ]
     },
     {
-      "description": "View personal game statistics",
-      "name": "stats",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "stats",
-        "mystats",
-        "mygamescore"
-      ]
-    },
-    {
-      "description": "Start brain teaser / trivia game",
-      "name": "asahotak",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "asahotak"
-      ]
-    },
-    {
-      "description": "Start caklontong / funny riddle game",
-      "name": "caklontong",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "caklontong"
-      ]
-    },
-    {
-      "description": "View group MVP",
       "name": "groupmvp",
+      "description": "View group MVP",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -189,17 +107,17 @@
       ]
     },
     {
-      "description": "Start Tebak Bom game – avoid the bomb among 9 numbers",
-      "name": "tebakbom",
+      "name": "groupstats",
+      "description": "View group game statistics",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "tebakbom"
+        "groupstats"
       ]
     },
     {
-      "description": "Show game leaderboard",
       "name": "leaderboard",
+      "description": "Show game leaderboard",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -209,8 +127,45 @@
       ]
     },
     {
-      "description": "Start word scramble game",
+      "name": "math",
+      "description": "Start math game with difficulty level",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "math"
+      ]
+    },
+    {
+      "name": "profilegame",
+      "description": "View your game profile",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "profilegame",
+        "gameprofile"
+      ]
+    },
+    {
+      "name": "rival",
+      "description": "View your closest rival",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "rival"
+      ]
+    },
+    {
+      "name": "siapakahaku",
+      "description": "Start who am I guessing game",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "siapakahaku"
+      ]
+    },
+    {
       "name": "susunkata",
+      "description": "Start word scramble game",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -218,12 +173,58 @@
       ]
     },
     {
-      "description": "Compare your group vs rival",
-      "name": "groupcompare",
+      "name": "tebakbendera",
+      "description": "Start country flag guessing game",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "groupcompare"
+        "tebakbendera"
+      ]
+    },
+    {
+      "name": "tebakbom",
+      "description": "Start Tebak Bom game – avoid the bomb among 9 numbers",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "tebakbom"
+      ]
+    },
+    {
+      "name": "tebakgambar",
+      "description": "Start picture guessing game",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "tebakgambar"
+      ]
+    },
+    {
+      "name": "tebakkata",
+      "description": "Start word guessing game from hints",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "tebakkata"
+      ]
+    },
+    {
+      "name": "tebaklirik",
+      "description": "Start song lyrics guessing game",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "tebaklirik"
+      ]
+    },
+    {
+      "name": "tictactoe",
+      "description": "Play Tictactoe with 2 players in group",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "tictactoe",
+        "ttt"
       ]
     }
   ]

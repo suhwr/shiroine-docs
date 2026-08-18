@@ -1,14 +1,36 @@
 {
-  "aliases": [
+  "name": "nsfw",
+  "commands": [
+    "nsfw",
     "nsfwmode"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "nsfw"
+  ],
+  "category": "general",
   "categories": [
     "general",
     "bot",
     "group"
   ],
-  "category": "general",
+  "tags": [
+    "nsfw",
+    "nsfwmode"
+  ],
+  "description": {
+    "en": "Toggle NSFW mode (in group: admin only, in private: bot only)",
+    "id": "Toggle mode NSFW (di grup: admin only, di private: bot only)"
+  },
+  "usage": "nsfw",
+  "examples": [
+    "nsfw on",
+    "nsfw off",
+    "nsfw"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -21,58 +43,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "nsfw",
-    "nsfwmode"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Toggle NSFW mode (in group: admin only, in private: bot only)",
-    "id": "Toggle mode NSFW (di grup: admin only, di private: bot only)"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "nsfw"
-  ],
-  "examples": [
-    "nsfw on",
-    "nsfw off",
-    "nsfw",
-    "nsfw on",
-    "nsfw off",
-    "nsfw"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "nsfw",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/general",
-    "line": 1
+    "line": 129
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "nsfw on"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

@@ -1,13 +1,35 @@
 {
-  "aliases": [
+  "name": "tomp3",
+  "commands": [
+    "tomp3",
     "toaudio",
     "tovn"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "tomp3"
+  ],
+  "category": "tools",
   "categories": [
     "tools"
   ],
-  "category": "tools",
+  "tags": [
+    "tomp3",
+    "toaudio",
+    "tovn"
+  ],
+  "description": {
+    "en": "Convert video to mp3 or voice note.",
+    "id": "Convert video ke mp3 atau voice note."
+  },
+  "usage": "tomp3",
+  "examples": [
+    "tomp3 (reply video)",
+    "tovn (reply video)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -20,55 +42,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "tomp3",
-    "toaudio",
-    "tovn"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Convert video to mp3 or voice note.",
-    "id": "Convert video ke mp3 atau voice note."
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "tomp3"
-  ],
-  "examples": [
-    "tomp3 (reply video)",
-    "tovn (reply video)"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "tomp3",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/tools",
-    "line": 1
+    "line": 99
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "tovn (reply video)"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

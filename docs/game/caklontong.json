@@ -1,10 +1,30 @@
 {
+  "name": "caklontong",
+  "commands": [
+    "caklontong"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "caklontong"
+  ],
+  "category": "game",
   "categories": [
     "game"
   ],
-  "category": "game",
+  "tags": [
+    "caklontong"
+  ],
+  "description": {
+    "en": "Start caklontong / funny riddle game",
+    "id": "Mulai game caklontong / teka-teki lucu"
+  },
+  "usage": "caklontong",
+  "examples": [
+    "caklontong"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -13,53 +33,35 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "caklontong"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 3,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 3,
-  "description": {
-    "en": "Start caklontong / funny riddle game",
-    "id": "Mulai game caklontong / teka-teki lucu"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "caklontong"
-  ],
-  "examples": [
-    "caklontong",
-    "caklontong"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "caklontong",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/game",
-    "line": 1
+    "line": 235
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "caklontong"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

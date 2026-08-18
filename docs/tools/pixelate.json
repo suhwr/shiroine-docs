@@ -1,12 +1,36 @@
 {
-  "aliases": [
+  "name": "pixelate",
+  "commands": [
+    "pixelate",
     "pixel"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "pixelate"
+  ],
+  "category": "tools",
   "categories": [
     "tools"
   ],
-  "category": "tools",
+  "tags": [
+    "pixelate",
+    "pixel"
+  ],
+  "description": {
+    "en": "Convert image to pixel art. Number represents pixel block size (2-100), larger means more blocky.",
+    "id": "Ubah gambar menjadi pixel art. Angka menunjukkan ukuran blok piksel (2-100), makin besar makin kotak-kotak."
+  },
+  "usage": "pixelate",
+  "examples": [
+    "pixelate",
+    "pixelate 16",
+    "pixelate 32 -mode=sharp"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [
+    "image"
+  ],
   "chatPermissions": [
     "private",
     "group",
@@ -19,58 +43,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "pixelate",
-    "pixel"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Convert image to pixel art",
-    "id": "Ubah gambar menjadi pixel art"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "pixelate"
-  ],
-  "examples": [
-    "pixelate",
-    "pixelate 16",
-    "pixelate 32 -mode=sharp",
-    "pixelate",
-    "pixelate 16",
-    "pixelate 32 -mode=sharp"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "pixelate",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "i",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/tools",
-    "line": 1
+    "line": 818
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "pixelate"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

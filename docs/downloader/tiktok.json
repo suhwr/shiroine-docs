@@ -1,13 +1,37 @@
 {
-  "aliases": [
+  "name": "tiktok",
+  "commands": [
+    "tiktok",
     "ttdl",
-    "tt"
+    "tt",
+    "douyin"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "tiktok",
+    "douyin"
+  ],
+  "category": "downloader",
   "categories": [
     "downloader"
   ],
-  "category": "downloader",
+  "tags": [
+    "tiktok",
+    "ttdl",
+    "tt",
+    "douyin"
+  ],
+  "description": {
+    "en": "Download video/photo from TikTok",
+    "id": "Download video/foto dari TikTok"
+  },
+  "usage": "tiktok",
+  "examples": [
+    "tiktok https://tiktok.com/@user/video/123456789"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -20,55 +44,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "tiktok",
-    "ttdl",
-    "tt"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": true,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Download video/photo from TikTok",
-    "id": "Download video/foto dari TikTok"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "tiktok"
-  ],
-  "examples": [
-    "tiktok https://tiktok.com/@user/video/123456789",
-    "tiktok https://tiktok.com/@user/video/123456789"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 1,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "tiktok",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": true,
   "source": {
     "file": "internal/plugins/downloader",
-    "line": 1
+    "line": 157
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "tiktok https://tiktok.com/@user/video/123456789"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

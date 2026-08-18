@@ -1,10 +1,30 @@
 {
+  "name": "play2",
+  "commands": [
+    "play2"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "play2"
+  ],
+  "category": "youtube",
   "categories": [
     "youtube"
   ],
-  "category": "youtube",
+  "tags": [
+    "play2"
+  ],
+  "description": {
+    "en": "Search and play videos from YouTube",
+    "id": "Cari dan putar video dari YouTube"
+  },
+  "usage": "play2",
+  "examples": [
+    "play2 Despacito"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -17,53 +37,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "play2"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Search and play videos from YouTube",
-    "id": "Cari dan putar video dari YouTube"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "play2"
-  ],
-  "examples": [
-    "play2 Despacito",
-    "play2 Despacito"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 1,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "play2",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/youtube",
-    "line": 1
+    "line": 527
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "play2 Despacito"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

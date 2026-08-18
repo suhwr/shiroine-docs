@@ -1,0 +1,73 @@
+{
+  "name": "simulatewelcome",
+  "commands": [
+    "simulatewelcome",
+    "previewwelcome"
+  ],
+  "aliases": [],
+  "display": [
+    "simulatewelcome"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "simulatewelcome",
+    "previewwelcome"
+  ],
+  "description": {
+    "en": "Simulate group welcome message using your data as example",
+    "id": "Simulasi pesan welcome grup dengan data kamu sebagai contoh"
+  },
+  "usage": "simulatewelcome",
+  "examples": [
+    "simulatewelcome"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {
+    "admin": true,
+    "owner": true,
+    "subowner": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 167
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
+}

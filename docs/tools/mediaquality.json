@@ -1,0 +1,78 @@
+{
+  "name": "mediaquality",
+  "commands": [
+    "mediaquality",
+    "mq"
+  ],
+  "aliases": [],
+  "display": [
+    "mediaquality"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "mediaquality",
+    "mq"
+  ],
+  "description": {
+    "en": "Analyze specifications and quality of an image, video, or audio",
+    "id": "Menganalisis spesifikasi dan kualitas dari gambar, video, atau audio"
+  },
+  "usage": "mediaquality",
+  "examples": [
+    "mediaquality (reply gambar/video/audio)",
+    "mediaquality (reply image/video/audio)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [
+    "image",
+    "video",
+    "audio"
+  ],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 248
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
+}

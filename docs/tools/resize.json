@@ -1,10 +1,34 @@
 {
+  "name": "resize",
+  "commands": [
+    "resize"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "resize"
+  ],
+  "category": "tools",
   "categories": [
     "tools"
   ],
-  "category": "tools",
+  "tags": [
+    "resize"
+  ],
+  "description": {
+    "en": "Resize image. Use absolute pixel value (e.g. 512 or 512x512) or percentage (e.g. 50%)",
+    "id": "Ubah ukuran gambar. Gunakan nilai pixel absolut (contoh: 512 atau 512x512) atau persentase (contoh: 50%)"
+  },
+  "usage": "resize",
+  "examples": [
+    "resize 512",
+    "resize 512x512",
+    "resize 50%"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [
+    "image"
+  ],
   "chatPermissions": [
     "private",
     "group",
@@ -17,57 +41,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "resize"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Resize image (pixels or percentage)",
-    "id": "Ubah ukuran gambar (pixel atau persen)"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "resize"
-  ],
-  "examples": [
-    "resize 512",
-    "resize 512x512",
-    "resize 50%",
-    "resize 512",
-    "resize 512x512",
-    "resize 50%"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "resize",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "i",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/tools",
-    "line": 1
+    "line": 747
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "resize 512"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

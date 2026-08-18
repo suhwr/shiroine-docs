@@ -1,13 +1,44 @@
 {
-  "aliases": [
+  "name": "removebg",
+  "commands": [
+    "removebg",
     "rmbg",
     "rbg"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "removebg"
+  ],
+  "category": "tools",
   "categories": [
     "tools"
   ],
-  "category": "tools",
+  "tags": [
+    "removebg",
+    "rmbg",
+    "rbg"
+  ],
+  "description": {
+    "en": "Remove image background using AI (providers: aiease, pixelcut, removebg)",
+    "id": "Hapus background gambar menggunakan AI (provider: aiease, pixelcut, removebg)"
+  },
+  "usage": "removebg",
+  "examples": [
+    "removebg (kirim/reply gambar)",
+    "removebg aiease (kirim/reply gambar)",
+    "removebg pixelcut (kirim/reply gambar)",
+    "removebg removebg (kirim/reply gambar)",
+    "removebg (send/reply image)",
+    "removebg aiease (send/reply image)",
+    "removebg pixelcut (send/reply image)",
+    "removebg removebg (send/reply image)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [
+    "sticker",
+    "image"
+  ],
   "chatPermissions": [
     "private",
     "group",
@@ -20,61 +51,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "removebg",
-    "rmbg",
-    "rbg"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Remove image background using AI (providers: aiease, pixelcut, removebg)",
-    "id": "Hapus background gambar menggunakan AI (provider: aiease, pixelcut, removebg)"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "removebg"
-  ],
-  "examples": [
-    "removebg (kirim/reply gambar)",
-    "removebg aiease (kirim/reply gambar)",
-    "removebg pixelcut (kirim/reply gambar)",
-    "removebg removebg (kirim/reply gambar)",
-    "removebg (send/reply image)",
-    "removebg aiease (send/reply image)",
-    "removebg pixelcut (send/reply image)",
-    "removebg removebg (send/reply image)"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 1,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "removebg",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "si",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/tools",
-    "line": 1
+    "line": 92
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "removebg (send/reply image)"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

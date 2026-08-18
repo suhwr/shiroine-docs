@@ -1,18 +1,35 @@
 {
   "commands": [
     {
-      "description": "Search videos on YouTube",
-      "name": "yts",
+      "name": "album",
+      "description": "Download album from YouTube Music",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "yts",
-        "ytsearch"
+        "album"
       ]
     },
     {
-      "description": "Search and play videos from YouTube",
+      "name": "play",
+      "description": "Search and play songs from YouTube Music",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "play"
+      ]
+    },
+    {
+      "name": "play-downloader",
+      "description": "Download song from YouTube URL",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "play-downloader"
+      ]
+    },
+    {
       "name": "play2",
+      "description": "Search and play videos from YouTube",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -20,18 +37,8 @@
       ]
     },
     {
-      "description": "Search music on YouTube Music",
-      "name": "ytms",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "ytms",
-        "ytmusicsearch"
-      ]
-    },
-    {
-      "description": "YouTube helper - choose to download audio, video, or album",
       "name": "yt",
+      "description": "YouTube helper - choose to download audio, video, or album",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -40,8 +47,8 @@
       ]
     },
     {
-      "description": "Search and download songs from YouTube as MP3",
       "name": "ytmp3",
+      "description": "Search and download songs from YouTube as MP3",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -49,8 +56,8 @@
       ]
     },
     {
-      "description": "Download video from YouTube",
       "name": "ytmp4",
+      "description": "Download video from YouTube",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -59,30 +66,23 @@
       ]
     },
     {
-      "description": "Search and play songs from YouTube Music",
-      "name": "play",
+      "name": "ytms",
+      "description": "Search music on YouTube Music",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "play"
+        "ytms",
+        "ytmusicsearch"
       ]
     },
     {
-      "description": "Download album from YouTube Music",
-      "name": "album",
+      "name": "yts",
+      "description": "Search videos on YouTube",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "album"
-      ]
-    },
-    {
-      "description": "Download song from YouTube URL",
-      "name": "play-downloader",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "play-downloader"
+        "yts",
+        "ytsearch"
       ]
     }
   ]

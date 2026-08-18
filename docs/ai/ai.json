@@ -1,10 +1,33 @@
 {
+  "name": "ai",
+  "commands": [
+    "ai"
+  ],
   "aliases": [],
-  "args": {},
-  "categories": [
+  "display": [
     "ai"
   ],
   "category": "ai",
+  "categories": [
+    "ai"
+  ],
+  "tags": [
+    "ai"
+  ],
+  "description": {
+    "en": "Talk with AI using selected character",
+    "id": "Berbicara dengan AI menggunakan karakter yang dipilih"
+  },
+  "usage": "ai",
+  "examples": [
+    "ai halo",
+    "ai apa kabar?",
+    "ai hello",
+    "ai how are you?"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -17,55 +40,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "ai"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Talk with AI using selected character",
-    "id": "Berbicara dengan AI menggunakan karakter yang dipilih"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "ai"
-  ],
-  "examples": [
-    "ai halo",
-    "ai apa kabar?",
-    "ai hello",
-    "ai how are you?"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 1,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "ai",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/ai",
-    "line": 1
+    "line": 354
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "ai hello"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

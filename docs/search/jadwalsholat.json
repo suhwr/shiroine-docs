@@ -1,63 +1,63 @@
 {
-  "aliases": [],
-  "args": {},
-  "categories": [
-    "search"
-  ],
-  "category": "search",
-  "chatPermissions": null,
-  "chatTypes": {},
+  "name": "jadwalsholat",
   "commands": [
     "jadwalsholat"
   ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
+  "aliases": [],
+  "display": [
+    "jadwalsholat"
+  ],
+  "category": "search",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "jadwalsholat"
+  ],
   "description": {
     "en": "View today's prayer schedule by city",
     "id": "Lihat jadwal sholat hari ini berdasarkan kota"
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "jadwalsholat"
-  ],
+  "usage": "jadwalsholat <teks>",
   "examples": [
-    "jadwalsholat bandung",
-    "jadwalsholat jakarta",
-    "jadwalsholat surabaya",
     "jadwalsholat bandung",
     "jadwalsholat jakarta",
     "jadwalsholat surabaya"
   ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
+  "minArgs": 1,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": null,
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
   "level": 0,
   "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 1,
-  "name": "jadwalsholat",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/search",
-    "line": 1
+    "line": 43
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "jadwalsholat bandung"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

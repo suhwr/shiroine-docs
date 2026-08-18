@@ -1,8 +1,17 @@
 {
   "commands": [
     {
-      "description": "Manage AI character",
+      "name": "ai",
+      "description": "Talk with AI using selected character",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
       "name": "aichara",
+      "description": "Manage AI character",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -10,8 +19,35 @@
       ]
     },
     {
-      "description": "Chat with GPT-5 Nano without persona (supports text \u0026 image, premium only)",
+      "name": "deepseek",
+      "description": "Chat with DeepSeek without persona (text only)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "deepseek"
+      ]
+    },
+    {
+      "name": "gemini",
+      "description": "Chat with Gemini Flash without persona (supports text & media, premium user/group only)",
+      "permissions": {},
+      "premiumOnly": "all",
+      "tags": [
+        "gemini"
+      ]
+    },
+    {
+      "name": "gemma",
+      "description": "Chat with Gemma 3 27B IT (supports text and images)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "gemma"
+      ]
+    },
+    {
       "name": "gpt",
+      "description": "Chat with GPT-5 Nano without persona (supports text & image, premium only)",
       "permissions": {},
       "premiumOnly": "all",
       "tags": [
@@ -19,28 +55,8 @@
       ]
     },
     {
-      "description": "Clear all private conversation history with AI and start a new session without previous context. Useful when you want to start a new topic unrelated to previous conversations.",
-      "name": "reset-ai",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "reset-ai",
-        "resetai"
-      ]
-    },
-    {
-      "description": "Convert photo to Studio Ghibli style using AI",
-      "name": "jadighibli",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "jadighibli",
-        "toghibli"
-      ]
-    },
-    {
-      "description": "Convert photo to anime style using AI",
       "name": "jadianime",
+      "description": "Convert photo to anime style using AI",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -49,26 +65,56 @@
       ]
     },
     {
-      "description": "Chat with Gemini Flash without persona (supports text \u0026 media, premium user/group only)",
-      "name": "gemini",
+      "name": "jadianimev2",
+      "description": "Convert photo to anime v2 style using AI",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "gemini"
+        "jadianimev2",
+        "toanimev2"
       ]
     },
     {
-      "description": "Talk with AI using selected character",
-      "name": "ai",
+      "name": "jadighibli",
+      "description": "Convert photo to Studio Ghibli style using AI",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "ai"
+        "jadighibli",
+        "toghibli"
       ]
     },
     {
-      "description": "Reset AI chat history in group (Admin only)",
+      "name": "llm",
+      "description": "Select AI model to use",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "name": "qwen",
+      "description": "Chat with Qwen3-32B without persona (text only)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "name": "reset-ai",
+      "description": "Clear all private conversation history with AI and start a new session without previous context. Useful when you want to start a new topic unrelated to previous conversations.",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "reset-ai",
+        "resetai"
+      ]
+    },
+    {
       "name": "reset-ai-group",
+      "description": "Reset AI chat history in group (Admin only)",
       "permissions": {
         "admin": true,
         "owner": true,
@@ -79,43 +125,6 @@
         "reset-ai-group",
         "resetaigroup",
         "resetaigrup"
-      ]
-    },
-    {
-      "description": "Convert photo to anime v2 style using AI",
-      "name": "jadianimev2",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "jadianimev2",
-        "toanimev2"
-      ]
-    },
-    {
-      "description": "Chat with DeepSeek without persona (text only)",
-      "name": "deepseek",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "deepseek"
-      ]
-    },
-    {
-      "description": "Chat with Qwen3-32B without persona (text only)",
-      "name": "qwen",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
-      "description": "Select AI model to use",
-      "name": "llm",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "llm"
       ]
     }
   ]

@@ -1,13 +1,39 @@
 {
-  "aliases": [
+  "name": "tts-ai",
+  "commands": [
+    "tts-ai",
     "ai-tts",
     "ttsai"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "tts-ai"
+  ],
+  "category": "tools",
   "categories": [
     "tools"
   ],
-  "category": "tools",
+  "tags": [
+    "tts-ai",
+    "ai-tts",
+    "ttsai"
+  ],
+  "description": {
+    "en": "Convert text to natural AI voice (AI Text-to-Speech)",
+    "id": "Konversi teks ke suara AI yang lebih natural (Text-to-Speech AI)"
+  },
+  "usage": "tts-ai <teks>",
+  "examples": [
+    "tts-ai Halo, selamat datang!",
+    "tts-ai Kore Hai, apa kabar?",
+    "tts-ai Aoede Hello there!",
+    "tts-ai Hello, welcome!",
+    "tts-ai Kore Hello there!",
+    "tts-ai Puck Halo dunia"
+  ],
+  "minArgs": 1,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -20,59 +46,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "tts-ai",
-    "ai-tts",
-    "ttsai"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Convert text to natural AI voice (AI Text-to-Speech)",
-    "id": "Konversi teks ke suara AI yang lebih natural (Text-to-Speech AI)"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "tts-ai"
-  ],
-  "examples": [
-    "tts-ai Halo, selamat datang!",
-    "tts-ai Kore Hai, apa kabar?",
-    "tts-ai Aoede Hello there!",
-    "tts-ai Hello, welcome!",
-    "tts-ai Kore Hello there!",
-    "tts-ai Puck Halo dunia"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 1,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 1,
-  "name": "tts-ai",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/tools",
-    "line": 1
+    "line": 72
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "tts-ai Hello, welcome!"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

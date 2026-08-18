@@ -1,10 +1,30 @@
 {
+  "name": "ping",
+  "commands": [
+    "ping"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "ping"
+  ],
+  "category": "general",
   "categories": [
     "general"
   ],
-  "category": "general",
+  "tags": [
+    "ping"
+  ],
+  "description": {
+    "en": "Check bot latency and database status",
+    "id": "Cek latensi bot dan status database"
+  },
+  "usage": "ping",
+  "examples": [
+    "ping"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -17,53 +37,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "ping"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Check bot latency and database status",
-    "id": "Cek latensi bot dan status database"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "ping"
-  ],
-  "examples": [
-    "ping",
-    "ping"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "ping",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/general",
-    "line": 1
+    "line": 180
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "ping"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

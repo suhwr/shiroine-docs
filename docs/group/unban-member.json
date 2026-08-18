@@ -1,12 +1,33 @@
 {
-  "aliases": [
+  "name": "unban-member",
+  "commands": [
+    "unban-member",
     "unbanmember"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "unban-member"
+  ],
+  "category": "group",
   "categories": [
     "group"
   ],
-  "category": "group",
+  "tags": [
+    "unban-member",
+    "unbanmember"
+  ],
+  "description": {
+    "en": "Unban member to use bot in this group",
+    "id": "Unban member agar bisa menggunakan bot di grup ini"
+  },
+  "usage": "unban-member",
+  "examples": [
+    "unban-member @user",
+    "unban-member (reply)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -15,60 +36,39 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "unban-member",
-    "unbanmember"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Unban member to use bot in this group",
-    "id": "Unban member agar bisa menggunakan bot di grup ini"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "unban-member"
-  ],
-  "examples": [
-    "unban-member @user",
-    "unban-member (reply)",
-    "unban-member @user",
-    "unban-member (reply)"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "unban-member",
-  "nsfwOnly": false,
   "permissions": {
     "admin": true,
     "owner": true,
     "subowner": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/group",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "unban-member @user"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 256
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

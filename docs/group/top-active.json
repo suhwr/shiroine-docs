@@ -1,40 +1,28 @@
 {
-  "aliases": [
-    "topaktif",
-    "topactive"
-  ],
-  "args": {},
-  "categories": [
-    "group"
-  ],
-  "category": "group",
-  "chatPermissions": [
-    "group",
-    "group_community"
-  ],
-  "chatTypes": {
-    "group": true,
-    "group_community": true
-  },
+  "name": "top-active",
   "commands": [
     "top-active",
     "topaktif",
     "topactive"
   ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
+  "aliases": [],
+  "display": [
+    "top-active"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "top-active",
+    "topaktif",
+    "topactive"
+  ],
   "description": {
     "en": "Show most active users",
     "id": "Menampilkan pengguna paling aktif"
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "top-active"
-  ],
+  "usage": "top-active",
   "examples": [
     "topaktif",
     "topaktif 20",
@@ -49,36 +37,50 @@
     "topactive all",
     "topactive all 30"
   ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
   "minArgs": 0,
-  "name": "top-active",
-  "nsfwOnly": false,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
   "permissions": {
     "admin": true,
     "owner": true,
     "subowner": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/group",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "topactive"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 312
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

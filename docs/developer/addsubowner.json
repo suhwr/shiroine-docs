@@ -1,0 +1,70 @@
+{
+  "name": "addsubowner",
+  "commands": [
+    "addsubowner",
+    "addsub"
+  ],
+  "aliases": [],
+  "display": [
+    "addsubowner"
+  ],
+  "category": "developer",
+  "categories": [
+    "developer"
+  ],
+  "tags": [
+    "addsubowner",
+    "addsub"
+  ],
+  "description": {
+    "en": "Add a new sub-owner",
+    "id": "Tambahkan sub-owner baru"
+  },
+  "usage": "addsubowner",
+  "examples": [
+    "addsubowner 628123456789 John",
+    "addsubowner @user"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private"
+  ],
+  "chatTypes": {
+    "private": true
+  },
+  "permissions": {
+    "owner": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/developer",
+    "line": 95
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
+}

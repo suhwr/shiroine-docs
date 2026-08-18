@@ -1,12 +1,36 @@
 {
-  "aliases": [
+  "name": "tts",
+  "commands": [
+    "tts",
     "text2speech"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "tts"
+  ],
+  "category": "tools",
   "categories": [
     "tools"
   ],
-  "category": "tools",
+  "tags": [
+    "tts",
+    "text2speech"
+  ],
+  "description": {
+    "en": "Convert text to speech (Text-to-Speech)",
+    "id": "Konversi teks menjadi suara (Text-to-Speech)"
+  },
+  "usage": "tts <teks>",
+  "examples": [
+    "tts Halo, apa kabar?",
+    "tts en Hello world",
+    "tts ja こんにちは",
+    "tts Hello world",
+    "tts id Halo dunia"
+  ],
+  "minArgs": 1,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -19,58 +43,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "tts",
-    "text2speech"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Convert text to speech (Text-to-Speech)",
-    "id": "Konversi teks menjadi suara (Text-to-Speech)"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "tts"
-  ],
-  "examples": [
-    "tts Halo, apa kabar?",
-    "tts en Hello world",
-    "tts ja こんにちは",
-    "tts Hello world",
-    "tts id Halo dunia",
-    "tts ja こんにちは"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 1,
-  "name": "tts",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/tools",
-    "line": 1
+    "line": 67
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "tts Hello world"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

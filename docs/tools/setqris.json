@@ -1,10 +1,36 @@
 {
+  "name": "setqris",
+  "commands": [
+    "setqris"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "setqris"
+  ],
+  "category": "tools",
   "categories": [
     "tools"
   ],
-  "category": "tools",
+  "tags": [
+    "setqris"
+  ],
+  "description": {
+    "en": "Generate new QRIS from a QRIS image, optionally set payment amount",
+    "id": "Generate QRIS baru dari gambar QRIS, opsional set nominal pembayaran"
+  },
+  "usage": "setqris",
+  "examples": [
+    "setqris (reply gambar QRIS)",
+    "setqris 2000 (reply gambar QRIS)",
+    "setqris (reply QRIS image)",
+    "setqris 2000 (reply QRIS image)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [
+    "sticker",
+    "image"
+  ],
   "chatPermissions": [
     "private",
     "group",
@@ -17,55 +43,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "setqris"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Generate new QRIS from a QRIS image, optionally set payment amount",
-    "id": "Generate QRIS baru dari gambar QRIS, opsional set nominal pembayaran"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "setqris"
-  ],
-  "examples": [
-    "setqris (reply gambar QRIS)",
-    "setqris 2000 (reply gambar QRIS)",
-    "setqris (reply QRIS image)",
-    "setqris 2000 (reply QRIS image)"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "setqris",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "si",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/tools",
-    "line": 1
+    "line": 112
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "setqris (reply QRIS image)"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

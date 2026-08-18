@@ -1,18 +1,40 @@
 {
-  "aliases": [
+  "name": "ssweb",
+  "commands": [
+    "ssweb",
     "ss",
     "screenshot"
   ],
+  "aliases": [],
+  "display": [
+    "ssweb"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "ssweb",
+    "ss",
+    "screenshot"
+  ],
+  "description": {
+    "en": "Take a screenshot of a web page",
+    "id": "Ambil screenshot halaman web"
+  },
+  "usage": "ssweb <teks>",
+  "examples": [
+    "ssweb https://google.com",
+    "ssweb https://google.com --full"
+  ],
+  "minArgs": 1,
   "args": {
     "full": {
       "en": "Take full-page screenshot (with scroll)",
       "id": "Ambil screenshot halaman penuh (scroll)"
     }
   },
-  "categories": [
-    "tools"
-  ],
-  "category": "tools",
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -25,57 +47,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "ssweb",
-    "ss",
-    "screenshot"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Take a screenshot of a web page",
-    "id": "Ambil screenshot halaman web"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "ssweb"
-  ],
-  "examples": [
-    "ssweb https://google.com",
-    "ssweb https://google.com --full",
-    "ssweb https://google.com",
-    "ssweb https://google.com --full"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 1,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 1,
-  "name": "ssweb",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/tools",
-    "line": 1
+    "line": 53
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "ssweb https://google.com"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

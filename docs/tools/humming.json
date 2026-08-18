@@ -1,10 +1,35 @@
 {
+  "name": "humming",
+  "commands": [
+    "humming"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "humming"
+  ],
+  "category": "tools",
   "categories": [
     "tools"
   ],
-  "category": "tools",
+  "tags": [
+    "humming"
+  ],
+  "description": {
+    "en": "Find song by humming (send or reply to your humming audio then type the command)",
+    "id": "Cari lagu dengan cara humming/bersenandung (kirim atau reply audio senandungmu lalu ketik perintah)"
+  },
+  "usage": "humming",
+  "examples": [
+    "humming (reply audio senandung)",
+    "humming (reply humming audio)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [
+    "video",
+    "audio",
+    "document"
+  ],
   "chatPermissions": [
     "private",
     "group",
@@ -17,53 +42,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "humming"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Find song by humming (send or reply to your humming audio then type the command)",
-    "id": "Cari lagu dengan cara humming/bersenandung (kirim atau reply audio senandungmu lalu ketik perintah)"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "humming"
-  ],
-  "examples": [
-    "humming (reply humming audio)",
-    "humming (reply audio senandung)"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 1,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "humming",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "avd",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/tools",
-    "line": 1
+    "line": 156
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "humming (reply humming audio)"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

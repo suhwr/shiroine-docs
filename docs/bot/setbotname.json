@@ -1,70 +1,71 @@
 {
-  "aliases": [
+  "name": "setbotname",
+  "commands": [
+    "setbotname",
     "setnamebot",
     "set-bot-name"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "setbotname"
+  ],
+  "category": "bot",
   "categories": [
     "bot"
   ],
-  "category": "bot",
+  "tags": [
+    "setbotname",
+    "setnamebot",
+    "set-bot-name"
+  ],
+  "description": {
+    "en": "Change bot name",
+    "id": "Ubah nama bot"
+  },
+  "usage": "setbotname",
+  "examples": [
+    "setbotname Yae Miko"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private"
   ],
   "chatTypes": {
     "private": true
   },
-  "commands": [
-    "setbotname",
-    "setnamebot",
-    "set-bot-name"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Change bot name",
-    "id": "Ubah nama bot"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "setbotname"
-  ],
-  "examples": [
-    "setbotname Yae Miko",
-    "setbotname Yae Miko"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "setbotname",
-  "nsfwOnly": false,
   "permissions": {
     "bot": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/bot",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "setbotname Yae Miko"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 36
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

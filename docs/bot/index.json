@@ -1,156 +1,20 @@
 {
   "commands": [
     {
-      "description": "Toggle self mode (bot only accepts commands from owner)",
-      "name": "selfmode",
+      "name": "answercall",
+      "description": "Enable/disable auto answer call (pakde melawan)",
       "permissions": {
         "bot": true
       },
       "premiumOnly": "",
       "tags": [
-        "selfmode"
+        "answercall",
+        "ac"
       ]
     },
     {
-      "description": "Clear all chat history without deleting the chat list",
-      "name": "Clear Chat",
-      "permissions": {
-        "bot": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "clearchat"
-      ]
-    },
-    {
-      "description": "Show bot message statistics for the last 24 hours",
-      "name": "msgstats",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "msgstats",
-        "bot_msgstats"
-      ]
-    },
-    {
-      "description": "Enable/disable automatic chat deletion every midnight",
-      "name": "autodelete",
-      "permissions": {
-        "bot": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "autodelete"
-      ]
-    },
-    {
-      "description": "Reset your account password",
-      "name": "reset-password",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "reset-password",
-        "resetpassword"
-      ]
-    },
-    {
-      "description": "Show other bot status",
-      "name": "botlist",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "botlist",
-        "listbot"
-      ]
-    },
-    {
-      "description": "Show system and Go runtime info",
-      "name": "system",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "test",
-        "tes",
-        "sysinfo",
-        "runtime",
-        "system"
-      ]
-    },
-    {
-      "description": "Set bot profile picture",
-      "name": "setpp",
-      "permissions": {
-        "bot": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "setpp",
-        "setbotpp",
-        "setppbot"
-      ]
-    },
-    {
-      "description": "Toggle group mode (bot only accepts commands in groups)",
-      "name": "groupmode",
-      "permissions": {
-        "bot": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "groupmode",
-        "gm"
-      ]
-    },
-    {
-      "description": "Enable/disable auto-read message feature",
-      "name": "autoread",
-      "permissions": {
-        "bot": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "autoread"
-      ]
-    },
-    {
-      "description": "Delete all chats from the chat list",
-      "name": "Delete Chat",
-      "permissions": {
-        "bot": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "deletechat"
-      ]
-    },
-    {
-      "description": "Change the owner number for this bot session",
-      "name": "setbotowner",
-      "permissions": {
-        "bot": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "setbotowner",
-        "setowner",
-        "sbo"
-      ]
-    },
-    {
-      "description": "Display bot settings list",
-      "name": "botsettings",
-      "permissions": {
-        "bot": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "botsettings",
-        "settings"
-      ]
-    },
-    {
-      "description": "Enable/disable automatic chat clearing every midnight",
       "name": "autoclear",
+      "description": "Enable/disable automatic chat clearing every midnight",
       "permissions": {
         "bot": true
       },
@@ -160,20 +24,48 @@
       ]
     },
     {
-      "description": "View all WhatsApp privacy settings",
-      "name": "getprivacysetting",
+      "name": "autodelete",
+      "description": "Enable/disable automatic chat deletion every midnight",
       "permissions": {
         "bot": true
       },
       "premiumOnly": "",
       "tags": [
-        "getprivacysetting",
-        "getprivacy"
+        "autodelete"
       ]
     },
     {
-      "description": "Toggle official bot status (removes jadibot warnings)",
+      "name": "autoread",
+      "description": "Enable/disable auto-read message feature",
+      "permissions": {
+        "bot": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "autoread"
+      ]
+    },
+    {
+      "name": "bot",
+      "description": "Simple bot plugin that replies text",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "bot"
+      ]
+    },
+    {
+      "name": "botinfo",
+      "description": "Display bot information",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "botinfo"
+      ]
+    },
+    {
       "name": "botofficial",
+      "description": "Toggle official bot status (removes jadibot warnings)",
       "permissions": {
         "owner": true,
         "subowner": true
@@ -185,8 +77,175 @@
       ]
     },
     {
-      "description": "Change bot name",
+      "name": "botsettings",
+      "description": "Display bot settings list",
+      "permissions": {
+        "bot": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "botsettings",
+        "settings"
+      ]
+    },
+    {
+      "name": "cekbot",
+      "description": "Check whether the target is an active bot in the Shiroine ecosystem",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "cekbot",
+        "checkbot"
+      ]
+    },
+    {
+      "name": "clearchat",
+      "description": "Clear all chat history without deleting the chat list",
+      "permissions": {
+        "bot": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "clearchat"
+      ]
+    },
+    {
+      "name": "deletechat",
+      "description": "Delete all chats from the chat list",
+      "permissions": {
+        "bot": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "deletechat"
+      ]
+    },
+    {
+      "name": "getprivacysetting",
+      "description": "View all WhatsApp privacy settings",
+      "permissions": {
+        "bot": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "getprivacysetting",
+        "getprivacy"
+      ]
+    },
+    {
+      "name": "groupmode",
+      "description": "Toggle group mode (bot only accepts commands in groups)",
+      "permissions": {
+        "bot": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "groupmode",
+        "gm"
+      ]
+    },
+    {
+      "name": "jadibot",
+      "description": "Turn your device into a bot",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "jadibot"
+      ]
+    },
+    {
+      "name": "joinmode",
+      "description": "Toggle join command (group join permission)",
+      "permissions": {
+        "bot": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "joinmode"
+      ]
+    },
+    {
+      "name": "listgroup",
+      "description": "Show bot's group list",
+      "permissions": {
+        "bot": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "listgroup",
+        "listgrup",
+        "grouplist"
+      ]
+    },
+    {
+      "name": "msgstats",
+      "description": "Show bot message statistics for the last 24 hours",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "msgstats",
+        "bot_msgstats"
+      ]
+    },
+    {
+      "name": "nsfw",
+      "description": "Toggle NSFW mode (in group: admin only, in private: bot only)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "nsfw",
+        "nsfwmode"
+      ]
+    },
+    {
+      "name": "rejectcall",
+      "description": "Enable/disable automatic call rejection",
+      "permissions": {
+        "bot": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "rejectcall",
+        "rc"
+      ]
+    },
+    {
+      "name": "reset-password",
+      "description": "Reset your account password",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "reset-password",
+        "resetpassword"
+      ]
+    },
+    {
+      "name": "scanbot",
+      "description": "Scan active bots that are members of this group",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "scanbot"
+      ]
+    },
+    {
+      "name": "selfmode",
+      "description": "Toggle self mode (bot only accepts commands from owner)",
+      "permissions": {
+        "bot": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "selfmode"
+      ]
+    },
+    {
       "name": "setbotname",
+      "description": "Change bot name",
       "permissions": {
         "bot": true
       },
@@ -198,49 +257,34 @@
       ]
     },
     {
-      "description": "Get OTP for login using a token",
-      "name": "get-otp-login",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "get-otp-login"
-      ]
-    },
-    {
-      "description": "Simple bot plugin that replies text",
-      "name": "bot",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "bot"
-      ]
-    },
-    {
-      "description": "Enable/disable automatic call rejection",
-      "name": "rejectcall",
+      "name": "setbotowner",
+      "description": "Change the owner number for this bot session",
       "permissions": {
         "bot": true
       },
       "premiumOnly": "",
       "tags": [
-        "rejectcall",
-        "rc"
+        "setbotowner",
+        "setowner",
+        "sbo"
       ]
     },
     {
-      "description": "Swap number between two sessions",
-      "name": "swap",
+      "name": "setpp",
+      "description": "Set bot profile picture",
       "permissions": {
-        "owner": true
+        "bot": true
       },
       "premiumOnly": "",
       "tags": [
-        "swap"
+        "setpp",
+        "setbotpp",
+        "setppbot"
       ]
     },
     {
-      "description": "Change WhatsApp privacy settings",
       "name": "setprivacy",
+      "description": "Change WhatsApp privacy settings",
       "permissions": {
         "bot": true
       },
@@ -250,41 +294,58 @@
       ]
     },
     {
-      "description": "Display bot information",
-      "name": "botinfo",
+      "name": "stats",
+      "description": "Show bot statistics",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "botinfo"
+        "stats",
+        "statistics"
       ]
     },
     {
-      "description": "Toggle join command (group join permission)",
-      "name": "joinmode",
+      "name": "system",
+      "description": "Show system and Go runtime info",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "test",
+        "tes",
+        "sysinfo",
+        "runtime",
+        "system"
+      ]
+    },
+    {
+      "name": "track-bot",
+      "description": "View jadibot/logout logs from last 30 days",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "track-bot"
+      ]
+    },
+    {
+      "name": "upsw",
+      "description": "Upload media to WhatsApp status (no group tagging)",
       "permissions": {
         "bot": true
       },
       "premiumOnly": "",
       "tags": [
-        "joinmode"
+        "upsw",
+        "upstatus"
       ]
     },
     {
-      "description": "Turn your device into a bot",
-      "name": "jadibot",
-      "permissions": {},
+      "name": "upsw2",
+      "description": "Upload media to WhatsApp status with group tag option",
+      "permissions": {
+        "bot": true
+      },
       "premiumOnly": "",
       "tags": [
-        "jadibot"
-      ]
-    },
-    {
-      "description": "View jadibot/logout logs from last 30 days",
-      "name": "track-bot",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "track-bot"
+        "upsw2"
       ]
     }
   ]

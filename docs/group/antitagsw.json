@@ -1,10 +1,33 @@
 {
+  "name": "antitagsw",
+  "commands": [
+    "antitagsw"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "antitagsw"
+  ],
+  "category": "group",
   "categories": [
     "group"
   ],
-  "category": "group",
+  "tags": [
+    "antitagsw"
+  ],
+  "description": {
+    "en": "Configure anti tag status",
+    "id": "Atur anti tag status WhatsApp"
+  },
+  "usage": "antitagsw",
+  "examples": [
+    "antitagsw",
+    "antitagsw on",
+    "antitagsw off",
+    "antitagsw status"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -13,63 +36,39 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "antitagsw"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Configure anti tag status",
-    "id": "Atur anti tag status WhatsApp"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "antitagsw"
-  ],
-  "examples": [
-    "antitagsw",
-    "antitagsw on",
-    "antitagsw off",
-    "antitagsw status",
-    "antitagsw",
-    "antitagsw on",
-    "antitagsw off",
-    "antitagsw status"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "antitagsw",
-  "nsfwOnly": false,
   "permissions": {
     "admin": true,
     "owner": true,
     "subowner": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
   "source": {
     "file": "internal/plugins/group",
     "line": 1
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "antitagsw"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

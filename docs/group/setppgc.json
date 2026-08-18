@@ -1,23 +1,5 @@
 {
-  "aliases": [
-    "setgrouppp",
-    "setppgroup",
-    "set-group-pict",
-    "setgrouppict"
-  ],
-  "args": {},
-  "categories": [
-    "group"
-  ],
-  "category": "group",
-  "chatPermissions": [
-    "group",
-    "group_community"
-  ],
-  "chatTypes": {
-    "group": true,
-    "group_community": true
-  },
+  "name": "setppgc",
   "commands": [
     "setppgc",
     "setgrouppp",
@@ -25,20 +7,26 @@
     "set-group-pict",
     "setgrouppict"
   ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
+  "aliases": [],
+  "display": [
+    "setppgc"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "setppgc",
+    "setgrouppp",
+    "setppgroup",
+    "set-group-pict",
+    "setgrouppict"
+  ],
   "description": {
     "en": "Set group profile picture",
     "id": "Set foto profil grup"
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "setppgc"
-  ],
+  "usage": "setppgc",
   "examples": [
     "setppgc (kirim foto)",
     "setppgc -f (foto full)",
@@ -47,36 +35,50 @@
     "setppgc -f (full photo)",
     "setppgc (reply photo)"
   ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
   "minArgs": 0,
-  "name": "setppgc",
-  "nsfwOnly": false,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
   "permissions": {
     "admin": true,
     "owner": true,
     "subowner": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/group",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "setppgc (send photo)"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 78
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

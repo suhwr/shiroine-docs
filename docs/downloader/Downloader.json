@@ -1,0 +1,74 @@
+{
+  "name": "Downloader",
+  "commands": [
+    "dl",
+    "downloader"
+  ],
+  "aliases": [],
+  "display": [
+    "Downloader"
+  ],
+  "category": "downloader",
+  "categories": [
+    "downloader"
+  ],
+  "tags": [
+    "dl",
+    "downloader"
+  ],
+  "description": {
+    "en": "Download video from various platforms",
+    "id": "Download video dari berbagai platform"
+  },
+  "usage": "Downloader",
+  "examples": [
+    "dl https://youtube.com/watch?v=...",
+    "dl https://twitter.com/user/status/..."
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": true,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/downloader",
+    "line": 282
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
+}

@@ -1,106 +1,44 @@
 {
   "commands": [
     {
-      "description": "Enhance image quality using AI",
-      "name": "upscaler",
+      "name": "audioeffect",
+      "description": "Show list of all available audio effects",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "upscaler",
-        "upscale",
-        "remini",
-        "hd"
+        "audioeffect"
       ]
     },
     {
-      "description": "Remove image background using AI (providers: aiease, pixelcut, removebg)",
-      "name": "removebg",
+      "name": "barcode",
+      "description": "Generate or decode barcode",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "removebg",
-        "rmbg",
-        "rbg"
+        "barcode"
       ]
     },
     {
-      "description": "Complex calculator (supports math functions)",
-      "name": "calculator",
+      "name": "base64",
+      "description": "Encode or decode text with Base64",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "calc",
-        "kalkulator"
+        "base64"
       ]
     },
     {
-      "description": "Convert video to mp3 or voice note.",
-      "name": "tomp3",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "tomp3",
-        "toaudio",
-        "tovn"
-      ]
-    },
-    {
-      "description": "Make HTTP requests with various methods (GET default, POST, PUT, DELETE, etc) with support for custom headers, form data, JSON, and file upload",
-      "name": "httprequest",
-      "permissions": {
-        "owner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "httprequest",
-        "httpreq",
-        "fetch",
-        "request"
-      ]
-    },
-    {
-      "description": "Convert non-Latin text (Japanese, Korean, Arabic, etc.) to Latin characters",
-      "name": "romanize",
+      "name": "bestframe",
+      "description": "Extract the best frame from a video based on visual quality (sharpness, blur, etc.)",
       "permissions": {},
       "premiumOnly": "all",
       "tags": [
-        "romanize",
-        "romaji",
-        "roman"
+        "bestframe"
       ]
     },
     {
-      "description": "Take a screenshot of a web page",
-      "name": "ssweb",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "ssweb",
-        "ss",
-        "screenshot"
-      ]
-    },
-    {
-      "description": "Encode or decode text with Hex",
-      "name": "hex",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "hex"
-      ]
-    },
-    {
-      "description": "Create iPhone WhatsApp Chat screenshot (self-hosted)",
-      "name": "iqc",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "iqc"
-      ]
-    },
-    {
-      "description": "Create BRAT sticker",
       "name": "brat",
+      "description": "Create BRAT sticker",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -119,8 +57,56 @@
       ]
     },
     {
-      "description": "Flip image horizontally (h) or vertically (v)",
+      "name": "calculator",
+      "description": "Complex calculator (supports math functions)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "calc",
+        "kalkulator",
+        "calculator"
+      ]
+    },
+    {
+      "name": "color",
+      "description": "Adjust image colors using flags or presets. Use 'color list' to see presets.",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "color"
+      ]
+    },
+    {
+      "name": "compress",
+      "description": "Compress image with given quality (default 80)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "compress"
+      ]
+    },
+    {
+      "name": "crop",
+      "description": "Crop image: ratio (4:3), center, free, or x/y coordinates",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "crop"
+      ]
+    },
+    {
+      "name": "emojimix",
+      "description": "Mix two emojis into one (Emoji Kitchen)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "emojimix",
+        "mixemoji"
+      ]
+    },
+    {
       "name": "flip",
+      "description": "Flip image horizontally (h) or vertically (v)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -128,69 +114,71 @@
       ]
     },
     {
-      "description": "Upload file to server and get URL",
-      "name": "upload",
+      "name": "getidch",
+      "description": "Get Channel JID from WhatsApp Channel URL",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "upload",
-        "tourl"
+        "getidch"
       ]
     },
     {
-      "description": "Reverse audio (max 10 min) or video (max 1 min, premium)",
-      "name": "reverse",
+      "name": "getmedia",
+      "description": "Retrieve media from the quoted/replied message",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "reverse"
+        "getmedia"
       ]
     },
     {
-      "description": "Find song from audio or video (send or reply to audio/video then type the command)",
-      "name": "whatmusic",
+      "name": "getmsgid",
+      "description": "Get Message ID from the quoted/replied message",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "whatmusic",
-        "whatsong"
+        "getmsgid"
       ]
     },
     {
-      "description": "Trim video/audio by time range",
-      "name": "trim",
+      "name": "hex",
+      "description": "Encode or decode text with Hex",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "trim"
+        "hex"
       ]
     },
     {
-      "description": "Convert image/video to WhatsApp sticker with various cropping modes",
-      "name": "sticker",
+      "name": "humming",
+      "description": "Find song by humming (send or reply to your humming audio then type the command)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "sticker",
-        "stiker",
-        "swm",
-        "s"
+        "humming"
       ]
     },
     {
-      "description": "Translate text to various languages",
-      "name": "translate",
+      "name": "iqc",
+      "description": "Create iPhone WhatsApp Chat screenshot (self-hosted)\nOptional args: --time=HH:MM --battery=0-100 --carrier=NAME\nEmbed image: send/reply image + text",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "translate",
-        "tl",
-        "tr"
+        "iqc"
       ]
     },
     {
-      "description": "Show the list of languages supported by the translate plugin",
+      "name": "jwt",
+      "description": "Decode JWT token locally",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "jwt"
+      ]
+    },
+    {
       "name": "lang",
+      "description": "Show the list of languages supported by the translate plugin",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -199,29 +187,74 @@
       ]
     },
     {
-      "description": "Find song by humming (send or reply to your humming audio then type the command)",
-      "name": "humming",
+      "name": "lens",
+      "description": "Search image information using Google Lens (send or reply to an image then type the command)",
       "permissions": {},
-      "premiumOnly": "",
+      "premiumOnly": "all",
       "tags": [
-        "humming"
+        "lens",
+        "googlelens"
       ]
     },
     {
-      "description": "Create meme from image",
-      "name": "smeme",
+      "name": "lorem",
+      "description": "Generate Lorem Ipsum text",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "smeme",
-        "ismeme",
-        "jsmeme",
-        "tsmeme"
+        "lorem"
       ]
     },
     {
-      "description": "Create chat quotes from text/images",
+      "name": "lower",
+      "description": "Convert text to lowercase",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "lower"
+      ]
+    },
+    {
+      "name": "mediaquality",
+      "description": "Analyze specifications and quality of an image, video, or audio",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "mediaquality",
+        "mq"
+      ]
+    },
+    {
+      "name": "morse",
+      "description": "Encode or decode text with Morse code",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "morse"
+      ]
+    },
+    {
+      "name": "ocr",
+      "description": "Extract text from image",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "ocr"
+      ]
+    },
+    {
+      "name": "pixelate",
+      "description": "Convert image to pixel art. Number represents pixel block size (2-100), larger means more blocky.",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "pixelate",
+        "pixel"
+      ]
+    },
+    {
       "name": "qc",
+      "description": "Create chat quotes from text/images",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -233,26 +266,66 @@
       ]
     },
     {
-      "description": "Extract text from image",
-      "name": "ocr",
+      "name": "qr",
+      "description": "Generate or decode QR code",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "ocr"
+        "qr"
       ]
     },
     {
-      "description": "Adjust image colors using flags or presets. Use 'color list' to see presets.",
-      "name": "color",
+      "name": "readqris",
+      "description": "Read and decode QRIS information from image or sticker",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "color"
+        "readqris"
       ]
     },
     {
-      "description": "Rotate image by a given angle",
+      "name": "removebg",
+      "description": "Remove image background using AI (providers: aiease, pixelcut, removebg)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "removebg",
+        "rmbg",
+        "rbg"
+      ]
+    },
+    {
+      "name": "resize",
+      "description": "Resize image. Use absolute pixel value (e.g. 512 or 512x512) or percentage (e.g. 50%)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "resize"
+      ]
+    },
+    {
+      "name": "reverse",
+      "description": "Reverse text, audio (max 10 min) or video (max 1 min, premium)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "reverse"
+      ]
+    },
+    {
+      "name": "romanize",
+      "description": "Convert non-Latin text (Japanese, Korean, Arabic, etc.) to Latin characters",
+      "permissions": {},
+      "premiumOnly": "all",
+      "tags": [
+        "romanize",
+        "romaji",
+        "roman"
+      ]
+    },
+    {
       "name": "rotate",
+      "description": "Rotate image by a given angle (dynamic -360 to 360)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -260,27 +333,111 @@
       ]
     },
     {
-      "description": "Compress image with given quality (default 80)",
-      "name": "compress",
+      "name": "setqris",
+      "description": "Generate new QRIS from a QRIS image, optionally set payment amount",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "compress"
+        "setqris"
       ]
     },
     {
-      "description": "Search image information using Google Lens (send or reply to an image then type the command)",
-      "name": "lens",
+      "name": "smeme",
+      "description": "Create meme from image",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "lens",
-        "googlelens"
+        "smeme",
+        "ismeme",
+        "jsmeme",
+        "tsmeme"
       ]
     },
     {
-      "description": "Convert text to speech (Text-to-Speech)",
+      "name": "smooth",
+      "description": "Smooth video with 120fps frame interpolation (Premium, max. 1:30 min)",
+      "permissions": {},
+      "premiumOnly": "all",
+      "tags": [
+        "smooth"
+      ]
+    },
+    {
+      "name": "ssweb",
+      "description": "Take a screenshot of a web page",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "ssweb",
+        "ss",
+        "screenshot"
+      ]
+    },
+    {
+      "name": "stabilize",
+      "description": "Stabilize shaky video (premium only, max 5 min)",
+      "permissions": {},
+      "premiumOnly": "all",
+      "tags": [
+        "stabilize"
+      ]
+    },
+    {
+      "name": "sticker",
+      "description": "Convert image/video to WhatsApp sticker with various cropping modes",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "sticker",
+        "stiker",
+        "swm",
+        "s"
+      ]
+    },
+    {
+      "name": "todocmsg",
+      "description": "Convert media (image/video/audio) into a document message",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "todocmsg",
+        "todoc"
+      ]
+    },
+    {
+      "name": "tomp3",
+      "description": "Convert video to mp3 or voice note.",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "tomp3",
+        "toaudio",
+        "tovn"
+      ]
+    },
+    {
+      "name": "translate",
+      "description": "Translate text to various languages",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "translate",
+        "tl",
+        "tr"
+      ]
+    },
+    {
+      "name": "trim",
+      "description": "Trim video/audio by time range",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "trim"
+      ]
+    },
+    {
       "name": "tts",
+      "description": "Convert text to speech (Text-to-Speech)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -289,54 +446,8 @@
       ]
     },
     {
-      "description": "Resize image (pixels or percentage)",
-      "name": "resize",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "resize"
-      ]
-    },
-    {
-      "description": "Generate or decode QR code",
-      "name": "qr",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "qr"
-      ]
-    },
-    {
-      "description": "Read and decode QRIS information from image or sticker",
-      "name": "readqris",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "readqris"
-      ]
-    },
-    {
-      "description": "Convert image to pixel art",
-      "name": "pixelate",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "pixelate",
-        "pixel"
-      ]
-    },
-    {
-      "description": "Encode or decode text with Morse code",
-      "name": "morse",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "morse"
-      ]
-    },
-    {
-      "description": "Convert text to natural AI voice (AI Text-to-Speech)",
       "name": "tts-ai",
+      "description": "Convert text to natural AI voice (AI Text-to-Speech)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -346,39 +457,44 @@
       ]
     },
     {
-      "description": "Show list of all available audio effects",
-      "name": "audioeffect",
+      "name": "upload",
+      "description": "Upload file to server and get URL",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "audioeffect"
+        "upload",
+        "tourl"
       ]
     },
     {
-      "description": "Generate new QRIS from a QRIS image, optionally set payment amount",
-      "name": "setqris",
+      "name": "upper",
+      "description": "Convert text to UPPERCASE",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "setqris"
+        "upper"
       ]
     },
     {
-      "description": "Crop image: ratio (4:3), center, free, or x/y coordinates",
-      "name": "crop",
+      "name": "upscaler",
+      "description": "Enhance image quality using AI",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "crop"
+        "upscaler",
+        "upscale",
+        "remini",
+        "hd"
       ]
     },
     {
-      "description": "Encode or decode text with Base64",
-      "name": "base64",
+      "name": "whatmusic",
+      "description": "Find song from audio or video (send or reply to audio/video then type the command)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "base64"
+        "whatmusic",
+        "whatsong"
       ]
     }
   ]

@@ -1,0 +1,69 @@
+{
+  "name": "answercall",
+  "commands": [
+    "answercall",
+    "ac"
+  ],
+  "aliases": [],
+  "display": [
+    "answercall"
+  ],
+  "category": "bot",
+  "categories": [
+    "bot"
+  ],
+  "tags": [
+    "answercall",
+    "ac"
+  ],
+  "description": {
+    "en": "Enable/disable auto answer call (pakde melawan)",
+    "id": "Aktifkan/nonaktifkan jawab panggilan otomatis (pakde melawan)"
+  },
+  "usage": "answercall",
+  "examples": [
+    "answercall on"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private"
+  ],
+  "chatTypes": {
+    "private": true
+  },
+  "permissions": {
+    "bot": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 69
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
+}

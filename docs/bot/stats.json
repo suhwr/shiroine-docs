@@ -1,12 +1,37 @@
 {
-  "aliases": [
+  "name": "stats",
+  "commands": [
+    "stats",
     "statistics"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "stats"
+  ],
+  "category": "bot",
   "categories": [
     "bot"
   ],
-  "category": "bot",
+  "tags": [
+    "stats",
+    "statistics"
+  ],
+  "description": {
+    "en": "Show bot statistics",
+    "id": "Tampilkan statistik bot"
+  },
+  "usage": "stats",
+  "examples": [
+    "stats",
+    "stats 10",
+    "stats 2025 9",
+    "stats 2025 9 20",
+    "stats all",
+    "stats all 10"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -19,64 +44,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "stats",
-    "statistics"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Show bot statistics",
-    "id": "Tampilkan statistik bot"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "stats"
-  ],
-  "examples": [
-    "stats",
-    "stats 10",
-    "stats 2025 9",
-    "stats 2025 9 20",
-    "stats all",
-    "stats all 10",
-    "stats",
-    "stats 10",
-    "stats 2025 9",
-    "stats 2025 9 20",
-    "stats all",
-    "stats all 10"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T03:19:22Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "stats",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/bot",
-    "line": 1
+    "line": 176
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "stats"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

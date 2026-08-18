@@ -1,12 +1,33 @@
 {
-  "aliases": [
+  "name": "ban-member",
+  "commands": [
+    "ban-member",
     "banmember"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "ban-member"
+  ],
+  "category": "group",
   "categories": [
     "group"
   ],
-  "category": "group",
+  "tags": [
+    "ban-member",
+    "banmember"
+  ],
+  "description": {
+    "en": "Ban member from using bot in this group",
+    "id": "Ban member dari menggunakan bot di grup ini"
+  },
+  "usage": "ban-member",
+  "examples": [
+    "ban-member @user",
+    "ban-member (reply)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -15,60 +36,39 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "ban-member",
-    "banmember"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Ban member from using bot in this group",
-    "id": "Ban member dari menggunakan bot di grup ini"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "ban-member"
-  ],
-  "examples": [
-    "ban-member @user",
-    "ban-member (reply)",
-    "ban-member @user",
-    "ban-member (reply)"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "ban-member",
-  "nsfwOnly": false,
   "permissions": {
     "admin": true,
     "owner": true,
     "subowner": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/group",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "ban-member @user"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 244
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

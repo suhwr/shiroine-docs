@@ -1,10 +1,30 @@
 {
+  "name": "album",
+  "commands": [
+    "album"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "album"
+  ],
+  "category": "youtube",
   "categories": [
     "youtube"
   ],
-  "category": "youtube",
+  "tags": [
+    "album"
+  ],
+  "description": {
+    "en": "Download album from YouTube Music",
+    "id": "Download album dari YouTube Music"
+  },
+  "usage": "album",
+  "examples": [
+    "album the book 3 yoasobi"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -17,53 +37,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "album"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Download album from YouTube Music",
-    "id": "Download album dari YouTube Music"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "album"
-  ],
-  "examples": [
-    "album the book 3 yoasobi",
-    "album the book 3 yoasobi"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "album",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/youtube",
-    "line": 1
+    "line": 143
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "album the book 3 yoasobi"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

@@ -1,0 +1,75 @@
+{
+  "name": "logger",
+  "commands": [
+    "logger"
+  ],
+  "aliases": [],
+  "display": [
+    "logger"
+  ],
+  "category": "developer",
+  "categories": [
+    "developer"
+  ],
+  "tags": [
+    "logger"
+  ],
+  "description": {
+    "en": "Configure logger in realtime",
+    "id": "Mengatur logger secara realtime"
+  },
+  "usage": "logger",
+  "examples": [
+    "logger",
+    "logger chat off",
+    "logger socket on"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "permissions": {
+    "owner": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/developer",
+    "line": 143
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
+}

@@ -1,12 +1,33 @@
 {
-  "aliases": [
+  "name": "dadu",
+  "commands": [
+    "dadu",
     "dice"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "dadu"
+  ],
+  "category": "fun",
   "categories": [
     "fun"
   ],
-  "category": "fun",
+  "tags": [
+    "dadu",
+    "dice"
+  ],
+  "description": {
+    "en": "Roll a random dice 1–6, optionally guess the number",
+    "id": "Lempar dadu random 1–6, opsional tebak angkanya"
+  },
+  "usage": "dadu",
+  "examples": [
+    "dadu",
+    "dice 4"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -19,56 +40,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "dadu",
-    "dice"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 2,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 2,
-  "description": {
-    "en": "Roll a random dice 1–6, optionally guess the number",
-    "id": "Lempar dadu random 1–6, opsional tebak angkanya"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "dadu"
-  ],
-  "examples": [
-    "dadu",
-    "dice 4",
-    "dadu",
-    "dice 4"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "dadu",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/fun",
-    "line": 1
+    "line": 113
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "dadu"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

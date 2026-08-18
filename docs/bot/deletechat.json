@@ -1,0 +1,67 @@
+{
+  "name": "deletechat",
+  "commands": [
+    "deletechat"
+  ],
+  "aliases": [],
+  "display": [
+    "deletechat"
+  ],
+  "category": "bot",
+  "categories": [
+    "bot"
+  ],
+  "tags": [
+    "deletechat"
+  ],
+  "description": {
+    "en": "Delete all chats from the chat list",
+    "id": "Menghapus seluruh chat dari daftar percakapan"
+  },
+  "usage": "deletechat",
+  "examples": [
+    "deletechat"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private"
+  ],
+  "chatTypes": {
+    "private": true
+  },
+  "permissions": {
+    "bot": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 129
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
+}

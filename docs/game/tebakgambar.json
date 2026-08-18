@@ -1,10 +1,30 @@
 {
+  "name": "tebakgambar",
+  "commands": [
+    "tebakgambar"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "tebakgambar"
+  ],
+  "category": "game",
   "categories": [
     "game"
   ],
-  "category": "game",
+  "tags": [
+    "tebakgambar"
+  ],
+  "description": {
+    "en": "Start picture guessing game",
+    "id": "Mulai game tebak gambar"
+  },
+  "usage": "tebakgambar",
+  "examples": [
+    "tebakgambar"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -13,53 +33,35 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "tebakgambar"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 3,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 3,
-  "description": {
-    "en": "Start picture guessing game",
-    "id": "Mulai game tebak gambar"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "tebakgambar"
-  ],
-  "examples": [
-    "tebakgambar",
-    "tebakgambar"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "tebakgambar",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/game",
-    "line": 1
+    "line": 242
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "tebakgambar"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

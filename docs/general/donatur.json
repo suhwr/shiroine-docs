@@ -1,13 +1,34 @@
 {
-  "aliases": [
+  "name": "donatur",
+  "commands": [
+    "donatur",
     "listdonatur",
     "donaturs"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "donatur"
+  ],
+  "category": "general",
   "categories": [
     "general"
   ],
-  "category": "general",
+  "tags": [
+    "donatur",
+    "listdonatur",
+    "donaturs"
+  ],
+  "description": {
+    "en": "View list of all donaturs & total donations",
+    "id": "Lihat daftar semua donatur & total donasi"
+  },
+  "usage": "donatur",
+  "examples": [
+    "donatur"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -20,55 +41,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "donatur",
-    "listdonatur",
-    "donaturs"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "View list of all donaturs \u0026 total donations",
-    "id": "Lihat daftar semua donatur \u0026 total donasi"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "donatur"
-  ],
-  "examples": [
-    "donatur",
-    "donatur"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "donatur",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
-    "file": "internal/plugins/general",
-    "line": 1
+    "file": "internal/plugins/developer",
+    "line": 261
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "donatur"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

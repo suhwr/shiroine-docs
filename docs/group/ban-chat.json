@@ -1,12 +1,33 @@
 {
-  "aliases": [
+  "name": "ban-chat",
+  "commands": [
+    "ban-chat",
     "banchat"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "ban-chat"
+  ],
+  "category": "group",
   "categories": [
     "group"
   ],
-  "category": "group",
+  "tags": [
+    "ban-chat",
+    "banchat"
+  ],
+  "description": {
+    "en": "Ban this group from all bots you own",
+    "id": "Ban grup ini dari semua bot yang kamu miliki"
+  },
+  "usage": "ban-chat",
+  "examples": [
+    "ban-chat",
+    "ban-chat spam"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -15,58 +36,37 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "ban-chat",
-    "banchat"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Ban this group from all bots you own",
-    "id": "Ban grup ini dari semua bot yang kamu miliki"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "ban-chat"
-  ],
-  "examples": [
-    "ban-chat",
-    "ban-chat spam",
-    "ban-chat",
-    "ban-chat spam"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "ban-chat",
-  "nsfwOnly": false,
   "permissions": {
     "hasbot": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/group",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "ban-chat"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 78
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

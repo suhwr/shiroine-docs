@@ -1,13 +1,36 @@
 {
-  "aliases": [
+  "name": "groupprefix",
+  "commands": [
+    "groupprefix",
     "group-prefix",
     "gprefix"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "groupprefix"
+  ],
+  "category": "group",
   "categories": [
     "group"
   ],
-  "category": "group",
+  "tags": [
+    "groupprefix",
+    "group-prefix",
+    "gprefix"
+  ],
+  "description": {
+    "en": "Set group prefix",
+    "id": "Mengatur prefix grup"
+  },
+  "usage": "groupprefix",
+  "examples": [
+    "groupprefix ~",
+    "groupprefix >",
+    "groupprefix !"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -16,63 +39,39 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "groupprefix",
-    "group-prefix",
-    "gprefix"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Set group prefix",
-    "id": "Mengatur prefix grup"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "groupprefix"
-  ],
-  "examples": [
-    "groupprefix ~",
-    "groupprefix \u003e",
-    "groupprefix !",
-    "groupprefix ~",
-    "groupprefix \u003e",
-    "groupprefix !"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "groupprefix",
-  "nsfwOnly": false,
   "permissions": {
     "admin": true,
     "owner": true,
     "subowner": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/group",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "groupprefix ~"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 38
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

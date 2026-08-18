@@ -1,14 +1,39 @@
 {
-  "aliases": [
+  "name": "set-lang",
+  "commands": [
+    "set-lang",
     "setlang",
     "set-language",
     "setlanguage"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "set-lang"
+  ],
+  "category": "group",
   "categories": [
     "group"
   ],
-  "category": "group",
+  "tags": [
+    "set-lang",
+    "setlang",
+    "set-language",
+    "setlanguage"
+  ],
+  "description": {
+    "en": "Set group language (admin only) or personal language (private chat)",
+    "id": "Mengatur bahasa grup (admin only) atau bahasa pribadi (private chat)"
+  },
+  "usage": "set-lang",
+  "examples": [
+    "setlang indonesia",
+    "setlang id",
+    "setlang english",
+    "setlang en"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -21,60 +46,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "set-lang",
-    "setlang",
-    "set-language",
-    "setlanguage"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Set group language (admin only) or personal language (private chat)",
-    "id": "Mengatur bahasa grup (admin only) atau bahasa pribadi (private chat)"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "set-lang"
-  ],
-  "examples": [
-    "setlang indonesia",
-    "setlang id",
-    "setlang english",
-    "setlang english",
-    "setlang en",
-    "setlang indonesia"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "set-lang",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/group",
-    "line": 1
+    "line": 115
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "setlang english"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

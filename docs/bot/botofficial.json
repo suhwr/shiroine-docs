@@ -1,12 +1,32 @@
 {
-  "aliases": [
+  "name": "botofficial",
+  "commands": [
+    "botofficial",
     "official"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "botofficial"
+  ],
+  "category": "bot",
   "categories": [
     "bot"
   ],
-  "category": "bot",
+  "tags": [
+    "botofficial",
+    "official"
+  ],
+  "description": {
+    "en": "Toggle official bot status (removes jadibot warnings)",
+    "id": "Toggle status bot official (menghilangkan peringatan jadibot)"
+  },
+  "usage": "botofficial",
+  "examples": [
+    "botofficial on"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -19,57 +39,38 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "botofficial",
-    "official"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Toggle official bot status (removes jadibot warnings)",
-    "id": "Toggle status bot official (menghilangkan peringatan jadibot)"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "botofficial"
-  ],
-  "examples": [
-    "botofficial on",
-    "botofficial on"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "botofficial",
-  "nsfwOnly": false,
   "permissions": {
     "owner": true,
     "subowner": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/bot",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "botofficial on"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 68
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

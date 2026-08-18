@@ -1,13 +1,36 @@
 {
-  "aliases": [
+  "name": "lyric",
+  "commands": [
+    "lyric",
     "lirik",
     "lyrics"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "lyric"
+  ],
+  "category": "search",
   "categories": [
     "search"
   ],
-  "category": "search",
+  "tags": [
+    "lyric",
+    "lirik",
+    "lyrics"
+  ],
+  "description": {
+    "en": "Search song lyrics",
+    "id": "Cari lirik lagu"
+  },
+  "usage": "lyric <teks>",
+  "examples": [
+    "lyric seandainya vierra",
+    "lirik never gonna give you up",
+    "lyrics never gonna give you up"
+  ],
+  "minArgs": 1,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -20,57 +43,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "lyric",
-    "lirik",
-    "lyrics"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Search song lyrics",
-    "id": "Cari lirik lagu"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "lyric"
-  ],
-  "examples": [
-    "lyric seandainya vierra",
-    "lirik never gonna give you up",
-    "lyric seandainya vierra",
-    "lyrics never gonna give you up"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 1,
-  "name": "lyric",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/search",
-    "line": 1
+    "line": 67
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "lyric seandainya vierra"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

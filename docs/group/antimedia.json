@@ -1,10 +1,33 @@
 {
+  "name": "antimedia",
+  "commands": [
+    "antimedia"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "antimedia"
+  ],
+  "category": "group",
   "categories": [
     "group"
   ],
-  "category": "group",
+  "tags": [
+    "antimedia"
+  ],
+  "description": {
+    "en": "Configure group anti media with specific types",
+    "id": "Atur anti media grup dengan tipe spesifik"
+  },
+  "usage": "antimedia",
+  "examples": [
+    "antimedia status",
+    "antimedia on all",
+    "antimedia on stickerpack document",
+    "antimedia off image video"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -13,63 +36,39 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "antimedia"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Configure group anti media with specific types",
-    "id": "Atur anti media grup dengan tipe spesifik"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "antimedia"
-  ],
-  "examples": [
-    "antimedia status",
-    "antimedia on all",
-    "antimedia on stickerpack document",
-    "antimedia off image video",
-    "antimedia status",
-    "antimedia on all",
-    "antimedia on stickerpack document",
-    "antimedia off image video"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "antimedia",
-  "nsfwOnly": false,
   "permissions": {
     "admin": true,
     "owner": true,
     "subowner": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/group",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "antimedia status"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 201
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

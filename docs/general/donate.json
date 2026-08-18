@@ -1,12 +1,32 @@
 {
-  "aliases": [
+  "name": "donate",
+  "commands": [
+    "donate",
     "donasi"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "donate"
+  ],
+  "category": "general",
   "categories": [
     "general"
   ],
-  "category": "general",
+  "tags": [
+    "donate",
+    "donasi"
+  ],
+  "description": {
+    "en": "Show donation methods",
+    "id": "Tampilkan metode donasi"
+  },
+  "usage": "donate",
+  "examples": [
+    "donate"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -19,54 +39,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "donate",
-    "donasi"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Show donation methods",
-    "id": "Tampilkan metode donasi"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "donate"
-  ],
-  "examples": [
-    "donate",
-    "donate"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "donate",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/general",
-    "line": 1
+    "line": 99
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "donate"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

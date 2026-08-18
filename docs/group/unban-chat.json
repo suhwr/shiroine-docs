@@ -1,12 +1,32 @@
 {
-  "aliases": [
+  "name": "unban-chat",
+  "commands": [
+    "unban-chat",
     "unbanchat"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "unban-chat"
+  ],
+  "category": "group",
   "categories": [
     "group"
   ],
-  "category": "group",
+  "tags": [
+    "unban-chat",
+    "unbanchat"
+  ],
+  "description": {
+    "en": "Unban this group from all bots you own",
+    "id": "Unban grup ini dari semua bot yang kamu miliki"
+  },
+  "usage": "unban-chat",
+  "examples": [
+    "unban-chat"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -15,56 +35,37 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "unban-chat",
-    "unbanchat"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Unban this group from all bots you own",
-    "id": "Unban grup ini dari semua bot yang kamu miliki"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "unban-chat"
-  ],
-  "examples": [
-    "unban-chat",
-    "unban-chat"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "unban-chat",
-  "nsfwOnly": false,
   "permissions": {
     "hasbot": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/group",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "unban-chat"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 90
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

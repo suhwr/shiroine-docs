@@ -1,10 +1,30 @@
 {
+  "name": "asahotak",
+  "commands": [
+    "asahotak"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "asahotak"
+  ],
+  "category": "game",
   "categories": [
     "game"
   ],
-  "category": "game",
+  "tags": [
+    "asahotak"
+  ],
+  "description": {
+    "en": "Start brain teaser / trivia game",
+    "id": "Mulai game asah otak / trivia"
+  },
+  "usage": "asahotak",
+  "examples": [
+    "asahotak"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -13,53 +33,35 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "asahotak"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 3,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 3,
-  "description": {
-    "en": "Start brain teaser / trivia game",
-    "id": "Mulai game asah otak / trivia"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "asahotak"
-  ],
-  "examples": [
-    "asahotak",
-    "asahotak"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "asahotak",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/game",
-    "line": 1
+    "line": 225
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "asahotak"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

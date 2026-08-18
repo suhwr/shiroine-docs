@@ -1,72 +1,72 @@
 {
-  "aliases": [
+  "name": "setbotowner",
+  "commands": [
+    "setbotowner",
     "setowner",
     "sbo"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "setbotowner"
+  ],
+  "category": "bot",
   "categories": [
     "bot"
   ],
-  "category": "bot",
+  "tags": [
+    "setbotowner",
+    "setowner",
+    "sbo"
+  ],
+  "description": {
+    "en": "Change the owner number for this bot session",
+    "id": "Ganti nomor owner untuk sesi bot ini"
+  },
+  "usage": "setbotowner",
+  "examples": [
+    "setbotowner 628123456789",
+    "setbotowner @user"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private"
   ],
   "chatTypes": {
     "private": true
   },
-  "commands": [
-    "setbotowner",
-    "setowner",
-    "sbo"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Change the owner number for this bot session",
-    "id": "Ganti nomor owner untuk sesi bot ini"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "setbotowner"
-  ],
-  "examples": [
-    "setbotowner 628123456789",
-    "setbotowner @user",
-    "setbotowner 628123456789",
-    "setbotowner @user"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "setbotowner",
-  "nsfwOnly": false,
   "permissions": {
     "bot": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/bot",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "setbotowner 628123456789"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 62
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

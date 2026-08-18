@@ -1,0 +1,74 @@
+{
+  "name": "todocmsg",
+  "commands": [
+    "todocmsg",
+    "todoc"
+  ],
+  "aliases": [],
+  "display": [
+    "todocmsg"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "todocmsg",
+    "todoc"
+  ],
+  "description": {
+    "en": "Convert media (image/video/audio) into a document message",
+    "id": "Ubah media (gambar/video/audio) menjadi pesan dokumen"
+  },
+  "usage": "todocmsg",
+  "examples": [
+    "todocmsg (reply ke gambar/video/audio)",
+    "todocmsg (reply to image/video/audio)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 81
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
+}

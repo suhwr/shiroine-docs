@@ -1,0 +1,72 @@
+{
+  "name": "getmedia",
+  "commands": [
+    "getmedia"
+  ],
+  "aliases": [],
+  "display": [
+    "getmedia"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "getmedia"
+  ],
+  "description": {
+    "en": "Retrieve media from the quoted/replied message",
+    "id": "Ambil media dari pesan yang di-quote/reply"
+  },
+  "usage": "getmedia",
+  "examples": [
+    "getmedia (reply ke gambar/video/audio)",
+    "getmedia (reply to image/video/audio)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 100
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
+}

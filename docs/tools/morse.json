@@ -1,10 +1,31 @@
 {
+  "name": "morse",
+  "commands": [
+    "morse"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "morse"
+  ],
+  "category": "tools",
   "categories": [
     "tools"
   ],
-  "category": "tools",
+  "tags": [
+    "morse"
+  ],
+  "description": {
+    "en": "Encode or decode text with Morse code",
+    "id": "Encode atau decode teks dengan kode Morse"
+  },
+  "usage": "morse <teks>",
+  "examples": [
+    "morse e hello world",
+    "morse d .... . .-.. .-.. --- / .-- --- .-. .-.. -.."
+  ],
+  "minArgs": 2,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -17,55 +38,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "morse"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Encode or decode text with Morse code",
-    "id": "Encode atau decode teks dengan kode Morse"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "morse"
-  ],
-  "examples": [
-    "morse e hello world",
-    "morse d .... . .-.. .-.. --- / .-- --- .-. .-.. -..",
-    "morse e hello world",
-    "morse d .... . .-.. .-.. --- / .-- --- .-. .-.. -.."
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 2,
-  "name": "morse",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/tools",
-    "line": 1
+    "line": 36
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "morse e hello world"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

@@ -1,10 +1,31 @@
 {
+  "name": "downloadstickerpack",
+  "commands": [
+    "downloadstickerpack"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "downloadstickerpack"
+  ],
+  "category": "downloader",
   "categories": [
     "downloader"
   ],
-  "category": "downloader",
+  "tags": [
+    "downloadstickerpack"
+  ],
+  "description": {
+    "en": "Download a WhatsApp sticker pack message as a ZIP file",
+    "id": "Download stiker pack WhatsApp sebagai file ZIP"
+  },
+  "usage": "downloadstickerpack",
+  "examples": [
+    "downloadstickerpack (balas ke pesan stiker pack)",
+    "downloadstickerpack (reply to a sticker pack message)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -17,53 +38,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "downloadstickerpack"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Download a WhatsApp sticker pack message as a ZIP file",
-    "id": "Download stiker pack WhatsApp sebagai file ZIP"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "downloadstickerpack"
-  ],
-  "examples": [
-    "downloadstickerpack (balas ke pesan stiker pack)",
-    "downloadstickerpack (reply to a sticker pack message)"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 1,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "downloadstickerpack",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/downloader",
-    "line": 1
+    "line": 62
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "downloadstickerpack (reply to a sticker pack message)"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

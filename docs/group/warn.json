@@ -1,10 +1,32 @@
 {
+  "name": "warn",
+  "commands": [
+    "warn"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "warn"
+  ],
+  "category": "group",
   "categories": [
     "group"
   ],
-  "category": "group",
+  "tags": [
+    "warn"
+  ],
+  "description": {
+    "en": "Issue a warning to a member",
+    "id": "Beri peringatan kepada member"
+  },
+  "usage": "warn",
+  "examples": [
+    "warn @user spam",
+    "warn @user (reply pesan)",
+    "warn @user (reply message)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -13,59 +35,39 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "warn"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Issue a warning to a member",
-    "id": "Beri peringatan kepada member"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "warn"
-  ],
-  "examples": [
-    "warn @user spam",
-    "warn @user (reply pesan)",
-    "warn @user spam",
-    "warn @user (reply message)"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "warn",
-  "nsfwOnly": false,
   "permissions": {
     "admin": true,
     "owner": true,
     "subowner": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/group",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "warn @user spam"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 263
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

@@ -1,12 +1,32 @@
 {
-  "aliases": [
+  "name": "facebook",
+  "commands": [
+    "facebook",
     "fb"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "facebook"
+  ],
+  "category": "downloader",
   "categories": [
     "downloader"
   ],
-  "category": "downloader",
+  "tags": [
+    "facebook",
+    "fb"
+  ],
+  "description": {
+    "en": "Download video/photo from Facebook",
+    "id": "Download video/foto dari Facebook"
+  },
+  "usage": "facebook",
+  "examples": [
+    "facebook https://facebook.com/watch/?v=123456789"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -19,54 +39,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "facebook",
-    "fb"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": true,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Download video/photo from Facebook",
-    "id": "Download video/foto dari Facebook"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "facebook"
-  ],
-  "examples": [
-    "facebook https://facebook.com/watch/?v=123456789",
-    "facebook https://facebook.com/watch/?v=123456789"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 1,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "facebook",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": true,
   "source": {
     "file": "internal/plugins/downloader",
-    "line": 1
+    "line": 95
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "facebook https://facebook.com/watch/?v=123456789"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

@@ -1,0 +1,78 @@
+{
+  "name": "errors",
+  "commands": [
+    "errors",
+    "errlog"
+  ],
+  "aliases": [],
+  "display": [
+    "errors"
+  ],
+  "category": "developer",
+  "categories": [
+    "developer"
+  ],
+  "tags": [
+    "errors",
+    "errlog"
+  ],
+  "description": {
+    "en": "View dependency error logs",
+    "id": "Melihat log error dependency"
+  },
+  "usage": "errors",
+  "examples": [
+    "errors",
+    "errors 20",
+    "errors instagram",
+    "errors 20 instagram"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "permissions": {
+    "owner": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/developer",
+    "line": 156
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
+}

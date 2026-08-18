@@ -1,0 +1,69 @@
+{
+  "name": "setrole",
+  "commands": [
+    "setrole",
+    "setmod",
+    "addmod"
+  ],
+  "aliases": [],
+  "display": [
+    "setrole"
+  ],
+  "category": "developer",
+  "categories": [
+    "developer"
+  ],
+  "tags": [
+    "setrole",
+    "setmod",
+    "addmod"
+  ],
+  "description": {
+    "en": "Set user role (moderator, admin, user)",
+    "id": "Atur role user (moderator, admin, user)"
+  },
+  "usage": "setrole",
+  "examples": [
+    "setmod @user",
+    "setrole @user moderator"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": null,
+  "chatTypes": {},
+  "permissions": {
+    "owner": true,
+    "subowner": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/developer",
+    "line": 61
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
+}

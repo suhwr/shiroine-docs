@@ -1,10 +1,34 @@
 {
+  "name": "gemini",
+  "commands": [
+    "gemini"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "gemini"
+  ],
+  "category": "ai",
   "categories": [
     "ai"
   ],
-  "category": "ai",
+  "tags": [
+    "gemini"
+  ],
+  "description": {
+    "en": "Chat with Gemini Flash without persona (supports text & media, premium user/group only)",
+    "id": "Chat dengan Gemini Flash tanpa persona (mendukung teks & media, khusus user/grup premium)"
+  },
+  "usage": "gemini",
+  "examples": [
+    "gemini halo!",
+    "gemini [kirim gambar] apa isi gambar ini?",
+    "gemini clear",
+    "gemini hello!",
+    "gemini [send image] what is in this image?"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -17,57 +41,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "gemini"
-  ],
+  "permissions": {},
+  "premiumOnly": "all",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Chat with Gemini Flash without persona (supports text \u0026 media, premium user/group only)",
-    "id": "Chat dengan Gemini Flash tanpa persona (mendukung teks \u0026 media, khusus user/grup premium)"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "gemini"
-  ],
-  "examples": [
-    "gemini halo!",
-    "gemini [kirim gambar] apa isi gambar ini?",
-    "gemini clear",
-    "gemini hello!",
-    "gemini [send image] what is in this image?",
-    "gemini clear"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "gemini",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/ai",
-    "line": 1
+    "line": 101
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "gemini hello!"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

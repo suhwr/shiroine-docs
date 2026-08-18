@@ -1,10 +1,33 @@
 {
+  "name": "menu",
+  "commands": [
+    "menu"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "menu"
+  ],
+  "category": "general",
   "categories": [
     "general"
   ],
-  "category": "general",
+  "tags": [
+    "menu"
+  ],
+  "description": {
+    "en": "Show command menu",
+    "id": "Tampilkan menu perintah"
+  },
+  "usage": "menu",
+  "examples": [
+    "menu",
+    "menu all",
+    "menu profile",
+    "menu tools"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -17,59 +40,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "menu"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Show command menu",
-    "id": "Tampilkan menu perintah"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "menu"
-  ],
-  "examples": [
-    "menu",
-    "menu all",
-    "menu profile",
-    "menu tools",
-    "menu",
-    "menu all",
-    "menu profile",
-    "menu tools"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "menu",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/general",
-    "line": 1
+    "line": 38
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "menu"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

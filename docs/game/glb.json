@@ -1,12 +1,32 @@
 {
-  "aliases": [
+  "name": "glb",
+  "commands": [
+    "glb",
     "grouplb"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "glb"
+  ],
+  "category": "game",
   "categories": [
     "game"
   ],
-  "category": "game",
+  "tags": [
+    "glb",
+    "grouplb"
+  ],
+  "description": {
+    "en": "View group leaderboard",
+    "id": "Lihat leaderboard grup"
+  },
+  "usage": "glb",
+  "examples": [
+    "glb\nglb daily\nglb weekly\nglb season\nglb math\nglb activity\nglb rewards"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -17,54 +37,35 @@
     "group_community": true,
     "private": true
   },
-  "commands": [
-    "glb",
-    "grouplb"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "View group leaderboard",
-    "id": "Lihat leaderboard grup"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "glb"
-  ],
-  "examples": [
-    "glb\nglb daily\nglb weekly\nglb season\nglb math\nglb activity\nglb rewards",
-    "glb\nglb daily\nglb weekly\nglb season\nglb math\nglb activity\nglb rewards"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "glb",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/game",
-    "line": 1
+    "line": 625
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "glb\nglb daily\nglb weekly\nglb season\nglb math\nglb activity\nglb rewards"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

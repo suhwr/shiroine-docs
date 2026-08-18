@@ -1,68 +1,69 @@
 {
-  "aliases": [
+  "name": "rejectcall",
+  "commands": [
+    "rejectcall",
     "rc"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "rejectcall"
+  ],
+  "category": "bot",
   "categories": [
     "bot"
   ],
-  "category": "bot",
+  "tags": [
+    "rejectcall",
+    "rc"
+  ],
+  "description": {
+    "en": "Enable/disable automatic call rejection",
+    "id": "Aktifkan/nonaktifkan penolakan panggilan otomatis"
+  },
+  "usage": "rejectcall",
+  "examples": [
+    "rejectcall on"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private"
   ],
   "chatTypes": {
     "private": true
   },
-  "commands": [
-    "rejectcall",
-    "rc"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Enable/disable automatic call rejection",
-    "id": "Aktifkan/nonaktifkan penolakan panggilan otomatis"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "rejectcall"
-  ],
-  "examples": [
-    "rejectcall on",
-    "rejectcall on"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "rejectcall",
-  "nsfwOnly": false,
   "permissions": {
     "bot": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/bot",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "rejectcall on"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 69
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

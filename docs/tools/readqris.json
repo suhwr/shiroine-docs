@@ -1,10 +1,34 @@
 {
+  "name": "readqris",
+  "commands": [
+    "readqris"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "readqris"
+  ],
+  "category": "tools",
   "categories": [
     "tools"
   ],
-  "category": "tools",
+  "tags": [
+    "readqris"
+  ],
+  "description": {
+    "en": "Read and decode QRIS information from image or sticker",
+    "id": "Baca dan decode informasi QRIS dari gambar atau stiker"
+  },
+  "usage": "readqris",
+  "examples": [
+    "readqris (reply gambar QRIS)",
+    "readqris (reply QRIS image)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [
+    "sticker",
+    "image"
+  ],
   "chatPermissions": [
     "private",
     "group",
@@ -17,53 +41,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "readqris"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Read and decode QRIS information from image or sticker",
-    "id": "Baca dan decode informasi QRIS dari gambar atau stiker"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "readqris"
-  ],
-  "examples": [
-    "readqris (reply gambar QRIS)",
-    "readqris (reply QRIS image)"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "readqris",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "si",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/tools",
-    "line": 1
+    "line": 88
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "readqris (reply QRIS image)"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

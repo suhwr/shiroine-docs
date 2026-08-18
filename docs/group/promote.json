@@ -1,10 +1,31 @@
 {
+  "name": "promote",
+  "commands": [
+    "promote"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "promote"
+  ],
+  "category": "group",
   "categories": [
     "group"
   ],
-  "category": "group",
+  "tags": [
+    "promote"
+  ],
+  "description": {
+    "en": "Promote member to admin",
+    "id": "Jadikan member sebagai admin"
+  },
+  "usage": "promote",
+  "examples": [
+    "promote @user",
+    "promote (reply)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -13,59 +34,39 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "promote"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Promote member to admin",
-    "id": "Jadikan member sebagai admin"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "promote"
-  ],
-  "examples": [
-    "promote @user",
-    "promote (reply)",
-    "promote @user",
-    "promote (reply)"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "promote",
-  "nsfwOnly": false,
   "permissions": {
     "admin": true,
     "owner": true,
     "subowner": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/group",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "promote @user"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 102
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

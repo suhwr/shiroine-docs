@@ -1,12 +1,35 @@
 {
-  "aliases": [
+  "name": "suit",
+  "commands": [
+    "suit",
     "rps"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "suit"
+  ],
+  "category": "fun",
   "categories": [
     "fun"
   ],
-  "category": "fun",
+  "tags": [
+    "suit",
+    "rps"
+  ],
+  "description": {
+    "en": "Play rock-paper-scissors against the bot",
+    "id": "Bermain batu-gunting-kertas melawan bot"
+  },
+  "usage": "suit <teks>",
+  "examples": [
+    "suit batu",
+    "rps rock",
+    "suit rock",
+    "rps batu"
+  ],
+  "minArgs": 1,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -19,56 +42,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "suit",
-    "rps"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 2,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 2,
-  "description": {
-    "en": "Play rock-paper-scissors against the bot",
-    "id": "Bermain batu-gunting-kertas melawan bot"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "suit"
-  ],
-  "examples": [
-    "suit batu",
-    "rps rock",
-    "suit rock",
-    "rps batu"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 1,
-  "name": "suit",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/fun",
-    "line": 1
+    "line": 168
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "suit rock"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

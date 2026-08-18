@@ -1,44 +1,8 @@
 {
   "commands": [
     {
-      "description": "Toggle NSFW mode (in group: admin only, in private: bot only)",
-      "name": "nsfw",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "nsfw",
-        "nsfwmode"
-      ]
-    },
-    {
-      "description": "Add a new sub-owner",
-      "name": "addsubowner",
-      "permissions": {
-        "owner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "addsubowner",
-        "addsub"
-      ]
-    },
-    {
-      "description": "Show sub-owners list",
-      "name": "listsubowners",
-      "permissions": {
-        "owner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "listsubowners",
-        "listsub",
-        "subowners",
-        "sublist"
-      ]
-    },
-    {
-      "description": "Information about the bot",
       "name": "about",
+      "description": "Information about the bot",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -46,51 +10,8 @@
       ]
     },
     {
-      "description": "Show bot number owner information",
-      "name": "owner",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "owner",
-        "creator",
-        "developer"
-      ]
-    },
-    {
-      "description": "Remove a sub-owner",
-      "name": "removesubowner",
-      "permissions": {
-        "owner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "removesubowner",
-        "removesub",
-        "delsub",
-        "delsubowner"
-      ]
-    },
-    {
-      "description": "Claim daily rewards based on your level",
-      "name": "daily",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "daily"
-      ]
-    },
-    {
-      "description": "Show help for a specific command",
-      "name": "help",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "help"
-      ]
-    },
-    {
-      "description": "View all benefits of becoming premium",
       "name": "cekbenefit",
+      "description": "View all benefits of becoming premium",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -98,48 +19,17 @@
       ]
     },
     {
-      "description": "Get the link to this bot's script",
-      "name": "sc",
+      "name": "daily",
+      "description": "Claim daily rewards based on your level",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "sc",
-        "script"
+        "daily"
       ]
     },
     {
-      "description": "Show command menu",
-      "name": "menu",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "menu"
-      ]
-    },
-    {
-      "description": "View your daily limit information",
-      "name": "limit",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "limit"
-      ]
-    },
-    {
-      "description": "Upload media to WhatsApp status (no group tagging)",
-      "name": "upsw",
-      "permissions": {
-        "bot": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "upsw",
-        "upstatus"
-      ]
-    },
-    {
-      "description": "Show donation methods",
       "name": "donate",
+      "description": "Show donation methods",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -148,8 +38,8 @@
       ]
     },
     {
-      "description": "View list of all donaturs \u0026 total donations",
       "name": "donatur",
+      "description": "View list of all donaturs & total donations",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -159,33 +49,72 @@
       ]
     },
     {
-      "description": "Show bot's group list",
-      "name": "listgroup",
-      "permissions": {
-        "bot": true
-      },
+      "name": "help",
+      "description": "Show help for a specific command",
+      "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "listgroup",
-        "listgrup",
-        "grouplist"
+        "help"
       ]
     },
     {
-      "description": "Add/update donatur to list (owner only)",
-      "name": "adddonatur",
-      "permissions": {
-        "owner": true
-      },
+      "name": "join",
+      "description": "Join WhatsApp group via invite link",
+      "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "adddonatur",
-        "tambahdonatur"
+        "join"
       ]
     },
     {
-      "description": "Buy premium using payment gateway",
+      "name": "limit",
+      "description": "View your daily limit information",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "limit"
+      ]
+    },
+    {
+      "name": "menu",
+      "description": "Show command menu",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "menu"
+      ]
+    },
+    {
+      "name": "nsfw",
+      "description": "Toggle NSFW mode (in group: admin only, in private: bot only)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "nsfw",
+        "nsfwmode"
+      ]
+    },
+    {
+      "name": "owner",
+      "description": "Show bot number owner information",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "owner"
+      ]
+    },
+    {
+      "name": "ping",
+      "description": "Check bot latency and database status",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "ping"
+      ]
+    },
+    {
       "name": "premium",
+      "description": "Buy premium using payment gateway",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -195,26 +124,8 @@
       ]
     },
     {
-      "description": "Join WhatsApp group via invite link",
-      "name": "join",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "join"
-      ]
-    },
-    {
-      "description": "Check bot latency and database status",
-      "name": "ping",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "ping"
-      ]
-    },
-    {
-      "description": "Redeem a code to get rewards",
       "name": "redeem",
+      "description": "Redeem a code to get rewards",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -222,28 +133,13 @@
       ]
     },
     {
-      "description": "Upload media to WhatsApp status with group tag option",
-      "name": "upsw2",
-      "permissions": {
-        "bot": true
-      },
+      "name": "sc",
+      "description": "Get the link to this bot's script",
+      "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "upsw2"
-      ]
-    },
-    {
-      "description": "Upload media to group status",
-      "name": "upswgc",
-      "permissions": {
-        "admin": true,
-        "owner": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "upswgc",
-        "upstatusgrup"
+        "sc",
+        "script"
       ]
     }
   ]

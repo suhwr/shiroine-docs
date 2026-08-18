@@ -1,10 +1,31 @@
 {
+  "name": "remove",
+  "commands": [
+    "remove"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "remove"
+  ],
+  "category": "group",
   "categories": [
     "group"
   ],
-  "category": "group",
+  "tags": [
+    "remove"
+  ],
+  "description": {
+    "en": "Remove member from group",
+    "id": "Keluarkan member dari grup"
+  },
+  "usage": "remove",
+  "examples": [
+    "remove @user",
+    "remove (reply)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -13,59 +34,39 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "remove"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Remove member from group",
-    "id": "Keluarkan member dari grup"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "remove"
-  ],
-  "examples": [
-    "remove @user",
-    "remove (reply)",
-    "remove @user",
-    "remove (reply)"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "remove",
-  "nsfwOnly": false,
   "permissions": {
     "admin": true,
     "owner": true,
     "subowner": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/group",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "remove @user"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 142
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

@@ -1,13 +1,39 @@
 {
-  "aliases": [
+  "name": "translate",
+  "commands": [
+    "translate",
     "tl",
     "tr"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "translate"
+  ],
+  "category": "tools",
   "categories": [
     "tools"
   ],
-  "category": "tools",
+  "tags": [
+    "translate",
+    "tl",
+    "tr"
+  ],
+  "description": {
+    "en": "Translate text to various languages",
+    "id": "Terjemahkan teks ke berbagai bahasa"
+  },
+  "usage": "translate <teks>",
+  "examples": [
+    "translate en Halo dunia",
+    "translate ja Selamat pagi",
+    "translate (reply teks)",
+    "translate id Hello world",
+    "translate ja Good morning",
+    "translate (reply text)"
+  ],
+  "minArgs": 1,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -20,59 +46,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "translate",
-    "tl",
-    "tr"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Translate text to various languages",
-    "id": "Terjemahkan teks ke berbagai bahasa"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "translate"
-  ],
-  "examples": [
-    "translate en Halo dunia",
-    "translate ja Selamat pagi",
-    "translate (reply teks)",
-    "translate id Hello world",
-    "translate ja Good morning",
-    "translate (reply text)"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 1,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 1,
-  "name": "translate",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/tools",
-    "line": 1
+    "line": 113
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "translate id Hello world"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

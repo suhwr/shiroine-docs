@@ -1,0 +1,77 @@
+{
+  "name": "hardbangc",
+  "commands": [
+    "hardbangc",
+    "hbangc",
+    "hardbangrup"
+  ],
+  "aliases": [],
+  "display": [
+    "hardbangc"
+  ],
+  "category": "developer",
+  "categories": [
+    "developer"
+  ],
+  "tags": [
+    "hardbangc",
+    "hbangc",
+    "hardbangrup"
+  ],
+  "description": {
+    "en": "Ban group globally (all bots)",
+    "id": "Ban grup secara global (semua bot)"
+  },
+  "usage": "hardbangc <teks>",
+  "examples": [
+    "hardbangc 120363xxx spam"
+  ],
+  "minArgs": 1,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "permissions": {
+    "owner": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/developer",
+    "line": 90
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
+}

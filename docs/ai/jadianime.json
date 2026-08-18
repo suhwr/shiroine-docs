@@ -1,12 +1,36 @@
 {
-  "aliases": [
+  "name": "jadianime",
+  "commands": [
+    "jadianime",
     "toanime"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "jadianime"
+  ],
+  "category": "ai",
   "categories": [
     "ai"
   ],
-  "category": "ai",
+  "tags": [
+    "jadianime",
+    "toanime"
+  ],
+  "description": {
+    "en": "Convert photo to anime style using AI",
+    "id": "Ubah foto menjadi gaya anime menggunakan AI"
+  },
+  "usage": "jadianime",
+  "examples": [
+    "jadianime",
+    "toanime"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [
+    "sticker",
+    "image"
+  ],
   "chatPermissions": [
     "private",
     "group",
@@ -19,56 +43,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "jadianime",
-    "toanime"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Convert photo to anime style using AI",
-    "id": "Ubah foto menjadi gaya anime menggunakan AI"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "jadianime"
-  ],
-  "examples": [
-    "jadianime",
-    "toanime",
-    "jadianime",
-    "toanime"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "jadianime",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "si",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/ai",
-    "line": 1
+    "line": 57
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "jadianime"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

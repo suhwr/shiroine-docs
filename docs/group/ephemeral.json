@@ -1,10 +1,33 @@
 {
+  "name": "ephemeral",
+  "commands": [
+    "ephemeral"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "ephemeral"
+  ],
+  "category": "group",
   "categories": [
     "group"
   ],
-  "category": "group",
+  "tags": [
+    "ephemeral"
+  ],
+  "description": {
+    "en": "Configure ephemeral messages",
+    "id": "Atur pesan sementara"
+  },
+  "usage": "ephemeral",
+  "examples": [
+    "ephemeral",
+    "ephemeral on",
+    "ephemeral off",
+    "ephemeral status"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -13,63 +36,39 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "ephemeral"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Configure ephemeral messages",
-    "id": "Atur pesan sementara"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "ephemeral"
-  ],
-  "examples": [
-    "ephemeral",
-    "ephemeral on",
-    "ephemeral off",
-    "ephemeral status",
-    "ephemeral",
-    "ephemeral on",
-    "ephemeral off",
-    "ephemeral status"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "ephemeral",
-  "nsfwOnly": false,
   "permissions": {
     "admin": true,
     "owner": true,
     "subowner": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
   "source": {
     "file": "internal/plugins/group",
     "line": 1
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "ephemeral"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

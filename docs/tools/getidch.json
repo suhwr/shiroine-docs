@@ -1,0 +1,71 @@
+{
+  "name": "getidch",
+  "commands": [
+    "getidch"
+  ],
+  "aliases": [],
+  "display": [
+    "getidch"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "getidch"
+  ],
+  "description": {
+    "en": "Get Channel JID from WhatsApp Channel URL",
+    "id": "Dapatkan Channel JID dari URL WhatsApp Channel"
+  },
+  "usage": "getidch",
+  "examples": [
+    "getidch https://whatsapp.com/channel/0029Va9xyz/"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 41
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
+}

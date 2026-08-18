@@ -1,10 +1,32 @@
 {
+  "name": "antilink",
+  "commands": [
+    "antilink"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "antilink"
+  ],
+  "category": "group",
   "categories": [
     "group"
   ],
-  "category": "group",
+  "tags": [
+    "antilink"
+  ],
+  "description": {
+    "en": "Manage AntiLink features",
+    "id": "Atur fitur AntiLink"
+  },
+  "usage": "antilink",
+  "examples": [
+    "antilink on",
+    "antilink group on",
+    "antilink add badsite.com"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "group",
     "group_community"
@@ -13,63 +35,39 @@
     "group": true,
     "group_community": true
   },
-  "commands": [
-    "antilink"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Configure anti link",
-    "id": "Atur anti link grup"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "antilink"
-  ],
-  "examples": [
-    "antilink",
-    "antilink on",
-    "antilink off",
-    "antilink status",
-    "antilink",
-    "antilink on",
-    "antilink off",
-    "antilink status"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "antilink",
-  "nsfwOnly": false,
   "permissions": {
     "admin": true,
     "owner": true,
     "subowner": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/group",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "antilink"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 229
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

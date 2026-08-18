@@ -1,10 +1,31 @@
 {
+  "name": "base64",
+  "commands": [
+    "base64"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "base64"
+  ],
+  "category": "tools",
   "categories": [
     "tools"
   ],
-  "category": "tools",
+  "tags": [
+    "base64"
+  ],
+  "description": {
+    "en": "Encode or decode text with Base64",
+    "id": "Encode atau decode teks dengan Base64"
+  },
+  "usage": "base64 <teks>",
+  "examples": [
+    "base64 e hello world",
+    "base64 d aGVsbG8gd29ybGQ="
+  ],
+  "minArgs": 2,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -17,55 +38,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "base64"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Encode or decode text with Base64",
-    "id": "Encode atau decode teks dengan Base64"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "base64"
-  ],
-  "examples": [
-    "base64 e hello world",
-    "base64 d aGVsbG8gd29ybGQ=",
-    "base64 e hello world",
-    "base64 d aGVsbG8gd29ybGQ="
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 2,
-  "name": "base64",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/tools",
-    "line": 1
+    "line": 47
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "base64 e hello world"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

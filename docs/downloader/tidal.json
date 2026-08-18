@@ -1,10 +1,33 @@
 {
+  "name": "tidal",
+  "commands": [
+    "tidal"
+  ],
   "aliases": [],
-  "args": {},
+  "display": [
+    "tidal"
+  ],
+  "category": "downloader",
   "categories": [
     "downloader"
   ],
-  "category": "downloader",
+  "tags": [
+    "tidal"
+  ],
+  "description": {
+    "en": "Search or download track, album, or video from Tidal (HiFi quality)",
+    "id": "Cari atau download track, album, atau video dari Tidal (HiFi quality)"
+  },
+  "usage": "tidal",
+  "examples": [
+    "tidal never gonna give you up",
+    "tidal album the book",
+    "tidal video never gonna give you up",
+    "tidal https://tidal.com/browse/track/123456"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -17,59 +40,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "tidal"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": true,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Search or download track, album, or video from Tidal (HiFi quality)",
-    "id": "Cari atau download track, album, atau video dari Tidal (HiFi quality)"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "tidal"
-  ],
-  "examples": [
-    "tidal never gonna give you up",
-    "tidal album the book",
-    "tidal video never gonna give you up",
-    "tidal https://tidal.com/browse/track/123456",
-    "tidal never gonna give you up",
-    "tidal album the book",
-    "tidal video never gonna give you up",
-    "tidal https://tidal.com/browse/track/123456"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:08Z",
-  "level": 0,
-  "limitCost": 1,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "tidal",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": true,
   "source": {
     "file": "internal/plugins/downloader",
-    "line": 1
+    "line": 309
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "tidal never gonna give you up"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

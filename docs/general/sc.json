@@ -1,12 +1,32 @@
 {
-  "aliases": [
+  "name": "sc",
+  "commands": [
+    "sc",
     "script"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "sc"
+  ],
+  "category": "general",
   "categories": [
     "general"
   ],
-  "category": "general",
+  "tags": [
+    "sc",
+    "script"
+  ],
+  "description": {
+    "en": "Get the link to this bot's script",
+    "id": "Dapatkan link script bot ini"
+  },
+  "usage": "sc",
+  "examples": [
+    "sc"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -19,54 +39,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "sc",
-    "script"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Get the link to this bot's script",
-    "id": "Dapatkan link script bot ini"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "sc"
-  ],
-  "examples": [
-    "sc",
-    "sc"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "sc",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/general",
-    "line": 1
+    "line": 24
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "sc"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

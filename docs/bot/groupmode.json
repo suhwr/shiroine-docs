@@ -1,12 +1,34 @@
 {
-  "aliases": [
+  "name": "groupmode",
+  "commands": [
+    "groupmode",
     "gm"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "groupmode"
+  ],
+  "category": "bot",
   "categories": [
     "bot"
   ],
-  "category": "bot",
+  "tags": [
+    "groupmode",
+    "gm"
+  ],
+  "description": {
+    "en": "Toggle group mode (bot only accepts commands in groups)",
+    "id": "Toggle mode grup (bot hanya menerima perintah di grup)"
+  },
+  "usage": "groupmode",
+  "examples": [
+    "groupmode on",
+    "groupmode off",
+    "groupmode"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
@@ -19,60 +41,37 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "groupmode",
-    "gm"
-  ],
-  "customArgsMessage": {
-    "_default": "MissingArguments"
-  },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Toggle group mode (bot only accepts commands in groups)",
-    "id": "Toggle mode grup (bot hanya menerima perintah di grup)"
-  },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "groupmode"
-  ],
-  "examples": [
-    "groupmode on",
-    "groupmode off",
-    "groupmode",
-    "groupmode on",
-    "groupmode off",
-    "groupmode"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
-  "media": {
-    "image": "",
-    "video": ""
-  },
-  "minArgs": 0,
-  "name": "groupmode",
-  "nsfwOnly": false,
   "permissions": {
     "bot": true
   },
   "premiumOnly": "",
-  "requireMedia": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
-  "source": {
-    "file": "internal/plugins/bot",
-    "line": 1
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
   },
-  "specialLimit": false,
   "status": {
+    "enabled": true,
     "beta": false,
     "deprecated": false,
-    "enabled": true,
     "hidden": false
   },
-  "usage": "groupmode on"
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 71
+  },
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }

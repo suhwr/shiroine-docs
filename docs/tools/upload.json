@@ -1,12 +1,37 @@
 {
-  "aliases": [
+  "name": "upload",
+  "commands": [
+    "upload",
     "tourl"
   ],
-  "args": {},
+  "aliases": [],
+  "display": [
+    "upload"
+  ],
+  "category": "tools",
   "categories": [
     "tools"
   ],
-  "category": "tools",
+  "tags": [
+    "upload",
+    "tourl"
+  ],
+  "description": {
+    "en": "Upload file to server and get URL",
+    "id": "Upload file ke server dan dapatkan URL"
+  },
+  "usage": "upload",
+  "examples": [
+    "upload",
+    "upload gofile",
+    "upload uguu",
+    "upload catbox"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [
+    "audio"
+  ],
   "chatPermissions": [
     "private",
     "group",
@@ -19,60 +44,35 @@
     "newsletter": true,
     "private": true
   },
-  "commands": [
-    "upload",
-    "tourl"
-  ],
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments"
   },
-  "delaySeconds": 0,
-  "description": {
-    "en": "Upload file to server and get URL",
-    "id": "Upload file ke server dan dapatkan URL"
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
   },
-  "disableProcessLimit": false,
-  "disabled": false,
-  "disabledReason": "",
-  "display": [
-    "upload"
-  ],
-  "examples": [
-    "upload",
-    "upload gofile",
-    "upload uguu",
-    "upload catbox",
-    "upload",
-    "upload gofile",
-    "upload uguu",
-    "upload catbox"
-  ],
-  "ignoreQueue": false,
-  "lastUpdated": "2026-05-23T13:58:07Z",
-  "level": 0,
-  "limitCost": 0,
   "media": {
     "image": "",
     "video": ""
   },
-  "minArgs": 0,
-  "name": "upload",
-  "nsfwOnly": false,
-  "permissions": {},
-  "premiumOnly": "",
-  "requireMedia": "all",
-  "sendsToPrivate": false,
-  "showPromotion": false,
   "source": {
     "file": "internal/plugins/tools",
-    "line": 1
+    "line": 56
   },
-  "specialLimit": false,
-  "status": {
-    "beta": false,
-    "deprecated": false,
-    "enabled": true,
-    "hidden": false
-  },
-  "usage": "upload"
+  "lastUpdated": "2026-08-18T02:57:14Z"
 }
