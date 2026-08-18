@@ -114,6 +114,15 @@
       ]
     },
     {
+      "name": "getexif",
+      "description": "Get EXIF metadata from the quoted/replied sticker",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "getexif"
+      ]
+    },
+    {
       "name": "getidch",
       "description": "Get Channel JID from WhatsApp Channel URL",
       "permissions": {},
