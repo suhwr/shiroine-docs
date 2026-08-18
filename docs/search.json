@@ -2154,6 +2154,15 @@
     {
       "aliases": [],
       "category": "tools",
+      "name": "getexif",
+      "path": "/commands/tools/getexif",
+      "tags": [
+        "getexif"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
       "name": "getidch",
       "path": "/commands/tools/getidch",
       "tags": [

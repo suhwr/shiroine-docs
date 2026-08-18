@@ -1,44 +1,49 @@
 {
-  "name": "siapakahaku",
+  "name": "getexif",
   "commands": [
-    "siapakahaku"
+    "getexif"
   ],
   "aliases": [],
   "display": [
-    "siapakahaku"
+    "getexif"
   ],
-  "category": "game",
+  "category": "tools",
   "categories": [
-    "game"
+    "tools"
   ],
   "tags": [
-    "siapakahaku"
+    "getexif"
   ],
   "description": {
-    "en": "Start who am I guessing game",
-    "id": "Mulai game tebak-tebakan siapakah aku"
+    "en": "Get EXIF metadata from the quoted/replied sticker",
+    "id": "Ambil metadata EXIF dari stiker yang di-quote/reply"
   },
-  "usage": "siapakahaku",
+  "usage": "getexif",
   "examples": [
-    "siapakahaku"
+    "getexif (reply ke stiker)",
+    "getexif (reply to a sticker)"
   ],
   "minArgs": 0,
   "args": {},
   "requireMedia": [],
   "chatPermissions": [
+    "private",
     "group",
-    "group_community"
+    "group_community",
+    "newsletter"
   ],
   "chatTypes": {
     "group": true,
-    "group_community": true
+    "group_community": true,
+    "newsletter": true,
+    "private": true
   },
   "permissions": {},
   "premiumOnly": "",
   "nsfwOnly": false,
   "level": 0,
   "limitCost": 0,
-  "delaySeconds": 3,
+  "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
   "specialLimit": false,
@@ -60,8 +65,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/game",
-    "line": 218
+    "file": "internal/plugins/tools",
+    "line": 96
   },
   "lastUpdated": "2026-08-18T07:02:07Z"
 }
