@@ -5,6 +5,14 @@ export function SimulatedChat({ cmdName, details }: { cmdName: string; details: 
   // Try to find the best description
   const desc = details.description?.en || details.description?.id || "Memproses perintah...";
 
+  const hasRequireMedia = details.requireMedia && (Array.isArray(details.requireMedia) ? details.requireMedia.length > 0 : !!details.requireMedia);
+  const requireMediaLabel = Array.isArray(details.requireMedia) ? details.requireMedia.join(" / ") : details.requireMedia;
+  const isDownloaderOrMedia = details.category === 'downloader' || 
+    details.category === 'youtube' || 
+    (Array.isArray(details.requireMedia) 
+      ? details.requireMedia.includes('image') || details.requireMedia.includes('video')
+      : (details.requireMedia === 'image' || details.requireMedia === 'video'));
+
   return (
     <div style={{
       background: '#0B141A', // WhatsApp Dark Mode BG
@@ -30,10 +38,10 @@ export function SimulatedChat({ cmdName, details }: { cmdName: string; details: 
         boxShadow: '0 1px 0.5px rgba(11,20,26,.13)',
         position: 'relative'
       }}>
-        {details.requireMedia && (
+        {hasRequireMedia && (
           <div style={{ background: '#111B21', borderRadius: '6px', overflow: 'hidden', marginBottom: '6px' }}>
             <div style={{ background: '#2A3942', height: '100px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              <div style={{ fontSize: '0.75rem', color: '#8696A0' }}>[ Lampiran {details.requireMedia} ]</div>
+              <div style={{ fontSize: '0.75rem', color: '#8696A0' }}>[ Lampiran {requireMediaLabel} ]</div>
             </div>
           </div>
         )}
@@ -63,7 +71,7 @@ export function SimulatedChat({ cmdName, details }: { cmdName: string; details: 
         </div>
 
         {/* Dynamic content rendering based on tags/name */}
-        {(details.category === 'downloader' || details.category === 'youtube' || details.requireMedia === 'image' || details.requireMedia === 'video') ? (
+        {isDownloaderOrMedia ? (
           <div style={{ background: '#111B21', borderRadius: '6px', overflow: 'hidden', marginBottom: '6px' }}>
             <div style={{ background: '#2A3942', height: '120px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
               <div style={{ width: '40px', height: '40px', background: 'rgba(0,0,0,0.5)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>

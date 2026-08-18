@@ -56,6 +56,9 @@ export function CommandDetail({ favorites, toggleFavorite, addRecent }: {
 
   const isFavorite = favorites.some(f => f.name === cmdName);
 
+  const hasRequireMedia = details.requireMedia && (Array.isArray(details.requireMedia) ? details.requireMedia.length > 0 : !!details.requireMedia);
+  const requireMediaLabel = Array.isArray(details.requireMedia) ? details.requireMedia.join(" / ") : details.requireMedia;
+
   return (
     <div className="animate-enter">
       <div className="flex-center animate-enter stagger-1" style={{ justifyContent: 'flex-start', gap: '0.5rem', marginBottom: '2rem', fontSize: '0.9rem', position: 'sticky', top: '1rem', zIndex: 10, background: 'var(--bg-main)', padding: '0.75rem 1rem', borderRadius: '12px', border: '1px solid var(--border-color)', boxShadow: 'var(--shadow-soft)' }}>
@@ -90,13 +93,13 @@ export function CommandDetail({ favorites, toggleFavorite, addRecent }: {
         </div>
       </div>
 
-      {details.requireMedia && (
+      {hasRequireMedia && (
         <div className="card animate-enter stagger-3" style={{ padding: '1rem 1.5rem', marginBottom: '2rem', border: '1px solid var(--warning)', background: 'rgba(251, 191, 36, 0.05)', display: 'flex', alignItems: 'center', gap: '1rem' }}>
           <AlertCircle className="w-6 h-6 text-warning" />
           <div>
             <h4 style={{ fontWeight: 600, color: 'var(--warning)', marginBottom: '0.25rem' }}>Membutuhkan Lampiran Media</h4>
             <p className="text-secondary" style={{ fontSize: '0.9rem', margin: 0 }}>
-              Kirim <strong>{details.requireMedia}</strong> dengan caption <code style={{ color: 'var(--text-primary)', background: 'rgba(255,255,255,0.1)', padding: '2px 4px', borderRadius: '4px' }}>.{cmdName}</code> atau <em>reply</em> pesan {details.requireMedia} dengan perintah tersebut.
+              Kirim <strong>{requireMediaLabel}</strong> dengan caption <code style={{ color: 'var(--text-primary)', background: 'rgba(255,255,255,0.1)', padding: '2px 4px', borderRadius: '4px' }}>.{cmdName}</code> atau <em>reply</em> pesan <strong>{requireMediaLabel}</strong> dengan perintah tersebut.
             </p>
           </div>
         </div>
