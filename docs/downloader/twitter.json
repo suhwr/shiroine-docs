@@ -21,8 +21,8 @@
     "x"
   ],
   "description": {
-    "en": "Download video/photo from Twitter/X",
-    "id": "Download video/foto dari Twitter/X"
+    "id": "Download video/foto dari Twitter/X",
+    "en": "Download video/photo from Twitter/X"
   },
   "usage": "twitter",
   "examples": [
@@ -38,10 +38,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true,
+    "group_community": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -71,7 +71,7 @@
   },
   "source": {
     "file": "internal/plugins/downloader",
-    "line": 102
+    "line": 138
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

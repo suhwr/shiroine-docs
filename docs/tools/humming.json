@@ -15,8 +15,8 @@
     "humming"
   ],
   "description": {
-    "en": "Find song by humming (send or reply to your humming audio then type the command)",
-    "id": "Cari lagu dengan cara humming/bersenandung (kirim atau reply audio senandungmu lalu ketik perintah)"
+    "id": "Cari lagu dengan cara humming/bersenandung (kirim atau reply audio senandungmu lalu ketik perintah)",
+    "en": "Find song by humming (send or reply to your humming audio then type the command)"
   },
   "usage": "humming",
   "examples": [
@@ -37,10 +37,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -72,5 +72,5 @@
     "file": "internal/plugins/tools",
     "line": 156
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

@@ -19,8 +19,8 @@
     "roman"
   ],
   "description": {
-    "en": "Convert non-Latin text (Japanese, Korean, Arabic, etc.) to Latin characters",
-    "id": "Ubah teks non-Latin (Jepang, Korea, Arab, dll) ke huruf Latin"
+    "id": "Ubah teks non-Latin (Jepang, Korea, Arab, dll) ke huruf Latin",
+    "en": "Convert non-Latin text (Japanese, Korean, Arabic, etc.) to Latin characters"
   },
   "usage": "romanize",
   "examples": [
@@ -75,5 +75,5 @@
     "file": "internal/plugins/tools",
     "line": 57
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

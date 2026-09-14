@@ -15,8 +15,8 @@
     "barcode"
   ],
   "description": {
-    "en": "Generate or decode barcode",
-    "id": "Buat atau decode barcode"
+    "id": "Buat atau decode barcode",
+    "en": "Generate or decode barcode"
   },
   "usage": "barcode",
   "examples": [
@@ -34,10 +34,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -69,5 +69,5 @@
     "file": "internal/plugins/tools",
     "line": 116
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

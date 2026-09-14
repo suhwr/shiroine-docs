@@ -19,8 +19,8 @@
     "tgs"
   ],
   "description": {
-    "en": "Download a Telegram sticker pack and send it as WhatsApp stickers",
-    "id": "Download stiker pack dari Telegram dan kirim sebagai stiker WhatsApp"
+    "id": "Download stiker pack dari Telegram dan kirim sebagai stiker WhatsApp",
+    "en": "Download a Telegram sticker pack and send it as WhatsApp stickers"
   },
   "usage": "telegramsticker",
   "examples": [
@@ -37,10 +37,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -70,7 +70,7 @@
   },
   "source": {
     "file": "internal/plugins/downloader",
-    "line": 198
+    "line": 208
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

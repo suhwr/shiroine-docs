@@ -19,8 +19,8 @@
     "tovn"
   ],
   "description": {
-    "en": "Convert video to mp3 or voice note.",
-    "id": "Convert video ke mp3 atau voice note."
+    "id": "Convert video ke mp3 atau voice note.",
+    "en": "Convert video to mp3 or voice note."
   },
   "usage": "tomp3",
   "examples": [
@@ -37,10 +37,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
     "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -70,7 +70,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 99
+    "line": 100
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

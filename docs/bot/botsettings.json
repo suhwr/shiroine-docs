@@ -17,8 +17,8 @@
     "settings"
   ],
   "description": {
-    "en": "Display bot settings list",
-    "id": "Menampilkan daftar pengaturan bot"
+    "id": "Menampilkan daftar pengaturan bot",
+    "en": "Display bot settings list"
   },
   "usage": "botsettings",
   "examples": [
@@ -63,7 +63,7 @@
   },
   "source": {
     "file": "internal/plugins/bot",
-    "line": 56
+    "line": 57
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

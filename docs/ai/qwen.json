@@ -15,8 +15,8 @@
     "qwen"
   ],
   "description": {
-    "en": "Chat with Qwen3-32B without persona (text only)",
-    "id": "Chat dengan Qwen3-32B tanpa persona (hanya teks)"
+    "id": "Chat dengan Qwen3-32B tanpa persona (hanya teks)",
+    "en": "Chat with Qwen3-32B without persona (text only)"
   },
   "usage": "qwen",
   "examples": [
@@ -36,10 +36,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
     "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -69,7 +69,7 @@
   },
   "source": {
     "file": "internal/plugins/ai",
-    "line": 84
+    "line": 85
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

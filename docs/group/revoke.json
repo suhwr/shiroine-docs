@@ -19,8 +19,8 @@
     "resetlink"
   ],
   "description": {
-    "en": "Reset group invite link",
-    "id": "Reset link undangan grup"
+    "id": "Reset link undangan grup",
+    "en": "Reset group invite link"
   },
   "usage": "revoke",
   "examples": [
@@ -38,9 +38,9 @@
     "group_community": true
   },
   "permissions": {
-    "admin": true,
     "owner": true,
-    "subowner": true
+    "subowner": true,
+    "admin": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -71,5 +71,5 @@
     "file": "internal/plugins/group",
     "line": 74
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

@@ -17,8 +17,8 @@
     "addsub"
   ],
   "description": {
-    "en": "Add a new sub-owner",
-    "id": "Tambahkan sub-owner baru"
+    "id": "Tambahkan sub-owner baru",
+    "en": "Add a new sub-owner"
   },
   "usage": "addsubowner",
   "examples": [
@@ -66,5 +66,5 @@
     "file": "internal/plugins/developer",
     "line": 95
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

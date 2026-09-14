@@ -15,8 +15,8 @@
     "antimedia"
   ],
   "description": {
-    "en": "Configure group anti media with specific types",
-    "id": "Atur anti media grup dengan tipe spesifik"
+    "id": "Atur anti media grup dengan tipe spesifik",
+    "en": "Configure group anti media with specific types"
   },
   "usage": "antimedia",
   "examples": [
@@ -68,7 +68,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 201
+    "line": 202
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

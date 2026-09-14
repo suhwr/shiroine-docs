@@ -19,8 +19,8 @@
     "nsfwmode"
   ],
   "description": {
-    "en": "Toggle NSFW mode (in group: admin only, in private: bot only)",
-    "id": "Toggle mode NSFW (di grup: admin only, di private: bot only)"
+    "id": "Toggle mode NSFW (di grup: admin only, di private: bot only)",
+    "en": "Toggle NSFW mode (in group: admin only, in private: bot only)"
   },
   "usage": "nsfw",
   "examples": [
@@ -71,7 +71,7 @@
   },
   "source": {
     "file": "internal/plugins/general",
-    "line": 129
+    "line": 132
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

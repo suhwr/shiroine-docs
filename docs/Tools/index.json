@@ -1,0 +1,16 @@
+{
+  "commands": [
+    {
+      "name": "Test Image",
+      "description": "Display an image using FOA HTML",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "testimg",
+        "test image"
+      ]
+    }
+  ]
+}

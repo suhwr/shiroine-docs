@@ -17,8 +17,8 @@
     "previewwelcome"
   ],
   "description": {
-    "en": "Simulate group welcome message using your data as example",
-    "id": "Simulasi pesan welcome grup dengan data kamu sebagai contoh"
+    "id": "Simulasi pesan welcome grup dengan data kamu sebagai contoh",
+    "en": "Simulate group welcome message using your data as example"
   },
   "usage": "simulatewelcome",
   "examples": [
@@ -67,7 +67,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 167
+    "line": 168
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

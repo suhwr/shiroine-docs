@@ -15,8 +15,8 @@
     "listban"
   ],
   "description": {
-    "en": "View list of banned members in group",
-    "id": "Lihat daftar member yang di-ban di grup"
+    "id": "Lihat daftar member yang di-ban di grup",
+    "en": "View list of banned members in group"
   },
   "usage": "listban",
   "examples": [
@@ -65,7 +65,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 268
+    "line": 285
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

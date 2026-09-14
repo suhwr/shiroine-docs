@@ -15,8 +15,8 @@
     "album"
   ],
   "description": {
-    "en": "Download album from YouTube Music",
-    "id": "Download album dari YouTube Music"
+    "id": "Download album dari YouTube Music",
+    "en": "Download album from YouTube Music"
   },
   "usage": "album",
   "examples": [
@@ -32,10 +32,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -67,5 +67,5 @@
     "file": "internal/plugins/youtube",
     "line": 143
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

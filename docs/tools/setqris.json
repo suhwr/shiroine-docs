@@ -15,8 +15,8 @@
     "setqris"
   ],
   "description": {
-    "en": "Generate new QRIS from a QRIS image, optionally set payment amount",
-    "id": "Generate QRIS baru dari gambar QRIS, opsional set nominal pembayaran"
+    "id": "Generate QRIS baru dari gambar QRIS, opsional set nominal pembayaran",
+    "en": "Generate new QRIS from a QRIS image, optionally set payment amount"
   },
   "usage": "setqris",
   "examples": [
@@ -73,5 +73,5 @@
     "file": "internal/plugins/tools",
     "line": 112
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

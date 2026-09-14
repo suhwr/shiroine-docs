@@ -17,8 +17,8 @@
     "fb"
   ],
   "description": {
-    "en": "Download video/photo from Facebook",
-    "id": "Download video/foto dari Facebook"
+    "id": "Download video/foto dari Facebook",
+    "en": "Download video/photo from Facebook"
   },
   "usage": "facebook",
   "examples": [
@@ -34,10 +34,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -69,5 +69,5 @@
     "file": "internal/plugins/downloader",
     "line": 95
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

@@ -17,8 +17,8 @@
     "statistics"
   ],
   "description": {
-    "en": "Show bot statistics",
-    "id": "Tampilkan statistik bot"
+    "id": "Tampilkan statistik bot",
+    "en": "Show bot statistics"
   },
   "usage": "stats",
   "examples": [
@@ -39,10 +39,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -72,7 +72,7 @@
   },
   "source": {
     "file": "internal/plugins/bot",
-    "line": 176
+    "line": 177
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

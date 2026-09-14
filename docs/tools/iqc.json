@@ -15,8 +15,8 @@
     "iqc"
   ],
   "description": {
-    "en": "Create iPhone WhatsApp Chat screenshot (self-hosted)\nOptional args: --time=HH:MM --battery=0-100 --carrier=NAME\nEmbed image: send/reply image + text",
-    "id": "Buat screenshot iPhone WhatsApp Chat (self-host)\nArgs opsional: --time=HH:MM --battery=0-100 --carrier=NAMA\nSupport embed gambar: kirim/reply gambar + teks"
+    "id": "Buat screenshot iPhone WhatsApp Chat (self-host)\nArgs opsional: --time=HH:MM --battery=0-100 --carrier=NAMA\nSupport embed gambar: kirim/reply gambar + teks",
+    "en": "Create iPhone WhatsApp Chat screenshot (self-hosted)\nOptional args: --time=HH:MM --battery=0-100 --carrier=NAME\nEmbed image: send/reply image + text"
   },
   "usage": "iqc",
   "examples": [
@@ -33,10 +33,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true,
+    "group_community": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -66,7 +66,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 86
+    "line": 87
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

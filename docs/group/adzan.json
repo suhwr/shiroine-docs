@@ -19,8 +19,8 @@
     "sholat"
   ],
   "description": {
-    "en": "Auto adzan & prayer reminder group settings",
-    "id": "Pengaturan auto adzan & reminder salat grup"
+    "id": "Pengaturan auto adzan & reminder salat grup",
+    "en": "Auto adzan & prayer reminder group settings"
   },
   "usage": "adzan",
   "examples": [
@@ -73,7 +73,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 186
+    "line": 203
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

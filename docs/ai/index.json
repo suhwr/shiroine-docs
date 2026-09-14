@@ -116,9 +116,9 @@
       "name": "reset-ai-group",
       "description": "Reset AI chat history in group (Admin only)",
       "permissions": {
+        "subowner": true,
         "admin": true,
-        "owner": true,
-        "subowner": true
+        "owner": true
       },
       "premiumOnly": "",
       "tags": [

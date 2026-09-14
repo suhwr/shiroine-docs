@@ -15,8 +15,8 @@
     "deepseek"
   ],
   "description": {
-    "en": "Chat with DeepSeek without persona (text only)",
-    "id": "Chat dengan DeepSeek tanpa persona (hanya teks)"
+    "id": "Chat dengan DeepSeek tanpa persona (hanya teks)",
+    "en": "Chat with DeepSeek without persona (text only)"
   },
   "usage": "deepseek",
   "examples": [
@@ -76,7 +76,7 @@
   },
   "source": {
     "file": "internal/plugins/ai",
-    "line": 77
+    "line": 78
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

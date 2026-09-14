@@ -15,8 +15,8 @@
     "settimezone"
   ],
   "description": {
-    "en": "Set group timezone for listaktif, schedule, and logs",
-    "id": "Set zona waktu grup untuk keperluan listaktif, schedule, dan logs"
+    "id": "Set zona waktu grup untuk keperluan listaktif, schedule, dan logs",
+    "en": "Set group timezone for listaktif, schedule, and logs"
   },
   "usage": "settimezone",
   "examples": [
@@ -35,9 +35,9 @@
     "group_community": true
   },
   "permissions": {
-    "admin": true,
     "owner": true,
-    "subowner": true
+    "subowner": true,
+    "admin": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -66,7 +66,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 54
+    "line": 55
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

@@ -19,13 +19,14 @@
     "autoopen"
   ],
   "description": {
-    "en": "Set auto open/close schedule",
-    "id": "Set jadwal auto open/close grup"
+    "id": "Set jadwal auto open/close grup",
+    "en": "Set auto open/close schedule"
   },
   "usage": "setschedule",
   "examples": [
     "setschedule Asia/Jakarta 23 04",
     "setschedule asia/kualalumpur 22 06",
+    "setschedule on",
     "setschedule off",
     "setschedule Asia/Singapore 23 07",
     "setschedule asia/jakarta 22 06"
@@ -73,7 +74,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 226
+    "line": 260
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

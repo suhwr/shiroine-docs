@@ -15,8 +15,8 @@
     "badword"
   ],
   "description": {
-    "en": "Manage badword filter list",
-    "id": "Kelola daftar kata terlarang"
+    "id": "Kelola daftar kata terlarang",
+    "en": "Manage badword filter list"
   },
   "usage": "badword",
   "examples": [
@@ -43,9 +43,9 @@
     "group_community": true
   },
   "permissions": {
-    "admin": true,
     "owner": true,
-    "subowner": true
+    "subowner": true,
+    "admin": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -74,7 +74,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 220
+    "line": 231
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

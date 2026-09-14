@@ -19,8 +19,8 @@
     "buypremium"
   ],
   "description": {
-    "en": "Buy premium using payment gateway",
-    "id": "Beli premium menggunakan payment gateway"
+    "id": "Beli premium menggunakan payment gateway",
+    "en": "Buy premium using payment gateway"
   },
   "usage": "premium",
   "examples": [
@@ -37,10 +37,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -70,7 +70,7 @@
   },
   "source": {
     "file": "internal/plugins/general",
-    "line": 657
+    "line": 658
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

@@ -19,8 +19,8 @@
     "ginfo"
   ],
   "description": {
-    "en": "View group information",
-    "id": "Lihat informasi grup"
+    "id": "Lihat informasi grup",
+    "en": "View group information"
   },
   "usage": "groupinfo",
   "examples": [
@@ -66,7 +66,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 40
+    "line": 41
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

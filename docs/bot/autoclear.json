@@ -15,8 +15,8 @@
     "autoclear"
   ],
   "description": {
-    "en": "Enable/disable automatic chat clearing every midnight",
-    "id": "Aktifkan/nonaktifkan pembersihan chat otomatis setiap tengah malam"
+    "id": "Aktifkan/nonaktifkan pembersihan chat otomatis setiap tengah malam",
+    "en": "Enable/disable automatic chat clearing every midnight"
   },
   "usage": "autoclear",
   "examples": [
@@ -61,7 +61,7 @@
   },
   "source": {
     "file": "internal/plugins/bot",
-    "line": 145
+    "line": 146
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

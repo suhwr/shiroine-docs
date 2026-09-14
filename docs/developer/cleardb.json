@@ -15,8 +15,8 @@
     "cleardb"
   ],
   "description": {
-    "en": "Clear data from specific database tables (message_daily_stats)",
-    "id": "Hapus data dari tabel database tertentu (message_daily_stats)"
+    "id": "Hapus data dari tabel database tertentu (message_daily_stats)",
+    "en": "Clear data from specific database tables (message_daily_stats)"
   },
   "usage": "cleardb",
   "examples": [
@@ -33,10 +33,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {
     "owner": true
@@ -70,5 +70,5 @@
     "file": "internal/plugins/developer",
     "line": 82
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

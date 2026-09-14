@@ -17,13 +17,13 @@
     "setgoodbye"
   ],
   "description": {
-    "en": "Set group goodbye message",
-    "id": "Atur pesan goodbye grup"
+    "id": "Atur pesan atau cover goodbye grup",
+    "en": "Set group goodbye message or cover"
   },
   "usage": "set-goodbye",
   "examples": [
-    "setgoodbye Selamat tinggal {mentions}!",
-    "setgoodbye Goodbye {mentions}!"
+    "setgoodbye Selamat tinggal {mentions}!\nsetgoodbye cover (dengan caption foto)",
+    "setgoodbye Goodbye {mentions}!\nsetgoodbye cover (with photo caption)"
   ],
   "minArgs": 0,
   "args": {},
@@ -68,7 +68,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 62
+    "line": 112
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

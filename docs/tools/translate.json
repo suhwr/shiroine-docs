@@ -19,8 +19,8 @@
     "tr"
   ],
   "description": {
-    "en": "Translate text to various languages",
-    "id": "Terjemahkan teks ke berbagai bahasa"
+    "id": "Terjemahkan teks ke berbagai bahasa",
+    "en": "Translate text to various languages"
   },
   "usage": "translate <teks>",
   "examples": [
@@ -33,11 +33,11 @@
   ],
   "minArgs": 1,
   "args": {
-    "kode_bahasa | teks": {
-      "id": "Kode bahasa target diikuti teks yang ingin diterjemahkan (contoh: 'en Halo') atau kode bahasa saja jika mereply pesan"
-    },
     "lang_code | text": {
       "en": "Target language code followed by text to translate (e.g., 'en Halo') or target language code only when replying to a message"
+    },
+    "kode_bahasa | teks": {
+      "id": "Kode bahasa target diikuti teks yang ingin diterjemahkan (contoh: 'en Halo') atau kode bahasa saja jika mereply pesan"
     }
   },
   "requireMedia": [],
@@ -48,10 +48,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true,
+    "group_community": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -83,5 +83,5 @@
     "file": "internal/plugins/tools",
     "line": 113
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

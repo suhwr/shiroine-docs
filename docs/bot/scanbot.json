@@ -15,8 +15,8 @@
     "scanbot"
   ],
   "description": {
-    "en": "Scan active bots that are members of this group",
-    "id": "Scan bot aktif yang ada di grup ini"
+    "id": "Scan bot aktif yang ada di grup ini",
+    "en": "Scan active bots that are members of this group"
   },
   "usage": "scanbot",
   "examples": [
@@ -65,7 +65,7 @@
   },
   "source": {
     "file": "internal/plugins/bot",
-    "line": 228
+    "line": 230
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

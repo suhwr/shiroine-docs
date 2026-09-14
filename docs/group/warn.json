@@ -15,8 +15,8 @@
     "warn"
   ],
   "description": {
-    "en": "Issue a warning to a member",
-    "id": "Beri peringatan kepada member"
+    "id": "Beri peringatan kepada member",
+    "en": "Issue a warning to a member"
   },
   "usage": "warn",
   "examples": [
@@ -67,7 +67,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 263
+    "line": 265
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

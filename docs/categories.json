@@ -1,6 +1,18 @@
 {
   "categories": [
     {
+      "id": "Minigame",
+      "name": "Minigame",
+      "description": "Minigame commands.",
+      "icon": "box"
+    },
+    {
+      "id": "Tools",
+      "name": "Tools",
+      "description": "Tools commands.",
+      "icon": "box"
+    },
+    {
       "id": "ai",
       "name": "AI & Chatbots",
       "description": "Interact with artificial intelligence assistants, image generation, and chat tools.",
@@ -47,6 +59,12 @@
       "name": "Group Chat Settings",
       "description": "Settings and utilities for WhatsApp groups.",
       "icon": "users"
+    },
+    {
+      "id": "media",
+      "name": "Media",
+      "description": "Media commands.",
+      "icon": "box"
     },
     {
       "id": "owner",

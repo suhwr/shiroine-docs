@@ -17,8 +17,8 @@
     "previewgoodbye"
   ],
   "description": {
-    "en": "Simulate group goodbye message using your data as example",
-    "id": "Simulasi pesan goodbye grup dengan data kamu sebagai contoh"
+    "id": "Simulasi pesan goodbye grup dengan data kamu sebagai contoh",
+    "en": "Simulate group goodbye message using your data as example"
   },
   "usage": "simulategoodbye",
   "examples": [
@@ -36,9 +36,9 @@
     "group_community": true
   },
   "permissions": {
+    "subowner": true,
     "admin": true,
-    "owner": true,
-    "subowner": true
+    "owner": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -67,7 +67,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 179
+    "line": 180
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

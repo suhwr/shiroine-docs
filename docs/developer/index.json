@@ -169,8 +169,8 @@
       "name": "hardban",
       "description": "Ban user globally (permanent)",
       "permissions": {
-        "owner": true,
-        "subowner": true
+        "subowner": true,
+        "owner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -195,8 +195,8 @@
       "name": "hardbanlist",
       "description": "Show global ban list",
       "permissions": {
-        "owner": true,
-        "subowner": true
+        "subowner": true,
+        "owner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -208,8 +208,8 @@
       "name": "hardunban",
       "description": "Unban user from global ban list",
       "permissions": {
-        "owner": true,
-        "subowner": true
+        "subowner": true,
+        "owner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -329,6 +329,17 @@
       "premiumOnly": "",
       "tags": [
         "swap"
+      ]
+    },
+    {
+      "name": "testwg",
+      "description": "Test welcome or goodbye generator directly",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "testwg"
       ]
     },
     {

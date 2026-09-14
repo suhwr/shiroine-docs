@@ -1,0 +1,31 @@
+{
+  "commands": [
+    {
+      "name": "fakethumbnail",
+      "description": "Mengirim media asli namun menipu tampilannya dengan thumbnail dari media lain",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "fakethumbnail"
+      ]
+    },
+    {
+      "name": "fotolive",
+      "description": "Mengubah video tunggal atau paduan gambar+video menjadi Motion Photo",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "fotolive"
+      ]
+    },
+    {
+      "name": "toptv",
+      "description": "Mengubah video menjadi Video Note bulat (PTV)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "toptv"
+      ]
+    }
+  ]
+}

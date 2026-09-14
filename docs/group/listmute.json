@@ -17,8 +17,8 @@
     "mutelist"
   ],
   "description": {
-    "en": "View list of muted users",
-    "id": "Lihat daftar user yang dimute"
+    "id": "Lihat daftar user yang dimute",
+    "en": "View list of muted users"
   },
   "usage": "listmute",
   "examples": [
@@ -68,7 +68,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 200
+    "line": 247
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

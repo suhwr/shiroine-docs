@@ -15,8 +15,8 @@
     "getexif"
   ],
   "description": {
-    "en": "Get EXIF metadata from the quoted/replied sticker",
-    "id": "Ambil metadata EXIF dari stiker yang di-quote/reply"
+    "id": "Ambil metadata EXIF dari stiker yang di-quote/reply",
+    "en": "Get EXIF metadata from the quoted/replied sticker"
   },
   "usage": "getexif",
   "examples": [
@@ -33,10 +33,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true,
+    "group_community": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -68,5 +68,5 @@
     "file": "internal/plugins/tools",
     "line": 96
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

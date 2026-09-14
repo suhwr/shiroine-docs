@@ -17,8 +17,8 @@
     "clearwarn"
   ],
   "description": {
-    "en": "Reset member's warnings",
-    "id": "Reset peringatan member"
+    "id": "Reset peringatan member",
+    "en": "Reset member's warnings"
   },
   "usage": "resetwarn",
   "examples": [
@@ -32,8 +32,8 @@
     "group_community"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true
+    "group_community": true,
+    "group": true
   },
   "permissions": {
     "admin": true,
@@ -67,7 +67,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 286
+    "line": 288
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

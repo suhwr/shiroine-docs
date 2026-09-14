@@ -17,8 +17,8 @@
     "ac"
   ],
   "description": {
-    "en": "Enable/disable auto answer call (pakde melawan)",
-    "id": "Aktifkan/nonaktifkan jawab panggilan otomatis (pakde melawan)"
+    "id": "Aktifkan/nonaktifkan jawab panggilan otomatis (pakde melawan)",
+    "en": "Enable/disable auto answer call (pakde melawan)"
   },
   "usage": "answercall",
   "examples": [
@@ -63,7 +63,7 @@
   },
   "source": {
     "file": "internal/plugins/bot",
-    "line": 69
+    "line": 70
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

@@ -17,8 +17,8 @@
     "broadcastgroup"
   ],
   "description": {
-    "en": "Broadcast message to Community/Group",
-    "id": "Broadcast pesan ke Community/Group"
+    "id": "Broadcast pesan ke Community/Group",
+    "en": "Broadcast message to Community/Group"
   },
   "usage": "bcgroup",
   "examples": [
@@ -35,10 +35,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
     "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true
   },
   "permissions": {
     "owner": true
@@ -72,5 +72,5 @@
     "file": "internal/plugins/developer",
     "line": 118
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

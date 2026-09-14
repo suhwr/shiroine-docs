@@ -19,8 +19,8 @@
     "setppbot"
   ],
   "description": {
-    "en": "Set bot profile picture",
-    "id": "Set foto profil bot"
+    "id": "Set foto profil bot",
+    "en": "Set bot profile picture"
   },
   "usage": "setpp",
   "examples": [
@@ -42,10 +42,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
     "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true
   },
   "permissions": {
     "bot": true
@@ -79,5 +79,5 @@
     "file": "internal/plugins/bot",
     "line": 65
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

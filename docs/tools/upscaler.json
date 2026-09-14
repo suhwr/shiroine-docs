@@ -21,15 +21,15 @@
     "hd"
   ],
   "description": {
-    "en": "Enhance image quality using AI",
-    "id": "Tingkatkan kualitas gambar menggunakan AI"
+    "id": "Tingkatkan kualitas gambar menggunakan AI",
+    "en": "Enhance image quality using AI"
   },
   "usage": "upscaler",
   "examples": [
     "upscaler",
-    "upscaler pixelcut",
+    "upscaler x4 pixelcut",
     "upscaler aiease-anime",
-    "upscaler esrgan"
+    "upscaler esrgan x4"
   ],
   "minArgs": 0,
   "args": {},
@@ -44,10 +44,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
     "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -77,7 +77,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 208
+    "line": 240
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

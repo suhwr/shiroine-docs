@@ -15,8 +15,8 @@
     "join"
   ],
   "description": {
-    "en": "Join WhatsApp group via invite link",
-    "id": "Join ke grup WhatsApp via link invite"
+    "id": "Join ke grup WhatsApp via link invite",
+    "en": "Join WhatsApp group via invite link"
   },
   "usage": "join <teks>",
   "examples": [
@@ -33,10 +33,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
     "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -66,7 +66,7 @@
   },
   "source": {
     "file": "internal/plugins/general",
-    "line": 197
+    "line": 201
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

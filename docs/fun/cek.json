@@ -17,8 +17,8 @@
     "check"
   ],
   "description": {
-    "en": "Check a certain category percentage on someone",
-    "id": "Cek persentase kategori tertentu pada seseorang"
+    "id": "Cek persentase kategori tertentu pada seseorang",
+    "en": "Check a certain category percentage on someone"
   },
   "usage": "cek",
   "examples": [
@@ -70,7 +70,7 @@
   },
   "source": {
     "file": "internal/plugins/fun",
-    "line": 186
+    "line": 151
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

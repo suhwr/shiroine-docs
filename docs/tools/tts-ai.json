@@ -19,8 +19,8 @@
     "ttsai"
   ],
   "description": {
-    "en": "Convert text to natural AI voice (AI Text-to-Speech)",
-    "id": "Konversi teks ke suara AI yang lebih natural (Text-to-Speech AI)"
+    "id": "Konversi teks ke suara AI yang lebih natural (Text-to-Speech AI)",
+    "en": "Convert text to natural AI voice (AI Text-to-Speech)"
   },
   "usage": "tts-ai <teks>",
   "examples": [
@@ -41,10 +41,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true,
+    "group_community": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -76,5 +76,5 @@
     "file": "internal/plugins/tools",
     "line": 72
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

@@ -15,8 +15,8 @@
     "color"
   ],
   "description": {
-    "en": "Adjust image colors using flags or presets. Use 'color list' to see presets.",
-    "id": "Sesuaikan warna gambar dengan flag atau preset. Gunakan 'color list' untuk melihat preset."
+    "id": "Sesuaikan warna gambar dengan flag atau preset. Gunakan 'color list' untuk melihat preset.",
+    "en": "Adjust image colors using flags or presets. Use 'color list' to see presets."
   },
   "usage": "color",
   "examples": [
@@ -37,10 +37,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -70,7 +70,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 795
+    "line": 826
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

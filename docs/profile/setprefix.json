@@ -17,8 +17,8 @@
     "set-prefix"
   ],
   "description": {
-    "en": "Set personal prefix (private chat only)",
-    "id": "Mengatur prefix pribadi (hanya untuk chat private)"
+    "id": "Mengatur prefix pribadi (hanya untuk chat private)",
+    "en": "Set personal prefix (private chat only)"
   },
   "usage": "setprefix",
   "examples": [
@@ -63,7 +63,7 @@
   },
   "source": {
     "file": "internal/plugins/profile",
-    "line": 48
+    "line": 49
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

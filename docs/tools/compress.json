@@ -15,8 +15,8 @@
     "compress"
   ],
   "description": {
-    "en": "Compress image with given quality (default 80)",
-    "id": "Kompres gambar dengan kualitas tertentu (default 80)"
+    "id": "Kompres gambar dengan kualitas tertentu (default 80)",
+    "en": "Compress image with given quality (default 80)"
   },
   "usage": "compress",
   "examples": [
@@ -68,7 +68,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 783
+    "line": 814
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

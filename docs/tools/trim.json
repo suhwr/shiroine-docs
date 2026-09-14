@@ -15,8 +15,8 @@
     "trim"
   ],
   "description": {
-    "en": "Trim video/audio by time range",
-    "id": "Potong video/audio berdasarkan waktu"
+    "id": "Potong video/audio berdasarkan waktu",
+    "en": "Trim video/audio by time range"
   },
   "usage": "trim",
   "examples": [
@@ -38,10 +38,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true,
+    "group_community": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -71,7 +71,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 830
+    "line": 861
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

@@ -15,8 +15,8 @@
     "selfmode"
   ],
   "description": {
-    "en": "Toggle self mode (bot only accepts commands from owner)",
-    "id": "Toggle self mode (bot hanya menerima perintah dari owner)"
+    "id": "Toggle self mode (bot hanya menerima perintah dari owner)",
+    "en": "Toggle self mode (bot only accepts commands from owner)"
   },
   "usage": "selfmode",
   "examples": [
@@ -34,10 +34,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
     "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true
   },
   "permissions": {
     "bot": true
@@ -69,7 +69,7 @@
   },
   "source": {
     "file": "internal/plugins/bot",
-    "line": 71
+    "line": 72
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

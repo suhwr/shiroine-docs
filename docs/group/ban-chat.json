@@ -17,8 +17,8 @@
     "banchat"
   ],
   "description": {
-    "en": "Ban this group from all bots you own",
-    "id": "Ban grup ini dari semua bot yang kamu miliki"
+    "id": "Ban grup ini dari semua bot yang kamu miliki",
+    "en": "Ban this group from all bots you own"
   },
   "usage": "ban-chat",
   "examples": [
@@ -66,7 +66,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 78
+    "line": 65
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

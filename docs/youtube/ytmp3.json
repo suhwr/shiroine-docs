@@ -15,8 +15,8 @@
     "ytmp3"
   ],
   "description": {
-    "en": "Search and download songs from YouTube as MP3",
-    "id": "Cari dan unduh lagu dari YouTube sebagai MP3"
+    "id": "Cari dan unduh lagu dari YouTube sebagai MP3",
+    "en": "Search and download songs from YouTube as MP3"
   },
   "usage": "ytmp3",
   "examples": [
@@ -32,10 +32,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -65,7 +65,7 @@
   },
   "source": {
     "file": "internal/plugins/youtube",
-    "line": 539
+    "line": 568
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

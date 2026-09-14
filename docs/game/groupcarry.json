@@ -15,8 +15,8 @@
     "groupcarry"
   ],
   "description": {
-    "en": "Detect carry player in group",
-    "id": "Deteksi carry di grup"
+    "id": "Deteksi carry di grup",
+    "en": "Detect carry player in group"
   },
   "usage": "groupcarry",
   "examples": [
@@ -61,7 +61,7 @@
   },
   "source": {
     "file": "internal/plugins/game",
-    "line": 680
+    "line": 715
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

@@ -17,8 +17,8 @@
     "toanimev2"
   ],
   "description": {
-    "en": "Convert photo to anime v2 style using AI",
-    "id": "Ubah foto menjadi gaya anime v2 menggunakan AI"
+    "id": "Ubah foto menjadi gaya anime v2 menggunakan AI",
+    "en": "Convert photo to anime v2 style using AI"
   },
   "usage": "jadianimev2",
   "examples": [
@@ -38,10 +38,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -73,5 +73,5 @@
     "file": "internal/plugins/ai",
     "line": 70
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

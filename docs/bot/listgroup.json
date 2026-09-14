@@ -19,8 +19,8 @@
     "grouplist"
   ],
   "description": {
-    "en": "Show bot's group list",
-    "id": "Tampilkan daftar grup bot"
+    "id": "Tampilkan daftar grup bot",
+    "en": "Show bot's group list"
   },
   "usage": "listgroup",
   "examples": [
@@ -36,10 +36,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
     "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true
   },
   "permissions": {
     "bot": true
@@ -73,5 +73,5 @@
     "file": "internal/plugins/bot",
     "line": 86
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

@@ -15,8 +15,8 @@
     "daily"
   ],
   "description": {
-    "en": "Claim daily rewards based on your level",
-    "id": "Claim reward harian berdasarkan level"
+    "id": "Claim reward harian berdasarkan level",
+    "en": "Claim daily rewards based on your level"
   },
   "usage": "daily",
   "examples": [
@@ -32,10 +32,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -65,7 +65,7 @@
   },
   "source": {
     "file": "internal/plugins/general",
-    "line": 189
+    "line": 193
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

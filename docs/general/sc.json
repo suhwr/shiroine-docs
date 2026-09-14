@@ -17,8 +17,8 @@
     "script"
   ],
   "description": {
-    "en": "Get the link to this bot's script",
-    "id": "Dapatkan link script bot ini"
+    "id": "Dapatkan link script bot ini",
+    "en": "Get the link to this bot's script"
   },
   "usage": "sc",
   "examples": [
@@ -34,10 +34,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -69,5 +69,5 @@
     "file": "internal/plugins/general",
     "line": 24
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

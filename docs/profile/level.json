@@ -15,8 +15,8 @@
     "level"
   ],
   "description": {
-    "en": "View your level and XP",
-    "id": "Lihat level dan XP kamu"
+    "id": "Lihat level dan XP kamu",
+    "en": "View your level and XP"
   },
   "usage": "level",
   "examples": [
@@ -32,10 +32,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
     "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -65,7 +65,7 @@
   },
   "source": {
     "file": "internal/plugins/profile",
-    "line": 261
+    "line": 284
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

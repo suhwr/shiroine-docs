@@ -17,8 +17,8 @@
     "coin"
   ],
   "description": {
-    "en": "Flip a coin and guess the outcome",
-    "id": "Lempar koin, tebak hasilnya"
+    "id": "Lempar koin, tebak hasilnya",
+    "en": "Flip a coin and guess the outcome"
   },
   "usage": "koin <teks>",
   "examples": [
@@ -35,10 +35,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -70,5 +70,5 @@
     "file": "internal/plugins/fun",
     "line": 132
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

@@ -15,8 +15,8 @@
     "sider"
   ],
   "description": {
-    "en": "Manage inactive members (siders) in group",
-    "id": "Manajemen member yang tidak aktif (sider) di grup"
+    "id": "Manajemen member yang tidak aktif (sider) di grup",
+    "en": "Manage inactive members (siders) in group"
   },
   "usage": "sider",
   "examples": [
@@ -30,8 +30,8 @@
     "group_community"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true
+    "group_community": true,
+    "group": true
   },
   "permissions": {
     "admin": true,
@@ -65,7 +65,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 461
+    "line": 494
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

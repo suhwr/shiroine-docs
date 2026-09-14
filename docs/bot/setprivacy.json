@@ -15,8 +15,8 @@
     "setprivacy"
   ],
   "description": {
-    "en": "Change WhatsApp privacy settings",
-    "id": "Ubah privacy setting WhatsApp"
+    "id": "Ubah privacy setting WhatsApp",
+    "en": "Change WhatsApp privacy settings"
   },
   "usage": "setprivacy <teks>",
   "examples": [
@@ -65,5 +65,5 @@
     "file": "internal/plugins/bot",
     "line": 138
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

@@ -15,8 +15,8 @@
     "tebakgambar"
   ],
   "description": {
-    "en": "Start picture guessing game",
-    "id": "Mulai game tebak gambar"
+    "id": "Mulai game tebak gambar",
+    "en": "Start picture guessing game"
   },
   "usage": "tebakgambar",
   "examples": [
@@ -61,7 +61,7 @@
   },
   "source": {
     "file": "internal/plugins/game",
-    "line": 242
+    "line": 243
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

@@ -17,8 +17,8 @@
     "text2speech"
   ],
   "description": {
-    "en": "Convert text to speech (Text-to-Speech)",
-    "id": "Konversi teks menjadi suara (Text-to-Speech)"
+    "id": "Konversi teks menjadi suara (Text-to-Speech)",
+    "en": "Convert text to speech (Text-to-Speech)"
   },
   "usage": "tts <teks>",
   "examples": [
@@ -45,10 +45,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true,
+    "group_community": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -80,5 +80,5 @@
     "file": "internal/plugins/tools",
     "line": 67
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

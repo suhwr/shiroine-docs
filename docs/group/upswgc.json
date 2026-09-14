@@ -17,8 +17,8 @@
     "upstatusgrup"
   ],
   "description": {
-    "en": "Upload media to group status",
-    "id": "Upload media ke status grup"
+    "id": "Upload media ke status grup",
+    "en": "Upload media to group status"
   },
   "usage": "upswgc",
   "examples": [
@@ -68,7 +68,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 160
+    "line": 90
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

@@ -17,8 +17,8 @@
     "mute-member"
   ],
   "description": {
-    "en": "Mute a specific user in group",
-    "id": "Mute user spesifik di grup"
+    "id": "Mute user spesifik di grup",
+    "en": "Mute a specific user in group"
   },
   "usage": "mutemember",
   "examples": [
@@ -67,7 +67,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 176
+    "line": 223
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

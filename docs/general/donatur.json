@@ -19,8 +19,8 @@
     "donaturs"
   ],
   "description": {
-    "en": "View list of all donaturs & total donations",
-    "id": "Lihat daftar semua donatur & total donasi"
+    "id": "Lihat daftar semua donatur & total donasi",
+    "en": "View list of all donaturs & total donations"
   },
   "usage": "donatur",
   "examples": [
@@ -36,10 +36,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -69,7 +69,7 @@
   },
   "source": {
     "file": "internal/plugins/developer",
-    "line": 261
+    "line": 264
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

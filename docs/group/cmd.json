@@ -15,8 +15,8 @@
     "cmd"
   ],
   "description": {
-    "en": "Disable or enable a command in this group",
-    "id": "Nonaktifkan atau aktifkan command di grup ini"
+    "id": "Nonaktifkan atau aktifkan command di grup ini",
+    "en": "Disable or enable a command in this group"
   },
   "usage": "cmd <teks>",
   "examples": [
@@ -66,7 +66,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 146
+    "line": 147
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

@@ -17,8 +17,8 @@
     "setbio"
   ],
   "description": {
-    "en": "Set profile bio/about",
-    "id": "Mengatur bio/about profil"
+    "id": "Mengatur bio/about profil",
+    "en": "Set profile bio/about"
   },
   "usage": "setbio",
   "examples": [
@@ -36,10 +36,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -69,7 +69,7 @@
   },
   "source": {
     "file": "internal/plugins/profile",
-    "line": 59
+    "line": 60
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

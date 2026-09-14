@@ -15,8 +15,8 @@
     "about"
   ],
   "description": {
-    "en": "Information about the bot",
-    "id": "Informasi tentang bot"
+    "id": "Informasi tentang bot",
+    "en": "Information about the bot"
   },
   "usage": "about",
   "examples": [
@@ -32,10 +32,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
     "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -67,5 +67,5 @@
     "file": "internal/plugins/general",
     "line": 26
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

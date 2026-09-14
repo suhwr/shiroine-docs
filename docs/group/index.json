@@ -4,9 +4,9 @@
       "name": "add",
       "description": "Add member to group",
       "permissions": {
-        "admin": true,
         "owner": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -59,9 +59,9 @@
       "name": "antibug",
       "description": "Configure anti bug/virtex",
       "permissions": {
-        "admin": true,
         "owner": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -124,9 +124,9 @@
       "name": "antinsfwmedia",
       "description": "Enable automatic NSFW media filter in group",
       "permissions": {
-        "admin": true,
         "owner": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -135,16 +135,16 @@
       ]
     },
     {
-      "name": "antispamsticker",
-      "description": "Configure anti spam sticker",
+      "name": "antispam",
+      "description": "Configure anti spam",
       "permissions": {
+        "subowner": true,
         "admin": true,
-        "owner": true,
-        "subowner": true
+        "owner": true
       },
       "premiumOnly": "",
       "tags": [
-        "antispamsticker"
+        "antispam"
       ]
     },
     {
@@ -164,9 +164,9 @@
       "name": "antitagsw",
       "description": "Configure anti tag status",
       "permissions": {
-        "admin": true,
         "owner": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -265,9 +265,9 @@
       "name": "close",
       "description": "Close group (only admins can chat)",
       "permissions": {
-        "admin": true,
         "owner": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -279,9 +279,9 @@
       "name": "cmd",
       "description": "Disable or enable a command in this group",
       "permissions": {
+        "subowner": true,
         "admin": true,
-        "owner": true,
-        "subowner": true
+        "owner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -414,6 +414,15 @@
       ]
     },
     {
+      "name": "jockey",
+      "description": "Music bot/jockey for WhatsApp group calls.",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "jockey"
+      ]
+    },
+    {
       "name": "joinreq",
       "description": "Manage WhatsApp group join requests",
       "permissions": {
@@ -431,24 +440,27 @@
       "description": "Remove bot from group",
       "permissions": {
         "admin": true,
-        "bot": true,
-        "hasbot": true,
         "owner": true,
-        "subowner": true
+        "subowner": true,
+        "bot": true,
+        "hasbot": true
       },
       "premiumOnly": "",
       "tags": [
         "leave-group",
-        "leavegc"
+        "leavegc",
+        "leavebot",
+        "leave-bot",
+        "leave"
       ]
     },
     {
       "name": "left",
       "description": "Configure left notification",
       "permissions": {
-        "admin": true,
         "owner": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -459,9 +471,9 @@
       "name": "linkgc",
       "description": "Get group invite link",
       "permissions": {
-        "admin": true,
         "owner": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -587,6 +599,15 @@
       ]
     },
     {
+      "name": "reminder",
+      "description": "Group reminder management",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "reminder"
+      ]
+    },
+    {
       "name": "remove",
       "description": "Remove member from group",
       "permissions": {
@@ -630,7 +651,7 @@
     },
     {
       "name": "set-goodbye",
-      "description": "Set group goodbye message",
+      "description": "Set group goodbye message or cover",
       "permissions": {
         "admin": true,
         "owner": true,
@@ -656,11 +677,11 @@
     },
     {
       "name": "set-welcome",
-      "description": "Set group welcome message",
+      "description": "Set group welcome message or cover",
       "permissions": {
-        "admin": true,
         "owner": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -717,9 +738,9 @@
       "name": "setsubject",
       "description": "Change group name",
       "permissions": {
-        "admin": true,
         "owner": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -730,9 +751,9 @@
       "name": "settimezone",
       "description": "Set group timezone for listaktif, schedule, and logs",
       "permissions": {
-        "admin": true,
         "owner": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -770,9 +791,9 @@
       "name": "simulatewelcome",
       "description": "Simulate group welcome message using your data as example",
       "permissions": {
-        "admin": true,
         "owner": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -784,9 +805,9 @@
       "name": "sync-group",
       "description": "Delete group cache to refresh with new data from WhatsApp API",
       "permissions": {
+        "subowner": true,
         "admin": true,
-        "owner": true,
-        "subowner": true
+        "owner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -820,6 +841,19 @@
         "top-active",
         "topaktif",
         "topactive"
+      ]
+    },
+    {
+      "name": "trustbot",
+      "description": "Authorize bot to become group admin safely",
+      "permissions": {
+        "subowner": true,
+        "admin": true,
+        "owner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "trustbot"
       ]
     },
     {

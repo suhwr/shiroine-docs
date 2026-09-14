@@ -17,8 +17,8 @@
     "ytvideo"
   ],
   "description": {
-    "en": "Download video from YouTube",
-    "id": "Download video dari YouTube"
+    "id": "Download video dari YouTube",
+    "en": "Download video from YouTube"
   },
   "usage": "ytmp4",
   "examples": [
@@ -67,7 +67,7 @@
   },
   "source": {
     "file": "internal/plugins/youtube",
-    "line": 281
+    "line": 284
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

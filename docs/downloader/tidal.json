@@ -15,8 +15,8 @@
     "tidal"
   ],
   "description": {
-    "en": "Search or download track, album, or video from Tidal (HiFi quality)",
-    "id": "Cari atau download track, album, atau video dari Tidal (HiFi quality)"
+    "id": "Cari atau download track, album, atau video dari Tidal (HiFi quality)",
+    "en": "Search or download track, album, or video from Tidal (HiFi quality)"
   },
   "usage": "tidal",
   "examples": [
@@ -35,10 +35,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -70,5 +70,5 @@
     "file": "internal/plugins/downloader",
     "line": 309
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

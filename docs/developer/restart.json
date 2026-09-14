@@ -15,8 +15,8 @@
     "restart"
   ],
   "description": {
-    "en": "Restart application via PM2",
-    "id": "Restart aplikasi via PM2"
+    "id": "Restart aplikasi via PM2",
+    "en": "Restart application via PM2"
   },
   "usage": "restart",
   "examples": [
@@ -32,10 +32,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true,
+    "group_community": true
   },
   "permissions": {
     "owner": true
@@ -69,5 +69,5 @@
     "file": "internal/plugins/developer",
     "line": 163
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

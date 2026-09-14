@@ -15,8 +15,8 @@
     "groupmvp"
   ],
   "description": {
-    "en": "View group MVP",
-    "id": "Lihat MVP grup"
+    "id": "Lihat MVP grup",
+    "en": "View group MVP"
   },
   "usage": "groupmvp",
   "examples": [
@@ -61,7 +61,7 @@
   },
   "source": {
     "file": "internal/plugins/game",
-    "line": 647
+    "line": 682
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

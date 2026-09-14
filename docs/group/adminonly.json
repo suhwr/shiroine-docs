@@ -17,8 +17,8 @@
     "onlyadmin"
   ],
   "description": {
-    "en": "Make the bot only respond to commands from group admins",
-    "id": "Membuat bot hanya merespon perintah dari admin grup"
+    "id": "Membuat bot hanya merespon perintah dari admin grup",
+    "en": "Make the bot only respond to commands from group admins"
   },
   "usage": "adminonly",
   "examples": [
@@ -69,7 +69,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 85
+    "line": 86
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

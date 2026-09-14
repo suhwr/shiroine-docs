@@ -17,8 +17,8 @@
     "getprivacy"
   ],
   "description": {
-    "en": "View all WhatsApp privacy settings",
-    "id": "Lihat semua privacy setting WhatsApp"
+    "id": "Lihat semua privacy setting WhatsApp",
+    "en": "View all WhatsApp privacy settings"
   },
   "usage": "getprivacysetting",
   "examples": [
@@ -65,5 +65,5 @@
     "file": "internal/plugins/bot",
     "line": 159
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

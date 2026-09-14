@@ -21,8 +21,8 @@
     "statsgame"
   ],
   "description": {
-    "en": "View personal game statistics",
-    "id": "Lihat statistik game personal"
+    "id": "Lihat statistik game personal",
+    "en": "View personal game statistics"
   },
   "usage": "gamestats",
   "examples": [
@@ -38,10 +38,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
     "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -71,7 +71,7 @@
   },
   "source": {
     "file": "internal/plugins/game",
-    "line": 155
+    "line": 159
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

@@ -15,8 +15,8 @@
     "setsubject"
   ],
   "description": {
-    "en": "Change group name",
-    "id": "Ubah nama grup"
+    "id": "Ubah nama grup",
+    "en": "Change group name"
   },
   "usage": "setsubject",
   "examples": [
@@ -68,5 +68,5 @@
     "file": "internal/plugins/group",
     "line": 88
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

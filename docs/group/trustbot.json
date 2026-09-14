@@ -1,57 +1,51 @@
 {
-  "name": "system",
+  "name": "trustbot",
   "commands": [
-    "test",
-    "tes",
-    "sysinfo",
-    "runtime",
-    "system"
+    "trustbot"
   ],
   "aliases": [],
   "display": [
-    "system"
+    "trustbot"
   ],
-  "category": "bot",
+  "category": "group",
   "categories": [
-    "bot"
+    "group"
   ],
   "tags": [
-    "test",
-    "tes",
-    "sysinfo",
-    "runtime",
-    "system"
+    "trustbot"
   ],
   "description": {
-    "en": "Show system and Go runtime info",
-    "id": "Tampilkan informasi sistem dan Go runtime"
+    "en": "Authorize bot to become group admin safely",
+    "id": "Otorisasi bot untuk menjadi admin grup dengan aman"
   },
-  "usage": "system",
+  "usage": "trustbot",
   "examples": [
-    "sysinfo"
+    "trustbot @bot",
+    "trustbot (reply ke bot)",
+    "trustbot (reply to bot)"
   ],
   "minArgs": 0,
   "args": {},
   "requireMedia": [],
   "chatPermissions": [
-    "private",
     "group",
-    "group_community",
-    "newsletter"
+    "group_community"
   ],
   "chatTypes": {
-    "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "group": true
   },
-  "permissions": {},
+  "permissions": {
+    "subowner": true,
+    "admin": true,
+    "owner": true
+  },
   "premiumOnly": "",
   "nsfwOnly": false,
   "level": 0,
   "limitCost": 0,
   "delaySeconds": 0,
-  "ignoreQueue": true,
+  "ignoreQueue": false,
   "disableProcessLimit": false,
   "specialLimit": false,
   "sendsToPrivate": false,
@@ -72,8 +66,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/bot",
-    "line": 45
+    "file": "internal/plugins/group",
+    "line": 180
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

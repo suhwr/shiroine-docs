@@ -17,8 +17,8 @@
     "antinsfw"
   ],
   "description": {
-    "en": "Enable automatic NSFW media filter in group",
-    "id": "Aktifkan filter media NSFW otomatis di grup"
+    "id": "Aktifkan filter media NSFW otomatis di grup",
+    "en": "Enable automatic NSFW media filter in group"
   },
   "usage": "antinsfwmedia",
   "examples": [
@@ -34,8 +34,8 @@
     "group_community"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true
+    "group_community": true,
+    "group": true
   },
   "permissions": {
     "admin": true,
@@ -71,5 +71,5 @@
     "file": "internal/plugins/group",
     "line": 25
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

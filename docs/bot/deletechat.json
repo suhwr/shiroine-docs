@@ -15,8 +15,8 @@
     "deletechat"
   ],
   "description": {
-    "en": "Delete all chats from the chat list",
-    "id": "Menghapus seluruh chat dari daftar percakapan"
+    "id": "Menghapus seluruh chat dari daftar percakapan",
+    "en": "Delete all chats from the chat list"
   },
   "usage": "deletechat",
   "examples": [
@@ -61,7 +61,7 @@
   },
   "source": {
     "file": "internal/plugins/bot",
-    "line": 129
+    "line": 130
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

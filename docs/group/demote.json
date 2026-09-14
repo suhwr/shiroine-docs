@@ -15,8 +15,8 @@
     "demote"
   ],
   "description": {
-    "en": "Demote admin to member",
-    "id": "Turunkan admin menjadi member"
+    "id": "Turunkan admin menjadi member",
+    "en": "Demote admin to member"
   },
   "usage": "demote",
   "examples": [
@@ -68,5 +68,5 @@
     "file": "internal/plugins/group",
     "line": 113
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

@@ -19,8 +19,8 @@
     "cari"
   ],
   "description": {
-    "en": "Search for information using Google",
-    "id": "Cari informasi menggunakan Google"
+    "id": "Cari informasi menggunakan Google",
+    "en": "Search for information using Google"
   },
   "usage": "google <teks>",
   "examples": [
@@ -39,10 +39,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -72,7 +72,7 @@
   },
   "source": {
     "file": "internal/plugins/search",
-    "line": 79
+    "line": 83
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

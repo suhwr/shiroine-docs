@@ -15,8 +15,8 @@
     "autorespon"
   ],
   "description": {
-    "en": "Manage group auto-response system",
-    "id": "Kelola sistem autorespon grup"
+    "id": "Kelola sistem autorespon grup",
+    "en": "Manage group auto-response system"
   },
   "usage": "autorespon",
   "examples": [
@@ -74,7 +74,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 348
+    "line": 358
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

@@ -15,8 +15,8 @@
     "getidch"
   ],
   "description": {
-    "en": "Get Channel JID from WhatsApp Channel URL",
-    "id": "Dapatkan Channel JID dari URL WhatsApp Channel"
+    "id": "Dapatkan Channel JID dari URL WhatsApp Channel",
+    "en": "Get Channel JID from WhatsApp Channel URL"
   },
   "usage": "getidch",
   "examples": [
@@ -32,10 +32,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -67,5 +67,5 @@
     "file": "internal/plugins/tools",
     "line": 41
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

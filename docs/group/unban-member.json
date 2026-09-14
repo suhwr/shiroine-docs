@@ -17,8 +17,8 @@
     "unbanmember"
   ],
   "description": {
-    "en": "Unban member to use bot in this group",
-    "id": "Unban member agar bisa menggunakan bot di grup ini"
+    "id": "Unban member agar bisa menggunakan bot di grup ini",
+    "en": "Unban member to use bot in this group"
   },
   "usage": "unban-member",
   "examples": [
@@ -68,7 +68,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 256
+    "line": 273
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }
