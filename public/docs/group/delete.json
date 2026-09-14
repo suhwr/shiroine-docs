@@ -19,8 +19,8 @@
     "d"
   ],
   "description": {
-    "en": "Delete replied message",
-    "id": "Hapus pesan yang di-reply"
+    "id": "Hapus pesan yang di-reply",
+    "en": "Delete replied message"
   },
   "usage": "delete",
   "examples": [
@@ -40,9 +40,9 @@
     "group_community"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
-    "group_community": true,
-    "private": true
+    "group_community": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -74,5 +74,5 @@
     "file": "internal/plugins/group",
     "line": 147
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

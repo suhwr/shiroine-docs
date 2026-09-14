@@ -47,7 +47,7 @@
     },
     {
       "name": "bot",
-      "description": "Simple bot plugin that replies text",
+      "description": "Responds to bot greeting with latency",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -56,11 +56,13 @@
     },
     {
       "name": "botinfo",
-      "description": "Display bot information",
+      "description": "Display bot info, settings, and statistics (checkbot omits statistics)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "botinfo"
+        "botinfo",
+        "cekbot",
+        "checkbot"
       ]
     },
     {
@@ -86,16 +88,6 @@
       "tags": [
         "botsettings",
         "settings"
-      ]
-    },
-    {
-      "name": "cekbot",
-      "description": "Check whether the target is an active bot in the Shiroine ecosystem",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "cekbot",
-        "checkbot"
       ]
     },
     {
@@ -130,6 +122,18 @@
       "tags": [
         "getprivacysetting",
         "getprivacy"
+      ]
+    },
+    {
+      "name": "gostats",
+      "description": "Display in-depth status of Go runtime & system memory usage",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "gostats",
+        "runtime",
+        "stats",
+        "goruntime"
       ]
     },
     {
@@ -304,19 +308,6 @@
       ]
     },
     {
-      "name": "system",
-      "description": "Show system and Go runtime info",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "test",
-        "tes",
-        "sysinfo",
-        "runtime",
-        "system"
-      ]
-    },
-    {
       "name": "track-bot",
       "description": "View jadibot/logout logs from last 30 days",
       "permissions": {},
@@ -335,17 +326,6 @@
       "tags": [
         "upsw",
         "upstatus"
-      ]
-    },
-    {
-      "name": "upsw2",
-      "description": "Upload media to WhatsApp status with group tag option",
-      "permissions": {
-        "bot": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "upsw2"
       ]
     }
   ]

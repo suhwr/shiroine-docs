@@ -1,48 +1,43 @@
 {
-  "name": "base64",
+  "name": "Galaga",
   "commands": [
-    "base64"
+    "galaga"
   ],
   "aliases": [],
   "display": [
-    "base64"
+    "Galaga"
   ],
-  "category": "tools",
+  "category": "Minigame",
   "categories": [
-    "tools"
+    "Minigame"
   ],
   "tags": [
-    "base64"
+    "galaga"
   ],
   "description": {
-    "en": "Encode or decode text with Base64",
-    "id": "Encode atau decode teks dengan Base64"
+    "id": "Mainkan game tembak-tembakan ruang angkasa",
+    "en": "Play Galaga"
   },
-  "usage": "base64 <teks>",
-  "examples": [
-    "base64 e hello world",
-    "base64 d aGVsbG8gd29ybGQ="
-  ],
-  "minArgs": 2,
+  "usage": "Galaga",
+  "examples": [],
+  "minArgs": 0,
   "args": {},
   "requireMedia": [],
   "chatPermissions": [
     "private",
     "group",
-    "group_community",
-    "newsletter"
+    "group_community"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
-    "group_community": true,
-    "newsletter": true,
-    "private": true
+    "group_community": true
   },
   "permissions": {},
   "premiumOnly": "",
   "nsfwOnly": false,
   "level": 0,
-  "limitCost": 0,
+  "limitCost": 1,
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
@@ -65,8 +60,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/tools",
-    "line": 47
+    "file": "internal/plugins/Minigame",
+    "line": 1
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

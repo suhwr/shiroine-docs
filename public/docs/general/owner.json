@@ -15,8 +15,8 @@
     "owner"
   ],
   "description": {
-    "en": "Show bot number owner information",
-    "id": "Tampilkan informasi pemilik nomor bot"
+    "id": "Tampilkan informasi pemilik nomor bot",
+    "en": "Show bot number owner information"
   },
   "usage": "owner",
   "examples": [
@@ -32,10 +32,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -65,7 +65,7 @@
   },
   "source": {
     "file": "internal/plugins/general",
-    "line": 86
+    "line": 87
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

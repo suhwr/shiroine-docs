@@ -15,8 +15,8 @@
     "track-bot"
   ],
   "description": {
-    "en": "View jadibot/logout logs from last 30 days",
-    "id": "Lihat log jadibot/logout 30 hari terakhir"
+    "id": "Lihat log jadibot/logout 30 hari terakhir",
+    "en": "View jadibot/logout logs from last 30 days"
   },
   "usage": "track-bot",
   "examples": [
@@ -32,10 +32,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true,
+    "group_community": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -65,7 +65,7 @@
   },
   "source": {
     "file": "internal/plugins/bot",
-    "line": 112
+    "line": 113
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

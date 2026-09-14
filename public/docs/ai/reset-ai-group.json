@@ -19,8 +19,8 @@
     "resetaigrup"
   ],
   "description": {
-    "en": "Reset AI chat history in group (Admin only)",
-    "id": "Reset riwayat chat AI di grup (Admin only)"
+    "id": "Reset riwayat chat AI di grup (Admin only)",
+    "en": "Reset AI chat history in group (Admin only)"
   },
   "usage": "reset-ai-group",
   "examples": [
@@ -34,8 +34,8 @@
     "group_community"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true
+    "group_community": true,
+    "group": true
   },
   "permissions": {
     "admin": true,
@@ -69,7 +69,7 @@
   },
   "source": {
     "file": "internal/plugins/ai",
-    "line": 42
+    "line": 43
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

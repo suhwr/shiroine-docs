@@ -15,8 +15,8 @@
     "reverse"
   ],
   "description": {
-    "en": "Reverse text, audio (max 10 min) or video (max 1 min, premium)",
-    "id": "Balik teks, audio (maks 10 menit) atau video (maks 1 menit, premium)"
+    "id": "Balik teks, audio (maks 10 menit) atau video (maks 1 menit, premium)",
+    "en": "Reverse text, audio (max 10 min) or video (max 1 min, premium)"
   },
   "usage": "reverse",
   "examples": [
@@ -35,10 +35,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -70,5 +70,5 @@
     "file": "internal/plugins/tools",
     "line": 178
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

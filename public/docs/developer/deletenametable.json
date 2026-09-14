@@ -15,8 +15,8 @@
     "deletenametable"
   ],
   "description": {
-    "en": "Permanently delete 'name' table (considered useless)",
-    "id": "Hapus tabel 'name' secara permanen (dianggap tidak berguna)"
+    "id": "Hapus tabel 'name' secara permanen (dianggap tidak berguna)",
+    "en": "Permanently delete 'name' table (considered useless)"
   },
   "usage": "deletenametable",
   "examples": [
@@ -32,10 +32,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {
     "owner": true
@@ -69,5 +69,5 @@
     "file": "internal/plugins/developer",
     "line": 100
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

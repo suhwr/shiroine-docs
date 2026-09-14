@@ -19,8 +19,8 @@
     "topactive"
   ],
   "description": {
-    "en": "Show most active users",
-    "id": "Menampilkan pengguna paling aktif"
+    "id": "Menampilkan pengguna paling aktif",
+    "en": "Show most active users"
   },
   "usage": "top-active",
   "examples": [
@@ -49,9 +49,9 @@
     "group_community": true
   },
   "permissions": {
-    "admin": true,
     "owner": true,
-    "subowner": true
+    "subowner": true,
+    "admin": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -80,7 +80,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 312
+    "line": 414
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

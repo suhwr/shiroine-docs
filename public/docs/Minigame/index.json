@@ -1,0 +1,121 @@
+{
+  "commands": [
+    {
+      "name": "2048",
+      "description": "Play 2048",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "2048"
+      ]
+    },
+    {
+      "name": "Breakout",
+      "description": "Play Breakout",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "breakout"
+      ]
+    },
+    {
+      "name": "Chess",
+      "description": "Play Chess",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "chess"
+      ]
+    },
+    {
+      "name": "DinoRun",
+      "description": "Play DinoRun",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "dinorun"
+      ]
+    },
+    {
+      "name": "FlappyBird",
+      "description": "Play FlappyBird",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "flappybird"
+      ]
+    },
+    {
+      "name": "Frogger",
+      "description": "Play Frogger",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "frogger"
+      ]
+    },
+    {
+      "name": "Galaga",
+      "description": "Play Galaga",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "galaga"
+      ]
+    },
+    {
+      "name": "Minesweeper",
+      "description": "Play Minesweeper",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "minesweeper"
+      ]
+    },
+    {
+      "name": "Pacman",
+      "description": "Play Pacman",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "pacman"
+      ]
+    },
+    {
+      "name": "Racing",
+      "description": "Play Racing",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "racing"
+      ]
+    },
+    {
+      "name": "Snake",
+      "description": "Play Snake",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "snake"
+      ]
+    },
+    {
+      "name": "Sudoku",
+      "description": "Play Sudoku",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "sudoku"
+      ]
+    },
+    {
+      "name": "Tetris",
+      "description": "Play Tetris",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "tetris"
+      ]
+    }
+  ]
+}

@@ -17,8 +17,8 @@
     "opn"
   ],
   "description": {
-    "en": "Open group (all members can chat)",
-    "id": "Buka grup (semua member bisa chat)"
+    "id": "Buka grup (semua member bisa chat)",
+    "en": "Open group (all members can chat)"
   },
   "usage": "open",
   "examples": [
@@ -69,5 +69,5 @@
     "file": "internal/plugins/group",
     "line": 87
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

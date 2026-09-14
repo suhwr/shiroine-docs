@@ -15,8 +15,8 @@
     "downloadstickerpack"
   ],
   "description": {
-    "en": "Download a WhatsApp sticker pack message as a ZIP file",
-    "id": "Download stiker pack WhatsApp sebagai file ZIP"
+    "id": "Download stiker pack WhatsApp sebagai file ZIP",
+    "en": "Download a WhatsApp sticker pack message as a ZIP file"
   },
   "usage": "downloadstickerpack",
   "examples": [
@@ -33,10 +33,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
     "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -68,5 +68,5 @@
     "file": "internal/plugins/downloader",
     "line": 62
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

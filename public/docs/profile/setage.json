@@ -17,8 +17,8 @@
     "set-age"
   ],
   "description": {
-    "en": "Set profile age",
-    "id": "Mengatur umur profil"
+    "id": "Mengatur umur profil",
+    "en": "Set profile age"
   },
   "usage": "setage <teks>",
   "examples": [
@@ -36,10 +36,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true,
+    "group_community": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -56,8 +56,8 @@
   "disabledReason": "",
   "customArgsMessage": {
     "_default": "MissingArguments",
-    "en": "❌ Enter age. Example: `setage 25`",
-    "id": "❌ Masukkan umur. Contoh: `setage 25`"
+    "id": "❌ Masukkan umur. Contoh: `setage 25`",
+    "en": "❌ Enter age. Example: `setage 25`"
   },
   "status": {
     "enabled": true,
@@ -71,7 +71,7 @@
   },
   "source": {
     "file": "internal/plugins/profile",
-    "line": 39
+    "line": 40
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

@@ -17,8 +17,8 @@
     "hbanlist"
   ],
   "description": {
-    "en": "Show global ban list",
-    "id": "Tampilkan daftar ban global"
+    "id": "Tampilkan daftar ban global",
+    "en": "Show global ban list"
   },
   "usage": "hardbanlist",
   "examples": [
@@ -40,8 +40,8 @@
     "private": true
   },
   "permissions": {
-    "owner": true,
-    "subowner": true
+    "subowner": true,
+    "owner": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -70,7 +70,7 @@
   },
   "source": {
     "file": "internal/plugins/developer",
-    "line": 150
+    "line": 160
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

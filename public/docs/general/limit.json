@@ -15,8 +15,8 @@
     "limit"
   ],
   "description": {
-    "en": "View your daily limit information",
-    "id": "Lihat informasi limit harian kamu"
+    "id": "Lihat informasi limit harian kamu",
+    "en": "View your daily limit information"
   },
   "usage": "limit",
   "examples": [
@@ -32,10 +32,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -65,7 +65,7 @@
   },
   "source": {
     "file": "internal/plugins/general",
-    "line": 116
+    "line": 123
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

@@ -17,8 +17,8 @@
     "pin"
   ],
   "description": {
-    "en": "Search and download images from Pinterest",
-    "id": "Cari dan download gambar dari Pinterest"
+    "id": "Cari dan download gambar dari Pinterest",
+    "en": "Search and download images from Pinterest"
   },
   "usage": "pinterest",
   "examples": [
@@ -35,10 +35,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -70,5 +70,5 @@
     "file": "internal/plugins/search",
     "line": 341
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

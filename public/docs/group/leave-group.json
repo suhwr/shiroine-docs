@@ -2,7 +2,10 @@
   "name": "leave-group",
   "commands": [
     "leave-group",
-    "leavegc"
+    "leavegc",
+    "leavebot",
+    "leave-bot",
+    "leave"
   ],
   "aliases": [],
   "display": [
@@ -14,15 +17,18 @@
   ],
   "tags": [
     "leave-group",
-    "leavegc"
+    "leavegc",
+    "leavebot",
+    "leave-bot",
+    "leave"
   ],
   "description": {
-    "en": "Remove bot from group",
-    "id": "Keluarkan bot dari grup"
+    "id": "Keluarkan bot dari grup",
+    "en": "Remove bot from group"
   },
   "usage": "leave-group",
   "examples": [
-    "leave confirm"
+    "leave"
   ],
   "minArgs": 0,
   "args": {},
@@ -37,10 +43,10 @@
   },
   "permissions": {
     "admin": true,
-    "bot": true,
-    "hasbot": true,
     "owner": true,
-    "subowner": true
+    "subowner": true,
+    "bot": true,
+    "hasbot": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -69,7 +75,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 30
+    "line": 165
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

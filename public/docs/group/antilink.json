@@ -15,8 +15,8 @@
     "antilink"
   ],
   "description": {
-    "en": "Manage AntiLink features",
-    "id": "Atur fitur AntiLink"
+    "id": "Atur fitur AntiLink",
+    "en": "Manage AntiLink features"
   },
   "usage": "antilink",
   "examples": [
@@ -67,7 +67,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 229
+    "line": 231
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

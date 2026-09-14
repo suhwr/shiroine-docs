@@ -15,13 +15,11 @@
     "bot"
   ],
   "description": {
-    "en": "Simple bot plugin that replies text",
-    "id": "Plugin bot sederhana yang membalas teks"
+    "id": "Merespon sapaan bot dengan latency",
+    "en": "Responds to bot greeting with latency"
   },
   "usage": "bot",
-  "examples": [
-    "bot"
-  ],
+  "examples": [],
   "minArgs": 0,
   "args": {},
   "requireMedia": [],
@@ -32,10 +30,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -43,7 +41,7 @@
   "level": 0,
   "limitCost": 0,
   "delaySeconds": 0,
-  "ignoreQueue": true,
+  "ignoreQueue": false,
   "disableProcessLimit": false,
   "specialLimit": false,
   "sendsToPrivate": false,
@@ -65,7 +63,7 @@
   },
   "source": {
     "file": "internal/plugins/bot",
-    "line": 57
+    "line": 50
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

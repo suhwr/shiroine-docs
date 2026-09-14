@@ -17,8 +17,8 @@
     "bot_msgstats"
   ],
   "description": {
-    "en": "Show bot message statistics for the last 24 hours",
-    "id": "Tampilkan statistik pesan bot dalam 24 jam terakhir"
+    "id": "Tampilkan statistik pesan bot dalam 24 jam terakhir",
+    "en": "Show bot message statistics for the last 24 hours"
   },
   "usage": "msgstats",
   "examples": [
@@ -34,10 +34,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -67,7 +67,7 @@
   },
   "source": {
     "file": "internal/plugins/bot",
-    "line": 56
+    "line": 77
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

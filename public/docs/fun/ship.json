@@ -15,8 +15,8 @@
     "ship"
   ],
   "description": {
-    "en": "Ship two group members deterministically per hour",
-    "id": "Ship dua member grup secara deterministic per jam"
+    "id": "Ship dua member grup secara deterministic per jam",
+    "en": "Ship two group members deterministically per hour"
   },
   "usage": "ship",
   "examples": [
@@ -63,7 +63,7 @@
   },
   "source": {
     "file": "internal/plugins/fun",
-    "line": 202
+    "line": 191
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

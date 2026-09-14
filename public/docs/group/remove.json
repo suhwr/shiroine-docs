@@ -15,8 +15,8 @@
     "remove"
   ],
   "description": {
-    "en": "Remove member from group",
-    "id": "Keluarkan member dari grup"
+    "id": "Keluarkan member dari grup",
+    "en": "Remove member from group"
   },
   "usage": "remove",
   "examples": [
@@ -68,5 +68,5 @@
     "file": "internal/plugins/group",
     "line": 142
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

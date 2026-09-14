@@ -1,7 +1,9 @@
 {
   "name": "botinfo",
   "commands": [
-    "botinfo"
+    "botinfo",
+    "cekbot",
+    "checkbot"
   ],
   "aliases": [],
   "display": [
@@ -12,15 +14,19 @@
     "bot"
   ],
   "tags": [
-    "botinfo"
+    "botinfo",
+    "cekbot",
+    "checkbot"
   ],
   "description": {
-    "en": "Display bot information",
-    "id": "Menampilkan informasi bot"
+    "id": "Menampilkan informasi, pengaturan, dan statistik bot (cekbot tanpa statistik)",
+    "en": "Display bot info, settings, and statistics (checkbot omits statistics)"
   },
   "usage": "botinfo",
   "examples": [
-    "botinfo"
+    "botinfo",
+    "cekbot @user",
+    "checkbot @user"
   ],
   "minArgs": 0,
   "args": {},
@@ -32,10 +38,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -65,7 +71,7 @@
   },
   "source": {
     "file": "internal/plugins/bot",
-    "line": 47
+    "line": 281
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

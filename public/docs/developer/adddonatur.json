@@ -17,8 +17,8 @@
     "tambahdonatur"
   ],
   "description": {
-    "en": "Add/update donatur to list (owner only)",
-    "id": "Tambah/update donatur ke daftar (owner only)"
+    "id": "Tambah/update donatur ke daftar (owner only)",
+    "en": "Add/update donatur to list (owner only)"
   },
   "usage": "adddonatur <teks>",
   "examples": [
@@ -35,10 +35,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {
     "owner": true
@@ -70,7 +70,7 @@
   },
   "source": {
     "file": "internal/plugins/developer",
-    "line": 248
+    "line": 251
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

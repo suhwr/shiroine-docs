@@ -19,8 +19,8 @@
     "ig"
   ],
   "description": {
-    "en": "Download photo/video from Instagram",
-    "id": "Download foto/video dari Instagram"
+    "id": "Download foto/video dari Instagram",
+    "en": "Download photo/video from Instagram"
   },
   "usage": "instagram",
   "examples": [
@@ -36,10 +36,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -71,5 +71,5 @@
     "file": "internal/plugins/downloader",
     "line": 97
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

@@ -19,8 +19,8 @@
     "hardbangrup"
   ],
   "description": {
-    "en": "Ban group globally (all bots)",
-    "id": "Ban grup secara global (semua bot)"
+    "id": "Ban grup secara global (semua bot)",
+    "en": "Ban group globally (all bots)"
   },
   "usage": "hardbangc <teks>",
   "examples": [
@@ -36,10 +36,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {
     "owner": true
@@ -73,5 +73,5 @@
     "file": "internal/plugins/developer",
     "line": 90
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

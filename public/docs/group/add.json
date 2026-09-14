@@ -15,8 +15,8 @@
     "add"
   ],
   "description": {
-    "en": "Add member to group",
-    "id": "Tambahkan member ke grup"
+    "id": "Tambahkan member ke grup",
+    "en": "Add member to group"
   },
   "usage": "add",
   "examples": [
@@ -69,5 +69,5 @@
     "file": "internal/plugins/group",
     "line": 111
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

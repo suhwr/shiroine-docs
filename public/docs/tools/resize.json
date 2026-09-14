@@ -15,8 +15,8 @@
     "resize"
   ],
   "description": {
-    "en": "Resize image. Use absolute pixel value (e.g. 512 or 512x512) or percentage (e.g. 50%)",
-    "id": "Ubah ukuran gambar. Gunakan nilai pixel absolut (contoh: 512 atau 512x512) atau persentase (contoh: 50%)"
+    "id": "Ubah ukuran gambar. Gunakan nilai pixel absolut (contoh: 512 atau 512x512) atau persentase (contoh: 50%)",
+    "en": "Resize image. Use absolute pixel value (e.g. 512 or 512x512) or percentage (e.g. 50%)"
   },
   "usage": "resize",
   "examples": [
@@ -36,10 +36,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -69,7 +69,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 747
+    "line": 778
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

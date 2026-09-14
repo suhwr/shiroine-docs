@@ -12,7 +12,16 @@
     "jbratvideo",
     "tbrat",
     "tbratvid",
-    "tbratvideo"
+    "tbratvideo",
+    "brat2",
+    "brat2vid",
+    "brat2video",
+    "brat3",
+    "brat3vid",
+    "brat3video",
+    "brat4",
+    "brat4vid",
+    "brat4video"
   ],
   "aliases": [],
   "display": [
@@ -34,11 +43,20 @@
     "jbratvideo",
     "tbrat",
     "tbratvid",
-    "tbratvideo"
+    "tbratvideo",
+    "brat2",
+    "brat2vid",
+    "brat2video",
+    "brat3",
+    "brat3vid",
+    "brat3video",
+    "brat4",
+    "brat4vid",
+    "brat4video"
   ],
   "description": {
-    "en": "Create BRAT sticker",
-    "id": "Buat stiker BRAT"
+    "id": "Buat stiker BRAT",
+    "en": "Create BRAT sticker"
   },
   "usage": "brat",
   "examples": [
@@ -87,7 +105,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 60
+    "line": 78
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

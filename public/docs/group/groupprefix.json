@@ -19,8 +19,8 @@
     "gprefix"
   ],
   "description": {
-    "en": "Set group prefix",
-    "id": "Mengatur prefix grup"
+    "id": "Mengatur prefix grup",
+    "en": "Set group prefix"
   },
   "usage": "groupprefix",
   "examples": [
@@ -71,7 +71,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 38
+    "line": 39
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

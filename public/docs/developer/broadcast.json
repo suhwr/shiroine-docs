@@ -17,8 +17,8 @@
     "bc"
   ],
   "description": {
-    "en": "Broadcast message to Newsletter",
-    "id": "Broadcast pesan ke Newsletter"
+    "id": "Broadcast pesan ke Newsletter",
+    "en": "Broadcast message to Newsletter"
   },
   "usage": "broadcast",
   "examples": [
@@ -35,10 +35,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
     "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true
   },
   "permissions": {
     "owner": true
@@ -72,5 +72,5 @@
     "file": "internal/plugins/developer",
     "line": 106
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

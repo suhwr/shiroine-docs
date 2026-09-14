@@ -17,8 +17,8 @@
     "warnlist"
   ],
   "description": {
-    "en": "View member's warning history",
-    "id": "Lihat riwayat peringatan member"
+    "id": "Lihat riwayat peringatan member",
+    "en": "View member's warning history"
   },
   "usage": "warnings",
   "examples": [
@@ -64,7 +64,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 275
+    "line": 277
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

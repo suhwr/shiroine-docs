@@ -15,8 +15,8 @@
     "gemma"
   ],
   "description": {
-    "en": "Chat with Gemma 3 27B IT (supports text and images)",
-    "id": "Chat dengan Gemma 3 27B IT (mendukung teks dan gambar)"
+    "id": "Chat dengan Gemma 3 27B IT (mendukung teks dan gambar)",
+    "en": "Chat with Gemma 3 27B IT (supports text and images)"
   },
   "usage": "gemma",
   "examples": [
@@ -36,10 +36,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -69,7 +69,7 @@
   },
   "source": {
     "file": "internal/plugins/ai",
-    "line": 98
+    "line": 99
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

@@ -17,8 +17,8 @@
     "youtube"
   ],
   "description": {
-    "en": "YouTube helper - choose to download audio, video, or album",
-    "id": "Helper YouTube - pilih aksi download audio, video, atau album"
+    "id": "Helper YouTube - pilih aksi download audio, video, atau album",
+    "en": "YouTube helper - choose to download audio, video, or album"
   },
   "usage": "yt",
   "examples": [
@@ -30,8 +30,8 @@
   "minArgs": 0,
   "args": {
     "query / url": {
-      "en": "Search keyword, video URL, music URL, or query prefixed with: 'music [query]' / 'album [query]'",
-      "id": "Kata kunci pencarian, link video, link musik, atau keyword bertipe: 'music [query]' / 'album [query]'"
+      "id": "Kata kunci pencarian, link video, link musik, atau keyword bertipe: 'music [query]' / 'album [query]'",
+      "en": "Search keyword, video URL, music URL, or query prefixed with: 'music [query]' / 'album [query]'"
     }
   },
   "requireMedia": [],
@@ -42,10 +42,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -75,7 +75,7 @@
   },
   "source": {
     "file": "internal/plugins/youtube",
-    "line": 294
+    "line": 301
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

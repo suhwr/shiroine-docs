@@ -15,8 +15,8 @@
     "stabilize"
   ],
   "description": {
-    "en": "Stabilize shaky video (premium only, max 5 min)",
-    "id": "Menstabilkan video yang goyang (khusus premium, maks 5 menit)"
+    "id": "Menstabilkan video yang goyang (khusus premium, maks 5 menit)",
+    "en": "Stabilize shaky video (premium only, max 5 min)"
   },
   "usage": "stabilize",
   "examples": [
@@ -34,10 +34,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "all",
@@ -69,5 +69,5 @@
     "file": "internal/plugins/tools",
     "line": 106
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

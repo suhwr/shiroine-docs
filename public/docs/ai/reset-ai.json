@@ -17,8 +17,8 @@
     "resetai"
   ],
   "description": {
-    "en": "Clear all private conversation history with AI and start a new session without previous context. Useful when you want to start a new topic unrelated to previous conversations.",
-    "id": "Hapus seluruh riwayat percakapan pribadi dengan AI dan mulai sesi baru tanpa konteks sebelumnya. Berguna ketika Anda ingin memulai topik baru yang tidak terkait dengan percakapan sebelumnya."
+    "id": "Hapus seluruh riwayat percakapan pribadi dengan AI dan mulai sesi baru tanpa konteks sebelumnya. Berguna ketika Anda ingin memulai topik baru yang tidak terkait dengan percakapan sebelumnya.",
+    "en": "Clear all private conversation history with AI and start a new session without previous context. Useful when you want to start a new topic unrelated to previous conversations."
   },
   "usage": "reset-ai",
   "examples": [
@@ -61,7 +61,7 @@
   },
   "source": {
     "file": "internal/plugins/ai",
-    "line": 31
+    "line": 32
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

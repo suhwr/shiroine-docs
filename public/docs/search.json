@@ -1,8 +1,135 @@
 {
   "commands": [
     {
+      "name": "2048",
+      "aliases": [],
+      "category": "Minigame",
+      "path": "/commands/Minigame/2048",
+      "tags": [
+        "2048"
+      ]
+    },
+    {
+      "name": "Breakout",
+      "aliases": [],
+      "category": "Minigame",
+      "path": "/commands/Minigame/Breakout",
+      "tags": [
+        "breakout"
+      ]
+    },
+    {
+      "name": "Chess",
+      "aliases": [],
+      "category": "Minigame",
+      "path": "/commands/Minigame/Chess",
+      "tags": [
+        "chess"
+      ]
+    },
+    {
+      "name": "DinoRun",
+      "aliases": [],
+      "category": "Minigame",
+      "path": "/commands/Minigame/DinoRun",
+      "tags": [
+        "dinorun"
+      ]
+    },
+    {
+      "name": "FlappyBird",
+      "aliases": [],
+      "category": "Minigame",
+      "path": "/commands/Minigame/FlappyBird",
+      "tags": [
+        "flappybird"
+      ]
+    },
+    {
+      "name": "Frogger",
+      "aliases": [],
+      "category": "Minigame",
+      "path": "/commands/Minigame/Frogger",
+      "tags": [
+        "frogger"
+      ]
+    },
+    {
+      "name": "Galaga",
+      "aliases": [],
+      "category": "Minigame",
+      "path": "/commands/Minigame/Galaga",
+      "tags": [
+        "galaga"
+      ]
+    },
+    {
+      "name": "Minesweeper",
+      "aliases": [],
+      "category": "Minigame",
+      "path": "/commands/Minigame/Minesweeper",
+      "tags": [
+        "minesweeper"
+      ]
+    },
+    {
+      "name": "Pacman",
+      "aliases": [],
+      "category": "Minigame",
+      "path": "/commands/Minigame/Pacman",
+      "tags": [
+        "pacman"
+      ]
+    },
+    {
+      "name": "Racing",
+      "aliases": [],
+      "category": "Minigame",
+      "path": "/commands/Minigame/Racing",
+      "tags": [
+        "racing"
+      ]
+    },
+    {
+      "name": "Snake",
+      "aliases": [],
+      "category": "Minigame",
+      "path": "/commands/Minigame/Snake",
+      "tags": [
+        "snake"
+      ]
+    },
+    {
+      "name": "Sudoku",
+      "aliases": [],
+      "category": "Minigame",
+      "path": "/commands/Minigame/Sudoku",
+      "tags": [
+        "sudoku"
+      ]
+    },
+    {
+      "name": "Tetris",
+      "aliases": [],
+      "category": "Minigame",
+      "path": "/commands/Minigame/Tetris",
+      "tags": [
+        "tetris"
+      ]
+    },
+    {
+      "name": "Test Image",
+      "aliases": [],
+      "category": "Tools",
+      "path": "/commands/Tools/Test Image",
+      "tags": [
+        "testimg",
+        "test image"
+      ]
+    },
+    {
       "name": "ai",
-      "aliases": null,
+      "aliases": [],
       "category": "ai",
       "path": "/commands/ai/ai",
       "tags": [
@@ -11,7 +138,7 @@
     },
     {
       "name": "aichara",
-      "aliases": null,
+      "aliases": [],
       "category": "ai",
       "path": "/commands/ai/aichara",
       "tags": [
@@ -20,7 +147,7 @@
     },
     {
       "name": "deepseek",
-      "aliases": null,
+      "aliases": [],
       "category": "ai",
       "path": "/commands/ai/deepseek",
       "tags": [
@@ -29,7 +156,7 @@
     },
     {
       "name": "gemini",
-      "aliases": null,
+      "aliases": [],
       "category": "ai",
       "path": "/commands/ai/gemini",
       "tags": [
@@ -38,7 +165,7 @@
     },
     {
       "name": "gemma",
-      "aliases": null,
+      "aliases": [],
       "category": "ai",
       "path": "/commands/ai/gemma",
       "tags": [
@@ -47,7 +174,7 @@
     },
     {
       "name": "gpt",
-      "aliases": null,
+      "aliases": [],
       "category": "ai",
       "path": "/commands/ai/gpt",
       "tags": [
@@ -56,7 +183,7 @@
     },
     {
       "name": "jadianime",
-      "aliases": null,
+      "aliases": [],
       "category": "ai",
       "path": "/commands/ai/jadianime",
       "tags": [
@@ -66,7 +193,7 @@
     },
     {
       "name": "jadianimev2",
-      "aliases": null,
+      "aliases": [],
       "category": "ai",
       "path": "/commands/ai/jadianimev2",
       "tags": [
@@ -76,7 +203,7 @@
     },
     {
       "name": "jadighibli",
-      "aliases": null,
+      "aliases": [],
       "category": "ai",
       "path": "/commands/ai/jadighibli",
       "tags": [
@@ -86,7 +213,7 @@
     },
     {
       "name": "llm",
-      "aliases": null,
+      "aliases": [],
       "category": "ai",
       "path": "/commands/ai/llm",
       "tags": [
@@ -95,7 +222,7 @@
     },
     {
       "name": "qwen",
-      "aliases": null,
+      "aliases": [],
       "category": "ai",
       "path": "/commands/ai/qwen",
       "tags": [
@@ -104,7 +231,7 @@
     },
     {
       "name": "reset-ai",
-      "aliases": null,
+      "aliases": [],
       "category": "ai",
       "path": "/commands/ai/reset-ai",
       "tags": [
@@ -114,7 +241,7 @@
     },
     {
       "name": "reset-ai-group",
-      "aliases": null,
+      "aliases": [],
       "category": "ai",
       "path": "/commands/ai/reset-ai-group",
       "tags": [
@@ -125,7 +252,7 @@
     },
     {
       "name": "answercall",
-      "aliases": null,
+      "aliases": [],
       "category": "bot",
       "path": "/commands/bot/answercall",
       "tags": [
@@ -135,7 +262,7 @@
     },
     {
       "name": "autoclear",
-      "aliases": null,
+      "aliases": [],
       "category": "bot",
       "path": "/commands/bot/autoclear",
       "tags": [
@@ -144,7 +271,7 @@
     },
     {
       "name": "autodelete",
-      "aliases": null,
+      "aliases": [],
       "category": "bot",
       "path": "/commands/bot/autodelete",
       "tags": [
@@ -153,7 +280,7 @@
     },
     {
       "name": "autoread",
-      "aliases": null,
+      "aliases": [],
       "category": "bot",
       "path": "/commands/bot/autoread",
       "tags": [
@@ -162,7 +289,7 @@
     },
     {
       "name": "bot",
-      "aliases": null,
+      "aliases": [],
       "category": "bot",
       "path": "/commands/bot/bot",
       "tags": [
@@ -171,16 +298,18 @@
     },
     {
       "name": "botinfo",
-      "aliases": null,
+      "aliases": [],
       "category": "bot",
       "path": "/commands/bot/botinfo",
       "tags": [
-        "botinfo"
+        "botinfo",
+        "cekbot",
+        "checkbot"
       ]
     },
     {
       "name": "botofficial",
-      "aliases": null,
+      "aliases": [],
       "category": "bot",
       "path": "/commands/bot/botofficial",
       "tags": [
@@ -190,7 +319,7 @@
     },
     {
       "name": "botsettings",
-      "aliases": null,
+      "aliases": [],
       "category": "bot",
       "path": "/commands/bot/botsettings",
       "tags": [
@@ -199,18 +328,8 @@
       ]
     },
     {
-      "name": "cekbot",
-      "aliases": null,
-      "category": "bot",
-      "path": "/commands/bot/cekbot",
-      "tags": [
-        "cekbot",
-        "checkbot"
-      ]
-    },
-    {
       "name": "clearchat",
-      "aliases": null,
+      "aliases": [],
       "category": "bot",
       "path": "/commands/bot/clearchat",
       "tags": [
@@ -219,7 +338,7 @@
     },
     {
       "name": "deletechat",
-      "aliases": null,
+      "aliases": [],
       "category": "bot",
       "path": "/commands/bot/deletechat",
       "tags": [
@@ -228,7 +347,7 @@
     },
     {
       "name": "getprivacysetting",
-      "aliases": null,
+      "aliases": [],
       "category": "bot",
       "path": "/commands/bot/getprivacysetting",
       "tags": [
@@ -237,8 +356,20 @@
       ]
     },
     {
+      "name": "gostats",
+      "aliases": [],
+      "category": "bot",
+      "path": "/commands/bot/gostats",
+      "tags": [
+        "gostats",
+        "runtime",
+        "stats",
+        "goruntime"
+      ]
+    },
+    {
       "name": "groupmode",
-      "aliases": null,
+      "aliases": [],
       "category": "bot",
       "path": "/commands/bot/groupmode",
       "tags": [
@@ -248,7 +379,7 @@
     },
     {
       "name": "jadibot",
-      "aliases": null,
+      "aliases": [],
       "category": "bot",
       "path": "/commands/bot/jadibot",
       "tags": [
@@ -257,7 +388,7 @@
     },
     {
       "name": "joinmode",
-      "aliases": null,
+      "aliases": [],
       "category": "bot",
       "path": "/commands/bot/joinmode",
       "tags": [
@@ -266,7 +397,7 @@
     },
     {
       "name": "listgroup",
-      "aliases": null,
+      "aliases": [],
       "category": "bot",
       "path": "/commands/bot/listgroup",
       "tags": [
@@ -277,7 +408,7 @@
     },
     {
       "name": "msgstats",
-      "aliases": null,
+      "aliases": [],
       "category": "bot",
       "path": "/commands/bot/msgstats",
       "tags": [
@@ -287,7 +418,7 @@
     },
     {
       "name": "nsfw",
-      "aliases": null,
+      "aliases": [],
       "category": "bot",
       "path": "/commands/general/nsfw",
       "tags": [
@@ -297,7 +428,7 @@
     },
     {
       "name": "rejectcall",
-      "aliases": null,
+      "aliases": [],
       "category": "bot",
       "path": "/commands/bot/rejectcall",
       "tags": [
@@ -307,7 +438,7 @@
     },
     {
       "name": "reset-password",
-      "aliases": null,
+      "aliases": [],
       "category": "bot",
       "path": "/commands/bot/reset-password",
       "tags": [
@@ -317,7 +448,7 @@
     },
     {
       "name": "scanbot",
-      "aliases": null,
+      "aliases": [],
       "category": "bot",
       "path": "/commands/bot/scanbot",
       "tags": [
@@ -326,7 +457,7 @@
     },
     {
       "name": "selfmode",
-      "aliases": null,
+      "aliases": [],
       "category": "bot",
       "path": "/commands/bot/selfmode",
       "tags": [
@@ -335,7 +466,7 @@
     },
     {
       "name": "setbotname",
-      "aliases": null,
+      "aliases": [],
       "category": "bot",
       "path": "/commands/bot/setbotname",
       "tags": [
@@ -346,7 +477,7 @@
     },
     {
       "name": "setbotowner",
-      "aliases": null,
+      "aliases": [],
       "category": "bot",
       "path": "/commands/bot/setbotowner",
       "tags": [
@@ -357,7 +488,7 @@
     },
     {
       "name": "setpp",
-      "aliases": null,
+      "aliases": [],
       "category": "bot",
       "path": "/commands/bot/setpp",
       "tags": [
@@ -368,7 +499,7 @@
     },
     {
       "name": "setprivacy",
-      "aliases": null,
+      "aliases": [],
       "category": "bot",
       "path": "/commands/bot/setprivacy",
       "tags": [
@@ -377,7 +508,7 @@
     },
     {
       "name": "stats",
-      "aliases": null,
+      "aliases": [],
       "category": "bot",
       "path": "/commands/bot/stats",
       "tags": [
@@ -386,21 +517,8 @@
       ]
     },
     {
-      "name": "system",
-      "aliases": null,
-      "category": "bot",
-      "path": "/commands/bot/system",
-      "tags": [
-        "test",
-        "tes",
-        "sysinfo",
-        "runtime",
-        "system"
-      ]
-    },
-    {
       "name": "track-bot",
-      "aliases": null,
+      "aliases": [],
       "category": "bot",
       "path": "/commands/bot/track-bot",
       "tags": [
@@ -409,7 +527,7 @@
     },
     {
       "name": "upsw",
-      "aliases": null,
+      "aliases": [],
       "category": "bot",
       "path": "/commands/bot/upsw",
       "tags": [
@@ -418,17 +536,8 @@
       ]
     },
     {
-      "name": "upsw2",
-      "aliases": null,
-      "category": "bot",
-      "path": "/commands/bot/upsw2",
-      "tags": [
-        "upsw2"
-      ]
-    },
-    {
       "name": "$",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/$",
       "tags": [
@@ -437,7 +546,7 @@
     },
     {
       "name": "adddonatur",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/adddonatur",
       "tags": [
@@ -447,7 +556,7 @@
     },
     {
       "name": "addprem",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/addprem",
       "tags": [
@@ -457,7 +566,7 @@
     },
     {
       "name": "addsubowner",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/addsubowner",
       "tags": [
@@ -467,7 +576,7 @@
     },
     {
       "name": "ban-user",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/ban-user",
       "tags": [
@@ -477,7 +586,7 @@
     },
     {
       "name": "banmedia",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/banmedia",
       "tags": [
@@ -486,7 +595,7 @@
     },
     {
       "name": "bcgroup",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/bcgroup",
       "tags": [
@@ -496,7 +605,7 @@
     },
     {
       "name": "broadcast",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/broadcast",
       "tags": [
@@ -506,7 +615,7 @@
     },
     {
       "name": "cleardb",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/cleardb",
       "tags": [
@@ -515,7 +624,7 @@
     },
     {
       "name": "create-redeem",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/create-redeem",
       "tags": [
@@ -525,7 +634,7 @@
     },
     {
       "name": "credeem",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/credeem",
       "tags": [
@@ -534,7 +643,7 @@
     },
     {
       "name": "deletenametable",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/deletenametable",
       "tags": [
@@ -543,7 +652,7 @@
     },
     {
       "name": "delmod",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/delmod",
       "tags": [
@@ -554,7 +663,7 @@
     },
     {
       "name": "errors",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/errors",
       "tags": [
@@ -564,7 +673,7 @@
     },
     {
       "name": "hardban",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/hardban",
       "tags": [
@@ -574,7 +683,7 @@
     },
     {
       "name": "hardbangc",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/hardbangc",
       "tags": [
@@ -585,7 +694,7 @@
     },
     {
       "name": "hardbanlist",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/hardbanlist",
       "tags": [
@@ -595,7 +704,7 @@
     },
     {
       "name": "hardunban",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/hardunban",
       "tags": [
@@ -605,7 +714,7 @@
     },
     {
       "name": "hardunbangc",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/hardunbangc",
       "tags": [
@@ -616,7 +725,7 @@
     },
     {
       "name": "httprequest",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/httprequest",
       "tags": [
@@ -628,7 +737,7 @@
     },
     {
       "name": "listsubowners",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/listsubowners",
       "tags": [
@@ -640,7 +749,7 @@
     },
     {
       "name": "logger",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/logger",
       "tags": [
@@ -649,7 +758,7 @@
     },
     {
       "name": "param",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/param",
       "tags": [
@@ -659,7 +768,7 @@
     },
     {
       "name": "removesubowner",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/removesubowner",
       "tags": [
@@ -671,7 +780,7 @@
     },
     {
       "name": "restart",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/restart",
       "tags": [
@@ -680,7 +789,7 @@
     },
     {
       "name": "setrole",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/setrole",
       "tags": [
@@ -691,7 +800,7 @@
     },
     {
       "name": "swap",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/swap",
       "tags": [
@@ -699,8 +808,17 @@
       ]
     },
     {
+      "name": "testwg",
+      "aliases": [],
+      "category": "developer",
+      "path": "/commands/developer/testwg",
+      "tags": [
+        "testwg"
+      ]
+    },
+    {
       "name": "unban-user",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/unban-user",
       "tags": [
@@ -710,7 +828,7 @@
     },
     {
       "name": "update",
-      "aliases": null,
+      "aliases": [],
       "category": "developer",
       "path": "/commands/developer/update",
       "tags": [
@@ -719,7 +837,7 @@
     },
     {
       "name": "Downloader",
-      "aliases": null,
+      "aliases": [],
       "category": "downloader",
       "path": "/commands/downloader/Downloader",
       "tags": [
@@ -729,7 +847,7 @@
     },
     {
       "name": "downloadstickerpack",
-      "aliases": null,
+      "aliases": [],
       "category": "downloader",
       "path": "/commands/downloader/downloadstickerpack",
       "tags": [
@@ -738,7 +856,7 @@
     },
     {
       "name": "facebook",
-      "aliases": null,
+      "aliases": [],
       "category": "downloader",
       "path": "/commands/downloader/facebook",
       "tags": [
@@ -748,7 +866,7 @@
     },
     {
       "name": "instagram",
-      "aliases": null,
+      "aliases": [],
       "category": "downloader",
       "path": "/commands/downloader/instagram",
       "tags": [
@@ -759,7 +877,7 @@
     },
     {
       "name": "pinterest dl",
-      "aliases": null,
+      "aliases": [],
       "category": "downloader",
       "path": "/commands/downloader/pinterest dl",
       "tags": [
@@ -770,7 +888,7 @@
     },
     {
       "name": "pixiv",
-      "aliases": null,
+      "aliases": [],
       "category": "downloader",
       "path": "/commands/downloader/pixiv",
       "tags": [
@@ -780,7 +898,7 @@
     },
     {
       "name": "spotify",
-      "aliases": null,
+      "aliases": [],
       "category": "downloader",
       "path": "/commands/downloader/spotify",
       "tags": [
@@ -789,7 +907,7 @@
     },
     {
       "name": "telegramsticker",
-      "aliases": null,
+      "aliases": [],
       "category": "downloader",
       "path": "/commands/downloader/telegramsticker",
       "tags": [
@@ -800,7 +918,7 @@
     },
     {
       "name": "telegramstickerv2",
-      "aliases": null,
+      "aliases": [],
       "category": "downloader",
       "path": "/commands/downloader/telegramstickerv2",
       "tags": [
@@ -810,7 +928,7 @@
     },
     {
       "name": "tidal",
-      "aliases": null,
+      "aliases": [],
       "category": "downloader",
       "path": "/commands/downloader/tidal",
       "tags": [
@@ -819,7 +937,7 @@
     },
     {
       "name": "tiktok",
-      "aliases": null,
+      "aliases": [],
       "category": "downloader",
       "path": "/commands/downloader/tiktok",
       "tags": [
@@ -831,7 +949,7 @@
     },
     {
       "name": "twitter",
-      "aliases": null,
+      "aliases": [],
       "category": "downloader",
       "path": "/commands/downloader/twitter",
       "tags": [
@@ -843,7 +961,7 @@
     },
     {
       "name": "cek",
-      "aliases": null,
+      "aliases": [],
       "category": "fun",
       "path": "/commands/fun/cek",
       "tags": [
@@ -853,7 +971,7 @@
     },
     {
       "name": "dadu",
-      "aliases": null,
+      "aliases": [],
       "category": "fun",
       "path": "/commands/fun/dadu",
       "tags": [
@@ -863,7 +981,7 @@
     },
     {
       "name": "koin",
-      "aliases": null,
+      "aliases": [],
       "category": "fun",
       "path": "/commands/fun/koin",
       "tags": [
@@ -873,7 +991,7 @@
     },
     {
       "name": "meme",
-      "aliases": null,
+      "aliases": [],
       "category": "fun",
       "path": "/commands/fun/meme",
       "tags": [
@@ -882,7 +1000,7 @@
     },
     {
       "name": "reaction",
-      "aliases": null,
+      "aliases": [],
       "category": "fun",
       "path": "/commands/fun/reaction",
       "tags": [
@@ -891,7 +1009,7 @@
     },
     {
       "name": "roast",
-      "aliases": null,
+      "aliases": [],
       "category": "fun",
       "path": "/commands/fun/roast",
       "tags": [
@@ -900,7 +1018,7 @@
     },
     {
       "name": "ship",
-      "aliases": null,
+      "aliases": [],
       "category": "fun",
       "path": "/commands/fun/ship",
       "tags": [
@@ -909,7 +1027,7 @@
     },
     {
       "name": "suit",
-      "aliases": null,
+      "aliases": [],
       "category": "fun",
       "path": "/commands/fun/suit",
       "tags": [
@@ -919,7 +1037,7 @@
     },
     {
       "name": "asahotak",
-      "aliases": null,
+      "aliases": [],
       "category": "game",
       "path": "/commands/game/asahotak",
       "tags": [
@@ -928,7 +1046,7 @@
     },
     {
       "name": "badges",
-      "aliases": null,
+      "aliases": [],
       "category": "game",
       "path": "/commands/game/badges",
       "tags": [
@@ -938,7 +1056,7 @@
     },
     {
       "name": "caklontong",
-      "aliases": null,
+      "aliases": [],
       "category": "game",
       "path": "/commands/game/caklontong",
       "tags": [
@@ -947,7 +1065,7 @@
     },
     {
       "name": "gamelimit",
-      "aliases": null,
+      "aliases": [],
       "category": "game",
       "path": "/commands/game/gamelimit",
       "tags": [
@@ -956,7 +1074,7 @@
     },
     {
       "name": "gamestats",
-      "aliases": null,
+      "aliases": [],
       "category": "game",
       "path": "/commands/game/gamestats",
       "tags": [
@@ -968,7 +1086,7 @@
     },
     {
       "name": "glb",
-      "aliases": null,
+      "aliases": [],
       "category": "game",
       "path": "/commands/game/glb",
       "tags": [
@@ -978,7 +1096,7 @@
     },
     {
       "name": "groupachievements",
-      "aliases": null,
+      "aliases": [],
       "category": "game",
       "path": "/commands/game/groupachievements",
       "tags": [
@@ -988,7 +1106,7 @@
     },
     {
       "name": "groupcarry",
-      "aliases": null,
+      "aliases": [],
       "category": "game",
       "path": "/commands/game/groupcarry",
       "tags": [
@@ -997,7 +1115,7 @@
     },
     {
       "name": "groupcompare",
-      "aliases": null,
+      "aliases": [],
       "category": "game",
       "path": "/commands/game/groupcompare",
       "tags": [
@@ -1006,7 +1124,7 @@
     },
     {
       "name": "groupcontrib",
-      "aliases": null,
+      "aliases": [],
       "category": "game",
       "path": "/commands/game/groupcontrib",
       "tags": [
@@ -1016,7 +1134,7 @@
     },
     {
       "name": "groupmvp",
-      "aliases": null,
+      "aliases": [],
       "category": "game",
       "path": "/commands/game/groupmvp",
       "tags": [
@@ -1025,7 +1143,7 @@
     },
     {
       "name": "groupstats",
-      "aliases": null,
+      "aliases": [],
       "category": "game",
       "path": "/commands/game/groupstats",
       "tags": [
@@ -1034,7 +1152,7 @@
     },
     {
       "name": "leaderboard",
-      "aliases": null,
+      "aliases": [],
       "category": "game",
       "path": "/commands/game/leaderboard",
       "tags": [
@@ -1045,7 +1163,7 @@
     },
     {
       "name": "math",
-      "aliases": null,
+      "aliases": [],
       "category": "game",
       "path": "/commands/game/math",
       "tags": [
@@ -1054,7 +1172,7 @@
     },
     {
       "name": "profilegame",
-      "aliases": null,
+      "aliases": [],
       "category": "game",
       "path": "/commands/game/profilegame",
       "tags": [
@@ -1064,7 +1182,7 @@
     },
     {
       "name": "rival",
-      "aliases": null,
+      "aliases": [],
       "category": "game",
       "path": "/commands/game/rival",
       "tags": [
@@ -1073,7 +1191,7 @@
     },
     {
       "name": "siapakahaku",
-      "aliases": null,
+      "aliases": [],
       "category": "game",
       "path": "/commands/game/siapakahaku",
       "tags": [
@@ -1082,7 +1200,7 @@
     },
     {
       "name": "susunkata",
-      "aliases": null,
+      "aliases": [],
       "category": "game",
       "path": "/commands/game/susunkata",
       "tags": [
@@ -1091,7 +1209,7 @@
     },
     {
       "name": "tebakbendera",
-      "aliases": null,
+      "aliases": [],
       "category": "game",
       "path": "/commands/game/tebakbendera",
       "tags": [
@@ -1100,7 +1218,7 @@
     },
     {
       "name": "tebakbom",
-      "aliases": null,
+      "aliases": [],
       "category": "game",
       "path": "/commands/game/tebakbom",
       "tags": [
@@ -1109,7 +1227,7 @@
     },
     {
       "name": "tebakgambar",
-      "aliases": null,
+      "aliases": [],
       "category": "game",
       "path": "/commands/game/tebakgambar",
       "tags": [
@@ -1118,7 +1236,7 @@
     },
     {
       "name": "tebakkata",
-      "aliases": null,
+      "aliases": [],
       "category": "game",
       "path": "/commands/game/tebakkata",
       "tags": [
@@ -1127,7 +1245,7 @@
     },
     {
       "name": "tebaklirik",
-      "aliases": null,
+      "aliases": [],
       "category": "game",
       "path": "/commands/game/tebaklirik",
       "tags": [
@@ -1136,7 +1254,7 @@
     },
     {
       "name": "tictactoe",
-      "aliases": null,
+      "aliases": [],
       "category": "game",
       "path": "/commands/game/tictactoe",
       "tags": [
@@ -1146,7 +1264,7 @@
     },
     {
       "name": "about",
-      "aliases": null,
+      "aliases": [],
       "category": "general",
       "path": "/commands/general/about",
       "tags": [
@@ -1155,7 +1273,7 @@
     },
     {
       "name": "cekbenefit",
-      "aliases": null,
+      "aliases": [],
       "category": "general",
       "path": "/commands/general/cekbenefit",
       "tags": [
@@ -1164,7 +1282,7 @@
     },
     {
       "name": "daily",
-      "aliases": null,
+      "aliases": [],
       "category": "general",
       "path": "/commands/general/daily",
       "tags": [
@@ -1173,7 +1291,7 @@
     },
     {
       "name": "donate",
-      "aliases": null,
+      "aliases": [],
       "category": "general",
       "path": "/commands/general/donate",
       "tags": [
@@ -1183,7 +1301,7 @@
     },
     {
       "name": "donatur",
-      "aliases": null,
+      "aliases": [],
       "category": "general",
       "path": "/commands/general/donatur",
       "tags": [
@@ -1194,7 +1312,7 @@
     },
     {
       "name": "help",
-      "aliases": null,
+      "aliases": [],
       "category": "general",
       "path": "/commands/general/help",
       "tags": [
@@ -1203,7 +1321,7 @@
     },
     {
       "name": "join",
-      "aliases": null,
+      "aliases": [],
       "category": "general",
       "path": "/commands/general/join",
       "tags": [
@@ -1212,7 +1330,7 @@
     },
     {
       "name": "limit",
-      "aliases": null,
+      "aliases": [],
       "category": "general",
       "path": "/commands/general/limit",
       "tags": [
@@ -1221,7 +1339,7 @@
     },
     {
       "name": "menu",
-      "aliases": null,
+      "aliases": [],
       "category": "general",
       "path": "/commands/general/menu",
       "tags": [
@@ -1230,7 +1348,7 @@
     },
     {
       "name": "nsfw",
-      "aliases": null,
+      "aliases": [],
       "category": "general",
       "path": "/commands/general/nsfw",
       "tags": [
@@ -1240,7 +1358,7 @@
     },
     {
       "name": "owner",
-      "aliases": null,
+      "aliases": [],
       "category": "general",
       "path": "/commands/general/owner",
       "tags": [
@@ -1249,7 +1367,7 @@
     },
     {
       "name": "ping",
-      "aliases": null,
+      "aliases": [],
       "category": "general",
       "path": "/commands/general/ping",
       "tags": [
@@ -1258,7 +1376,7 @@
     },
     {
       "name": "premium",
-      "aliases": null,
+      "aliases": [],
       "category": "general",
       "path": "/commands/general/premium",
       "tags": [
@@ -1269,7 +1387,7 @@
     },
     {
       "name": "redeem",
-      "aliases": null,
+      "aliases": [],
       "category": "general",
       "path": "/commands/general/redeem",
       "tags": [
@@ -1278,7 +1396,7 @@
     },
     {
       "name": "sc",
-      "aliases": null,
+      "aliases": [],
       "category": "general",
       "path": "/commands/general/sc",
       "tags": [
@@ -1288,7 +1406,7 @@
     },
     {
       "name": "add",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/add",
       "tags": [
@@ -1297,7 +1415,7 @@
     },
     {
       "name": "adminonly",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/adminonly",
       "tags": [
@@ -1307,7 +1425,7 @@
     },
     {
       "name": "adzan",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/adzan",
       "tags": [
@@ -1318,7 +1436,7 @@
     },
     {
       "name": "antibot",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/antibot",
       "tags": [
@@ -1327,7 +1445,7 @@
     },
     {
       "name": "antibug",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/antibug",
       "tags": [
@@ -1336,7 +1454,7 @@
     },
     {
       "name": "anticall",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/anticall",
       "tags": [
@@ -1345,7 +1463,7 @@
     },
     {
       "name": "antihidetag",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/antihidetag",
       "tags": [
@@ -1354,7 +1472,7 @@
     },
     {
       "name": "antilink",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/antilink",
       "tags": [
@@ -1363,7 +1481,7 @@
     },
     {
       "name": "antimedia",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/antimedia",
       "tags": [
@@ -1372,7 +1490,7 @@
     },
     {
       "name": "antinsfwmedia",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/antinsfwmedia",
       "tags": [
@@ -1381,17 +1499,17 @@
       ]
     },
     {
-      "name": "antispamsticker",
-      "aliases": null,
+      "name": "antispam",
+      "aliases": [],
       "category": "group",
-      "path": "/commands/group/antispamsticker",
+      "path": "/commands/group/antispam",
       "tags": [
-        "antispamsticker"
+        "antispam"
       ]
     },
     {
       "name": "antisw",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/antisw",
       "tags": [
@@ -1400,7 +1518,7 @@
     },
     {
       "name": "antitagsw",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/antitagsw",
       "tags": [
@@ -1409,7 +1527,7 @@
     },
     {
       "name": "autorespon",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/autorespon",
       "tags": [
@@ -1418,7 +1536,7 @@
     },
     {
       "name": "badword",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/badword",
       "tags": [
@@ -1427,7 +1545,7 @@
     },
     {
       "name": "ban-chat",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/ban-chat",
       "tags": [
@@ -1437,7 +1555,7 @@
     },
     {
       "name": "ban-member",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/ban-member",
       "tags": [
@@ -1447,7 +1565,7 @@
     },
     {
       "name": "banlist",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/banlist",
       "tags": [
@@ -1456,7 +1574,7 @@
     },
     {
       "name": "cekbotadmin",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/cekbotadmin",
       "tags": [
@@ -1466,7 +1584,7 @@
     },
     {
       "name": "cektanpagrup",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/cektanpagrup",
       "tags": [
@@ -1475,7 +1593,7 @@
     },
     {
       "name": "close",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/close",
       "tags": [
@@ -1485,7 +1603,7 @@
     },
     {
       "name": "cmd",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/cmd",
       "tags": [
@@ -1494,7 +1612,7 @@
     },
     {
       "name": "delete",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/delete",
       "tags": [
@@ -1505,7 +1623,7 @@
     },
     {
       "name": "demote",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/demote",
       "tags": [
@@ -1514,7 +1632,7 @@
     },
     {
       "name": "ephemeral",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/ephemeral",
       "tags": [
@@ -1523,7 +1641,7 @@
     },
     {
       "name": "group-stats",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/group-stats",
       "tags": [
@@ -1534,7 +1652,7 @@
     },
     {
       "name": "groupid",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/groupid",
       "tags": [
@@ -1543,7 +1661,7 @@
     },
     {
       "name": "groupinfo",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/groupinfo",
       "tags": [
@@ -1554,7 +1672,7 @@
     },
     {
       "name": "groupprefix",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/groupprefix",
       "tags": [
@@ -1565,7 +1683,7 @@
     },
     {
       "name": "groupsettings",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/groupsettings",
       "tags": [
@@ -1575,7 +1693,7 @@
     },
     {
       "name": "hidetag",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/hidetag",
       "tags": [
@@ -1586,7 +1704,7 @@
     },
     {
       "name": "info",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/info",
       "tags": [
@@ -1594,8 +1712,17 @@
       ]
     },
     {
+      "name": "jockey",
+      "aliases": [],
+      "category": "group",
+      "path": "/commands/group/jockey",
+      "tags": [
+        "jockey"
+      ]
+    },
+    {
       "name": "joinreq",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/joinreq",
       "tags": [
@@ -1604,17 +1731,20 @@
     },
     {
       "name": "leave-group",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/leave-group",
       "tags": [
         "leave-group",
-        "leavegc"
+        "leavegc",
+        "leavebot",
+        "leave-bot",
+        "leave"
       ]
     },
     {
       "name": "left",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/left",
       "tags": [
@@ -1623,7 +1753,7 @@
     },
     {
       "name": "linkgc",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/linkgc",
       "tags": [
@@ -1634,7 +1764,7 @@
     },
     {
       "name": "listaktif",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/listaktif",
       "tags": [
@@ -1643,7 +1773,7 @@
     },
     {
       "name": "listban",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/listban",
       "tags": [
@@ -1652,7 +1782,7 @@
     },
     {
       "name": "listmute",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/listmute",
       "tags": [
@@ -1662,7 +1792,7 @@
     },
     {
       "name": "listtimezone",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/listtimezone",
       "tags": [
@@ -1673,7 +1803,7 @@
     },
     {
       "name": "listwarning",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/listwarning",
       "tags": [
@@ -1683,7 +1813,7 @@
     },
     {
       "name": "mutemember",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/mutemember",
       "tags": [
@@ -1693,7 +1823,7 @@
     },
     {
       "name": "nsfw",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/general/nsfw",
       "tags": [
@@ -1703,7 +1833,7 @@
     },
     {
       "name": "open",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/open",
       "tags": [
@@ -1713,7 +1843,7 @@
     },
     {
       "name": "promote",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/promote",
       "tags": [
@@ -1721,8 +1851,17 @@
       ]
     },
     {
+      "name": "reminder",
+      "aliases": [],
+      "category": "group",
+      "path": "/commands/group/reminder",
+      "tags": [
+        "reminder"
+      ]
+    },
+    {
       "name": "remove",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/remove",
       "tags": [
@@ -1731,7 +1870,7 @@
     },
     {
       "name": "resetwarn",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/resetwarn",
       "tags": [
@@ -1741,7 +1880,7 @@
     },
     {
       "name": "revoke",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/revoke",
       "tags": [
@@ -1752,7 +1891,7 @@
     },
     {
       "name": "set-goodbye",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/set-goodbye",
       "tags": [
@@ -1762,7 +1901,7 @@
     },
     {
       "name": "set-lang",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/set-lang",
       "tags": [
@@ -1774,7 +1913,7 @@
     },
     {
       "name": "set-welcome",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/set-welcome",
       "tags": [
@@ -1784,7 +1923,7 @@
     },
     {
       "name": "setdesc",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/setdesc",
       "tags": [
@@ -1793,7 +1932,7 @@
     },
     {
       "name": "setppgc",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/setppgc",
       "tags": [
@@ -1806,7 +1945,7 @@
     },
     {
       "name": "setschedule",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/setschedule",
       "tags": [
@@ -1817,7 +1956,7 @@
     },
     {
       "name": "setsubject",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/setsubject",
       "tags": [
@@ -1826,7 +1965,7 @@
     },
     {
       "name": "settimezone",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/settimezone",
       "tags": [
@@ -1835,7 +1974,7 @@
     },
     {
       "name": "sider",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/sider",
       "tags": [
@@ -1844,7 +1983,7 @@
     },
     {
       "name": "simulategoodbye",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/simulategoodbye",
       "tags": [
@@ -1854,7 +1993,7 @@
     },
     {
       "name": "simulatewelcome",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/simulatewelcome",
       "tags": [
@@ -1864,7 +2003,7 @@
     },
     {
       "name": "sync-group",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/sync-group",
       "tags": [
@@ -1873,7 +2012,7 @@
     },
     {
       "name": "tagall",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/tagall",
       "tags": [
@@ -1883,7 +2022,7 @@
     },
     {
       "name": "top-active",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/top-active",
       "tags": [
@@ -1893,8 +2032,17 @@
       ]
     },
     {
+      "name": "trustbot",
+      "aliases": [],
+      "category": "group",
+      "path": "/commands/group/trustbot",
+      "tags": [
+        "trustbot"
+      ]
+    },
+    {
       "name": "unban-chat",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/unban-chat",
       "tags": [
@@ -1904,7 +2052,7 @@
     },
     {
       "name": "unban-member",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/unban-member",
       "tags": [
@@ -1914,7 +2062,7 @@
     },
     {
       "name": "unmute-member",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/unmute-member",
       "tags": [
@@ -1924,7 +2072,7 @@
     },
     {
       "name": "upswgc",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/upswgc",
       "tags": [
@@ -1934,7 +2082,7 @@
     },
     {
       "name": "warn",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/warn",
       "tags": [
@@ -1943,7 +2091,7 @@
     },
     {
       "name": "warnings",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/warnings",
       "tags": [
@@ -1953,7 +2101,7 @@
     },
     {
       "name": "welcome",
-      "aliases": null,
+      "aliases": [],
       "category": "group",
       "path": "/commands/group/welcome",
       "tags": [
@@ -1961,8 +2109,35 @@
       ]
     },
     {
+      "name": "fakethumbnail",
+      "aliases": [],
+      "category": "media",
+      "path": "/commands/media/fakethumbnail",
+      "tags": [
+        "fakethumbnail"
+      ]
+    },
+    {
+      "name": "fotolive",
+      "aliases": [],
+      "category": "media",
+      "path": "/commands/media/fotolive",
+      "tags": [
+        "fotolive"
+      ]
+    },
+    {
+      "name": "toptv",
+      "aliases": [],
+      "category": "media",
+      "path": "/commands/media/toptv",
+      "tags": [
+        "toptv"
+      ]
+    },
+    {
       "name": "banlist",
-      "aliases": null,
+      "aliases": [],
       "category": "owner",
       "path": "/commands/group/banlist",
       "tags": [
@@ -1971,7 +2146,7 @@
     },
     {
       "name": "afk",
-      "aliases": null,
+      "aliases": [],
       "category": "profile",
       "path": "/commands/profile/afk",
       "tags": [
@@ -1980,7 +2155,7 @@
     },
     {
       "name": "cekpremium",
-      "aliases": null,
+      "aliases": [],
       "category": "profile",
       "path": "/commands/profile/cekpremium",
       "tags": [
@@ -1989,7 +2164,7 @@
     },
     {
       "name": "change-password",
-      "aliases": null,
+      "aliases": [],
       "category": "profile",
       "path": "/commands/profile/change-password",
       "tags": [
@@ -1999,7 +2174,7 @@
     },
     {
       "name": "getpp",
-      "aliases": null,
+      "aliases": [],
       "category": "profile",
       "path": "/commands/profile/getpp",
       "tags": [
@@ -2009,7 +2184,7 @@
     },
     {
       "name": "level",
-      "aliases": null,
+      "aliases": [],
       "category": "profile",
       "path": "/commands/profile/level",
       "tags": [
@@ -2018,7 +2193,7 @@
     },
     {
       "name": "profile",
-      "aliases": null,
+      "aliases": [],
       "category": "profile",
       "path": "/commands/profile/profile",
       "tags": [
@@ -2028,7 +2203,7 @@
     },
     {
       "name": "setage",
-      "aliases": null,
+      "aliases": [],
       "category": "profile",
       "path": "/commands/profile/setage",
       "tags": [
@@ -2038,7 +2213,7 @@
     },
     {
       "name": "setbio",
-      "aliases": null,
+      "aliases": [],
       "category": "profile",
       "path": "/commands/profile/setbio",
       "tags": [
@@ -2048,7 +2223,7 @@
     },
     {
       "name": "setgender",
-      "aliases": null,
+      "aliases": [],
       "category": "profile",
       "path": "/commands/profile/setgender",
       "tags": [
@@ -2058,7 +2233,7 @@
     },
     {
       "name": "setname",
-      "aliases": null,
+      "aliases": [],
       "category": "profile",
       "path": "/commands/profile/setname",
       "tags": [
@@ -2068,7 +2243,7 @@
     },
     {
       "name": "setprefix",
-      "aliases": null,
+      "aliases": [],
       "category": "profile",
       "path": "/commands/profile/setprefix",
       "tags": [
@@ -2078,7 +2253,7 @@
     },
     {
       "name": "google",
-      "aliases": null,
+      "aliases": [],
       "category": "search",
       "path": "/commands/search/google",
       "tags": [
@@ -2089,7 +2264,7 @@
     },
     {
       "name": "jadwalsholat",
-      "aliases": null,
+      "aliases": [],
       "category": "search",
       "path": "/commands/search/jadwalsholat",
       "tags": [
@@ -2098,7 +2273,7 @@
     },
     {
       "name": "lyric",
-      "aliases": null,
+      "aliases": [],
       "category": "search",
       "path": "/commands/search/lyric",
       "tags": [
@@ -2109,7 +2284,7 @@
     },
     {
       "name": "pinterest",
-      "aliases": null,
+      "aliases": [],
       "category": "search",
       "path": "/commands/search/pinterest",
       "tags": [
@@ -2119,7 +2294,7 @@
     },
     {
       "name": "pinterest video",
-      "aliases": null,
+      "aliases": [],
       "category": "search",
       "path": "/commands/search/pinterest video",
       "tags": [
@@ -2130,7 +2305,7 @@
     },
     {
       "name": "saucenao",
-      "aliases": null,
+      "aliases": [],
       "category": "search",
       "path": "/commands/search/saucenao",
       "tags": [
@@ -2141,7 +2316,7 @@
     },
     {
       "name": "wallhaven",
-      "aliases": null,
+      "aliases": [],
       "category": "search",
       "path": "/commands/search/wallhaven",
       "tags": [
@@ -2151,7 +2326,7 @@
     },
     {
       "name": "ytms",
-      "aliases": null,
+      "aliases": [],
       "category": "search",
       "path": "/commands/youtube/ytms",
       "tags": [
@@ -2161,7 +2336,7 @@
     },
     {
       "name": "yts",
-      "aliases": null,
+      "aliases": [],
       "category": "search",
       "path": "/commands/youtube/yts",
       "tags": [
@@ -2171,7 +2346,7 @@
     },
     {
       "name": "audioeffect",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/audioeffect",
       "tags": [
@@ -2180,7 +2355,7 @@
     },
     {
       "name": "barcode",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/barcode",
       "tags": [
@@ -2188,17 +2363,8 @@
       ]
     },
     {
-      "name": "base64",
-      "aliases": null,
-      "category": "tools",
-      "path": "/commands/tools/base64",
-      "tags": [
-        "base64"
-      ]
-    },
-    {
       "name": "bestframe",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/bestframe",
       "tags": [
@@ -2206,8 +2372,17 @@
       ]
     },
     {
+      "name": "blur",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/blur",
+      "tags": [
+        "blur"
+      ]
+    },
+    {
       "name": "brat",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/brat",
       "tags": [
@@ -2222,12 +2397,21 @@
         "jbratvideo",
         "tbrat",
         "tbratvid",
-        "tbratvideo"
+        "tbratvideo",
+        "brat2",
+        "brat2vid",
+        "brat2video",
+        "brat3",
+        "brat3vid",
+        "brat3video",
+        "brat4",
+        "brat4vid",
+        "brat4video"
       ]
     },
     {
       "name": "calculator",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/calculator",
       "tags": [
@@ -2238,7 +2422,7 @@
     },
     {
       "name": "color",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/color",
       "tags": [
@@ -2247,7 +2431,7 @@
     },
     {
       "name": "compress",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/compress",
       "tags": [
@@ -2256,7 +2440,7 @@
     },
     {
       "name": "crop",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/crop",
       "tags": [
@@ -2264,8 +2448,17 @@
       ]
     },
     {
+      "name": "decode",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/decode",
+      "tags": [
+        "decode"
+      ]
+    },
+    {
       "name": "emojimix",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/emojimix",
       "tags": [
@@ -2274,8 +2467,17 @@
       ]
     },
     {
+      "name": "encode",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/encode",
+      "tags": [
+        "encode"
+      ]
+    },
+    {
       "name": "flip",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/flip",
       "tags": [
@@ -2284,7 +2486,7 @@
     },
     {
       "name": "getexif",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/getexif",
       "tags": [
@@ -2293,7 +2495,7 @@
     },
     {
       "name": "getidch",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/getidch",
       "tags": [
@@ -2302,7 +2504,7 @@
     },
     {
       "name": "getmedia",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/getmedia",
       "tags": [
@@ -2311,7 +2513,7 @@
     },
     {
       "name": "getmsgid",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/getmsgid",
       "tags": [
@@ -2319,17 +2521,8 @@
       ]
     },
     {
-      "name": "hex",
-      "aliases": null,
-      "category": "tools",
-      "path": "/commands/tools/hex",
-      "tags": [
-        "hex"
-      ]
-    },
-    {
       "name": "humming",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/humming",
       "tags": [
@@ -2338,7 +2531,7 @@
     },
     {
       "name": "iqc",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/iqc",
       "tags": [
@@ -2346,8 +2539,19 @@
       ]
     },
     {
+      "name": "jadiburik",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/jadiburik",
+      "tags": [
+        "jadiburik",
+        "burik",
+        "lowquality"
+      ]
+    },
+    {
       "name": "jwt",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/jwt",
       "tags": [
@@ -2356,7 +2560,7 @@
     },
     {
       "name": "lang",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/lang",
       "tags": [
@@ -2366,7 +2570,7 @@
     },
     {
       "name": "lens",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/lens",
       "tags": [
@@ -2376,7 +2580,7 @@
     },
     {
       "name": "lorem",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/lorem",
       "tags": [
@@ -2385,7 +2589,7 @@
     },
     {
       "name": "lower",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/lower",
       "tags": [
@@ -2394,7 +2598,7 @@
     },
     {
       "name": "mediaquality",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/mediaquality",
       "tags": [
@@ -2403,17 +2607,8 @@
       ]
     },
     {
-      "name": "morse",
-      "aliases": null,
-      "category": "tools",
-      "path": "/commands/tools/morse",
-      "tags": [
-        "morse"
-      ]
-    },
-    {
       "name": "ocr",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/ocr",
       "tags": [
@@ -2421,8 +2616,18 @@
       ]
     },
     {
+      "name": "pesan",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/pesan",
+      "tags": [
+        "msg",
+        "pesan"
+      ]
+    },
+    {
       "name": "pixelate",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/pixelate",
       "tags": [
@@ -2432,7 +2637,7 @@
     },
     {
       "name": "qc",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/qc",
       "tags": [
@@ -2445,7 +2650,7 @@
     },
     {
       "name": "qr",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/qr",
       "tags": [
@@ -2453,8 +2658,18 @@
       ]
     },
     {
+      "name": "readmore",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/readmore",
+      "tags": [
+        "readmore",
+        "spoiler"
+      ]
+    },
+    {
       "name": "readqris",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/readqris",
       "tags": [
@@ -2463,7 +2678,7 @@
     },
     {
       "name": "removebg",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/removebg",
       "tags": [
@@ -2474,7 +2689,7 @@
     },
     {
       "name": "resize",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/resize",
       "tags": [
@@ -2483,7 +2698,7 @@
     },
     {
       "name": "reverse",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/reverse",
       "tags": [
@@ -2492,7 +2707,7 @@
     },
     {
       "name": "romanize",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/romanize",
       "tags": [
@@ -2503,7 +2718,7 @@
     },
     {
       "name": "rotate",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/rotate",
       "tags": [
@@ -2512,7 +2727,7 @@
     },
     {
       "name": "setqris",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/setqris",
       "tags": [
@@ -2521,7 +2736,7 @@
     },
     {
       "name": "smeme",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/smeme",
       "tags": [
@@ -2533,7 +2748,7 @@
     },
     {
       "name": "smooth",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/smooth",
       "tags": [
@@ -2542,7 +2757,7 @@
     },
     {
       "name": "ssweb",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/ssweb",
       "tags": [
@@ -2553,7 +2768,7 @@
     },
     {
       "name": "stabilize",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/stabilize",
       "tags": [
@@ -2562,7 +2777,7 @@
     },
     {
       "name": "sticker",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/sticker",
       "tags": [
@@ -2574,7 +2789,7 @@
     },
     {
       "name": "todocmsg",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/todocmsg",
       "tags": [
@@ -2584,7 +2799,7 @@
     },
     {
       "name": "tomp3",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/tomp3",
       "tags": [
@@ -2595,7 +2810,7 @@
     },
     {
       "name": "translate",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/translate",
       "tags": [
@@ -2606,7 +2821,7 @@
     },
     {
       "name": "trim",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/trim",
       "tags": [
@@ -2615,7 +2830,7 @@
     },
     {
       "name": "tts",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/tts",
       "tags": [
@@ -2625,7 +2840,7 @@
     },
     {
       "name": "tts-ai",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/tts-ai",
       "tags": [
@@ -2636,7 +2851,7 @@
     },
     {
       "name": "upload",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/upload",
       "tags": [
@@ -2646,7 +2861,7 @@
     },
     {
       "name": "upper",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/upper",
       "tags": [
@@ -2655,7 +2870,7 @@
     },
     {
       "name": "upscaler",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/upscaler",
       "tags": [
@@ -2667,7 +2882,7 @@
     },
     {
       "name": "whatmusic",
-      "aliases": null,
+      "aliases": [],
       "category": "tools",
       "path": "/commands/tools/whatmusic",
       "tags": [
@@ -2677,7 +2892,7 @@
     },
     {
       "name": "album",
-      "aliases": null,
+      "aliases": [],
       "category": "youtube",
       "path": "/commands/youtube/album",
       "tags": [
@@ -2686,7 +2901,7 @@
     },
     {
       "name": "play",
-      "aliases": null,
+      "aliases": [],
       "category": "youtube",
       "path": "/commands/youtube/play",
       "tags": [
@@ -2695,7 +2910,7 @@
     },
     {
       "name": "play-downloader",
-      "aliases": null,
+      "aliases": [],
       "category": "youtube",
       "path": "/commands/youtube/play-downloader",
       "tags": [
@@ -2704,7 +2919,7 @@
     },
     {
       "name": "play2",
-      "aliases": null,
+      "aliases": [],
       "category": "youtube",
       "path": "/commands/youtube/play2",
       "tags": [
@@ -2713,7 +2928,7 @@
     },
     {
       "name": "yt",
-      "aliases": null,
+      "aliases": [],
       "category": "youtube",
       "path": "/commands/youtube/yt",
       "tags": [
@@ -2723,7 +2938,7 @@
     },
     {
       "name": "ytmp3",
-      "aliases": null,
+      "aliases": [],
       "category": "youtube",
       "path": "/commands/youtube/ytmp3",
       "tags": [
@@ -2732,7 +2947,7 @@
     },
     {
       "name": "ytmp4",
-      "aliases": null,
+      "aliases": [],
       "category": "youtube",
       "path": "/commands/youtube/ytmp4",
       "tags": [
@@ -2742,7 +2957,7 @@
     },
     {
       "name": "ytms",
-      "aliases": null,
+      "aliases": [],
       "category": "youtube",
       "path": "/commands/youtube/ytms",
       "tags": [
@@ -2752,7 +2967,7 @@
     },
     {
       "name": "yts",
-      "aliases": null,
+      "aliases": [],
       "category": "youtube",
       "path": "/commands/youtube/yts",
       "tags": [

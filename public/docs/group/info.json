@@ -15,8 +15,8 @@
     "info"
   ],
   "description": {
-    "en": "Configure group notification",
-    "id": "Atur notifikasi grup"
+    "id": "Atur notifikasi grup",
+    "en": "Configure group notification"
   },
   "usage": "info",
   "examples": [
@@ -33,8 +33,8 @@
     "group_community"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true
+    "group_community": true,
+    "group": true
   },
   "permissions": {
     "admin": true,
@@ -70,5 +70,5 @@
     "file": "internal/plugins/group",
     "line": 1
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

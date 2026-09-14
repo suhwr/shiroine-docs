@@ -15,8 +15,8 @@
     "afk"
   ],
   "description": {
-    "en": "Set AFK status with reason",
-    "id": "Set status AFK dengan alasan"
+    "id": "Set status AFK dengan alasan",
+    "en": "Set AFK status with reason"
   },
   "usage": "afk",
   "examples": [
@@ -36,10 +36,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true,
+    "group_community": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -69,7 +69,7 @@
   },
   "source": {
     "file": "internal/plugins/profile",
-    "line": 40
+    "line": 41
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

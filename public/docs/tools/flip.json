@@ -15,8 +15,8 @@
     "flip"
   ],
   "description": {
-    "en": "Flip image horizontally (h) or vertically (v)",
-    "id": "Balik gambar secara horizontal (h) atau vertikal (v)"
+    "id": "Balik gambar/video secara horizontal (h) atau vertikal (v)",
+    "en": "Flip image/video horizontally (h) or vertically (v)"
   },
   "usage": "flip",
   "examples": [
@@ -26,7 +26,8 @@
   "minArgs": 0,
   "args": {},
   "requireMedia": [
-    "image"
+    "image",
+    "video"
   ],
   "chatPermissions": [
     "private",
@@ -35,10 +36,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -68,7 +69,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 771
+    "line": 802
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

@@ -15,8 +15,8 @@
     "autodelete"
   ],
   "description": {
-    "en": "Enable/disable automatic chat deletion every midnight",
-    "id": "Aktifkan/nonaktifkan penghapusan chat otomatis setiap tengah malam"
+    "id": "Aktifkan/nonaktifkan penghapusan chat otomatis setiap tengah malam",
+    "en": "Enable/disable automatic chat deletion every midnight"
   },
   "usage": "autodelete",
   "examples": [
@@ -61,7 +61,7 @@
   },
   "source": {
     "file": "internal/plugins/bot",
-    "line": 133
+    "line": 134
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

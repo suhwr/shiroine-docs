@@ -19,8 +19,8 @@
     "rbg"
   ],
   "description": {
-    "en": "Remove image background using AI (providers: aiease, pixelcut, removebg)",
-    "id": "Hapus background gambar menggunakan AI (provider: aiease, pixelcut, removebg)"
+    "id": "Hapus background gambar menggunakan AI (provider: aiease, pixelcut, removebg)",
+    "en": "Remove image background using AI (providers: aiease, pixelcut, removebg)"
   },
   "usage": "removebg",
   "examples": [
@@ -46,10 +46,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -81,5 +81,5 @@
     "file": "internal/plugins/tools",
     "line": 92
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

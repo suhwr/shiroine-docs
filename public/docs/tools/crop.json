@@ -15,8 +15,8 @@
     "crop"
   ],
   "description": {
-    "en": "Crop image: ratio (4:3), center, free, or x/y coordinates",
-    "id": "Crop gambar: rasio (4:3), center, free, atau koordinat x/y"
+    "id": "Crop gambar: rasio (4:3), center, free, atau koordinat x/y",
+    "en": "Crop image: ratio (4:3), center, free, or x/y coordinates"
   },
   "usage": "crop",
   "examples": [
@@ -73,7 +73,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 721
+    "line": 752
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

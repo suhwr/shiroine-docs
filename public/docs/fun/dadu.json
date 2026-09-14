@@ -17,8 +17,8 @@
     "dice"
   ],
   "description": {
-    "en": "Roll a random dice 1–6, optionally guess the number",
-    "id": "Lempar dadu random 1–6, opsional tebak angkanya"
+    "id": "Lempar dadu random 1–6, opsional tebak angkanya",
+    "en": "Roll a random dice 1–6, optionally guess the number"
   },
   "usage": "dadu",
   "examples": [
@@ -35,10 +35,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true,
+    "group_community": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -70,5 +70,5 @@
     "file": "internal/plugins/fun",
     "line": 113
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

@@ -17,8 +17,8 @@
     "set-gender"
   ],
   "description": {
-    "en": "Set profile gender",
-    "id": "Mengatur gender profil"
+    "id": "Mengatur gender profil",
+    "en": "Set profile gender"
   },
   "usage": "setgender <teks>",
   "examples": [
@@ -36,10 +36,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -55,9 +55,9 @@
   "disabled": false,
   "disabledReason": "",
   "customArgsMessage": {
-    "_default": "MissingArguments",
+    "id": "❌ Masukkan gender. Contoh: `setgender male`",
     "en": "❌ Enter gender. Example: `setgender male`",
-    "id": "❌ Masukkan gender. Contoh: `setgender male`"
+    "_default": "MissingArguments"
   },
   "status": {
     "enabled": true,
@@ -71,7 +71,7 @@
   },
   "source": {
     "file": "internal/plugins/profile",
-    "line": 48
+    "line": 49
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

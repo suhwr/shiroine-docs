@@ -1,0 +1,72 @@
+{
+  "name": "readmore",
+  "commands": [
+    "readmore",
+    "spoiler"
+  ],
+  "aliases": [],
+  "display": [
+    "readmore"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "readmore",
+    "spoiler"
+  ],
+  "description": {
+    "en": "Create a message with a 'Read more' button.",
+    "id": "Membuat pesan dengan tombol 'Baca selengkapnya' atau 'Read more'."
+  },
+  "usage": "readmore",
+  "examples": [
+    "readmore Halo|Ini rahasia",
+    "readmore Hello|This is secret"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "private": true,
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 56
+  },
+  "lastUpdated": "2026-09-14T08:16:26Z"
+}

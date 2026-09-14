@@ -17,8 +17,8 @@
     "unmute-member"
   ],
   "description": {
-    "en": "Unmute a specific user in group",
-    "id": "Unmute user spesifik di grup"
+    "id": "Unmute user spesifik di grup",
+    "en": "Unmute a specific user in group"
   },
   "usage": "unmute-member",
   "examples": [
@@ -36,9 +36,9 @@
     "group_community": true
   },
   "permissions": {
+    "subowner": true,
     "admin": true,
-    "owner": true,
-    "subowner": true
+    "owner": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -67,7 +67,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 188
+    "line": 235
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

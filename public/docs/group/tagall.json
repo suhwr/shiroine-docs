@@ -17,8 +17,8 @@
     "tag"
   ],
   "description": {
-    "en": "Tag all members with neat format",
-    "id": "Tag semua member dengan format rapi"
+    "id": "Tag semua member dengan format rapi",
+    "en": "Tag all members with neat format"
   },
   "usage": "tagall",
   "examples": [
@@ -33,13 +33,13 @@
     "group_community"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true
+    "group_community": true,
+    "group": true
   },
   "permissions": {
-    "admin": true,
     "owner": true,
-    "subowner": true
+    "subowner": true,
+    "admin": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -68,7 +68,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 129
+    "line": 130
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

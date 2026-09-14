@@ -19,21 +19,21 @@
       ]
     },
     {
-      "name": "base64",
-      "description": "Encode or decode text with Base64",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "base64"
-      ]
-    },
-    {
       "name": "bestframe",
       "description": "Extract the best frame from a video based on visual quality (sharpness, blur, etc.)",
       "permissions": {},
       "premiumOnly": "all",
       "tags": [
         "bestframe"
+      ]
+    },
+    {
+      "name": "blur",
+      "description": "Apply blur effect to an image (gaussian, box, motion, pixelate).",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "blur"
       ]
     },
     {
@@ -53,7 +53,16 @@
         "jbratvideo",
         "tbrat",
         "tbratvid",
-        "tbratvideo"
+        "tbratvideo",
+        "brat2",
+        "brat2vid",
+        "brat2video",
+        "brat3",
+        "brat3vid",
+        "brat3video",
+        "brat4",
+        "brat4vid",
+        "brat4video"
       ]
     },
     {
@@ -95,6 +104,15 @@
       ]
     },
     {
+      "name": "decode",
+      "description": "Decode text from various formats (base64, hex, morse, etc)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "decode"
+      ]
+    },
+    {
       "name": "emojimix",
       "description": "Mix two emojis into one (Emoji Kitchen)",
       "permissions": {},
@@ -105,8 +123,17 @@
       ]
     },
     {
+      "name": "encode",
+      "description": "Encode text to various formats (base64, hex, morse, etc)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "encode"
+      ]
+    },
+    {
       "name": "flip",
-      "description": "Flip image horizontally (h) or vertically (v)",
+      "description": "Flip image/video horizontally (h) or vertically (v)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -150,15 +177,6 @@
       ]
     },
     {
-      "name": "hex",
-      "description": "Encode or decode text with Hex",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "hex"
-      ]
-    },
-    {
       "name": "humming",
       "description": "Find song by humming (send or reply to your humming audio then type the command)",
       "permissions": {},
@@ -174,6 +192,17 @@
       "premiumOnly": "",
       "tags": [
         "iqc"
+      ]
+    },
+    {
+      "name": "jadiburik",
+      "description": "Drastically lower the quality of media (image, audio, video).",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "jadiburik",
+        "burik",
+        "lowquality"
       ]
     },
     {
@@ -234,21 +263,22 @@
       ]
     },
     {
-      "name": "morse",
-      "description": "Encode or decode text with Morse code",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "morse"
-      ]
-    },
-    {
       "name": "ocr",
       "description": "Extract text from image",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
         "ocr"
+      ]
+    },
+    {
+      "name": "pesan",
+      "description": "Inspect incoming WhatsApp message parameters as JSON",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "msg",
+        "pesan"
       ]
     },
     {
@@ -281,6 +311,16 @@
       "premiumOnly": "",
       "tags": [
         "qr"
+      ]
+    },
+    {
+      "name": "readmore",
+      "description": "Create a message with a 'Read more' button.",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "readmore",
+        "spoiler"
       ]
     },
     {

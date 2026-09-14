@@ -17,8 +17,8 @@
     "cba"
   ],
   "description": {
-    "en": "Check list of bots that are admin in this group",
-    "id": "Cek daftar bot yang menjadi admin di grup ini"
+    "id": "Cek daftar bot yang menjadi admin di grup ini",
+    "en": "Check list of bots that are admin in this group"
   },
   "usage": "cekbotadmin",
   "examples": [
@@ -67,7 +67,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 213
+    "line": 215
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

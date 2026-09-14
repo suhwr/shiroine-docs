@@ -15,8 +15,8 @@
     "play-downloader"
   ],
   "description": {
-    "en": "Download song from YouTube URL",
-    "id": "Unduh lagu dari URL YouTube"
+    "id": "Unduh lagu dari URL YouTube",
+    "en": "Download song from YouTube URL"
   },
   "usage": "play-downloader",
   "examples": [
@@ -32,10 +32,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -65,7 +65,7 @@
   },
   "source": {
     "file": "internal/plugins/youtube",
-    "line": 551
+    "line": 580
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

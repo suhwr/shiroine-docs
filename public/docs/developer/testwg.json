@@ -1,29 +1,28 @@
 {
-  "name": "morse",
+  "name": "testwg",
   "commands": [
-    "morse"
+    "testwg"
   ],
   "aliases": [],
   "display": [
-    "morse"
+    "testwg"
   ],
-  "category": "tools",
+  "category": "developer",
   "categories": [
-    "tools"
+    "developer"
   ],
   "tags": [
-    "morse"
+    "testwg"
   ],
   "description": {
-    "en": "Encode or decode text with Morse code",
-    "id": "Encode atau decode teks dengan kode Morse"
+    "id": "Test welcome or goodbye generator directly",
+    "en": "Test welcome or goodbye generator directly"
   },
-  "usage": "morse <teks>",
+  "usage": "testwg",
   "examples": [
-    "morse e hello world",
-    "morse d .... . .-.. .-.. --- / .-- --- .-. .-.. -.."
+    "testwg welcome"
   ],
-  "minArgs": 2,
+  "minArgs": 0,
   "args": {},
   "requireMedia": [],
   "chatPermissions": [
@@ -33,12 +32,14 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
     "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true
   },
-  "permissions": {},
+  "permissions": {
+    "owner": true
+  },
   "premiumOnly": "",
   "nsfwOnly": false,
   "level": 0,
@@ -65,8 +66,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/tools",
-    "line": 36
+    "file": "internal/plugins/developer",
+    "line": 18
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

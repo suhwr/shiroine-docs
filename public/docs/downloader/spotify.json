@@ -15,8 +15,8 @@
     "spotify"
   ],
   "description": {
-    "en": "Download or search music from Spotify",
-    "id": "Download atau cari musik dari Spotify"
+    "id": "Download atau cari musik dari Spotify",
+    "en": "Download or search music from Spotify"
   },
   "usage": "spotify",
   "examples": [
@@ -34,10 +34,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true,
+    "group_community": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -69,5 +69,5 @@
     "file": "internal/plugins/downloader",
     "line": 257
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

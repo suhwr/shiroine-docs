@@ -15,8 +15,8 @@
     "cektanpagrup"
   ],
   "description": {
-    "en": "Check community members who haven't joined any subgroup.",
-    "id": "Periksa anggota komunitas yang belum bergabung ke grup mana pun."
+    "id": "Periksa anggota komunitas yang belum bergabung ke grup mana pun.",
+    "en": "Check community members who haven't joined any subgroup."
   },
   "usage": "cektanpagrup",
   "examples": [
@@ -65,5 +65,5 @@
     "file": "internal/plugins/group",
     "line": 90
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

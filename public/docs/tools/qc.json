@@ -23,8 +23,8 @@
     "tsqc"
   ],
   "description": {
-    "en": "Create chat quotes from text/images",
-    "id": "Buat quote chat dari teks/gambar"
+    "id": "Buat quote chat dari teks/gambar",
+    "en": "Create chat quotes from text/images"
   },
   "usage": "qc",
   "examples": [
@@ -41,10 +41,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true,
+    "group_community": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -74,7 +74,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 115
+    "line": 129
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

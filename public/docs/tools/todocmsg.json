@@ -17,8 +17,8 @@
     "todoc"
   ],
   "description": {
-    "en": "Convert media (image/video/audio) into a document message",
-    "id": "Ubah media (gambar/video/audio) menjadi pesan dokumen"
+    "id": "Ubah media (gambar/video/audio) menjadi pesan dokumen",
+    "en": "Convert media (image/video/audio) into a document message"
   },
   "usage": "todocmsg",
   "examples": [
@@ -35,10 +35,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -70,5 +70,5 @@
     "file": "internal/plugins/tools",
     "line": 81
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

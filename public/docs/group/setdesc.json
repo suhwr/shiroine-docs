@@ -15,8 +15,8 @@
     "setdesc"
   ],
   "description": {
-    "en": "Change group description",
-    "id": "Ubah deskripsi grup"
+    "id": "Ubah deskripsi grup",
+    "en": "Change group description"
   },
   "usage": "setdesc",
   "examples": [
@@ -68,5 +68,5 @@
     "file": "internal/plugins/group",
     "line": 76
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

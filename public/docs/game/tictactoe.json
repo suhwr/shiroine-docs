@@ -17,8 +17,8 @@
     "ttt"
   ],
   "description": {
-    "en": "Play Tictactoe with 2 players in group",
-    "id": "Main Tictactoe 2 orang di grup"
+    "id": "Main Tictactoe 2 orang di grup",
+    "en": "Play Tictactoe with 2 players in group"
   },
   "usage": "tictactoe",
   "examples": [
@@ -63,7 +63,7 @@
   },
   "source": {
     "file": "internal/plugins/game",
-    "line": 629
+    "line": 635
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

@@ -17,8 +17,8 @@
     "languages"
   ],
   "description": {
-    "en": "Show the list of languages supported by the translate plugin",
-    "id": "Tampilkan daftar bahasa yang didukung plugin translate"
+    "id": "Tampilkan daftar bahasa yang didukung plugin translate",
+    "en": "Show the list of languages supported by the translate plugin"
   },
   "usage": "lang",
   "examples": [
@@ -34,10 +34,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -69,5 +69,5 @@
     "file": "internal/plugins/tools",
     "line": 35
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

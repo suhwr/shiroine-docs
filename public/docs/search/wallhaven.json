@@ -17,8 +17,8 @@
     "wh"
   ],
   "description": {
-    "en": "Search and download wallpapers from Wallhaven",
-    "id": "Cari dan download wallpaper dari Wallhaven"
+    "id": "Cari dan download wallpaper dari Wallhaven",
+    "en": "Search and download wallpapers from Wallhaven"
   },
   "usage": "wallhaven <teks>",
   "examples": [
@@ -36,10 +36,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -69,7 +69,7 @@
   },
   "source": {
     "file": "internal/plugins/search",
-    "line": 90
+    "line": 91
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

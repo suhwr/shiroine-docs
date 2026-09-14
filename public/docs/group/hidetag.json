@@ -19,8 +19,8 @@
     "h"
   ],
   "description": {
-    "en": "Tag all members hidden",
-    "id": "Tag semua member secara tersembunyi"
+    "id": "Tag semua member secara tersembunyi",
+    "en": "Tag all members hidden"
   },
   "usage": "hidetag",
   "examples": [
@@ -72,7 +72,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 103
+    "line": 104
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

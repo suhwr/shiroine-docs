@@ -44,10 +44,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {
     "owner": true
@@ -79,7 +79,7 @@
   },
   "source": {
     "file": "internal/plugins/developer",
-    "line": 254
+    "line": 255
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }

@@ -17,8 +17,8 @@
     "ga"
   ],
   "description": {
-    "en": "View group achievements",
-    "id": "Lihat achievement grup"
+    "id": "Lihat achievement grup",
+    "en": "View group achievements"
   },
   "usage": "groupachievements",
   "examples": [
@@ -63,7 +63,7 @@
   },
   "source": {
     "file": "internal/plugins/game",
-    "line": 691
+    "line": 726
   },
-  "lastUpdated": "2026-08-18T07:02:07Z"
+  "lastUpdated": "2026-09-14T08:16:26Z"
 }
