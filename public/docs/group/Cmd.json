@@ -1,0 +1,72 @@
+{
+  "name": "Cmd",
+  "commands": [
+    "cmd"
+  ],
+  "aliases": [],
+  "display": [
+    "Cmd"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "cmd"
+  ],
+  "description": {
+    "id": "Nonaktifkan atau aktifkan perintah bot di grup ini secara satuan maupun massal",
+    "en": "Disable or enable bot commands in this group individually or in bulk"
+  },
+  "usage": "Cmd",
+  "examples": [
+    "cmd off sticker ai youtube",
+    "cmd off all",
+    "cmd on all",
+    "cmd list"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group_community": true,
+    "group": true
+  },
+  "permissions": {
+    "admin": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 232
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

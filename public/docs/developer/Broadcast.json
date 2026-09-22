@@ -1,0 +1,76 @@
+{
+  "name": "Broadcast",
+  "commands": [
+    "broadcast",
+    "bc"
+  ],
+  "aliases": [],
+  "display": [
+    "Broadcast"
+  ],
+  "category": "developer",
+  "categories": [
+    "developer"
+  ],
+  "tags": [
+    "broadcast",
+    "bc"
+  ],
+  "description": {
+    "id": "Broadcast pesan ke Newsletter",
+    "en": "Broadcast message to Newsletter"
+  },
+  "usage": "Broadcast",
+  "examples": [
+    "broadcast Halo semua!",
+    "broadcast Hello everyone!"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "private": true,
+    "group": true,
+    "group_community": true,
+    "newsletter": true
+  },
+  "permissions": {
+    "owner": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/developer",
+    "line": 114
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

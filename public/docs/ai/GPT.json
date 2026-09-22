@@ -1,0 +1,72 @@
+{
+  "name": "GPT",
+  "commands": [
+    "gpt"
+  ],
+  "aliases": [],
+  "display": [
+    "GPT"
+  ],
+  "category": "ai",
+  "categories": [
+    "ai"
+  ],
+  "tags": [
+    "gpt"
+  ],
+  "description": {
+    "id": "Chat dengan GPT-5 Nano tanpa persona (mendukung teks & gambar, khusus premium)",
+    "en": "Chat with GPT-5 Nano without persona (supports text & image, premium only)"
+  },
+  "usage": "GPT",
+  "examples": [
+    "gpt halo!",
+    "gpt [kirim gambar] deskripsikan gambar ini",
+    "gpt clear",
+    "gpt hello!",
+    "gpt [send image] describe this image"
+  ],
+  "minArgs": 0,
+  "args": {
+    "pertanyaan": {
+      "id": "Pesan obrolan atau instruksi gambar (ketik 'clear' untuk menghapus riwayat)"
+    },
+    "query": {
+      "en": "Chat message or image prompt (type 'clear' to reset history)"
+    }
+  },
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/ai",
+    "line": 104
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "SetQRIS",
+  "commands": [
+    "setqris"
+  ],
+  "aliases": [],
+  "display": [
+    "SetQRIS"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "setqris"
+  ],
+  "description": {
+    "id": "Generate QRIS baru dari gambar QRIS, opsional set nominal pembayaran",
+    "en": "Generate new QRIS from a QRIS image, optionally set payment amount"
+  },
+  "usage": "SetQRIS",
+  "examples": [
+    "setqris (reply gambar QRIS)",
+    "setqris 2000 (reply gambar QRIS)",
+    "setqris (reply QRIS image)",
+    "setqris 2000 (reply QRIS image)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 111
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

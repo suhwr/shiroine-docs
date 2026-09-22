@@ -1,0 +1,73 @@
+{
+  "name": "SetTimezone",
+  "commands": [
+    "settimezone"
+  ],
+  "aliases": [],
+  "display": [
+    "SetTimezone"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "settimezone"
+  ],
+  "description": {
+    "id": "Set zona waktu grup untuk keperluan jadwal dan aktivitas",
+    "en": "Set group timezone for schedule and activity tracking"
+  },
+  "usage": "SetTimezone",
+  "examples": [
+    "settimezone Asia/Jakarta",
+    "settimezone Asia/Makassar",
+    "settimezone Asia/Jayapura",
+    "settimezone Asia/Singapore",
+    "settimezone Europe/London"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {
+    "admin": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 54
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

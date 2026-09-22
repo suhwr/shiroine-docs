@@ -1,7 +1,7 @@
 {
   "commands": [
     {
-      "name": "ai",
+      "name": "AI",
       "description": "Talk with AI using selected character",
       "permissions": {},
       "premiumOnly": "",
@@ -10,7 +10,7 @@
       ]
     },
     {
-      "name": "aichara",
+      "name": "AIChara",
       "description": "Manage AI character",
       "permissions": {},
       "premiumOnly": "",
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "name": "deepseek",
+      "name": "DeepSeek",
       "description": "Chat with DeepSeek without persona (text only)",
       "permissions": {},
       "premiumOnly": "",
@@ -28,16 +28,25 @@
       ]
     },
     {
-      "name": "gemini",
+      "name": "GPT",
+      "description": "Chat with GPT-5 Nano without persona (supports text & image, premium only)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "gpt"
+      ]
+    },
+    {
+      "name": "Gemini",
       "description": "Chat with Gemini Flash without persona (supports text & media, premium user/group only)",
       "permissions": {},
-      "premiumOnly": "all",
+      "premiumOnly": "",
       "tags": [
         "gemini"
       ]
     },
     {
-      "name": "gemma",
+      "name": "Gemma",
       "description": "Chat with Gemma 3 27B IT (supports text and images)",
       "permissions": {},
       "premiumOnly": "",
@@ -46,16 +55,7 @@
       ]
     },
     {
-      "name": "gpt",
-      "description": "Chat with GPT-5 Nano without persona (supports text & image, premium only)",
-      "permissions": {},
-      "premiumOnly": "all",
-      "tags": [
-        "gpt"
-      ]
-    },
-    {
-      "name": "jadianime",
+      "name": "JadiAnime",
       "description": "Convert photo to anime style using AI",
       "permissions": {},
       "premiumOnly": "",
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "name": "jadianimev2",
+      "name": "JadiAnimeV2",
       "description": "Convert photo to anime v2 style using AI",
       "permissions": {},
       "premiumOnly": "",
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "name": "jadighibli",
+      "name": "JadiGhibli",
       "description": "Convert photo to Studio Ghibli style using AI",
       "permissions": {},
       "premiumOnly": "",
@@ -85,7 +85,7 @@
       ]
     },
     {
-      "name": "llm",
+      "name": "LLM",
       "description": "Select AI model to use",
       "permissions": {},
       "premiumOnly": "",
@@ -94,7 +94,7 @@
       ]
     },
     {
-      "name": "qwen",
+      "name": "Qwen",
       "description": "Chat with Qwen3-32B without persona (text only)",
       "permissions": {},
       "premiumOnly": "",
@@ -103,7 +103,7 @@
       ]
     },
     {
-      "name": "reset-ai",
+      "name": "ResetAI",
       "description": "Clear all private conversation history with AI and start a new session without previous context. Useful when you want to start a new topic unrelated to previous conversations.",
       "permissions": {},
       "premiumOnly": "",
@@ -113,13 +113,9 @@
       ]
     },
     {
-      "name": "reset-ai-group",
+      "name": "ResetAIGroup",
       "description": "Reset AI chat history in group (Admin only)",
-      "permissions": {
-        "subowner": true,
-        "admin": true,
-        "owner": true
-      },
+      "permissions": {},
       "premiumOnly": "",
       "tags": [
         "reset-ai-group",

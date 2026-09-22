@@ -1,0 +1,62 @@
+{
+  "name": "Pitch",
+  "commands": [
+    "pitch"
+  ],
+  "aliases": [],
+  "display": [
+    "Pitch"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "pitch"
+  ],
+  "description": {
+    "id": "Naikkan pitch suara (opsional: tingkat pitch 0.5-2.0, default 1.25)",
+    "en": "Raise audio pitch (optional: pitch level 0.5-2.0, default 1.25)"
+  },
+  "usage": "Pitch",
+  "examples": [
+    "pitch",
+    "pitch 1.5"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 580
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

@@ -1,0 +1,66 @@
+{
+  "name": "LLM",
+  "commands": [
+    "llm"
+  ],
+  "aliases": [],
+  "display": [
+    "LLM"
+  ],
+  "category": "ai",
+  "categories": [
+    "ai"
+  ],
+  "tags": [
+    "llm"
+  ],
+  "description": {
+    "id": "Pilih model AI yang digunakan",
+    "en": "Select AI model to use"
+  },
+  "usage": "LLM",
+  "examples": [
+    "llm list",
+    "llm set gemma",
+    "llm set qwen",
+    "llm set gpt",
+    "llm set gemini",
+    "llm set deepseek"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/ai",
+    "line": 138
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Qwen",
+  "commands": [
+    "qwen"
+  ],
+  "aliases": [],
+  "display": [
+    "Qwen"
+  ],
+  "category": "ai",
+  "categories": [
+    "ai"
+  ],
+  "tags": [
+    "qwen"
+  ],
+  "description": {
+    "id": "Chat dengan Qwen3-32B tanpa persona (hanya teks)",
+    "en": "Chat with Qwen3-32B without persona (text only)"
+  },
+  "usage": "Qwen",
+  "examples": [
+    "qwen halo!",
+    "qwen apa itu machine learning?",
+    "qwen clear",
+    "qwen hello!",
+    "qwen what is machine learning?"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/ai",
+    "line": 89
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

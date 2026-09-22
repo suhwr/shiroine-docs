@@ -1,0 +1,61 @@
+{
+  "name": "Play",
+  "commands": [
+    "play"
+  ],
+  "aliases": [],
+  "display": [
+    "Play"
+  ],
+  "category": "youtube",
+  "categories": [
+    "youtube"
+  ],
+  "tags": [
+    "play"
+  ],
+  "description": {
+    "en": "Search and play songs from YouTube Music",
+    "id": "Cari dan putar lagu dari YouTube Music"
+  },
+  "usage": "Play",
+  "examples": [
+    "play Despacito"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/youtube",
+    "line": 588
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

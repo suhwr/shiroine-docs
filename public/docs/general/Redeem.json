@@ -1,0 +1,61 @@
+{
+  "name": "Redeem",
+  "commands": [
+    "redeem"
+  ],
+  "aliases": [],
+  "display": [
+    "Redeem"
+  ],
+  "category": "general",
+  "categories": [
+    "general"
+  ],
+  "tags": [
+    "redeem"
+  ],
+  "description": {
+    "id": "Tukarkan kode redeem untuk mendapatkan hadiah",
+    "en": "Redeem a code to get rewards"
+  },
+  "usage": "Redeem <teks>",
+  "examples": [
+    "redeem ABC123"
+  ],
+  "minArgs": 1,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/general",
+    "line": 130
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

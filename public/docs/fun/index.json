@@ -1,7 +1,88 @@
 {
   "commands": [
     {
-      "name": "cek",
+      "name": "AirKiss",
+      "description": "React with airkiss",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "airkiss"
+      ]
+    },
+    {
+      "name": "Angry",
+      "description": "React with angry",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "angry"
+      ]
+    },
+    {
+      "name": "AngryStare",
+      "description": "React with angrystare",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "angrystare"
+      ]
+    },
+    {
+      "name": "Baka",
+      "description": "React with baka",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "baka"
+      ]
+    },
+    {
+      "name": "Bite",
+      "description": "React with bite",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "bite"
+      ]
+    },
+    {
+      "name": "Bleh",
+      "description": "React with bleh",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "bleh"
+      ]
+    },
+    {
+      "name": "Blush",
+      "description": "React with blush",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "blush"
+      ]
+    },
+    {
+      "name": "Bored",
+      "description": "React with bored",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "bored"
+      ]
+    },
+    {
+      "name": "BroFist",
+      "description": "React with brofist",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "brofist"
+      ]
+    },
+    {
+      "name": "Cek",
       "description": "Check a certain category percentage on someone",
       "permissions": {},
       "premiumOnly": "",
@@ -11,7 +92,70 @@
       ]
     },
     {
-      "name": "dadu",
+      "name": "Celebrate",
+      "description": "React with celebrate",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "celebrate"
+      ]
+    },
+    {
+      "name": "Cheers",
+      "description": "React with cheers",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "cheers"
+      ]
+    },
+    {
+      "name": "Clap",
+      "description": "React with clap",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "clap"
+      ]
+    },
+    {
+      "name": "Confused",
+      "description": "React with confused",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "confused"
+      ]
+    },
+    {
+      "name": "Cool",
+      "description": "React with cool",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "cool"
+      ]
+    },
+    {
+      "name": "Cry",
+      "description": "React with cry",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "cry"
+      ]
+    },
+    {
+      "name": "Cuddle",
+      "description": "React with cuddle",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "cuddle"
+      ]
+    },
+    {
+      "name": "Dadu",
       "description": "Roll a random dice 1–6, optionally guess the number",
       "permissions": {},
       "premiumOnly": "",
@@ -21,7 +165,124 @@
       ]
     },
     {
-      "name": "koin",
+      "name": "Dance",
+      "description": "React with dance",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "dance"
+      ]
+    },
+    {
+      "name": "Drool",
+      "description": "React with drool",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "drool"
+      ]
+    },
+    {
+      "name": "EvilLaugh",
+      "description": "React with evillaugh",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "evillaugh"
+      ]
+    },
+    {
+      "name": "FacePalm",
+      "description": "React with facepalm",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "facepalm"
+      ]
+    },
+    {
+      "name": "Feed",
+      "description": "React with feed",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "feed"
+      ]
+    },
+    {
+      "name": "HandHold",
+      "description": "React with handhold",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "handhold"
+      ]
+    },
+    {
+      "name": "Happy",
+      "description": "React with happy",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "happy"
+      ]
+    },
+    {
+      "name": "HeadBang",
+      "description": "React with headbang",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "headbang"
+      ]
+    },
+    {
+      "name": "HighFive",
+      "description": "React with highfive",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "highfive"
+      ]
+    },
+    {
+      "name": "Hug",
+      "description": "React with hug",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "hug"
+      ]
+    },
+    {
+      "name": "Kick",
+      "description": "React with kick",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "kick"
+      ]
+    },
+    {
+      "name": "Kill",
+      "description": "React with kill",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "kill"
+      ]
+    },
+    {
+      "name": "Kiss",
+      "description": "React with kiss",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "kiss"
+      ]
+    },
+    {
+      "name": "Koin",
       "description": "Flip a coin and guess the outcome",
       "permissions": {},
       "premiumOnly": "",
@@ -31,7 +292,34 @@
       ]
     },
     {
-      "name": "meme",
+      "name": "Laugh",
+      "description": "React with laugh",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "laugh"
+      ]
+    },
+    {
+      "name": "Lick",
+      "description": "React with lick",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "lick"
+      ]
+    },
+    {
+      "name": "Mad",
+      "description": "React with mad",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "mad"
+      ]
+    },
+    {
+      "name": "Meme",
       "description": "Create meme from image using various templates",
       "permissions": {},
       "premiumOnly": "",
@@ -40,7 +328,124 @@
       ]
     },
     {
-      "name": "reaction",
+      "name": "Nervous",
+      "description": "React with nervous",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "nervous"
+      ]
+    },
+    {
+      "name": "No",
+      "description": "React with no",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "no"
+      ]
+    },
+    {
+      "name": "Nod",
+      "description": "React with nod",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "nod"
+      ]
+    },
+    {
+      "name": "Nom",
+      "description": "React with nom",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "nom"
+      ]
+    },
+    {
+      "name": "Nuzzle",
+      "description": "React with nuzzle",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "nuzzle"
+      ]
+    },
+    {
+      "name": "Nyah",
+      "description": "React with nyah",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "nyah"
+      ]
+    },
+    {
+      "name": "Pat",
+      "description": "React with pat",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "pat"
+      ]
+    },
+    {
+      "name": "Peck",
+      "description": "React with peck",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "peck"
+      ]
+    },
+    {
+      "name": "Peek",
+      "description": "React with peek",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "peek"
+      ]
+    },
+    {
+      "name": "Pinch",
+      "description": "React with pinch",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "pinch"
+      ]
+    },
+    {
+      "name": "Poke",
+      "description": "React with poke",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "poke"
+      ]
+    },
+    {
+      "name": "Pout",
+      "description": "React with pout",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "pout"
+      ]
+    },
+    {
+      "name": "Punch",
+      "description": "React with punch",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "punch"
+      ]
+    },
+    {
+      "name": "Reaction",
       "description": "List all available reaction commands",
       "permissions": {},
       "premiumOnly": "",
@@ -49,7 +454,7 @@
       ]
     },
     {
-      "name": "roast",
+      "name": "Roast",
       "description": "Roast yourself or someone else randomly",
       "permissions": {},
       "premiumOnly": "",
@@ -58,7 +463,43 @@
       ]
     },
     {
-      "name": "ship",
+      "name": "Roll",
+      "description": "React with roll",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "roll"
+      ]
+    },
+    {
+      "name": "Run",
+      "description": "React with run",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "run"
+      ]
+    },
+    {
+      "name": "Sad",
+      "description": "React with sad",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "sad"
+      ]
+    },
+    {
+      "name": "Scared",
+      "description": "React with scared",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "scared"
+      ]
+    },
+    {
+      "name": "Ship",
       "description": "Ship two group members deterministically per hour",
       "permissions": {},
       "premiumOnly": "",
@@ -67,13 +508,247 @@
       ]
     },
     {
-      "name": "suit",
+      "name": "Shoot",
+      "description": "React with shoot",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "shoot"
+      ]
+    },
+    {
+      "name": "Shout",
+      "description": "React with shout",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "shout"
+      ]
+    },
+    {
+      "name": "Shrug",
+      "description": "React with shrug",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "shrug"
+      ]
+    },
+    {
+      "name": "Shy",
+      "description": "React with shy",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "shy"
+      ]
+    },
+    {
+      "name": "Sigh",
+      "description": "React with sigh",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "sigh"
+      ]
+    },
+    {
+      "name": "Sip",
+      "description": "React with sip",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "sip"
+      ]
+    },
+    {
+      "name": "Slap",
+      "description": "React with slap",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "slap"
+      ]
+    },
+    {
+      "name": "Sleep",
+      "description": "React with sleep",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "sleep"
+      ]
+    },
+    {
+      "name": "SlowClap",
+      "description": "React with slowclap",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "slowclap"
+      ]
+    },
+    {
+      "name": "Smack",
+      "description": "React with smack",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "smack"
+      ]
+    },
+    {
+      "name": "Smile",
+      "description": "React with smile",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "smile"
+      ]
+    },
+    {
+      "name": "Smug",
+      "description": "React with smug",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "smug"
+      ]
+    },
+    {
+      "name": "Stare",
+      "description": "React with stare",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "stare"
+      ]
+    },
+    {
+      "name": "Suit",
       "description": "Play rock-paper-scissors against the bot",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
         "suit",
         "rps"
+      ]
+    },
+    {
+      "name": "Surprised",
+      "description": "React with surprised",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "surprised"
+      ]
+    },
+    {
+      "name": "Sweat",
+      "description": "React with sweat",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "sweat"
+      ]
+    },
+    {
+      "name": "Think",
+      "description": "React with think",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "think"
+      ]
+    },
+    {
+      "name": "ThumbsUp",
+      "description": "React with thumbsup",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "thumbsup"
+      ]
+    },
+    {
+      "name": "Tickle",
+      "description": "React with tickle",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "tickle"
+      ]
+    },
+    {
+      "name": "Tired",
+      "description": "React with tired",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "tired"
+      ]
+    },
+    {
+      "name": "Wave",
+      "description": "React with wave",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "wave"
+      ]
+    },
+    {
+      "name": "Wink",
+      "description": "React with wink",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "wink"
+      ]
+    },
+    {
+      "name": "Woah",
+      "description": "React with woah",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "woah"
+      ]
+    },
+    {
+      "name": "Yawn",
+      "description": "React with yawn",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "yawn"
+      ]
+    },
+    {
+      "name": "Yay",
+      "description": "React with yay",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "yay"
+      ]
+    },
+    {
+      "name": "Yeet",
+      "description": "React with yeet",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "yeet"
+      ]
+    },
+    {
+      "name": "Yes",
+      "description": "React with yes",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "yes"
       ]
     }
   ]

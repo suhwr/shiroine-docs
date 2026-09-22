@@ -17,8 +17,8 @@
     "downloader"
   ],
   "description": {
-    "en": "Download video from various platforms",
-    "id": "Download video dari berbagai platform"
+    "id": "Download video dari berbagai platform",
+    "en": "Download video from various platforms"
   },
   "usage": "Downloader",
   "examples": [
@@ -33,18 +33,8 @@
     }
   },
   "requireMedia": [],
-  "chatPermissions": [
-    "private",
-    "group",
-    "group_community",
-    "newsletter"
-  ],
-  "chatTypes": {
-    "group_community": true,
-    "newsletter": true,
-    "private": true,
-    "group": true
-  },
+  "chatPermissions": [],
+  "chatTypes": {},
   "permissions": {},
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -73,7 +63,7 @@
   },
   "source": {
     "file": "internal/plugins/downloader",
-    "line": 283
+    "line": 289
   },
-  "lastUpdated": "2026-09-14T08:16:26Z"
+  "lastUpdated": "2026-09-22T21:41:41Z"
 }

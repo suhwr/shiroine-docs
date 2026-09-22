@@ -1,0 +1,66 @@
+{
+  "name": "Upload",
+  "commands": [
+    "upload",
+    "tourl"
+  ],
+  "aliases": [],
+  "display": [
+    "Upload"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "upload",
+    "tourl"
+  ],
+  "description": {
+    "id": "Upload file ke server dan dapatkan URL",
+    "en": "Upload file to server and get URL"
+  },
+  "usage": "Upload",
+  "examples": [
+    "upload",
+    "upload gofile",
+    "upload uguu",
+    "upload catbox"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 67
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

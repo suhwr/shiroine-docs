@@ -1,0 +1,65 @@
+{
+  "name": "Gemma",
+  "commands": [
+    "gemma"
+  ],
+  "aliases": [],
+  "display": [
+    "Gemma"
+  ],
+  "category": "ai",
+  "categories": [
+    "ai"
+  ],
+  "tags": [
+    "gemma"
+  ],
+  "description": {
+    "id": "Chat dengan Gemma 3 27B IT (mendukung teks dan gambar)",
+    "en": "Chat with Gemma 3 27B IT (supports text and images)"
+  },
+  "usage": "Gemma",
+  "examples": [
+    "gemma halo!",
+    "gemma apa itu machine learning?",
+    "gemma clear",
+    "gemma hello!",
+    "gemma what is machine learning?"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/ai",
+    "line": 103
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

@@ -1,0 +1,70 @@
+{
+  "name": "TTSAI",
+  "commands": [
+    "tts-ai",
+    "ai-tts",
+    "ttsai"
+  ],
+  "aliases": [],
+  "display": [
+    "TTSAI"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "tts-ai",
+    "ai-tts",
+    "ttsai"
+  ],
+  "description": {
+    "en": "Convert text to natural AI voice (AI Text-to-Speech)",
+    "id": "Konversi teks ke suara AI yang lebih natural (Text-to-Speech AI)"
+  },
+  "usage": "TTSAI",
+  "examples": [
+    "tts-ai Halo, selamat datang!",
+    "tts-ai Kore Hai, apa kabar?",
+    "tts-ai Aoede Hello there!",
+    "tts-ai Hello, welcome!",
+    "tts-ai Kore Hello there!",
+    "tts-ai Puck Halo dunia"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 68
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

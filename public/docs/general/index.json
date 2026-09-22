@@ -1,7 +1,7 @@
 {
   "commands": [
     {
-      "name": "about",
+      "name": "About",
       "description": "Information about the bot",
       "permissions": {},
       "premiumOnly": "",
@@ -10,7 +10,7 @@
       ]
     },
     {
-      "name": "cekbenefit",
+      "name": "CekBenefit",
       "description": "View all benefits of becoming premium",
       "permissions": {},
       "premiumOnly": "",
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "name": "daily",
+      "name": "Daily",
       "description": "Claim daily rewards based on your level",
       "permissions": {},
       "premiumOnly": "",
@@ -28,17 +28,7 @@
       ]
     },
     {
-      "name": "donate",
-      "description": "Show donation methods",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "donate",
-        "donasi"
-      ]
-    },
-    {
-      "name": "donatur",
+      "name": "Donatur",
       "description": "View list of all donaturs & total donations",
       "permissions": {},
       "premiumOnly": "",
@@ -49,7 +39,7 @@
       ]
     },
     {
-      "name": "help",
+      "name": "Help",
       "description": "Show help for a specific command",
       "permissions": {},
       "premiumOnly": "",
@@ -58,7 +48,7 @@
       ]
     },
     {
-      "name": "join",
+      "name": "Join",
       "description": "Join WhatsApp group via invite link",
       "permissions": {},
       "premiumOnly": "",
@@ -67,7 +57,7 @@
       ]
     },
     {
-      "name": "limit",
+      "name": "Limit",
       "description": "View your daily limit information",
       "permissions": {},
       "premiumOnly": "",
@@ -76,7 +66,7 @@
       ]
     },
     {
-      "name": "menu",
+      "name": "Menu",
       "description": "Show command menu",
       "permissions": {},
       "premiumOnly": "",
@@ -85,7 +75,7 @@
       ]
     },
     {
-      "name": "nsfw",
+      "name": "NSFW",
       "description": "Toggle NSFW mode (in group: admin only, in private: bot only)",
       "permissions": {},
       "premiumOnly": "",
@@ -95,7 +85,7 @@
       ]
     },
     {
-      "name": "owner",
+      "name": "Owner",
       "description": "Show bot number owner information",
       "permissions": {},
       "premiumOnly": "",
@@ -104,7 +94,7 @@
       ]
     },
     {
-      "name": "ping",
+      "name": "Ping",
       "description": "Check bot latency and database status",
       "permissions": {},
       "premiumOnly": "",
@@ -113,7 +103,7 @@
       ]
     },
     {
-      "name": "premium",
+      "name": "Premium",
       "description": "Buy premium using payment gateway",
       "permissions": {},
       "premiumOnly": "",
@@ -124,7 +114,7 @@
       ]
     },
     {
-      "name": "redeem",
+      "name": "Redeem",
       "description": "Redeem a code to get rewards",
       "permissions": {},
       "premiumOnly": "",
@@ -133,13 +123,22 @@
       ]
     },
     {
-      "name": "sc",
+      "name": "SC",
       "description": "Get the link to this bot's script",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
         "sc",
         "script"
+      ]
+    },
+    {
+      "name": "Top",
+      "description": "View bot leaderboard/top rank by level, chat, command, or AFK duration",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "top"
       ]
     }
   ]

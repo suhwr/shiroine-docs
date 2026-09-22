@@ -1,0 +1,62 @@
+{
+  "name": "Compress",
+  "commands": [
+    "compress"
+  ],
+  "aliases": [],
+  "display": [
+    "Compress"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "compress"
+  ],
+  "description": {
+    "id": "Kompres gambar dengan kualitas tertentu (default 80)",
+    "en": "Compress image with given quality (default 80)"
+  },
+  "usage": "Compress",
+  "examples": [
+    "compress",
+    "compress -q=70"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 852
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

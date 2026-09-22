@@ -1,0 +1,71 @@
+{
+  "name": "SSWeb",
+  "commands": [
+    "ssweb",
+    "ss",
+    "screenshot"
+  ],
+  "aliases": [],
+  "display": [
+    "SSWeb"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "ssweb",
+    "ss",
+    "screenshot"
+  ],
+  "description": {
+    "id": "Ambil screenshot halaman web",
+    "en": "Take a screenshot of a web page"
+  },
+  "usage": "SSWeb",
+  "examples": [
+    "ssweb https://google.com",
+    "ssweb https://google.com --full"
+  ],
+  "minArgs": 0,
+  "args": {
+    "full": {
+      "id": "Ambil screenshot halaman penuh (scroll)",
+      "en": "Take full-page screenshot (with scroll)"
+    }
+  },
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 53
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

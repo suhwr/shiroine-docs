@@ -1,0 +1,71 @@
+{
+  "name": "Add",
+  "commands": [
+    "add"
+  ],
+  "aliases": [],
+  "display": [
+    "Add"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "add"
+  ],
+  "description": {
+    "id": "Tambahkan anggota baru ke dalam grup",
+    "en": "Add new member(s) to the group"
+  },
+  "usage": "Add",
+  "examples": [
+    "add 6281234567890",
+    "add @user",
+    "add (reply)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {
+    "admin": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": true,
+  "disabledReason": "Fitur ini dinonaktifkan sementara karena berisiko tinggi menyebabkan nomor bot dibanned atau grup dinonaktifkan WhatsApp (This feature is temporarily disabled due to high risk of bot number ban or WhatsApp group deactivation)",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": false,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 111
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Top",
+  "commands": [
+    "top"
+  ],
+  "aliases": [],
+  "display": [
+    "Top"
+  ],
+  "category": "general",
+  "categories": [
+    "general"
+  ],
+  "tags": [
+    "top"
+  ],
+  "description": {
+    "id": "Melihat leaderboard/top rank bot berdasarkan level, chat, command, atau durasi AFK",
+    "en": "View bot leaderboard/top rank by level, chat, command, or AFK duration"
+  },
+  "usage": "Top",
+  "examples": [
+    "top level",
+    "top chat",
+    "top command",
+    "top afk"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/general",
+    "line": 122
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

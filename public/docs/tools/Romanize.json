@@ -1,0 +1,69 @@
+{
+  "name": "Romanize",
+  "commands": [
+    "romanize",
+    "romaji",
+    "roman"
+  ],
+  "aliases": [],
+  "display": [
+    "Romanize"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "romanize",
+    "romaji",
+    "roman"
+  ],
+  "description": {
+    "id": "Ubah teks non-Latin (Jepang, Korea, Arab, dll) ke huruf Latin",
+    "en": "Convert non-Latin text (Japanese, Korean, Arabic, etc.) to Latin characters"
+  },
+  "usage": "Romanize",
+  "examples": [
+    "romanize こんにちは",
+    "romanize (reply teks)",
+    "romanize (reply gambar)",
+    "romanize (reply text)",
+    "romanize (reply image)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 58
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

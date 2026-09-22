@@ -1,0 +1,73 @@
+{
+  "name": "Jockey",
+  "commands": [
+    "jockey"
+  ],
+  "aliases": [],
+  "display": [
+    "Jockey"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "jockey"
+  ],
+  "description": {
+    "id": "Bot pemutar musik untuk panggilan suara grup WhatsApp",
+    "en": "Music player bot for WhatsApp group voice calls"
+  },
+  "usage": "Jockey",
+  "examples": [
+    "jockey join",
+    "jockey play Lathi Weird Genius",
+    "jockey skip",
+    "jockey list",
+    "jockey delete 1",
+    "jockey leave",
+    "jockey play Faded Alan Walker"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 1203
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

@@ -1,0 +1,85 @@
+{
+  "name": "UnbanChat",
+  "commands": [
+    "unban-chat",
+    "unbanchat",
+    "unbangc",
+    "unbangrup",
+    "unban-gc",
+    "unban-grup"
+  ],
+  "aliases": [],
+  "display": [
+    "UnbanChat"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "unban-chat",
+    "unbanchat",
+    "unbangc",
+    "unbangrup",
+    "unban-gc",
+    "unban-grup"
+  ],
+  "description": {
+    "id": "Cabut ban grup dari seluruh sesi bot yang kamu miliki",
+    "en": "Unban group across all bot sessions you own"
+  },
+  "usage": "UnbanChat",
+  "examples": [
+    "unbanchat",
+    "unbangc",
+    "unbangrup",
+    "unbangc 120363xxx@g.us",
+    "unbangc --list"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group_community": true,
+    "private": true,
+    "group": true
+  },
+  "permissions": {
+    "hasbot": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 305
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

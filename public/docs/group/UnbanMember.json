@@ -1,0 +1,73 @@
+{
+  "name": "UnbanMember",
+  "commands": [
+    "unban-member",
+    "unbanmember"
+  ],
+  "aliases": [],
+  "display": [
+    "UnbanMember"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "unban-member",
+    "unbanmember"
+  ],
+  "description": {
+    "id": "Cabut ban bot anggota di grup ini",
+    "en": "Unban member from the bot in this group"
+  },
+  "usage": "UnbanMember",
+  "examples": [
+    "unbanmember",
+    "unbanmember @user",
+    "unbanmember @user1 @user2"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {
+    "admin": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 284
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

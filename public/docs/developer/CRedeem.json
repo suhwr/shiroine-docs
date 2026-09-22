@@ -1,0 +1,73 @@
+{
+  "name": "CRedeem",
+  "commands": [
+    "credeem"
+  ],
+  "aliases": [],
+  "display": [
+    "CRedeem"
+  ],
+  "category": "developer",
+  "categories": [
+    "developer"
+  ],
+  "tags": [
+    "credeem"
+  ],
+  "description": {
+    "en": "Create limit redeem code without quota (owner only)",
+    "id": "Buat kode redeem limit tanpa kuota (owner only)"
+  },
+  "usage": "CRedeem <teks>",
+  "examples": [
+    "credeem 30"
+  ],
+  "minArgs": 1,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group_community": true,
+    "newsletter": true,
+    "private": true,
+    "group": true
+  },
+  "permissions": {
+    "owner": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/developer",
+    "line": 59
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

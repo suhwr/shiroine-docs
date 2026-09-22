@@ -1,0 +1,61 @@
+{
+  "name": "GetEXIF",
+  "commands": [
+    "getexif"
+  ],
+  "aliases": [],
+  "display": [
+    "GetEXIF"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "getexif"
+  ],
+  "description": {
+    "id": "Ambil metadata EXIF dari stiker yang di-quote/reply",
+    "en": "Get EXIF metadata from the quoted/replied sticker"
+  },
+  "usage": "GetEXIF",
+  "examples": [
+    "getexif"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 96
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

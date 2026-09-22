@@ -1,0 +1,62 @@
+{
+  "name": "LowPass",
+  "commands": [
+    "lowpass"
+  ],
+  "aliases": [],
+  "display": [
+    "LowPass"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "lowpass"
+  ],
+  "description": {
+    "id": "Potong frekuensi tinggi pada audio (opsional: frekuensi 100-10000Hz, default 500)",
+    "en": "Cut high frequencies from audio (optional: frequency 100-10000Hz, default 500)"
+  },
+  "usage": "LowPass",
+  "examples": [
+    "lowpass",
+    "lowpass 1000"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 608
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

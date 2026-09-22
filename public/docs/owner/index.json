@@ -1,7 +1,7 @@
 {
   "commands": [
     {
-      "name": "banlist",
+      "name": "BanList",
       "description": "Show list of banned entities by category",
       "permissions": {},
       "premiumOnly": "",

@@ -1,0 +1,74 @@
+{
+  "name": "SetWelcome",
+  "commands": [
+    "set-welcome",
+    "setwelcome"
+  ],
+  "aliases": [],
+  "display": [
+    "SetWelcome"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "set-welcome",
+    "setwelcome"
+  ],
+  "description": {
+    "id": "Atur pesan atau cover welcome grup",
+    "en": "Set group welcome message or cover"
+  },
+  "usage": "SetWelcome",
+  "examples": [
+    "setwelcome Selamat datang {mentions} di {groupname}!",
+    "setwelcome cover",
+    "setwelcome removecover",
+    "setwelcome Welcome {mentions} to {groupname}!"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {
+    "admin": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 135
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

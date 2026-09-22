@@ -1,0 +1,64 @@
+{
+  "name": "WhatMusic",
+  "commands": [
+    "whatmusic",
+    "whatsong"
+  ],
+  "aliases": [],
+  "display": [
+    "WhatMusic"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "whatmusic",
+    "whatsong"
+  ],
+  "description": {
+    "en": "Find song from audio or video (send or reply to audio/video then type the command)",
+    "id": "Cari lagu berdasarkan audio atau video (kirim atau reply audio/video lalu ketik perintah)"
+  },
+  "usage": "WhatMusic",
+  "examples": [
+    "whatmusic (reply audio)",
+    "whatmusic (reply video)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 155
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

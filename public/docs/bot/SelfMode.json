@@ -1,0 +1,63 @@
+{
+  "name": "SelfMode",
+  "commands": [
+    "selfmode"
+  ],
+  "aliases": [],
+  "display": [
+    "SelfMode"
+  ],
+  "category": "bot",
+  "categories": [
+    "bot"
+  ],
+  "tags": [
+    "selfmode"
+  ],
+  "description": {
+    "id": "Toggle self mode (bot hanya menerima perintah dari owner)",
+    "en": "Toggle self mode (bot only accepts commands from owner)"
+  },
+  "usage": "SelfMode",
+  "examples": [
+    "selfmode on",
+    "selfmode off",
+    "selfmode"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 80
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

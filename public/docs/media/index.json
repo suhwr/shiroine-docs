@@ -1,30 +1,37 @@
 {
   "commands": [
     {
-      "name": "fakethumbnail",
-      "description": "Mengirim media asli namun menipu tampilannya dengan thumbnail dari media lain",
+      "name": "FakeThumbnail",
+      "description": "Send original media disguised with a fake thumbnail from another media",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "fakethumbnail"
+        "fakethumbnail",
+        "fakethumb",
+        "spoofmedia"
       ]
     },
     {
-      "name": "fotolive",
-      "description": "Mengubah video tunggal atau paduan gambar+video menjadi Motion Photo",
+      "name": "FotoLive",
+      "description": "Convert video or photo+video combination into WhatsApp Motion Photo",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "fotolive"
+        "fotolive",
+        "motionphoto",
+        "livephoto"
       ]
     },
     {
-      "name": "toptv",
-      "description": "Mengubah video menjadi Video Note bulat (PTV)",
+      "name": "TopTV",
+      "description": "Convert video into circular Video Note (PTV)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "toptv"
+        "toptv",
+        "toptvmsg",
+        "videonote",
+        "ptv"
       ]
     }
   ]

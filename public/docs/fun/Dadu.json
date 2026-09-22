@@ -1,0 +1,64 @@
+{
+  "name": "Dadu",
+  "commands": [
+    "dadu",
+    "dice"
+  ],
+  "aliases": [],
+  "display": [
+    "Dadu"
+  ],
+  "category": "fun",
+  "categories": [
+    "fun"
+  ],
+  "tags": [
+    "dadu",
+    "dice"
+  ],
+  "description": {
+    "id": "Lempar dadu random 1–6, opsional tebak angkanya",
+    "en": "Roll a random dice 1–6, optionally guess the number"
+  },
+  "usage": "Dadu",
+  "examples": [
+    "dadu",
+    "dice 4"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 2,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/fun",
+    "line": 117
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

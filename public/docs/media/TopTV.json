@@ -1,0 +1,67 @@
+{
+  "name": "TopTV",
+  "commands": [
+    "toptv",
+    "toptvmsg",
+    "videonote",
+    "ptv"
+  ],
+  "aliases": [],
+  "display": [
+    "TopTV"
+  ],
+  "category": "media",
+  "categories": [
+    "media"
+  ],
+  "tags": [
+    "toptv",
+    "toptvmsg",
+    "videonote",
+    "ptv"
+  ],
+  "description": {
+    "id": "Ubah video biasa menjadi Video Note bundar (PTV)",
+    "en": "Convert video into circular Video Note (PTV)"
+  },
+  "usage": "TopTV",
+  "examples": [
+    "toptv"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/media",
+    "line": 14
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

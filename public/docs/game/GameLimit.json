@@ -1,0 +1,71 @@
+{
+  "name": "GameLimit",
+  "commands": [
+    "gamelimit"
+  ],
+  "aliases": [],
+  "display": [
+    "GameLimit"
+  ],
+  "category": "game",
+  "categories": [
+    "game"
+  ],
+  "tags": [
+    "gamelimit"
+  ],
+  "description": {
+    "id": "Cek sisa limit game hari ini",
+    "en": "Check remaining daily game limit"
+  },
+  "usage": "GameLimit",
+  "examples": [
+    "gamelimit"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "private": true,
+    "group": true,
+    "group_community": true,
+    "newsletter": true
+  },
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/game",
+    "line": 32
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

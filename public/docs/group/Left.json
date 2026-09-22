@@ -1,0 +1,71 @@
+{
+  "name": "Left",
+  "commands": [
+    "left"
+  ],
+  "aliases": [],
+  "display": [
+    "Left"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "left"
+  ],
+  "description": {
+    "id": "Atur notifikasi member keluar",
+    "en": "Configure left notification"
+  },
+  "usage": "Left",
+  "examples": [
+    "left",
+    "left on",
+    "left off"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {
+    "admin": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 1
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "BotOfficial",
+  "commands": [
+    "botofficial",
+    "official"
+  ],
+  "aliases": [],
+  "display": [
+    "BotOfficial"
+  ],
+  "category": "bot",
+  "categories": [
+    "bot"
+  ],
+  "tags": [
+    "botofficial",
+    "official"
+  ],
+  "description": {
+    "id": "Toggle status bot official (menghilangkan peringatan jadibot)",
+    "en": "Toggle official bot status (removes jadibot warnings)"
+  },
+  "usage": "BotOfficial",
+  "examples": [
+    "botofficial on"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 77
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

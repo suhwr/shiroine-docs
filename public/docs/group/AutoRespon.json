@@ -1,0 +1,78 @@
+{
+  "name": "AutoRespon",
+  "commands": [
+    "autorespon"
+  ],
+  "aliases": [],
+  "display": [
+    "AutoRespon"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "autorespon"
+  ],
+  "description": {
+    "id": "Kelola sistem autorespon pesan otomatis grup",
+    "en": "Manage group auto-response system"
+  },
+  "usage": "AutoRespon",
+  "examples": [
+    "autorespon",
+    "autorespon on",
+    "autorespon off",
+    "autorespon add halo Halo juga! Selamat datang di grup.",
+    "autorespon edit halo Halo kak! Ada yang bisa dibantu?",
+    "autorespon delete halo",
+    "autorespon list",
+    "autorespon add hello Hello there! Welcome to the group.",
+    "autorespon edit hello Hello friend! How can I help you?",
+    "autorespon delete hello"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {
+    "admin": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 344
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

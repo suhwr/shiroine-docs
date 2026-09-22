@@ -1,0 +1,64 @@
+{
+  "name": "PinterestVideo",
+  "commands": [
+    "pinterestvideo",
+    "pinvid"
+  ],
+  "aliases": [],
+  "display": [
+    "PinterestVideo"
+  ],
+  "category": "search",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "pinterestvideo",
+    "pinvid"
+  ],
+  "description": {
+    "id": "Cari dan download video dari Pinterest",
+    "en": "Search and download videos from Pinterest"
+  },
+  "usage": "PinterestVideo",
+  "examples": [
+    "pinterestvideo cooking",
+    "pinterestvideo funny cats #5"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/search",
+    "line": 361
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

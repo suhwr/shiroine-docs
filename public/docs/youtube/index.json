@@ -1,7 +1,7 @@
 {
   "commands": [
     {
-      "name": "album",
+      "name": "Album",
       "description": "Download album from YouTube Music",
       "permissions": {},
       "premiumOnly": "",
@@ -10,7 +10,7 @@
       ]
     },
     {
-      "name": "play",
+      "name": "Play",
       "description": "Search and play songs from YouTube Music",
       "permissions": {},
       "premiumOnly": "",
@@ -19,16 +19,7 @@
       ]
     },
     {
-      "name": "play-downloader",
-      "description": "Download song from YouTube URL",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "play-downloader"
-      ]
-    },
-    {
-      "name": "play2",
+      "name": "Play2",
       "description": "Search and play videos from YouTube",
       "permissions": {},
       "premiumOnly": "",
@@ -37,7 +28,18 @@
       ]
     },
     {
-      "name": "yt",
+      "name": "PlayDownloader",
+      "description": "Download song from YouTube URL",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "playdownloader",
+        "playdl",
+        "play-downloader"
+      ]
+    },
+    {
+      "name": "YouTube",
       "description": "YouTube helper - choose to download audio, video, or album",
       "permissions": {},
       "premiumOnly": "",
@@ -47,7 +49,7 @@
       ]
     },
     {
-      "name": "ytmp3",
+      "name": "YtMp3",
       "description": "Search and download songs from YouTube as MP3",
       "permissions": {},
       "premiumOnly": "",
@@ -56,7 +58,7 @@
       ]
     },
     {
-      "name": "ytmp4",
+      "name": "YtMp4",
       "description": "Download video from YouTube",
       "permissions": {},
       "premiumOnly": "",
@@ -66,7 +68,7 @@
       ]
     },
     {
-      "name": "ytms",
+      "name": "YtMusicSearch",
       "description": "Search music on YouTube Music",
       "permissions": {},
       "premiumOnly": "",
@@ -76,7 +78,7 @@
       ]
     },
     {
-      "name": "yts",
+      "name": "YtSearch",
       "description": "Search videos on YouTube",
       "permissions": {},
       "premiumOnly": "",

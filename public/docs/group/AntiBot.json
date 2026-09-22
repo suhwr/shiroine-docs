@@ -1,0 +1,71 @@
+{
+  "name": "AntiBot",
+  "commands": [
+    "antibot"
+  ],
+  "aliases": [],
+  "display": [
+    "AntiBot"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "antibot"
+  ],
+  "description": {
+    "id": "Aktifkan atau nonaktifkan sistem anti-bot untuk grup",
+    "en": "Enable or disable anti-bot system for the group"
+  },
+  "usage": "AntiBot",
+  "examples": [
+    "antibot",
+    "antibot on",
+    "antibot off"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {
+    "admin": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 72
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

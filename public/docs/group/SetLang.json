@@ -1,0 +1,80 @@
+{
+  "name": "SetLang",
+  "commands": [
+    "set-lang",
+    "setlang",
+    "set-language",
+    "setlanguage"
+  ],
+  "aliases": [],
+  "display": [
+    "SetLang"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "set-lang",
+    "setlang",
+    "set-language",
+    "setlanguage"
+  ],
+  "description": {
+    "id": "Mengatur bahasa bot di grup (khusus admin) atau chat pribadi",
+    "en": "Set bot language for the group (admin only) or private chat"
+  },
+  "usage": "SetLang",
+  "examples": [
+    "setlang id",
+    "setlang en",
+    "set-language id",
+    "set-language en"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "private": true,
+    "group": true,
+    "group_community": true,
+    "newsletter": true
+  },
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 111
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

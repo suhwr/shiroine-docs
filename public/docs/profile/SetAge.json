@@ -1,0 +1,65 @@
+{
+  "name": "SetAge",
+  "commands": [
+    "setage",
+    "set-age"
+  ],
+  "aliases": [],
+  "display": [
+    "SetAge"
+  ],
+  "category": "profile",
+  "categories": [
+    "profile"
+  ],
+  "tags": [
+    "setage",
+    "set-age"
+  ],
+  "description": {
+    "id": "Mengatur umur profil",
+    "en": "Set profile age"
+  },
+  "usage": "SetAge",
+  "examples": [
+    "setage 25",
+    "setage 18",
+    "setage 30"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/profile",
+    "line": 50
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

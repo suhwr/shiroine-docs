@@ -1,7 +1,7 @@
 {
   "commands": [
     {
-      "name": "google",
+      "name": "Google",
       "description": "Search for information using Google",
       "permissions": {},
       "premiumOnly": "",
@@ -12,7 +12,7 @@
       ]
     },
     {
-      "name": "jadwalsholat",
+      "name": "JadwalSholat",
       "description": "View today's prayer schedule by city",
       "permissions": {},
       "premiumOnly": "",
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "name": "lyric",
+      "name": "Lyric",
       "description": "Search song lyrics",
       "permissions": {},
       "premiumOnly": "",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "name": "pinterest",
+      "name": "Pinterest",
       "description": "Search and download images from Pinterest",
       "permissions": {},
       "premiumOnly": "",
@@ -42,18 +42,17 @@
       ]
     },
     {
-      "name": "pinterest video",
+      "name": "PinterestVideo",
       "description": "Search and download videos from Pinterest",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
         "pinterestvideo",
-        "pinvid",
-        "pinterest video"
+        "pinvid"
       ]
     },
     {
-      "name": "saucenao",
+      "name": "SauceNAO",
       "description": "Find anime/illustration image source using SauceNAO (send/reply image)",
       "permissions": {},
       "premiumOnly": "",
@@ -64,7 +63,7 @@
       ]
     },
     {
-      "name": "wallhaven",
+      "name": "Wallhaven",
       "description": "Search and download wallpapers from Wallhaven",
       "permissions": {},
       "premiumOnly": "",
@@ -74,7 +73,7 @@
       ]
     },
     {
-      "name": "ytms",
+      "name": "YtMusicSearch",
       "description": "Search music on YouTube Music",
       "permissions": {},
       "premiumOnly": "",
@@ -84,7 +83,7 @@
       ]
     },
     {
-      "name": "yts",
+      "name": "YtSearch",
       "description": "Search videos on YouTube",
       "permissions": {},
       "premiumOnly": "",

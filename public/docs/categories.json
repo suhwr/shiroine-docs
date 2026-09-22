@@ -1,18 +1,6 @@
 {
   "categories": [
     {
-      "id": "Minigame",
-      "name": "Minigame",
-      "description": "Minigame commands.",
-      "icon": "box"
-    },
-    {
-      "id": "Tools",
-      "name": "Tools",
-      "description": "Tools commands.",
-      "icon": "box"
-    },
-    {
       "id": "ai",
       "name": "AI & Chatbots",
       "description": "Interact with artificial intelligence assistants, image generation, and chat tools.",
@@ -63,8 +51,14 @@
     {
       "id": "media",
       "name": "Media",
-      "description": "Media commands.",
-      "icon": "box"
+      "description": "Media editing, viewer, and utilities.",
+      "icon": "film"
+    },
+    {
+      "id": "minigame",
+      "name": "Minigames",
+      "description": "Play interactive HTML5 minigames.",
+      "icon": "play"
     },
     {
       "id": "owner",

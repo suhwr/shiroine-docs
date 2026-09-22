@@ -1,0 +1,63 @@
+{
+  "name": "RejectCall",
+  "commands": [
+    "rejectcall",
+    "rc"
+  ],
+  "aliases": [],
+  "display": [
+    "RejectCall"
+  ],
+  "category": "bot",
+  "categories": [
+    "bot"
+  ],
+  "tags": [
+    "rejectcall",
+    "rc"
+  ],
+  "description": {
+    "id": "Aktifkan/nonaktifkan penolakan panggilan otomatis",
+    "en": "Enable/disable automatic call rejection"
+  },
+  "usage": "RejectCall",
+  "examples": [
+    "rejectcall on"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 79
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

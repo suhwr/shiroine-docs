@@ -1,0 +1,65 @@
+{
+  "name": "SetBotName",
+  "commands": [
+    "setbotname",
+    "setnamebot",
+    "set-bot-name"
+  ],
+  "aliases": [],
+  "display": [
+    "SetBotName"
+  ],
+  "category": "bot",
+  "categories": [
+    "bot"
+  ],
+  "tags": [
+    "setbotname",
+    "setnamebot",
+    "set-bot-name"
+  ],
+  "description": {
+    "id": "Ubah nama bot",
+    "en": "Change bot name"
+  },
+  "usage": "SetBotName",
+  "examples": [
+    "setbotname Yae Miko"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 47
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "EarRape",
+  "commands": [
+    "earrape"
+  ],
+  "aliases": [],
+  "display": [
+    "EarRape"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "earrape"
+  ],
+  "description": {
+    "id": "Naikkan volume audio secara ekstrem (opsional: tingkat volume 1-50, default 12)",
+    "en": "Extreme volume boost effect (optional: volume level 1-50, default 12)"
+  },
+  "usage": "EarRape",
+  "examples": [
+    "earrape",
+    "earrape 20"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 426
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

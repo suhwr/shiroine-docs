@@ -1,0 +1,65 @@
+{
+  "name": "Wallhaven",
+  "commands": [
+    "wallhaven",
+    "wh"
+  ],
+  "aliases": [],
+  "display": [
+    "Wallhaven"
+  ],
+  "category": "search",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "wallhaven",
+    "wh"
+  ],
+  "description": {
+    "en": "Search and download wallpapers from Wallhaven",
+    "id": "Cari dan download wallpaper dari Wallhaven"
+  },
+  "usage": "Wallhaven",
+  "examples": [
+    "wallhaven nature",
+    "wallhaven anime #10",
+    "wallhaven cyberpunk #5 --nsfw"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/search",
+    "line": 95
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}
