@@ -1,0 +1,67 @@
+{
+  "name": "GroupID",
+  "commands": [
+    "groupid"
+  ],
+  "aliases": [],
+  "display": [
+    "GroupID"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "groupid"
+  ],
+  "description": {
+    "id": "Menampilkan ID unik grup obrolan ini",
+    "en": "Display unique ID of this group chat"
+  },
+  "usage": "GroupID",
+  "examples": [
+    "groupid"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 18
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

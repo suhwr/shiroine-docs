@@ -1,0 +1,61 @@
+{
+  "name": "Level",
+  "commands": [
+    "level"
+  ],
+  "aliases": [],
+  "display": [
+    "Level"
+  ],
+  "category": "profile",
+  "categories": [
+    "profile"
+  ],
+  "tags": [
+    "level"
+  ],
+  "description": {
+    "en": "View your level and XP",
+    "id": "Lihat level dan XP kamu"
+  },
+  "usage": "Level",
+  "examples": [
+    "level"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/profile",
+    "line": 299
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

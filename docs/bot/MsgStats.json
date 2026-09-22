@@ -1,0 +1,63 @@
+{
+  "name": "MsgStats",
+  "commands": [
+    "msgstats",
+    "bot_msgstats"
+  ],
+  "aliases": [],
+  "display": [
+    "MsgStats"
+  ],
+  "category": "bot",
+  "categories": [
+    "bot"
+  ],
+  "tags": [
+    "msgstats",
+    "bot_msgstats"
+  ],
+  "description": {
+    "id": "Tampilkan statistik pesan bot dalam 24 jam terakhir",
+    "en": "Show bot message statistics for the last 24 hours"
+  },
+  "usage": "MsgStats",
+  "examples": [
+    "msgstats"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 47
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

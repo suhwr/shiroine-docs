@@ -1,0 +1,64 @@
+{
+  "name": "JadiAnimeV2",
+  "commands": [
+    "jadianimev2",
+    "toanimev2"
+  ],
+  "aliases": [],
+  "display": [
+    "JadiAnimeV2"
+  ],
+  "category": "ai",
+  "categories": [
+    "ai"
+  ],
+  "tags": [
+    "jadianimev2",
+    "toanimev2"
+  ],
+  "description": {
+    "id": "Ubah foto menjadi gaya anime v2 menggunakan AI",
+    "en": "Convert photo to anime v2 style using AI"
+  },
+  "usage": "JadiAnimeV2",
+  "examples": [
+    "jadianimev2",
+    "toanimev2"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/ai",
+    "line": 78
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "HeadBang",
+  "commands": [
+    "headbang"
+  ],
+  "aliases": [],
+  "display": [
+    "HeadBang"
+  ],
+  "category": "fun",
+  "categories": [
+    "fun"
+  ],
+  "tags": [
+    "headbang"
+  ],
+  "description": {
+    "id": "Reaksi headbang",
+    "en": "React with headbang"
+  },
+  "usage": "HeadBang",
+  "examples": [
+    "headbang"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/fun",
+    "line": 1
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

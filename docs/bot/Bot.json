@@ -1,0 +1,59 @@
+{
+  "name": "Bot",
+  "commands": [
+    "bot"
+  ],
+  "aliases": [],
+  "display": [
+    "Bot"
+  ],
+  "category": "bot",
+  "categories": [
+    "bot"
+  ],
+  "tags": [
+    "bot"
+  ],
+  "description": {
+    "id": "Merespon sapaan bot dengan latency",
+    "en": "Responds to bot greeting with latency"
+  },
+  "usage": "Bot",
+  "examples": [],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 27
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

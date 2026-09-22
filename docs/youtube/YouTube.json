@@ -1,0 +1,71 @@
+{
+  "name": "YouTube",
+  "commands": [
+    "yt",
+    "youtube"
+  ],
+  "aliases": [],
+  "display": [
+    "YouTube"
+  ],
+  "category": "youtube",
+  "categories": [
+    "youtube"
+  ],
+  "tags": [
+    "yt",
+    "youtube"
+  ],
+  "description": {
+    "id": "Helper YouTube - pilih aksi download audio, video, atau album",
+    "en": "YouTube helper - choose to download audio, video, or album"
+  },
+  "usage": "YouTube",
+  "examples": [
+    "yt Despacito",
+    "yt music Despacito",
+    "yt album the book",
+    "yt https://youtube.com/watch?v=..."
+  ],
+  "minArgs": 0,
+  "args": {
+    "query / url": {
+      "en": "Search keyword, video URL, music URL, or query prefixed with: 'music [query]' / 'album [query]'",
+      "id": "Kata kunci pencarian, link video, link musik, atau keyword bertipe: 'music [query]' / 'album [query]'"
+    }
+  },
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/youtube",
+    "line": 307
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

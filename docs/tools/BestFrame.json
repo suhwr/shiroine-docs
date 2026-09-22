@@ -1,0 +1,61 @@
+{
+  "name": "BestFrame",
+  "commands": [
+    "bestframe"
+  ],
+  "aliases": [],
+  "display": [
+    "BestFrame"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "bestframe"
+  ],
+  "description": {
+    "id": "Mengambil frame terbaik dari video berdasarkan kualitas visual (sharpness, blur, dll)",
+    "en": "Extract the best frame from a video based on visual quality (sharpness, blur, etc.)"
+  },
+  "usage": "BestFrame",
+  "examples": [
+    "bestframe"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "all",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": true,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 107
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

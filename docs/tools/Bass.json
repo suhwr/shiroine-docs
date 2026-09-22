@@ -1,0 +1,62 @@
+{
+  "name": "Bass",
+  "commands": [
+    "bass"
+  ],
+  "aliases": [],
+  "display": [
+    "Bass"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "bass"
+  ],
+  "description": {
+    "id": "Tambahkan efek bass boost ke audio/video (opsional: tingkat bass 1-100, default 20)",
+    "en": "Add bass boost effect to audio/video (optional: bass level 1-100, default 20)"
+  },
+  "usage": "Bass",
+  "examples": [
+    "bass",
+    "bass 50"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 384
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

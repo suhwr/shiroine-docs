@@ -1,0 +1,61 @@
+{
+  "name": "Reverb",
+  "commands": [
+    "reverb"
+  ],
+  "aliases": [],
+  "display": [
+    "Reverb"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "reverb"
+  ],
+  "description": {
+    "id": "Tambahkan efek gema ke audio",
+    "en": "Add reverb effect to audio"
+  },
+  "usage": "Reverb",
+  "examples": [
+    "reverb"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 524
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

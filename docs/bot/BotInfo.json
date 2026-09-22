@@ -1,0 +1,67 @@
+{
+  "name": "BotInfo",
+  "commands": [
+    "botinfo",
+    "cekbot",
+    "checkbot"
+  ],
+  "aliases": [],
+  "display": [
+    "BotInfo"
+  ],
+  "category": "bot",
+  "categories": [
+    "bot"
+  ],
+  "tags": [
+    "botinfo",
+    "cekbot",
+    "checkbot"
+  ],
+  "description": {
+    "id": "Menampilkan informasi, pengaturan, dan statistik bot (cekbot tanpa statistik)",
+    "en": "Display bot info, settings, and statistics (checkbot omits statistics)"
+  },
+  "usage": "BotInfo",
+  "examples": [
+    "botinfo",
+    "cekbot @user",
+    "checkbot @user"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 223
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

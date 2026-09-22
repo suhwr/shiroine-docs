@@ -1,0 +1,64 @@
+{
+  "name": "Menu",
+  "commands": [
+    "menu"
+  ],
+  "aliases": [],
+  "display": [
+    "Menu"
+  ],
+  "category": "general",
+  "categories": [
+    "general"
+  ],
+  "tags": [
+    "menu"
+  ],
+  "description": {
+    "en": "Show command menu",
+    "id": "Tampilkan menu perintah"
+  },
+  "usage": "Menu",
+  "examples": [
+    "menu",
+    "menu all",
+    "menu profile",
+    "menu tools"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/general",
+    "line": 74
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

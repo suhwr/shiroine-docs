@@ -1,0 +1,71 @@
+{
+  "name": "Rival",
+  "commands": [
+    "rival"
+  ],
+  "aliases": [],
+  "display": [
+    "Rival"
+  ],
+  "category": "game",
+  "categories": [
+    "game"
+  ],
+  "tags": [
+    "rival"
+  ],
+  "description": {
+    "id": "Lihat rival terdekatmu",
+    "en": "View your closest rival"
+  },
+  "usage": "Rival",
+  "examples": [
+    "rival"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "newsletter": true,
+    "private": true,
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/game",
+    "line": 171
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

@@ -1,0 +1,67 @@
+{
+  "name": "CekTanpaGrup",
+  "commands": [
+    "cektanpagrup"
+  ],
+  "aliases": [],
+  "display": [
+    "CekTanpaGrup"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "cektanpagrup"
+  ],
+  "description": {
+    "id": "Periksa anggota komunitas yang belum bergabung ke grup mana pun",
+    "en": "Check community members who have not joined any subgroup"
+  },
+  "usage": "CekTanpaGrup",
+  "examples": [
+    "cektanpagrup"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group_community"
+  ],
+  "chatTypes": {
+    "group_community": true
+  },
+  "permissions": {
+    "admin": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 90
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "ResetAI",
+  "commands": [
+    "reset-ai",
+    "resetai"
+  ],
+  "aliases": [],
+  "display": [
+    "ResetAI"
+  ],
+  "category": "ai",
+  "categories": [
+    "ai"
+  ],
+  "tags": [
+    "reset-ai",
+    "resetai"
+  ],
+  "description": {
+    "id": "Hapus seluruh riwayat percakapan pribadi dengan AI dan mulai sesi baru tanpa konteks sebelumnya. Berguna ketika Anda ingin memulai topik baru yang tidak terkait dengan percakapan sebelumnya.",
+    "en": "Clear all private conversation history with AI and start a new session without previous context. Useful when you want to start a new topic unrelated to previous conversations."
+  },
+  "usage": "ResetAI",
+  "examples": [
+    "resetai"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/ai",
+    "line": 36
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

@@ -1,0 +1,66 @@
+{
+  "name": "SetBotOwner",
+  "commands": [
+    "setbotowner",
+    "setowner",
+    "sbo"
+  ],
+  "aliases": [],
+  "display": [
+    "SetBotOwner"
+  ],
+  "category": "bot",
+  "categories": [
+    "bot"
+  ],
+  "tags": [
+    "setbotowner",
+    "setowner",
+    "sbo"
+  ],
+  "description": {
+    "id": "Ganti nomor owner untuk sesi bot ini",
+    "en": "Change the owner number for this bot session"
+  },
+  "usage": "SetBotOwner",
+  "examples": [
+    "setbotowner 628123456789",
+    "setbotowner @user"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 72
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

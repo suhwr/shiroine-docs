@@ -1,0 +1,64 @@
+{
+  "name": "Reverse",
+  "commands": [
+    "reverse"
+  ],
+  "aliases": [],
+  "display": [
+    "Reverse"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "reverse"
+  ],
+  "description": {
+    "id": "Balik teks, audio (maks 10 menit) atau video (maks 1 menit, premium)",
+    "en": "Reverse text, audio (max 10 min) or video (max 1 min, premium)"
+  },
+  "usage": "Reverse",
+  "examples": [
+    "reverse halo",
+    "reverse (reply audio/video/teks)",
+    "reverse hello",
+    "reverse (reply audio/video/text)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 184
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

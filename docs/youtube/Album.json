@@ -1,0 +1,61 @@
+{
+  "name": "Album",
+  "commands": [
+    "album"
+  ],
+  "aliases": [],
+  "display": [
+    "Album"
+  ],
+  "category": "youtube",
+  "categories": [
+    "youtube"
+  ],
+  "tags": [
+    "album"
+  ],
+  "description": {
+    "id": "Download album dari YouTube Music",
+    "en": "Download album from YouTube Music"
+  },
+  "usage": "Album",
+  "examples": [
+    "album the book 3 yoasobi"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/youtube",
+    "line": 147
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Color",
+  "commands": [
+    "color"
+  ],
+  "aliases": [],
+  "display": [
+    "Color"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "color"
+  ],
+  "description": {
+    "id": "Sesuaikan warna gambar dengan flag atau preset. Gunakan 'color list' untuk melihat preset.",
+    "en": "Adjust image colors using flags or presets. Use 'color list' to see presets."
+  },
+  "usage": "Color",
+  "examples": [
+    "color -b=20 -c=30 -s=40",
+    "color -preset=cinematic",
+    "color vintage",
+    "color list"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 864
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

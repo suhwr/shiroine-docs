@@ -1,0 +1,61 @@
+{
+  "name": "QR",
+  "commands": [
+    "qr"
+  ],
+  "aliases": [],
+  "display": [
+    "QR"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "qr"
+  ],
+  "description": {
+    "id": "Buat atau decode QR code",
+    "en": "Generate or decode QR code"
+  },
+  "usage": "QR",
+  "examples": [
+    "qr https://example.com"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 77
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

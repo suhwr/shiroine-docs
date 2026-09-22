@@ -1,7 +1,7 @@
 {
   "commands": [
     {
-      "name": "afk",
+      "name": "AFK",
       "description": "Set AFK status with reason",
       "permissions": {},
       "premiumOnly": "",
@@ -10,7 +10,7 @@
       ]
     },
     {
-      "name": "cekpremium",
+      "name": "CekPremium",
       "description": "Check remaining premium duration",
       "permissions": {},
       "premiumOnly": "",
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "name": "change-password",
+      "name": "ChangePassword",
       "description": "Change password for website login",
       "permissions": {},
       "premiumOnly": "",
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "name": "getpp",
+      "name": "GetPP",
       "description": "Get profile picture",
       "permissions": {},
       "premiumOnly": "",
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "name": "level",
+      "name": "Level",
       "description": "View your level and XP",
       "permissions": {},
       "premiumOnly": "",
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "name": "profile",
+      "name": "Profile",
       "description": "View user profile",
       "permissions": {},
       "premiumOnly": "",
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "name": "setage",
+      "name": "SetAge",
       "description": "Set profile age",
       "permissions": {},
       "premiumOnly": "",
@@ -68,7 +68,7 @@
       ]
     },
     {
-      "name": "setbio",
+      "name": "SetBio",
       "description": "Set profile bio/about",
       "permissions": {},
       "premiumOnly": "",
@@ -78,7 +78,7 @@
       ]
     },
     {
-      "name": "setgender",
+      "name": "SetGender",
       "description": "Set profile gender",
       "permissions": {},
       "premiumOnly": "",
@@ -88,7 +88,7 @@
       ]
     },
     {
-      "name": "setname",
+      "name": "SetName",
       "description": "Set profile name",
       "permissions": {},
       "premiumOnly": "",
@@ -98,7 +98,7 @@
       ]
     },
     {
-      "name": "setprefix",
+      "name": "SetPrefix",
       "description": "Set personal prefix (private chat only)",
       "permissions": {},
       "premiumOnly": "",

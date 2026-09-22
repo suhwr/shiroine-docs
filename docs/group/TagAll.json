@@ -1,0 +1,73 @@
+{
+  "name": "TagAll",
+  "commands": [
+    "tagall",
+    "tag"
+  ],
+  "aliases": [],
+  "display": [
+    "TagAll"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "tagall",
+    "tag"
+  ],
+  "description": {
+    "id": "Tag semua anggota grup dikelompokkan berdasarkan peran",
+    "en": "Tag all group members grouped by role"
+  },
+  "usage": "TagAll",
+  "examples": [
+    "tagall",
+    "tagall Rapat jam 19:00",
+    "tagall Meeting at 7 PM"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {
+    "admin": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 130
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

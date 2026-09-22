@@ -1,0 +1,66 @@
+{
+  "name": "YtSearch",
+  "commands": [
+    "yts",
+    "ytsearch"
+  ],
+  "aliases": [],
+  "display": [
+    "YtSearch"
+  ],
+  "category": "youtube",
+  "categories": [
+    "youtube",
+    "search"
+  ],
+  "tags": [
+    "yts",
+    "ytsearch"
+  ],
+  "description": {
+    "id": "Cari video di YouTube",
+    "en": "Search videos on YouTube"
+  },
+  "usage": "YtSearch",
+  "examples": [
+    "yts never gonna give you up",
+    "yts tutorial golang",
+    "yts golang tutorial"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/youtube",
+    "line": 119
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

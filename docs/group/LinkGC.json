@@ -1,0 +1,74 @@
+{
+  "name": "LinkGC",
+  "commands": [
+    "linkgc",
+    "gruplink",
+    "link"
+  ],
+  "aliases": [],
+  "display": [
+    "LinkGC"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "linkgc",
+    "gruplink",
+    "link"
+  ],
+  "description": {
+    "id": "Dapatkan tautan undangan grup",
+    "en": "Get group invite link"
+  },
+  "usage": "LinkGC",
+  "examples": [
+    "linkgc",
+    "link"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group_community": true,
+    "group": true
+  },
+  "permissions": {
+    "admin": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 61
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

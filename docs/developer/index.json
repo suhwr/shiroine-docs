@@ -1,18 +1,7 @@
 {
   "commands": [
     {
-      "name": "$",
-      "description": "Execute a command in the server terminal",
-      "permissions": {
-        "owner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "$"
-      ]
-    },
-    {
-      "name": "adddonatur",
+      "name": "AddDonatur",
       "description": "Add/update donatur to list (owner only)",
       "permissions": {
         "owner": true
@@ -24,7 +13,7 @@
       ]
     },
     {
-      "name": "addprem",
+      "name": "AddPrem",
       "description": "Add/update premium manually (owner only)",
       "permissions": {
         "owner": true
@@ -36,7 +25,7 @@
       ]
     },
     {
-      "name": "addsubowner",
+      "name": "AddSubOwner",
       "description": "Add a new sub-owner",
       "permissions": {
         "owner": true
@@ -48,30 +37,7 @@
       ]
     },
     {
-      "name": "ban-user",
-      "description": "Ban a user from all bots you own",
-      "permissions": {
-        "hasbot": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "ban-user",
-        "banuser"
-      ]
-    },
-    {
-      "name": "banmedia",
-      "description": "Flag media as NSFW — instantly blocked in all groups",
-      "permissions": {
-        "owner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "banmedia"
-      ]
-    },
-    {
-      "name": "bcgroup",
+      "name": "BCGroup",
       "description": "Broadcast message to Community/Group",
       "permissions": {
         "owner": true
@@ -83,7 +49,30 @@
       ]
     },
     {
-      "name": "broadcast",
+      "name": "BanMedia",
+      "description": "Flag media as NSFW — instantly blocked in all groups",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "banmedia"
+      ]
+    },
+    {
+      "name": "BanUser",
+      "description": "Ban a user from all bots you own",
+      "permissions": {
+        "hasbot": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "ban-user",
+        "banuser"
+      ]
+    },
+    {
+      "name": "Broadcast",
       "description": "Broadcast message to Newsletter",
       "permissions": {
         "owner": true
@@ -95,7 +84,18 @@
       ]
     },
     {
-      "name": "cleardb",
+      "name": "CRedeem",
+      "description": "Create limit redeem code without quota (owner only)",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "credeem"
+      ]
+    },
+    {
+      "name": "ClearDB",
       "description": "Clear data from specific database tables (message_daily_stats)",
       "permissions": {
         "owner": true
@@ -106,7 +106,7 @@
       ]
     },
     {
-      "name": "create-redeem",
+      "name": "CreateRedeem",
       "description": "Create redeem code (owner only)",
       "permissions": {
         "owner": true
@@ -118,29 +118,7 @@
       ]
     },
     {
-      "name": "credeem",
-      "description": "Create limit redeem code without quota (owner only)",
-      "permissions": {
-        "owner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "credeem"
-      ]
-    },
-    {
-      "name": "deletenametable",
-      "description": "Permanently delete 'name' table (considered useless)",
-      "permissions": {
-        "owner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "deletenametable"
-      ]
-    },
-    {
-      "name": "delmod",
+      "name": "DelMod",
       "description": "Remove moderator role from user",
       "permissions": {
         "owner": true,
@@ -154,7 +132,18 @@
       ]
     },
     {
-      "name": "errors",
+      "name": "DeleteNameTable",
+      "description": "Permanently delete 'name' table (considered useless)",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "deletenametable"
+      ]
+    },
+    {
+      "name": "Errors",
       "description": "View dependency error logs",
       "permissions": {
         "owner": true
@@ -166,72 +155,7 @@
       ]
     },
     {
-      "name": "hardban",
-      "description": "Ban user globally (permanent)",
-      "permissions": {
-        "subowner": true,
-        "owner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "hardban",
-        "hban"
-      ]
-    },
-    {
-      "name": "hardbangc",
-      "description": "Ban group globally (all bots)",
-      "permissions": {
-        "owner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "hardbangc",
-        "hbangc",
-        "hardbangrup"
-      ]
-    },
-    {
-      "name": "hardbanlist",
-      "description": "Show global ban list",
-      "permissions": {
-        "subowner": true,
-        "owner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "hardbanlist",
-        "hbanlist"
-      ]
-    },
-    {
-      "name": "hardunban",
-      "description": "Unban user from global ban list",
-      "permissions": {
-        "subowner": true,
-        "owner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "hardunban",
-        "hunban"
-      ]
-    },
-    {
-      "name": "hardunbangc",
-      "description": "Unban group from global ban list",
-      "permissions": {
-        "owner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "hardunbangc",
-        "hunbangc",
-        "hardunbangrup"
-      ]
-    },
-    {
-      "name": "httprequest",
+      "name": "HTTPRequest",
       "description": "Make HTTP requests with various methods (GET default, POST, PUT, DELETE, etc) with support for custom headers, form data, JSON, and file upload",
       "permissions": {
         "owner": true
@@ -245,7 +169,72 @@
       ]
     },
     {
-      "name": "listsubowners",
+      "name": "HardBan",
+      "description": "Ban user globally (permanent)",
+      "permissions": {
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "hardban",
+        "hban"
+      ]
+    },
+    {
+      "name": "HardBanGC",
+      "description": "Ban group globally (all bots)",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "hardbangc",
+        "hbangc",
+        "hardbangrup"
+      ]
+    },
+    {
+      "name": "HardBanList",
+      "description": "Show global ban list",
+      "permissions": {
+        "subowner": true,
+        "owner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "hardbanlist",
+        "hbanlist"
+      ]
+    },
+    {
+      "name": "HardUnban",
+      "description": "Unban user from global ban list",
+      "permissions": {
+        "owner": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "hardunban",
+        "hunban"
+      ]
+    },
+    {
+      "name": "HardUnbanGC",
+      "description": "Unban group from global ban list",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "hardunbangc",
+        "hunbangc",
+        "hardunbangrup"
+      ]
+    },
+    {
+      "name": "ListSubOwners",
       "description": "Show sub-owners list",
       "permissions": {
         "owner": true
@@ -259,7 +248,7 @@
       ]
     },
     {
-      "name": "logger",
+      "name": "Logger",
       "description": "Configure logger in realtime",
       "permissions": {
         "owner": true
@@ -270,7 +259,7 @@
       ]
     },
     {
-      "name": "param",
+      "name": "Param",
       "description": "Inspect incoming WhatsApp message parameters as JSON",
       "permissions": {
         "owner": true
@@ -282,7 +271,7 @@
       ]
     },
     {
-      "name": "removesubowner",
+      "name": "RemoveSubOwner",
       "description": "Remove a sub-owner",
       "permissions": {
         "owner": true
@@ -296,7 +285,7 @@
       ]
     },
     {
-      "name": "restart",
+      "name": "Restart",
       "description": "Restart application via PM2",
       "permissions": {
         "owner": true
@@ -307,7 +296,7 @@
       ]
     },
     {
-      "name": "setrole",
+      "name": "SetRole",
       "description": "Set user role (moderator, admin, user)",
       "permissions": {
         "owner": true,
@@ -321,7 +310,7 @@
       ]
     },
     {
-      "name": "swap",
+      "name": "Swap",
       "description": "Swap number between two sessions",
       "permissions": {
         "owner": true
@@ -332,7 +321,19 @@
       ]
     },
     {
-      "name": "testwg",
+      "name": "Terminal",
+      "description": "Execute a command in the server terminal",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "terminal",
+        "$"
+      ]
+    },
+    {
+      "name": "TestWG",
       "description": "Test welcome or goodbye generator directly",
       "permissions": {
         "owner": true
@@ -343,7 +344,7 @@
       ]
     },
     {
-      "name": "unban-user",
+      "name": "UnbanUser",
       "description": "Unban a user from all bots you own",
       "permissions": {
         "hasbot": true
@@ -355,7 +356,7 @@
       ]
     },
     {
-      "name": "update",
+      "name": "Update",
       "description": "Update and restart application via PM2",
       "permissions": {
         "owner": true

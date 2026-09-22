@@ -1,0 +1,63 @@
+{
+  "name": "AutoRead",
+  "commands": [
+    "autoread"
+  ],
+  "aliases": [],
+  "display": [
+    "AutoRead"
+  ],
+  "category": "bot",
+  "categories": [
+    "bot"
+  ],
+  "tags": [
+    "autoread"
+  ],
+  "description": {
+    "en": "Enable/disable auto-read message feature",
+    "id": "Aktifkan/nonaktifkan fitur auto-read pesan"
+  },
+  "usage": "AutoRead",
+  "examples": [
+    "autoread on",
+    "autoread off",
+    "autoread"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 77
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

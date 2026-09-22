@@ -1,0 +1,68 @@
+{
+  "name": "SMeme",
+  "commands": [
+    "smeme",
+    "ismeme",
+    "jsmeme",
+    "tsmeme"
+  ],
+  "aliases": [],
+  "display": [
+    "SMeme"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "smeme",
+    "ismeme",
+    "jsmeme",
+    "tsmeme"
+  ],
+  "description": {
+    "id": "Buat meme dari gambar",
+    "en": "Create meme from image"
+  },
+  "usage": "SMeme",
+  "examples": [
+    "smeme halo|dunia",
+    "smeme hello|world"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 89
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

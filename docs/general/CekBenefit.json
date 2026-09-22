@@ -1,0 +1,61 @@
+{
+  "name": "CekBenefit",
+  "commands": [
+    "cekbenefit"
+  ],
+  "aliases": [],
+  "display": [
+    "CekBenefit"
+  ],
+  "category": "general",
+  "categories": [
+    "general"
+  ],
+  "tags": [
+    "cekbenefit"
+  ],
+  "description": {
+    "id": "Lihat semua benefit menjadi premium",
+    "en": "View all benefits of becoming premium"
+  },
+  "usage": "CekBenefit",
+  "examples": [
+    "cekbenefit"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 2,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/general",
+    "line": 25
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

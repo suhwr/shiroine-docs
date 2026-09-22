@@ -1,0 +1,76 @@
+{
+  "name": "BanList",
+  "commands": [
+    "banlist"
+  ],
+  "aliases": [],
+  "display": [
+    "BanList"
+  ],
+  "category": "group",
+  "categories": [
+    "group",
+    "owner"
+  ],
+  "tags": [
+    "banlist"
+  ],
+  "description": {
+    "id": "Tampilkan daftar entitas yang diban berdasarkan kategori",
+    "en": "Show list of banned entities by category"
+  },
+  "usage": "BanList",
+  "examples": [
+    "banlist member",
+    "banlist user",
+    "banlist chat",
+    "banlist globaluser",
+    "banlist globalchat"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "private": true,
+    "group": true,
+    "group_community": true,
+    "newsletter": true
+  },
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 242
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

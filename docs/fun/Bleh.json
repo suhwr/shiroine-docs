@@ -1,0 +1,61 @@
+{
+  "name": "Bleh",
+  "commands": [
+    "bleh"
+  ],
+  "aliases": [],
+  "display": [
+    "Bleh"
+  ],
+  "category": "fun",
+  "categories": [
+    "fun"
+  ],
+  "tags": [
+    "bleh"
+  ],
+  "description": {
+    "id": "Reaksi bleh",
+    "en": "React with bleh"
+  },
+  "usage": "Bleh",
+  "examples": [
+    "bleh"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/fun",
+    "line": 1
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

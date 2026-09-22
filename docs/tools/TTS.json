@@ -1,0 +1,74 @@
+{
+  "name": "TTS",
+  "commands": [
+    "tts",
+    "text2speech"
+  ],
+  "aliases": [],
+  "display": [
+    "TTS"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "tts",
+    "text2speech"
+  ],
+  "description": {
+    "id": "Konversi teks menjadi suara (Text-to-Speech)",
+    "en": "Convert text to speech (Text-to-Speech)"
+  },
+  "usage": "TTS",
+  "examples": [
+    "tts Halo, apa kabar?",
+    "tts en Hello world",
+    "tts ja こんにちは",
+    "tts Hello world",
+    "tts id Halo dunia"
+  ],
+  "minArgs": 0,
+  "args": {
+    "kode_bahasa | teks": {
+      "id": "Kode bahasa opsional (misal: 'en' untuk Inggris) diikuti oleh teks yang ingin diubah menjadi suara"
+    },
+    "lang_code | text": {
+      "en": "Optional language code (e.g. 'en' for English) followed by the text to convert to speech"
+    }
+  },
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 63
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

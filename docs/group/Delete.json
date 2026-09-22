@@ -1,0 +1,75 @@
+{
+  "name": "Delete",
+  "commands": [
+    "delete",
+    "del",
+    "d"
+  ],
+  "aliases": [],
+  "display": [
+    "Delete"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "delete",
+    "del",
+    "d"
+  ],
+  "description": {
+    "id": "Hapus pesan yang dibalas (reply)",
+    "en": "Delete replied message"
+  },
+  "usage": "Delete",
+  "examples": [
+    "del",
+    "del 5s",
+    "del 1m"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "private": true,
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": true,
+  "disableProcessLimit": true,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 152
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

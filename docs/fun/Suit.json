@@ -1,0 +1,66 @@
+{
+  "name": "Suit",
+  "commands": [
+    "suit",
+    "rps"
+  ],
+  "aliases": [],
+  "display": [
+    "Suit"
+  ],
+  "category": "fun",
+  "categories": [
+    "fun"
+  ],
+  "tags": [
+    "suit",
+    "rps"
+  ],
+  "description": {
+    "id": "Bermain batu-gunting-kertas melawan bot",
+    "en": "Play rock-paper-scissors against the bot"
+  },
+  "usage": "Suit",
+  "examples": [
+    "suit batu",
+    "rps rock",
+    "suit rock",
+    "rps batu"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 2,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/fun",
+    "line": 172
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

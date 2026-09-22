@@ -1,0 +1,62 @@
+{
+  "name": "Slow",
+  "commands": [
+    "slow"
+  ],
+  "aliases": [],
+  "display": [
+    "Slow"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "slow"
+  ],
+  "description": {
+    "id": "Perlambat kecepatan audio (opsional: rasio kecepatan 0.5-0.99, default 0.7)",
+    "en": "Slow down audio playback speed (optional: speed ratio 0.5-0.99, default 0.7)"
+  },
+  "usage": "Slow",
+  "examples": [
+    "slow",
+    "slow 0.5"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 496
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

@@ -1,0 +1,77 @@
+{
+  "name": "Terminal",
+  "commands": [
+    "terminal",
+    "$"
+  ],
+  "aliases": [],
+  "display": [
+    "Terminal"
+  ],
+  "category": "developer",
+  "categories": [
+    "developer"
+  ],
+  "tags": [
+    "terminal",
+    "$"
+  ],
+  "description": {
+    "en": "Execute a command in the server terminal",
+    "id": "Menjalankan perintah di terminal server"
+  },
+  "usage": "Terminal <teks>",
+  "examples": [
+    "$ ls -la",
+    "$ whoami",
+    "$ cat /etc/hostname"
+  ],
+  "minArgs": 1,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
+  "permissions": {
+    "owner": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/developer",
+    "line": 58
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

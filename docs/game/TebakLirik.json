@@ -1,0 +1,67 @@
+{
+  "name": "TebakLirik",
+  "commands": [
+    "tebaklirik"
+  ],
+  "aliases": [],
+  "display": [
+    "TebakLirik"
+  ],
+  "category": "game",
+  "categories": [
+    "game"
+  ],
+  "tags": [
+    "tebaklirik"
+  ],
+  "description": {
+    "id": "Mulai game tebak lirik lagu",
+    "en": "Start song lyrics guessing game"
+  },
+  "usage": "TebakLirik",
+  "examples": [
+    "tebaklirik"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 3,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/game",
+    "line": 196
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

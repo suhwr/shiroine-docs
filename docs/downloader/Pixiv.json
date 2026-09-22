@@ -1,0 +1,65 @@
+{
+  "name": "Pixiv",
+  "commands": [
+    "pixiv",
+    "pxdl"
+  ],
+  "aliases": [],
+  "display": [
+    "Pixiv"
+  ],
+  "category": "downloader",
+  "categories": [
+    "downloader"
+  ],
+  "tags": [
+    "pixiv",
+    "pxdl"
+  ],
+  "description": {
+    "id": "Download artwork NSFW dari Pixiv (pencarian atau ID/URL)",
+    "en": "Download NSFW artwork from Pixiv (search or ID/URL)"
+  },
+  "usage": "Pixiv",
+  "examples": [
+    "pixiv elaina",
+    "pixiv 12345678",
+    "pixiv https://www.pixiv.net/artworks/12345678"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": true,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/downloader",
+    "line": 187
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

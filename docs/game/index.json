@@ -1,7 +1,7 @@
 {
   "commands": [
     {
-      "name": "asahotak",
+      "name": "AsahOtak",
       "description": "Start brain teaser / trivia game",
       "permissions": {},
       "premiumOnly": "",
@@ -10,7 +10,7 @@
       ]
     },
     {
-      "name": "badges",
+      "name": "Badges",
       "description": "View your badge collection",
       "permissions": {},
       "premiumOnly": "",
@@ -20,7 +20,7 @@
       ]
     },
     {
-      "name": "caklontong",
+      "name": "CakLontong",
       "description": "Start caklontong / funny riddle game",
       "permissions": {},
       "premiumOnly": "",
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "name": "gamelimit",
+      "name": "GameLimit",
       "description": "Check remaining daily game limit",
       "permissions": {},
       "premiumOnly": "",
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "name": "gamestats",
+      "name": "GameStats",
       "description": "View personal game statistics",
       "permissions": {},
       "premiumOnly": "",
@@ -50,17 +50,18 @@
       ]
     },
     {
-      "name": "glb",
+      "name": "GlobalLeaderboard",
       "description": "View group leaderboard",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
+        "globalleaderboard",
         "glb",
         "grouplb"
       ]
     },
     {
-      "name": "groupachievements",
+      "name": "GroupAchievements",
       "description": "View group achievements",
       "permissions": {},
       "premiumOnly": "",
@@ -70,7 +71,7 @@
       ]
     },
     {
-      "name": "groupcarry",
+      "name": "GroupCarry",
       "description": "Detect carry player in group",
       "permissions": {},
       "premiumOnly": "",
@@ -79,7 +80,7 @@
       ]
     },
     {
-      "name": "groupcompare",
+      "name": "GroupCompare",
       "description": "Compare your group vs rival",
       "permissions": {},
       "premiumOnly": "",
@@ -88,7 +89,7 @@
       ]
     },
     {
-      "name": "groupcontrib",
+      "name": "GroupContrib",
       "description": "View group top contributors",
       "permissions": {},
       "premiumOnly": "",
@@ -98,7 +99,7 @@
       ]
     },
     {
-      "name": "groupmvp",
+      "name": "GroupMVP",
       "description": "View group MVP",
       "permissions": {},
       "premiumOnly": "",
@@ -107,16 +108,7 @@
       ]
     },
     {
-      "name": "groupstats",
-      "description": "View group game statistics",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "groupstats"
-      ]
-    },
-    {
-      "name": "leaderboard",
+      "name": "Leaderboard",
       "description": "Show game leaderboard",
       "permissions": {},
       "premiumOnly": "",
@@ -127,7 +119,7 @@
       ]
     },
     {
-      "name": "math",
+      "name": "Math",
       "description": "Start math game with difficulty level",
       "permissions": {},
       "premiumOnly": "",
@@ -136,7 +128,7 @@
       ]
     },
     {
-      "name": "profilegame",
+      "name": "ProfileGame",
       "description": "View your game profile",
       "permissions": {},
       "premiumOnly": "",
@@ -146,7 +138,7 @@
       ]
     },
     {
-      "name": "rival",
+      "name": "Rival",
       "description": "View your closest rival",
       "permissions": {},
       "premiumOnly": "",
@@ -155,7 +147,7 @@
       ]
     },
     {
-      "name": "siapakahaku",
+      "name": "SiapakahAku",
       "description": "Start who am I guessing game",
       "permissions": {},
       "premiumOnly": "",
@@ -164,7 +156,7 @@
       ]
     },
     {
-      "name": "susunkata",
+      "name": "SusunKata",
       "description": "Start word scramble game",
       "permissions": {},
       "premiumOnly": "",
@@ -173,7 +165,7 @@
       ]
     },
     {
-      "name": "tebakbendera",
+      "name": "TebakBendera",
       "description": "Start country flag guessing game",
       "permissions": {},
       "premiumOnly": "",
@@ -182,7 +174,7 @@
       ]
     },
     {
-      "name": "tebakbom",
+      "name": "TebakBom",
       "description": "Start Tebak Bom game – avoid the bomb among 9 numbers",
       "permissions": {},
       "premiumOnly": "",
@@ -191,7 +183,7 @@
       ]
     },
     {
-      "name": "tebakgambar",
+      "name": "TebakGambar",
       "description": "Start picture guessing game",
       "permissions": {},
       "premiumOnly": "",
@@ -200,7 +192,7 @@
       ]
     },
     {
-      "name": "tebakkata",
+      "name": "TebakKata",
       "description": "Start word guessing game from hints",
       "permissions": {},
       "premiumOnly": "",
@@ -209,7 +201,7 @@
       ]
     },
     {
-      "name": "tebaklirik",
+      "name": "TebakLirik",
       "description": "Start song lyrics guessing game",
       "permissions": {},
       "premiumOnly": "",
@@ -218,7 +210,7 @@
       ]
     },
     {
-      "name": "tictactoe",
+      "name": "TicTacToe",
       "description": "Play Tictactoe with 2 players in group",
       "permissions": {},
       "premiumOnly": "",

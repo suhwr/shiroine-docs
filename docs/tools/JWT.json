@@ -1,0 +1,61 @@
+{
+  "name": "JWT",
+  "commands": [
+    "jwt"
+  ],
+  "aliases": [],
+  "display": [
+    "JWT"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "jwt"
+  ],
+  "description": {
+    "id": "Decode token JWT secara lokal",
+    "en": "Decode JWT token locally"
+  },
+  "usage": "JWT",
+  "examples": [
+    "jwt <token>"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 70
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

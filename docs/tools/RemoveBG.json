@@ -1,0 +1,72 @@
+{
+  "name": "RemoveBG",
+  "commands": [
+    "removebg",
+    "rmbg",
+    "rbg"
+  ],
+  "aliases": [],
+  "display": [
+    "RemoveBG"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "removebg",
+    "rmbg",
+    "rbg"
+  ],
+  "description": {
+    "id": "Hapus background foto/stiker menggunakan AI (model: aiease, pixelcut, removebg, rembg, local)",
+    "en": "Remove photo/sticker background using AI (models: aiease, pixelcut, removebg, rembg, local)"
+  },
+  "usage": "RemoveBG",
+  "examples": [
+    "removebg (kirim/reply gambar)",
+    "removebg aiease (kirim/reply gambar)",
+    "removebg pixelcut (kirim/reply gambar)",
+    "removebg removebg (kirim/reply gambar)",
+    "removebg (send/reply image)",
+    "removebg aiease (send/reply image)",
+    "removebg pixelcut (send/reply image)",
+    "removebg removebg (send/reply image)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 97
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Pixelate",
+  "commands": [
+    "pixelate",
+    "pixel"
+  ],
+  "aliases": [],
+  "display": [
+    "Pixelate"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "pixelate",
+    "pixel"
+  ],
+  "description": {
+    "id": "Ubah gambar menjadi pixel art. Angka menunjukkan ukuran blok piksel (2-100), makin besar makin kotak-kotak.",
+    "en": "Convert image to pixel art. Number represents pixel block size (2-100), larger means more blocky."
+  },
+  "usage": "Pixelate",
+  "examples": [
+    "pixelate",
+    "pixelate 16",
+    "pixelate 32 -mode=sharp"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 883
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

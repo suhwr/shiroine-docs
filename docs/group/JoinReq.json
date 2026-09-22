@@ -1,0 +1,76 @@
+{
+  "name": "JoinReq",
+  "commands": [
+    "joinreq"
+  ],
+  "aliases": [],
+  "display": [
+    "JoinReq"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "joinreq"
+  ],
+  "description": {
+    "id": "Kelola daftar permintaan masuk (join request) anggota grup",
+    "en": "Manage group member join approval requests"
+  },
+  "usage": "JoinReq",
+  "examples": [
+    "joinreq",
+    "joinreq acc 1",
+    "joinreq acc 1,3,5",
+    "joinreq acc 2h",
+    "joinreq acc all",
+    "joinreq reject 2",
+    "joinreq reject 1d",
+    "joinreq reject all"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {
+    "admin": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 445
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

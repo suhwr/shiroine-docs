@@ -1,0 +1,67 @@
+{
+  "name": "NSFW",
+  "commands": [
+    "nsfw",
+    "nsfwmode"
+  ],
+  "aliases": [],
+  "display": [
+    "NSFW"
+  ],
+  "category": "general",
+  "categories": [
+    "general",
+    "bot",
+    "group"
+  ],
+  "tags": [
+    "nsfw",
+    "nsfwmode"
+  ],
+  "description": {
+    "id": "Toggle mode NSFW (di grup: admin only, di private: bot only)",
+    "en": "Toggle NSFW mode (in group: admin only, in private: bot only)"
+  },
+  "usage": "NSFW",
+  "examples": [
+    "nsfw on",
+    "nsfw off",
+    "nsfw"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/general",
+    "line": 135
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

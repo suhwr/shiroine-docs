@@ -1,0 +1,66 @@
+{
+  "name": "ToMP3",
+  "commands": [
+    "tomp3",
+    "toaudio",
+    "tovn"
+  ],
+  "aliases": [],
+  "display": [
+    "ToMP3"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "tomp3",
+    "toaudio",
+    "tovn"
+  ],
+  "description": {
+    "id": "Convert video ke mp3 atau voice note.",
+    "en": "Convert video to mp3 or voice note."
+  },
+  "usage": "ToMP3",
+  "examples": [
+    "tomp3 (reply video)",
+    "tovn (reply video)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 96
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

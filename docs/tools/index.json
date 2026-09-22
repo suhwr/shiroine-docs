@@ -1,7 +1,7 @@
 {
   "commands": [
     {
-      "name": "audioeffect",
+      "name": "AudioEffect",
       "description": "Show list of all available audio effects",
       "permissions": {},
       "premiumOnly": "",
@@ -10,7 +10,7 @@
       ]
     },
     {
-      "name": "barcode",
+      "name": "Barcode",
       "description": "Generate or decode barcode",
       "permissions": {},
       "premiumOnly": "",
@@ -19,7 +19,16 @@
       ]
     },
     {
-      "name": "bestframe",
+      "name": "Bass",
+      "description": "Add bass boost effect to audio/video (optional: bass level 1-100, default 20)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "bass"
+      ]
+    },
+    {
+      "name": "BestFrame",
       "description": "Extract the best frame from a video based on visual quality (sharpness, blur, etc.)",
       "permissions": {},
       "premiumOnly": "all",
@@ -28,7 +37,16 @@
       ]
     },
     {
-      "name": "blur",
+      "name": "Blown",
+      "description": "Blown / overdrive effect on audio",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "blown"
+      ]
+    },
+    {
+      "name": "Blur",
       "description": "Apply blur effect to an image (gaussian, box, motion, pixelate).",
       "permissions": {},
       "premiumOnly": "",
@@ -37,7 +55,7 @@
       ]
     },
     {
-      "name": "brat",
+      "name": "Brat",
       "description": "Create BRAT sticker",
       "permissions": {},
       "premiumOnly": "",
@@ -66,18 +84,27 @@
       ]
     },
     {
-      "name": "calculator",
+      "name": "Calculator",
       "description": "Complex calculator (supports math functions)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
+        "calculator",
         "calc",
-        "kalkulator",
-        "calculator"
+        "kalkulator"
       ]
     },
     {
-      "name": "color",
+      "name": "Chorus",
+      "description": "Add chorus effect to audio",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "chorus"
+      ]
+    },
+    {
+      "name": "Color",
       "description": "Adjust image colors using flags or presets. Use 'color list' to see presets.",
       "permissions": {},
       "premiumOnly": "",
@@ -86,7 +113,7 @@
       ]
     },
     {
-      "name": "compress",
+      "name": "Compress",
       "description": "Compress image with given quality (default 80)",
       "permissions": {},
       "premiumOnly": "",
@@ -95,7 +122,7 @@
       ]
     },
     {
-      "name": "crop",
+      "name": "Crop",
       "description": "Crop image: ratio (4:3), center, free, or x/y coordinates",
       "permissions": {},
       "premiumOnly": "",
@@ -104,7 +131,7 @@
       ]
     },
     {
-      "name": "decode",
+      "name": "Decode",
       "description": "Decode text from various formats (base64, hex, morse, etc)",
       "permissions": {},
       "premiumOnly": "",
@@ -113,7 +140,43 @@
       ]
     },
     {
-      "name": "emojimix",
+      "name": "Deep",
+      "description": "Make audio sound deeper",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "deep"
+      ]
+    },
+    {
+      "name": "Denoise",
+      "description": "Reduce noise in audio",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "denoise"
+      ]
+    },
+    {
+      "name": "Distortion",
+      "description": "Add distortion effect to audio",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "distortion"
+      ]
+    },
+    {
+      "name": "EarRape",
+      "description": "Extreme volume boost effect (optional: volume level 1-50, default 12)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "earrape"
+      ]
+    },
+    {
+      "name": "Emojimix",
       "description": "Mix two emojis into one (Emoji Kitchen)",
       "permissions": {},
       "premiumOnly": "",
@@ -123,7 +186,7 @@
       ]
     },
     {
-      "name": "encode",
+      "name": "Encode",
       "description": "Encode text to various formats (base64, hex, morse, etc)",
       "permissions": {},
       "premiumOnly": "",
@@ -132,7 +195,34 @@
       ]
     },
     {
-      "name": "flip",
+      "name": "Fast",
+      "description": "Speed up audio playback (optional: speed ratio 1.0-4.0, default 1.63)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "fast"
+      ]
+    },
+    {
+      "name": "Fat",
+      "description": "Fat / heavy audio effect",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "fat"
+      ]
+    },
+    {
+      "name": "Flanger",
+      "description": "Add flanger effect to audio",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "flanger"
+      ]
+    },
+    {
+      "name": "Flip",
       "description": "Flip image/video horizontally (h) or vertically (v)",
       "permissions": {},
       "premiumOnly": "",
@@ -141,7 +231,7 @@
       ]
     },
     {
-      "name": "getexif",
+      "name": "GetEXIF",
       "description": "Get EXIF metadata from the quoted/replied sticker",
       "permissions": {},
       "premiumOnly": "",
@@ -150,7 +240,7 @@
       ]
     },
     {
-      "name": "getidch",
+      "name": "GetIDCH",
       "description": "Get Channel JID from WhatsApp Channel URL",
       "permissions": {},
       "premiumOnly": "",
@@ -159,7 +249,7 @@
       ]
     },
     {
-      "name": "getmedia",
+      "name": "GetMedia",
       "description": "Retrieve media from the quoted/replied message",
       "permissions": {},
       "premiumOnly": "",
@@ -168,7 +258,7 @@
       ]
     },
     {
-      "name": "getmsgid",
+      "name": "GetMsgID",
       "description": "Get Message ID from the quoted/replied message",
       "permissions": {},
       "premiumOnly": "",
@@ -177,7 +267,16 @@
       ]
     },
     {
-      "name": "humming",
+      "name": "HighPass",
+      "description": "Cut low frequencies from audio (optional: frequency 100-10000Hz, default 500)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "highpass"
+      ]
+    },
+    {
+      "name": "Humming",
       "description": "Find song by humming (send or reply to your humming audio then type the command)",
       "permissions": {},
       "premiumOnly": "",
@@ -186,7 +285,7 @@
       ]
     },
     {
-      "name": "iqc",
+      "name": "IQC",
       "description": "Create iPhone WhatsApp Chat screenshot (self-hosted)\nOptional args: --time=HH:MM --battery=0-100 --carrier=NAME\nEmbed image: send/reply image + text",
       "permissions": {},
       "premiumOnly": "",
@@ -195,7 +294,16 @@
       ]
     },
     {
-      "name": "jadiburik",
+      "name": "JWT",
+      "description": "Decode JWT token locally",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "jwt"
+      ]
+    },
+    {
+      "name": "JadiBurik",
       "description": "Drastically lower the quality of media (image, audio, video).",
       "permissions": {},
       "premiumOnly": "",
@@ -206,16 +314,7 @@
       ]
     },
     {
-      "name": "jwt",
-      "description": "Decode JWT token locally",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "jwt"
-      ]
-    },
-    {
-      "name": "lang",
+      "name": "Lang",
       "description": "Show the list of languages supported by the translate plugin",
       "permissions": {},
       "premiumOnly": "",
@@ -225,17 +324,17 @@
       ]
     },
     {
-      "name": "lens",
+      "name": "Lens",
       "description": "Search image information using Google Lens (send or reply to an image then type the command)",
       "permissions": {},
-      "premiumOnly": "all",
+      "premiumOnly": "",
       "tags": [
         "lens",
         "googlelens"
       ]
     },
     {
-      "name": "lorem",
+      "name": "Lorem",
       "description": "Generate Lorem Ipsum text",
       "permissions": {},
       "premiumOnly": "",
@@ -244,7 +343,16 @@
       ]
     },
     {
-      "name": "lower",
+      "name": "LowPass",
+      "description": "Cut high frequencies from audio (optional: frequency 100-10000Hz, default 500)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "lowpass"
+      ]
+    },
+    {
+      "name": "Lower",
       "description": "Convert text to lowercase",
       "permissions": {},
       "premiumOnly": "",
@@ -253,7 +361,7 @@
       ]
     },
     {
-      "name": "mediaquality",
+      "name": "MediaQuality",
       "description": "Analyze specifications and quality of an image, video, or audio",
       "permissions": {},
       "premiumOnly": "",
@@ -263,7 +371,16 @@
       ]
     },
     {
-      "name": "ocr",
+      "name": "Nightcore",
+      "description": "Convert audio to nightcore style",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "nightcore"
+      ]
+    },
+    {
+      "name": "OCR",
       "description": "Extract text from image",
       "permissions": {},
       "premiumOnly": "",
@@ -272,7 +389,7 @@
       ]
     },
     {
-      "name": "pesan",
+      "name": "Pesan",
       "description": "Inspect incoming WhatsApp message parameters as JSON",
       "permissions": {},
       "premiumOnly": "",
@@ -282,7 +399,16 @@
       ]
     },
     {
-      "name": "pixelate",
+      "name": "Pitch",
+      "description": "Raise audio pitch (optional: pitch level 0.5-2.0, default 1.25)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "pitch"
+      ]
+    },
+    {
+      "name": "Pixelate",
       "description": "Convert image to pixel art. Number represents pixel block size (2-100), larger means more blocky.",
       "permissions": {},
       "premiumOnly": "",
@@ -292,7 +418,7 @@
       ]
     },
     {
-      "name": "qc",
+      "name": "QC",
       "description": "Create chat quotes from text/images",
       "permissions": {},
       "premiumOnly": "",
@@ -305,7 +431,7 @@
       ]
     },
     {
-      "name": "qr",
+      "name": "QR",
       "description": "Generate or decode QR code",
       "permissions": {},
       "premiumOnly": "",
@@ -314,7 +440,7 @@
       ]
     },
     {
-      "name": "readmore",
+      "name": "ReadMore",
       "description": "Create a message with a 'Read more' button.",
       "permissions": {},
       "premiumOnly": "",
@@ -324,7 +450,7 @@
       ]
     },
     {
-      "name": "readqris",
+      "name": "ReadQRIS",
       "description": "Read and decode QRIS information from image or sticker",
       "permissions": {},
       "premiumOnly": "",
@@ -333,8 +459,8 @@
       ]
     },
     {
-      "name": "removebg",
-      "description": "Remove image background using AI (providers: aiease, pixelcut, removebg)",
+      "name": "RemoveBG",
+      "description": "Remove photo/sticker background using AI (models: aiease, pixelcut, removebg, rembg, local)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -344,7 +470,7 @@
       ]
     },
     {
-      "name": "resize",
+      "name": "Resize",
       "description": "Resize image. Use absolute pixel value (e.g. 512 or 512x512) or percentage (e.g. 50%)",
       "permissions": {},
       "premiumOnly": "",
@@ -353,7 +479,16 @@
       ]
     },
     {
-      "name": "reverse",
+      "name": "Reverb",
+      "description": "Add reverb effect to audio",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "reverb"
+      ]
+    },
+    {
+      "name": "Reverse",
       "description": "Reverse text, audio (max 10 min) or video (max 1 min, premium)",
       "permissions": {},
       "premiumOnly": "",
@@ -362,10 +497,19 @@
       ]
     },
     {
-      "name": "romanize",
+      "name": "Robot",
+      "description": "Apply robot voice effect",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "robot"
+      ]
+    },
+    {
+      "name": "Romanize",
       "description": "Convert non-Latin text (Japanese, Korean, Arabic, etc.) to Latin characters",
       "permissions": {},
-      "premiumOnly": "all",
+      "premiumOnly": "",
       "tags": [
         "romanize",
         "romaji",
@@ -373,7 +517,7 @@
       ]
     },
     {
-      "name": "rotate",
+      "name": "Rotate",
       "description": "Rotate image by a given angle (dynamic -360 to 360)",
       "permissions": {},
       "premiumOnly": "",
@@ -382,16 +526,7 @@
       ]
     },
     {
-      "name": "setqris",
-      "description": "Generate new QRIS from a QRIS image, optionally set payment amount",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "setqris"
-      ]
-    },
-    {
-      "name": "smeme",
+      "name": "SMeme",
       "description": "Create meme from image",
       "permissions": {},
       "premiumOnly": "",
@@ -403,16 +538,7 @@
       ]
     },
     {
-      "name": "smooth",
-      "description": "Smooth video with 120fps frame interpolation (Premium, max. 1:30 min)",
-      "permissions": {},
-      "premiumOnly": "all",
-      "tags": [
-        "smooth"
-      ]
-    },
-    {
-      "name": "ssweb",
+      "name": "SSWeb",
       "description": "Take a screenshot of a web page",
       "permissions": {},
       "premiumOnly": "",
@@ -423,17 +549,44 @@
       ]
     },
     {
-      "name": "stabilize",
+      "name": "SetQRIS",
+      "description": "Generate new QRIS from a QRIS image, optionally set payment amount",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "setqris"
+      ]
+    },
+    {
+      "name": "Slow",
+      "description": "Slow down audio playback speed (optional: speed ratio 0.5-0.99, default 0.7)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "slow"
+      ]
+    },
+    {
+      "name": "Smooth",
+      "description": "Smooth video with 120fps frame interpolation (Premium, max. 1:30 min)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "smooth"
+      ]
+    },
+    {
+      "name": "Stabilize",
       "description": "Stabilize shaky video (premium only, max 5 min)",
       "permissions": {},
-      "premiumOnly": "all",
+      "premiumOnly": "",
       "tags": [
         "stabilize"
       ]
     },
     {
-      "name": "sticker",
-      "description": "Convert image/video to WhatsApp sticker with various cropping modes",
+      "name": "Sticker",
+      "description": "Create a sticker from an image, video, sticker, or ZIP file sent or replied to. Supports shape modes (--circle, --round), crop modes (--crop, --full, --smart), direct send (--direct), and custom metadata (--null, --avatar, --ai, --premium).",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -444,48 +597,7 @@
       ]
     },
     {
-      "name": "todocmsg",
-      "description": "Convert media (image/video/audio) into a document message",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "todocmsg",
-        "todoc"
-      ]
-    },
-    {
-      "name": "tomp3",
-      "description": "Convert video to mp3 or voice note.",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "tomp3",
-        "toaudio",
-        "tovn"
-      ]
-    },
-    {
-      "name": "translate",
-      "description": "Translate text to various languages",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "translate",
-        "tl",
-        "tr"
-      ]
-    },
-    {
-      "name": "trim",
-      "description": "Trim video/audio by time range",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "trim"
-      ]
-    },
-    {
-      "name": "tts",
+      "name": "TTS",
       "description": "Convert text to speech (Text-to-Speech)",
       "permissions": {},
       "premiumOnly": "",
@@ -495,7 +607,7 @@
       ]
     },
     {
-      "name": "tts-ai",
+      "name": "TTSAI",
       "description": "Convert text to natural AI voice (AI Text-to-Speech)",
       "permissions": {},
       "premiumOnly": "",
@@ -506,7 +618,105 @@
       ]
     },
     {
-      "name": "upload",
+      "name": "TestImage",
+      "description": "Display an image using FOA HTML",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "testimage",
+        "testimg"
+      ]
+    },
+    {
+      "name": "ToDocMsg",
+      "description": "Convert media (image/video/audio) into a document message",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "todocmsg",
+        "todoc"
+      ]
+    },
+    {
+      "name": "ToGif",
+      "description": "Convert sticker to GIF",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "togif"
+      ]
+    },
+    {
+      "name": "ToImage",
+      "description": "Convert sticker to image",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "toimage",
+        "toimg"
+      ]
+    },
+    {
+      "name": "ToMP3",
+      "description": "Convert video to mp3 or voice note.",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "tomp3",
+        "toaudio",
+        "tovn"
+      ]
+    },
+    {
+      "name": "ToVideo",
+      "description": "Convert sticker to video",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "tovideo",
+        "tovid"
+      ]
+    },
+    {
+      "name": "Translate",
+      "description": "Translate text to various languages",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "translate",
+        "tl",
+        "tr"
+      ]
+    },
+    {
+      "name": "Trim",
+      "description": "Trim video/audio by time range",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "trim"
+      ]
+    },
+    {
+      "name": "Tupai",
+      "description": "Chipmunk / squirrel voice effect",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "tupai"
+      ]
+    },
+    {
+      "name": "Underwater",
+      "description": "Underwater audio effect",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "underwater"
+      ]
+    },
+    {
+      "name": "Upload",
       "description": "Upload file to server and get URL",
       "permissions": {},
       "premiumOnly": "",
@@ -516,7 +726,7 @@
       ]
     },
     {
-      "name": "upper",
+      "name": "Upper",
       "description": "Convert text to UPPERCASE",
       "permissions": {},
       "premiumOnly": "",
@@ -525,7 +735,7 @@
       ]
     },
     {
-      "name": "upscaler",
+      "name": "Upscaler",
       "description": "Enhance image quality using AI",
       "permissions": {},
       "premiumOnly": "",
@@ -537,7 +747,7 @@
       ]
     },
     {
-      "name": "whatmusic",
+      "name": "WhatMusic",
       "description": "Find song from audio or video (send or reply to audio/video then type the command)",
       "permissions": {},
       "premiumOnly": "",

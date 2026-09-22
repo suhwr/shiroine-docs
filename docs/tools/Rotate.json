@@ -1,0 +1,63 @@
+{
+  "name": "Rotate",
+  "commands": [
+    "rotate"
+  ],
+  "aliases": [],
+  "display": [
+    "Rotate"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "rotate"
+  ],
+  "description": {
+    "id": "Putar gambar sebesar sudut tertentu (dinamis -360 s/d 360)",
+    "en": "Rotate image by a given angle (dynamic -360 to 360)"
+  },
+  "usage": "Rotate",
+  "examples": [
+    "rotate 90",
+    "rotate 45",
+    "rotate -90"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 828
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

@@ -1,0 +1,73 @@
+{
+  "name": "BanMember",
+  "commands": [
+    "ban-member",
+    "banmember"
+  ],
+  "aliases": [],
+  "display": [
+    "BanMember"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "ban-member",
+    "banmember"
+  ],
+  "description": {
+    "id": "Ban anggota dari penggunaan bot di grup ini",
+    "en": "Ban member from using the bot in this group"
+  },
+  "usage": "BanMember",
+  "examples": [
+    "banmember @user",
+    "banmember @user1 @user2",
+    "banmember 628xxxx"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group_community": true,
+    "group": true
+  },
+  "permissions": {
+    "admin": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 272
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

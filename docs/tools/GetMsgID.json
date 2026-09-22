@@ -1,0 +1,62 @@
+{
+  "name": "GetMsgID",
+  "commands": [
+    "getmsgid"
+  ],
+  "aliases": [],
+  "display": [
+    "GetMsgID"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "getmsgid"
+  ],
+  "description": {
+    "id": "Ambil Message ID dari pesan yang di-quote/reply",
+    "en": "Get Message ID from the quoted/replied message"
+  },
+  "usage": "GetMsgID",
+  "examples": [
+    "getmsgid (reply ke pesan)",
+    "getmsgid (reply to a message)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 46
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

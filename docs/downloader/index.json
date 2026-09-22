@@ -1,6 +1,15 @@
 {
   "commands": [
     {
+      "name": "DownloadStickerPack",
+      "description": "Download a WhatsApp sticker pack message as a ZIP file",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "downloadstickerpack"
+      ]
+    },
+    {
       "name": "Downloader",
       "description": "Download video from various platforms",
       "permissions": {},
@@ -11,16 +20,7 @@
       ]
     },
     {
-      "name": "downloadstickerpack",
-      "description": "Download a WhatsApp sticker pack message as a ZIP file",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "downloadstickerpack"
-      ]
-    },
-    {
-      "name": "facebook",
+      "name": "Facebook",
       "description": "Download video/photo from Facebook",
       "permissions": {},
       "premiumOnly": "",
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "name": "instagram",
+      "name": "Instagram",
       "description": "Download photo/video from Instagram",
       "permissions": {},
       "premiumOnly": "",
@@ -41,18 +41,19 @@
       ]
     },
     {
-      "name": "pinterest dl",
+      "name": "PinterestDownloader",
       "description": "Download photo/video from Pinterest",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
+        "pinterestdownloader",
+        "pinterestdl",
         "pindl",
-        "ptdl",
-        "pinterest dl"
+        "ptdl"
       ]
     },
     {
-      "name": "pixiv",
+      "name": "Pixiv",
       "description": "Download NSFW artwork from Pixiv (search or ID/URL)",
       "permissions": {},
       "premiumOnly": "",
@@ -62,7 +63,7 @@
       ]
     },
     {
-      "name": "spotify",
+      "name": "Spotify",
       "description": "Download or search music from Spotify",
       "permissions": {},
       "premiumOnly": "",
@@ -71,7 +72,7 @@
       ]
     },
     {
-      "name": "telegramsticker",
+      "name": "TelegramSticker",
       "description": "Download a Telegram sticker pack and send it as WhatsApp stickers",
       "permissions": {},
       "premiumOnly": "",
@@ -82,7 +83,7 @@
       ]
     },
     {
-      "name": "telegramstickerv2",
+      "name": "TelegramStickerV2",
       "description": "Download a Telegram sticker pack as ZIP without conversion",
       "permissions": {},
       "premiumOnly": "",
@@ -92,7 +93,7 @@
       ]
     },
     {
-      "name": "tidal",
+      "name": "Tidal",
       "description": "Search or download track, album, or video from Tidal (HiFi quality)",
       "permissions": {},
       "premiumOnly": "",
@@ -101,7 +102,7 @@
       ]
     },
     {
-      "name": "tiktok",
+      "name": "TikTok",
       "description": "Download video/photo from TikTok",
       "permissions": {},
       "premiumOnly": "",
@@ -113,7 +114,7 @@
       ]
     },
     {
-      "name": "twitter",
+      "name": "Twitter",
       "description": "Download video/photo from Twitter/X",
       "permissions": {},
       "premiumOnly": "",

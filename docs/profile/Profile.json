@@ -1,0 +1,65 @@
+{
+  "name": "Profile",
+  "commands": [
+    "profile",
+    "me"
+  ],
+  "aliases": [],
+  "display": [
+    "Profile"
+  ],
+  "category": "profile",
+  "categories": [
+    "profile"
+  ],
+  "tags": [
+    "profile",
+    "me"
+  ],
+  "description": {
+    "id": "Lihat profil user",
+    "en": "View user profile"
+  },
+  "usage": "Profile",
+  "examples": [
+    "profile",
+    "profile @user",
+    "profile (reply)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/profile",
+    "line": 277
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

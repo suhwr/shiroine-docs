@@ -1,0 +1,77 @@
+{
+  "name": "Translate",
+  "commands": [
+    "translate",
+    "tl",
+    "tr"
+  ],
+  "aliases": [],
+  "display": [
+    "Translate"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "translate",
+    "tl",
+    "tr"
+  ],
+  "description": {
+    "id": "Terjemahkan teks ke berbagai bahasa",
+    "en": "Translate text to various languages"
+  },
+  "usage": "Translate",
+  "examples": [
+    "translate en Halo dunia",
+    "translate ja Selamat pagi",
+    "translate (reply teks)",
+    "translate id Hello world",
+    "translate ja Good morning",
+    "translate (reply text)"
+  ],
+  "minArgs": 0,
+  "args": {
+    "kode_bahasa | teks": {
+      "id": "Kode bahasa target diikuti teks yang ingin diterjemahkan (contoh: 'en Halo') atau kode bahasa saja jika mereply pesan"
+    },
+    "lang_code | text": {
+      "en": "Target language code followed by text to translate (e.g., 'en Halo') or target language code only when replying to a message"
+    }
+  },
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 111
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

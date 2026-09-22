@@ -1,0 +1,59 @@
+{
+  "name": "Sudoku",
+  "commands": [
+    "sudoku"
+  ],
+  "aliases": [],
+  "display": [
+    "Sudoku"
+  ],
+  "category": "minigame",
+  "categories": [
+    "minigame"
+  ],
+  "tags": [
+    "sudoku"
+  ],
+  "description": {
+    "id": "Mainkan puzzle angka Sudoku",
+    "en": "Play Sudoku"
+  },
+  "usage": "Sudoku",
+  "examples": [],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/minigame",
+    "line": 1
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

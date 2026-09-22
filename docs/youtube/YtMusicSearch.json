@@ -1,0 +1,65 @@
+{
+  "name": "YtMusicSearch",
+  "commands": [
+    "ytms",
+    "ytmusicsearch"
+  ],
+  "aliases": [],
+  "display": [
+    "YtMusicSearch"
+  ],
+  "category": "youtube",
+  "categories": [
+    "youtube",
+    "search"
+  ],
+  "tags": [
+    "ytms",
+    "ytmusicsearch"
+  ],
+  "description": {
+    "id": "Cari musik di YouTube Music",
+    "en": "Search music on YouTube Music"
+  },
+  "usage": "YtMusicSearch",
+  "examples": [
+    "ytms love story",
+    "ytms imagine dragons"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/youtube",
+    "line": 130
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

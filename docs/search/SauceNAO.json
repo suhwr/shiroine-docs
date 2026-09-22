@@ -1,0 +1,66 @@
+{
+  "name": "SauceNAO",
+  "commands": [
+    "saucenao",
+    "sauce",
+    "source"
+  ],
+  "aliases": [],
+  "display": [
+    "SauceNAO"
+  ],
+  "category": "search",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "saucenao",
+    "sauce",
+    "source"
+  ],
+  "description": {
+    "id": "Cari sumber gambar anime/ilustrasi menggunakan SauceNAO (kirim/reply gambar)",
+    "en": "Find anime/illustration image source using SauceNAO (send/reply image)"
+  },
+  "usage": "SauceNAO",
+  "examples": [
+    "saucenao (kirim/reply gambar)",
+    "saucenao (send/reply image)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/search",
+    "line": 96
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

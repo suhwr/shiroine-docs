@@ -2,200 +2,119 @@
   "commands": [
     {
       "aliases": [],
-      "category": "Minigame",
-      "name": "2048",
-      "path": "/commands/Minigame/2048",
+      "category": "ai",
+      "name": "AI",
+      "path": "/commands/ai/AI",
       "tags": [
-        "2048"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "Minigame",
-      "name": "Breakout",
-      "path": "/commands/Minigame/Breakout",
-      "tags": [
-        "Breakout"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "Minigame",
-      "name": "Chess",
-      "path": "/commands/Minigame/Chess",
-      "tags": [
-        "Chess"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "Minigame",
-      "name": "DinoRun",
-      "path": "/commands/Minigame/DinoRun",
-      "tags": [
-        "DinoRun"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "Minigame",
-      "name": "FlappyBird",
-      "path": "/commands/Minigame/FlappyBird",
-      "tags": [
-        "FlappyBird"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "Minigame",
-      "name": "Frogger",
-      "path": "/commands/Minigame/Frogger",
-      "tags": [
-        "Frogger"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "Minigame",
-      "name": "Galaga",
-      "path": "/commands/Minigame/Galaga",
-      "tags": [
-        "Galaga"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "Minigame",
-      "name": "Minesweeper",
-      "path": "/commands/Minigame/Minesweeper",
-      "tags": [
-        "Minesweeper"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "Minigame",
-      "name": "Pacman",
-      "path": "/commands/Minigame/Pacman",
-      "tags": [
-        "Pacman"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "Minigame",
-      "name": "Racing",
-      "path": "/commands/Minigame/Racing",
-      "tags": [
-        "Racing"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "Minigame",
-      "name": "Snake",
-      "path": "/commands/Minigame/Snake",
-      "tags": [
-        "Snake"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "Minigame",
-      "name": "Sudoku",
-      "path": "/commands/Minigame/Sudoku",
-      "tags": [
-        "Sudoku"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "Minigame",
-      "name": "Tetris",
-      "path": "/commands/Minigame/Tetris",
-      "tags": [
-        "Tetris"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "Minigame",
-      "name": "index",
-      "path": "/commands/Minigame/index",
-      "tags": [
-        "index"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "Tools",
-      "name": "Test Image",
-      "path": "/commands/Tools/Test Image",
-      "tags": [
-        "Test Image"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "Tools",
-      "name": "index",
-      "path": "/commands/Tools/index",
-      "tags": [
-        "index"
+        "AI"
       ]
     },
     {
       "aliases": [],
       "category": "ai",
-      "name": "ai",
-      "path": "/commands/ai/ai",
+      "name": "AIChara",
+      "path": "/commands/ai/AIChara",
       "tags": [
-        "ai"
+        "AIChara"
       ]
     },
     {
       "aliases": [],
       "category": "ai",
-      "name": "aichara",
-      "path": "/commands/ai/aichara",
+      "name": "DeepSeek",
+      "path": "/commands/ai/DeepSeek",
       "tags": [
-        "aichara"
+        "DeepSeek"
       ]
     },
     {
       "aliases": [],
       "category": "ai",
-      "name": "deepseek",
-      "path": "/commands/ai/deepseek",
+      "name": "GPT",
+      "path": "/commands/ai/GPT",
       "tags": [
-        "deepseek"
+        "GPT"
       ]
     },
     {
       "aliases": [],
       "category": "ai",
-      "name": "gemini",
-      "path": "/commands/ai/gemini",
+      "name": "Gemini",
+      "path": "/commands/ai/Gemini",
       "tags": [
-        "gemini"
+        "Gemini"
       ]
     },
     {
       "aliases": [],
       "category": "ai",
-      "name": "gemma",
-      "path": "/commands/ai/gemma",
+      "name": "Gemma",
+      "path": "/commands/ai/Gemma",
       "tags": [
-        "gemma"
+        "Gemma"
       ]
     },
     {
       "aliases": [],
       "category": "ai",
-      "name": "gpt",
-      "path": "/commands/ai/gpt",
+      "name": "JadiAnime",
+      "path": "/commands/ai/JadiAnime",
       "tags": [
-        "gpt"
+        "JadiAnime"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "ai",
+      "name": "JadiAnimeV2",
+      "path": "/commands/ai/JadiAnimeV2",
+      "tags": [
+        "JadiAnimeV2"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "ai",
+      "name": "JadiGhibli",
+      "path": "/commands/ai/JadiGhibli",
+      "tags": [
+        "JadiGhibli"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "ai",
+      "name": "LLM",
+      "path": "/commands/ai/LLM",
+      "tags": [
+        "LLM"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "ai",
+      "name": "Qwen",
+      "path": "/commands/ai/Qwen",
+      "tags": [
+        "Qwen"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "ai",
+      "name": "ResetAI",
+      "path": "/commands/ai/ResetAI",
+      "tags": [
+        "ResetAI"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "ai",
+      "name": "ResetAIGroup",
+      "path": "/commands/ai/ResetAIGroup",
+      "tags": [
+        "ResetAIGroup"
       ]
     },
     {
@@ -209,182 +128,272 @@
     },
     {
       "aliases": [],
-      "category": "ai",
-      "name": "jadianime",
-      "path": "/commands/ai/jadianime",
+      "category": "bot",
+      "name": "AnswerCall",
+      "path": "/commands/bot/AnswerCall",
       "tags": [
-        "jadianime"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "ai",
-      "name": "jadianimev2",
-      "path": "/commands/ai/jadianimev2",
-      "tags": [
-        "jadianimev2"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "ai",
-      "name": "jadighibli",
-      "path": "/commands/ai/jadighibli",
-      "tags": [
-        "jadighibli"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "ai",
-      "name": "llm",
-      "path": "/commands/ai/llm",
-      "tags": [
-        "llm"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "ai",
-      "name": "qwen",
-      "path": "/commands/ai/qwen",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "ai",
-      "name": "reset-ai-group",
-      "path": "/commands/ai/reset-ai-group",
-      "tags": [
-        "reset-ai-group"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "ai",
-      "name": "reset-ai",
-      "path": "/commands/ai/reset-ai",
-      "tags": [
-        "reset-ai"
+        "AnswerCall"
       ]
     },
     {
       "aliases": [],
       "category": "bot",
-      "name": "answercall",
-      "path": "/commands/bot/answercall",
+      "name": "AutoClear",
+      "path": "/commands/bot/AutoClear",
       "tags": [
-        "answercall"
+        "AutoClear"
       ]
     },
     {
       "aliases": [],
       "category": "bot",
-      "name": "autoclear",
-      "path": "/commands/bot/autoclear",
+      "name": "AutoDelete",
+      "path": "/commands/bot/AutoDelete",
       "tags": [
-        "autoclear"
+        "AutoDelete"
       ]
     },
     {
       "aliases": [],
       "category": "bot",
-      "name": "autodelete",
-      "path": "/commands/bot/autodelete",
+      "name": "AutoRead",
+      "path": "/commands/bot/AutoRead",
       "tags": [
-        "autodelete"
+        "AutoRead"
       ]
     },
     {
       "aliases": [],
       "category": "bot",
-      "name": "autoread",
-      "path": "/commands/bot/autoread",
+      "name": "Bot",
+      "path": "/commands/bot/Bot",
       "tags": [
-        "autoread"
+        "Bot"
       ]
     },
     {
       "aliases": [],
       "category": "bot",
-      "name": "bot",
-      "path": "/commands/bot/bot",
+      "name": "BotInfo",
+      "path": "/commands/bot/BotInfo",
       "tags": [
-        "bot"
+        "BotInfo"
       ]
     },
     {
       "aliases": [],
       "category": "bot",
-      "name": "botinfo",
-      "path": "/commands/bot/botinfo",
+      "name": "BotOfficial",
+      "path": "/commands/bot/BotOfficial",
       "tags": [
-        "botinfo"
+        "BotOfficial"
       ]
     },
     {
       "aliases": [],
       "category": "bot",
-      "name": "botofficial",
-      "path": "/commands/bot/botofficial",
+      "name": "BotSettings",
+      "path": "/commands/bot/BotSettings",
       "tags": [
-        "botofficial"
+        "BotSettings"
       ]
     },
     {
       "aliases": [],
       "category": "bot",
-      "name": "botsettings",
-      "path": "/commands/bot/botsettings",
+      "name": "ClearChat",
+      "path": "/commands/bot/ClearChat",
       "tags": [
-        "botsettings"
+        "ClearChat"
       ]
     },
     {
       "aliases": [],
       "category": "bot",
-      "name": "clearchat",
-      "path": "/commands/bot/clearchat",
+      "name": "DeleteChat",
+      "path": "/commands/bot/DeleteChat",
       "tags": [
-        "clearchat"
+        "DeleteChat"
       ]
     },
     {
       "aliases": [],
       "category": "bot",
-      "name": "deletechat",
-      "path": "/commands/bot/deletechat",
+      "name": "GetPrivacySetting",
+      "path": "/commands/bot/GetPrivacySetting",
       "tags": [
-        "deletechat"
+        "GetPrivacySetting"
       ]
     },
     {
       "aliases": [],
       "category": "bot",
-      "name": "getprivacysetting",
-      "path": "/commands/bot/getprivacysetting",
+      "name": "GoStats",
+      "path": "/commands/bot/GoStats",
       "tags": [
-        "getprivacysetting"
+        "GoStats"
       ]
     },
     {
       "aliases": [],
       "category": "bot",
-      "name": "gostats",
-      "path": "/commands/bot/gostats",
+      "name": "GroupMode",
+      "path": "/commands/bot/GroupMode",
       "tags": [
-        "gostats"
+        "GroupMode"
       ]
     },
     {
       "aliases": [],
       "category": "bot",
-      "name": "groupmode",
-      "path": "/commands/bot/groupmode",
+      "name": "JadiBot",
+      "path": "/commands/bot/JadiBot",
       "tags": [
-        "groupmode"
+        "JadiBot"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "JoinMode",
+      "path": "/commands/bot/JoinMode",
+      "tags": [
+        "JoinMode"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "ListGroup",
+      "path": "/commands/bot/ListGroup",
+      "tags": [
+        "ListGroup"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "MsgStats",
+      "path": "/commands/bot/MsgStats",
+      "tags": [
+        "MsgStats"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "RejectCall",
+      "path": "/commands/bot/RejectCall",
+      "tags": [
+        "RejectCall"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "ResetPassword",
+      "path": "/commands/bot/ResetPassword",
+      "tags": [
+        "ResetPassword"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "ScanBot",
+      "path": "/commands/bot/ScanBot",
+      "tags": [
+        "ScanBot"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "SelfMode",
+      "path": "/commands/bot/SelfMode",
+      "tags": [
+        "SelfMode"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "SetBotName",
+      "path": "/commands/bot/SetBotName",
+      "tags": [
+        "SetBotName"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "SetBotOwner",
+      "path": "/commands/bot/SetBotOwner",
+      "tags": [
+        "SetBotOwner"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "SetPP",
+      "path": "/commands/bot/SetPP",
+      "tags": [
+        "SetPP"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "SetPrivacy",
+      "path": "/commands/bot/SetPrivacy",
+      "tags": [
+        "SetPrivacy"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "Stats",
+      "path": "/commands/bot/Stats",
+      "tags": [
+        "Stats"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "TrackBot",
+      "path": "/commands/bot/TrackBot",
+      "tags": [
+        "TrackBot"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "UpCH",
+      "path": "/commands/bot/UpCH",
+      "tags": [
+        "UpCH"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "UpSW",
+      "path": "/commands/bot/UpSW",
+      "tags": [
+        "UpSW"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "UpSW2",
+      "path": "/commands/bot/UpSW2",
+      "tags": [
+        "UpSW2"
       ]
     },
     {
@@ -398,317 +407,272 @@
     },
     {
       "aliases": [],
-      "category": "bot",
-      "name": "jadibot",
-      "path": "/commands/bot/jadibot",
+      "category": "developer",
+      "name": "AddDonatur",
+      "path": "/commands/developer/AddDonatur",
       "tags": [
-        "jadibot"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "bot",
-      "name": "joinmode",
-      "path": "/commands/bot/joinmode",
-      "tags": [
-        "joinmode"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "bot",
-      "name": "listgroup",
-      "path": "/commands/bot/listgroup",
-      "tags": [
-        "listgroup"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "bot",
-      "name": "msgstats",
-      "path": "/commands/bot/msgstats",
-      "tags": [
-        "msgstats"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "bot",
-      "name": "rejectcall",
-      "path": "/commands/bot/rejectcall",
-      "tags": [
-        "rejectcall"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "bot",
-      "name": "reset-password",
-      "path": "/commands/bot/reset-password",
-      "tags": [
-        "reset-password"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "bot",
-      "name": "scanbot",
-      "path": "/commands/bot/scanbot",
-      "tags": [
-        "scanbot"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "bot",
-      "name": "selfmode",
-      "path": "/commands/bot/selfmode",
-      "tags": [
-        "selfmode"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "bot",
-      "name": "setbotname",
-      "path": "/commands/bot/setbotname",
-      "tags": [
-        "setbotname"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "bot",
-      "name": "setbotowner",
-      "path": "/commands/bot/setbotowner",
-      "tags": [
-        "setbotowner"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "bot",
-      "name": "setpp",
-      "path": "/commands/bot/setpp",
-      "tags": [
-        "setpp"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "bot",
-      "name": "setprivacy",
-      "path": "/commands/bot/setprivacy",
-      "tags": [
-        "setprivacy"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "bot",
-      "name": "stats",
-      "path": "/commands/bot/stats",
-      "tags": [
-        "stats"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "bot",
-      "name": "track-bot",
-      "path": "/commands/bot/track-bot",
-      "tags": [
-        "track-bot"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "bot",
-      "name": "upsw",
-      "path": "/commands/bot/upsw",
-      "tags": [
-        "upsw"
+        "AddDonatur"
       ]
     },
     {
       "aliases": [],
       "category": "developer",
-      "name": "$",
-      "path": "/commands/developer/$",
+      "name": "AddPrem",
+      "path": "/commands/developer/AddPrem",
       "tags": [
-        "$"
+        "AddPrem"
       ]
     },
     {
       "aliases": [],
       "category": "developer",
-      "name": "adddonatur",
-      "path": "/commands/developer/adddonatur",
+      "name": "AddSubOwner",
+      "path": "/commands/developer/AddSubOwner",
       "tags": [
-        "adddonatur"
+        "AddSubOwner"
       ]
     },
     {
       "aliases": [],
       "category": "developer",
-      "name": "addprem",
-      "path": "/commands/developer/addprem",
+      "name": "BCGroup",
+      "path": "/commands/developer/BCGroup",
       "tags": [
-        "addprem"
+        "BCGroup"
       ]
     },
     {
       "aliases": [],
       "category": "developer",
-      "name": "addsubowner",
-      "path": "/commands/developer/addsubowner",
+      "name": "BanMedia",
+      "path": "/commands/developer/BanMedia",
       "tags": [
-        "addsubowner"
+        "BanMedia"
       ]
     },
     {
       "aliases": [],
       "category": "developer",
-      "name": "ban-user",
-      "path": "/commands/developer/ban-user",
+      "name": "BanUser",
+      "path": "/commands/developer/BanUser",
       "tags": [
-        "ban-user"
+        "BanUser"
       ]
     },
     {
       "aliases": [],
       "category": "developer",
-      "name": "banmedia",
-      "path": "/commands/developer/banmedia",
+      "name": "Broadcast",
+      "path": "/commands/developer/Broadcast",
       "tags": [
-        "banmedia"
+        "Broadcast"
       ]
     },
     {
       "aliases": [],
       "category": "developer",
-      "name": "bcgroup",
-      "path": "/commands/developer/bcgroup",
+      "name": "CRedeem",
+      "path": "/commands/developer/CRedeem",
       "tags": [
-        "bcgroup"
+        "CRedeem"
       ]
     },
     {
       "aliases": [],
       "category": "developer",
-      "name": "broadcast",
-      "path": "/commands/developer/broadcast",
+      "name": "ClearDB",
+      "path": "/commands/developer/ClearDB",
       "tags": [
-        "broadcast"
+        "ClearDB"
       ]
     },
     {
       "aliases": [],
       "category": "developer",
-      "name": "cleardb",
-      "path": "/commands/developer/cleardb",
+      "name": "CreateRedeem",
+      "path": "/commands/developer/CreateRedeem",
       "tags": [
-        "cleardb"
+        "CreateRedeem"
       ]
     },
     {
       "aliases": [],
       "category": "developer",
-      "name": "create-redeem",
-      "path": "/commands/developer/create-redeem",
+      "name": "DelMod",
+      "path": "/commands/developer/DelMod",
       "tags": [
-        "create-redeem"
+        "DelMod"
       ]
     },
     {
       "aliases": [],
       "category": "developer",
-      "name": "credeem",
-      "path": "/commands/developer/credeem",
+      "name": "DeleteNameTable",
+      "path": "/commands/developer/DeleteNameTable",
       "tags": [
-        "credeem"
+        "DeleteNameTable"
       ]
     },
     {
       "aliases": [],
       "category": "developer",
-      "name": "deletenametable",
-      "path": "/commands/developer/deletenametable",
+      "name": "Errors",
+      "path": "/commands/developer/Errors",
       "tags": [
-        "deletenametable"
+        "Errors"
       ]
     },
     {
       "aliases": [],
       "category": "developer",
-      "name": "delmod",
-      "path": "/commands/developer/delmod",
+      "name": "HTTPRequest",
+      "path": "/commands/developer/HTTPRequest",
       "tags": [
-        "delmod"
+        "HTTPRequest"
       ]
     },
     {
       "aliases": [],
       "category": "developer",
-      "name": "errors",
-      "path": "/commands/developer/errors",
+      "name": "HardBan",
+      "path": "/commands/developer/HardBan",
       "tags": [
-        "errors"
+        "HardBan"
       ]
     },
     {
       "aliases": [],
       "category": "developer",
-      "name": "hardban",
-      "path": "/commands/developer/hardban",
+      "name": "HardBanGC",
+      "path": "/commands/developer/HardBanGC",
       "tags": [
-        "hardban"
+        "HardBanGC"
       ]
     },
     {
       "aliases": [],
       "category": "developer",
-      "name": "hardbangc",
-      "path": "/commands/developer/hardbangc",
+      "name": "HardBanList",
+      "path": "/commands/developer/HardBanList",
       "tags": [
-        "hardbangc"
+        "HardBanList"
       ]
     },
     {
       "aliases": [],
       "category": "developer",
-      "name": "hardbanlist",
-      "path": "/commands/developer/hardbanlist",
+      "name": "HardUnban",
+      "path": "/commands/developer/HardUnban",
       "tags": [
-        "hardbanlist"
+        "HardUnban"
       ]
     },
     {
       "aliases": [],
       "category": "developer",
-      "name": "hardunban",
-      "path": "/commands/developer/hardunban",
+      "name": "HardUnbanGC",
+      "path": "/commands/developer/HardUnbanGC",
       "tags": [
-        "hardunban"
+        "HardUnbanGC"
       ]
     },
     {
       "aliases": [],
       "category": "developer",
-      "name": "hardunbangc",
-      "path": "/commands/developer/hardunbangc",
+      "name": "ListSubOwners",
+      "path": "/commands/developer/ListSubOwners",
       "tags": [
-        "hardunbangc"
+        "ListSubOwners"
       ]
     },
     {
       "aliases": [],
       "category": "developer",
-      "name": "httprequest",
-      "path": "/commands/developer/httprequest",
+      "name": "Logger",
+      "path": "/commands/developer/Logger",
       "tags": [
-        "httprequest"
+        "Logger"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "developer",
+      "name": "Param",
+      "path": "/commands/developer/Param",
+      "tags": [
+        "Param"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "developer",
+      "name": "RemoveSubOwner",
+      "path": "/commands/developer/RemoveSubOwner",
+      "tags": [
+        "RemoveSubOwner"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "developer",
+      "name": "Restart",
+      "path": "/commands/developer/Restart",
+      "tags": [
+        "Restart"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "developer",
+      "name": "SetRole",
+      "path": "/commands/developer/SetRole",
+      "tags": [
+        "SetRole"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "developer",
+      "name": "Swap",
+      "path": "/commands/developer/Swap",
+      "tags": [
+        "Swap"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "developer",
+      "name": "Terminal",
+      "path": "/commands/developer/Terminal",
+      "tags": [
+        "Terminal"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "developer",
+      "name": "TestWG",
+      "path": "/commands/developer/TestWG",
+      "tags": [
+        "TestWG"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "developer",
+      "name": "UnbanUser",
+      "path": "/commands/developer/UnbanUser",
+      "tags": [
+        "UnbanUser"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "developer",
+      "name": "Update",
+      "path": "/commands/developer/Update",
+      "tags": [
+        "Update"
       ]
     },
     {
@@ -722,92 +686,11 @@
     },
     {
       "aliases": [],
-      "category": "developer",
-      "name": "listsubowners",
-      "path": "/commands/developer/listsubowners",
+      "category": "downloader",
+      "name": "DownloadStickerPack",
+      "path": "/commands/downloader/DownloadStickerPack",
       "tags": [
-        "listsubowners"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "developer",
-      "name": "logger",
-      "path": "/commands/developer/logger",
-      "tags": [
-        "logger"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "developer",
-      "name": "param",
-      "path": "/commands/developer/param",
-      "tags": [
-        "param"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "developer",
-      "name": "removesubowner",
-      "path": "/commands/developer/removesubowner",
-      "tags": [
-        "removesubowner"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "developer",
-      "name": "restart",
-      "path": "/commands/developer/restart",
-      "tags": [
-        "restart"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "developer",
-      "name": "setrole",
-      "path": "/commands/developer/setrole",
-      "tags": [
-        "setrole"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "developer",
-      "name": "swap",
-      "path": "/commands/developer/swap",
-      "tags": [
-        "swap"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "developer",
-      "name": "testwg",
-      "path": "/commands/developer/testwg",
-      "tags": [
-        "testwg"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "developer",
-      "name": "unban-user",
-      "path": "/commands/developer/unban-user",
-      "tags": [
-        "unban-user"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "developer",
-      "name": "update",
-      "path": "/commands/developer/update",
-      "tags": [
-        "update"
+        "DownloadStickerPack"
       ]
     },
     {
@@ -822,19 +705,91 @@
     {
       "aliases": [],
       "category": "downloader",
-      "name": "downloadstickerpack",
-      "path": "/commands/downloader/downloadstickerpack",
+      "name": "Facebook",
+      "path": "/commands/downloader/Facebook",
       "tags": [
-        "downloadstickerpack"
+        "Facebook"
       ]
     },
     {
       "aliases": [],
       "category": "downloader",
-      "name": "facebook",
-      "path": "/commands/downloader/facebook",
+      "name": "Instagram",
+      "path": "/commands/downloader/Instagram",
       "tags": [
-        "facebook"
+        "Instagram"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "downloader",
+      "name": "PinterestDownloader",
+      "path": "/commands/downloader/PinterestDownloader",
+      "tags": [
+        "PinterestDownloader"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "downloader",
+      "name": "Pixiv",
+      "path": "/commands/downloader/Pixiv",
+      "tags": [
+        "Pixiv"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "downloader",
+      "name": "Spotify",
+      "path": "/commands/downloader/Spotify",
+      "tags": [
+        "Spotify"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "downloader",
+      "name": "TelegramSticker",
+      "path": "/commands/downloader/TelegramSticker",
+      "tags": [
+        "TelegramSticker"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "downloader",
+      "name": "TelegramStickerV2",
+      "path": "/commands/downloader/TelegramStickerV2",
+      "tags": [
+        "TelegramStickerV2"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "downloader",
+      "name": "Tidal",
+      "path": "/commands/downloader/Tidal",
+      "tags": [
+        "Tidal"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "downloader",
+      "name": "TikTok",
+      "path": "/commands/downloader/TikTok",
+      "tags": [
+        "TikTok"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "downloader",
+      "name": "Twitter",
+      "path": "/commands/downloader/Twitter",
+      "tags": [
+        "Twitter"
       ]
     },
     {
@@ -848,101 +803,749 @@
     },
     {
       "aliases": [],
-      "category": "downloader",
-      "name": "instagram",
-      "path": "/commands/downloader/instagram",
+      "category": "fun",
+      "name": "AirKiss",
+      "path": "/commands/fun/AirKiss",
       "tags": [
-        "instagram"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "downloader",
-      "name": "pinterest dl",
-      "path": "/commands/downloader/pinterest dl",
-      "tags": [
-        "pinterest dl"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "downloader",
-      "name": "pixiv",
-      "path": "/commands/downloader/pixiv",
-      "tags": [
-        "pixiv"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "downloader",
-      "name": "spotify",
-      "path": "/commands/downloader/spotify",
-      "tags": [
-        "spotify"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "downloader",
-      "name": "telegramsticker",
-      "path": "/commands/downloader/telegramsticker",
-      "tags": [
-        "telegramsticker"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "downloader",
-      "name": "telegramstickerv2",
-      "path": "/commands/downloader/telegramstickerv2",
-      "tags": [
-        "telegramstickerv2"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "downloader",
-      "name": "tidal",
-      "path": "/commands/downloader/tidal",
-      "tags": [
-        "tidal"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "downloader",
-      "name": "tiktok",
-      "path": "/commands/downloader/tiktok",
-      "tags": [
-        "tiktok"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "downloader",
-      "name": "twitter",
-      "path": "/commands/downloader/twitter",
-      "tags": [
-        "twitter"
+        "AirKiss"
       ]
     },
     {
       "aliases": [],
       "category": "fun",
-      "name": "cek",
-      "path": "/commands/fun/cek",
+      "name": "Angry",
+      "path": "/commands/fun/Angry",
       "tags": [
-        "cek"
+        "Angry"
       ]
     },
     {
       "aliases": [],
       "category": "fun",
-      "name": "dadu",
-      "path": "/commands/fun/dadu",
+      "name": "AngryStare",
+      "path": "/commands/fun/AngryStare",
       "tags": [
-        "dadu"
+        "AngryStare"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Baka",
+      "path": "/commands/fun/Baka",
+      "tags": [
+        "Baka"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Bite",
+      "path": "/commands/fun/Bite",
+      "tags": [
+        "Bite"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Bleh",
+      "path": "/commands/fun/Bleh",
+      "tags": [
+        "Bleh"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Blush",
+      "path": "/commands/fun/Blush",
+      "tags": [
+        "Blush"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Bored",
+      "path": "/commands/fun/Bored",
+      "tags": [
+        "Bored"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "BroFist",
+      "path": "/commands/fun/BroFist",
+      "tags": [
+        "BroFist"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Cek",
+      "path": "/commands/fun/Cek",
+      "tags": [
+        "Cek"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Celebrate",
+      "path": "/commands/fun/Celebrate",
+      "tags": [
+        "Celebrate"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Cheers",
+      "path": "/commands/fun/Cheers",
+      "tags": [
+        "Cheers"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Clap",
+      "path": "/commands/fun/Clap",
+      "tags": [
+        "Clap"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Confused",
+      "path": "/commands/fun/Confused",
+      "tags": [
+        "Confused"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Cool",
+      "path": "/commands/fun/Cool",
+      "tags": [
+        "Cool"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Cry",
+      "path": "/commands/fun/Cry",
+      "tags": [
+        "Cry"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Cuddle",
+      "path": "/commands/fun/Cuddle",
+      "tags": [
+        "Cuddle"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Dadu",
+      "path": "/commands/fun/Dadu",
+      "tags": [
+        "Dadu"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Dance",
+      "path": "/commands/fun/Dance",
+      "tags": [
+        "Dance"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Drool",
+      "path": "/commands/fun/Drool",
+      "tags": [
+        "Drool"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "EvilLaugh",
+      "path": "/commands/fun/EvilLaugh",
+      "tags": [
+        "EvilLaugh"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "FacePalm",
+      "path": "/commands/fun/FacePalm",
+      "tags": [
+        "FacePalm"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Feed",
+      "path": "/commands/fun/Feed",
+      "tags": [
+        "Feed"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "HandHold",
+      "path": "/commands/fun/HandHold",
+      "tags": [
+        "HandHold"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Happy",
+      "path": "/commands/fun/Happy",
+      "tags": [
+        "Happy"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "HeadBang",
+      "path": "/commands/fun/HeadBang",
+      "tags": [
+        "HeadBang"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "HighFive",
+      "path": "/commands/fun/HighFive",
+      "tags": [
+        "HighFive"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Hug",
+      "path": "/commands/fun/Hug",
+      "tags": [
+        "Hug"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Kick",
+      "path": "/commands/fun/Kick",
+      "tags": [
+        "Kick"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Kill",
+      "path": "/commands/fun/Kill",
+      "tags": [
+        "Kill"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Kiss",
+      "path": "/commands/fun/Kiss",
+      "tags": [
+        "Kiss"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Koin",
+      "path": "/commands/fun/Koin",
+      "tags": [
+        "Koin"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Laugh",
+      "path": "/commands/fun/Laugh",
+      "tags": [
+        "Laugh"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Lick",
+      "path": "/commands/fun/Lick",
+      "tags": [
+        "Lick"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Mad",
+      "path": "/commands/fun/Mad",
+      "tags": [
+        "Mad"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Meme",
+      "path": "/commands/fun/Meme",
+      "tags": [
+        "Meme"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Nervous",
+      "path": "/commands/fun/Nervous",
+      "tags": [
+        "Nervous"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "No",
+      "path": "/commands/fun/No",
+      "tags": [
+        "No"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Nod",
+      "path": "/commands/fun/Nod",
+      "tags": [
+        "Nod"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Nom",
+      "path": "/commands/fun/Nom",
+      "tags": [
+        "Nom"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Nuzzle",
+      "path": "/commands/fun/Nuzzle",
+      "tags": [
+        "Nuzzle"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Nyah",
+      "path": "/commands/fun/Nyah",
+      "tags": [
+        "Nyah"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Pat",
+      "path": "/commands/fun/Pat",
+      "tags": [
+        "Pat"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Peck",
+      "path": "/commands/fun/Peck",
+      "tags": [
+        "Peck"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Peek",
+      "path": "/commands/fun/Peek",
+      "tags": [
+        "Peek"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Pinch",
+      "path": "/commands/fun/Pinch",
+      "tags": [
+        "Pinch"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Poke",
+      "path": "/commands/fun/Poke",
+      "tags": [
+        "Poke"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Pout",
+      "path": "/commands/fun/Pout",
+      "tags": [
+        "Pout"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Punch",
+      "path": "/commands/fun/Punch",
+      "tags": [
+        "Punch"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Reaction",
+      "path": "/commands/fun/Reaction",
+      "tags": [
+        "Reaction"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Roast",
+      "path": "/commands/fun/Roast",
+      "tags": [
+        "Roast"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Roll",
+      "path": "/commands/fun/Roll",
+      "tags": [
+        "Roll"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Run",
+      "path": "/commands/fun/Run",
+      "tags": [
+        "Run"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Sad",
+      "path": "/commands/fun/Sad",
+      "tags": [
+        "Sad"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Scared",
+      "path": "/commands/fun/Scared",
+      "tags": [
+        "Scared"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Ship",
+      "path": "/commands/fun/Ship",
+      "tags": [
+        "Ship"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Shoot",
+      "path": "/commands/fun/Shoot",
+      "tags": [
+        "Shoot"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Shout",
+      "path": "/commands/fun/Shout",
+      "tags": [
+        "Shout"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Shrug",
+      "path": "/commands/fun/Shrug",
+      "tags": [
+        "Shrug"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Shy",
+      "path": "/commands/fun/Shy",
+      "tags": [
+        "Shy"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Sigh",
+      "path": "/commands/fun/Sigh",
+      "tags": [
+        "Sigh"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Sip",
+      "path": "/commands/fun/Sip",
+      "tags": [
+        "Sip"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Slap",
+      "path": "/commands/fun/Slap",
+      "tags": [
+        "Slap"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Sleep",
+      "path": "/commands/fun/Sleep",
+      "tags": [
+        "Sleep"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "SlowClap",
+      "path": "/commands/fun/SlowClap",
+      "tags": [
+        "SlowClap"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Smack",
+      "path": "/commands/fun/Smack",
+      "tags": [
+        "Smack"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Smile",
+      "path": "/commands/fun/Smile",
+      "tags": [
+        "Smile"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Smug",
+      "path": "/commands/fun/Smug",
+      "tags": [
+        "Smug"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Stare",
+      "path": "/commands/fun/Stare",
+      "tags": [
+        "Stare"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Suit",
+      "path": "/commands/fun/Suit",
+      "tags": [
+        "Suit"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Surprised",
+      "path": "/commands/fun/Surprised",
+      "tags": [
+        "Surprised"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Sweat",
+      "path": "/commands/fun/Sweat",
+      "tags": [
+        "Sweat"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Think",
+      "path": "/commands/fun/Think",
+      "tags": [
+        "Think"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "ThumbsUp",
+      "path": "/commands/fun/ThumbsUp",
+      "tags": [
+        "ThumbsUp"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Tickle",
+      "path": "/commands/fun/Tickle",
+      "tags": [
+        "Tickle"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Tired",
+      "path": "/commands/fun/Tired",
+      "tags": [
+        "Tired"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Wave",
+      "path": "/commands/fun/Wave",
+      "tags": [
+        "Wave"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Wink",
+      "path": "/commands/fun/Wink",
+      "tags": [
+        "Wink"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Woah",
+      "path": "/commands/fun/Woah",
+      "tags": [
+        "Woah"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Yawn",
+      "path": "/commands/fun/Yawn",
+      "tags": [
+        "Yawn"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Yay",
+      "path": "/commands/fun/Yay",
+      "tags": [
+        "Yay"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Yeet",
+      "path": "/commands/fun/Yeet",
+      "tags": [
+        "Yeet"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Yes",
+      "path": "/commands/fun/Yes",
+      "tags": [
+        "Yes"
       ]
     },
     {
@@ -956,164 +1559,209 @@
     },
     {
       "aliases": [],
-      "category": "fun",
-      "name": "koin",
-      "path": "/commands/fun/koin",
+      "category": "game",
+      "name": "AsahOtak",
+      "path": "/commands/game/AsahOtak",
       "tags": [
-        "koin"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "fun",
-      "name": "meme",
-      "path": "/commands/fun/meme",
-      "tags": [
-        "meme"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "fun",
-      "name": "reaction",
-      "path": "/commands/fun/reaction",
-      "tags": [
-        "reaction"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "fun",
-      "name": "roast",
-      "path": "/commands/fun/roast",
-      "tags": [
-        "roast"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "fun",
-      "name": "ship",
-      "path": "/commands/fun/ship",
-      "tags": [
-        "ship"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "fun",
-      "name": "suit",
-      "path": "/commands/fun/suit",
-      "tags": [
-        "suit"
+        "AsahOtak"
       ]
     },
     {
       "aliases": [],
       "category": "game",
-      "name": "asahotak",
-      "path": "/commands/game/asahotak",
+      "name": "Badges",
+      "path": "/commands/game/Badges",
       "tags": [
-        "asahotak"
+        "Badges"
       ]
     },
     {
       "aliases": [],
       "category": "game",
-      "name": "badges",
-      "path": "/commands/game/badges",
+      "name": "CakLontong",
+      "path": "/commands/game/CakLontong",
       "tags": [
-        "badges"
+        "CakLontong"
       ]
     },
     {
       "aliases": [],
       "category": "game",
-      "name": "caklontong",
-      "path": "/commands/game/caklontong",
+      "name": "GameLimit",
+      "path": "/commands/game/GameLimit",
       "tags": [
-        "caklontong"
+        "GameLimit"
       ]
     },
     {
       "aliases": [],
       "category": "game",
-      "name": "gamelimit",
-      "path": "/commands/game/gamelimit",
+      "name": "GameStats",
+      "path": "/commands/game/GameStats",
       "tags": [
-        "gamelimit"
+        "GameStats"
       ]
     },
     {
       "aliases": [],
       "category": "game",
-      "name": "gamestats",
-      "path": "/commands/game/gamestats",
+      "name": "GlobalLeaderboard",
+      "path": "/commands/game/GlobalLeaderboard",
       "tags": [
-        "gamestats"
+        "GlobalLeaderboard"
       ]
     },
     {
       "aliases": [],
       "category": "game",
-      "name": "glb",
-      "path": "/commands/game/glb",
+      "name": "GroupAchievements",
+      "path": "/commands/game/GroupAchievements",
       "tags": [
-        "glb"
+        "GroupAchievements"
       ]
     },
     {
       "aliases": [],
       "category": "game",
-      "name": "groupachievements",
-      "path": "/commands/game/groupachievements",
+      "name": "GroupCarry",
+      "path": "/commands/game/GroupCarry",
       "tags": [
-        "groupachievements"
+        "GroupCarry"
       ]
     },
     {
       "aliases": [],
       "category": "game",
-      "name": "groupcarry",
-      "path": "/commands/game/groupcarry",
+      "name": "GroupCompare",
+      "path": "/commands/game/GroupCompare",
       "tags": [
-        "groupcarry"
+        "GroupCompare"
       ]
     },
     {
       "aliases": [],
       "category": "game",
-      "name": "groupcompare",
-      "path": "/commands/game/groupcompare",
+      "name": "GroupContrib",
+      "path": "/commands/game/GroupContrib",
       "tags": [
-        "groupcompare"
+        "GroupContrib"
       ]
     },
     {
       "aliases": [],
       "category": "game",
-      "name": "groupcontrib",
-      "path": "/commands/game/groupcontrib",
+      "name": "GroupMVP",
+      "path": "/commands/game/GroupMVP",
       "tags": [
-        "groupcontrib"
+        "GroupMVP"
       ]
     },
     {
       "aliases": [],
       "category": "game",
-      "name": "groupmvp",
-      "path": "/commands/game/groupmvp",
+      "name": "Leaderboard",
+      "path": "/commands/game/Leaderboard",
       "tags": [
-        "groupmvp"
+        "Leaderboard"
       ]
     },
     {
       "aliases": [],
       "category": "game",
-      "name": "groupstats",
-      "path": "/commands/game/groupstats",
+      "name": "Math",
+      "path": "/commands/game/Math",
       "tags": [
-        "groupstats"
+        "Math"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
+      "name": "ProfileGame",
+      "path": "/commands/game/ProfileGame",
+      "tags": [
+        "ProfileGame"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
+      "name": "Rival",
+      "path": "/commands/game/Rival",
+      "tags": [
+        "Rival"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
+      "name": "SiapakahAku",
+      "path": "/commands/game/SiapakahAku",
+      "tags": [
+        "SiapakahAku"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
+      "name": "SusunKata",
+      "path": "/commands/game/SusunKata",
+      "tags": [
+        "SusunKata"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
+      "name": "TebakBendera",
+      "path": "/commands/game/TebakBendera",
+      "tags": [
+        "TebakBendera"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
+      "name": "TebakBom",
+      "path": "/commands/game/TebakBom",
+      "tags": [
+        "TebakBom"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
+      "name": "TebakGambar",
+      "path": "/commands/game/TebakGambar",
+      "tags": [
+        "TebakGambar"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
+      "name": "TebakKata",
+      "path": "/commands/game/TebakKata",
+      "tags": [
+        "TebakKata"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
+      "name": "TebakLirik",
+      "path": "/commands/game/TebakLirik",
+      "tags": [
+        "TebakLirik"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
+      "name": "TicTacToe",
+      "path": "/commands/game/TicTacToe",
+      "tags": [
+        "TicTacToe"
       ]
     },
     {
@@ -1127,164 +1775,137 @@
     },
     {
       "aliases": [],
-      "category": "game",
-      "name": "leaderboard",
-      "path": "/commands/game/leaderboard",
+      "category": "general",
+      "name": "About",
+      "path": "/commands/general/About",
       "tags": [
-        "leaderboard"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "game",
-      "name": "math",
-      "path": "/commands/game/math",
-      "tags": [
-        "math"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "game",
-      "name": "profilegame",
-      "path": "/commands/game/profilegame",
-      "tags": [
-        "profilegame"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "game",
-      "name": "rival",
-      "path": "/commands/game/rival",
-      "tags": [
-        "rival"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "game",
-      "name": "siapakahaku",
-      "path": "/commands/game/siapakahaku",
-      "tags": [
-        "siapakahaku"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "game",
-      "name": "susunkata",
-      "path": "/commands/game/susunkata",
-      "tags": [
-        "susunkata"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "game",
-      "name": "tebakbendera",
-      "path": "/commands/game/tebakbendera",
-      "tags": [
-        "tebakbendera"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "game",
-      "name": "tebakbom",
-      "path": "/commands/game/tebakbom",
-      "tags": [
-        "tebakbom"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "game",
-      "name": "tebakgambar",
-      "path": "/commands/game/tebakgambar",
-      "tags": [
-        "tebakgambar"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "game",
-      "name": "tebakkata",
-      "path": "/commands/game/tebakkata",
-      "tags": [
-        "tebakkata"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "game",
-      "name": "tebaklirik",
-      "path": "/commands/game/tebaklirik",
-      "tags": [
-        "tebaklirik"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "game",
-      "name": "tictactoe",
-      "path": "/commands/game/tictactoe",
-      "tags": [
-        "tictactoe"
+        "About"
       ]
     },
     {
       "aliases": [],
       "category": "general",
-      "name": "about",
-      "path": "/commands/general/about",
+      "name": "CekBenefit",
+      "path": "/commands/general/CekBenefit",
       "tags": [
-        "about"
+        "CekBenefit"
       ]
     },
     {
       "aliases": [],
       "category": "general",
-      "name": "cekbenefit",
-      "path": "/commands/general/cekbenefit",
+      "name": "Daily",
+      "path": "/commands/general/Daily",
       "tags": [
-        "cekbenefit"
+        "Daily"
       ]
     },
     {
       "aliases": [],
       "category": "general",
-      "name": "daily",
-      "path": "/commands/general/daily",
+      "name": "Donatur",
+      "path": "/commands/general/Donatur",
       "tags": [
-        "daily"
+        "Donatur"
       ]
     },
     {
       "aliases": [],
       "category": "general",
-      "name": "donate",
-      "path": "/commands/general/donate",
+      "name": "Help",
+      "path": "/commands/general/Help",
       "tags": [
-        "donate"
+        "Help"
       ]
     },
     {
       "aliases": [],
       "category": "general",
-      "name": "donatur",
-      "path": "/commands/general/donatur",
+      "name": "Join",
+      "path": "/commands/general/Join",
       "tags": [
-        "donatur"
+        "Join"
       ]
     },
     {
       "aliases": [],
       "category": "general",
-      "name": "help",
-      "path": "/commands/general/help",
+      "name": "Limit",
+      "path": "/commands/general/Limit",
       "tags": [
-        "help"
+        "Limit"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "general",
+      "name": "Menu",
+      "path": "/commands/general/Menu",
+      "tags": [
+        "Menu"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "general",
+      "name": "NSFW",
+      "path": "/commands/general/NSFW",
+      "tags": [
+        "NSFW"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "general",
+      "name": "Owner",
+      "path": "/commands/general/Owner",
+      "tags": [
+        "Owner"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "general",
+      "name": "Ping",
+      "path": "/commands/general/Ping",
+      "tags": [
+        "Ping"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "general",
+      "name": "Premium",
+      "path": "/commands/general/Premium",
+      "tags": [
+        "Premium"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "general",
+      "name": "Redeem",
+      "path": "/commands/general/Redeem",
+      "tags": [
+        "Redeem"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "general",
+      "name": "SC",
+      "path": "/commands/general/SC",
+      "tags": [
+        "SC"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "general",
+      "name": "Top",
+      "path": "/commands/general/Top",
+      "tags": [
+        "Top"
       ]
     },
     {
@@ -1298,362 +1919,668 @@
     },
     {
       "aliases": [],
-      "category": "general",
-      "name": "join",
-      "path": "/commands/general/join",
+      "category": "group",
+      "name": "Add",
+      "path": "/commands/group/Add",
       "tags": [
-        "join"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "general",
-      "name": "limit",
-      "path": "/commands/general/limit",
-      "tags": [
-        "limit"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "general",
-      "name": "menu",
-      "path": "/commands/general/menu",
-      "tags": [
-        "menu"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "general",
-      "name": "nsfw",
-      "path": "/commands/general/nsfw",
-      "tags": [
-        "nsfw"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "general",
-      "name": "owner",
-      "path": "/commands/general/owner",
-      "tags": [
-        "owner"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "general",
-      "name": "ping",
-      "path": "/commands/general/ping",
-      "tags": [
-        "ping"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "general",
-      "name": "premium",
-      "path": "/commands/general/premium",
-      "tags": [
-        "premium"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "general",
-      "name": "redeem",
-      "path": "/commands/general/redeem",
-      "tags": [
-        "redeem"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "general",
-      "name": "sc",
-      "path": "/commands/general/sc",
-      "tags": [
-        "sc"
+        "Add"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "add",
-      "path": "/commands/group/add",
+      "name": "AdminOnly",
+      "path": "/commands/group/AdminOnly",
       "tags": [
-        "add"
+        "AdminOnly"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "adminonly",
-      "path": "/commands/group/adminonly",
+      "name": "Adzan",
+      "path": "/commands/group/Adzan",
       "tags": [
-        "adminonly"
+        "Adzan"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "adzan",
-      "path": "/commands/group/adzan",
+      "name": "AntiBot",
+      "path": "/commands/group/AntiBot",
       "tags": [
-        "adzan"
+        "AntiBot"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "antibot",
-      "path": "/commands/group/antibot",
+      "name": "AntiBug",
+      "path": "/commands/group/AntiBug",
       "tags": [
-        "antibot"
+        "AntiBug"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "antibug",
-      "path": "/commands/group/antibug",
+      "name": "AntiCall",
+      "path": "/commands/group/AntiCall",
       "tags": [
-        "antibug"
+        "AntiCall"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "anticall",
-      "path": "/commands/group/anticall",
+      "name": "AntiHideTag",
+      "path": "/commands/group/AntiHideTag",
       "tags": [
-        "anticall"
+        "AntiHideTag"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "antihidetag",
-      "path": "/commands/group/antihidetag",
+      "name": "AntiLink",
+      "path": "/commands/group/AntiLink",
       "tags": [
-        "antihidetag"
+        "AntiLink"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "antilink",
-      "path": "/commands/group/antilink",
+      "name": "AntiMedia",
+      "path": "/commands/group/AntiMedia",
       "tags": [
-        "antilink"
+        "AntiMedia"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "antimedia",
-      "path": "/commands/group/antimedia",
+      "name": "AntiNSFWMedia",
+      "path": "/commands/group/AntiNSFWMedia",
       "tags": [
-        "antimedia"
+        "AntiNSFWMedia"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "antinsfwmedia",
-      "path": "/commands/group/antinsfwmedia",
+      "name": "AntiSW",
+      "path": "/commands/group/AntiSW",
       "tags": [
-        "antinsfwmedia"
+        "AntiSW"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "antispam",
-      "path": "/commands/group/antispam",
+      "name": "AntiSpam",
+      "path": "/commands/group/AntiSpam",
       "tags": [
-        "antispam"
+        "AntiSpam"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "antisw",
-      "path": "/commands/group/antisw",
+      "name": "AntiTagSW",
+      "path": "/commands/group/AntiTagSW",
       "tags": [
-        "antisw"
+        "AntiTagSW"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "antitagsw",
-      "path": "/commands/group/antitagsw",
+      "name": "AutoRespon",
+      "path": "/commands/group/AutoRespon",
       "tags": [
-        "antitagsw"
+        "AutoRespon"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "autorespon",
-      "path": "/commands/group/autorespon",
+      "name": "BadWord",
+      "path": "/commands/group/BadWord",
       "tags": [
-        "autorespon"
+        "BadWord"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "badword",
-      "path": "/commands/group/badword",
+      "name": "BanChat",
+      "path": "/commands/group/BanChat",
       "tags": [
-        "badword"
+        "BanChat"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "ban-chat",
-      "path": "/commands/group/ban-chat",
+      "name": "BanList",
+      "path": "/commands/group/BanList",
       "tags": [
-        "ban-chat"
+        "BanList"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "ban-member",
-      "path": "/commands/group/ban-member",
+      "name": "BanMember",
+      "path": "/commands/group/BanMember",
       "tags": [
-        "ban-member"
+        "BanMember"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "banlist",
-      "path": "/commands/group/banlist",
+      "name": "CekBotAdmin",
+      "path": "/commands/group/CekBotAdmin",
       "tags": [
-        "banlist"
+        "CekBotAdmin"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "cekbotadmin",
-      "path": "/commands/group/cekbotadmin",
+      "name": "CekTanpaGrup",
+      "path": "/commands/group/CekTanpaGrup",
       "tags": [
-        "cekbotadmin"
+        "CekTanpaGrup"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "cektanpagrup",
-      "path": "/commands/group/cektanpagrup",
+      "name": "Close",
+      "path": "/commands/group/Close",
       "tags": [
-        "cektanpagrup"
+        "Close"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "close",
-      "path": "/commands/group/close",
+      "name": "Cmd",
+      "path": "/commands/group/Cmd",
       "tags": [
-        "close"
+        "Cmd"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "cmd",
-      "path": "/commands/group/cmd",
+      "name": "DebugPriority",
+      "path": "/commands/group/DebugPriority",
       "tags": [
-        "cmd"
+        "DebugPriority"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "delete",
-      "path": "/commands/group/delete",
+      "name": "Delete",
+      "path": "/commands/group/Delete",
       "tags": [
-        "delete"
+        "Delete"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "demote",
-      "path": "/commands/group/demote",
+      "name": "Demote",
+      "path": "/commands/group/Demote",
       "tags": [
-        "demote"
+        "Demote"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "ephemeral",
-      "path": "/commands/group/ephemeral",
+      "name": "Ephemeral",
+      "path": "/commands/group/Ephemeral",
       "tags": [
-        "ephemeral"
+        "Ephemeral"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "group-stats",
-      "path": "/commands/group/group-stats",
+      "name": "GroupID",
+      "path": "/commands/group/GroupID",
       "tags": [
-        "group-stats"
+        "GroupID"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "groupid",
-      "path": "/commands/group/groupid",
+      "name": "GroupInfo",
+      "path": "/commands/group/GroupInfo",
       "tags": [
-        "groupid"
+        "GroupInfo"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "groupinfo",
-      "path": "/commands/group/groupinfo",
+      "name": "GroupPrefix",
+      "path": "/commands/group/GroupPrefix",
       "tags": [
-        "groupinfo"
+        "GroupPrefix"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "groupprefix",
-      "path": "/commands/group/groupprefix",
+      "name": "GroupSettings",
+      "path": "/commands/group/GroupSettings",
       "tags": [
-        "groupprefix"
+        "GroupSettings"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "groupsettings",
-      "path": "/commands/group/groupsettings",
+      "name": "GroupStats",
+      "path": "/commands/group/GroupStats",
       "tags": [
-        "groupsettings"
+        "GroupStats"
       ]
     },
     {
       "aliases": [],
       "category": "group",
-      "name": "hidetag",
-      "path": "/commands/group/hidetag",
+      "name": "HideTag",
+      "path": "/commands/group/HideTag",
       "tags": [
-        "hidetag"
+        "HideTag"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "Info",
+      "path": "/commands/group/Info",
+      "tags": [
+        "Info"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "Jockey",
+      "path": "/commands/group/Jockey",
+      "tags": [
+        "Jockey"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "JoinReq",
+      "path": "/commands/group/JoinReq",
+      "tags": [
+        "JoinReq"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "LeaveGroup",
+      "path": "/commands/group/LeaveGroup",
+      "tags": [
+        "LeaveGroup"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "Left",
+      "path": "/commands/group/Left",
+      "tags": [
+        "Left"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "LinkGC",
+      "path": "/commands/group/LinkGC",
+      "tags": [
+        "LinkGC"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "ListAktif",
+      "path": "/commands/group/ListAktif",
+      "tags": [
+        "ListAktif"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "ListBanMember",
+      "path": "/commands/group/ListBanMember",
+      "tags": [
+        "ListBanMember"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "ListMute",
+      "path": "/commands/group/ListMute",
+      "tags": [
+        "ListMute"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "ListTimezone",
+      "path": "/commands/group/ListTimezone",
+      "tags": [
+        "ListTimezone"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "ListWarning",
+      "path": "/commands/group/ListWarning",
+      "tags": [
+        "ListWarning"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "MuteMember",
+      "path": "/commands/group/MuteMember",
+      "tags": [
+        "MuteMember"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "Open",
+      "path": "/commands/group/Open",
+      "tags": [
+        "Open"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "PinMsg",
+      "path": "/commands/group/PinMsg",
+      "tags": [
+        "PinMsg"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "Promote",
+      "path": "/commands/group/Promote",
+      "tags": [
+        "Promote"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "Reminder",
+      "path": "/commands/group/Reminder",
+      "tags": [
+        "Reminder"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "Remove",
+      "path": "/commands/group/Remove",
+      "tags": [
+        "Remove"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "ResetWarn",
+      "path": "/commands/group/ResetWarn",
+      "tags": [
+        "ResetWarn"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "Revoke",
+      "path": "/commands/group/Revoke",
+      "tags": [
+        "Revoke"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "SetDesc",
+      "path": "/commands/group/SetDesc",
+      "tags": [
+        "SetDesc"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "SetGoodbye",
+      "path": "/commands/group/SetGoodbye",
+      "tags": [
+        "SetGoodbye"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "SetLang",
+      "path": "/commands/group/SetLang",
+      "tags": [
+        "SetLang"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "SetPPGC",
+      "path": "/commands/group/SetPPGC",
+      "tags": [
+        "SetPPGC"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "SetSchedule",
+      "path": "/commands/group/SetSchedule",
+      "tags": [
+        "SetSchedule"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "SetSubject",
+      "path": "/commands/group/SetSubject",
+      "tags": [
+        "SetSubject"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "SetTimezone",
+      "path": "/commands/group/SetTimezone",
+      "tags": [
+        "SetTimezone"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "SetWelcome",
+      "path": "/commands/group/SetWelcome",
+      "tags": [
+        "SetWelcome"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "Sider",
+      "path": "/commands/group/Sider",
+      "tags": [
+        "Sider"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "SimulateGoodbye",
+      "path": "/commands/group/SimulateGoodbye",
+      "tags": [
+        "SimulateGoodbye"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "SimulateWelcome",
+      "path": "/commands/group/SimulateWelcome",
+      "tags": [
+        "SimulateWelcome"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "SyncGroup",
+      "path": "/commands/group/SyncGroup",
+      "tags": [
+        "SyncGroup"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "TagAll",
+      "path": "/commands/group/TagAll",
+      "tags": [
+        "TagAll"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "TopActive",
+      "path": "/commands/group/TopActive",
+      "tags": [
+        "TopActive"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "TrustBot",
+      "path": "/commands/group/TrustBot",
+      "tags": [
+        "TrustBot"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "UnbanChat",
+      "path": "/commands/group/UnbanChat",
+      "tags": [
+        "UnbanChat"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "UnbanMember",
+      "path": "/commands/group/UnbanMember",
+      "tags": [
+        "UnbanMember"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "UnmuteMember",
+      "path": "/commands/group/UnmuteMember",
+      "tags": [
+        "UnmuteMember"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "UnpinMsg",
+      "path": "/commands/group/UnpinMsg",
+      "tags": [
+        "UnpinMsg"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "UpSWGC",
+      "path": "/commands/group/UpSWGC",
+      "tags": [
+        "UpSWGC"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "Warn",
+      "path": "/commands/group/Warn",
+      "tags": [
+        "Warn"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "Warnings",
+      "path": "/commands/group/Warnings",
+      "tags": [
+        "Warnings"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "Welcome",
+      "path": "/commands/group/Welcome",
+      "tags": [
+        "Welcome"
       ]
     },
     {
@@ -1667,380 +2594,29 @@
     },
     {
       "aliases": [],
-      "category": "group",
-      "name": "info",
-      "path": "/commands/group/info",
+      "category": "media",
+      "name": "FakeThumbnail",
+      "path": "/commands/media/FakeThumbnail",
       "tags": [
-        "info"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "jockey",
-      "path": "/commands/group/jockey",
-      "tags": [
-        "jockey"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "joinreq",
-      "path": "/commands/group/joinreq",
-      "tags": [
-        "joinreq"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "leave-group",
-      "path": "/commands/group/leave-group",
-      "tags": [
-        "leave-group"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "left",
-      "path": "/commands/group/left",
-      "tags": [
-        "left"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "linkgc",
-      "path": "/commands/group/linkgc",
-      "tags": [
-        "linkgc"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "listaktif",
-      "path": "/commands/group/listaktif",
-      "tags": [
-        "listaktif"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "listban",
-      "path": "/commands/group/listban",
-      "tags": [
-        "listban"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "listmute",
-      "path": "/commands/group/listmute",
-      "tags": [
-        "listmute"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "listtimezone",
-      "path": "/commands/group/listtimezone",
-      "tags": [
-        "listtimezone"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "listwarning",
-      "path": "/commands/group/listwarning",
-      "tags": [
-        "listwarning"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "mutemember",
-      "path": "/commands/group/mutemember",
-      "tags": [
-        "mutemember"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "open",
-      "path": "/commands/group/open",
-      "tags": [
-        "open"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "promote",
-      "path": "/commands/group/promote",
-      "tags": [
-        "promote"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "reminder",
-      "path": "/commands/group/reminder",
-      "tags": [
-        "reminder"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "remove",
-      "path": "/commands/group/remove",
-      "tags": [
-        "remove"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "resetwarn",
-      "path": "/commands/group/resetwarn",
-      "tags": [
-        "resetwarn"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "revoke",
-      "path": "/commands/group/revoke",
-      "tags": [
-        "revoke"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "set-goodbye",
-      "path": "/commands/group/set-goodbye",
-      "tags": [
-        "set-goodbye"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "set-lang",
-      "path": "/commands/group/set-lang",
-      "tags": [
-        "set-lang"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "set-welcome",
-      "path": "/commands/group/set-welcome",
-      "tags": [
-        "set-welcome"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "setdesc",
-      "path": "/commands/group/setdesc",
-      "tags": [
-        "setdesc"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "setppgc",
-      "path": "/commands/group/setppgc",
-      "tags": [
-        "setppgc"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "setschedule",
-      "path": "/commands/group/setschedule",
-      "tags": [
-        "setschedule"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "setsubject",
-      "path": "/commands/group/setsubject",
-      "tags": [
-        "setsubject"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "settimezone",
-      "path": "/commands/group/settimezone",
-      "tags": [
-        "settimezone"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "sider",
-      "path": "/commands/group/sider",
-      "tags": [
-        "sider"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "simulategoodbye",
-      "path": "/commands/group/simulategoodbye",
-      "tags": [
-        "simulategoodbye"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "simulatewelcome",
-      "path": "/commands/group/simulatewelcome",
-      "tags": [
-        "simulatewelcome"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "sync-group",
-      "path": "/commands/group/sync-group",
-      "tags": [
-        "sync-group"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "tagall",
-      "path": "/commands/group/tagall",
-      "tags": [
-        "tagall"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "top-active",
-      "path": "/commands/group/top-active",
-      "tags": [
-        "top-active"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "trustbot",
-      "path": "/commands/group/trustbot",
-      "tags": [
-        "trustbot"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "unban-chat",
-      "path": "/commands/group/unban-chat",
-      "tags": [
-        "unban-chat"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "unban-member",
-      "path": "/commands/group/unban-member",
-      "tags": [
-        "unban-member"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "unmute-member",
-      "path": "/commands/group/unmute-member",
-      "tags": [
-        "unmute-member"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "upswgc",
-      "path": "/commands/group/upswgc",
-      "tags": [
-        "upswgc"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "warn",
-      "path": "/commands/group/warn",
-      "tags": [
-        "warn"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "warnings",
-      "path": "/commands/group/warnings",
-      "tags": [
-        "warnings"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "welcome",
-      "path": "/commands/group/welcome",
-      "tags": [
-        "welcome"
+        "FakeThumbnail"
       ]
     },
     {
       "aliases": [],
       "category": "media",
-      "name": "fakethumbnail",
-      "path": "/commands/media/fakethumbnail",
+      "name": "FotoLive",
+      "path": "/commands/media/FotoLive",
       "tags": [
-        "fakethumbnail"
+        "FotoLive"
       ]
     },
     {
       "aliases": [],
       "category": "media",
-      "name": "fotolive",
-      "path": "/commands/media/fotolive",
+      "name": "TopTV",
+      "path": "/commands/media/TopTV",
       "tags": [
-        "fotolive"
+        "TopTV"
       ]
     },
     {
@@ -2054,11 +2630,128 @@
     },
     {
       "aliases": [],
-      "category": "media",
-      "name": "toptv",
-      "path": "/commands/media/toptv",
+      "category": "minigame",
+      "name": "2048",
+      "path": "/commands/minigame/2048",
       "tags": [
-        "toptv"
+        "2048"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "minigame",
+      "name": "Breakout",
+      "path": "/commands/minigame/Breakout",
+      "tags": [
+        "Breakout"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "minigame",
+      "name": "Chess",
+      "path": "/commands/minigame/Chess",
+      "tags": [
+        "Chess"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "minigame",
+      "name": "DinoRun",
+      "path": "/commands/minigame/DinoRun",
+      "tags": [
+        "DinoRun"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "minigame",
+      "name": "FlappyBird",
+      "path": "/commands/minigame/FlappyBird",
+      "tags": [
+        "FlappyBird"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "minigame",
+      "name": "Frogger",
+      "path": "/commands/minigame/Frogger",
+      "tags": [
+        "Frogger"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "minigame",
+      "name": "Galaga",
+      "path": "/commands/minigame/Galaga",
+      "tags": [
+        "Galaga"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "minigame",
+      "name": "Minesweeper",
+      "path": "/commands/minigame/Minesweeper",
+      "tags": [
+        "Minesweeper"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "minigame",
+      "name": "Pacman",
+      "path": "/commands/minigame/Pacman",
+      "tags": [
+        "Pacman"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "minigame",
+      "name": "Racing",
+      "path": "/commands/minigame/Racing",
+      "tags": [
+        "Racing"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "minigame",
+      "name": "Snake",
+      "path": "/commands/minigame/Snake",
+      "tags": [
+        "Snake"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "minigame",
+      "name": "Sudoku",
+      "path": "/commands/minigame/Sudoku",
+      "tags": [
+        "Sudoku"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "minigame",
+      "name": "Tetris",
+      "path": "/commands/minigame/Tetris",
+      "tags": [
+        "Tetris"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "minigame",
+      "name": "index",
+      "path": "/commands/minigame/index",
+      "tags": [
+        "index"
       ]
     },
     {
@@ -2073,37 +2766,100 @@
     {
       "aliases": [],
       "category": "profile",
-      "name": "afk",
-      "path": "/commands/profile/afk",
+      "name": "AFK",
+      "path": "/commands/profile/AFK",
       "tags": [
-        "afk"
+        "AFK"
       ]
     },
     {
       "aliases": [],
       "category": "profile",
-      "name": "cekpremium",
-      "path": "/commands/profile/cekpremium",
+      "name": "CekPremium",
+      "path": "/commands/profile/CekPremium",
       "tags": [
-        "cekpremium"
+        "CekPremium"
       ]
     },
     {
       "aliases": [],
       "category": "profile",
-      "name": "change-password",
-      "path": "/commands/profile/change-password",
+      "name": "ChangePassword",
+      "path": "/commands/profile/ChangePassword",
       "tags": [
-        "change-password"
+        "ChangePassword"
       ]
     },
     {
       "aliases": [],
       "category": "profile",
-      "name": "getpp",
-      "path": "/commands/profile/getpp",
+      "name": "GetPP",
+      "path": "/commands/profile/GetPP",
       "tags": [
-        "getpp"
+        "GetPP"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "profile",
+      "name": "Level",
+      "path": "/commands/profile/Level",
+      "tags": [
+        "Level"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "profile",
+      "name": "Profile",
+      "path": "/commands/profile/Profile",
+      "tags": [
+        "Profile"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "profile",
+      "name": "SetAge",
+      "path": "/commands/profile/SetAge",
+      "tags": [
+        "SetAge"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "profile",
+      "name": "SetBio",
+      "path": "/commands/profile/SetBio",
+      "tags": [
+        "SetBio"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "profile",
+      "name": "SetGender",
+      "path": "/commands/profile/SetGender",
+      "tags": [
+        "SetGender"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "profile",
+      "name": "SetName",
+      "path": "/commands/profile/SetName",
+      "tags": [
+        "SetName"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "profile",
+      "name": "SetPrefix",
+      "path": "/commands/profile/SetPrefix",
+      "tags": [
+        "SetPrefix"
       ]
     },
     {
@@ -2117,74 +2873,65 @@
     },
     {
       "aliases": [],
-      "category": "profile",
-      "name": "level",
-      "path": "/commands/profile/level",
+      "category": "search",
+      "name": "Google",
+      "path": "/commands/search/Google",
       "tags": [
-        "level"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "profile",
-      "name": "profile",
-      "path": "/commands/profile/profile",
-      "tags": [
-        "profile"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "profile",
-      "name": "setage",
-      "path": "/commands/profile/setage",
-      "tags": [
-        "setage"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "profile",
-      "name": "setbio",
-      "path": "/commands/profile/setbio",
-      "tags": [
-        "setbio"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "profile",
-      "name": "setgender",
-      "path": "/commands/profile/setgender",
-      "tags": [
-        "setgender"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "profile",
-      "name": "setname",
-      "path": "/commands/profile/setname",
-      "tags": [
-        "setname"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "profile",
-      "name": "setprefix",
-      "path": "/commands/profile/setprefix",
-      "tags": [
-        "setprefix"
+        "Google"
       ]
     },
     {
       "aliases": [],
       "category": "search",
-      "name": "google",
-      "path": "/commands/search/google",
+      "name": "JadwalSholat",
+      "path": "/commands/search/JadwalSholat",
       "tags": [
-        "google"
+        "JadwalSholat"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "search",
+      "name": "Lyric",
+      "path": "/commands/search/Lyric",
+      "tags": [
+        "Lyric"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "search",
+      "name": "Pinterest",
+      "path": "/commands/search/Pinterest",
+      "tags": [
+        "Pinterest"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "search",
+      "name": "PinterestVideo",
+      "path": "/commands/search/PinterestVideo",
+      "tags": [
+        "PinterestVideo"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "search",
+      "name": "SauceNAO",
+      "path": "/commands/search/SauceNAO",
+      "tags": [
+        "SauceNAO"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "search",
+      "name": "Wallhaven",
+      "path": "/commands/search/Wallhaven",
+      "tags": [
+        "Wallhaven"
       ]
     },
     {
@@ -2198,218 +2945,695 @@
     },
     {
       "aliases": [],
-      "category": "search",
-      "name": "jadwalsholat",
-      "path": "/commands/search/jadwalsholat",
+      "category": "tools",
+      "name": "AudioEffect",
+      "path": "/commands/tools/AudioEffect",
       "tags": [
-        "jadwalsholat"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "search",
-      "name": "lyric",
-      "path": "/commands/search/lyric",
-      "tags": [
-        "lyric"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "search",
-      "name": "pinterest video",
-      "path": "/commands/search/pinterest video",
-      "tags": [
-        "pinterest video"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "search",
-      "name": "pinterest",
-      "path": "/commands/search/pinterest",
-      "tags": [
-        "pinterest"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "search",
-      "name": "saucenao",
-      "path": "/commands/search/saucenao",
-      "tags": [
-        "saucenao"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "search",
-      "name": "wallhaven",
-      "path": "/commands/search/wallhaven",
-      "tags": [
-        "wallhaven"
+        "AudioEffect"
       ]
     },
     {
       "aliases": [],
       "category": "tools",
-      "name": "audioeffect",
-      "path": "/commands/tools/audioeffect",
+      "name": "Barcode",
+      "path": "/commands/tools/Barcode",
       "tags": [
-        "audioeffect"
+        "Barcode"
       ]
     },
     {
       "aliases": [],
       "category": "tools",
-      "name": "barcode",
-      "path": "/commands/tools/barcode",
+      "name": "Bass",
+      "path": "/commands/tools/Bass",
       "tags": [
-        "barcode"
+        "Bass"
       ]
     },
     {
       "aliases": [],
       "category": "tools",
-      "name": "bestframe",
-      "path": "/commands/tools/bestframe",
+      "name": "BestFrame",
+      "path": "/commands/tools/BestFrame",
       "tags": [
-        "bestframe"
+        "BestFrame"
       ]
     },
     {
       "aliases": [],
       "category": "tools",
-      "name": "blur",
-      "path": "/commands/tools/blur",
+      "name": "Blown",
+      "path": "/commands/tools/Blown",
       "tags": [
-        "blur"
+        "Blown"
       ]
     },
     {
       "aliases": [],
       "category": "tools",
-      "name": "brat",
-      "path": "/commands/tools/brat",
+      "name": "Blur",
+      "path": "/commands/tools/Blur",
       "tags": [
-        "brat"
+        "Blur"
       ]
     },
     {
       "aliases": [],
       "category": "tools",
-      "name": "calculator",
-      "path": "/commands/tools/calculator",
+      "name": "Brat",
+      "path": "/commands/tools/Brat",
       "tags": [
-        "calculator"
+        "Brat"
       ]
     },
     {
       "aliases": [],
       "category": "tools",
-      "name": "color",
-      "path": "/commands/tools/color",
+      "name": "Calculator",
+      "path": "/commands/tools/Calculator",
       "tags": [
-        "color"
+        "Calculator"
       ]
     },
     {
       "aliases": [],
       "category": "tools",
-      "name": "compress",
-      "path": "/commands/tools/compress",
+      "name": "Chorus",
+      "path": "/commands/tools/Chorus",
       "tags": [
-        "compress"
+        "Chorus"
       ]
     },
     {
       "aliases": [],
       "category": "tools",
-      "name": "crop",
-      "path": "/commands/tools/crop",
+      "name": "Color",
+      "path": "/commands/tools/Color",
       "tags": [
-        "crop"
+        "Color"
       ]
     },
     {
       "aliases": [],
       "category": "tools",
-      "name": "decode",
-      "path": "/commands/tools/decode",
+      "name": "Compress",
+      "path": "/commands/tools/Compress",
       "tags": [
-        "decode"
+        "Compress"
       ]
     },
     {
       "aliases": [],
       "category": "tools",
-      "name": "emojimix",
-      "path": "/commands/tools/emojimix",
+      "name": "Crop",
+      "path": "/commands/tools/Crop",
       "tags": [
-        "emojimix"
+        "Crop"
       ]
     },
     {
       "aliases": [],
       "category": "tools",
-      "name": "encode",
-      "path": "/commands/tools/encode",
+      "name": "Decode",
+      "path": "/commands/tools/Decode",
       "tags": [
-        "encode"
+        "Decode"
       ]
     },
     {
       "aliases": [],
       "category": "tools",
-      "name": "flip",
-      "path": "/commands/tools/flip",
+      "name": "Deep",
+      "path": "/commands/tools/Deep",
       "tags": [
-        "flip"
+        "Deep"
       ]
     },
     {
       "aliases": [],
       "category": "tools",
-      "name": "getexif",
-      "path": "/commands/tools/getexif",
+      "name": "Denoise",
+      "path": "/commands/tools/Denoise",
       "tags": [
-        "getexif"
+        "Denoise"
       ]
     },
     {
       "aliases": [],
       "category": "tools",
-      "name": "getidch",
-      "path": "/commands/tools/getidch",
+      "name": "Distortion",
+      "path": "/commands/tools/Distortion",
       "tags": [
-        "getidch"
+        "Distortion"
       ]
     },
     {
       "aliases": [],
       "category": "tools",
-      "name": "getmedia",
-      "path": "/commands/tools/getmedia",
+      "name": "EarRape",
+      "path": "/commands/tools/EarRape",
       "tags": [
-        "getmedia"
+        "EarRape"
       ]
     },
     {
       "aliases": [],
       "category": "tools",
-      "name": "getmsgid",
-      "path": "/commands/tools/getmsgid",
+      "name": "Emojimix",
+      "path": "/commands/tools/Emojimix",
       "tags": [
-        "getmsgid"
+        "Emojimix"
       ]
     },
     {
       "aliases": [],
       "category": "tools",
-      "name": "humming",
-      "path": "/commands/tools/humming",
+      "name": "Encode",
+      "path": "/commands/tools/Encode",
       "tags": [
-        "humming"
+        "Encode"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Fast",
+      "path": "/commands/tools/Fast",
+      "tags": [
+        "Fast"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Fat",
+      "path": "/commands/tools/Fat",
+      "tags": [
+        "Fat"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Flanger",
+      "path": "/commands/tools/Flanger",
+      "tags": [
+        "Flanger"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Flip",
+      "path": "/commands/tools/Flip",
+      "tags": [
+        "Flip"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "GetEXIF",
+      "path": "/commands/tools/GetEXIF",
+      "tags": [
+        "GetEXIF"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "GetIDCH",
+      "path": "/commands/tools/GetIDCH",
+      "tags": [
+        "GetIDCH"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "GetMedia",
+      "path": "/commands/tools/GetMedia",
+      "tags": [
+        "GetMedia"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "GetMsgID",
+      "path": "/commands/tools/GetMsgID",
+      "tags": [
+        "GetMsgID"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "HighPass",
+      "path": "/commands/tools/HighPass",
+      "tags": [
+        "HighPass"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Humming",
+      "path": "/commands/tools/Humming",
+      "tags": [
+        "Humming"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "IQC",
+      "path": "/commands/tools/IQC",
+      "tags": [
+        "IQC"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "JWT",
+      "path": "/commands/tools/JWT",
+      "tags": [
+        "JWT"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "JadiBurik",
+      "path": "/commands/tools/JadiBurik",
+      "tags": [
+        "JadiBurik"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Lang",
+      "path": "/commands/tools/Lang",
+      "tags": [
+        "Lang"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Lens",
+      "path": "/commands/tools/Lens",
+      "tags": [
+        "Lens"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Lorem",
+      "path": "/commands/tools/Lorem",
+      "tags": [
+        "Lorem"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "LowPass",
+      "path": "/commands/tools/LowPass",
+      "tags": [
+        "LowPass"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Lower",
+      "path": "/commands/tools/Lower",
+      "tags": [
+        "Lower"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "MediaQuality",
+      "path": "/commands/tools/MediaQuality",
+      "tags": [
+        "MediaQuality"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Nightcore",
+      "path": "/commands/tools/Nightcore",
+      "tags": [
+        "Nightcore"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "OCR",
+      "path": "/commands/tools/OCR",
+      "tags": [
+        "OCR"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Pesan",
+      "path": "/commands/tools/Pesan",
+      "tags": [
+        "Pesan"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Pitch",
+      "path": "/commands/tools/Pitch",
+      "tags": [
+        "Pitch"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Pixelate",
+      "path": "/commands/tools/Pixelate",
+      "tags": [
+        "Pixelate"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "QC",
+      "path": "/commands/tools/QC",
+      "tags": [
+        "QC"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "QR",
+      "path": "/commands/tools/QR",
+      "tags": [
+        "QR"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "ReadMore",
+      "path": "/commands/tools/ReadMore",
+      "tags": [
+        "ReadMore"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "ReadQRIS",
+      "path": "/commands/tools/ReadQRIS",
+      "tags": [
+        "ReadQRIS"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "RemoveBG",
+      "path": "/commands/tools/RemoveBG",
+      "tags": [
+        "RemoveBG"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Resize",
+      "path": "/commands/tools/Resize",
+      "tags": [
+        "Resize"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Reverb",
+      "path": "/commands/tools/Reverb",
+      "tags": [
+        "Reverb"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Reverse",
+      "path": "/commands/tools/Reverse",
+      "tags": [
+        "Reverse"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Robot",
+      "path": "/commands/tools/Robot",
+      "tags": [
+        "Robot"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Romanize",
+      "path": "/commands/tools/Romanize",
+      "tags": [
+        "Romanize"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Rotate",
+      "path": "/commands/tools/Rotate",
+      "tags": [
+        "Rotate"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "SMeme",
+      "path": "/commands/tools/SMeme",
+      "tags": [
+        "SMeme"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "SSWeb",
+      "path": "/commands/tools/SSWeb",
+      "tags": [
+        "SSWeb"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "SetQRIS",
+      "path": "/commands/tools/SetQRIS",
+      "tags": [
+        "SetQRIS"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Slow",
+      "path": "/commands/tools/Slow",
+      "tags": [
+        "Slow"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Smooth",
+      "path": "/commands/tools/Smooth",
+      "tags": [
+        "Smooth"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Stabilize",
+      "path": "/commands/tools/Stabilize",
+      "tags": [
+        "Stabilize"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Sticker",
+      "path": "/commands/tools/Sticker",
+      "tags": [
+        "Sticker"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "TTS",
+      "path": "/commands/tools/TTS",
+      "tags": [
+        "TTS"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "TTSAI",
+      "path": "/commands/tools/TTSAI",
+      "tags": [
+        "TTSAI"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "TestImage",
+      "path": "/commands/tools/TestImage",
+      "tags": [
+        "TestImage"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "ToDocMsg",
+      "path": "/commands/tools/ToDocMsg",
+      "tags": [
+        "ToDocMsg"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "ToGif",
+      "path": "/commands/tools/ToGif",
+      "tags": [
+        "ToGif"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "ToImage",
+      "path": "/commands/tools/ToImage",
+      "tags": [
+        "ToImage"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "ToMP3",
+      "path": "/commands/tools/ToMP3",
+      "tags": [
+        "ToMP3"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "ToVideo",
+      "path": "/commands/tools/ToVideo",
+      "tags": [
+        "ToVideo"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Translate",
+      "path": "/commands/tools/Translate",
+      "tags": [
+        "Translate"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Trim",
+      "path": "/commands/tools/Trim",
+      "tags": [
+        "Trim"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Tupai",
+      "path": "/commands/tools/Tupai",
+      "tags": [
+        "Tupai"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Underwater",
+      "path": "/commands/tools/Underwater",
+      "tags": [
+        "Underwater"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Upload",
+      "path": "/commands/tools/Upload",
+      "tags": [
+        "Upload"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Upper",
+      "path": "/commands/tools/Upper",
+      "tags": [
+        "Upper"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Upscaler",
+      "path": "/commands/tools/Upscaler",
+      "tags": [
+        "Upscaler"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "WhatMusic",
+      "path": "/commands/tools/WhatMusic",
+      "tags": [
+        "WhatMusic"
       ]
     },
     {
@@ -2423,335 +3647,83 @@
     },
     {
       "aliases": [],
-      "category": "tools",
-      "name": "iqc",
-      "path": "/commands/tools/iqc",
+      "category": "youtube",
+      "name": "Album",
+      "path": "/commands/youtube/Album",
       "tags": [
-        "iqc"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "jadiburik",
-      "path": "/commands/tools/jadiburik",
-      "tags": [
-        "jadiburik"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "jwt",
-      "path": "/commands/tools/jwt",
-      "tags": [
-        "jwt"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "lang",
-      "path": "/commands/tools/lang",
-      "tags": [
-        "lang"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "lens",
-      "path": "/commands/tools/lens",
-      "tags": [
-        "lens"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "lorem",
-      "path": "/commands/tools/lorem",
-      "tags": [
-        "lorem"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "lower",
-      "path": "/commands/tools/lower",
-      "tags": [
-        "lower"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "mediaquality",
-      "path": "/commands/tools/mediaquality",
-      "tags": [
-        "mediaquality"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "ocr",
-      "path": "/commands/tools/ocr",
-      "tags": [
-        "ocr"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "pesan",
-      "path": "/commands/tools/pesan",
-      "tags": [
-        "pesan"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "pixelate",
-      "path": "/commands/tools/pixelate",
-      "tags": [
-        "pixelate"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "qc",
-      "path": "/commands/tools/qc",
-      "tags": [
-        "qc"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "qr",
-      "path": "/commands/tools/qr",
-      "tags": [
-        "qr"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "readmore",
-      "path": "/commands/tools/readmore",
-      "tags": [
-        "readmore"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "readqris",
-      "path": "/commands/tools/readqris",
-      "tags": [
-        "readqris"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "removebg",
-      "path": "/commands/tools/removebg",
-      "tags": [
-        "removebg"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "resize",
-      "path": "/commands/tools/resize",
-      "tags": [
-        "resize"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "reverse",
-      "path": "/commands/tools/reverse",
-      "tags": [
-        "reverse"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "romanize",
-      "path": "/commands/tools/romanize",
-      "tags": [
-        "romanize"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "rotate",
-      "path": "/commands/tools/rotate",
-      "tags": [
-        "rotate"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "setqris",
-      "path": "/commands/tools/setqris",
-      "tags": [
-        "setqris"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "smeme",
-      "path": "/commands/tools/smeme",
-      "tags": [
-        "smeme"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "smooth",
-      "path": "/commands/tools/smooth",
-      "tags": [
-        "smooth"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "ssweb",
-      "path": "/commands/tools/ssweb",
-      "tags": [
-        "ssweb"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "stabilize",
-      "path": "/commands/tools/stabilize",
-      "tags": [
-        "stabilize"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "sticker",
-      "path": "/commands/tools/sticker",
-      "tags": [
-        "sticker"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "todocmsg",
-      "path": "/commands/tools/todocmsg",
-      "tags": [
-        "todocmsg"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "tomp3",
-      "path": "/commands/tools/tomp3",
-      "tags": [
-        "tomp3"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "translate",
-      "path": "/commands/tools/translate",
-      "tags": [
-        "translate"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "trim",
-      "path": "/commands/tools/trim",
-      "tags": [
-        "trim"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "tts-ai",
-      "path": "/commands/tools/tts-ai",
-      "tags": [
-        "tts-ai"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "tts",
-      "path": "/commands/tools/tts",
-      "tags": [
-        "tts"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "upload",
-      "path": "/commands/tools/upload",
-      "tags": [
-        "upload"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "upper",
-      "path": "/commands/tools/upper",
-      "tags": [
-        "upper"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "upscaler",
-      "path": "/commands/tools/upscaler",
-      "tags": [
-        "upscaler"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
-      "name": "whatmusic",
-      "path": "/commands/tools/whatmusic",
-      "tags": [
-        "whatmusic"
+        "Album"
       ]
     },
     {
       "aliases": [],
       "category": "youtube",
-      "name": "album",
-      "path": "/commands/youtube/album",
+      "name": "Play",
+      "path": "/commands/youtube/Play",
       "tags": [
-        "album"
+        "Play"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "youtube",
+      "name": "Play2",
+      "path": "/commands/youtube/Play2",
+      "tags": [
+        "Play2"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "youtube",
+      "name": "PlayDownloader",
+      "path": "/commands/youtube/PlayDownloader",
+      "tags": [
+        "PlayDownloader"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "youtube",
+      "name": "YouTube",
+      "path": "/commands/youtube/YouTube",
+      "tags": [
+        "YouTube"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "youtube",
+      "name": "YtMp3",
+      "path": "/commands/youtube/YtMp3",
+      "tags": [
+        "YtMp3"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "youtube",
+      "name": "YtMp4",
+      "path": "/commands/youtube/YtMp4",
+      "tags": [
+        "YtMp4"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "youtube",
+      "name": "YtMusicSearch",
+      "path": "/commands/youtube/YtMusicSearch",
+      "tags": [
+        "YtMusicSearch"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "youtube",
+      "name": "YtSearch",
+      "path": "/commands/youtube/YtSearch",
+      "tags": [
+        "YtSearch"
       ]
     },
     {
@@ -2761,78 +3733,6 @@
       "path": "/commands/youtube/index",
       "tags": [
         "index"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "youtube",
-      "name": "play-downloader",
-      "path": "/commands/youtube/play-downloader",
-      "tags": [
-        "play-downloader"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "youtube",
-      "name": "play",
-      "path": "/commands/youtube/play",
-      "tags": [
-        "play"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "youtube",
-      "name": "play2",
-      "path": "/commands/youtube/play2",
-      "tags": [
-        "play2"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "youtube",
-      "name": "yt",
-      "path": "/commands/youtube/yt",
-      "tags": [
-        "yt"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "youtube",
-      "name": "ytmp3",
-      "path": "/commands/youtube/ytmp3",
-      "tags": [
-        "ytmp3"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "youtube",
-      "name": "ytmp4",
-      "path": "/commands/youtube/ytmp4",
-      "tags": [
-        "ytmp4"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "youtube",
-      "name": "ytms",
-      "path": "/commands/youtube/ytms",
-      "tags": [
-        "ytms"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "youtube",
-      "name": "yts",
-      "path": "/commands/youtube/yts",
-      "tags": [
-        "yts"
       ]
     }
   ]

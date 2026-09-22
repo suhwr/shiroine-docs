@@ -1,0 +1,67 @@
+{
+  "name": "JadiBot",
+  "commands": [
+    "jadibot"
+  ],
+  "aliases": [],
+  "display": [
+    "JadiBot"
+  ],
+  "category": "bot",
+  "categories": [
+    "bot"
+  ],
+  "tags": [
+    "jadibot"
+  ],
+  "description": {
+    "id": "Jadikan device kamu sebagai bot",
+    "en": "Turn your device into a bot"
+  },
+  "usage": "JadiBot",
+  "examples": [
+    "jadibot pair Nama Bot Kamu",
+    "jadibot qr Nama Bot Kamu",
+    "jadibot logout",
+    "jadibot remove 628xxxxxxxxx",
+    "jadibot eula",
+    "jadibot pair Your Bot Name",
+    "jadibot qr Your Bot Name"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 1033
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

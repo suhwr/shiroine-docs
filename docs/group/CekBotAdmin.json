@@ -1,0 +1,71 @@
+{
+  "name": "CekBotAdmin",
+  "commands": [
+    "cekbotadmin",
+    "cba"
+  ],
+  "aliases": [],
+  "display": [
+    "CekBotAdmin"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "cekbotadmin",
+    "cba"
+  ],
+  "description": {
+    "id": "Cek daftar bot yang menjadi admin di grup ini",
+    "en": "Check list of bots that are admin in this group"
+  },
+  "usage": "CekBotAdmin",
+  "examples": [
+    "cekbotadmin"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {
+    "admin": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 214
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

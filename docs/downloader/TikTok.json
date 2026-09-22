@@ -1,0 +1,68 @@
+{
+  "name": "TikTok",
+  "commands": [
+    "tiktok",
+    "ttdl",
+    "tt",
+    "douyin"
+  ],
+  "aliases": [],
+  "display": [
+    "TikTok",
+    "Douyin"
+  ],
+  "category": "downloader",
+  "categories": [
+    "downloader"
+  ],
+  "tags": [
+    "tiktok",
+    "ttdl",
+    "tt",
+    "douyin"
+  ],
+  "description": {
+    "id": "Download video/foto dari TikTok",
+    "en": "Download video/photo from TikTok"
+  },
+  "usage": "TikTok",
+  "examples": [
+    "tiktok https://tiktok.com/@user/video/123456789"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": true,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/downloader",
+    "line": 161
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

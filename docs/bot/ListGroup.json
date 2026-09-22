@@ -1,0 +1,77 @@
+{
+  "name": "ListGroup",
+  "commands": [
+    "listgroup",
+    "listgrup",
+    "grouplist"
+  ],
+  "aliases": [],
+  "display": [
+    "ListGroup"
+  ],
+  "category": "bot",
+  "categories": [
+    "bot"
+  ],
+  "tags": [
+    "listgroup",
+    "listgrup",
+    "grouplist"
+  ],
+  "description": {
+    "id": "Tampilkan daftar grup bot dan lihat detailnya secara interaktif",
+    "en": "Show bot's group list and view details interactively"
+  },
+  "usage": "ListGroup",
+  "examples": [
+    "listgroup"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "private": true,
+    "group": true,
+    "group_community": true,
+    "newsletter": true
+  },
+  "permissions": {
+    "bot": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 172
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

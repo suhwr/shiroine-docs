@@ -1,0 +1,67 @@
+{
+  "name": "PinterestDownloader",
+  "commands": [
+    "pinterestdownloader",
+    "pinterestdl",
+    "pindl",
+    "ptdl"
+  ],
+  "aliases": [],
+  "display": [
+    "PinterestDownloader"
+  ],
+  "category": "downloader",
+  "categories": [
+    "downloader"
+  ],
+  "tags": [
+    "pinterestdownloader",
+    "pinterestdl",
+    "pindl",
+    "ptdl"
+  ],
+  "description": {
+    "id": "Download foto/video dari Pinterest",
+    "en": "Download photo/video from Pinterest"
+  },
+  "usage": "PinterestDownloader",
+  "examples": [
+    "pindl https://pinterest.com/pin/123456789"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": true,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/downloader",
+    "line": 178
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

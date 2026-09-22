@@ -1,0 +1,81 @@
+{
+  "name": "PinMsg",
+  "commands": [
+    "pinmsg",
+    "pinchat",
+    "semat",
+    "sematkan"
+  ],
+  "aliases": [],
+  "display": [
+    "PinMsg"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "pinmsg",
+    "pinchat",
+    "semat",
+    "sematkan"
+  ],
+  "description": {
+    "en": "Pin message in group for 1 day, 7 days, or 30 days",
+    "id": "Sematkan pesan di grup selama 1 hari, 7 hari, atau 30 hari"
+  },
+  "usage": "PinMsg",
+  "examples": [
+    "pinmsg",
+    "pinmsg 1hari",
+    "pinmsg 7hari",
+    "pinmsg 30hari",
+    "pinmsg 24h",
+    "pinmsg 7d",
+    "pinmsg 30d"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group_community": true,
+    "group": true
+  },
+  "permissions": {
+    "admin": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 19
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

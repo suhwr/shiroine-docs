@@ -1,0 +1,78 @@
+{
+  "name": "SetSchedule",
+  "commands": [
+    "setschedule",
+    "schedule",
+    "autoopen"
+  ],
+  "aliases": [],
+  "display": [
+    "SetSchedule"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "setschedule",
+    "schedule",
+    "autoopen"
+  ],
+  "description": {
+    "en": "Configure automated group open and close schedule",
+    "id": "Atur jadwal otomatis buka dan tutup obrolan grup"
+  },
+  "usage": "SetSchedule",
+  "examples": [
+    "setschedule Asia/Jakarta 23:00 05:00",
+    "setschedule Asia/Makassar 22:30 06:00",
+    "setschedule on",
+    "setschedule off",
+    "setschedule Asia/Singapore 23:00 06:00",
+    "setschedule Asia/Jakarta 22:30 05:30"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {
+    "admin": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 227
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

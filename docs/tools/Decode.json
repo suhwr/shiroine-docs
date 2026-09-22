@@ -1,0 +1,63 @@
+{
+  "name": "Decode",
+  "commands": [
+    "decode"
+  ],
+  "aliases": [],
+  "display": [
+    "Decode"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "decode"
+  ],
+  "description": {
+    "id": "Decode teks dari berbagai format (base64, hex, morse, dll)",
+    "en": "Decode text from various formats (base64, hex, morse, etc)"
+  },
+  "usage": "Decode",
+  "examples": [
+    "decode base64 aGFsbyBkdW5pYQ==",
+    "decode hex 68656c6c6f",
+    "decode base64 aGVsbG8gd29ybGQ="
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 57
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

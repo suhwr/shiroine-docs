@@ -1,0 +1,64 @@
+{
+  "name": "JadiAnime",
+  "commands": [
+    "jadianime",
+    "toanime"
+  ],
+  "aliases": [],
+  "display": [
+    "JadiAnime"
+  ],
+  "category": "ai",
+  "categories": [
+    "ai"
+  ],
+  "tags": [
+    "jadianime",
+    "toanime"
+  ],
+  "description": {
+    "id": "Ubah foto menjadi gaya anime menggunakan AI",
+    "en": "Convert photo to anime style using AI"
+  },
+  "usage": "JadiAnime",
+  "examples": [
+    "jadianime",
+    "toanime"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/ai",
+    "line": 65
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

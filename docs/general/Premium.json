@@ -1,0 +1,66 @@
+{
+  "name": "Premium",
+  "commands": [
+    "premium",
+    "buyprem",
+    "buypremium"
+  ],
+  "aliases": [],
+  "display": [
+    "Premium"
+  ],
+  "category": "general",
+  "categories": [
+    "general"
+  ],
+  "tags": [
+    "premium",
+    "buyprem",
+    "buypremium"
+  ],
+  "description": {
+    "id": "Beli premium menggunakan payment gateway",
+    "en": "Buy premium using payment gateway"
+  },
+  "usage": "Premium",
+  "examples": [
+    "premium",
+    "buyprem"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": true,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/general",
+    "line": 668
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

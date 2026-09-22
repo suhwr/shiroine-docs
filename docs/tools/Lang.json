@@ -1,0 +1,63 @@
+{
+  "name": "Lang",
+  "commands": [
+    "lang",
+    "languages"
+  ],
+  "aliases": [],
+  "display": [
+    "Lang"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "lang",
+    "languages"
+  ],
+  "description": {
+    "id": "Tampilkan daftar bahasa yang didukung plugin translate",
+    "en": "Show the list of languages supported by the translate plugin"
+  },
+  "usage": "Lang",
+  "examples": [
+    "lang"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 33
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

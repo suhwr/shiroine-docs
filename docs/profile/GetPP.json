@@ -1,0 +1,67 @@
+{
+  "name": "GetPP",
+  "commands": [
+    "getpp",
+    "getpic"
+  ],
+  "aliases": [],
+  "display": [
+    "GetPP"
+  ],
+  "category": "profile",
+  "categories": [
+    "profile"
+  ],
+  "tags": [
+    "getpp",
+    "getpic"
+  ],
+  "description": {
+    "id": "Ambil foto profil",
+    "en": "Get profile picture"
+  },
+  "usage": "GetPP",
+  "examples": [
+    "getpp +628123456789",
+    "getpp @mention1 @mention2",
+    "getpp grup",
+    "getpp (reply)",
+    "getpp group"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/profile",
+    "line": 126
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

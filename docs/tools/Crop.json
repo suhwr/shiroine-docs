@@ -1,0 +1,64 @@
+{
+  "name": "Crop",
+  "commands": [
+    "crop"
+  ],
+  "aliases": [],
+  "display": [
+    "Crop"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "crop"
+  ],
+  "description": {
+    "id": "Crop gambar: rasio (4:3), center, free, atau koordinat x/y",
+    "en": "Crop image: ratio (4:3), center, free, or x/y coordinates"
+  },
+  "usage": "Crop",
+  "examples": [
+    "crop 4:3",
+    "crop center 4:3",
+    "crop 4:3 -x=3 -y=-5",
+    "crop free 300 200"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 796
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}

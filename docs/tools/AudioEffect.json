@@ -1,0 +1,61 @@
+{
+  "name": "AudioEffect",
+  "commands": [
+    "audioeffect"
+  ],
+  "aliases": [],
+  "display": [
+    "AudioEffect"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "audioeffect"
+  ],
+  "description": {
+    "id": "Tampilkan daftar semua audio effect yang tersedia",
+    "en": "Show list of all available audio effects"
+  },
+  "usage": "AudioEffect",
+  "examples": [
+    "audioeffect"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 650
+  },
+  "lastUpdated": "2026-09-22T21:41:41Z"
+}
