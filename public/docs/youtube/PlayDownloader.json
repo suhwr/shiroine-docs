@@ -19,8 +19,8 @@
     "play-downloader"
   ],
   "description": {
-    "en": "Download song from YouTube URL",
-    "id": "Unduh lagu dari URL YouTube"
+    "id": "Unduh lagu dari URL YouTube",
+    "en": "Download song from YouTube URL"
   },
   "usage": "PlayDownloader",
   "examples": [
@@ -61,5 +61,5 @@
     "file": "internal/plugins/youtube",
     "line": 624
   },
-  "lastUpdated": "2026-09-22T21:41:41Z"
+  "lastUpdated": "2026-09-23T12:34:07Z"
 }

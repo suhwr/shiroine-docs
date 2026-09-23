@@ -1,7 +1,8 @@
 {
   "name": "Remove",
   "commands": [
-    "remove"
+    "remove",
+    "dor"
   ],
   "aliases": [],
   "display": [
@@ -12,7 +13,8 @@
     "group"
   ],
   "tags": [
-    "remove"
+    "remove",
+    "dor"
   ],
   "description": {
     "id": "Keluarkan anggota tertentu dari obrolan grup",
@@ -67,5 +69,5 @@
     "file": "internal/plugins/group",
     "line": 126
   },
-  "lastUpdated": "2026-09-22T21:41:41Z"
+  "lastUpdated": "2026-09-23T12:34:07Z"
 }

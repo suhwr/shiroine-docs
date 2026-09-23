@@ -15,8 +15,8 @@
     "minesweeper"
   ],
   "description": {
-    "id": "Mainkan game sapu ranjau",
-    "en": "Play Minesweeper"
+    "en": "Play Minesweeper",
+    "id": "Mainkan game sapu ranjau"
   },
   "usage": "Minesweeper",
   "examples": [],
@@ -55,5 +55,5 @@
     "file": "internal/plugins/minigame",
     "line": 1
   },
-  "lastUpdated": "2026-09-22T21:41:41Z"
+  "lastUpdated": "2026-09-23T12:34:07Z"
 }

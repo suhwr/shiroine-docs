@@ -22,8 +22,8 @@
     "douyin"
   ],
   "description": {
-    "id": "Download video/foto dari TikTok",
-    "en": "Download video/photo from TikTok"
+    "en": "Download video/photo from TikTok",
+    "id": "Download video/foto dari TikTok"
   },
   "usage": "TikTok",
   "examples": [
@@ -62,7 +62,7 @@
   },
   "source": {
     "file": "internal/plugins/downloader",
-    "line": 161
+    "line": 163
   },
-  "lastUpdated": "2026-09-22T21:41:41Z"
+  "lastUpdated": "2026-09-23T12:34:07Z"
 }

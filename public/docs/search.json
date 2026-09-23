@@ -754,7 +754,8 @@
       "path": "/commands/downloader/Facebook",
       "tags": [
         "facebook",
-        "fb"
+        "fb",
+        "fesnuk"
       ]
     },
     {
@@ -851,6 +852,17 @@
         "twdl",
         "tw",
         "x"
+      ]
+    },
+    {
+      "name": "Xiaohongshu",
+      "aliases": [],
+      "category": "downloader",
+      "path": "/commands/downloader/Xiaohongshu",
+      "tags": [
+        "xiaohongshu",
+        "rednote",
+        "xhs"
       ]
     },
     {
@@ -2456,7 +2468,8 @@
       "category": "group",
       "path": "/commands/group/Remove",
       "tags": [
-        "remove"
+        "remove",
+        "dor"
       ]
     },
     {

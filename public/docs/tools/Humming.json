@@ -15,8 +15,8 @@
     "humming"
   ],
   "description": {
-    "en": "Find song by humming (send or reply to your humming audio then type the command)",
-    "id": "Cari lagu dengan cara humming/bersenandung (kirim atau reply audio senandungmu lalu ketik perintah)"
+    "id": "Cari lagu dengan cara humming/bersenandung (kirim atau reply audio senandungmu lalu ketik perintah)",
+    "en": "Find song by humming (send or reply to your humming audio then type the command)"
   },
   "usage": "Humming",
   "examples": [
@@ -58,5 +58,5 @@
     "file": "internal/plugins/tools",
     "line": 168
   },
-  "lastUpdated": "2026-09-22T21:41:41Z"
+  "lastUpdated": "2026-09-23T12:34:07Z"
 }

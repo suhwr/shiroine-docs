@@ -15,8 +15,8 @@
     "happy"
   ],
   "description": {
-    "id": "Reaksi happy",
-    "en": "React with happy"
+    "en": "React with happy",
+    "id": "Reaksi happy"
   },
   "usage": "Happy",
   "examples": [
@@ -57,5 +57,5 @@
     "file": "internal/plugins/fun",
     "line": 1
   },
-  "lastUpdated": "2026-09-22T21:41:41Z"
+  "lastUpdated": "2026-09-23T12:34:07Z"
 }

@@ -15,8 +15,8 @@
     "left"
   ],
   "description": {
-    "id": "Atur notifikasi member keluar",
-    "en": "Configure left notification"
+    "en": "Configure left notification",
+    "id": "Atur notifikasi member keluar"
   },
   "usage": "Left",
   "examples": [
@@ -36,7 +36,8 @@
     "group_community": true
   },
   "permissions": {
-    "admin": true
+    "admin": true,
+    "subowner": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -67,5 +68,5 @@
     "file": "internal/plugins/group",
     "line": 1
   },
-  "lastUpdated": "2026-09-22T21:41:41Z"
+  "lastUpdated": "2026-09-23T12:34:07Z"
 }

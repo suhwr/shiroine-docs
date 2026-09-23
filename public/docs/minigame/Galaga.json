@@ -15,8 +15,8 @@
     "galaga"
   ],
   "description": {
-    "id": "Mainkan game tembak-tembakan ruang angkasa",
-    "en": "Play Galaga"
+    "en": "Play Galaga",
+    "id": "Mainkan game tembak-tembakan ruang angkasa"
   },
   "usage": "Galaga",
   "examples": [],
@@ -55,5 +55,5 @@
     "file": "internal/plugins/minigame",
     "line": 1
   },
-  "lastUpdated": "2026-09-22T21:41:41Z"
+  "lastUpdated": "2026-09-23T12:34:07Z"
 }

@@ -15,8 +15,8 @@
     "swap"
   ],
   "description": {
-    "id": "Swap nomor antara dua sesi",
-    "en": "Swap number between two sessions"
+    "en": "Swap number between two sessions",
+    "id": "Swap nomor antara dua sesi"
   },
   "usage": "Swap <teks>",
   "examples": [
@@ -33,10 +33,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {
     "owner": true
@@ -70,5 +70,5 @@
     "file": "internal/plugins/developer",
     "line": 61
   },
-  "lastUpdated": "2026-09-22T21:41:41Z"
+  "lastUpdated": "2026-09-23T12:34:07Z"
 }

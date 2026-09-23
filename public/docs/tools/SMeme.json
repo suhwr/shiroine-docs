@@ -21,8 +21,8 @@
     "tsmeme"
   ],
   "description": {
-    "id": "Buat meme dari gambar",
-    "en": "Create meme from image"
+    "en": "Create meme from image",
+    "id": "Buat meme dari gambar"
   },
   "usage": "SMeme",
   "examples": [
@@ -64,5 +64,5 @@
     "file": "internal/plugins/tools",
     "line": 89
   },
-  "lastUpdated": "2026-09-22T21:41:41Z"
+  "lastUpdated": "2026-09-23T12:34:07Z"
 }

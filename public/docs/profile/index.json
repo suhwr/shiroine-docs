@@ -40,7 +40,7 @@
     },
     {
       "name": "Level",
-      "description": "View your level and XP",
+      "description": "View your or another user's level and XP",
       "permissions": {},
       "premiumOnly": "",
       "tags": [

@@ -19,8 +19,8 @@
     "autoopen"
   ],
   "description": {
-    "en": "Configure automated group open and close schedule",
-    "id": "Atur jadwal otomatis buka dan tutup obrolan grup"
+    "id": "Atur jadwal otomatis buka dan tutup obrolan grup",
+    "en": "Configure automated group open and close schedule"
   },
   "usage": "SetSchedule",
   "examples": [
@@ -74,5 +74,5 @@
     "file": "internal/plugins/group",
     "line": 227
   },
-  "lastUpdated": "2026-09-22T21:41:41Z"
+  "lastUpdated": "2026-09-23T12:34:07Z"
 }

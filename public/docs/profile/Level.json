@@ -15,12 +15,14 @@
     "level"
   ],
   "description": {
-    "en": "View your level and XP",
-    "id": "Lihat level dan XP kamu"
+    "id": "Lihat level dan XP kamu atau user lain",
+    "en": "View your or another user's level and XP"
   },
   "usage": "Level",
   "examples": [
-    "level"
+    "level",
+    "level @user",
+    "level (reply)"
   ],
   "minArgs": 0,
   "args": {},
@@ -55,7 +57,7 @@
   },
   "source": {
     "file": "internal/plugins/profile",
-    "line": 299
+    "line": 344
   },
-  "lastUpdated": "2026-09-22T21:41:41Z"
+  "lastUpdated": "2026-09-23T12:34:07Z"
 }

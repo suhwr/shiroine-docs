@@ -17,8 +17,8 @@
     "$"
   ],
   "description": {
-    "en": "Execute a command in the server terminal",
-    "id": "Menjalankan perintah di terminal server"
+    "id": "Menjalankan perintah di terminal server",
+    "en": "Execute a command in the server terminal"
   },
   "usage": "Terminal <teks>",
   "examples": [
@@ -36,10 +36,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
     "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true
   },
   "permissions": {
     "owner": true
@@ -73,5 +73,5 @@
     "file": "internal/plugins/developer",
     "line": 58
   },
-  "lastUpdated": "2026-09-22T21:41:41Z"
+  "lastUpdated": "2026-09-23T12:34:07Z"
 }

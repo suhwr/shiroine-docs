@@ -26,7 +26,8 @@
       "premiumOnly": "",
       "tags": [
         "facebook",
-        "fb"
+        "fb",
+        "fesnuk"
       ]
     },
     {
@@ -123,6 +124,17 @@
         "twdl",
         "tw",
         "x"
+      ]
+    },
+    {
+      "name": "Xiaohongshu",
+      "description": "Download photo/video from Xiaohongshu / Rednote",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "xiaohongshu",
+        "rednote",
+        "xhs"
       ]
     }
   ]
