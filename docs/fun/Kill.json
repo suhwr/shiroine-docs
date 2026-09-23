@@ -15,8 +15,8 @@
     "kill"
   ],
   "description": {
-    "en": "React with kill",
-    "id": "Reaksi kill"
+    "id": "Reaksi kill",
+    "en": "React with kill"
   },
   "usage": "Kill",
   "examples": [
@@ -57,5 +57,5 @@
     "file": "internal/plugins/fun",
     "line": 1
   },
-  "lastUpdated": "2026-09-22T21:41:41Z"
+  "lastUpdated": "2026-09-23T12:34:07Z"
 }

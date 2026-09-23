@@ -795,6 +795,15 @@
     {
       "aliases": [],
       "category": "downloader",
+      "name": "Xiaohongshu",
+      "path": "/commands/downloader/Xiaohongshu",
+      "tags": [
+        "Xiaohongshu"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "downloader",
       "name": "index",
       "path": "/commands/downloader/index",
       "tags": [

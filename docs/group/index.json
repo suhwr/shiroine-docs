@@ -4,7 +4,8 @@
       "name": "Add",
       "description": "Add new member(s) to the group",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -15,7 +16,8 @@
       "name": "AdminOnly",
       "description": "Make the bot only respond to commands from group admins",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -27,6 +29,7 @@
       "name": "Adzan",
       "description": "Automated adzan schedule and prayer notifications for the group",
       "permissions": {
+        "subowner": true,
         "admin": true
       },
       "premiumOnly": "",
@@ -40,7 +43,8 @@
       "name": "AntiBot",
       "description": "Enable or disable anti-bot system for the group",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -51,7 +55,8 @@
       "name": "AntiBug",
       "description": "Configure anti bug/virtex",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -62,7 +67,8 @@
       "name": "AntiCall",
       "description": "Configure anti group call",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -73,7 +79,8 @@
       "name": "AntiHideTag",
       "description": "Configure anti hidetag",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -84,7 +91,8 @@
       "name": "AntiLink",
       "description": "Configure AntiLink system to block prohibited links in group",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -95,7 +103,8 @@
       "name": "AntiMedia",
       "description": "Configure group anti-media protection for specific media types",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -106,7 +115,8 @@
       "name": "AntiNSFWMedia",
       "description": "Enable automatic NSFW media filter in group",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -118,7 +128,8 @@
       "name": "AntiSW",
       "description": "Configure anti tag status",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -129,7 +140,8 @@
       "name": "AntiSpam",
       "description": "Configure anti spam",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -140,7 +152,8 @@
       "name": "AntiTagSW",
       "description": "Configure anti tag status",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -151,6 +164,7 @@
       "name": "AutoRespon",
       "description": "Manage group auto-response system",
       "permissions": {
+        "subowner": true,
         "admin": true
       },
       "premiumOnly": "",
@@ -162,7 +176,8 @@
       "name": "BadWord",
       "description": "Manage group forbidden badwords filter and violation strikes",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -198,7 +213,8 @@
       "name": "BanMember",
       "description": "Ban member from using the bot in this group",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -233,7 +249,8 @@
       "name": "Close",
       "description": "Close group (only admins can send messages)",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -245,7 +262,8 @@
       "name": "Cmd",
       "description": "Disable or enable bot commands in this group individually or in bulk",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -281,7 +299,8 @@
       "name": "Demote",
       "description": "Demote an admin to a regular member",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -292,6 +311,7 @@
       "name": "Ephemeral",
       "description": "Configure ephemeral messages",
       "permissions": {
+        "subowner": true,
         "admin": true
       },
       "premiumOnly": "",
@@ -323,7 +343,8 @@
       "name": "GroupPrefix",
       "description": "Set custom command prefix for the group",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -346,7 +367,8 @@
       "name": "GroupStats",
       "description": "Show group message statistics this month including top 3 most active members",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -360,7 +382,8 @@
       "name": "HideTag",
       "description": "Tag all group members invisibly",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -373,6 +396,7 @@
       "name": "Info",
       "description": "Configure group notification",
       "permissions": {
+        "subowner": true,
         "admin": true
       },
       "premiumOnly": "",
@@ -393,7 +417,8 @@
       "name": "JoinReq",
       "description": "Manage group member join approval requests",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -404,11 +429,11 @@
       "name": "LeaveGroup",
       "description": "Remove bot from group or leave groups remotely",
       "permissions": {
-        "bot": true,
-        "hasbot": true,
         "admin": true,
         "owner": true,
-        "subowner": true
+        "subowner": true,
+        "bot": true,
+        "hasbot": true
       },
       "premiumOnly": "",
       "tags": [
@@ -424,7 +449,8 @@
       "name": "Left",
       "description": "Configure left notification",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -435,7 +461,8 @@
       "name": "LinkGC",
       "description": "Get group invite link",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -448,7 +475,8 @@
       "name": "ListAktif",
       "description": "View the list of members active today along with their total messages",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -459,6 +487,7 @@
       "name": "ListBanMember",
       "description": "Show list of members banned by bot in this group",
       "permissions": {
+        "moderator": true,
         "admin": true
       },
       "premiumOnly": "",
@@ -471,7 +500,8 @@
       "name": "ListMute",
       "description": "View list of currently muted members in the group and unmute interactively",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -494,7 +524,8 @@
       "name": "ListWarning",
       "description": "View all members with active warnings in the group",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -506,7 +537,8 @@
       "name": "MuteMember",
       "description": "Mute a specific member in the group so messages are auto-deleted",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -528,7 +560,8 @@
       "name": "Open",
       "description": "Open group (all members can send messages)",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -540,7 +573,8 @@
       "name": "PinMsg",
       "description": "Pin message in group for 1 day, 7 days, or 30 days",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -554,7 +588,8 @@
       "name": "Promote",
       "description": "Promote a group member to admin",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -565,6 +600,7 @@
       "name": "Reminder",
       "description": "Manage automated scheduled reminder messages in the group",
       "permissions": {
+        "subowner": true,
         "admin": true
       },
       "premiumOnly": "",
@@ -580,14 +616,16 @@
       },
       "premiumOnly": "",
       "tags": [
-        "remove"
+        "remove",
+        "dor"
       ]
     },
     {
       "name": "ResetWarn",
       "description": "Reset all warnings for a group member",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -599,7 +637,8 @@
       "name": "Revoke",
       "description": "Reset group invite link and generate a new one",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -612,7 +651,8 @@
       "name": "SetDesc",
       "description": "Change group chat description",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -623,7 +663,8 @@
       "name": "SetGoodbye",
       "description": "Set group goodbye message or cover",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -647,7 +688,8 @@
       "name": "SetPPGC",
       "description": "Set group chat profile picture",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -675,7 +717,8 @@
       "name": "SetSubject",
       "description": "Change group chat name",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -686,7 +729,8 @@
       "name": "SetTimezone",
       "description": "Set group timezone for schedule and activity tracking",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -697,7 +741,8 @@
       "name": "SetWelcome",
       "description": "Set group welcome message or cover",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -709,7 +754,8 @@
       "name": "Sider",
       "description": "Manage inactive members (siders) and group cleanup",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -720,7 +766,8 @@
       "name": "SimulateGoodbye",
       "description": "Simulate group goodbye message using your data as example",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -732,7 +779,8 @@
       "name": "SimulateWelcome",
       "description": "Simulate group welcome message using your data as example",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -756,7 +804,8 @@
       "name": "TagAll",
       "description": "Tag all group members grouped by role",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -768,7 +817,8 @@
       "name": "TopActive",
       "description": "Show most active members in the group based on message count",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -808,7 +858,8 @@
       "name": "UnbanMember",
       "description": "Unban member from the bot in this group",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -820,7 +871,8 @@
       "name": "UnmuteMember",
       "description": "Unmute a specific member in the group",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -832,7 +884,8 @@
       "name": "UnpinMsg",
       "description": "Unpin message in group",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -858,7 +911,8 @@
       "name": "Warn",
       "description": "Issue a formal warning to a rule-breaking group member",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -879,7 +933,8 @@
       "name": "Welcome",
       "description": "Configure welcome message",
       "permissions": {
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [

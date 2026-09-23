@@ -15,8 +15,8 @@
     "album"
   ],
   "description": {
-    "id": "Download album dari YouTube Music",
-    "en": "Download album from YouTube Music"
+    "en": "Download album from YouTube Music",
+    "id": "Download album dari YouTube Music"
   },
   "usage": "Album",
   "examples": [
@@ -57,5 +57,5 @@
     "file": "internal/plugins/youtube",
     "line": 147
   },
-  "lastUpdated": "2026-09-22T21:41:41Z"
+  "lastUpdated": "2026-09-23T12:34:07Z"
 }

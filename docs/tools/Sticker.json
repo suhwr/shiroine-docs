@@ -21,8 +21,8 @@
     "s"
   ],
   "description": {
-    "id": "Membuat sticker dari gambar, video, sticker, atau ZIP yang dikirim atau direply. Mendukung mode bentuk (--circle, --round), crop (--crop, --full, --smart), pengiriman langsung (--direct), dan metadata kustom (--null, --avatar, --ai, --premium).",
-    "en": "Create a sticker from an image, video, sticker, or ZIP file sent or replied to. Supports shape modes (--circle, --round), crop modes (--crop, --full, --smart), direct send (--direct), and custom metadata (--null, --avatar, --ai, --premium)."
+    "en": "Create a sticker from an image, video, sticker, or ZIP file sent or replied to. Supports shape modes (--circle, --round), crop modes (--crop, --full, --smart), direct send (--direct), and custom metadata (--null, --avatar, --ai, --premium).",
+    "id": "Membuat sticker dari gambar, video, sticker, atau ZIP yang dikirim atau direply. Mendukung mode bentuk (--circle, --round), crop (--crop, --full, --smart), pengiriman langsung (--direct), dan metadata kustom (--null, --avatar, --ai, --premium)."
   },
   "usage": "Sticker",
   "examples": [
@@ -66,7 +66,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 199
+    "line": 296
   },
-  "lastUpdated": "2026-09-22T21:41:41Z"
+  "lastUpdated": "2026-09-23T12:34:07Z"
 }

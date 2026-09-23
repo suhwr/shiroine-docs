@@ -15,8 +15,8 @@
     "llm"
   ],
   "description": {
-    "id": "Pilih model AI yang digunakan",
-    "en": "Select AI model to use"
+    "en": "Select AI model to use",
+    "id": "Pilih model AI yang digunakan"
   },
   "usage": "LLM",
   "examples": [
@@ -62,5 +62,5 @@
     "file": "internal/plugins/ai",
     "line": 138
   },
-  "lastUpdated": "2026-09-22T21:41:41Z"
+  "lastUpdated": "2026-09-23T12:34:07Z"
 }

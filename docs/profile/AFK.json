@@ -15,8 +15,8 @@
     "afk"
   ],
   "description": {
-    "id": "Set status AFK dengan alasan",
-    "en": "Set AFK status with reason"
+    "en": "Set AFK status with reason",
+    "id": "Set status AFK dengan alasan"
   },
   "usage": "AFK",
   "examples": [
@@ -61,5 +61,5 @@
     "file": "internal/plugins/profile",
     "line": 46
   },
-  "lastUpdated": "2026-09-22T21:41:41Z"
+  "lastUpdated": "2026-09-23T12:34:07Z"
 }

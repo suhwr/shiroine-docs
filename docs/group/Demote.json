@@ -15,8 +15,8 @@
     "demote"
   ],
   "description": {
-    "id": "Turunkan admin menjadi anggota biasa",
-    "en": "Demote an admin to a regular member"
+    "en": "Demote an admin to a regular member",
+    "id": "Turunkan admin menjadi anggota biasa"
   },
   "usage": "Demote",
   "examples": [
@@ -36,7 +36,8 @@
     "group_community": true
   },
   "permissions": {
-    "admin": true
+    "admin": true,
+    "subowner": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -67,5 +68,5 @@
     "file": "internal/plugins/group",
     "line": 113
   },
-  "lastUpdated": "2026-09-22T21:41:41Z"
+  "lastUpdated": "2026-09-23T12:34:07Z"
 }

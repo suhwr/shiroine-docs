@@ -15,8 +15,8 @@
     "denoise"
   ],
   "description": {
-    "en": "Reduce noise in audio",
-    "id": "Kurangi noise pada audio"
+    "id": "Kurangi noise pada audio",
+    "en": "Reduce noise in audio"
   },
   "usage": "Denoise",
   "examples": [
@@ -57,5 +57,5 @@
     "file": "internal/plugins/tools",
     "line": 636
   },
-  "lastUpdated": "2026-09-22T21:41:41Z"
+  "lastUpdated": "2026-09-23T12:34:07Z"
 }

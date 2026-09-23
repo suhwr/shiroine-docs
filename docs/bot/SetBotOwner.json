@@ -19,8 +19,8 @@
     "sbo"
   ],
   "description": {
-    "id": "Ganti nomor owner untuk sesi bot ini",
-    "en": "Change the owner number for this bot session"
+    "en": "Change the owner number for this bot session",
+    "id": "Ganti nomor owner untuk sesi bot ini"
   },
   "usage": "SetBotOwner",
   "examples": [
@@ -62,5 +62,5 @@
     "file": "internal/plugins/bot",
     "line": 72
   },
-  "lastUpdated": "2026-09-22T21:41:41Z"
+  "lastUpdated": "2026-09-23T12:34:07Z"
 }

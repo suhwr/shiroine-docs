@@ -17,8 +17,8 @@
     "banuser"
   ],
   "description": {
-    "id": "Ban user dari semua bot yang kamu miliki",
-    "en": "Ban a user from all bots you own"
+    "en": "Ban a user from all bots you own",
+    "id": "Ban user dari semua bot yang kamu miliki"
   },
   "usage": "BanUser",
   "examples": [
@@ -42,7 +42,8 @@
     "newsletter": true
   },
   "permissions": {
-    "hasbot": true
+    "hasbot": true,
+    "moderator": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -73,5 +74,5 @@
     "file": "internal/plugins/developer",
     "line": 118
   },
-  "lastUpdated": "2026-09-22T21:41:41Z"
+  "lastUpdated": "2026-09-23T12:34:07Z"
 }

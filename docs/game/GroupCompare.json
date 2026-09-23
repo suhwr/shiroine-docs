@@ -15,8 +15,8 @@
     "groupcompare"
   ],
   "description": {
-    "id": "Bandingkan grup kamu vs rival",
-    "en": "Compare your group vs rival"
+    "en": "Compare your group vs rival",
+    "id": "Bandingkan grup kamu vs rival"
   },
   "usage": "GroupCompare",
   "examples": [
@@ -63,5 +63,5 @@
     "file": "internal/plugins/game",
     "line": 762
   },
-  "lastUpdated": "2026-09-22T21:41:41Z"
+  "lastUpdated": "2026-09-23T12:34:07Z"
 }

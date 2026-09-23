@@ -52,7 +52,9 @@
       "name": "BanMedia",
       "description": "Flag media as NSFW — instantly blocked in all groups",
       "permissions": {
-        "owner": true
+        "owner": true,
+        "subowner": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -63,7 +65,8 @@
       "name": "BanUser",
       "description": "Ban a user from all bots you own",
       "permissions": {
-        "hasbot": true
+        "hasbot": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -121,8 +124,7 @@
       "name": "DelMod",
       "description": "Remove moderator role from user",
       "permissions": {
-        "owner": true,
-        "subowner": true
+        "owner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -146,7 +148,9 @@
       "name": "Errors",
       "description": "View dependency error logs",
       "permissions": {
-        "owner": true
+        "owner": true,
+        "subowner": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -172,8 +176,9 @@
       "name": "HardBan",
       "description": "Ban user globally (permanent)",
       "permissions": {
-        "owner": true,
-        "subowner": true
+        "moderator": true,
+        "subowner": true,
+        "owner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -185,7 +190,9 @@
       "name": "HardBanGC",
       "description": "Ban group globally (all bots)",
       "permissions": {
-        "owner": true
+        "owner": true,
+        "subowner": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -198,6 +205,7 @@
       "name": "HardBanList",
       "description": "Show global ban list",
       "permissions": {
+        "moderator": true,
         "subowner": true,
         "owner": true
       },
@@ -211,8 +219,9 @@
       "name": "HardUnban",
       "description": "Unban user from global ban list",
       "permissions": {
-        "owner": true,
-        "subowner": true
+        "moderator": true,
+        "subowner": true,
+        "owner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -224,6 +233,8 @@
       "name": "HardUnbanGC",
       "description": "Unban group from global ban list",
       "permissions": {
+        "subowner": true,
+        "moderator": true,
         "owner": true
       },
       "premiumOnly": "",
@@ -299,8 +310,7 @@
       "name": "SetRole",
       "description": "Set user role (moderator, admin, user)",
       "permissions": {
-        "owner": true,
-        "subowner": true
+        "owner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -347,7 +357,8 @@
       "name": "UnbanUser",
       "description": "Unban a user from all bots you own",
       "permissions": {
-        "hasbot": true
+        "hasbot": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
