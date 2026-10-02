@@ -19,8 +19,8 @@
     "set-bot-name"
   ],
   "description": {
-    "id": "Ubah nama bot",
-    "en": "Change bot name"
+    "en": "Change bot name",
+    "id": "Ubah nama bot"
   },
   "usage": "SetBotName",
   "examples": [
@@ -61,5 +61,5 @@
     "file": "internal/plugins/bot",
     "line": 47
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }

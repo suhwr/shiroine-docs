@@ -15,8 +15,8 @@
     "math"
   ],
   "description": {
-    "id": "Mulai game matematika dengan level pilihan",
-    "en": "Start math game with difficulty level"
+    "en": "Start math game with difficulty level",
+    "id": "Mulai game matematika dengan level pilihan"
   },
   "usage": "Math",
   "examples": [
@@ -63,5 +63,5 @@
     "file": "internal/plugins/game",
     "line": 228
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }

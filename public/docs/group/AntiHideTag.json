@@ -15,15 +15,16 @@
     "antihidetag"
   ],
   "description": {
-    "id": "Atur anti hidetag",
-    "en": "Configure anti hidetag"
+    "en": "Configure anti hidetag",
+    "id": "Atur anti hidetag"
   },
   "usage": "AntiHideTag",
   "examples": [
     "antihidetag",
     "antihidetag on",
     "antihidetag off",
-    "antihidetag set 3"
+    "antihidetag limit 3",
+    "antihidetag limit 0"
   ],
   "minArgs": 0,
   "args": {},
@@ -67,7 +68,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 409
+    "line": 423
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }

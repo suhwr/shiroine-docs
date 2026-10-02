@@ -15,8 +15,8 @@
     "ocr"
   ],
   "description": {
-    "en": "Extract text from image",
-    "id": "Ekstrak teks dari gambar"
+    "id": "Ekstrak teks dari gambar",
+    "en": "Extract text from image"
   },
   "usage": "OCR",
   "examples": [
@@ -58,5 +58,5 @@
     "file": "internal/plugins/tools",
     "line": 63
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }

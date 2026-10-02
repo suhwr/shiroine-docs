@@ -23,7 +23,8 @@
     "antitagsw",
     "antitagsw on",
     "antitagsw off",
-    "antitagsw set 3"
+    "antitagsw limit 3",
+    "antitagsw limit 0"
   ],
   "minArgs": 0,
   "args": {},
@@ -37,8 +38,8 @@
     "group_community": true
   },
   "permissions": {
-    "admin": true,
-    "subowner": true
+    "subowner": true,
+    "admin": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -69,5 +70,5 @@
     "file": "internal/plugins/group",
     "line": 1
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }

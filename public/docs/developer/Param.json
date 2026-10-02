@@ -17,8 +17,8 @@
     "params"
   ],
   "description": {
-    "en": "Inspect incoming WhatsApp message parameters as JSON",
-    "id": "Melihat parameter pesan WhatsApp yang diterima bot (JSON)"
+    "id": "Melihat parameter pesan WhatsApp yang diterima bot (JSON)",
+    "en": "Inspect incoming WhatsApp message parameters as JSON"
   },
   "usage": "Param",
   "examples": [
@@ -73,5 +73,5 @@
     "file": "internal/plugins/developer",
     "line": 185
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }

@@ -15,8 +15,8 @@
     "handhold"
   ],
   "description": {
-    "en": "React with handhold",
-    "id": "Reaksi handhold"
+    "id": "Reaksi handhold",
+    "en": "React with handhold"
   },
   "usage": "HandHold",
   "examples": [
@@ -57,5 +57,5 @@
     "file": "internal/plugins/fun",
     "line": 1
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }

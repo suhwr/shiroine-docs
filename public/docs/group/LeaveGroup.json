@@ -47,11 +47,11 @@
     "group_community": true
   },
   "permissions": {
-    "bot": true,
-    "hasbot": true,
     "admin": true,
     "owner": true,
-    "subowner": true
+    "subowner": true,
+    "bot": true,
+    "hasbot": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -80,7 +80,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 232
+    "line": 224
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }

@@ -28,11 +28,11 @@
   ],
   "minArgs": 0,
   "args": {
-    "pertanyaan": {
-      "id": "Pesan obrolan atau instruksi gambar (ketik 'clear' untuk menghapus riwayat)"
-    },
     "query": {
       "en": "Chat message or image prompt (type 'clear' to reset history)"
+    },
+    "pertanyaan": {
+      "id": "Pesan obrolan atau instruksi gambar (ketik 'clear' untuk menghapus riwayat)"
     }
   },
   "requireMedia": [],
@@ -68,5 +68,5 @@
     "file": "internal/plugins/ai",
     "line": 104
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }

@@ -1,29 +1,30 @@
 {
-  "name": "Tidal",
+  "name": "Threads",
   "commands": [
-    "tidal"
+    "threads",
+    "threadsdl",
+    "tdl"
   ],
   "aliases": [],
   "display": [
-    "Tidal"
+    "Threads"
   ],
   "category": "downloader",
   "categories": [
     "downloader"
   ],
   "tags": [
-    "tidal"
+    "threads",
+    "threadsdl",
+    "tdl"
   ],
   "description": {
-    "id": "Cari atau download track, album, atau video dari Tidal (HiFi quality)",
-    "en": "Search or download track, album, or video from Tidal (HiFi quality)"
+    "id": "Download foto/video dari Threads",
+    "en": "Download photo/video from Threads"
   },
-  "usage": "Tidal",
+  "usage": "Threads",
   "examples": [
-    "tidal never gonna give you up",
-    "tidal album the book",
-    "tidal video never gonna give you up",
-    "tidal https://tidal.com/browse/track/123456"
+    "threads https://www.threads.com/@user/post/xxx"
   ],
   "minArgs": 0,
   "args": {},
@@ -58,7 +59,7 @@
   },
   "source": {
     "file": "internal/plugins/downloader",
-    "line": 313
+    "line": 122
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }

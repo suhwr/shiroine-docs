@@ -201,6 +201,16 @@
       ]
     },
     {
+      "name": "Fact",
+      "description": "Get a random interesting fact",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "fact",
+        "fakta"
+      ]
+    },
+    {
       "name": "Feed",
       "description": "React with feed",
       "permissions": {},

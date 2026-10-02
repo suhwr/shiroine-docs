@@ -71,7 +71,9 @@
       "premiumOnly": "",
       "tags": [
         "ban-user",
-        "banuser"
+        "banuser",
+        "ban",
+        "blacklist"
       ]
     },
     {
@@ -148,9 +150,9 @@
       "name": "Errors",
       "description": "View dependency error logs",
       "permissions": {
-        "owner": true,
         "subowner": true,
-        "moderator": true
+        "moderator": true,
+        "owner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -176,9 +178,9 @@
       "name": "HardBan",
       "description": "Ban user globally (permanent)",
       "permissions": {
-        "moderator": true,
         "subowner": true,
-        "owner": true
+        "owner": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -233,9 +235,9 @@
       "name": "HardUnbanGC",
       "description": "Unban group from global ban list",
       "permissions": {
+        "owner": true,
         "subowner": true,
-        "moderator": true,
-        "owner": true
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -357,13 +359,15 @@
       "name": "UnbanUser",
       "description": "Unban a user from all bots you own",
       "permissions": {
-        "hasbot": true,
-        "moderator": true
+        "moderator": true,
+        "hasbot": true
       },
       "premiumOnly": "",
       "tags": [
         "unban-user",
-        "unbanuser"
+        "unbanuser",
+        "unban",
+        "unblacklist"
       ]
     },
     {

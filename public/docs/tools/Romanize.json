@@ -25,6 +25,7 @@
   "usage": "Romanize",
   "examples": [
     "romanize こんにちは",
+    "romanize --gemini こんにちは",
     "romanize (reply teks)",
     "romanize (reply gambar)",
     "romanize (reply text)",
@@ -63,7 +64,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 58
+    "line": 85
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }

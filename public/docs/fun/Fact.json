@@ -1,0 +1,73 @@
+{
+  "name": "Fact",
+  "commands": [
+    "fact",
+    "fakta"
+  ],
+  "aliases": [],
+  "display": [
+    "Fact"
+  ],
+  "category": "fun",
+  "categories": [
+    "fun"
+  ],
+  "tags": [
+    "fact",
+    "fakta"
+  ],
+  "description": {
+    "id": "Dapatkan fakta menarik acak",
+    "en": "Get a random interesting fact"
+  },
+  "usage": "Fact",
+  "examples": [
+    "fact"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "private": true,
+    "group": true,
+    "group_community": true,
+    "newsletter": true
+  },
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/fun",
+    "line": 19
+  },
+  "lastUpdated": "2026-10-02T13:27:57Z"
+}

@@ -15,8 +15,8 @@
     "upsw2"
   ],
   "description": {
-    "id": "Upload media ke status WhatsApp dengan opsi tag grup",
-    "en": "Upload media to WhatsApp status with group tag option"
+    "en": "Upload media to WhatsApp status with group tag option",
+    "id": "Upload media ke status WhatsApp dengan opsi tag grup"
   },
   "usage": "UpSW2",
   "examples": [
@@ -56,7 +56,7 @@
   },
   "source": {
     "file": "internal/plugins/bot",
-    "line": 329
+    "line": 423
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }

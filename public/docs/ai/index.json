@@ -94,15 +94,6 @@
       ]
     },
     {
-      "name": "Qwen",
-      "description": "Chat with Qwen3-32B without persona (text only)",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
       "name": "ResetAI",
       "description": "Clear all private conversation history with AI and start a new session without previous context. Useful when you want to start a new topic unrelated to previous conversations.",
       "permissions": {},

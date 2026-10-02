@@ -64,17 +64,8 @@
       ]
     },
     {
-      "name": "Spotify",
-      "description": "Download or search music from Spotify",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "spotify"
-      ]
-    },
-    {
       "name": "TelegramSticker",
-      "description": "Download a Telegram sticker pack and send it as WhatsApp stickers",
+      "description": "Download a Telegram sticker pack and send it as WhatsApp stickers (supports -fps=1-60 or -fps auto)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -94,12 +85,14 @@
       ]
     },
     {
-      "name": "Tidal",
-      "description": "Search or download track, album, or video from Tidal (HiFi quality)",
+      "name": "Threads",
+      "description": "Download photo/video from Threads",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "tidal"
+        "threads",
+        "threadsdl",
+        "tdl"
       ]
     },
     {

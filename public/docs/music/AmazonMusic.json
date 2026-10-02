@@ -1,30 +1,34 @@
 {
-  "name": "FotoLive",
+  "name": "AmazonMusic",
   "commands": [
-    "fotolive",
-    "motionphoto",
-    "livephoto"
+    "amazonmusic",
+    "amz",
+    "amazon-music"
   ],
   "aliases": [],
   "display": [
-    "FotoLive"
+    "AmazonMusic"
   ],
-  "category": "media",
+  "category": "music",
   "categories": [
-    "media"
+    "music"
   ],
   "tags": [
-    "fotolive",
-    "motionphoto",
-    "livephoto"
+    "amazonmusic",
+    "amz",
+    "amazon-music"
   ],
   "description": {
-    "en": "Convert video or photo+video combination into WhatsApp Motion Photo",
-    "id": "Ubah video atau kombinasi foto+video menjadi Motion Photo WhatsApp"
+    "id": "Cari atau unduh track, album, playlist, atau artis dari Amazon Music (Ultra HD / HD quality)",
+    "en": "Search or download tracks, albums, playlists, or artists from Amazon Music (Ultra HD / HD quality)"
   },
-  "usage": "FotoLive",
+  "usage": "AmazonMusic",
   "examples": [
-    "fotolive"
+    "amazonmusic never gonna give you up",
+    "amz album the book",
+    "amz artist yoasobi",
+    "amz playlist lofi",
+    "amz https://music.amazon.com/albums/..."
   ],
   "minArgs": 0,
   "args": {},
@@ -35,13 +39,13 @@
   "premiumOnly": "",
   "nsfwOnly": false,
   "level": 0,
-  "limitCost": 0,
+  "limitCost": 1,
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
   "specialLimit": false,
   "sendsToPrivate": false,
-  "showPromotion": false,
+  "showPromotion": true,
   "disabled": false,
   "disabledReason": "",
   "customArgsMessage": {
@@ -58,8 +62,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/media",
-    "line": 14
+    "file": "internal/plugins/music",
+    "line": 386
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }

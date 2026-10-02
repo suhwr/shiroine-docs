@@ -94,15 +94,6 @@
       ]
     },
     {
-      "name": "Qwen",
-      "aliases": [],
-      "category": "ai",
-      "path": "/commands/ai/Qwen",
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
       "name": "ResetAI",
       "aliases": [],
       "category": "ai",
@@ -483,7 +474,9 @@
       "path": "/commands/developer/BanUser",
       "tags": [
         "ban-user",
-        "banuser"
+        "banuser",
+        "ban",
+        "blacklist"
       ]
     },
     {
@@ -716,7 +709,9 @@
       "path": "/commands/developer/UnbanUser",
       "tags": [
         "unban-user",
-        "unbanuser"
+        "unbanuser",
+        "unban",
+        "unblacklist"
       ]
     },
     {
@@ -792,15 +787,6 @@
       ]
     },
     {
-      "name": "Spotify",
-      "aliases": [],
-      "category": "downloader",
-      "path": "/commands/downloader/Spotify",
-      "tags": [
-        "spotify"
-      ]
-    },
-    {
       "name": "TelegramSticker",
       "aliases": [],
       "category": "downloader",
@@ -822,12 +808,14 @@
       ]
     },
     {
-      "name": "Tidal",
+      "name": "Threads",
       "aliases": [],
       "category": "downloader",
-      "path": "/commands/downloader/Tidal",
+      "path": "/commands/downloader/Threads",
       "tags": [
-        "tidal"
+        "threads",
+        "threadsdl",
+        "tdl"
       ]
     },
     {
@@ -1063,6 +1051,16 @@
       "path": "/commands/fun/FacePalm",
       "tags": [
         "facepalm"
+      ]
+    },
+    {
+      "name": "Fact",
+      "aliases": [],
+      "category": "fun",
+      "path": "/commands/fun/Fact",
+      "tags": [
+        "fact",
+        "fakta"
       ]
     },
     {
@@ -1724,6 +1722,15 @@
       ]
     },
     {
+      "name": "GroupStats",
+      "aliases": [],
+      "category": "game",
+      "path": "/commands/game/GroupStats",
+      "tags": [
+        "groupstats"
+      ]
+    },
+    {
       "name": "Leaderboard",
       "aliases": [],
       "category": "game",
@@ -2228,6 +2235,15 @@
       ]
     },
     {
+      "name": "GStats",
+      "aliases": [],
+      "category": "group",
+      "path": "/commands/group/GStats",
+      "tags": [
+        "gstats"
+      ]
+    },
+    {
       "name": "GroupID",
       "aliases": [],
       "category": "group",
@@ -2266,18 +2282,6 @@
       "tags": [
         "groupsettings",
         "gsettings"
-      ]
-    },
-    {
-      "name": "GroupStats",
-      "aliases": [],
-      "category": "group",
-      "path": "/commands/group/GroupStats",
-      "tags": [
-        "groupstats",
-        "group-stats",
-        "grupstats",
-        "gstats"
       ]
     },
     {
@@ -2637,15 +2641,6 @@
       ]
     },
     {
-      "name": "TrustBot",
-      "aliases": [],
-      "category": "group",
-      "path": "/commands/group/TrustBot",
-      "tags": [
-        "trustbot"
-      ]
-    },
-    {
       "name": "UnbanChat",
       "aliases": [],
       "category": "group",
@@ -2741,12 +2736,13 @@
       ]
     },
     {
-      "name": "FotoLive",
+      "name": "PhotoLive",
       "aliases": [],
       "category": "media",
-      "path": "/commands/media/FotoLive",
+      "path": "/commands/media/PhotoLive",
       "tags": [
         "fotolive",
+        "photolive",
         "motionphoto",
         "livephoto"
       ]
@@ -2878,6 +2874,55 @@
       "path": "/commands/minigame/Tetris",
       "tags": [
         "tetris"
+      ]
+    },
+    {
+      "name": "AmazonMusic",
+      "aliases": [],
+      "category": "music",
+      "path": "/commands/music/AmazonMusic",
+      "tags": [
+        "amazonmusic",
+        "amz",
+        "amazon-music"
+      ]
+    },
+    {
+      "name": "Play",
+      "aliases": [],
+      "category": "music",
+      "path": "/commands/youtube/Play",
+      "tags": [
+        "play"
+      ]
+    },
+    {
+      "name": "Spotify",
+      "aliases": [],
+      "category": "music",
+      "path": "/commands/music/Spotify",
+      "tags": [
+        "spotify"
+      ]
+    },
+    {
+      "name": "Tidal",
+      "aliases": [],
+      "category": "music",
+      "path": "/commands/music/Tidal",
+      "tags": [
+        "tidal"
+      ]
+    },
+    {
+      "name": "YtMusic",
+      "aliases": [],
+      "category": "music",
+      "path": "/commands/youtube/YtMusic",
+      "tags": [
+        "ytm",
+        "ytmusic",
+        "youtube-music"
       ]
     },
     {
@@ -3909,6 +3954,17 @@
       "tags": [
         "ytmp4",
         "ytvideo"
+      ]
+    },
+    {
+      "name": "YtMusic",
+      "aliases": [],
+      "category": "youtube",
+      "path": "/commands/youtube/YtMusic",
+      "tags": [
+        "ytm",
+        "ytmusic",
+        "youtube-music"
       ]
     },
     {

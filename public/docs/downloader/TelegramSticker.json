@@ -19,13 +19,15 @@
     "tgs"
   ],
   "description": {
-    "id": "Download stiker pack dari Telegram dan kirim sebagai stiker WhatsApp",
-    "en": "Download a Telegram sticker pack and send it as WhatsApp stickers"
+    "id": "Download stiker pack dari Telegram dan kirim sebagai stiker WhatsApp (mendukung opsi -fps=1-60 atau -fps auto)",
+    "en": "Download a Telegram sticker pack and send it as WhatsApp stickers (supports -fps=1-60 or -fps auto)"
   },
   "usage": "TelegramSticker",
   "examples": [
     "telegramsticker https://t.me/addstickers/NamaPackStikernya",
-    "telegramsticker https://t.me/addstickers/PackName"
+    "telegramsticker -fps 30 https://t.me/addstickers/NamaPackStikernya",
+    "telegramsticker https://t.me/addstickers/PackName",
+    "telegramsticker -fps 30 https://t.me/addstickers/PackName"
   ],
   "minArgs": 0,
   "args": {},
@@ -60,7 +62,7 @@
   },
   "source": {
     "file": "internal/plugins/downloader",
-    "line": 216
+    "line": 234
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }

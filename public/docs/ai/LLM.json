@@ -22,7 +22,6 @@
   "examples": [
     "llm list",
     "llm set gemma",
-    "llm set qwen",
     "llm set gpt",
     "llm set gemini",
     "llm set deepseek"
@@ -60,7 +59,7 @@
   },
   "source": {
     "file": "internal/plugins/ai",
-    "line": 138
+    "line": 137
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }

@@ -15,8 +15,8 @@
     "trim"
   ],
   "description": {
-    "en": "Trim video/audio by time range",
-    "id": "Potong video/audio berdasarkan waktu"
+    "id": "Potong video/audio berdasarkan waktu",
+    "en": "Trim video/audio by time range"
   },
   "usage": "Trim",
   "examples": [
@@ -57,7 +57,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 895
+    "line": 1015
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }
