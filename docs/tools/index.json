@@ -114,7 +114,7 @@
     },
     {
       "name": "Compress",
-      "description": "Compress image with given quality (default 80)",
+      "description": "Smart image compression with progressive scan, optimal quality & maximum size savings",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -586,7 +586,7 @@
     },
     {
       "name": "Sticker",
-      "description": "Create a sticker from an image, video, sticker, or ZIP file sent or replied to. Supports shape modes (--circle, --round), crop modes (--crop, --full, --smart), direct send (--direct), and custom metadata (--null, --avatar, --ai, --premium).",
+      "description": "Create a sticker from an image, video, sticker, or ZIP file sent or replied to. Supports shape modes (--circle, --round), crop modes (--crop, --full, --smart), framerate (-fps=1-60, -fps auto), direct send (--direct), and custom metadata (--null, --avatar, --ai, --premium).",
       "permissions": {},
       "premiumOnly": "",
       "tags": [

@@ -1,41 +1,39 @@
 {
-  "name": "TrustBot",
+  "name": "PhotoLive",
   "commands": [
-    "trustbot"
+    "fotolive",
+    "photolive",
+    "motionphoto",
+    "livephoto"
   ],
   "aliases": [],
   "display": [
-    "TrustBot"
+    "PhotoLive"
   ],
-  "category": "group",
+  "category": "media",
   "categories": [
-    "group"
+    "media"
   ],
   "tags": [
-    "trustbot"
+    "fotolive",
+    "photolive",
+    "motionphoto",
+    "livephoto"
   ],
   "description": {
-    "id": "Otorisasi bot untuk menjadi admin grup dengan aman",
-    "en": "Authorize bot to become group admin safely"
+    "id": "Ubah video atau kombinasi foto+video menjadi Motion Photo WhatsApp",
+    "en": "Convert video or photo+video combination into WhatsApp Motion Photo"
   },
-  "usage": "TrustBot",
+  "usage": "PhotoLive",
   "examples": [
-    "trustbot @bot"
+    "fotolive"
   ],
   "minArgs": 0,
   "args": {},
   "requireMedia": [],
-  "chatPermissions": [
-    "group",
-    "group_community"
-  ],
-  "chatTypes": {
-    "group": true,
-    "group_community": true
-  },
-  "permissions": {
-    "admin": true
-  },
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
   "premiumOnly": "",
   "nsfwOnly": false,
   "level": 0,
@@ -62,8 +60,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/group",
-    "line": 149
+    "file": "internal/plugins/media",
+    "line": 14
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }

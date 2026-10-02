@@ -1,30 +1,28 @@
 {
-  "name": "Qwen",
+  "name": "Spotify",
   "commands": [
-    "qwen"
+    "spotify"
   ],
   "aliases": [],
   "display": [
-    "Qwen"
+    "Spotify"
   ],
-  "category": "ai",
+  "category": "music",
   "categories": [
-    "ai"
+    "music"
   ],
   "tags": [
-    "qwen"
+    "spotify"
   ],
   "description": {
-    "id": "Chat dengan Qwen3-32B tanpa persona (hanya teks)",
-    "en": "Chat with Qwen3-32B without persona (text only)"
+    "id": "Download atau cari musik dari Spotify",
+    "en": "Download or search music from Spotify"
   },
-  "usage": "Qwen",
+  "usage": "Spotify",
   "examples": [
-    "qwen halo!",
-    "qwen apa itu machine learning?",
-    "qwen clear",
-    "qwen hello!",
-    "qwen what is machine learning?"
+    "spotify seandainya",
+    "spotify https://open.spotify.com/track/...",
+    "spotify https://open.spotify.com/album/..."
   ],
   "minArgs": 0,
   "args": {},
@@ -41,7 +39,7 @@
   "disableProcessLimit": false,
   "specialLimit": false,
   "sendsToPrivate": false,
-  "showPromotion": false,
+  "showPromotion": true,
   "disabled": false,
   "disabledReason": "",
   "customArgsMessage": {
@@ -58,8 +56,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/ai",
-    "line": 89
+    "file": "internal/plugins/music",
+    "line": 269
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }

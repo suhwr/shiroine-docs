@@ -19,14 +19,16 @@
     "lyrics"
   ],
   "description": {
-    "en": "Search song lyrics",
-    "id": "Cari lirik lagu"
+    "id": "Cari lirik lagu",
+    "en": "Search song lyrics"
   },
   "usage": "Lyric",
   "examples": [
     "lyric seandainya vierra",
     "lirik never gonna give you up",
-    "lyrics never gonna give you up"
+    "lirik bohemian rhapsody --provider=spotify",
+    "lyrics never gonna give you up",
+    "lyrics bohemian rhapsody --provider=spotify"
   ],
   "minArgs": 0,
   "args": {},
@@ -61,7 +63,7 @@
   },
   "source": {
     "file": "internal/plugins/search",
-    "line": 72
+    "line": 77
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }

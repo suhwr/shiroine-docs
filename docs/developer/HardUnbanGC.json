@@ -19,8 +19,8 @@
     "hardunbangrup"
   ],
   "description": {
-    "en": "Unban group from global ban list",
-    "id": "Unban grup dari daftar ban global"
+    "id": "Unban grup dari daftar ban global",
+    "en": "Unban group from global ban list"
   },
   "usage": "HardUnbanGC <teks>",
   "examples": [
@@ -42,9 +42,9 @@
     "group": true
   },
   "permissions": {
-    "moderator": true,
     "owner": true,
-    "subowner": true
+    "subowner": true,
+    "moderator": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -73,7 +73,7 @@
   },
   "source": {
     "file": "internal/plugins/developer",
-    "line": 113
+    "line": 111
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }

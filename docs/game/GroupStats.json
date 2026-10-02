@@ -1,33 +1,25 @@
 {
   "name": "GroupStats",
   "commands": [
-    "groupstats",
-    "group-stats",
-    "grupstats",
-    "gstats"
+    "groupstats"
   ],
   "aliases": [],
   "display": [
     "GroupStats"
   ],
-  "category": "group",
+  "category": "game",
   "categories": [
-    "group"
+    "game"
   ],
   "tags": [
-    "groupstats",
-    "group-stats",
-    "grupstats",
-    "gstats"
+    "groupstats"
   ],
   "description": {
-    "id": "Menampilkan statistik pesan grup bulan ini termasuk top 3 anggota teraktif",
-    "en": "Show group message statistics this month including top 3 most active members"
+    "id": "Lihat statistik game grup",
+    "en": "View group game statistics"
   },
   "usage": "GroupStats",
   "examples": [
-    "grupstats",
-    "gstats",
     "groupstats"
   ],
   "minArgs": 0,
@@ -41,10 +33,7 @@
     "group": true,
     "group_community": true
   },
-  "permissions": {
-    "admin": true,
-    "moderator": true
-  },
+  "permissions": {},
   "premiumOnly": "",
   "nsfwOnly": false,
   "level": 0,
@@ -71,8 +60,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/group",
-    "line": 442
+    "file": "internal/plugins/game",
+    "line": 729
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }

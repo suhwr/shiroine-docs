@@ -68,6 +68,17 @@
       ]
     },
     {
+      "name": "YtMusic",
+      "description": "Search or download tracks, albums, or playlists from YouTube Music",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "ytm",
+        "ytmusic",
+        "youtube-music"
+      ]
+    },
+    {
       "name": "YtMusicSearch",
       "description": "Search music on YouTube Music",
       "permissions": {},

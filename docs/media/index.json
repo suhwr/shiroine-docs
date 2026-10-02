@@ -12,12 +12,13 @@
       ]
     },
     {
-      "name": "FotoLive",
+      "name": "PhotoLive",
       "description": "Convert video or photo+video combination into WhatsApp Motion Photo",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
         "fotolive",
+        "photolive",
         "motionphoto",
         "livephoto"
       ]

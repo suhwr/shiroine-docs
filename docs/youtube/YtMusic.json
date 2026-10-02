@@ -1,28 +1,33 @@
 {
-  "name": "Spotify",
+  "name": "YtMusic",
   "commands": [
-    "spotify"
+    "ytm",
+    "ytmusic",
+    "youtube-music"
   ],
   "aliases": [],
   "display": [
-    "Spotify"
+    "YtMusic"
   ],
-  "category": "downloader",
+  "category": "youtube",
   "categories": [
-    "downloader"
+    "youtube",
+    "music"
   ],
   "tags": [
-    "spotify"
+    "ytm",
+    "ytmusic",
+    "youtube-music"
   ],
   "description": {
-    "id": "Download atau cari musik dari Spotify",
-    "en": "Download or search music from Spotify"
+    "en": "Search or download tracks, albums, or playlists from YouTube Music",
+    "id": "Cari atau unduh lagu, album, atau playlist dari YouTube Music"
   },
-  "usage": "Spotify",
+  "usage": "YtMusic",
   "examples": [
-    "spotify seandainya",
-    "spotify https://open.spotify.com/track/...",
-    "spotify https://open.spotify.com/album/..."
+    "ytm never gonna give you up",
+    "ytm album the book",
+    "ytm https://music.youtube.com/watch?v=..."
   ],
   "minArgs": 0,
   "args": {},
@@ -56,8 +61,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/downloader",
-    "line": 261
+    "file": "internal/plugins/youtube",
+    "line": 241
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }

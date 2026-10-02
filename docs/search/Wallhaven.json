@@ -17,8 +17,8 @@
     "wh"
   ],
   "description": {
-    "en": "Search and download wallpapers from Wallhaven",
-    "id": "Cari dan download wallpaper dari Wallhaven"
+    "id": "Cari dan download wallpaper dari Wallhaven",
+    "en": "Search and download wallpapers from Wallhaven"
   },
   "usage": "Wallhaven",
   "examples": [
@@ -61,5 +61,5 @@
     "file": "internal/plugins/search",
     "line": 95
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }

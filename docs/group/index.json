@@ -29,8 +29,8 @@
       "name": "Adzan",
       "description": "Automated adzan schedule and prayer notifications for the group",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -140,8 +140,8 @@
       "name": "AntiSpam",
       "description": "Configure anti spam",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -164,8 +164,8 @@
       "name": "AutoRespon",
       "description": "Manage group auto-response system",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -311,12 +311,24 @@
       "name": "Ephemeral",
       "description": "Configure ephemeral messages",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
         "ephemeral"
+      ]
+    },
+    {
+      "name": "GStats",
+      "description": "Show group message statistics this month including top 3 most active members",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "gstats"
       ]
     },
     {
@@ -364,21 +376,6 @@
       ]
     },
     {
-      "name": "GroupStats",
-      "description": "Show group message statistics this month including top 3 most active members",
-      "permissions": {
-        "admin": true,
-        "moderator": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "groupstats",
-        "group-stats",
-        "grupstats",
-        "gstats"
-      ]
-    },
-    {
       "name": "HideTag",
       "description": "Tag all group members invisibly",
       "permissions": {
@@ -396,8 +393,8 @@
       "name": "Info",
       "description": "Configure group notification",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -475,8 +472,8 @@
       "name": "ListAktif",
       "description": "View the list of members active today along with their total messages",
       "permissions": {
-        "admin": true,
-        "moderator": true
+        "moderator": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -487,8 +484,8 @@
       "name": "ListBanMember",
       "description": "Show list of members banned by bot in this group",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -588,8 +585,8 @@
       "name": "Promote",
       "description": "Promote a group member to admin",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -600,8 +597,8 @@
       "name": "Reminder",
       "description": "Manage automated scheduled reminder messages in the group",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -717,8 +714,8 @@
       "name": "SetSubject",
       "description": "Change group chat name",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -741,8 +738,8 @@
       "name": "SetWelcome",
       "description": "Set group welcome message or cover",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -754,8 +751,8 @@
       "name": "Sider",
       "description": "Manage inactive members (siders) and group cleanup",
       "permissions": {
-        "admin": true,
-        "moderator": true
+        "moderator": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -766,8 +763,8 @@
       "name": "SimulateGoodbye",
       "description": "Simulate group goodbye message using your data as example",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -825,17 +822,6 @@
         "top-active",
         "topaktif",
         "topactive"
-      ]
-    },
-    {
-      "name": "TrustBot",
-      "description": "Authorize bot to become group admin safely",
-      "permissions": {
-        "admin": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "trustbot"
       ]
     },
     {
@@ -911,8 +897,8 @@
       "name": "Warn",
       "description": "Issue a formal warning to a rule-breaking group member",
       "permissions": {
-        "admin": true,
-        "moderator": true
+        "moderator": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [

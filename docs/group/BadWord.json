@@ -26,6 +26,7 @@
     "badword add kasar",
     "badword del kasar",
     "badword list",
+    "badword limit 3",
     "badword set 3",
     "badword clear",
     "badword add badword",
@@ -73,7 +74,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 275
+    "line": 280
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }

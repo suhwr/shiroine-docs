@@ -2,7 +2,9 @@
   "name": "UnbanUser",
   "commands": [
     "unban-user",
-    "unbanuser"
+    "unbanuser",
+    "unban",
+    "unblacklist"
   ],
   "aliases": [],
   "display": [
@@ -14,7 +16,9 @@
   ],
   "tags": [
     "unban-user",
-    "unbanuser"
+    "unbanuser",
+    "unban",
+    "unblacklist"
   ],
   "description": {
     "id": "Unban user dari semua bot yang kamu miliki",
@@ -71,7 +75,7 @@
   },
   "source": {
     "file": "internal/plugins/developer",
-    "line": 136
+    "line": 138
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }

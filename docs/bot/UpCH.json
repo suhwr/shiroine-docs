@@ -15,8 +15,8 @@
     "upch"
   ],
   "description": {
-    "id": "Upload konten (teks/media) ke saluran WhatsApp yang dikelola (dukung flag --gif, --nowaveform, dan --upsw)",
-    "en": "Upload content (text/media) to managed WhatsApp channels (supports --gif, --nowaveform, and --upsw flags)"
+    "en": "Upload content (text/media) to managed WhatsApp channels (supports --gif, --nowaveform, and --upsw flags)",
+    "id": "Upload konten (teks/media) ke saluran WhatsApp yang dikelola (dukung flag --gif, --nowaveform, dan --upsw)"
   },
   "usage": "UpCH",
   "examples": [
@@ -69,7 +69,7 @@
   },
   "source": {
     "file": "internal/plugins/bot",
-    "line": 72
+    "line": 73
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }

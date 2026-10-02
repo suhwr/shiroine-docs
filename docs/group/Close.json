@@ -17,8 +17,8 @@
     "cls"
   ],
   "description": {
-    "en": "Close group (only admins can send messages)",
-    "id": "Tutup grup (hanya admin yang dapat mengirim pesan)"
+    "id": "Tutup grup (hanya admin yang dapat mengirim pesan)",
+    "en": "Close group (only admins can send messages)"
   },
   "usage": "Close",
   "examples": [
@@ -33,8 +33,8 @@
     "group_community"
   ],
   "chatTypes": {
-    "group_community": true,
-    "group": true
+    "group": true,
+    "group_community": true
   },
   "permissions": {
     "admin": true,
@@ -69,5 +69,5 @@
     "file": "internal/plugins/group",
     "line": 100
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }

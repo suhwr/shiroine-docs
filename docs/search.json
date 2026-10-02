@@ -93,15 +93,6 @@
     {
       "aliases": [],
       "category": "ai",
-      "name": "Qwen",
-      "path": "/commands/ai/Qwen",
-      "tags": [
-        "Qwen"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "ai",
       "name": "ResetAI",
       "path": "/commands/ai/ResetAI",
       "tags": [
@@ -741,15 +732,6 @@
     {
       "aliases": [],
       "category": "downloader",
-      "name": "Spotify",
-      "path": "/commands/downloader/Spotify",
-      "tags": [
-        "Spotify"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "downloader",
       "name": "TelegramSticker",
       "path": "/commands/downloader/TelegramSticker",
       "tags": [
@@ -768,10 +750,10 @@
     {
       "aliases": [],
       "category": "downloader",
-      "name": "Tidal",
-      "path": "/commands/downloader/Tidal",
+      "name": "Threads",
+      "path": "/commands/downloader/Threads",
       "tags": [
-        "Tidal"
+        "Threads"
       ]
     },
     {
@@ -1006,6 +988,15 @@
       "path": "/commands/fun/FacePalm",
       "tags": [
         "FacePalm"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "Fact",
+      "path": "/commands/fun/Fact",
+      "tags": [
+        "Fact"
       ]
     },
     {
@@ -1668,6 +1659,15 @@
     {
       "aliases": [],
       "category": "game",
+      "name": "GroupStats",
+      "path": "/commands/game/GroupStats",
+      "tags": [
+        "GroupStats"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
       "name": "Leaderboard",
       "path": "/commands/game/Leaderboard",
       "tags": [
@@ -2163,6 +2163,15 @@
     {
       "aliases": [],
       "category": "group",
+      "name": "GStats",
+      "path": "/commands/group/GStats",
+      "tags": [
+        "GStats"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
       "name": "GroupID",
       "path": "/commands/group/GroupID",
       "tags": [
@@ -2194,15 +2203,6 @@
       "path": "/commands/group/GroupSettings",
       "tags": [
         "GroupSettings"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "GroupStats",
-      "path": "/commands/group/GroupStats",
-      "tags": [
-        "GroupStats"
       ]
     },
     {
@@ -2514,15 +2514,6 @@
     {
       "aliases": [],
       "category": "group",
-      "name": "TrustBot",
-      "path": "/commands/group/TrustBot",
-      "tags": [
-        "TrustBot"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
       "name": "UnbanChat",
       "path": "/commands/group/UnbanChat",
       "tags": [
@@ -2613,10 +2604,10 @@
     {
       "aliases": [],
       "category": "media",
-      "name": "FotoLive",
-      "path": "/commands/media/FotoLive",
+      "name": "PhotoLive",
+      "path": "/commands/media/PhotoLive",
       "tags": [
-        "FotoLive"
+        "PhotoLive"
       ]
     },
     {
@@ -2759,6 +2750,42 @@
       "category": "minigame",
       "name": "index",
       "path": "/commands/minigame/index",
+      "tags": [
+        "index"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "music",
+      "name": "AmazonMusic",
+      "path": "/commands/music/AmazonMusic",
+      "tags": [
+        "AmazonMusic"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "music",
+      "name": "Spotify",
+      "path": "/commands/music/Spotify",
+      "tags": [
+        "Spotify"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "music",
+      "name": "Tidal",
+      "path": "/commands/music/Tidal",
+      "tags": [
+        "Tidal"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "music",
+      "name": "index",
+      "path": "/commands/music/index",
       "tags": [
         "index"
       ]
@@ -3715,6 +3742,15 @@
       "path": "/commands/youtube/YtMp4",
       "tags": [
         "YtMp4"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "youtube",
+      "name": "YtMusic",
+      "path": "/commands/youtube/YtMusic",
+      "tags": [
+        "YtMusic"
       ]
     },
     {

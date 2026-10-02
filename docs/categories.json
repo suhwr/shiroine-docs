@@ -61,6 +61,12 @@
       "icon": "play"
     },
     {
+      "id": "music",
+      "name": "Music",
+      "description": "Music commands.",
+      "icon": "box"
+    },
+    {
       "id": "owner",
       "name": "Bot Owner",
       "description": "Developer-only and system owner controls.",

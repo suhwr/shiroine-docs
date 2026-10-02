@@ -15,15 +15,16 @@
     "antisw"
   ],
   "description": {
-    "id": "Atur anti tag status WhatsApp",
-    "en": "Configure anti tag status"
+    "en": "Configure anti tag status",
+    "id": "Atur anti tag status WhatsApp"
   },
   "usage": "AntiSW",
   "examples": [
     "antisw",
     "antisw on",
     "antisw off",
-    "antisw set 5"
+    "antisw limit 5",
+    "antisw limit 0"
   ],
   "minArgs": 0,
   "args": {},
@@ -67,7 +68,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 379
+    "line": 393
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }

@@ -1,0 +1,53 @@
+{
+  "commands": [
+    {
+      "name": "AmazonMusic",
+      "description": "Search or download tracks, albums, playlists, or artists from Amazon Music (Ultra HD / HD quality)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "amazonmusic",
+        "amz",
+        "amazon-music"
+      ]
+    },
+    {
+      "name": "Play",
+      "description": "Search and play songs from YouTube Music",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "play"
+      ]
+    },
+    {
+      "name": "Spotify",
+      "description": "Download or search music from Spotify",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "spotify"
+      ]
+    },
+    {
+      "name": "Tidal",
+      "description": "Search or download track, album, or video from Tidal (HiFi quality)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "tidal"
+      ]
+    },
+    {
+      "name": "YtMusic",
+      "description": "Search or download tracks, albums, or playlists from YouTube Music",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "ytm",
+        "ytmusic",
+        "youtube-music"
+      ]
+    }
+  ]
+}

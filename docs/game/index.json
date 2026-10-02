@@ -108,6 +108,15 @@
       ]
     },
     {
+      "name": "GroupStats",
+      "description": "View group game statistics",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "groupstats"
+      ]
+    },
+    {
       "name": "Leaderboard",
       "description": "Show game leaderboard",
       "permissions": {},

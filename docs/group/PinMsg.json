@@ -21,8 +21,8 @@
     "sematkan"
   ],
   "description": {
-    "en": "Pin message in group for 1 day, 7 days, or 30 days",
-    "id": "Sematkan pesan di grup selama 1 hari, 7 hari, atau 30 hari"
+    "id": "Sematkan pesan di grup selama 1 hari, 7 hari, atau 30 hari",
+    "en": "Pin message in group for 1 day, 7 days, or 30 days"
   },
   "usage": "PinMsg",
   "examples": [
@@ -78,5 +78,5 @@
     "file": "internal/plugins/group",
     "line": 19
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }

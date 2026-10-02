@@ -15,13 +15,17 @@
     "compress"
   ],
   "description": {
-    "en": "Compress image with given quality (default 80)",
-    "id": "Kompres gambar dengan kualitas tertentu (default 80)"
+    "id": "Kompresi gambar cerdas dengan kualitas optimal, progressive scan & hemat ukuran",
+    "en": "Smart image compression with progressive scan, optimal quality & maximum size savings"
   },
   "usage": "Compress",
   "examples": [
     "compress",
-    "compress -q=70"
+    "compress 70",
+    "compress jpg",
+    "compress png 80",
+    "compress -m=quality",
+    "compress -max=1920"
   ],
   "minArgs": 0,
   "args": {},
@@ -56,7 +60,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 852
+    "line": 972
   },
-  "lastUpdated": "2026-09-23T12:34:07Z"
+  "lastUpdated": "2026-10-02T13:27:57Z"
 }
