@@ -1,0 +1,66 @@
+{
+  "name": "addlist",
+  "commands": [
+    "addlist",
+    "tambahproduk",
+    "addproduk"
+  ],
+  "aliases": [],
+  "display": [
+    "addlist"
+  ],
+  "category": "store_owner",
+  "categories": [
+    "store_owner"
+  ],
+  "tags": [
+    "addlist",
+    "tambahproduk",
+    "addproduk"
+  ],
+  "description": {
+    "id": "Tambah atau perbarui produk toko (Owner Toko)",
+    "en": "Add or update store product (Store Owner)"
+  },
+  "usage": "addlist",
+  "examples": [
+    "addlist netflix1m | Netflix 1 Bulan | 35000 | 10 | Garansi 30 hari",
+    "addlist netflix1m | Netflix 1 Month | 35000 | 10 | 30 days warranty"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/store",
+    "line": 176
+  },
+  "lastUpdated": "2026-10-05T02:25:36Z"
+}

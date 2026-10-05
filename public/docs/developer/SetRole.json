@@ -19,8 +19,8 @@
     "addmod"
   ],
   "description": {
-    "id": "Atur role user (moderator, admin, user)",
-    "en": "Set user role (moderator, admin, user)"
+    "en": "Set user role (moderator, admin, user)",
+    "id": "Atur role user (moderator, admin, user)"
   },
   "usage": "SetRole",
   "examples": [
@@ -64,5 +64,5 @@
     "file": "internal/plugins/developer",
     "line": 71
   },
-  "lastUpdated": "2026-10-02T13:27:57Z"
+  "lastUpdated": "2026-10-05T02:25:36Z"
 }

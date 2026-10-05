@@ -1,0 +1,65 @@
+{
+  "name": "addstaff",
+  "commands": [
+    "addstaff",
+    "tambahstaff",
+    "addkasir"
+  ],
+  "aliases": [],
+  "display": [
+    "addstaff"
+  ],
+  "category": "store_owner",
+  "categories": [
+    "store_owner"
+  ],
+  "tags": [
+    "addstaff",
+    "tambahstaff",
+    "addkasir"
+  ],
+  "description": {
+    "id": "Tambah staff toko untuk memproses pesanan (Khusus Owner)",
+    "en": "Add store staff to process orders (Store Owner only)"
+  },
+  "usage": "addstaff",
+  "examples": [
+    "addstaff @user"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/store",
+    "line": 269
+  },
+  "lastUpdated": "2026-10-05T02:25:36Z"
+}

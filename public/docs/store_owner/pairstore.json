@@ -1,0 +1,63 @@
+{
+  "name": "pairstore",
+  "commands": [
+    "pairstore",
+    "tauttoko"
+  ],
+  "aliases": [],
+  "display": [
+    "pairstore"
+  ],
+  "category": "store_owner",
+  "categories": [
+    "store_owner"
+  ],
+  "tags": [
+    "pairstore",
+    "tauttoko"
+  ],
+  "description": {
+    "id": "Tautkan grup ini ke Toko dengan token dari web (Owner Toko)",
+    "en": "Link this group to Store using token from web (Store Owner)"
+  },
+  "usage": "pairstore",
+  "examples": [
+    "pairstore ABC123XYZ"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/store",
+    "line": 197
+  },
+  "lastUpdated": "2026-10-05T02:25:36Z"
+}

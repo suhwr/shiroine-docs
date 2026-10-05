@@ -17,8 +17,8 @@
     "tovid"
   ],
   "description": {
-    "en": "Convert sticker to video",
-    "id": "Konversi sticker ke video"
+    "id": "Konversi sticker ke video",
+    "en": "Convert sticker to video"
   },
   "usage": "ToVideo",
   "examples": [
@@ -60,5 +60,5 @@
     "file": "internal/plugins/tools",
     "line": 142
   },
-  "lastUpdated": "2026-10-02T13:27:57Z"
+  "lastUpdated": "2026-10-05T02:25:36Z"
 }

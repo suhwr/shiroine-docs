@@ -15,8 +15,8 @@
     "antibot"
   ],
   "description": {
-    "en": "Enable or disable anti-bot system for the group",
-    "id": "Aktifkan atau nonaktifkan sistem anti-bot untuk grup"
+    "id": "Aktifkan atau nonaktifkan sistem anti-bot untuk grup",
+    "en": "Enable or disable anti-bot system for the group"
   },
   "usage": "AntiBot",
   "examples": [
@@ -36,8 +36,8 @@
     "group_community": true
   },
   "permissions": {
-    "admin": true,
-    "subowner": true
+    "subowner": true,
+    "admin": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -68,5 +68,5 @@
     "file": "internal/plugins/group",
     "line": 72
   },
-  "lastUpdated": "2026-10-02T13:27:57Z"
+  "lastUpdated": "2026-10-05T02:25:36Z"
 }

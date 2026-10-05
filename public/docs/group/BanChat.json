@@ -25,8 +25,8 @@
     "ban-grup"
   ],
   "description": {
-    "id": "Ban grup dari seluruh sesi bot yang kamu miliki",
-    "en": "Ban group across all bot sessions you own"
+    "en": "Ban group across all bot sessions you own",
+    "id": "Ban grup dari seluruh sesi bot yang kamu miliki"
   },
   "usage": "BanChat",
   "examples": [
@@ -80,7 +80,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 293
+    "line": 312
   },
-  "lastUpdated": "2026-10-02T13:27:57Z"
+  "lastUpdated": "2026-10-05T02:25:36Z"
 }

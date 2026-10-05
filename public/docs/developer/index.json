@@ -178,9 +178,9 @@
       "name": "HardBan",
       "description": "Ban user globally (permanent)",
       "permissions": {
+        "moderator": true,
         "subowner": true,
-        "owner": true,
-        "moderator": true
+        "owner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -207,9 +207,9 @@
       "name": "HardBanList",
       "description": "Show global ban list",
       "permissions": {
+        "owner": true,
         "moderator": true,
-        "subowner": true,
-        "owner": true
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -221,9 +221,9 @@
       "name": "HardUnban",
       "description": "Unban user from global ban list",
       "permissions": {
-        "moderator": true,
         "subowner": true,
-        "owner": true
+        "owner": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -235,9 +235,9 @@
       "name": "HardUnbanGC",
       "description": "Unban group from global ban list",
       "permissions": {
-        "owner": true,
         "subowner": true,
-        "moderator": true
+        "moderator": true,
+        "owner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -359,8 +359,8 @@
       "name": "UnbanUser",
       "description": "Unban a user from all bots you own",
       "permissions": {
-        "moderator": true,
-        "hasbot": true
+        "hasbot": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [

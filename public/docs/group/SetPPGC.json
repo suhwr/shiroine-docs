@@ -23,8 +23,8 @@
     "setgrouppict"
   ],
   "description": {
-    "en": "Set group chat profile picture",
-    "id": "Mengubah foto profil obrolan grup"
+    "id": "Mengubah foto profil obrolan grup",
+    "en": "Set group chat profile picture"
   },
   "usage": "SetPPGC",
   "examples": [
@@ -40,8 +40,8 @@
     "group_community"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true
+    "group_community": true,
+    "group": true
   },
   "permissions": {
     "admin": true,
@@ -76,5 +76,5 @@
     "file": "internal/plugins/group",
     "line": 85
   },
-  "lastUpdated": "2026-10-02T13:27:57Z"
+  "lastUpdated": "2026-10-05T02:25:36Z"
 }

@@ -1,0 +1,48 @@
+{
+  "commands": [
+    {
+      "name": "buy",
+      "description": "Order products from official store catalogue",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "buy",
+        "order",
+        "beli"
+      ]
+    },
+    {
+      "name": "katalog",
+      "description": "View official store product catalogue",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "katalog",
+        "store",
+        "list",
+        "produk"
+      ]
+    },
+    {
+      "name": "pay",
+      "description": "View store bank accounts and payment methods",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "pay",
+        "payment",
+        "pembayaran"
+      ]
+    },
+    {
+      "name": "stok",
+      "description": "Check product stock in store",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "stok",
+        "stock"
+      ]
+    }
+  ]
+}

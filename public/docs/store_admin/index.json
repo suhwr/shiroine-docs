@@ -1,0 +1,82 @@
+{
+  "commands": [
+    {
+      "name": "acc",
+      "description": "Confirm / approve buyer payment (Store Staff / Owner)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "acc",
+        "proses",
+        "konfirmasi"
+      ]
+    },
+    {
+      "name": "batal",
+      "description": "Cancel buyer order transaction (Store Staff / Owner)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "batal",
+        "cancel"
+      ]
+    },
+    {
+      "name": "detailorder",
+      "description": "View full order invoice details (Store Staff / Buyer)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "detailorder",
+        "cekorder",
+        "detailpesanan"
+      ]
+    },
+    {
+      "name": "done",
+      "description": "Complete transaction / Confirm order receipt (Store Staff / Buyer)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "done",
+        "selesai",
+        "terima",
+        "terimapesanan"
+      ]
+    },
+    {
+      "name": "listorder",
+      "description": "View active pending and processing orders queue (Store Staff / Owner)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "listorder",
+        "antrean",
+        "orderan"
+      ]
+    },
+    {
+      "name": "liststaff",
+      "description": "View store staff list",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "liststaff",
+        "staff",
+        "daftarkasir",
+        "daftarstaff"
+      ]
+    },
+    {
+      "name": "rekap",
+      "description": "View store sales recap and revenue summary (Store Staff / Owner)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "rekap",
+        "omset",
+        "rekaporder"
+      ]
+    }
+  ]
+}

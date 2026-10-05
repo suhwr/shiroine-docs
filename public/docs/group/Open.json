@@ -17,8 +17,8 @@
     "opn"
   ],
   "description": {
-    "id": "Buka grup (semua anggota dapat mengirim pesan)",
-    "en": "Open group (all members can send messages)"
+    "en": "Open group (all members can send messages)",
+    "id": "Buka grup (semua anggota dapat mengirim pesan)"
   },
   "usage": "Open",
   "examples": [
@@ -67,7 +67,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 88
+    "line": 108
   },
-  "lastUpdated": "2026-10-02T13:27:57Z"
+  "lastUpdated": "2026-10-05T02:25:36Z"
 }

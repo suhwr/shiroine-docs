@@ -15,8 +15,8 @@
     "headbang"
   ],
   "description": {
-    "en": "React with headbang",
-    "id": "Reaksi headbang"
+    "id": "Reaksi headbang",
+    "en": "React with headbang"
   },
   "usage": "HeadBang",
   "examples": [
@@ -57,5 +57,5 @@
     "file": "internal/plugins/fun",
     "line": 1
   },
-  "lastUpdated": "2026-10-02T13:27:57Z"
+  "lastUpdated": "2026-10-05T02:25:36Z"
 }

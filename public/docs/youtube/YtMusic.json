@@ -20,8 +20,8 @@
     "youtube-music"
   ],
   "description": {
-    "en": "Search or download tracks, albums, or playlists from YouTube Music",
-    "id": "Cari atau unduh lagu, album, atau playlist dari YouTube Music"
+    "id": "Cari atau unduh lagu, album, atau playlist dari YouTube Music",
+    "en": "Search or download tracks, albums, or playlists from YouTube Music"
   },
   "usage": "YtMusic",
   "examples": [
@@ -64,5 +64,5 @@
     "file": "internal/plugins/youtube",
     "line": 241
   },
-  "lastUpdated": "2026-10-02T13:27:57Z"
+  "lastUpdated": "2026-10-05T02:25:36Z"
 }

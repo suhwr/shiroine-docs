@@ -1,0 +1,101 @@
+{
+  "name": "ScheduleGroup",
+  "commands": [
+    "schedulegroup",
+    "groupschedule",
+    "jadwalgrup",
+    "jg",
+    "jadwalgc",
+    "schedule",
+    "setschedule",
+    "reminder",
+    "autoopen"
+  ],
+  "aliases": [],
+  "display": [
+    "ScheduleGroup"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "schedulegroup",
+    "groupschedule",
+    "jadwalgrup",
+    "jg",
+    "jadwalgc",
+    "schedule",
+    "setschedule",
+    "reminder",
+    "autoopen"
+  ],
+  "description": {
+    "id": "Sistem penjadwalan terpadu grup (buka/tutup chat, pesan rutin, hidetag, reset link)",
+    "en": "Unified group scheduling system (open/close chat, reminders, hidetag, reset link)"
+  },
+  "usage": "ScheduleGroup",
+  "examples": [
+    "schedulegroup list",
+    "schedulegroup tz Asia/Jakarta",
+    "schedulegroup open 05:00 weekdays Obrolan dibuka!",
+    "schedulegroup close 22:00 weekdays Obrolan ditutup.",
+    "schedulegroup msg 08:30 weekdays Waktunya standup!",
+    "schedulegroup hidetag 19:00 senin Rapat mingguan!",
+    "schedulegroup resetlink 00:00 senin",
+    "schedulegroup on 1234",
+    "schedulegroup del 1234",
+    "schedulegroup edit 1234 06:00 weekdays Obrolan dibuka jam 6",
+    "schedulegroup open 05:00 weekdays Chat opened!",
+    "schedulegroup close 22:00 weekdays Chat closed.",
+    "schedulegroup msg 08:30 weekdays Standup time!",
+    "schedulegroup hidetag 19:00 mon Weekly meeting!",
+    "schedulegroup resetlink 00:00 mon",
+    "schedulegroup edit 1234 06:00 weekdays Chat opened at 6"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {
+    "admin": true,
+    "subowner": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 756
+  },
+  "lastUpdated": "2026-10-05T02:25:36Z"
+}

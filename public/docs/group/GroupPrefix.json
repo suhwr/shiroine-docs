@@ -19,8 +19,8 @@
     "gprefix"
   ],
   "description": {
-    "id": "Mengatur prefix perintah kustom untuk grup",
-    "en": "Set custom command prefix for the group"
+    "en": "Set custom command prefix for the group",
+    "id": "Mengatur prefix perintah kustom untuk grup"
   },
   "usage": "GroupPrefix",
   "examples": [
@@ -72,5 +72,5 @@
     "file": "internal/plugins/group",
     "line": 44
   },
-  "lastUpdated": "2026-10-02T13:27:57Z"
+  "lastUpdated": "2026-10-05T02:25:36Z"
 }

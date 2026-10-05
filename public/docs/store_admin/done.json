@@ -1,0 +1,68 @@
+{
+  "name": "done",
+  "commands": [
+    "done",
+    "selesai",
+    "terima",
+    "terimapesanan"
+  ],
+  "aliases": [],
+  "display": [
+    "done"
+  ],
+  "category": "store_admin",
+  "categories": [
+    "store_admin"
+  ],
+  "tags": [
+    "done",
+    "selesai",
+    "terima",
+    "terimapesanan"
+  ],
+  "description": {
+    "en": "Complete transaction / Confirm order receipt (Store Staff / Buyer)",
+    "id": "Selesaikan transaksi / Konfirmasi terima pesanan (Staff Toko / Pembeli)"
+  },
+  "usage": "done",
+  "examples": [
+    "done (reply invoice)",
+    "done INV-20261004-1234"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/store",
+    "line": 661
+  },
+  "lastUpdated": "2026-10-05T02:25:36Z"
+}

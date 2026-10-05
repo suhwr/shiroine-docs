@@ -17,8 +17,8 @@
     "unbanmember"
   ],
   "description": {
-    "id": "Cabut ban bot anggota di grup ini",
-    "en": "Unban member from the bot in this group"
+    "en": "Unban member from the bot in this group",
+    "id": "Cabut ban bot anggota di grup ini"
   },
   "usage": "UnbanMember",
   "examples": [
@@ -70,5 +70,5 @@
     "file": "internal/plugins/group",
     "line": 435
   },
-  "lastUpdated": "2026-10-02T13:27:57Z"
+  "lastUpdated": "2026-10-05T02:25:36Z"
 }

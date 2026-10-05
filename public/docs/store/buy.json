@@ -1,0 +1,66 @@
+{
+  "name": "buy",
+  "commands": [
+    "buy",
+    "order",
+    "beli"
+  ],
+  "aliases": [],
+  "display": [
+    "buy"
+  ],
+  "category": "store",
+  "categories": [
+    "store"
+  ],
+  "tags": [
+    "buy",
+    "order",
+    "beli"
+  ],
+  "description": {
+    "id": "Pesan produk dari katalog toko resmi",
+    "en": "Order products from official store catalogue"
+  },
+  "usage": "buy",
+  "examples": [
+    "buy 1",
+    "buy netflix 2"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/store",
+    "line": 154
+  },
+  "lastUpdated": "2026-10-05T02:25:36Z"
+}

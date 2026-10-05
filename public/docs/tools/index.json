@@ -104,6 +104,18 @@
       ]
     },
     {
+      "name": "CoAscii",
+      "description": "Convert an image to ASCII art text document (.txt).",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "coascii",
+        "ascii",
+        "toascii",
+        "asciiart"
+      ]
+    },
+    {
       "name": "Color",
       "description": "Adjust image colors using flags or presets. Use 'color list' to see presets.",
       "permissions": {},

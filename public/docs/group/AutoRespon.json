@@ -1,7 +1,8 @@
 {
   "name": "AutoRespon",
   "commands": [
-    "autorespon"
+    "autorespon",
+    "autorespo"
   ],
   "aliases": [],
   "display": [
@@ -12,7 +13,8 @@
     "group"
   ],
   "tags": [
-    "autorespon"
+    "autorespon",
+    "autorespo"
   ],
   "description": {
     "id": "Kelola sistem autorespon pesan otomatis grup",
@@ -73,7 +75,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 344
+    "line": 360
   },
-  "lastUpdated": "2026-10-02T13:27:57Z"
+  "lastUpdated": "2026-10-05T02:25:36Z"
 }

@@ -1,0 +1,89 @@
+{
+  "commands": [
+    {
+      "name": "addlist",
+      "description": "Add or update store product (Store Owner)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "addlist",
+        "tambahproduk",
+        "addproduk"
+      ]
+    },
+    {
+      "name": "addstaff",
+      "description": "Add store staff to process orders (Store Owner only)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "addstaff",
+        "tambahstaff",
+        "addkasir"
+      ]
+    },
+    {
+      "name": "addstock",
+      "description": "Add stock quantity to product (Store Owner)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "addstock",
+        "tambahstok"
+      ]
+    },
+    {
+      "name": "dellist",
+      "description": "Delete product from store (Store Owner)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "dellist",
+        "hapusproduk",
+        "delproduk"
+      ]
+    },
+    {
+      "name": "delstaff",
+      "description": "Remove store staff (Store Owner only)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "delstaff",
+        "hapusstaff",
+        "delkasir",
+        "removestaff"
+      ]
+    },
+    {
+      "name": "pairstore",
+      "description": "Link this group to Store using token from web (Store Owner)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "pairstore",
+        "tauttoko"
+      ]
+    },
+    {
+      "name": "setstock",
+      "description": "Set exact stock quantity for product (Store Owner)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "setstock",
+        "aturstok"
+      ]
+    },
+    {
+      "name": "unpairstore",
+      "description": "Unlink store from this group (Store Owner)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "unpairstore",
+        "lepastoko"
+      ]
+    }
+  ]
+}

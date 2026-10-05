@@ -291,6 +291,15 @@
       ]
     },
     {
+      "name": "Pacing",
+      "aliases": [],
+      "category": "bot",
+      "path": "/commands/bot/Pacing",
+      "tags": [
+        "pacing"
+      ]
+    },
+    {
       "name": "RejectCall",
       "aliases": [],
       "category": "bot",
@@ -2110,7 +2119,8 @@
       "category": "group",
       "path": "/commands/group/AutoRespon",
       "tags": [
-        "autorespon"
+        "autorespon",
+        "autorespo"
       ]
     },
     {
@@ -2458,15 +2468,6 @@
       ]
     },
     {
-      "name": "Reminder",
-      "aliases": [],
-      "category": "group",
-      "path": "/commands/group/Reminder",
-      "tags": [
-        "reminder"
-      ]
-    },
-    {
       "name": "Remove",
       "aliases": [],
       "category": "group",
@@ -2495,6 +2496,23 @@
         "revoke",
         "newlinkgc",
         "resetlink"
+      ]
+    },
+    {
+      "name": "ScheduleGroup",
+      "aliases": [],
+      "category": "group",
+      "path": "/commands/group/ScheduleGroup",
+      "tags": [
+        "schedulegroup",
+        "groupschedule",
+        "jadwalgrup",
+        "jg",
+        "jadwalgc",
+        "schedule",
+        "setschedule",
+        "reminder",
+        "autoopen"
       ]
     },
     {
@@ -2539,17 +2557,6 @@
         "setppgroup",
         "set-group-pict",
         "setgrouppict"
-      ]
-    },
-    {
-      "name": "SetSchedule",
-      "aliases": [],
-      "category": "group",
-      "path": "/commands/group/SetSchedule",
-      "tags": [
-        "setschedule",
-        "schedule",
-        "autoopen"
       ]
     },
     {
@@ -3134,6 +3141,213 @@
       ]
     },
     {
+      "name": "buy",
+      "aliases": [],
+      "category": "store",
+      "path": "/commands/store/buy",
+      "tags": [
+        "buy",
+        "order",
+        "beli"
+      ]
+    },
+    {
+      "name": "katalog",
+      "aliases": [],
+      "category": "store",
+      "path": "/commands/store/katalog",
+      "tags": [
+        "katalog",
+        "store",
+        "list",
+        "produk"
+      ]
+    },
+    {
+      "name": "pay",
+      "aliases": [],
+      "category": "store",
+      "path": "/commands/store/pay",
+      "tags": [
+        "pay",
+        "payment",
+        "pembayaran"
+      ]
+    },
+    {
+      "name": "stok",
+      "aliases": [],
+      "category": "store",
+      "path": "/commands/store/stok",
+      "tags": [
+        "stok",
+        "stock"
+      ]
+    },
+    {
+      "name": "acc",
+      "aliases": [],
+      "category": "store_admin",
+      "path": "/commands/store_admin/acc",
+      "tags": [
+        "acc",
+        "proses",
+        "konfirmasi"
+      ]
+    },
+    {
+      "name": "batal",
+      "aliases": [],
+      "category": "store_admin",
+      "path": "/commands/store_admin/batal",
+      "tags": [
+        "batal",
+        "cancel"
+      ]
+    },
+    {
+      "name": "detailorder",
+      "aliases": [],
+      "category": "store_admin",
+      "path": "/commands/store_admin/detailorder",
+      "tags": [
+        "detailorder",
+        "cekorder",
+        "detailpesanan"
+      ]
+    },
+    {
+      "name": "done",
+      "aliases": [],
+      "category": "store_admin",
+      "path": "/commands/store_admin/done",
+      "tags": [
+        "done",
+        "selesai",
+        "terima",
+        "terimapesanan"
+      ]
+    },
+    {
+      "name": "listorder",
+      "aliases": [],
+      "category": "store_admin",
+      "path": "/commands/store_admin/listorder",
+      "tags": [
+        "listorder",
+        "antrean",
+        "orderan"
+      ]
+    },
+    {
+      "name": "liststaff",
+      "aliases": [],
+      "category": "store_admin",
+      "path": "/commands/store_admin/liststaff",
+      "tags": [
+        "liststaff",
+        "staff",
+        "daftarkasir",
+        "daftarstaff"
+      ]
+    },
+    {
+      "name": "rekap",
+      "aliases": [],
+      "category": "store_admin",
+      "path": "/commands/store_admin/rekap",
+      "tags": [
+        "rekap",
+        "omset",
+        "rekaporder"
+      ]
+    },
+    {
+      "name": "addlist",
+      "aliases": [],
+      "category": "store_owner",
+      "path": "/commands/store_owner/addlist",
+      "tags": [
+        "addlist",
+        "tambahproduk",
+        "addproduk"
+      ]
+    },
+    {
+      "name": "addstaff",
+      "aliases": [],
+      "category": "store_owner",
+      "path": "/commands/store_owner/addstaff",
+      "tags": [
+        "addstaff",
+        "tambahstaff",
+        "addkasir"
+      ]
+    },
+    {
+      "name": "addstock",
+      "aliases": [],
+      "category": "store_owner",
+      "path": "/commands/store_owner/addstock",
+      "tags": [
+        "addstock",
+        "tambahstok"
+      ]
+    },
+    {
+      "name": "dellist",
+      "aliases": [],
+      "category": "store_owner",
+      "path": "/commands/store_owner/dellist",
+      "tags": [
+        "dellist",
+        "hapusproduk",
+        "delproduk"
+      ]
+    },
+    {
+      "name": "delstaff",
+      "aliases": [],
+      "category": "store_owner",
+      "path": "/commands/store_owner/delstaff",
+      "tags": [
+        "delstaff",
+        "hapusstaff",
+        "delkasir",
+        "removestaff"
+      ]
+    },
+    {
+      "name": "pairstore",
+      "aliases": [],
+      "category": "store_owner",
+      "path": "/commands/store_owner/pairstore",
+      "tags": [
+        "pairstore",
+        "tauttoko"
+      ]
+    },
+    {
+      "name": "setstock",
+      "aliases": [],
+      "category": "store_owner",
+      "path": "/commands/store_owner/setstock",
+      "tags": [
+        "setstock",
+        "aturstok"
+      ]
+    },
+    {
+      "name": "unpairstore",
+      "aliases": [],
+      "category": "store_owner",
+      "path": "/commands/store_owner/unpairstore",
+      "tags": [
+        "unpairstore",
+        "lepastoko"
+      ]
+    },
+    {
       "name": "AudioEffect",
       "aliases": [],
       "category": "tools",
@@ -3234,6 +3448,18 @@
       "path": "/commands/tools/Chorus",
       "tags": [
         "chorus"
+      ]
+    },
+    {
+      "name": "CoAscii",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/CoAscii",
+      "tags": [
+        "coascii",
+        "ascii",
+        "toascii",
+        "asciiart"
       ]
     },
     {

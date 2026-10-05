@@ -15,8 +15,8 @@
     "getexif"
   ],
   "description": {
-    "en": "Get EXIF metadata from the quoted/replied sticker",
-    "id": "Ambil metadata EXIF dari stiker yang di-quote/reply"
+    "id": "Ambil metadata EXIF dari stiker yang di-quote/reply",
+    "en": "Get EXIF metadata from the quoted/replied sticker"
   },
   "usage": "GetEXIF",
   "examples": [
@@ -57,5 +57,5 @@
     "file": "internal/plugins/tools",
     "line": 96
   },
-  "lastUpdated": "2026-10-02T13:27:57Z"
+  "lastUpdated": "2026-10-05T02:25:36Z"
 }
