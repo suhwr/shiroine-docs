@@ -1,0 +1,69 @@
+{
+  "name": "katalog",
+  "commands": [
+    "katalog",
+    "store",
+    "list",
+    "produk"
+  ],
+  "aliases": [],
+  "display": [
+    "katalog"
+  ],
+  "category": "store",
+  "categories": [
+    "store"
+  ],
+  "tags": [
+    "katalog",
+    "store",
+    "list",
+    "produk"
+  ],
+  "description": {
+    "id": "Lihat katalog produk toko resmi",
+    "en": "View official store product catalogue"
+  },
+  "usage": "katalog",
+  "examples": [
+    "katalog",
+    "store",
+    "produk"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/store",
+    "line": 61
+  },
+  "lastUpdated": "2026-10-05T02:25:36Z"
+}

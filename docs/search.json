@@ -273,6 +273,15 @@
     {
       "aliases": [],
       "category": "bot",
+      "name": "Pacing",
+      "path": "/commands/bot/Pacing",
+      "tags": [
+        "Pacing"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
       "name": "RejectCall",
       "path": "/commands/bot/RejectCall",
       "tags": [
@@ -2352,15 +2361,6 @@
     {
       "aliases": [],
       "category": "group",
-      "name": "Reminder",
-      "path": "/commands/group/Reminder",
-      "tags": [
-        "Reminder"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
       "name": "Remove",
       "path": "/commands/group/Remove",
       "tags": [
@@ -2383,6 +2383,15 @@
       "path": "/commands/group/Revoke",
       "tags": [
         "Revoke"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "ScheduleGroup",
+      "path": "/commands/group/ScheduleGroup",
+      "tags": [
+        "ScheduleGroup"
       ]
     },
     {
@@ -2419,15 +2428,6 @@
       "path": "/commands/group/SetPPGC",
       "tags": [
         "SetPPGC"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
-      "name": "SetSchedule",
-      "path": "/commands/group/SetSchedule",
-      "tags": [
-        "SetSchedule"
       ]
     },
     {
@@ -2981,6 +2981,204 @@
     },
     {
       "aliases": [],
+      "category": "store",
+      "name": "buy",
+      "path": "/commands/store/buy",
+      "tags": [
+        "buy"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "store",
+      "name": "index",
+      "path": "/commands/store/index",
+      "tags": [
+        "index"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "store",
+      "name": "katalog",
+      "path": "/commands/store/katalog",
+      "tags": [
+        "katalog"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "store",
+      "name": "pay",
+      "path": "/commands/store/pay",
+      "tags": [
+        "pay"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "store",
+      "name": "stok",
+      "path": "/commands/store/stok",
+      "tags": [
+        "stok"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "store_admin",
+      "name": "acc",
+      "path": "/commands/store_admin/acc",
+      "tags": [
+        "acc"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "store_admin",
+      "name": "batal",
+      "path": "/commands/store_admin/batal",
+      "tags": [
+        "batal"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "store_admin",
+      "name": "detailorder",
+      "path": "/commands/store_admin/detailorder",
+      "tags": [
+        "detailorder"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "store_admin",
+      "name": "done",
+      "path": "/commands/store_admin/done",
+      "tags": [
+        "done"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "store_admin",
+      "name": "index",
+      "path": "/commands/store_admin/index",
+      "tags": [
+        "index"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "store_admin",
+      "name": "listorder",
+      "path": "/commands/store_admin/listorder",
+      "tags": [
+        "listorder"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "store_admin",
+      "name": "liststaff",
+      "path": "/commands/store_admin/liststaff",
+      "tags": [
+        "liststaff"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "store_admin",
+      "name": "rekap",
+      "path": "/commands/store_admin/rekap",
+      "tags": [
+        "rekap"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "store_owner",
+      "name": "addlist",
+      "path": "/commands/store_owner/addlist",
+      "tags": [
+        "addlist"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "store_owner",
+      "name": "addstaff",
+      "path": "/commands/store_owner/addstaff",
+      "tags": [
+        "addstaff"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "store_owner",
+      "name": "addstock",
+      "path": "/commands/store_owner/addstock",
+      "tags": [
+        "addstock"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "store_owner",
+      "name": "dellist",
+      "path": "/commands/store_owner/dellist",
+      "tags": [
+        "dellist"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "store_owner",
+      "name": "delstaff",
+      "path": "/commands/store_owner/delstaff",
+      "tags": [
+        "delstaff"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "store_owner",
+      "name": "index",
+      "path": "/commands/store_owner/index",
+      "tags": [
+        "index"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "store_owner",
+      "name": "pairstore",
+      "path": "/commands/store_owner/pairstore",
+      "tags": [
+        "pairstore"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "store_owner",
+      "name": "setstock",
+      "path": "/commands/store_owner/setstock",
+      "tags": [
+        "setstock"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "store_owner",
+      "name": "unpairstore",
+      "path": "/commands/store_owner/unpairstore",
+      "tags": [
+        "unpairstore"
+      ]
+    },
+    {
+      "aliases": [],
       "category": "tools",
       "name": "AudioEffect",
       "path": "/commands/tools/AudioEffect",
@@ -3058,6 +3256,15 @@
       "path": "/commands/tools/Chorus",
       "tags": [
         "Chorus"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "CoAscii",
+      "path": "/commands/tools/CoAscii",
+      "tags": [
+        "CoAscii"
       ]
     },
     {

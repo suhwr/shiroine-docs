@@ -1,0 +1,66 @@
+{
+  "name": "listorder",
+  "commands": [
+    "listorder",
+    "antrean",
+    "orderan"
+  ],
+  "aliases": [],
+  "display": [
+    "listorder"
+  ],
+  "category": "store_admin",
+  "categories": [
+    "store_admin"
+  ],
+  "tags": [
+    "listorder",
+    "antrean",
+    "orderan"
+  ],
+  "description": {
+    "en": "View active pending and processing orders queue (Store Staff / Owner)",
+    "id": "Lihat antrean pesanan aktif yang belum selesai (Staff / Owner Toko)"
+  },
+  "usage": "listorder",
+  "examples": [
+    "listorder",
+    "antrean"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/store",
+    "line": 681
+  },
+  "lastUpdated": "2026-10-05T02:25:36Z"
+}

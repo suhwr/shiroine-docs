@@ -15,8 +15,8 @@
     "sleep"
   ],
   "description": {
-    "id": "Reaksi sleep",
-    "en": "React with sleep"
+    "en": "React with sleep",
+    "id": "Reaksi sleep"
   },
   "usage": "Sleep",
   "examples": [
@@ -57,5 +57,5 @@
     "file": "internal/plugins/fun",
     "line": 1
   },
-  "lastUpdated": "2026-10-02T13:27:57Z"
+  "lastUpdated": "2026-10-05T02:25:36Z"
 }

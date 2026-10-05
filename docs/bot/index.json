@@ -179,6 +179,15 @@
       ]
     },
     {
+      "name": "Pacing",
+      "description": "Configure message pacing delay, typing simulation, and group mutation guard",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "pacing"
+      ]
+    },
+    {
       "name": "RejectCall",
       "description": "Enable/disable automatic call rejection",
       "permissions": {},

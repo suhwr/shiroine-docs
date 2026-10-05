@@ -15,8 +15,8 @@
     "owner"
   ],
   "description": {
-    "id": "Tampilkan informasi pemilik nomor bot",
-    "en": "Show bot number owner information"
+    "en": "Show bot number owner information",
+    "id": "Tampilkan informasi pemilik nomor bot"
   },
   "usage": "Owner",
   "examples": [
@@ -57,5 +57,5 @@
     "file": "internal/plugins/general",
     "line": 91
   },
-  "lastUpdated": "2026-10-02T13:27:57Z"
+  "lastUpdated": "2026-10-05T02:25:36Z"
 }

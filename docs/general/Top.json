@@ -15,8 +15,8 @@
     "top"
   ],
   "description": {
-    "id": "Melihat leaderboard/top rank bot berdasarkan level, chat, command, atau durasi AFK",
-    "en": "View bot leaderboard/top rank by level, chat, command, or AFK duration"
+    "en": "View bot leaderboard/top rank by level, chat, command, or AFK duration",
+    "id": "Melihat leaderboard/top rank bot berdasarkan level, chat, command, atau durasi AFK"
   },
   "usage": "Top",
   "examples": [
@@ -60,5 +60,5 @@
     "file": "internal/plugins/general",
     "line": 122
   },
-  "lastUpdated": "2026-10-02T13:27:57Z"
+  "lastUpdated": "2026-10-05T02:25:36Z"
 }

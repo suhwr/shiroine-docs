@@ -15,8 +15,8 @@
     "dinorun"
   ],
   "description": {
-    "en": "Play DinoRun",
-    "id": "Mainkan game lari T-Rex"
+    "id": "Mainkan game lari T-Rex",
+    "en": "Play DinoRun"
   },
   "usage": "DinoRun",
   "examples": [],
@@ -55,5 +55,5 @@
     "file": "internal/plugins/minigame",
     "line": 1
   },
-  "lastUpdated": "2026-10-02T13:27:57Z"
+  "lastUpdated": "2026-10-05T02:25:36Z"
 }

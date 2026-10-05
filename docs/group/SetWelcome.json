@@ -17,8 +17,8 @@
     "setwelcome"
   ],
   "description": {
-    "id": "Atur pesan atau cover welcome grup",
-    "en": "Set group welcome message or cover"
+    "en": "Set group welcome message or cover",
+    "id": "Atur pesan atau cover welcome grup"
   },
   "usage": "SetWelcome",
   "examples": [
@@ -35,8 +35,8 @@
     "group_community"
   ],
   "chatTypes": {
-    "group_community": true,
-    "group": true
+    "group": true,
+    "group_community": true
   },
   "permissions": {
     "admin": true,
@@ -71,5 +71,5 @@
     "file": "internal/plugins/group",
     "line": 135
   },
-  "lastUpdated": "2026-10-02T13:27:57Z"
+  "lastUpdated": "2026-10-05T02:25:36Z"
 }

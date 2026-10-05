@@ -15,8 +15,8 @@
     "groupstats"
   ],
   "description": {
-    "id": "Lihat statistik game grup",
-    "en": "View group game statistics"
+    "en": "View group game statistics",
+    "id": "Lihat statistik game grup"
   },
   "usage": "GroupStats",
   "examples": [
@@ -63,5 +63,5 @@
     "file": "internal/plugins/game",
     "line": 729
   },
-  "lastUpdated": "2026-10-02T13:27:57Z"
+  "lastUpdated": "2026-10-05T02:25:36Z"
 }

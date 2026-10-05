@@ -128,8 +128,8 @@
       "name": "AntiSW",
       "description": "Configure anti tag status",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -169,7 +169,8 @@
       },
       "premiumOnly": "",
       "tags": [
-        "autorespon"
+        "autorespon",
+        "autorespo"
       ]
     },
     {
@@ -213,8 +214,8 @@
       "name": "BanMember",
       "description": "Ban member from using the bot in this group",
       "permissions": {
-        "admin": true,
-        "moderator": true
+        "moderator": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -446,8 +447,8 @@
       "name": "Left",
       "description": "Configure left notification",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -472,8 +473,8 @@
       "name": "ListAktif",
       "description": "View the list of members active today along with their total messages",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -594,18 +595,6 @@
       ]
     },
     {
-      "name": "Reminder",
-      "description": "Manage automated scheduled reminder messages in the group",
-      "permissions": {
-        "admin": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "reminder"
-      ]
-    },
-    {
       "name": "Remove",
       "description": "Remove a specific member from the group chat",
       "permissions": {
@@ -645,6 +634,26 @@
       ]
     },
     {
+      "name": "ScheduleGroup",
+      "description": "Unified group scheduling system (open/close chat, reminders, hidetag, reset link)",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "schedulegroup",
+        "groupschedule",
+        "jadwalgrup",
+        "jg",
+        "jadwalgc",
+        "schedule",
+        "setschedule",
+        "reminder",
+        "autoopen"
+      ]
+    },
+    {
       "name": "SetDesc",
       "description": "Change group chat description",
       "permissions": {
@@ -660,8 +669,8 @@
       "name": "SetGoodbye",
       "description": "Set group goodbye message or cover",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -698,24 +707,11 @@
       ]
     },
     {
-      "name": "SetSchedule",
-      "description": "Configure automated group open and close schedule",
-      "permissions": {
-        "admin": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "setschedule",
-        "schedule",
-        "autoopen"
-      ]
-    },
-    {
       "name": "SetSubject",
       "description": "Change group chat name",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -738,8 +734,8 @@
       "name": "SetWelcome",
       "description": "Set group welcome message or cover",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -763,8 +759,8 @@
       "name": "SimulateGoodbye",
       "description": "Simulate group goodbye message using your data as example",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -897,8 +893,8 @@
       "name": "Warn",
       "description": "Issue a formal warning to a rule-breaking group member",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [

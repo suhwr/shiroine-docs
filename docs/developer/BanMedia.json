@@ -37,9 +37,9 @@
     "group_community": true
   },
   "permissions": {
-    "moderator": true,
     "owner": true,
-    "subowner": true
+    "subowner": true,
+    "moderator": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -70,5 +70,5 @@
     "file": "internal/plugins/developer",
     "line": 56
   },
-  "lastUpdated": "2026-10-02T13:27:57Z"
+  "lastUpdated": "2026-10-05T02:25:36Z"
 }

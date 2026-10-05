@@ -1,0 +1,66 @@
+{
+  "name": "pay",
+  "commands": [
+    "pay",
+    "payment",
+    "pembayaran"
+  ],
+  "aliases": [],
+  "display": [
+    "pay"
+  ],
+  "category": "store",
+  "categories": [
+    "store"
+  ],
+  "tags": [
+    "pay",
+    "payment",
+    "pembayaran"
+  ],
+  "description": {
+    "id": "Lihat rekening dan metode pembayaran toko",
+    "en": "View store bank accounts and payment methods"
+  },
+  "usage": "pay",
+  "examples": [
+    "pay",
+    "payment"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/store",
+    "line": 79
+  },
+  "lastUpdated": "2026-10-05T02:25:36Z"
+}

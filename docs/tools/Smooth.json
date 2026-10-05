@@ -15,8 +15,8 @@
     "smooth"
   ],
   "description": {
-    "en": "Smooth video with 120fps frame interpolation (Premium, max. 1:30 min)",
-    "id": "Haluskan video menggunakan interpolasi frame 120fps (Premium, maks. 1:30 menit)"
+    "id": "Haluskan video menggunakan interpolasi frame 120fps (Premium, maks. 1:30 menit)",
+    "en": "Smooth video with 120fps frame interpolation (Premium, max. 1:30 min)"
   },
   "usage": "Smooth",
   "examples": [
@@ -58,5 +58,5 @@
     "file": "internal/plugins/tools",
     "line": 103
   },
-  "lastUpdated": "2026-10-02T13:27:57Z"
+  "lastUpdated": "2026-10-05T02:25:36Z"
 }

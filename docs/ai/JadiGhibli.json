@@ -17,8 +17,8 @@
     "toghibli"
   ],
   "description": {
-    "id": "Ubah foto menjadi gaya Studio Ghibli menggunakan AI",
-    "en": "Convert photo to Studio Ghibli style using AI"
+    "en": "Convert photo to Studio Ghibli style using AI",
+    "id": "Ubah foto menjadi gaya Studio Ghibli menggunakan AI"
   },
   "usage": "JadiGhibli",
   "examples": [
@@ -60,5 +60,5 @@
     "file": "internal/plugins/ai",
     "line": 91
   },
-  "lastUpdated": "2026-10-02T13:27:57Z"
+  "lastUpdated": "2026-10-05T02:25:36Z"
 }

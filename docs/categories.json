@@ -85,6 +85,24 @@
       "icon": "search"
     },
     {
+      "id": "store",
+      "name": "Store",
+      "description": "Store commands.",
+      "icon": "box"
+    },
+    {
+      "id": "store_admin",
+      "name": "Store_admin",
+      "description": "Store_admin commands.",
+      "icon": "box"
+    },
+    {
+      "id": "store_owner",
+      "name": "Store_owner",
+      "description": "Store_owner commands.",
+      "icon": "box"
+    },
+    {
       "id": "tools",
       "name": "Utility Tools",
       "description": "Various utility and helper tools for daily tasks.",

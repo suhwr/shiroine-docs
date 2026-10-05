@@ -1,0 +1,64 @@
+{
+  "name": "Pacing",
+  "commands": [
+    "pacing"
+  ],
+  "aliases": [],
+  "display": [
+    "Pacing"
+  ],
+  "category": "bot",
+  "categories": [
+    "bot"
+  ],
+  "tags": [
+    "pacing"
+  ],
+  "description": {
+    "id": "Pengaturan jeda pesan, simulasi pengetikan, dan perlindungan aksi grup",
+    "en": "Configure message pacing delay, typing simulation, and group mutation guard"
+  },
+  "usage": "Pacing",
+  "examples": [
+    "pacing",
+    "pacing natural",
+    "pacing stealth",
+    "pacing instant"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/bot",
+    "line": 87
+  },
+  "lastUpdated": "2026-10-05T02:25:36Z"
+}

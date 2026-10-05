@@ -15,8 +15,8 @@
     "reaction"
   ],
   "description": {
-    "en": "List all available reaction commands",
-    "id": "Daftar semua perintah reaksi yang tersedia"
+    "id": "Daftar semua perintah reaksi yang tersedia",
+    "en": "List all available reaction commands"
   },
   "usage": "Reaction",
   "examples": [
@@ -57,5 +57,5 @@
     "file": "internal/plugins/fun",
     "line": 117
   },
-  "lastUpdated": "2026-10-02T13:27:57Z"
+  "lastUpdated": "2026-10-05T02:25:36Z"
 }

@@ -15,8 +15,8 @@
     "woah"
   ],
   "description": {
-    "id": "Reaksi woah",
-    "en": "React with woah"
+    "en": "React with woah",
+    "id": "Reaksi woah"
   },
   "usage": "Woah",
   "examples": [
@@ -57,5 +57,5 @@
     "file": "internal/plugins/fun",
     "line": 1
   },
-  "lastUpdated": "2026-10-02T13:27:57Z"
+  "lastUpdated": "2026-10-05T02:25:36Z"
 }

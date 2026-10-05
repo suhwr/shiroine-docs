@@ -15,8 +15,8 @@
     "cleardb"
   ],
   "description": {
-    "en": "Clear data from specific database tables (message_daily_stats)",
-    "id": "Hapus data dari tabel database tertentu (message_daily_stats)"
+    "id": "Hapus data dari tabel database tertentu (message_daily_stats)",
+    "en": "Clear data from specific database tables (message_daily_stats)"
   },
   "usage": "ClearDB",
   "examples": [
@@ -70,5 +70,5 @@
     "file": "internal/plugins/developer",
     "line": 90
   },
-  "lastUpdated": "2026-10-02T13:27:57Z"
+  "lastUpdated": "2026-10-05T02:25:36Z"
 }
