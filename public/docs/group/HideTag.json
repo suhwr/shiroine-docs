@@ -19,8 +19,8 @@
     "h"
   ],
   "description": {
-    "id": "Tag seluruh anggota grup secara tersembunyi",
-    "en": "Tag all group members invisibly"
+    "en": "Tag all group members invisibly",
+    "id": "Tag seluruh anggota grup secara tersembunyi"
   },
   "usage": "HideTag",
   "examples": [
@@ -73,5 +73,5 @@
     "file": "internal/plugins/group",
     "line": 100
   },
-  "lastUpdated": "2026-10-10T06:14:13Z"
+  "lastUpdated": "2026-10-10T08:33:00Z"
 }

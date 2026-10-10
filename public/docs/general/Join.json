@@ -15,8 +15,8 @@
     "join"
   ],
   "description": {
-    "id": "Join ke grup WhatsApp via link invite",
-    "en": "Join WhatsApp group via invite link"
+    "en": "Join WhatsApp group via invite link",
+    "id": "Join ke grup WhatsApp via link invite"
   },
   "usage": "Join <teks>",
   "examples": [
@@ -58,5 +58,5 @@
     "file": "internal/plugins/general",
     "line": 206
   },
-  "lastUpdated": "2026-10-10T06:14:13Z"
+  "lastUpdated": "2026-10-10T08:33:00Z"
 }

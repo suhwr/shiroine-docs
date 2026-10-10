@@ -15,8 +15,8 @@
     "bestframe"
   ],
   "description": {
-    "id": "Mengambil frame terbaik dari video berdasarkan kualitas visual (sharpness, blur, dll)",
-    "en": "Extract the best frame from a video based on visual quality (sharpness, blur, etc.)"
+    "en": "Extract the best frame from a video based on visual quality (sharpness, blur, etc.)",
+    "id": "Mengambil frame terbaik dari video berdasarkan kualitas visual (sharpness, blur, dll)"
   },
   "usage": "BestFrame",
   "examples": [
@@ -57,5 +57,5 @@
     "file": "internal/plugins/tools",
     "line": 107
   },
-  "lastUpdated": "2026-10-10T06:14:13Z"
+  "lastUpdated": "2026-10-10T08:33:00Z"
 }

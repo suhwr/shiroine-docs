@@ -42,16 +42,16 @@
     "group_community"
   ],
   "chatTypes": {
-    "private": true,
     "group": true,
-    "group_community": true
+    "group_community": true,
+    "private": true
   },
   "permissions": {
+    "hasbot": true,
     "admin": true,
     "owner": true,
     "subowner": true,
-    "bot": true,
-    "hasbot": true
+    "bot": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -82,5 +82,5 @@
     "file": "internal/plugins/group",
     "line": 227
   },
-  "lastUpdated": "2026-10-10T06:14:13Z"
+  "lastUpdated": "2026-10-10T08:33:00Z"
 }

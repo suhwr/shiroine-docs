@@ -15,8 +15,8 @@
     "ytmp3"
   ],
   "description": {
-    "id": "Cari dan unduh lagu dari YouTube sebagai MP3",
-    "en": "Search and download songs from YouTube as MP3"
+    "en": "Search and download songs from YouTube as MP3",
+    "id": "Cari dan unduh lagu dari YouTube sebagai MP3"
   },
   "usage": "YtMp3",
   "examples": [
@@ -57,5 +57,5 @@
     "file": "internal/plugins/youtube",
     "line": 612
   },
-  "lastUpdated": "2026-10-10T06:14:13Z"
+  "lastUpdated": "2026-10-10T08:33:00Z"
 }

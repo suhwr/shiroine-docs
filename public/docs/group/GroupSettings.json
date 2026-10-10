@@ -17,8 +17,8 @@
     "gsettings"
   ],
   "description": {
-    "id": "Lihat daftar fitur grup dan statusnya",
-    "en": "Show group features and their status"
+    "en": "Show group features and their status",
+    "id": "Lihat daftar fitur grup dan statusnya"
   },
   "usage": "GroupSettings",
   "examples": [
@@ -66,5 +66,5 @@
     "file": "internal/plugins/group",
     "line": 435
   },
-  "lastUpdated": "2026-10-10T06:14:13Z"
+  "lastUpdated": "2026-10-10T08:33:00Z"
 }

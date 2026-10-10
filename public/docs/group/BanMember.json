@@ -17,8 +17,8 @@
     "banmember"
   ],
   "description": {
-    "en": "Ban member from using the bot in this group",
-    "id": "Ban anggota dari penggunaan bot di grup ini"
+    "id": "Ban anggota dari penggunaan bot di grup ini",
+    "en": "Ban member from using the bot in this group"
   },
   "usage": "BanMember",
   "examples": [
@@ -34,8 +34,8 @@
     "group_community"
   ],
   "chatTypes": {
-    "group_community": true,
-    "group": true
+    "group": true,
+    "group_community": true
   },
   "permissions": {
     "admin": true,
@@ -70,5 +70,5 @@
     "file": "internal/plugins/group",
     "line": 423
   },
-  "lastUpdated": "2026-10-10T06:14:13Z"
+  "lastUpdated": "2026-10-10T08:33:00Z"
 }

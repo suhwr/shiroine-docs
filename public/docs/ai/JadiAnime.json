@@ -17,8 +17,8 @@
     "toanime"
   ],
   "description": {
-    "id": "Ubah foto menjadi gaya anime menggunakan AI",
-    "en": "Convert photo to anime style using AI"
+    "en": "Convert photo to anime style using AI",
+    "id": "Ubah foto menjadi gaya anime menggunakan AI"
   },
   "usage": "JadiAnime",
   "examples": [
@@ -60,5 +60,5 @@
     "file": "internal/plugins/ai",
     "line": 65
   },
-  "lastUpdated": "2026-10-10T06:14:13Z"
+  "lastUpdated": "2026-10-10T08:33:00Z"
 }

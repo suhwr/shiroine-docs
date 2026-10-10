@@ -17,8 +17,8 @@
     "getpic"
   ],
   "description": {
-    "en": "Get profile picture",
-    "id": "Ambil foto profil"
+    "id": "Ambil foto profil",
+    "en": "Get profile picture"
   },
   "usage": "GetPP",
   "examples": [
@@ -63,5 +63,5 @@
     "file": "internal/plugins/profile",
     "line": 149
   },
-  "lastUpdated": "2026-10-10T06:14:13Z"
+  "lastUpdated": "2026-10-10T08:33:00Z"
 }

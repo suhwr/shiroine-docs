@@ -15,8 +15,8 @@
     "rival"
   ],
   "description": {
-    "id": "Lihat rival terdekatmu",
-    "en": "View your closest rival"
+    "en": "View your closest rival",
+    "id": "Lihat rival terdekatmu"
   },
   "usage": "Rival",
   "examples": [
@@ -67,5 +67,5 @@
     "file": "internal/plugins/game",
     "line": 155
   },
-  "lastUpdated": "2026-10-10T06:14:13Z"
+  "lastUpdated": "2026-10-10T08:33:00Z"
 }

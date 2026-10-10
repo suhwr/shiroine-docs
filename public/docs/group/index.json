@@ -91,8 +91,8 @@
       "name": "AntiLink",
       "description": "Configure AntiLink system to block prohibited links in group",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -275,9 +275,9 @@
       "name": "DebugPriority",
       "description": "Debug bot priority and cross-server routing status in group",
       "permissions": {
-        "owner": true,
         "subowner": true,
-        "admin": true
+        "admin": true,
+        "owner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -314,8 +314,8 @@
       "name": "Ephemeral",
       "description": "Configure ephemeral messages",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -429,11 +429,11 @@
       "name": "LeaveGroup",
       "description": "Remove bot from group or leave groups remotely",
       "permissions": {
+        "admin": true,
         "owner": true,
         "subowner": true,
         "bot": true,
-        "hasbot": true,
-        "admin": true
+        "hasbot": true
       },
       "premiumOnly": "",
       "tags": [
@@ -487,8 +487,8 @@
       "name": "ListBanMember",
       "description": "Show list of members banned by bot in this group",
       "permissions": {
-        "admin": true,
-        "moderator": true
+        "moderator": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -588,8 +588,8 @@
       "name": "Promote",
       "description": "Promote a group member to admin",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -639,8 +639,8 @@
       "name": "ScheduleGroup",
       "description": "Unified group scheduling system (open/close chat, reminders, hidetag, reset link)",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -671,8 +671,8 @@
       "name": "SetGoodbye",
       "description": "Set group goodbye message or cover",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -696,8 +696,8 @@
       "name": "SetPPGC",
       "description": "Set group chat profile picture",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -749,8 +749,8 @@
       "name": "Sider",
       "description": "Manage inactive members (siders) and group cleanup",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -761,8 +761,8 @@
       "name": "SimulateGoodbye",
       "description": "Simulate group goodbye message using your data as example",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -774,8 +774,8 @@
       "name": "SimulateWelcome",
       "description": "Simulate group welcome message using your data as example",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -866,8 +866,8 @@
       "name": "UnpinMsg",
       "description": "Unpin message in group",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [

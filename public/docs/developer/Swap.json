@@ -15,8 +15,8 @@
     "swap"
   ],
   "description": {
-    "id": "Swap nomor antara dua sesi",
-    "en": "Swap number between two sessions"
+    "en": "Swap number between two sessions",
+    "id": "Swap nomor antara dua sesi"
   },
   "usage": "Swap <teks>",
   "examples": [
@@ -70,5 +70,5 @@
     "file": "internal/plugins/developer",
     "line": 61
   },
-  "lastUpdated": "2026-10-10T06:14:13Z"
+  "lastUpdated": "2026-10-10T08:33:00Z"
 }

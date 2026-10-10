@@ -30,11 +30,11 @@
   ],
   "minArgs": 0,
   "args": {
-    "kode_bahasa | teks": {
-      "id": "Kode bahasa opsional (misal: 'en' untuk Inggris) diikuti oleh teks yang ingin diubah menjadi suara"
-    },
     "lang_code | text": {
       "en": "Optional language code (e.g. 'en' for English) followed by the text to convert to speech"
+    },
+    "kode_bahasa | teks": {
+      "id": "Kode bahasa opsional (misal: 'en' untuk Inggris) diikuti oleh teks yang ingin diubah menjadi suara"
     }
   },
   "requireMedia": [],
@@ -70,5 +70,5 @@
     "file": "internal/plugins/tools",
     "line": 63
   },
-  "lastUpdated": "2026-10-10T06:14:13Z"
+  "lastUpdated": "2026-10-10T08:33:00Z"
 }
