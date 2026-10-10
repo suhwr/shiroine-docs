@@ -1,7 +1,7 @@
 {
   "commands": [
     {
-      "name": "buy",
+      "name": "Buy",
       "description": "Order products from official store catalogue",
       "permissions": {},
       "premiumOnly": "",
@@ -12,11 +12,12 @@
       ]
     },
     {
-      "name": "katalog",
+      "name": "Catalog",
       "description": "View official store product catalogue",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
+        "catalog",
         "katalog",
         "store",
         "list",
@@ -24,7 +25,7 @@
       ]
     },
     {
-      "name": "pay",
+      "name": "Pay",
       "description": "View store bank accounts and payment methods",
       "permissions": {},
       "premiumOnly": "",
@@ -35,13 +36,13 @@
       ]
     },
     {
-      "name": "stok",
+      "name": "Stock",
       "description": "Check product stock in store",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "stok",
-        "stock"
+        "stock",
+        "stok"
       ]
     }
   ]

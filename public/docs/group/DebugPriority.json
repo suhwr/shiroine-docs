@@ -37,10 +37,12 @@
     "group_community"
   ],
   "chatTypes": {
-    "group_community": true,
-    "group": true
+    "group": true,
+    "group_community": true
   },
   "permissions": {
+    "owner": true,
+    "subowner": true,
     "admin": true
   },
   "premiumOnly": "",
@@ -72,5 +74,5 @@
     "file": "internal/plugins/group",
     "line": 23
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

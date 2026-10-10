@@ -35,9 +35,7 @@
     "group": true,
     "group_community": true
   },
-  "permissions": {
-    "admin": true
-  },
+  "permissions": {},
   "premiumOnly": "",
   "nsfwOnly": false,
   "level": 0,
@@ -67,5 +65,5 @@
     "file": "internal/plugins/group",
     "line": 48
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

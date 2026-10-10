@@ -1,35 +1,40 @@
 {
-  "name": "stok",
+  "name": "PairStore",
   "commands": [
-    "stok",
-    "stock"
+    "pairstore",
+    "tauttoko"
   ],
   "aliases": [],
   "display": [
-    "stok"
+    "PairStore"
   ],
-  "category": "store",
+  "category": "store_owner",
   "categories": [
-    "store"
+    "store_owner"
   ],
   "tags": [
-    "stok",
-    "stock"
+    "pairstore",
+    "tauttoko"
   ],
   "description": {
-    "id": "Cek stok produk di toko",
-    "en": "Check product stock in store"
+    "id": "Tautkan grup ini ke Toko dengan token dari web (Owner Toko)",
+    "en": "Link this group to Store using token from web (Store Owner)"
   },
-  "usage": "stok",
+  "usage": "PairStore",
   "examples": [
-    "stok",
-    "stok netflix1m"
+    "pairstore ABC123XYZ"
   ],
   "minArgs": 0,
   "args": {},
   "requireMedia": [],
-  "chatPermissions": [],
-  "chatTypes": {},
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
   "permissions": {},
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -58,7 +63,7 @@
   },
   "source": {
     "file": "internal/plugins/store",
-    "line": 58
+    "line": 190
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

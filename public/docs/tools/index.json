@@ -1,12 +1,93 @@
 {
   "commands": [
     {
+      "name": "ASCII85",
+      "description": "Encode/decode text using ascii85",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "ascii85"
+      ]
+    },
+    {
+      "name": "ATBASH",
+      "description": "Encode/decode text using atbash",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "atbash"
+      ]
+    },
+    {
       "name": "AudioEffect",
       "description": "Show list of all available audio effects",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
         "audioeffect"
+      ]
+    },
+    {
+      "name": "B32",
+      "description": "Encode/decode text using b32",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "b32"
+      ]
+    },
+    {
+      "name": "B64",
+      "description": "Encode/decode text using b64",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "b64"
+      ]
+    },
+    {
+      "name": "BASE32",
+      "description": "Encode/decode text using base32",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "base32"
+      ]
+    },
+    {
+      "name": "BASE64",
+      "description": "Encode/decode text using base64",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "base64"
+      ]
+    },
+    {
+      "name": "BASE85",
+      "description": "Encode/decode text using base85",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "base85"
+      ]
+    },
+    {
+      "name": "BIN",
+      "description": "Encode/decode text using bin",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "bin"
+      ]
+    },
+    {
+      "name": "BINARY",
+      "description": "Encode/decode text using binary",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "binary"
       ]
     },
     {
@@ -279,6 +360,24 @@
       ]
     },
     {
+      "name": "HEX",
+      "description": "Encode/decode text using hex",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "hex"
+      ]
+    },
+    {
+      "name": "HTML",
+      "description": "Encode/decode text using html",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "html"
+      ]
+    },
+    {
       "name": "HighPass",
       "description": "Cut low frequencies from audio (optional: frequency 100-10000Hz, default 500)",
       "permissions": {},
@@ -339,7 +438,7 @@
       "name": "Lens",
       "description": "Search image information using Google Lens (send or reply to an image then type the command)",
       "permissions": {},
-      "premiumOnly": "",
+      "premiumOnly": "all",
       "tags": [
         "lens",
         "googlelens"
@@ -373,6 +472,15 @@
       ]
     },
     {
+      "name": "MORSE",
+      "description": "Encode/decode text using morse",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "morse"
+      ]
+    },
+    {
       "name": "MediaQuality",
       "description": "Analyze specifications and quality of an image, video, or audio",
       "permissions": {},
@@ -398,6 +506,24 @@
       "premiumOnly": "",
       "tags": [
         "ocr"
+      ]
+    },
+    {
+      "name": "OCT",
+      "description": "Encode/decode text using oct",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "oct"
+      ]
+    },
+    {
+      "name": "OCTAL",
+      "description": "Encode/decode text using octal",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "octal"
       ]
     },
     {
@@ -449,6 +575,15 @@
       "premiumOnly": "",
       "tags": [
         "qr"
+      ]
+    },
+    {
+      "name": "ROT13",
+      "description": "Encode/decode text using rot13",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "rot13"
       ]
     },
     {
@@ -582,7 +717,7 @@
       "name": "Smooth",
       "description": "Smooth video with 120fps frame interpolation (Premium, max. 1:30 min)",
       "permissions": {},
-      "premiumOnly": "",
+      "premiumOnly": "all",
       "tags": [
         "smooth"
       ]
@@ -591,7 +726,7 @@
       "name": "Stabilize",
       "description": "Stabilize shaky video (premium only, max 5 min)",
       "permissions": {},
-      "premiumOnly": "",
+      "premiumOnly": "all",
       "tags": [
         "stabilize"
       ]
@@ -716,6 +851,15 @@
       "premiumOnly": "",
       "tags": [
         "tupai"
+      ]
+    },
+    {
+      "name": "URL",
+      "description": "Encode/decode text using url",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "url"
       ]
     },
     {

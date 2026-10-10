@@ -3,7 +3,6 @@
   "commands": [
     "gostats",
     "runtime",
-    "stats",
     "goruntime"
   ],
   "aliases": [],
@@ -17,7 +16,6 @@
   "tags": [
     "gostats",
     "runtime",
-    "stats",
     "goruntime"
   ],
   "description": {
@@ -61,7 +59,7 @@
   },
   "source": {
     "file": "internal/plugins/bot",
-    "line": 85
+    "line": 93
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

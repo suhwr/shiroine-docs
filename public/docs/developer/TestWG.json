@@ -15,8 +15,8 @@
     "testwg"
   ],
   "description": {
-    "en": "Test welcome or goodbye generator directly",
-    "id": "Test welcome or goodbye generator directly"
+    "id": "Test welcome or goodbye generator directly",
+    "en": "Test welcome or goodbye generator directly"
   },
   "usage": "TestWG",
   "examples": [
@@ -69,5 +69,5 @@
     "file": "internal/plugins/developer",
     "line": 19
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

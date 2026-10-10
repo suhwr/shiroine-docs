@@ -17,8 +17,8 @@
     "tgsv2"
   ],
   "description": {
-    "id": "Download stiker pack Telegram sebagai ZIP (tanpa konversi)",
-    "en": "Download a Telegram sticker pack as ZIP without conversion"
+    "en": "Download a Telegram sticker pack as ZIP without conversion",
+    "id": "Download stiker pack Telegram sebagai ZIP (tanpa konversi)"
   },
   "usage": "TelegramStickerV2",
   "examples": [
@@ -60,5 +60,5 @@
     "file": "internal/plugins/downloader",
     "line": 246
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

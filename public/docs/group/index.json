@@ -91,8 +91,8 @@
       "name": "AntiLink",
       "description": "Configure AntiLink system to block prohibited links in group",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -128,8 +128,8 @@
       "name": "AntiSW",
       "description": "Configure anti tag status",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -140,8 +140,8 @@
       "name": "AntiSpam",
       "description": "Configure anti spam",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -214,8 +214,8 @@
       "name": "BanMember",
       "description": "Ban member from using the bot in this group",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -275,6 +275,8 @@
       "name": "DebugPriority",
       "description": "Debug bot priority and cross-server routing status in group",
       "permissions": {
+        "owner": true,
+        "subowner": true,
         "admin": true
       },
       "premiumOnly": "",
@@ -427,11 +429,11 @@
       "name": "LeaveGroup",
       "description": "Remove bot from group or leave groups remotely",
       "permissions": {
-        "admin": true,
         "owner": true,
         "subowner": true,
         "bot": true,
-        "hasbot": true
+        "hasbot": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -447,8 +449,8 @@
       "name": "Left",
       "description": "Configure left notification",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -637,8 +639,8 @@
       "name": "ScheduleGroup",
       "description": "Unified group scheduling system (open/close chat, reminders, hidetag, reset link)",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -772,8 +774,8 @@
       "name": "SimulateWelcome",
       "description": "Simulate group welcome message using your data as example",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -784,9 +786,7 @@
     {
       "name": "SyncGroup",
       "description": "Clear group cache to refresh data directly from WhatsApp",
-      "permissions": {
-        "admin": true
-      },
+      "permissions": {},
       "premiumOnly": "",
       "tags": [
         "sync-group",
@@ -866,8 +866,8 @@
       "name": "UnpinMsg",
       "description": "Unpin message in group",
       "permissions": {
-        "admin": true,
-        "moderator": true
+        "moderator": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [

@@ -227,7 +227,6 @@
       "tags": [
         "gostats",
         "runtime",
-        "stats",
         "goruntime"
       ]
     },
@@ -2839,6 +2838,15 @@
       ]
     },
     {
+      "name": "MiniGame",
+      "aliases": [],
+      "category": "minigame",
+      "path": "/commands/minigame/MiniGame",
+      "tags": [
+        "minigame"
+      ]
+    },
+    {
       "name": "Pacman",
       "aliases": [],
       "category": "minigame",
@@ -3141,10 +3149,10 @@
       ]
     },
     {
-      "name": "buy",
+      "name": "Buy",
       "aliases": [],
       "category": "store",
-      "path": "/commands/store/buy",
+      "path": "/commands/store/Buy",
       "tags": [
         "buy",
         "order",
@@ -3152,11 +3160,12 @@
       ]
     },
     {
-      "name": "katalog",
+      "name": "Catalog",
       "aliases": [],
       "category": "store",
-      "path": "/commands/store/katalog",
+      "path": "/commands/store/Catalog",
       "tags": [
+        "catalog",
         "katalog",
         "store",
         "list",
@@ -3164,10 +3173,10 @@
       ]
     },
     {
-      "name": "pay",
+      "name": "Pay",
       "aliases": [],
       "category": "store",
-      "path": "/commands/store/pay",
+      "path": "/commands/store/Pay",
       "tags": [
         "pay",
         "payment",
@@ -3175,41 +3184,44 @@
       ]
     },
     {
-      "name": "stok",
+      "name": "Stock",
       "aliases": [],
       "category": "store",
-      "path": "/commands/store/stok",
+      "path": "/commands/store/Stock",
       "tags": [
-        "stok",
-        "stock"
+        "stock",
+        "stok"
       ]
     },
     {
-      "name": "acc",
+      "name": "AcceptOrder",
       "aliases": [],
       "category": "store_admin",
-      "path": "/commands/store_admin/acc",
+      "path": "/commands/store_admin/AcceptOrder",
       "tags": [
+        "acceptorder",
         "acc",
+        "accorder",
         "proses",
         "konfirmasi"
       ]
     },
     {
-      "name": "batal",
+      "name": "CancelOrder",
       "aliases": [],
       "category": "store_admin",
-      "path": "/commands/store_admin/batal",
+      "path": "/commands/store_admin/CancelOrder",
       "tags": [
-        "batal",
-        "cancel"
+        "cancelorder",
+        "cancel",
+        "batal"
       ]
     },
     {
-      "name": "detailorder",
+      "name": "DetailOrder",
       "aliases": [],
       "category": "store_admin",
-      "path": "/commands/store_admin/detailorder",
+      "path": "/commands/store_admin/DetailOrder",
       "tags": [
         "detailorder",
         "cekorder",
@@ -3217,11 +3229,12 @@
       ]
     },
     {
-      "name": "done",
+      "name": "DoneOrder",
       "aliases": [],
       "category": "store_admin",
-      "path": "/commands/store_admin/done",
+      "path": "/commands/store_admin/DoneOrder",
       "tags": [
+        "doneorder",
         "done",
         "selesai",
         "terima",
@@ -3229,10 +3242,10 @@
       ]
     },
     {
-      "name": "listorder",
+      "name": "ListOrder",
       "aliases": [],
       "category": "store_admin",
-      "path": "/commands/store_admin/listorder",
+      "path": "/commands/store_admin/ListOrder",
       "tags": [
         "listorder",
         "antrean",
@@ -3240,10 +3253,10 @@
       ]
     },
     {
-      "name": "liststaff",
+      "name": "ListStaff",
       "aliases": [],
       "category": "store_admin",
-      "path": "/commands/store_admin/liststaff",
+      "path": "/commands/store_admin/ListStaff",
       "tags": [
         "liststaff",
         "staff",
@@ -3252,32 +3265,35 @@
       ]
     },
     {
-      "name": "rekap",
+      "name": "RecapOrder",
       "aliases": [],
       "category": "store_admin",
-      "path": "/commands/store_admin/rekap",
+      "path": "/commands/store_admin/RecapOrder",
       "tags": [
+        "recaporder",
+        "rekaporder",
+        "recap",
         "rekap",
-        "omset",
-        "rekaporder"
+        "omset"
       ]
     },
     {
-      "name": "addlist",
+      "name": "AddProduct",
       "aliases": [],
       "category": "store_owner",
-      "path": "/commands/store_owner/addlist",
+      "path": "/commands/store_owner/AddProduct",
       "tags": [
+        "addproduct",
         "addlist",
         "tambahproduk",
         "addproduk"
       ]
     },
     {
-      "name": "addstaff",
+      "name": "AddStaff",
       "aliases": [],
       "category": "store_owner",
-      "path": "/commands/store_owner/addstaff",
+      "path": "/commands/store_owner/AddStaff",
       "tags": [
         "addstaff",
         "tambahstaff",
@@ -3285,32 +3301,35 @@
       ]
     },
     {
-      "name": "addstock",
+      "name": "AddStock",
       "aliases": [],
       "category": "store_owner",
-      "path": "/commands/store_owner/addstock",
+      "path": "/commands/store_owner/AddStock",
       "tags": [
         "addstock",
         "tambahstok"
       ]
     },
     {
-      "name": "dellist",
+      "name": "DeleteProduct",
       "aliases": [],
       "category": "store_owner",
-      "path": "/commands/store_owner/dellist",
+      "path": "/commands/store_owner/DeleteProduct",
       "tags": [
+        "deleteproduct",
+        "delproduct",
         "dellist",
         "hapusproduk",
         "delproduk"
       ]
     },
     {
-      "name": "delstaff",
+      "name": "DeleteStaff",
       "aliases": [],
       "category": "store_owner",
-      "path": "/commands/store_owner/delstaff",
+      "path": "/commands/store_owner/DeleteStaff",
       "tags": [
+        "deletestaff",
         "delstaff",
         "hapusstaff",
         "delkasir",
@@ -3318,33 +3337,51 @@
       ]
     },
     {
-      "name": "pairstore",
+      "name": "PairStore",
       "aliases": [],
       "category": "store_owner",
-      "path": "/commands/store_owner/pairstore",
+      "path": "/commands/store_owner/PairStore",
       "tags": [
         "pairstore",
         "tauttoko"
       ]
     },
     {
-      "name": "setstock",
+      "name": "SetStock",
       "aliases": [],
       "category": "store_owner",
-      "path": "/commands/store_owner/setstock",
+      "path": "/commands/store_owner/SetStock",
       "tags": [
         "setstock",
         "aturstok"
       ]
     },
     {
-      "name": "unpairstore",
+      "name": "UnpairStore",
       "aliases": [],
       "category": "store_owner",
-      "path": "/commands/store_owner/unpairstore",
+      "path": "/commands/store_owner/UnpairStore",
       "tags": [
         "unpairstore",
         "lepastoko"
+      ]
+    },
+    {
+      "name": "ASCII85",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/ASCII85",
+      "tags": [
+        "ascii85"
+      ]
+    },
+    {
+      "name": "ATBASH",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/ATBASH",
+      "tags": [
+        "atbash"
       ]
     },
     {
@@ -3354,6 +3391,69 @@
       "path": "/commands/tools/AudioEffect",
       "tags": [
         "audioeffect"
+      ]
+    },
+    {
+      "name": "B32",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/B32",
+      "tags": [
+        "b32"
+      ]
+    },
+    {
+      "name": "B64",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/B64",
+      "tags": [
+        "b64"
+      ]
+    },
+    {
+      "name": "BASE32",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/BASE32",
+      "tags": [
+        "base32"
+      ]
+    },
+    {
+      "name": "BASE64",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/BASE64",
+      "tags": [
+        "base64"
+      ]
+    },
+    {
+      "name": "BASE85",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/BASE85",
+      "tags": [
+        "base85"
+      ]
+    },
+    {
+      "name": "BIN",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/BIN",
+      "tags": [
+        "bin"
+      ]
+    },
+    {
+      "name": "BINARY",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/BINARY",
+      "tags": [
+        "binary"
       ]
     },
     {
@@ -3626,6 +3726,24 @@
       ]
     },
     {
+      "name": "HEX",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/HEX",
+      "tags": [
+        "hex"
+      ]
+    },
+    {
+      "name": "HTML",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/HTML",
+      "tags": [
+        "html"
+      ]
+    },
+    {
       "name": "HighPass",
       "aliases": [],
       "category": "tools",
@@ -3720,6 +3838,15 @@
       ]
     },
     {
+      "name": "MORSE",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/MORSE",
+      "tags": [
+        "morse"
+      ]
+    },
+    {
       "name": "MediaQuality",
       "aliases": [],
       "category": "tools",
@@ -3745,6 +3872,24 @@
       "path": "/commands/tools/OCR",
       "tags": [
         "ocr"
+      ]
+    },
+    {
+      "name": "OCT",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/OCT",
+      "tags": [
+        "oct"
+      ]
+    },
+    {
+      "name": "OCTAL",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/OCTAL",
+      "tags": [
+        "octal"
       ]
     },
     {
@@ -3796,6 +3941,15 @@
       "path": "/commands/tools/QR",
       "tags": [
         "qr"
+      ]
+    },
+    {
+      "name": "ROT13",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/ROT13",
+      "tags": [
+        "rot13"
       ]
     },
     {
@@ -4063,6 +4217,15 @@
       "path": "/commands/tools/Tupai",
       "tags": [
         "tupai"
+      ]
+    },
+    {
+      "name": "URL",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/URL",
+      "tags": [
+        "url"
       ]
     },
     {

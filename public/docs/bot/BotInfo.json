@@ -19,8 +19,8 @@
     "checkbot"
   ],
   "description": {
-    "en": "Display bot info, settings, and statistics (checkbot omits statistics)",
-    "id": "Menampilkan informasi, pengaturan, dan statistik bot (cekbot tanpa statistik)"
+    "id": "Menampilkan informasi, pengaturan, dan statistik bot (cekbot tanpa statistik)",
+    "en": "Display bot info, settings, and statistics (checkbot omits statistics)"
   },
   "usage": "BotInfo",
   "examples": [
@@ -61,7 +61,7 @@
   },
   "source": {
     "file": "internal/plugins/bot",
-    "line": 223
+    "line": 255
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

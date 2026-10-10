@@ -1,31 +1,36 @@
 {
-  "name": "detailorder",
+  "name": "Catalog",
   "commands": [
-    "detailorder",
-    "cekorder",
-    "detailpesanan"
+    "catalog",
+    "katalog",
+    "store",
+    "list",
+    "produk"
   ],
   "aliases": [],
   "display": [
-    "detailorder"
+    "Catalog"
   ],
-  "category": "store_admin",
+  "category": "store",
   "categories": [
-    "store_admin"
+    "store"
   ],
   "tags": [
-    "detailorder",
-    "cekorder",
-    "detailpesanan"
+    "catalog",
+    "katalog",
+    "store",
+    "list",
+    "produk"
   ],
   "description": {
-    "id": "Lihat rincian lengkap pesanan (Staff Toko / Pembeli)",
-    "en": "View full order invoice details (Store Staff / Buyer)"
+    "id": "Lihat katalog produk toko resmi",
+    "en": "View official store product catalogue"
   },
-  "usage": "detailorder",
+  "usage": "Catalog",
   "examples": [
-    "detailorder INV-20261004-1234",
-    "detailorder (reply invoice)"
+    "catalog",
+    "katalog",
+    "store"
   ],
   "minArgs": 0,
   "args": {},
@@ -60,7 +65,7 @@
   },
   "source": {
     "file": "internal/plugins/store",
-    "line": 671
+    "line": 68
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

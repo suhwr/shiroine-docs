@@ -1,34 +1,28 @@
 {
-  "name": "katalog",
+  "name": "OCT",
   "commands": [
-    "katalog",
-    "store",
-    "list",
-    "produk"
+    "oct"
   ],
   "aliases": [],
   "display": [
-    "katalog"
+    "OCT"
   ],
-  "category": "store",
+  "category": "tools",
   "categories": [
-    "store"
+    "tools"
   ],
   "tags": [
-    "katalog",
-    "store",
-    "list",
-    "produk"
+    "oct"
   ],
   "description": {
-    "id": "Lihat katalog produk toko resmi",
-    "en": "View official store product catalogue"
+    "id": "Encode/decode teks menggunakan oct",
+    "en": "Encode/decode text using oct"
   },
-  "usage": "katalog",
+  "usage": "OCT",
   "examples": [
-    "katalog",
-    "store",
-    "produk"
+    "oct e Halo",
+    "oct d ...",
+    "oct e Hello"
   ],
   "minArgs": 0,
   "args": {},
@@ -62,8 +56,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/store",
-    "line": 61
+    "file": "internal/plugins/tools",
+    "line": 1
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

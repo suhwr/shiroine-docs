@@ -19,8 +19,8 @@
     "fesnuk"
   ],
   "description": {
-    "en": "Download video/photo from Facebook",
-    "id": "Download video/foto dari Facebook"
+    "id": "Download video/foto dari Facebook",
+    "en": "Download video/photo from Facebook"
   },
   "usage": "Facebook",
   "examples": [
@@ -61,5 +61,5 @@
     "file": "internal/plugins/downloader",
     "line": 99
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

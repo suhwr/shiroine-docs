@@ -1,28 +1,36 @@
 {
-  "name": "pairstore",
+  "name": "RecapOrder",
   "commands": [
-    "pairstore",
-    "tauttoko"
+    "recaporder",
+    "rekaporder",
+    "recap",
+    "rekap",
+    "omset"
   ],
   "aliases": [],
   "display": [
-    "pairstore"
+    "RecapOrder"
   ],
-  "category": "store_owner",
+  "category": "store_admin",
   "categories": [
-    "store_owner"
+    "store_admin"
   ],
   "tags": [
-    "pairstore",
-    "tauttoko"
+    "recaporder",
+    "rekaporder",
+    "recap",
+    "rekap",
+    "omset"
   ],
   "description": {
-    "id": "Tautkan grup ini ke Toko dengan token dari web (Owner Toko)",
-    "en": "Link this group to Store using token from web (Store Owner)"
+    "id": "Lihat rekap omset dan statistik penjualan toko (Staff / Owner Toko)",
+    "en": "View store sales recap and revenue summary (Store Staff / Owner)"
   },
-  "usage": "pairstore",
+  "usage": "RecapOrder",
   "examples": [
-    "pairstore ABC123XYZ"
+    "rekap",
+    "omset",
+    "recap"
   ],
   "minArgs": 0,
   "args": {},
@@ -57,7 +65,7 @@
   },
   "source": {
     "file": "internal/plugins/store",
-    "line": 197
+    "line": 636
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

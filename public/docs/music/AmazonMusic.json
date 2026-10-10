@@ -19,8 +19,8 @@
     "amazon-music"
   ],
   "description": {
-    "id": "Cari atau unduh track, album, playlist, atau artis dari Amazon Music (Ultra HD / HD quality)",
-    "en": "Search or download tracks, albums, playlists, or artists from Amazon Music (Ultra HD / HD quality)"
+    "en": "Search or download tracks, albums, playlists, or artists from Amazon Music (Ultra HD / HD quality)",
+    "id": "Cari atau unduh track, album, playlist, atau artis dari Amazon Music (Ultra HD / HD quality)"
   },
   "usage": "AmazonMusic",
   "examples": [
@@ -65,5 +65,5 @@
     "file": "internal/plugins/music",
     "line": 386
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

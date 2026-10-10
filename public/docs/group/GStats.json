@@ -15,8 +15,8 @@
     "gstats"
   ],
   "description": {
-    "en": "Show group message statistics this month including top 3 most active members",
-    "id": "Menampilkan statistik pesan grup bulan ini termasuk top 3 anggota teraktif"
+    "id": "Menampilkan statistik pesan grup bulan ini termasuk top 3 anggota teraktif",
+    "en": "Show group message statistics this month including top 3 most active members"
   },
   "usage": "GStats",
   "examples": [
@@ -66,5 +66,5 @@
     "file": "internal/plugins/group",
     "line": 442
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

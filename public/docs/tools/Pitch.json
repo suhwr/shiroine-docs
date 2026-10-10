@@ -15,8 +15,8 @@
     "pitch"
   ],
   "description": {
-    "en": "Raise audio pitch (optional: pitch level 0.5-2.0, default 1.25)",
-    "id": "Naikkan pitch suara (opsional: tingkat pitch 0.5-2.0, default 1.25)"
+    "id": "Naikkan pitch suara (opsional: tingkat pitch 0.5-2.0, default 1.25)",
+    "en": "Raise audio pitch (optional: pitch level 0.5-2.0, default 1.25)"
   },
   "usage": "Pitch",
   "examples": [
@@ -58,5 +58,5 @@
     "file": "internal/plugins/tools",
     "line": 580
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

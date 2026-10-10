@@ -15,8 +15,8 @@
     "menu"
   ],
   "description": {
-    "id": "Tampilkan menu perintah",
-    "en": "Show command menu"
+    "en": "Show command menu",
+    "id": "Tampilkan menu perintah"
   },
   "usage": "Menu",
   "examples": [
@@ -28,8 +28,18 @@
   "minArgs": 0,
   "args": {},
   "requireMedia": [],
-  "chatPermissions": [],
-  "chatTypes": {},
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group_community": true,
+    "newsletter": true,
+    "private": true,
+    "group": true
+  },
   "permissions": {},
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -58,7 +68,7 @@
   },
   "source": {
     "file": "internal/plugins/general",
-    "line": 91
+    "line": 89
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

@@ -15,8 +15,8 @@
     "antitagsw"
   ],
   "description": {
-    "id": "Atur anti tag status WhatsApp",
-    "en": "Configure anti tag status"
+    "en": "Configure anti tag status",
+    "id": "Atur anti tag status WhatsApp"
   },
   "usage": "AntiTagSW",
   "examples": [
@@ -70,5 +70,5 @@
     "file": "internal/plugins/group",
     "line": 1
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

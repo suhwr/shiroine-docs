@@ -35,9 +35,9 @@
     "group_community"
   ],
   "chatTypes": {
+    "group": true,
     "group_community": true,
-    "private": true,
-    "group": true
+    "private": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -67,7 +67,7 @@
   },
   "source": {
     "file": "internal/plugins/game",
-    "line": 718
+    "line": 674
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

@@ -1,28 +1,31 @@
 {
   "commands": [
     {
-      "name": "acc",
+      "name": "AcceptOrder",
       "description": "Confirm / approve buyer payment (Store Staff / Owner)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
+        "acceptorder",
         "acc",
+        "accorder",
         "proses",
         "konfirmasi"
       ]
     },
     {
-      "name": "batal",
+      "name": "CancelOrder",
       "description": "Cancel buyer order transaction (Store Staff / Owner)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "batal",
-        "cancel"
+        "cancelorder",
+        "cancel",
+        "batal"
       ]
     },
     {
-      "name": "detailorder",
+      "name": "DetailOrder",
       "description": "View full order invoice details (Store Staff / Buyer)",
       "permissions": {},
       "premiumOnly": "",
@@ -33,11 +36,12 @@
       ]
     },
     {
-      "name": "done",
+      "name": "DoneOrder",
       "description": "Complete transaction / Confirm order receipt (Store Staff / Buyer)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
+        "doneorder",
         "done",
         "selesai",
         "terima",
@@ -45,7 +49,7 @@
       ]
     },
     {
-      "name": "listorder",
+      "name": "ListOrder",
       "description": "View active pending and processing orders queue (Store Staff / Owner)",
       "permissions": {},
       "premiumOnly": "",
@@ -56,7 +60,7 @@
       ]
     },
     {
-      "name": "liststaff",
+      "name": "ListStaff",
       "description": "View store staff list",
       "permissions": {},
       "premiumOnly": "",
@@ -68,14 +72,16 @@
       ]
     },
     {
-      "name": "rekap",
+      "name": "RecapOrder",
       "description": "View store sales recap and revenue summary (Store Staff / Owner)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
+        "recaporder",
+        "rekaporder",
+        "recap",
         "rekap",
-        "omset",
-        "rekaporder"
+        "omset"
       ]
     }
   ]

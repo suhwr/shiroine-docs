@@ -15,8 +15,8 @@
     "jockey"
   ],
   "description": {
-    "id": "Bot pemutar musik untuk panggilan suara grup WhatsApp",
-    "en": "Music player bot for WhatsApp group voice calls"
+    "en": "Music player bot for WhatsApp group voice calls",
+    "id": "Bot pemutar musik untuk panggilan suara grup WhatsApp"
   },
   "usage": "Jockey",
   "examples": [
@@ -69,5 +69,5 @@
     "file": "internal/plugins/group",
     "line": 1325
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

@@ -1,29 +1,28 @@
 {
-  "name": "batal",
+  "name": "B64",
   "commands": [
-    "batal",
-    "cancel"
+    "b64"
   ],
   "aliases": [],
   "display": [
-    "batal"
+    "B64"
   ],
-  "category": "store_admin",
+  "category": "tools",
   "categories": [
-    "store_admin"
+    "tools"
   ],
   "tags": [
-    "batal",
-    "cancel"
+    "b64"
   ],
   "description": {
-    "id": "Batalkan pesanan transaksi pembeli (Staff / Owner Toko)",
-    "en": "Cancel buyer order transaction (Store Staff / Owner)"
+    "id": "Encode/decode teks menggunakan b64",
+    "en": "Encode/decode text using b64"
   },
-  "usage": "batal",
+  "usage": "B64",
   "examples": [
-    "batal (reply invoice)",
-    "batal INV-20261004-1234"
+    "b64 e Halo",
+    "b64 d ...",
+    "b64 e Hello"
   ],
   "minArgs": 0,
   "args": {},
@@ -57,8 +56,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/store",
-    "line": 701
+    "file": "internal/plugins/tools",
+    "line": 1
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

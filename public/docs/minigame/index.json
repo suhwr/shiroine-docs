@@ -73,6 +73,15 @@
       ]
     },
     {
+      "name": "MiniGame",
+      "description": "Play HTML minigame collection",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "minigame"
+      ]
+    },
+    {
       "name": "Pacman",
       "description": "Play Pacman",
       "permissions": {},

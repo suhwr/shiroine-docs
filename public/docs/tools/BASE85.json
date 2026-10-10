@@ -1,31 +1,28 @@
 {
-  "name": "listorder",
+  "name": "BASE85",
   "commands": [
-    "listorder",
-    "antrean",
-    "orderan"
+    "base85"
   ],
   "aliases": [],
   "display": [
-    "listorder"
+    "BASE85"
   ],
-  "category": "store_admin",
+  "category": "tools",
   "categories": [
-    "store_admin"
+    "tools"
   ],
   "tags": [
-    "listorder",
-    "antrean",
-    "orderan"
+    "base85"
   ],
   "description": {
-    "en": "View active pending and processing orders queue (Store Staff / Owner)",
-    "id": "Lihat antrean pesanan aktif yang belum selesai (Staff / Owner Toko)"
+    "id": "Encode/decode teks menggunakan base85",
+    "en": "Encode/decode text using base85"
   },
-  "usage": "listorder",
+  "usage": "BASE85",
   "examples": [
-    "listorder",
-    "antrean"
+    "base85 e Halo",
+    "base85 d ...",
+    "base85 e Hello"
   ],
   "minArgs": 0,
   "args": {},
@@ -59,8 +56,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/store",
-    "line": 681
+    "file": "internal/plugins/tools",
+    "line": 1
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

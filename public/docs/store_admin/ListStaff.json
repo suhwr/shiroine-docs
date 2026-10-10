@@ -1,0 +1,67 @@
+{
+  "name": "ListStaff",
+  "commands": [
+    "liststaff",
+    "staff",
+    "daftarkasir",
+    "daftarstaff"
+  ],
+  "aliases": [],
+  "display": [
+    "ListStaff"
+  ],
+  "category": "store_admin",
+  "categories": [
+    "store_admin"
+  ],
+  "tags": [
+    "liststaff",
+    "staff",
+    "daftarkasir",
+    "daftarstaff"
+  ],
+  "description": {
+    "id": "Lihat daftar staff toko",
+    "en": "View store staff list"
+  },
+  "usage": "ListStaff",
+  "examples": [
+    "liststaff"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/store",
+    "line": 275
+  },
+  "lastUpdated": "2026-10-10T06:14:13Z"
+}

@@ -1,28 +1,35 @@
 {
-  "name": "setstock",
+  "name": "DeleteStaff",
   "commands": [
-    "setstock",
-    "aturstok"
+    "deletestaff",
+    "delstaff",
+    "hapusstaff",
+    "delkasir",
+    "removestaff"
   ],
   "aliases": [],
   "display": [
-    "setstock"
+    "DeleteStaff"
   ],
   "category": "store_owner",
   "categories": [
     "store_owner"
   ],
   "tags": [
-    "setstock",
-    "aturstok"
+    "deletestaff",
+    "delstaff",
+    "hapusstaff",
+    "delkasir",
+    "removestaff"
   ],
   "description": {
-    "id": "Atur jumlah pasti stok produk (Owner Toko)",
-    "en": "Set exact stock quantity for product (Store Owner)"
+    "id": "Hapus staff toko (Khusus Owner)",
+    "en": "Remove store staff (Store Owner only)"
   },
-  "usage": "setstock",
+  "usage": "DeleteStaff",
   "examples": [
-    "setstock netflix1m 20"
+    "deletestaff @user",
+    "delstaff @user"
   ],
   "minArgs": 0,
   "args": {},
@@ -57,7 +64,7 @@
   },
   "source": {
     "file": "internal/plugins/store",
-    "line": 119
+    "line": 264
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

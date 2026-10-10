@@ -1,18 +1,19 @@
 {
   "commands": [
     {
-      "name": "addlist",
+      "name": "AddProduct",
       "description": "Add or update store product (Store Owner)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
+        "addproduct",
         "addlist",
         "tambahproduk",
         "addproduk"
       ]
     },
     {
-      "name": "addstaff",
+      "name": "AddStaff",
       "description": "Add store staff to process orders (Store Owner only)",
       "permissions": {},
       "premiumOnly": "",
@@ -23,7 +24,7 @@
       ]
     },
     {
-      "name": "addstock",
+      "name": "AddStock",
       "description": "Add stock quantity to product (Store Owner)",
       "permissions": {},
       "premiumOnly": "",
@@ -33,22 +34,25 @@
       ]
     },
     {
-      "name": "dellist",
+      "name": "DeleteProduct",
       "description": "Delete product from store (Store Owner)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
+        "deleteproduct",
+        "delproduct",
         "dellist",
         "hapusproduk",
         "delproduk"
       ]
     },
     {
-      "name": "delstaff",
+      "name": "DeleteStaff",
       "description": "Remove store staff (Store Owner only)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
+        "deletestaff",
         "delstaff",
         "hapusstaff",
         "delkasir",
@@ -56,7 +60,7 @@
       ]
     },
     {
-      "name": "pairstore",
+      "name": "PairStore",
       "description": "Link this group to Store using token from web (Store Owner)",
       "permissions": {},
       "premiumOnly": "",
@@ -66,7 +70,7 @@
       ]
     },
     {
-      "name": "setstock",
+      "name": "SetStock",
       "description": "Set exact stock quantity for product (Store Owner)",
       "permissions": {},
       "premiumOnly": "",
@@ -76,7 +80,7 @@
       ]
     },
     {
-      "name": "unpairstore",
+      "name": "UnpairStore",
       "description": "Unlink store from this group (Store Owner)",
       "permissions": {},
       "premiumOnly": "",

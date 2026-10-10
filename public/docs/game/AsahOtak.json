@@ -15,8 +15,8 @@
     "asahotak"
   ],
   "description": {
-    "en": "Start brain teaser / trivia game",
-    "id": "Mulai game asah otak / trivia"
+    "id": "Mulai game asah otak / trivia",
+    "en": "Start brain teaser / trivia game"
   },
   "usage": "AsahOtak",
   "examples": [
@@ -61,7 +61,7 @@
   },
   "source": {
     "file": "internal/plugins/game",
-    "line": 192
+    "line": 191
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

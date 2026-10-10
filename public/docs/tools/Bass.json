@@ -15,8 +15,8 @@
     "bass"
   ],
   "description": {
-    "en": "Add bass boost effect to audio/video (optional: bass level 1-100, default 20)",
-    "id": "Tambahkan efek bass boost ke audio/video (opsional: tingkat bass 1-100, default 20)"
+    "id": "Tambahkan efek bass boost ke audio/video (opsional: tingkat bass 1-100, default 20)",
+    "en": "Add bass boost effect to audio/video (optional: bass level 1-100, default 20)"
   },
   "usage": "Bass",
   "examples": [
@@ -58,5 +58,5 @@
     "file": "internal/plugins/tools",
     "line": 384
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }
