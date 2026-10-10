@@ -15,8 +15,8 @@
     "earrape"
   ],
   "description": {
-    "id": "Naikkan volume audio secara ekstrem (opsional: tingkat volume 1-50, default 12)",
-    "en": "Extreme volume boost effect (optional: volume level 1-50, default 12)"
+    "en": "Extreme volume boost effect (optional: volume level 1-50, default 12)",
+    "id": "Naikkan volume audio secara ekstrem (opsional: tingkat volume 1-50, default 12)"
   },
   "usage": "EarRape",
   "examples": [
@@ -58,5 +58,5 @@
     "file": "internal/plugins/tools",
     "line": 426
   },
-  "lastUpdated": "2026-10-10T06:14:13Z"
+  "lastUpdated": "2026-10-10T08:33:00Z"
 }

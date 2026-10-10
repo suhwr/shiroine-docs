@@ -19,8 +19,8 @@
     "kalkulator"
   ],
   "description": {
-    "id": "Kalkulator kompleks (mendukung fungsi matematika)",
-    "en": "Complex calculator (supports math functions)"
+    "en": "Complex calculator (supports math functions)",
+    "id": "Kalkulator kompleks (mendukung fungsi matematika)"
   },
   "usage": "Calculator",
   "examples": [
@@ -61,7 +61,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 102
+    "line": 137
   },
-  "lastUpdated": "2026-10-10T06:14:13Z"
+  "lastUpdated": "2026-10-10T08:33:00Z"
 }

@@ -21,8 +21,8 @@
     "unblacklist"
   ],
   "description": {
-    "en": "Unban a user from all bots you own",
-    "id": "Unban user dari semua bot yang kamu miliki"
+    "id": "Unban user dari semua bot yang kamu miliki",
+    "en": "Unban a user from all bots you own"
   },
   "usage": "UnbanUser",
   "examples": [
@@ -45,8 +45,8 @@
     "newsletter": true
   },
   "permissions": {
-    "hasbot": true,
-    "moderator": true
+    "moderator": true,
+    "hasbot": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -77,5 +77,5 @@
     "file": "internal/plugins/developer",
     "line": 138
   },
-  "lastUpdated": "2026-10-10T06:14:13Z"
+  "lastUpdated": "2026-10-10T08:33:00Z"
 }

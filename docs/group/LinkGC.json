@@ -19,8 +19,8 @@
     "link"
   ],
   "description": {
-    "en": "Get group invite link",
-    "id": "Dapatkan tautan undangan grup"
+    "id": "Dapatkan tautan undangan grup",
+    "en": "Get group invite link"
   },
   "usage": "LinkGC",
   "examples": [
@@ -71,5 +71,5 @@
     "file": "internal/plugins/group",
     "line": 61
   },
-  "lastUpdated": "2026-10-10T06:14:13Z"
+  "lastUpdated": "2026-10-10T08:33:00Z"
 }

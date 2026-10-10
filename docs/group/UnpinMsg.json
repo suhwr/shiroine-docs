@@ -21,8 +21,8 @@
     "lepassemat"
   ],
   "description": {
-    "id": "Lepas sematan pesan di grup",
-    "en": "Unpin message in group"
+    "en": "Unpin message in group",
+    "id": "Lepas sematan pesan di grup"
   },
   "usage": "UnpinMsg",
   "examples": [
@@ -37,8 +37,8 @@
     "group_community"
   ],
   "chatTypes": {
-    "group_community": true,
-    "group": true
+    "group": true,
+    "group_community": true
   },
   "permissions": {
     "admin": true,
@@ -73,5 +73,5 @@
     "file": "internal/plugins/group",
     "line": 31
   },
-  "lastUpdated": "2026-10-10T06:14:13Z"
+  "lastUpdated": "2026-10-10T08:33:00Z"
 }

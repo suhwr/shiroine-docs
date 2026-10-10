@@ -15,8 +15,8 @@
     "limit"
   ],
   "description": {
-    "en": "View your daily limit information",
-    "id": "Lihat informasi limit harian kamu"
+    "id": "Lihat informasi limit harian kamu",
+    "en": "View your daily limit information"
   },
   "usage": "Limit",
   "examples": [
@@ -57,5 +57,5 @@
     "file": "internal/plugins/general",
     "line": 129
   },
-  "lastUpdated": "2026-10-10T06:14:13Z"
+  "lastUpdated": "2026-10-10T08:33:00Z"
 }

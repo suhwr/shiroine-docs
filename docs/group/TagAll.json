@@ -17,8 +17,8 @@
     "tag"
   ],
   "description": {
-    "id": "Tag semua anggota grup dikelompokkan berdasarkan peran",
-    "en": "Tag all group members grouped by role"
+    "en": "Tag all group members grouped by role",
+    "id": "Tag semua anggota grup dikelompokkan berdasarkan peran"
   },
   "usage": "TagAll",
   "examples": [
@@ -38,8 +38,8 @@
     "group_community": true
   },
   "permissions": {
-    "moderator": true,
-    "admin": true
+    "admin": true,
+    "moderator": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -70,5 +70,5 @@
     "file": "internal/plugins/group",
     "line": 130
   },
-  "lastUpdated": "2026-10-10T06:14:13Z"
+  "lastUpdated": "2026-10-10T08:33:00Z"
 }

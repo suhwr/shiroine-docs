@@ -21,8 +21,8 @@
     "addproduk"
   ],
   "description": {
-    "id": "Tambah atau perbarui produk toko (Owner Toko)",
-    "en": "Add or update store product (Store Owner)"
+    "en": "Add or update store product (Store Owner)",
+    "id": "Tambah atau perbarui produk toko (Owner Toko)"
   },
   "usage": "AddProduct",
   "examples": [
@@ -64,5 +64,5 @@
     "file": "internal/plugins/store",
     "line": 192
   },
-  "lastUpdated": "2026-10-10T06:14:13Z"
+  "lastUpdated": "2026-10-10T08:33:00Z"
 }
