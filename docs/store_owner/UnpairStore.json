@@ -1,0 +1,69 @@
+{
+  "name": "UnpairStore",
+  "commands": [
+    "unpairstore",
+    "lepastoko"
+  ],
+  "aliases": [],
+  "display": [
+    "UnpairStore"
+  ],
+  "category": "store_owner",
+  "categories": [
+    "store_owner"
+  ],
+  "tags": [
+    "unpairstore",
+    "lepastoko"
+  ],
+  "description": {
+    "id": "Lepas tautan toko dari grup ini (Owner Toko)",
+    "en": "Unlink store from this group (Store Owner)"
+  },
+  "usage": "UnpairStore",
+  "examples": [
+    "unpairstore"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/store",
+    "line": 201
+  },
+  "lastUpdated": "2026-10-10T06:14:13Z"
+}

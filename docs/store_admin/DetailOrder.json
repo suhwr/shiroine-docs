@@ -1,31 +1,31 @@
 {
-  "name": "buy",
+  "name": "DetailOrder",
   "commands": [
-    "buy",
-    "order",
-    "beli"
+    "detailorder",
+    "cekorder",
+    "detailpesanan"
   ],
   "aliases": [],
   "display": [
-    "buy"
+    "DetailOrder"
   ],
-  "category": "store",
+  "category": "store_admin",
   "categories": [
-    "store"
+    "store_admin"
   ],
   "tags": [
-    "buy",
-    "order",
-    "beli"
+    "detailorder",
+    "cekorder",
+    "detailpesanan"
   ],
   "description": {
-    "id": "Pesan produk dari katalog toko resmi",
-    "en": "Order products from official store catalogue"
+    "en": "View full order invoice details (Store Staff / Buyer)",
+    "id": "Lihat rincian lengkap pesanan (Staff Toko / Pembeli)"
   },
-  "usage": "buy",
+  "usage": "DetailOrder",
   "examples": [
-    "buy 1",
-    "buy netflix 2"
+    "detailorder INV-20261004-1234",
+    "detailorder (reply invoice)"
   ],
   "minArgs": 0,
   "args": {},
@@ -60,7 +60,7 @@
   },
   "source": {
     "file": "internal/plugins/store",
-    "line": 154
+    "line": 616
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

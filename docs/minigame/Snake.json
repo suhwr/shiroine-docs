@@ -15,11 +15,13 @@
     "snake"
   ],
   "description": {
-    "id": "Mainkan game klasik Snake",
-    "en": "Play Snake"
+    "en": "Play Snake",
+    "id": "Mainkan game klasik Snake"
   },
   "usage": "Snake",
-  "examples": [],
+  "examples": [
+    "snake"
+  ],
   "minArgs": 0,
   "args": {},
   "requireMedia": [],
@@ -55,5 +57,5 @@
     "file": "internal/plugins/minigame",
     "line": 1
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

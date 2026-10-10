@@ -19,7 +19,9 @@
     "en": "Play 2048"
   },
   "usage": "2048",
-  "examples": [],
+  "examples": [
+    "2048"
+  ],
   "minArgs": 0,
   "args": {},
   "requireMedia": [],
@@ -55,5 +57,5 @@
     "file": "internal/plugins/minigame",
     "line": 1
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

@@ -17,8 +17,8 @@
     "spoiler"
   ],
   "description": {
-    "id": "Membuat pesan dengan tombol 'Baca selengkapnya' atau 'Read more'.",
-    "en": "Create a message with a 'Read more' button."
+    "en": "Create a message with a 'Read more' button.",
+    "id": "Membuat pesan dengan tombol 'Baca selengkapnya' atau 'Read more'."
   },
   "usage": "ReadMore",
   "examples": [
@@ -60,5 +60,5 @@
     "file": "internal/plugins/tools",
     "line": 45
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

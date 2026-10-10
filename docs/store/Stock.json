@@ -1,30 +1,29 @@
 {
-  "name": "addstaff",
+  "name": "Stock",
   "commands": [
-    "addstaff",
-    "tambahstaff",
-    "addkasir"
+    "stock",
+    "stok"
   ],
   "aliases": [],
   "display": [
-    "addstaff"
+    "Stock"
   ],
-  "category": "store_owner",
+  "category": "store",
   "categories": [
-    "store_owner"
+    "store"
   ],
   "tags": [
-    "addstaff",
-    "tambahstaff",
-    "addkasir"
+    "stock",
+    "stok"
   ],
   "description": {
-    "id": "Tambah staff toko untuk memproses pesanan (Khusus Owner)",
-    "en": "Add store staff to process orders (Store Owner only)"
+    "id": "Cek stok produk di toko",
+    "en": "Check product stock in store"
   },
-  "usage": "addstaff",
+  "usage": "Stock",
   "examples": [
-    "addstaff @user"
+    "stock netflix1m",
+    "stok netflix1m"
   ],
   "minArgs": 0,
   "args": {},
@@ -59,7 +58,7 @@
   },
   "source": {
     "file": "internal/plugins/store",
-    "line": 269
+    "line": 52
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

@@ -1,31 +1,35 @@
 {
-  "name": "rekap",
+  "name": "AcceptOrder",
   "commands": [
-    "rekap",
-    "omset",
-    "rekaporder"
+    "acceptorder",
+    "acc",
+    "accorder",
+    "proses",
+    "konfirmasi"
   ],
   "aliases": [],
   "display": [
-    "rekap"
+    "AcceptOrder"
   ],
   "category": "store_admin",
   "categories": [
     "store_admin"
   ],
   "tags": [
-    "rekap",
-    "omset",
-    "rekaporder"
+    "acceptorder",
+    "acc",
+    "accorder",
+    "proses",
+    "konfirmasi"
   ],
   "description": {
-    "id": "Lihat rekap omset dan statistik penjualan toko (Staff / Owner Toko)",
-    "en": "View store sales recap and revenue summary (Store Staff / Owner)"
+    "id": "Konfirmasi / ACC pembayaran pesanan pembeli (Staff / Owner Toko)",
+    "en": "Confirm / approve buyer payment (Store Staff / Owner)"
   },
-  "usage": "rekap",
+  "usage": "AcceptOrder",
   "examples": [
-    "rekap",
-    "omset"
+    "acc (reply invoice)",
+    "acc INV-20261004-1234"
   ],
   "minArgs": 0,
   "args": {},
@@ -60,7 +64,7 @@
   },
   "source": {
     "file": "internal/plugins/store",
-    "line": 691
+    "line": 596
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

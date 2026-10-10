@@ -41,8 +41,8 @@
     "group_community": true
   },
   "permissions": {
-    "admin": true,
-    "subowner": true
+    "subowner": true,
+    "admin": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -73,5 +73,5 @@
     "file": "internal/plugins/group",
     "line": 445
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

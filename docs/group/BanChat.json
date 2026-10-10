@@ -25,8 +25,8 @@
     "ban-grup"
   ],
   "description": {
-    "en": "Ban group across all bot sessions you own",
-    "id": "Ban grup dari seluruh sesi bot yang kamu miliki"
+    "id": "Ban grup dari seluruh sesi bot yang kamu miliki",
+    "en": "Ban group across all bot sessions you own"
   },
   "usage": "BanChat",
   "examples": [
@@ -46,9 +46,9 @@
     "group_community"
   ],
   "chatTypes": {
-    "private": true,
     "group": true,
-    "group_community": true
+    "group_community": true,
+    "private": true
   },
   "permissions": {
     "hasbot": true
@@ -82,5 +82,5 @@
     "file": "internal/plugins/group",
     "line": 312
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

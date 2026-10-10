@@ -1,0 +1,70 @@
+{
+  "name": "DeleteProduct",
+  "commands": [
+    "deleteproduct",
+    "delproduct",
+    "dellist",
+    "hapusproduk",
+    "delproduk"
+  ],
+  "aliases": [],
+  "display": [
+    "DeleteProduct"
+  ],
+  "category": "store_owner",
+  "categories": [
+    "store_owner"
+  ],
+  "tags": [
+    "deleteproduct",
+    "delproduct",
+    "dellist",
+    "hapusproduk",
+    "delproduk"
+  ],
+  "description": {
+    "id": "Hapus produk dari toko (Owner Toko)",
+    "en": "Delete product from store (Store Owner)"
+  },
+  "usage": "DeleteProduct",
+  "examples": [
+    "deleteproduct netflix1m",
+    "dellist netflix1m"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/store",
+    "line": 202
+  },
+  "lastUpdated": "2026-10-10T06:14:13Z"
+}

@@ -113,7 +113,6 @@
       "tags": [
         "gostats",
         "runtime",
-        "stats",
         "goruntime"
       ]
     },
@@ -181,7 +180,9 @@
     {
       "name": "Pacing",
       "description": "Configure message pacing delay, typing simulation, and group mutation guard",
-      "permissions": {},
+      "permissions": {
+        "bot": true
+      },
       "premiumOnly": "",
       "tags": [
         "pacing"

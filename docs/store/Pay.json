@@ -1,31 +1,31 @@
 {
-  "name": "acc",
+  "name": "Pay",
   "commands": [
-    "acc",
-    "proses",
-    "konfirmasi"
+    "pay",
+    "payment",
+    "pembayaran"
   ],
   "aliases": [],
   "display": [
-    "acc"
+    "Pay"
   ],
-  "category": "store_admin",
+  "category": "store",
   "categories": [
-    "store_admin"
+    "store"
   ],
   "tags": [
-    "acc",
-    "proses",
-    "konfirmasi"
+    "pay",
+    "payment",
+    "pembayaran"
   ],
   "description": {
-    "id": "Konfirmasi / ACC pembayaran pesanan pembeli (Staff / Owner Toko)",
-    "en": "Confirm / approve buyer payment (Store Staff / Owner)"
+    "id": "Lihat rekening dan metode pembayaran toko",
+    "en": "View store bank accounts and payment methods"
   },
-  "usage": "acc",
+  "usage": "Pay",
   "examples": [
-    "acc (reply invoice)",
-    "acc INV-20261004-1234"
+    "pay",
+    "payment"
   ],
   "minArgs": 0,
   "args": {},
@@ -60,7 +60,7 @@
   },
   "source": {
     "file": "internal/plugins/store",
-    "line": 651
+    "line": 80
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

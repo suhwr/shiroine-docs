@@ -25,8 +25,18 @@
   "minArgs": 0,
   "args": {},
   "requireMedia": [],
-  "chatPermissions": [],
-  "chatTypes": {},
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "newsletter": true,
+    "private": true
+  },
   "permissions": {},
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -55,7 +65,7 @@
   },
   "source": {
     "file": "internal/plugins/general",
-    "line": 191
+    "line": 293
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

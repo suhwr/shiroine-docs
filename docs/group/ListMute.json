@@ -17,8 +17,8 @@
     "mutelist"
   ],
   "description": {
-    "en": "View list of currently muted members in the group and unmute interactively",
-    "id": "Lihat daftar anggota yang sedang dimute di grup dan unmute secara interaktif"
+    "id": "Lihat daftar anggota yang sedang dimute di grup dan unmute secara interaktif",
+    "en": "View list of currently muted members in the group and unmute interactively"
   },
   "usage": "ListMute",
   "examples": [
@@ -36,8 +36,8 @@
     "group_community": true
   },
   "permissions": {
-    "moderator": true,
-    "admin": true
+    "admin": true,
+    "moderator": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -66,7 +66,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 560
+    "line": 562
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

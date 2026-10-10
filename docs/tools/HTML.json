@@ -1,33 +1,28 @@
 {
-  "name": "done",
+  "name": "HTML",
   "commands": [
-    "done",
-    "selesai",
-    "terima",
-    "terimapesanan"
+    "html"
   ],
   "aliases": [],
   "display": [
-    "done"
+    "HTML"
   ],
-  "category": "store_admin",
+  "category": "tools",
   "categories": [
-    "store_admin"
+    "tools"
   ],
   "tags": [
-    "done",
-    "selesai",
-    "terima",
-    "terimapesanan"
+    "html"
   ],
   "description": {
-    "en": "Complete transaction / Confirm order receipt (Store Staff / Buyer)",
-    "id": "Selesaikan transaksi / Konfirmasi terima pesanan (Staff Toko / Pembeli)"
+    "id": "Encode/decode teks menggunakan html",
+    "en": "Encode/decode text using html"
   },
-  "usage": "done",
+  "usage": "HTML",
   "examples": [
-    "done (reply invoice)",
-    "done INV-20261004-1234"
+    "html e Halo",
+    "html d ...",
+    "html e Hello"
   ],
   "minArgs": 0,
   "args": {},
@@ -61,8 +56,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/store",
-    "line": 661
+    "file": "internal/plugins/tools",
+    "line": 1
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

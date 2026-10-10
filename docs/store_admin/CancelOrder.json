@@ -1,30 +1,33 @@
 {
-  "name": "dellist",
+  "name": "CancelOrder",
   "commands": [
-    "dellist",
-    "hapusproduk",
-    "delproduk"
+    "cancelorder",
+    "cancel",
+    "batal"
   ],
   "aliases": [],
   "display": [
-    "dellist"
+    "CancelOrder"
   ],
-  "category": "store_owner",
+  "category": "store_admin",
   "categories": [
-    "store_owner"
+    "store_admin"
   ],
   "tags": [
-    "dellist",
-    "hapusproduk",
-    "delproduk"
+    "cancelorder",
+    "cancel",
+    "batal"
   ],
   "description": {
-    "id": "Hapus produk dari toko (Owner Toko)",
-    "en": "Delete product from store (Store Owner)"
+    "en": "Cancel buyer order transaction (Store Staff / Owner)",
+    "id": "Batalkan pesanan transaksi pembeli (Staff / Owner Toko)"
   },
-  "usage": "dellist",
+  "usage": "CancelOrder",
   "examples": [
-    "dellist netflix1m"
+    "batal (reply invoice)",
+    "batal INV-20261004-1234",
+    "cancel (reply invoice)",
+    "cancel INV-20261004-1234"
   ],
   "minArgs": 0,
   "args": {},
@@ -59,7 +62,7 @@
   },
   "source": {
     "file": "internal/plugins/store",
-    "line": 186
+    "line": 646
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

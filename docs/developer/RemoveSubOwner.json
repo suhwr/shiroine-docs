@@ -21,8 +21,8 @@
     "delsubowner"
   ],
   "description": {
-    "id": "Hapus sub-owner",
-    "en": "Remove a sub-owner"
+    "en": "Remove a sub-owner",
+    "id": "Hapus sub-owner"
   },
   "usage": "RemoveSubOwner",
   "examples": [
@@ -70,5 +70,5 @@
     "file": "internal/plugins/developer",
     "line": 125
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }

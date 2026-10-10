@@ -1,0 +1,62 @@
+{
+  "name": "MiniGame",
+  "commands": [
+    "minigame"
+  ],
+  "aliases": [],
+  "display": [
+    "MiniGame"
+  ],
+  "category": "minigame",
+  "categories": [
+    "minigame"
+  ],
+  "tags": [
+    "minigame"
+  ],
+  "description": {
+    "id": "Mainkan koleksi minigame HTML",
+    "en": "Play HTML minigame collection"
+  },
+  "usage": "MiniGame",
+  "examples": [
+    "minigame 2048",
+    "minigame snake"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/minigame",
+    "line": 162
+  },
+  "lastUpdated": "2026-10-10T06:14:13Z"
+}

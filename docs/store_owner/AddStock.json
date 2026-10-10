@@ -1,28 +1,28 @@
 {
-  "name": "unpairstore",
+  "name": "AddStock",
   "commands": [
-    "unpairstore",
-    "lepastoko"
+    "addstock",
+    "tambahstok"
   ],
   "aliases": [],
   "display": [
-    "unpairstore"
+    "AddStock"
   ],
   "category": "store_owner",
   "categories": [
     "store_owner"
   ],
   "tags": [
-    "unpairstore",
-    "lepastoko"
+    "addstock",
+    "tambahstok"
   ],
   "description": {
-    "id": "Lepas tautan toko dari grup ini (Owner Toko)",
-    "en": "Unlink store from this group (Store Owner)"
+    "id": "Tambah jumlah stok produk (Owner Toko)",
+    "en": "Add stock quantity to product (Store Owner)"
   },
-  "usage": "unpairstore",
+  "usage": "AddStock",
   "examples": [
-    "unpairstore"
+    "addstock netflix1m 10"
   ],
   "minArgs": 0,
   "args": {},
@@ -57,7 +57,7 @@
   },
   "source": {
     "file": "internal/plugins/store",
-    "line": 207
+    "line": 105
   },
-  "lastUpdated": "2026-10-05T02:25:36Z"
+  "lastUpdated": "2026-10-10T06:14:13Z"
 }
