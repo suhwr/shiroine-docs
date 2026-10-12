@@ -73,6 +73,17 @@
       ]
     },
     {
+      "name": "WhatAnime",
+      "description": "Search anime title by image or video frame (send/reply image or video)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "whatanime",
+        "wait",
+        "trace"
+      ]
+    },
+    {
       "name": "YtMusicSearch",
       "description": "Search music on YouTube Music",
       "permissions": {},

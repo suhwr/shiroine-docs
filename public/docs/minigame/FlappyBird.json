@@ -15,8 +15,8 @@
     "flappybird"
   ],
   "description": {
-    "en": "Play FlappyBird",
-    "id": "Mainkan game Flappy Bird"
+    "id": "Mainkan game Flappy Bird",
+    "en": "Play FlappyBird"
   },
   "usage": "FlappyBird",
   "examples": [
@@ -57,5 +57,5 @@
     "file": "internal/plugins/minigame",
     "line": 1
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }

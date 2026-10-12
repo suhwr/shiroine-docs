@@ -15,8 +15,8 @@
     "gpt"
   ],
   "description": {
-    "en": "Chat with GPT-5 Nano without persona (supports text & image, premium only)",
-    "id": "Chat dengan GPT-5 Nano tanpa persona (mendukung teks & gambar, khusus premium)"
+    "id": "Chat dengan GPT-5 Nano tanpa persona (mendukung teks & gambar, khusus premium)",
+    "en": "Chat with GPT-5 Nano without persona (supports text & image, premium only)"
   },
   "usage": "GPT",
   "examples": [
@@ -68,5 +68,5 @@
     "file": "internal/plugins/ai",
     "line": 104
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }

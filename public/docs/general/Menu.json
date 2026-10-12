@@ -15,8 +15,8 @@
     "menu"
   ],
   "description": {
-    "en": "Show command menu",
-    "id": "Tampilkan menu perintah"
+    "id": "Tampilkan menu perintah",
+    "en": "Show command menu"
   },
   "usage": "Menu",
   "examples": [
@@ -70,5 +70,5 @@
     "file": "internal/plugins/general",
     "line": 89
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }

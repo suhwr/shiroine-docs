@@ -17,8 +17,8 @@
     "fakta"
   ],
   "description": {
-    "id": "Dapatkan fakta menarik acak",
-    "en": "Get a random interesting fact"
+    "en": "Get a random interesting fact",
+    "id": "Dapatkan fakta menarik acak"
   },
   "usage": "Fact",
   "examples": [
@@ -34,10 +34,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
     "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -69,5 +69,5 @@
     "file": "internal/plugins/fun",
     "line": 19
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }

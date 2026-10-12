@@ -1,0 +1,75 @@
+{
+  "name": "PixelDrain",
+  "commands": [
+    "pixeldrain",
+    "pdl",
+    "pixeldraindl"
+  ],
+  "aliases": [],
+  "display": [
+    "PixelDrain"
+  ],
+  "category": "downloader",
+  "categories": [
+    "downloader"
+  ],
+  "tags": [
+    "pixeldrain",
+    "pdl",
+    "pixeldraindl"
+  ],
+  "description": {
+    "id": "Download file dan album dari Pixeldrain",
+    "en": "Download files and albums from Pixeldrain"
+  },
+  "usage": "PixelDrain",
+  "examples": [
+    "pixeldrain https://pixeldrain.com/u/abc123"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "private": true,
+    "group": true,
+    "group_community": true,
+    "newsletter": true
+  },
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": true,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/downloader",
+    "line": 197
+  },
+  "lastUpdated": "2026-10-12T00:55:40Z"
+}

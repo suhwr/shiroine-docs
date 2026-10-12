@@ -15,8 +15,8 @@
     "setsubject"
   ],
   "description": {
-    "id": "Ubah nama obrolan grup",
-    "en": "Change group chat name"
+    "en": "Change group chat name",
+    "id": "Ubah nama obrolan grup"
   },
   "usage": "SetSubject",
   "examples": [
@@ -67,5 +67,5 @@
     "file": "internal/plugins/group",
     "line": 99
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }

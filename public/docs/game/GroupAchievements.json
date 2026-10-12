@@ -17,8 +17,8 @@
     "ga"
   ],
   "description": {
-    "id": "Lihat achievement grup",
-    "en": "View group achievements"
+    "en": "View group achievements",
+    "id": "Lihat achievement grup"
   },
   "usage": "GroupAchievements",
   "examples": [
@@ -32,8 +32,8 @@
     "group_community"
   ],
   "chatTypes": {
-    "group_community": true,
-    "group": true
+    "group": true,
+    "group_community": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -65,5 +65,5 @@
     "file": "internal/plugins/game",
     "line": 740
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }

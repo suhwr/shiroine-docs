@@ -19,8 +19,8 @@
     "buypremium"
   ],
   "description": {
-    "id": "Beli premium menggunakan payment gateway",
-    "en": "Buy premium using payment gateway"
+    "en": "Buy premium using payment gateway",
+    "id": "Beli premium menggunakan payment gateway"
   },
   "usage": "Premium",
   "examples": [
@@ -62,5 +62,5 @@
     "file": "internal/plugins/general",
     "line": 557
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }

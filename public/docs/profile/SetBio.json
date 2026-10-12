@@ -17,8 +17,8 @@
     "setbio"
   ],
   "description": {
-    "id": "Mengatur bio/about profil",
-    "en": "Set profile bio/about"
+    "en": "Set profile bio/about",
+    "id": "Mengatur bio/about profil"
   },
   "usage": "SetBio",
   "examples": [
@@ -59,7 +59,7 @@
   },
   "source": {
     "file": "internal/plugins/profile",
-    "line": 65
+    "line": 69
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }

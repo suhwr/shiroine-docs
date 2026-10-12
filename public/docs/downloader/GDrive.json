@@ -1,0 +1,75 @@
+{
+  "name": "GDrive",
+  "commands": [
+    "gdrive",
+    "gdrivedl",
+    "gd"
+  ],
+  "aliases": [],
+  "display": [
+    "GDrive"
+  ],
+  "category": "downloader",
+  "categories": [
+    "downloader"
+  ],
+  "tags": [
+    "gdrive",
+    "gdrivedl",
+    "gd"
+  ],
+  "description": {
+    "en": "Download Google Drive files and upload media to storage (upload: Developer only)",
+    "id": "Download file Google Drive dan upload media ke storage (upload: Developer only)"
+  },
+  "usage": "GDrive",
+  "examples": [
+    "gdrive https://drive.google.com/file/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/view"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "private": true,
+    "group": true,
+    "group_community": true,
+    "newsletter": true
+  },
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": true,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/downloader",
+    "line": 221
+  },
+  "lastUpdated": "2026-10-12T00:55:40Z"
+}

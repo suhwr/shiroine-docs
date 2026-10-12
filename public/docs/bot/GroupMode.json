@@ -17,8 +17,8 @@
     "gm"
   ],
   "description": {
-    "id": "Toggle mode grup (bot hanya menerima perintah di grup)",
-    "en": "Toggle group mode (bot only accepts commands in groups)"
+    "en": "Toggle group mode (bot only accepts commands in groups)",
+    "id": "Toggle mode grup (bot hanya menerima perintah di grup)"
   },
   "usage": "GroupMode",
   "examples": [
@@ -61,5 +61,5 @@
     "file": "internal/plugins/bot",
     "line": 80
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }

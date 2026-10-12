@@ -16,8 +16,8 @@
       "name": "AdminOnly",
       "description": "Make the bot only respond to commands from group admins",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -55,8 +55,8 @@
       "name": "AntiBug",
       "description": "Configure anti bug/virtex",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -103,8 +103,8 @@
       "name": "AntiMedia",
       "description": "Configure group anti-media protection for specific media types",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -140,8 +140,8 @@
       "name": "AntiSpam",
       "description": "Configure anti spam",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -275,9 +275,9 @@
       "name": "DebugPriority",
       "description": "Debug bot priority and cross-server routing status in group",
       "permissions": {
+        "owner": true,
         "subowner": true,
-        "admin": true,
-        "owner": true
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -314,8 +314,8 @@
       "name": "Ephemeral",
       "description": "Configure ephemeral messages",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -396,8 +396,8 @@
       "name": "Info",
       "description": "Configure group notification",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -487,8 +487,8 @@
       "name": "ListBanMember",
       "description": "Show list of members banned by bot in this group",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -696,8 +696,8 @@
       "name": "SetPPGC",
       "description": "Set group chat profile picture",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -761,8 +761,8 @@
       "name": "SimulateGoodbye",
       "description": "Simulate group goodbye message using your data as example",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [

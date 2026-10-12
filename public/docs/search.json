@@ -115,6 +115,37 @@
       ]
     },
     {
+      "name": "Anime",
+      "aliases": [],
+      "category": "animanga",
+      "path": "/commands/animanga/Anime",
+      "tags": [
+        "anime",
+        "animes",
+        "samehadaku",
+        "otakudesu",
+        "kuronime",
+        "animasu",
+        "sokuja"
+      ]
+    },
+    {
+      "name": "Manga",
+      "aliases": [],
+      "category": "animanga",
+      "path": "/commands/animanga/Manga",
+      "tags": [
+        "komik",
+        "manga",
+        "manhwa",
+        "manhua",
+        "komiku",
+        "kiryuu",
+        "westmanga",
+        "bacakomik"
+      ]
+    },
+    {
       "name": "AnswerCall",
       "aliases": [],
       "category": "bot",
@@ -732,6 +763,17 @@
       ]
     },
     {
+      "name": "CapCut",
+      "aliases": [],
+      "category": "downloader",
+      "path": "/commands/downloader/CapCut",
+      "tags": [
+        "capcut",
+        "ccdl",
+        "capcutdl"
+      ]
+    },
+    {
       "name": "DownloadStickerPack",
       "aliases": [],
       "category": "downloader",
@@ -762,6 +804,37 @@
       ]
     },
     {
+      "name": "GDrive",
+      "aliases": [],
+      "category": "downloader",
+      "path": "/commands/downloader/GDrive",
+      "tags": [
+        "gdrive",
+        "gdrivedl",
+        "gd"
+      ]
+    },
+    {
+      "name": "Gist",
+      "aliases": [],
+      "category": "downloader",
+      "path": "/commands/downloader/Gist",
+      "tags": [
+        "gist",
+        "gistdl"
+      ]
+    },
+    {
+      "name": "Gofile",
+      "aliases": [],
+      "category": "downloader",
+      "path": "/commands/downloader/Gofile",
+      "tags": [
+        "gofile",
+        "gofiledl"
+      ]
+    },
+    {
       "name": "Instagram",
       "aliases": [],
       "category": "downloader",
@@ -770,6 +843,27 @@
         "instagram",
         "igdl",
         "ig"
+      ]
+    },
+    {
+      "name": "MediaFire",
+      "aliases": [],
+      "category": "downloader",
+      "path": "/commands/downloader/MediaFire",
+      "tags": [
+        "mediafire",
+        "mfdl"
+      ]
+    },
+    {
+      "name": "Pastebin",
+      "aliases": [],
+      "category": "downloader",
+      "path": "/commands/downloader/Pastebin",
+      "tags": [
+        "pastebin",
+        "pbindl",
+        "pastebindl"
       ]
     },
     {
@@ -782,6 +876,17 @@
         "pinterestdl",
         "pindl",
         "ptdl"
+      ]
+    },
+    {
+      "name": "PixelDrain",
+      "aliases": [],
+      "category": "downloader",
+      "path": "/commands/downloader/PixelDrain",
+      "tags": [
+        "pixeldrain",
+        "pdl",
+        "pixeldraindl"
       ]
     },
     {
@@ -3129,6 +3234,17 @@
       ]
     },
     {
+      "name": "WhatAnime",
+      "aliases": [],
+      "category": "search",
+      "path": "/commands/search/WhatAnime",
+      "tags": [
+        "whatanime",
+        "wait",
+        "trace"
+      ]
+    },
+    {
       "name": "YtMusicSearch",
       "aliases": [],
       "category": "search",
@@ -4178,6 +4294,17 @@
         "tomp3",
         "toaudio",
         "tovn"
+      ]
+    },
+    {
+      "name": "ToPDF",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/ToPDF",
+      "tags": [
+        "topdf",
+        "pdf",
+        "imgtopdf"
       ]
     },
     {

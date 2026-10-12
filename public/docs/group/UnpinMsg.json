@@ -21,8 +21,8 @@
     "lepassemat"
   ],
   "description": {
-    "en": "Unpin message in group",
-    "id": "Lepas sematan pesan di grup"
+    "id": "Lepas sematan pesan di grup",
+    "en": "Unpin message in group"
   },
   "usage": "UnpinMsg",
   "examples": [
@@ -73,5 +73,5 @@
     "file": "internal/plugins/group",
     "line": 31
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }

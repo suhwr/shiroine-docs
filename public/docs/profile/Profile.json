@@ -17,8 +17,8 @@
     "me"
   ],
   "description": {
-    "id": "Lihat profil user",
-    "en": "View user profile"
+    "en": "View user profile",
+    "id": "Lihat profil user"
   },
   "usage": "Profile",
   "examples": [
@@ -61,5 +61,5 @@
     "file": "internal/plugins/profile",
     "line": 370
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }

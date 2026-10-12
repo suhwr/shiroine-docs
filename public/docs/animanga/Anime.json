@@ -1,0 +1,81 @@
+{
+  "name": "Anime",
+  "commands": [
+    "anime",
+    "animes",
+    "samehadaku",
+    "otakudesu",
+    "kuronime",
+    "animasu",
+    "sokuja"
+  ],
+  "aliases": [],
+  "display": [
+    "Anime",
+    "Samehadaku",
+    "Otakudesu",
+    "Kuronime",
+    "Animasu",
+    "Sokuja"
+  ],
+  "category": "animanga",
+  "categories": [
+    "animanga"
+  ],
+  "tags": [
+    "anime",
+    "animes",
+    "samehadaku",
+    "otakudesu",
+    "kuronime",
+    "animasu",
+    "sokuja"
+  ],
+  "description": {
+    "en": "Search and get anime streaming players and download mirror links",
+    "id": "Cari dan dapatkan link streaming serta mirror download anime"
+  },
+  "usage": "Anime",
+  "examples": [
+    ".anime One Piece",
+    ".samehadaku Naruto",
+    ".otakudesu",
+    ".anime --provider=kuronime Bleach"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/anime",
+    "line": 419
+  },
+  "lastUpdated": "2026-10-12T00:55:40Z"
+}

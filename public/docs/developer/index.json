@@ -221,9 +221,9 @@
       "name": "HardUnban",
       "description": "Unban user from global ban list",
       "permissions": {
+        "owner": true,
         "moderator": true,
-        "subowner": true,
-        "owner": true
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [

@@ -17,8 +17,8 @@
     "dor"
   ],
   "description": {
-    "en": "Remove a specific member from the group chat",
-    "id": "Keluarkan anggota tertentu dari obrolan grup"
+    "id": "Keluarkan anggota tertentu dari obrolan grup",
+    "en": "Remove a specific member from the group chat"
   },
   "usage": "Remove",
   "examples": [
@@ -34,8 +34,8 @@
     "group_community"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true
+    "group_community": true,
+    "group": true
   },
   "permissions": {
     "admin": true
@@ -69,5 +69,5 @@
     "file": "internal/plugins/group",
     "line": 126
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }

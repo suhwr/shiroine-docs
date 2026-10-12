@@ -15,8 +15,8 @@
     "play2"
   ],
   "description": {
-    "id": "Cari dan putar video dari YouTube",
-    "en": "Search and play videos from YouTube"
+    "en": "Search and play videos from YouTube",
+    "id": "Cari dan putar video dari YouTube"
   },
   "usage": "Play2",
   "examples": [
@@ -57,5 +57,5 @@
     "file": "internal/plugins/youtube",
     "line": 600
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }

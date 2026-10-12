@@ -1,0 +1,82 @@
+{
+  "name": "Manga",
+  "commands": [
+    "komik",
+    "manga",
+    "manhwa",
+    "manhua",
+    "komiku",
+    "kiryuu",
+    "westmanga",
+    "bacakomik"
+  ],
+  "aliases": [],
+  "display": [
+    "Manga",
+    "Komiku",
+    "Kiryuu",
+    "WestManga",
+    "BacaKomik"
+  ],
+  "category": "animanga",
+  "categories": [
+    "animanga"
+  ],
+  "tags": [
+    "komik",
+    "manga",
+    "manhwa",
+    "manhua",
+    "komiku",
+    "kiryuu",
+    "westmanga",
+    "bacakomik"
+  ],
+  "description": {
+    "id": "Cari dan unduh chapter manga/manhwa/manhua menjadi dokumen PDF",
+    "en": "Search and download manga/manhwa/manhua chapters as PDF documents"
+  },
+  "usage": "Manga",
+  "examples": [
+    ".komik Solo Leveling",
+    ".kiryuu One Piece",
+    ".westmanga",
+    ".komik dl <chapter-url>"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/manga",
+    "line": 358
+  },
+  "lastUpdated": "2026-10-12T00:55:40Z"
+}

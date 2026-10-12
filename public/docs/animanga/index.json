@@ -1,0 +1,35 @@
+{
+  "commands": [
+    {
+      "name": "Anime",
+      "description": "Search and get anime streaming players and download mirror links",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "anime",
+        "animes",
+        "samehadaku",
+        "otakudesu",
+        "kuronime",
+        "animasu",
+        "sokuja"
+      ]
+    },
+    {
+      "name": "Manga",
+      "description": "Search and download manga/manhwa/manhua chapters as PDF documents",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "komik",
+        "manga",
+        "manhwa",
+        "manhua",
+        "komiku",
+        "kiryuu",
+        "westmanga",
+        "bacakomik"
+      ]
+    }
+  ]
+}

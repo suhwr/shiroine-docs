@@ -19,8 +19,8 @@
     "topactive"
   ],
   "description": {
-    "id": "Menampilkan anggota paling aktif di grup berdasarkan jumlah pesan",
-    "en": "Show most active members in the group based on message count"
+    "en": "Show most active members in the group based on message count",
+    "id": "Menampilkan anggota paling aktif di grup berdasarkan jumlah pesan"
   },
   "usage": "TopActive",
   "examples": [
@@ -41,8 +41,8 @@
     "group_community"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true
+    "group_community": true,
+    "group": true
   },
   "permissions": {
     "admin": true,
@@ -77,5 +77,5 @@
     "file": "internal/plugins/group",
     "line": 430
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }

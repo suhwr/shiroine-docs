@@ -15,8 +15,8 @@
     "getmedia"
   ],
   "description": {
-    "en": "Retrieve media from the quoted/replied message",
-    "id": "Ambil media dari pesan yang di-quote/reply"
+    "id": "Ambil media dari pesan yang di-quote/reply",
+    "en": "Retrieve media from the quoted/replied message"
   },
   "usage": "GetMedia",
   "examples": [
@@ -56,7 +56,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 102
+    "line": 148
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }
