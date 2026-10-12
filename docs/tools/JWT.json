@@ -15,8 +15,8 @@
     "jwt"
   ],
   "description": {
-    "en": "Decode JWT token locally",
-    "id": "Decode token JWT secara lokal"
+    "id": "Decode token JWT secara lokal",
+    "en": "Decode JWT token locally"
   },
   "usage": "JWT",
   "examples": [
@@ -57,5 +57,5 @@
     "file": "internal/plugins/tools",
     "line": 70
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }

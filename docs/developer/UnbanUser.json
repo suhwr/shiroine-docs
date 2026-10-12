@@ -45,8 +45,8 @@
     "newsletter": true
   },
   "permissions": {
-    "moderator": true,
-    "hasbot": true
+    "hasbot": true,
+    "moderator": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -77,5 +77,5 @@
     "file": "internal/plugins/developer",
     "line": 138
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }

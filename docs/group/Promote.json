@@ -15,8 +15,8 @@
     "promote"
   ],
   "description": {
-    "id": "Angkat anggota menjadi admin grup",
-    "en": "Promote a group member to admin"
+    "en": "Promote a group member to admin",
+    "id": "Angkat anggota menjadi admin grup"
   },
   "usage": "Promote",
   "examples": [
@@ -36,8 +36,8 @@
     "group_community": true
   },
   "permissions": {
-    "subowner": true,
-    "admin": true
+    "admin": true,
+    "subowner": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -68,5 +68,5 @@
     "file": "internal/plugins/group",
     "line": 141
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }

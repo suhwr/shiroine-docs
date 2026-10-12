@@ -23,8 +23,8 @@
     "konfirmasi"
   ],
   "description": {
-    "id": "Konfirmasi / ACC pembayaran pesanan pembeli (Staff / Owner Toko)",
-    "en": "Confirm / approve buyer payment (Store Staff / Owner)"
+    "en": "Confirm / approve buyer payment (Store Staff / Owner)",
+    "id": "Konfirmasi / ACC pembayaran pesanan pembeli (Staff / Owner Toko)"
   },
   "usage": "AcceptOrder",
   "examples": [
@@ -66,5 +66,5 @@
     "file": "internal/plugins/store",
     "line": 596
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }

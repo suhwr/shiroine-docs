@@ -17,8 +17,8 @@
     "clearwarn"
   ],
   "description": {
-    "id": "Reset seluruh catatan peringatan anggota",
-    "en": "Reset all warnings for a group member"
+    "en": "Reset all warnings for a group member",
+    "id": "Reset seluruh catatan peringatan anggota"
   },
   "usage": "ResetWarn",
   "examples": [
@@ -68,5 +68,5 @@
     "file": "internal/plugins/group",
     "line": 299
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }

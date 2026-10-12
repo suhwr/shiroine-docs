@@ -1,0 +1,75 @@
+{
+  "name": "CapCut",
+  "commands": [
+    "capcut",
+    "ccdl",
+    "capcutdl"
+  ],
+  "aliases": [],
+  "display": [
+    "CapCut"
+  ],
+  "category": "downloader",
+  "categories": [
+    "downloader"
+  ],
+  "tags": [
+    "capcut",
+    "ccdl",
+    "capcutdl"
+  ],
+  "description": {
+    "id": "Download video template dari CapCut",
+    "en": "Download template video from CapCut"
+  },
+  "usage": "CapCut",
+  "examples": [
+    "capcut https://www.capcut.com/template-detail/7325105884143586578"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "private": true,
+    "group": true,
+    "group_community": true,
+    "newsletter": true
+  },
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": true,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/downloader",
+    "line": 75
+  },
+  "lastUpdated": "2026-10-12T00:55:40Z"
+}

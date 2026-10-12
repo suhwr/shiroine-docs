@@ -119,6 +119,33 @@
     },
     {
       "aliases": [],
+      "category": "animanga",
+      "name": "Anime",
+      "path": "/commands/animanga/Anime",
+      "tags": [
+        "Anime"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "animanga",
+      "name": "Manga",
+      "path": "/commands/animanga/Manga",
+      "tags": [
+        "Manga"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "animanga",
+      "name": "index",
+      "path": "/commands/animanga/index",
+      "tags": [
+        "index"
+      ]
+    },
+    {
+      "aliases": [],
       "category": "bot",
       "name": "AnswerCall",
       "path": "/commands/bot/AnswerCall",
@@ -687,6 +714,15 @@
     {
       "aliases": [],
       "category": "downloader",
+      "name": "CapCut",
+      "path": "/commands/downloader/CapCut",
+      "tags": [
+        "CapCut"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "downloader",
       "name": "DownloadStickerPack",
       "path": "/commands/downloader/DownloadStickerPack",
       "tags": [
@@ -714,6 +750,33 @@
     {
       "aliases": [],
       "category": "downloader",
+      "name": "GDrive",
+      "path": "/commands/downloader/GDrive",
+      "tags": [
+        "GDrive"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "downloader",
+      "name": "Gist",
+      "path": "/commands/downloader/Gist",
+      "tags": [
+        "Gist"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "downloader",
+      "name": "Gofile",
+      "path": "/commands/downloader/Gofile",
+      "tags": [
+        "Gofile"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "downloader",
       "name": "Instagram",
       "path": "/commands/downloader/Instagram",
       "tags": [
@@ -723,10 +786,37 @@
     {
       "aliases": [],
       "category": "downloader",
+      "name": "MediaFire",
+      "path": "/commands/downloader/MediaFire",
+      "tags": [
+        "MediaFire"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "downloader",
+      "name": "Pastebin",
+      "path": "/commands/downloader/Pastebin",
+      "tags": [
+        "Pastebin"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "downloader",
       "name": "PinterestDownloader",
       "path": "/commands/downloader/PinterestDownloader",
       "tags": [
         "PinterestDownloader"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "downloader",
+      "name": "PixelDrain",
+      "path": "/commands/downloader/PixelDrain",
+      "tags": [
+        "PixelDrain"
       ]
     },
     {
@@ -2982,6 +3072,15 @@
     {
       "aliases": [],
       "category": "search",
+      "name": "WhatAnime",
+      "path": "/commands/search/WhatAnime",
+      "tags": [
+        "WhatAnime"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "search",
       "name": "index",
       "path": "/commands/search/index",
       "tags": [
@@ -3940,6 +4039,15 @@
       "path": "/commands/tools/ToMP3",
       "tags": [
         "ToMP3"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "ToPDF",
+      "path": "/commands/tools/ToPDF",
+      "tags": [
+        "ToPDF"
       ]
     },
     {

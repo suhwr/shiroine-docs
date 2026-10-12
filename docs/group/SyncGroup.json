@@ -17,8 +17,8 @@
     "syncgroup"
   ],
   "description": {
-    "en": "Clear group cache to refresh data directly from WhatsApp",
-    "id": "Hapus cache grup agar data diperbarui langsung dari WhatsApp"
+    "id": "Hapus cache grup agar data diperbarui langsung dari WhatsApp",
+    "en": "Clear group cache to refresh data directly from WhatsApp"
   },
   "usage": "SyncGroup",
   "examples": [
@@ -65,5 +65,5 @@
     "file": "internal/plugins/group",
     "line": 48
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }

@@ -15,8 +15,8 @@
     "punch"
   ],
   "description": {
-    "en": "React with punch",
-    "id": "Reaksi punch"
+    "id": "Reaksi punch",
+    "en": "React with punch"
   },
   "usage": "Punch",
   "examples": [
@@ -57,5 +57,5 @@
     "file": "internal/plugins/fun",
     "line": 1
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }

@@ -815,6 +815,17 @@
       ]
     },
     {
+      "name": "ToPDF",
+      "description": "Convert images, image ZIP archives, or image URLs into a PDF document",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "topdf",
+        "pdf",
+        "imgtopdf"
+      ]
+    },
+    {
       "name": "ToVideo",
       "description": "Convert sticker to video",
       "permissions": {},

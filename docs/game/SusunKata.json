@@ -15,8 +15,8 @@
     "susunkata"
   ],
   "description": {
-    "id": "Mulai game susun kata acak",
-    "en": "Start word scramble game"
+    "en": "Start word scramble game",
+    "id": "Mulai game susun kata acak"
   },
   "usage": "SusunKata",
   "examples": [
@@ -63,5 +63,5 @@
     "file": "internal/plugins/game",
     "line": 194
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }

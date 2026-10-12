@@ -15,8 +15,8 @@
     "nightcore"
   ],
   "description": {
-    "id": "Ubah audio menjadi gaya nightcore",
-    "en": "Convert audio to nightcore style"
+    "en": "Convert audio to nightcore style",
+    "id": "Ubah audio menjadi gaya nightcore"
   },
   "usage": "Nightcore",
   "examples": [
@@ -57,5 +57,5 @@
     "file": "internal/plugins/tools",
     "line": 468
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }

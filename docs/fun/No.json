@@ -15,8 +15,8 @@
     "no"
   ],
   "description": {
-    "id": "Reaksi no",
-    "en": "React with no"
+    "en": "React with no",
+    "id": "Reaksi no"
   },
   "usage": "No",
   "examples": [
@@ -57,5 +57,5 @@
     "file": "internal/plugins/fun",
     "line": 1
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }

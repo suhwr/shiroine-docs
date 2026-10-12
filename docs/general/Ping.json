@@ -15,8 +15,8 @@
     "ping"
   ],
   "description": {
-    "id": "Cek latensi bot dan status database",
-    "en": "Check bot latency and database status"
+    "en": "Check bot latency and database status",
+    "id": "Cek latensi bot dan status database"
   },
   "usage": "Ping",
   "examples": [
@@ -67,5 +67,5 @@
     "file": "internal/plugins/general",
     "line": 293
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }

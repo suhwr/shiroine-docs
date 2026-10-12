@@ -23,8 +23,8 @@
     "tsqc"
   ],
   "description": {
-    "id": "Buat quote chat dari teks/gambar",
-    "en": "Create chat quotes from text/images"
+    "en": "Create chat quotes from text/images",
+    "id": "Buat quote chat dari teks/gambar"
   },
   "usage": "QC",
   "examples": [
@@ -66,5 +66,5 @@
     "file": "internal/plugins/tools",
     "line": 129
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }

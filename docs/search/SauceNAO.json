@@ -19,8 +19,8 @@
     "source"
   ],
   "description": {
-    "en": "Find anime/illustration image source using SauceNAO (send/reply image)",
-    "id": "Cari sumber gambar anime/ilustrasi menggunakan SauceNAO (kirim/reply gambar)"
+    "id": "Cari sumber gambar anime/ilustrasi menggunakan SauceNAO (kirim/reply gambar)",
+    "en": "Find anime/illustration image source using SauceNAO (send/reply image)"
   },
   "usage": "SauceNAO",
   "examples": [
@@ -60,7 +60,7 @@
   },
   "source": {
     "file": "internal/plugins/search",
-    "line": 96
+    "line": 101
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }

@@ -1,0 +1,75 @@
+{
+  "name": "WhatAnime",
+  "commands": [
+    "whatanime",
+    "wait",
+    "trace"
+  ],
+  "aliases": [],
+  "display": [
+    "WhatAnime"
+  ],
+  "category": "search",
+  "categories": [
+    "search"
+  ],
+  "tags": [
+    "whatanime",
+    "wait",
+    "trace"
+  ],
+  "description": {
+    "id": "Cari judul anime berdasarkan potongan gambar atau video (kirim/reply gambar atau video)",
+    "en": "Search anime title by image or video frame (send/reply image or video)"
+  },
+  "usage": "WhatAnime",
+  "examples": [
+    "whatanime"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "newsletter": true,
+    "private": true,
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "specialLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": true,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/search",
+    "line": 145
+  },
+  "lastUpdated": "2026-10-12T00:55:40Z"
+}

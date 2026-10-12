@@ -1,6 +1,17 @@
 {
   "commands": [
     {
+      "name": "CapCut",
+      "description": "Download template video from CapCut",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "capcut",
+        "ccdl",
+        "capcutdl"
+      ]
+    },
+    {
       "name": "DownloadStickerPack",
       "description": "Download a WhatsApp sticker pack message as a ZIP file",
       "permissions": {},
@@ -31,6 +42,37 @@
       ]
     },
     {
+      "name": "GDrive",
+      "description": "Download Google Drive files and upload media to storage (upload: Developer only)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "gdrive",
+        "gdrivedl",
+        "gd"
+      ]
+    },
+    {
+      "name": "Gist",
+      "description": "Download files and code from GitHub Gist",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "gist",
+        "gistdl"
+      ]
+    },
+    {
+      "name": "Gofile",
+      "description": "Download files and folders from GoFile",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "gofile",
+        "gofiledl"
+      ]
+    },
+    {
       "name": "Instagram",
       "description": "Download photo/video from Instagram",
       "permissions": {},
@@ -39,6 +81,27 @@
         "instagram",
         "igdl",
         "ig"
+      ]
+    },
+    {
+      "name": "MediaFire",
+      "description": "Download file from MediaFire",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "mediafire",
+        "mfdl"
+      ]
+    },
+    {
+      "name": "Pastebin",
+      "description": "Download text and code from Pastebin",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "pastebin",
+        "pbindl",
+        "pastebindl"
       ]
     },
     {
@@ -51,6 +114,17 @@
         "pinterestdl",
         "pindl",
         "ptdl"
+      ]
+    },
+    {
+      "name": "PixelDrain",
+      "description": "Download files and albums from Pixeldrain",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "pixeldrain",
+        "pdl",
+        "pixeldraindl"
       ]
     },
     {

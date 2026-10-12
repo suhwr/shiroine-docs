@@ -7,6 +7,12 @@
       "icon": "cpu"
     },
     {
+      "id": "animanga",
+      "name": "Anime & Manga",
+      "description": "Search anime streaming, episodes, manga chapters, and character information.",
+      "icon": "tv"
+    },
+    {
       "id": "bot",
       "name": "Bot Utilities",
       "description": "General bot settings and diagnostic tools.",
@@ -62,9 +68,9 @@
     },
     {
       "id": "music",
-      "name": "Music",
-      "description": "Music commands.",
-      "icon": "box"
+      "name": "Music & Audio",
+      "description": "Search, play, and download songs or albums from Spotify and music platforms.",
+      "icon": "music"
     },
     {
       "id": "owner",
@@ -86,21 +92,21 @@
     },
     {
       "id": "store",
-      "name": "Store",
-      "description": "Store commands.",
-      "icon": "box"
+      "name": "Store & Catalog",
+      "description": "Browse official product catalogs, check stocks, and place orders.",
+      "icon": "shopping-bag"
     },
     {
       "id": "store_admin",
-      "name": "Store_admin",
-      "description": "Store_admin commands.",
-      "icon": "box"
+      "name": "Store Admin",
+      "description": "Store staff tools to manage orders, invoices, processing, and sales recaps.",
+      "icon": "clipboard-list"
     },
     {
       "id": "store_owner",
-      "name": "Store_owner",
-      "description": "Store_owner commands.",
-      "icon": "box"
+      "name": "Store Owner",
+      "description": "Store owner tools to manage products, staff permissions, and store settings.",
+      "icon": "store"
     },
     {
       "id": "tools",

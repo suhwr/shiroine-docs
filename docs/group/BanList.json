@@ -16,8 +16,8 @@
     "banlist"
   ],
   "description": {
-    "id": "Tampilkan daftar entitas yang diban berdasarkan kategori",
-    "en": "Show list of banned entities by category"
+    "en": "Show list of banned entities by category",
+    "id": "Tampilkan daftar entitas yang diban berdasarkan kategori"
   },
   "usage": "BanList",
   "examples": [
@@ -72,5 +72,5 @@
     "file": "internal/plugins/group",
     "line": 271
   },
-  "lastUpdated": "2026-10-10T08:33:00Z"
+  "lastUpdated": "2026-10-12T00:55:40Z"
 }
