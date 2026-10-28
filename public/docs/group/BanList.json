@@ -16,8 +16,8 @@
     "banlist"
   ],
   "description": {
-    "en": "Show list of banned entities by category",
-    "id": "Tampilkan daftar entitas yang diban berdasarkan kategori"
+    "id": "Tampilkan daftar entitas yang diban berdasarkan kategori",
+    "en": "Show list of banned entities by category"
   },
   "usage": "BanList",
   "examples": [
@@ -37,10 +37,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "private": true,
-    "group": true,
     "group_community": true,
-    "newsletter": true
+    "newsletter": true,
+    "private": true,
+    "group": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -50,7 +50,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -72,5 +71,5 @@
     "file": "internal/plugins/group",
     "line": 271
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:42Z"
 }

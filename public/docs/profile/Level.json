@@ -15,8 +15,8 @@
     "level"
   ],
   "description": {
-    "id": "Lihat level dan XP kamu atau user lain",
-    "en": "View your or another user's level and XP"
+    "en": "View your or another user's level and XP",
+    "id": "Lihat level dan XP kamu atau user lain"
   },
   "usage": "Level",
   "examples": [
@@ -37,7 +37,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -57,7 +56,7 @@
   },
   "source": {
     "file": "internal/plugins/profile",
-    "line": 392
+    "line": 436
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:42Z"
 }

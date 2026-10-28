@@ -1,6 +1,17 @@
 {
   "commands": [
     {
+      "name": "AniList",
+      "description": "Search anime/manga info and scores on AniList GraphQL",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "anilist",
+        "al",
+        "almanga"
+      ]
+    },
+    {
       "name": "Anime",
       "description": "Search and get anime streaming players and download mirror links",
       "permissions": {},
@@ -12,7 +23,32 @@
         "otakudesu",
         "kuronime",
         "animasu",
-        "sokuja"
+        "sokuja",
+        "alqanime",
+        "kuramanime"
+      ]
+    },
+    {
+      "name": "Character",
+      "description": "Search anime/manga character profile and photo",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "karakter",
+        "char",
+        "character"
+      ]
+    },
+    {
+      "name": "JadwalAnime",
+      "description": "View ongoing anime release schedule for today or specific day",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "jadwalanime",
+        "schedule",
+        "airing",
+        "jadwal"
       ]
     },
     {
@@ -29,6 +65,39 @@
         "kiryuu",
         "westmanga",
         "bacakomik"
+      ]
+    },
+    {
+      "name": "MyAnimeList",
+      "description": "Search anime/manga info and scores on MyAnimeList",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "mal",
+        "myanimelist",
+        "malmanga"
+      ]
+    },
+    {
+      "name": "SauceNAO",
+      "description": "Find anime/illustration image source using SauceNAO (send/reply image)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "saucenao",
+        "sauce",
+        "source"
+      ]
+    },
+    {
+      "name": "WhatAnime",
+      "description": "Search anime title by image or video frame (send/reply image or video)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "whatanime",
+        "wait",
+        "trace"
       ]
     }
   ]

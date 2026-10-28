@@ -32,8 +32,8 @@
     "group_community"
   ],
   "chatTypes": {
-    "group_community": true,
-    "group": true
+    "group": true,
+    "group_community": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -43,7 +43,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -65,5 +64,5 @@
     "file": "internal/plugins/game",
     "line": 707
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:41Z"
 }

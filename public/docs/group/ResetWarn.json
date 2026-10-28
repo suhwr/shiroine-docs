@@ -17,8 +17,8 @@
     "clearwarn"
   ],
   "description": {
-    "en": "Reset all warnings for a group member",
-    "id": "Reset seluruh catatan peringatan anggota"
+    "id": "Reset seluruh catatan peringatan anggota",
+    "en": "Reset all warnings for a group member"
   },
   "usage": "ResetWarn",
   "examples": [
@@ -32,8 +32,8 @@
     "group_community"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true
+    "group_community": true,
+    "group": true
   },
   "permissions": {
     "admin": true,
@@ -46,7 +46,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -66,7 +65,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 299
+    "line": 304
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:42Z"
 }

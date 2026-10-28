@@ -7,7 +7,9 @@
     "otakudesu",
     "kuronime",
     "animasu",
-    "sokuja"
+    "sokuja",
+    "alqanime",
+    "kuramanime"
   ],
   "aliases": [],
   "display": [
@@ -16,7 +18,9 @@
     "Otakudesu",
     "Kuronime",
     "Animasu",
-    "Sokuja"
+    "Sokuja",
+    "Alqanime",
+    "Kuramanime"
   ],
   "category": "animanga",
   "categories": [
@@ -29,17 +33,20 @@
     "otakudesu",
     "kuronime",
     "animasu",
-    "sokuja"
+    "sokuja",
+    "alqanime",
+    "kuramanime"
   ],
   "description": {
-    "en": "Search and get anime streaming players and download mirror links",
-    "id": "Cari dan dapatkan link streaming serta mirror download anime"
+    "id": "Cari dan dapatkan link streaming serta mirror download anime",
+    "en": "Search and get anime streaming players and download mirror links"
   },
   "usage": "Anime",
   "examples": [
     ".anime One Piece",
     ".samehadaku Naruto",
-    ".otakudesu",
+    ".kuramanime Bleach",
+    ".alqanime Dragon Ball",
     ".anime --provider=kuronime Bleach"
   ],
   "minArgs": 0,
@@ -55,7 +62,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -75,7 +81,7 @@
   },
   "source": {
     "file": "internal/plugins/anime",
-    "line": 419
+    "line": 526
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:41Z"
 }

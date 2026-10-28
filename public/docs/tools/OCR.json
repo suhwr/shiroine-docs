@@ -15,13 +15,19 @@
     "ocr"
   ],
   "description": {
-    "id": "Ekstrak teks dari gambar",
-    "en": "Extract text from image"
+    "id": "Ekstrak teks dari foto/stiker menggunakan OCR (model: lens, ai, local)",
+    "en": "Extract text from photo/sticker using OCR (models: lens, ai, local)"
   },
   "usage": "OCR",
   "examples": [
-    "ocr (reply gambar)",
-    "ocr (reply image)"
+    "ocr (kirim/reply gambar)",
+    "ocr lens (kirim/reply gambar)",
+    "ocr ai (kirim/reply gambar)",
+    "ocr local (kirim/reply gambar)",
+    "ocr (send/reply image)",
+    "ocr lens (send/reply image)",
+    "ocr ai (send/reply image)",
+    "ocr local (send/reply image)"
   ],
   "minArgs": 0,
   "args": {},
@@ -36,7 +42,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -56,7 +61,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 63
+    "line": 91
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:42Z"
 }

@@ -1,0 +1,81 @@
+{
+  "name": "Music & Stem Separator",
+  "commands": [
+    "separate",
+    "vocal",
+    "karaoke",
+    "acapella",
+    "pisah",
+    "music & stem separator"
+  ],
+  "aliases": [],
+  "display": [
+    "Music & Stem Separator"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "separate",
+    "vocal",
+    "karaoke",
+    "acapella",
+    "pisah",
+    "music & stem separator"
+  ],
+  "description": {
+    "id": "Pisahkan vokal, instrumen, drum, atau bass dari lagu/audio (👑 Premium).",
+    "en": "Separate vocals, instruments, drums, or bass from audio/song (👑 Premium)."
+  },
+  "usage": "Music & Stem Separator",
+  "examples": [
+    "separate (vokal + musik)",
+    "separate drum (hanya drum)",
+    "separate bass (hanya bass)",
+    "separate vocal (hanya vokal)",
+    "separate inst (hanya karaoke)",
+    "separate --all (4 trek lengkap: vokal, drum, bass, melodi)",
+    "separate (vocals + instrumental)",
+    "separate drum (drums only)",
+    "separate bass (bass only)",
+    "separate vocal (vocals only)",
+    "separate inst (karaoke only)",
+    "separate --all (4 stems: vocals, drums, bass, other)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 223
+  },
+  "lastUpdated": "2026-10-28T07:47:42Z"
+}

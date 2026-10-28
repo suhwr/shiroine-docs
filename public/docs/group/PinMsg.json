@@ -21,8 +21,8 @@
     "sematkan"
   ],
   "description": {
-    "en": "Pin message in group for 1 day, 7 days, or 30 days",
-    "id": "Sematkan pesan di grup selama 1 hari, 7 hari, atau 30 hari"
+    "id": "Sematkan pesan di grup selama 1 hari, 7 hari, atau 30 hari",
+    "en": "Pin message in group for 1 day, 7 days, or 30 days"
   },
   "usage": "PinMsg",
   "examples": [
@@ -46,8 +46,8 @@
     "group_community": true
   },
   "permissions": {
-    "admin": true,
-    "moderator": true
+    "moderator": true,
+    "admin": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -56,7 +56,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -78,5 +77,5 @@
     "file": "internal/plugins/group",
     "line": 19
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:42Z"
 }

@@ -18,8 +18,8 @@
     "ytsearch"
   ],
   "description": {
-    "en": "Search videos on YouTube",
-    "id": "Cari video di YouTube"
+    "id": "Cari video di YouTube",
+    "en": "Search videos on YouTube"
   },
   "usage": "YtSearch",
   "examples": [
@@ -40,7 +40,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -62,5 +61,5 @@
     "file": "internal/plugins/youtube",
     "line": 119
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:42Z"
 }

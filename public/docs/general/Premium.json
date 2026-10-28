@@ -19,8 +19,8 @@
     "buypremium"
   ],
   "description": {
-    "en": "Buy premium using payment gateway",
-    "id": "Beli premium menggunakan payment gateway"
+    "id": "Beli premium menggunakan payment gateway",
+    "en": "Buy premium using payment gateway"
   },
   "usage": "Premium",
   "examples": [
@@ -40,7 +40,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": true,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -60,7 +59,7 @@
   },
   "source": {
     "file": "internal/plugins/general",
-    "line": 557
+    "line": 553
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:41Z"
 }

@@ -1,0 +1,73 @@
+{
+  "name": "VideoHD",
+  "commands": [
+    "videohd",
+    "hdvid",
+    "vhd",
+    "upscalevid",
+    "upscalevideo",
+    "hdvideo"
+  ],
+  "aliases": [],
+  "display": [
+    "VideoHD"
+  ],
+  "category": "ai",
+  "categories": [
+    "ai"
+  ],
+  "tags": [
+    "videohd",
+    "hdvid",
+    "vhd",
+    "upscalevid",
+    "upscalevideo",
+    "hdvideo"
+  ],
+  "description": {
+    "id": "Tingkatkan resolusi & kejernihan video dengan AI (720P, 1080P, 2K, 4K & FlashVSR)",
+    "en": "Enhance video resolution and clarity with AI (720P, 1080P, 2K, 4K & FlashVSR)"
+  },
+  "usage": "VideoHD",
+  "examples": [
+    "hdvid (reply video)",
+    "hdvid --flashvsr (reply video)",
+    "hdvid --4k (reply video)",
+    "hdvid --dur=5 (reply video)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/ai",
+    "line": 413
+  },
+  "lastUpdated": "2026-10-28T07:47:41Z"
+}

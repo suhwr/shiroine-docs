@@ -48,6 +48,15 @@
       ]
     },
     {
+      "name": "LinkAccount",
+      "description": "Link WhatsApp account to Shiroine website account",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "linkaccount"
+      ]
+    },
+    {
       "name": "Profile",
       "description": "View user profile",
       "permissions": {},
@@ -105,6 +114,16 @@
       "tags": [
         "setprefix",
         "set-prefix"
+      ]
+    },
+    {
+      "name": "Web Login",
+      "description": "Generate a 6-digit code to log in to Shiroine and Prism dashboard.",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "weblogin",
+        "web login"
       ]
     }
   ]

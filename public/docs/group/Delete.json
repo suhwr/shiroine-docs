@@ -37,9 +37,9 @@
     "group_community"
   ],
   "chatTypes": {
-    "private": true,
     "group": true,
-    "group_community": true
+    "group_community": true,
+    "private": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -49,7 +49,6 @@
   "delaySeconds": 0,
   "ignoreQueue": true,
   "disableProcessLimit": true,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -69,7 +68,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 188
+    "line": 196
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:42Z"
 }

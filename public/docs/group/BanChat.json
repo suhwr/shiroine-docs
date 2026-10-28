@@ -25,8 +25,8 @@
     "ban-grup"
   ],
   "description": {
-    "id": "Ban grup dari seluruh sesi bot yang kamu miliki",
-    "en": "Ban group across all bot sessions you own"
+    "id": "Memblokir bot dari merespons di grup tertentu secara selektif atau keseluruhan",
+    "en": "Ban bot from responding in specific groups selectively or globally"
   },
   "usage": "BanChat",
   "examples": [
@@ -35,6 +35,8 @@
     "bangrup Pelanggaran",
     "bangc 120363xxx@g.us",
     "bangc --list",
+    "bangc --all",
+    "bangc --bot 1,2",
     "bangrup Violation"
   ],
   "minArgs": 0,
@@ -46,9 +48,9 @@
     "group_community"
   ],
   "chatTypes": {
+    "group_community": true,
     "private": true,
-    "group": true,
-    "group_community": true
+    "group": true
   },
   "permissions": {
     "hasbot": true
@@ -60,7 +62,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -80,7 +81,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 312
+    "line": 508
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:42Z"
 }

@@ -1,0 +1,71 @@
+{
+  "name": "JadwalAnime",
+  "commands": [
+    "jadwalanime",
+    "schedule",
+    "airing",
+    "jadwal"
+  ],
+  "aliases": [],
+  "display": [
+    "JadwalAnime"
+  ],
+  "category": "animanga",
+  "categories": [
+    "animanga"
+  ],
+  "tags": [
+    "jadwalanime",
+    "schedule",
+    "airing",
+    "jadwal"
+  ],
+  "description": {
+    "id": "Lihat jadwal rilis anime ongoing hari ini atau per hari",
+    "en": "View ongoing anime release schedule for today or specific day"
+  },
+  "usage": "JadwalAnime",
+  "examples": [
+    ".jadwalanime",
+    ".jadwalanime senin",
+    ".jadwalanime minggu",
+    ".schedule",
+    ".schedule monday",
+    ".schedule sunday"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/anime",
+    "line": 161
+  },
+  "lastUpdated": "2026-10-28T07:47:41Z"
+}

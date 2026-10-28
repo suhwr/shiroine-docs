@@ -1,0 +1,60 @@
+{
+  "name": "LinkAccount",
+  "commands": [
+    "linkaccount"
+  ],
+  "aliases": [],
+  "display": [
+    "LinkAccount"
+  ],
+  "category": "profile",
+  "categories": [
+    "profile"
+  ],
+  "tags": [
+    "linkaccount"
+  ],
+  "description": {
+    "id": "Menghubungkan akun WhatsApp dengan akun website Shiroine",
+    "en": "Link WhatsApp account to Shiroine website account"
+  },
+  "usage": "LinkAccount",
+  "examples": [
+    "linkaccount"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": true,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/profile",
+    "line": 185
+  },
+  "lastUpdated": "2026-10-28T07:47:42Z"
+}

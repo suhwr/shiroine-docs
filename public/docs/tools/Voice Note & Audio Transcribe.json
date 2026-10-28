@@ -1,0 +1,78 @@
+{
+  "name": "Voice Note & Audio Transcribe",
+  "commands": [
+    "transcribe",
+    "whisper",
+    "stt",
+    "teks",
+    "voice note & audio transcribe"
+  ],
+  "aliases": [],
+  "display": [
+    "Voice Note & Audio Transcribe"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "transcribe",
+    "whisper",
+    "stt",
+    "teks",
+    "voice note & audio transcribe"
+  ],
+  "description": {
+    "id": "Transkrip audio, lagu, atau voice note WhatsApp menjadi teks menggunakan OpenAI Whisper.",
+    "en": "Transcribe audio, song, or WhatsApp voice notes into text using OpenAI Whisper."
+  },
+  "usage": "Voice Note & Audio Transcribe",
+  "examples": [
+    "transcribe (reply VN / audio)",
+    "transcribe --lrc (mode lirik LRC bertimestamp)",
+    "transcribe --time (mode rentang waktu per baris)",
+    "transcribe --ja --roman (bahasa Jepang ke Romaji)",
+    "transcribe --lrc --roman (lirik LRC Romaji)",
+    "transcribe --prompt=\"Lirik lagu pop:\"",
+    "transcribe --lrc (LRC timestamped lyrics mode)",
+    "transcribe --time (timestamp range per line)",
+    "transcribe --ja --roman (Japanese to Romaji)",
+    "transcribe --lrc --roman (LRC lyrics in Romaji)",
+    "transcribe --prompt=\"Pop song lyrics:\""
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 254
+  },
+  "lastUpdated": "2026-10-28T07:47:42Z"
+}

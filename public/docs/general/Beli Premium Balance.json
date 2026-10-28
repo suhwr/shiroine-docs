@@ -1,0 +1,69 @@
+{
+  "name": "Beli Premium Balance",
+  "commands": [
+    "buyprem",
+    "shopprem",
+    "belipremium",
+    "shop",
+    "beli premium balance"
+  ],
+  "aliases": [],
+  "display": [
+    "Beli Premium Balance"
+  ],
+  "category": "general",
+  "categories": [
+    "general"
+  ],
+  "tags": [
+    "buyprem",
+    "shopprem",
+    "belipremium",
+    "shop",
+    "beli premium balance"
+  ],
+  "description": {
+    "id": "Beli paket premium langganan via saldo balance dengan diskon 5%",
+    "en": "Purchase premium subscription using balance with 5% discount"
+  },
+  "usage": "Beli Premium Balance",
+  "examples": [
+    "buyprem",
+    "buyprem 1"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": true,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/general",
+    "line": 480
+  },
+  "lastUpdated": "2026-10-28T07:47:41Z"
+}

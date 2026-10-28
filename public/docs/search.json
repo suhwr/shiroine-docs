@@ -55,6 +55,20 @@
       ]
     },
     {
+      "name": "Imagine",
+      "aliases": [],
+      "category": "ai",
+      "path": "/commands/ai/Imagine",
+      "tags": [
+        "imagine",
+        "txt2img",
+        "aiimg",
+        "imagegen",
+        "draw",
+        "buatgambar"
+      ]
+    },
+    {
       "name": "JadiAnime",
       "aliases": [],
       "category": "ai",
@@ -85,12 +99,15 @@
       ]
     },
     {
-      "name": "LLM",
+      "name": "JobId",
       "aliases": [],
       "category": "ai",
-      "path": "/commands/ai/LLM",
+      "path": "/commands/ai/JobId",
       "tags": [
-        "llm"
+        "jobid",
+        "getjob",
+        "cekjob",
+        "jobstatus"
       ]
     },
     {
@@ -115,6 +132,60 @@
       ]
     },
     {
+      "name": "Router AI",
+      "aliases": [],
+      "category": "ai",
+      "path": "/commands/ai/Router AI",
+      "tags": [
+        "llm",
+        "router ai"
+      ]
+    },
+    {
+      "name": "Txt2Vid",
+      "aliases": [],
+      "category": "ai",
+      "path": "/commands/ai/Txt2Vid",
+      "tags": [
+        "txt2vid",
+        "video",
+        "aivideo",
+        "aivid",
+        "videogen",
+        "img2vid",
+        "buatvideo",
+        "veo",
+        "minimax",
+        "wan",
+        "seedance"
+      ]
+    },
+    {
+      "name": "VideoHD",
+      "aliases": [],
+      "category": "ai",
+      "path": "/commands/ai/VideoHD",
+      "tags": [
+        "videohd",
+        "hdvid",
+        "vhd",
+        "upscalevid",
+        "upscalevideo",
+        "hdvideo"
+      ]
+    },
+    {
+      "name": "AniList",
+      "aliases": [],
+      "category": "animanga",
+      "path": "/commands/animanga/AniList",
+      "tags": [
+        "anilist",
+        "al",
+        "almanga"
+      ]
+    },
+    {
       "name": "Anime",
       "aliases": [],
       "category": "animanga",
@@ -126,7 +197,32 @@
         "otakudesu",
         "kuronime",
         "animasu",
-        "sokuja"
+        "sokuja",
+        "alqanime",
+        "kuramanime"
+      ]
+    },
+    {
+      "name": "Character",
+      "aliases": [],
+      "category": "animanga",
+      "path": "/commands/animanga/Character",
+      "tags": [
+        "karakter",
+        "char",
+        "character"
+      ]
+    },
+    {
+      "name": "JadwalAnime",
+      "aliases": [],
+      "category": "animanga",
+      "path": "/commands/animanga/JadwalAnime",
+      "tags": [
+        "jadwalanime",
+        "schedule",
+        "airing",
+        "jadwal"
       ]
     },
     {
@@ -143,6 +239,39 @@
         "kiryuu",
         "westmanga",
         "bacakomik"
+      ]
+    },
+    {
+      "name": "MyAnimeList",
+      "aliases": [],
+      "category": "animanga",
+      "path": "/commands/animanga/MyAnimeList",
+      "tags": [
+        "mal",
+        "myanimelist",
+        "malmanga"
+      ]
+    },
+    {
+      "name": "SauceNAO",
+      "aliases": [],
+      "category": "animanga",
+      "path": "/commands/animanga/SauceNAO",
+      "tags": [
+        "saucenao",
+        "sauce",
+        "source"
+      ]
+    },
+    {
+      "name": "WhatAnime",
+      "aliases": [],
+      "category": "animanga",
+      "path": "/commands/animanga/WhatAnime",
+      "tags": [
+        "whatanime",
+        "wait",
+        "trace"
       ]
     },
     {
@@ -720,6 +849,17 @@
       "path": "/commands/developer/Swap",
       "tags": [
         "swap"
+      ]
+    },
+    {
+      "name": "SyncPersona",
+      "aliases": [],
+      "category": "developer",
+      "path": "/commands/developer/SyncPersona",
+      "tags": [
+        "syncpersona",
+        "reloadpersona",
+        "personasupdate"
       ]
     },
     {
@@ -1965,6 +2105,33 @@
       ]
     },
     {
+      "name": "Batal Pembayaran",
+      "aliases": [],
+      "category": "general",
+      "path": "/commands/general/Batal Pembayaran",
+      "tags": [
+        "batal",
+        "cancel",
+        "batalorder",
+        "cancelorder",
+        "batalbayar",
+        "batal pembayaran"
+      ]
+    },
+    {
+      "name": "Beli Premium Balance",
+      "aliases": [],
+      "category": "general",
+      "path": "/commands/general/Beli Premium Balance",
+      "tags": [
+        "buyprem",
+        "shopprem",
+        "belipremium",
+        "shop",
+        "beli premium balance"
+      ]
+    },
+    {
       "name": "CekBenefit",
       "aliases": [],
       "category": "general",
@@ -2030,6 +2197,21 @@
       ]
     },
     {
+      "name": "Mutasi Balance",
+      "aliases": [],
+      "category": "general",
+      "path": "/commands/general/Mutasi Balance",
+      "tags": [
+        "mutasi",
+        "mutasibalance",
+        "balancehistory",
+        "history",
+        "riwayat",
+        "historybalance",
+        "mutasi balance"
+      ]
+    },
+    {
       "name": "NSFW",
       "aliases": [],
       "category": "general",
@@ -2088,12 +2270,36 @@
       ]
     },
     {
+      "name": "Saldo Balance",
+      "aliases": [],
+      "category": "general",
+      "path": "/commands/general/Saldo Balance",
+      "tags": [
+        "saldo",
+        "balance",
+        "saldobilling",
+        "saldo balance"
+      ]
+    },
+    {
       "name": "Top",
       "aliases": [],
       "category": "general",
       "path": "/commands/general/Top",
       "tags": [
         "top"
+      ]
+    },
+    {
+      "name": "Top Up Balance",
+      "aliases": [],
+      "category": "general",
+      "path": "/commands/general/Top Up Balance",
+      "tags": [
+        "topup",
+        "topupbalance",
+        "topupsaldo",
+        "top up balance"
       ]
     },
     {
@@ -3102,6 +3308,15 @@
       ]
     },
     {
+      "name": "LinkAccount",
+      "aliases": [],
+      "category": "profile",
+      "path": "/commands/profile/LinkAccount",
+      "tags": [
+        "linkaccount"
+      ]
+    },
+    {
       "name": "Profile",
       "aliases": [],
       "category": "profile",
@@ -3162,6 +3377,16 @@
       ]
     },
     {
+      "name": "Web Login",
+      "aliases": [],
+      "category": "profile",
+      "path": "/commands/profile/Web Login",
+      "tags": [
+        "weblogin",
+        "web login"
+      ]
+    },
+    {
       "name": "Google",
       "aliases": [],
       "category": "search",
@@ -3213,17 +3438,6 @@
       ]
     },
     {
-      "name": "SauceNAO",
-      "aliases": [],
-      "category": "search",
-      "path": "/commands/search/SauceNAO",
-      "tags": [
-        "saucenao",
-        "sauce",
-        "source"
-      ]
-    },
-    {
       "name": "Wallhaven",
       "aliases": [],
       "category": "search",
@@ -3231,17 +3445,6 @@
       "tags": [
         "wallhaven",
         "wh"
-      ]
-    },
-    {
-      "name": "WhatAnime",
-      "aliases": [],
-      "category": "search",
-      "path": "/commands/search/WhatAnime",
-      "tags": [
-        "whatanime",
-        "wait",
-        "trace"
       ]
     },
     {
@@ -3286,6 +3489,19 @@
         "store",
         "list",
         "produk"
+      ]
+    },
+    {
+      "name": "Order OTP & Nokos",
+      "aliases": [],
+      "category": "store",
+      "path": "/commands/store/Order OTP & Nokos",
+      "tags": [
+        "orderotp",
+        "ordernokos",
+        "nokos",
+        "otp",
+        "order otp & nokos"
       ]
     },
     {
@@ -3706,6 +3922,16 @@
       ]
     },
     {
+      "name": "Cuaca",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/Cuaca",
+      "tags": [
+        "cuaca",
+        "weather"
+      ]
+    },
+    {
       "name": "Decode",
       "aliases": [],
       "category": "tools",
@@ -3803,6 +4029,16 @@
       "path": "/commands/tools/Flip",
       "tags": [
         "flip"
+      ]
+    },
+    {
+      "name": "Gempa",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/Gempa",
+      "tags": [
+        "gempa",
+        "infogempa"
       ]
     },
     {
@@ -3970,6 +4206,20 @@
       "tags": [
         "mediaquality",
         "mq"
+      ]
+    },
+    {
+      "name": "Music & Stem Separator",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/Music & Stem Separator",
+      "tags": [
+        "separate",
+        "vocal",
+        "karaoke",
+        "acapella",
+        "pisah",
+        "music & stem separator"
       ]
     },
     {
@@ -4393,6 +4643,19 @@
         "upscale",
         "remini",
         "hd"
+      ]
+    },
+    {
+      "name": "Voice Note & Audio Transcribe",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/Voice Note & Audio Transcribe",
+      "tags": [
+        "transcribe",
+        "whisper",
+        "stt",
+        "teks",
+        "voice note & audio transcribe"
       ]
     },
     {

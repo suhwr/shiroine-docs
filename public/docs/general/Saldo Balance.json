@@ -1,0 +1,67 @@
+{
+  "name": "Saldo Balance",
+  "commands": [
+    "saldo",
+    "balance",
+    "saldobilling",
+    "saldo balance"
+  ],
+  "aliases": [],
+  "display": [
+    "Saldo Balance"
+  ],
+  "category": "general",
+  "categories": [
+    "general"
+  ],
+  "tags": [
+    "saldo",
+    "balance",
+    "saldobilling",
+    "saldo balance"
+  ],
+  "description": {
+    "en": "Check your balance and digital credit status",
+    "id": "Cek saldo balance dan status kredit akun Anda"
+  },
+  "usage": "Saldo Balance",
+  "examples": [
+    "saldo",
+    "balance"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": true,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/general",
+    "line": 447
+  },
+  "lastUpdated": "2026-10-28T07:47:41Z"
+}

@@ -15,8 +15,8 @@
     "play2"
   ],
   "description": {
-    "en": "Search and play videos from YouTube",
-    "id": "Cari dan putar video dari YouTube"
+    "id": "Cari dan putar video dari YouTube",
+    "en": "Search and play videos from YouTube"
   },
   "usage": "Play2",
   "examples": [
@@ -35,7 +35,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -55,7 +54,7 @@
   },
   "source": {
     "file": "internal/plugins/youtube",
-    "line": 600
+    "line": 605
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:42Z"
 }

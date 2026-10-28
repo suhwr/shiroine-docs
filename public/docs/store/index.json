@@ -25,6 +25,19 @@
       ]
     },
     {
+      "name": "Order OTP & Nokos",
+      "description": "Order OTP and virtual numbers via WhatsApp Webview dashboard.",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "orderotp",
+        "ordernokos",
+        "nokos",
+        "otp",
+        "order otp & nokos"
+      ]
+    },
+    {
       "name": "Pay",
       "description": "View store bank accounts and payment methods",
       "permissions": {},

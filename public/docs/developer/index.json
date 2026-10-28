@@ -52,9 +52,9 @@
       "name": "BanMedia",
       "description": "Flag media as NSFW — instantly blocked in all groups",
       "permissions": {
+        "moderator": true,
         "owner": true,
-        "subowner": true,
-        "moderator": true
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -221,9 +221,9 @@
       "name": "HardUnban",
       "description": "Unban user from global ban list",
       "permissions": {
-        "owner": true,
         "moderator": true,
-        "subowner": true
+        "subowner": true,
+        "owner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -330,6 +330,19 @@
       "premiumOnly": "",
       "tags": [
         "swap"
+      ]
+    },
+    {
+      "name": "SyncPersona",
+      "description": "Sync persona database from GitHub and hot-reload without restart",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "syncpersona",
+        "reloadpersona",
+        "personasupdate"
       ]
     },
     {

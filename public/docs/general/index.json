@@ -10,6 +10,33 @@
       ]
     },
     {
+      "name": "Batal Pembayaran",
+      "description": "Cancel active QRIS payment transaction and delete QR image",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "batal",
+        "cancel",
+        "batalorder",
+        "cancelorder",
+        "batalbayar",
+        "batal pembayaran"
+      ]
+    },
+    {
+      "name": "Beli Premium Balance",
+      "description": "Purchase premium subscription using balance with 5% discount",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "buyprem",
+        "shopprem",
+        "belipremium",
+        "shop",
+        "beli premium balance"
+      ]
+    },
+    {
       "name": "CekBenefit",
       "description": "View all benefits of becoming premium",
       "permissions": {},
@@ -75,6 +102,21 @@
       ]
     },
     {
+      "name": "Mutasi Balance",
+      "description": "View balance ledger mutation history",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "mutasi",
+        "mutasibalance",
+        "balancehistory",
+        "history",
+        "riwayat",
+        "historybalance",
+        "mutasi balance"
+      ]
+    },
+    {
       "name": "NSFW",
       "description": "Toggle NSFW mode (in group: admin only, in private: bot only)",
       "permissions": {},
@@ -133,12 +175,36 @@
       ]
     },
     {
+      "name": "Saldo Balance",
+      "description": "Check your balance and digital credit status",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "saldo",
+        "balance",
+        "saldobilling",
+        "saldo balance"
+      ]
+    },
+    {
       "name": "Top",
       "description": "View bot leaderboard/top rank by level, chat, command, or AFK duration",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
         "top"
+      ]
+    },
+    {
+      "name": "Top Up Balance",
+      "description": "Top up your balance using instant QRIS",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "topup",
+        "topupbalance",
+        "topupsaldo",
+        "top up balance"
       ]
     }
   ]

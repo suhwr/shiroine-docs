@@ -17,8 +17,8 @@
     "gistdl"
   ],
   "description": {
-    "en": "Download files and code from GitHub Gist",
-    "id": "Download file dan kode dari GitHub Gist"
+    "id": "Download file dan kode dari GitHub Gist",
+    "en": "Download files and code from GitHub Gist"
   },
   "usage": "Gist",
   "examples": [
@@ -47,7 +47,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": true,
   "disabled": false,
@@ -69,5 +68,5 @@
     "file": "internal/plugins/downloader",
     "line": 88
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:41Z"
 }

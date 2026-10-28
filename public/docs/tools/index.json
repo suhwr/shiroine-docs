@@ -224,6 +224,16 @@
       ]
     },
     {
+      "name": "Cuaca",
+      "description": "Official weather forecast for Indonesian regions from BMKG based on city/regency name or ADM4 code",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "cuaca",
+        "weather"
+      ]
+    },
+    {
       "name": "Decode",
       "description": "Decode text from various formats (base64, hex, morse, etc)",
       "permissions": {},
@@ -321,6 +331,16 @@
       "premiumOnly": "",
       "tags": [
         "flip"
+      ]
+    },
+    {
+      "name": "Gempa",
+      "description": "Official latest earthquake information from BMKG with shakemap image",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "gempa",
+        "infogempa"
       ]
     },
     {
@@ -491,6 +511,20 @@
       ]
     },
     {
+      "name": "Music & Stem Separator",
+      "description": "Separate vocals, instruments, drums, or bass from audio/song (👑 Premium).",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "separate",
+        "vocal",
+        "karaoke",
+        "acapella",
+        "pisah",
+        "music & stem separator"
+      ]
+    },
+    {
       "name": "Nightcore",
       "description": "Convert audio to nightcore style",
       "permissions": {},
@@ -501,7 +535,7 @@
     },
     {
       "name": "OCR",
-      "description": "Extract text from image",
+      "description": "Extract text from photo/sticker using OCR (models: lens, ai, local)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -733,7 +767,7 @@
     },
     {
       "name": "Sticker",
-      "description": "Create a sticker from an image, video, sticker, or ZIP file sent or replied to. Supports shape modes (--circle, --round), crop modes (--crop, --full, --smart), framerate (-fps=1-60, -fps auto), direct send (--direct), and custom metadata (--null, --avatar, --ai, --premium).",
+      "description": "Create a sticker from an image, video, sticker, or ZIP file sent or replied to. Supports shape modes (--circle, --round), crop modes (--crop, --full, --smart), framerate (-fps=1-60, -fps auto), native aspect ratio without padding (--direct), and custom metadata (--null, --avatar, --ai, --premium).",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -911,6 +945,19 @@
         "upscale",
         "remini",
         "hd"
+      ]
+    },
+    {
+      "name": "Voice Note & Audio Transcribe",
+      "description": "Transcribe audio, song, or WhatsApp voice notes into text using OpenAI Whisper.",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "transcribe",
+        "whisper",
+        "stt",
+        "teks",
+        "voice note & audio transcribe"
       ]
     },
     {

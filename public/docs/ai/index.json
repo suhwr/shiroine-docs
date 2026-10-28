@@ -55,6 +55,20 @@
       ]
     },
     {
+      "name": "Imagine",
+      "description": "Generate AI images (Default: Grok Imagine, GPT Image, Nano Banana)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "imagine",
+        "txt2img",
+        "aiimg",
+        "imagegen",
+        "draw",
+        "buatgambar"
+      ]
+    },
+    {
       "name": "JadiAnime",
       "description": "Convert photo to anime style using AI",
       "permissions": {},
@@ -85,12 +99,15 @@
       ]
     },
     {
-      "name": "LLM",
-      "description": "Select AI model to use",
+      "name": "JobId",
+      "description": "Check the status of an ongoing AI video job",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "llm"
+        "jobid",
+        "getjob",
+        "cekjob",
+        "jobstatus"
       ]
     },
     {
@@ -112,6 +129,49 @@
         "reset-ai-group",
         "resetaigroup",
         "resetaigrup"
+      ]
+    },
+    {
+      "name": "Router AI",
+      "description": "Select AI router based on capabilities and advantages",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "llm",
+        "router ai"
+      ]
+    },
+    {
+      "name": "Txt2Vid",
+      "description": "Generate AI videos (Google Veo, MiniMax, Wan, SeaDance, Grok)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "txt2vid",
+        "video",
+        "aivideo",
+        "aivid",
+        "videogen",
+        "img2vid",
+        "buatvideo",
+        "veo",
+        "minimax",
+        "wan",
+        "seedance"
+      ]
+    },
+    {
+      "name": "VideoHD",
+      "description": "Enhance video resolution and clarity with AI (720P, 1080P, 2K, 4K & FlashVSR)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "videohd",
+        "hdvid",
+        "vhd",
+        "upscalevid",
+        "upscalevideo",
+        "hdvideo"
       ]
     }
   ]
