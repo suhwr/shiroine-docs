@@ -25,8 +25,8 @@
     "unban-grup"
   ],
   "description": {
-    "id": "Cabut ban grup dari seluruh sesi bot yang kamu miliki",
-    "en": "Unban group across all bot sessions you own"
+    "id": "Mencabut blokir bot pada grup tertentu secara selektif atau keseluruhan",
+    "en": "Unban bot response in specific groups selectively or globally"
   },
   "usage": "UnbanChat",
   "examples": [
@@ -34,7 +34,9 @@
     "unbangc",
     "unbangrup",
     "unbangc 120363xxx@g.us",
-    "unbangc --list"
+    "unbangc --list",
+    "unbangc --all",
+    "unbangc --bot 1,2"
   ],
   "minArgs": 0,
   "args": {},
@@ -59,7 +61,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -79,7 +80,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 324
+    "line": 520
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:42Z"
 }

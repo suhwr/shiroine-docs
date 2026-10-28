@@ -1,0 +1,66 @@
+{
+  "name": "Character",
+  "commands": [
+    "karakter",
+    "char",
+    "character"
+  ],
+  "aliases": [],
+  "display": [
+    "Character"
+  ],
+  "category": "animanga",
+  "categories": [
+    "animanga"
+  ],
+  "tags": [
+    "karakter",
+    "char",
+    "character"
+  ],
+  "description": {
+    "id": "Cari biodata dan foto karakter anime/manga",
+    "en": "Search anime/manga character profile and photo"
+  },
+  "usage": "Character",
+  "examples": [
+    ".karakter Frieren",
+    ".char Luffy",
+    ".character Gojo Satoru"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/anime",
+    "line": 144
+  },
+  "lastUpdated": "2026-10-28T07:47:41Z"
+}

@@ -17,8 +17,8 @@
     "mq"
   ],
   "description": {
-    "id": "Menganalisis spesifikasi dan kualitas dari gambar, video, atau audio",
-    "en": "Analyze specifications and quality of an image, video, or audio"
+    "en": "Analyze specifications and quality of an image, video, or audio",
+    "id": "Menganalisis spesifikasi dan kualitas dari gambar, video, atau audio"
   },
   "usage": "MediaQuality",
   "examples": [
@@ -38,7 +38,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -58,7 +57,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 200
+    "line": 176
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:42Z"
 }

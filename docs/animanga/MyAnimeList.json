@@ -1,0 +1,66 @@
+{
+  "name": "MyAnimeList",
+  "commands": [
+    "mal",
+    "myanimelist",
+    "malmanga"
+  ],
+  "aliases": [],
+  "display": [
+    "MyAnimeList"
+  ],
+  "category": "animanga",
+  "categories": [
+    "animanga"
+  ],
+  "tags": [
+    "mal",
+    "myanimelist",
+    "malmanga"
+  ],
+  "description": {
+    "id": "Cari informasi dan skor anime/manga di MyAnimeList",
+    "en": "Search anime/manga info and scores on MyAnimeList"
+  },
+  "usage": "MyAnimeList",
+  "examples": [
+    ".mal Frieren",
+    ".mal --manga One Piece",
+    ".malmanga Solo Leveling"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/anime",
+    "line": 296
+  },
+  "lastUpdated": "2026-10-28T07:47:41Z"
+}

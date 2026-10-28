@@ -17,8 +17,8 @@
     "hunban"
   ],
   "description": {
-    "id": "Unban user dari daftar ban global",
-    "en": "Unban user from global ban list"
+    "en": "Unban user from global ban list",
+    "id": "Unban user dari daftar ban global"
   },
   "usage": "HardUnban",
   "examples": [
@@ -35,10 +35,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "newsletter": true,
-    "private": true,
     "group": true,
-    "group_community": true
+    "group_community": true,
+    "newsletter": true,
+    "private": true
   },
   "permissions": {
     "moderator": true,
@@ -52,7 +52,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -72,7 +71,7 @@
   },
   "source": {
     "file": "internal/plugins/developer",
-    "line": 187
+    "line": 190
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:41Z"
 }

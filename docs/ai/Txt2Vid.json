@@ -1,30 +1,47 @@
 {
-  "name": "LLM",
+  "name": "Txt2Vid",
   "commands": [
-    "llm"
+    "txt2vid",
+    "video",
+    "aivideo",
+    "aivid",
+    "videogen",
+    "img2vid",
+    "buatvideo",
+    "veo",
+    "minimax",
+    "wan",
+    "seedance"
   ],
   "aliases": [],
   "display": [
-    "LLM"
+    "Txt2Vid"
   ],
   "category": "ai",
   "categories": [
     "ai"
   ],
   "tags": [
-    "llm"
+    "txt2vid",
+    "video",
+    "aivideo",
+    "aivid",
+    "videogen",
+    "img2vid",
+    "buatvideo",
+    "veo",
+    "minimax",
+    "wan",
+    "seedance"
   ],
   "description": {
-    "id": "Pilih model AI yang digunakan",
-    "en": "Select AI model to use"
+    "id": "Hasilkan video AI (Google Veo, MiniMax, Wan, SeaDance, Grok)",
+    "en": "Generate AI videos (Google Veo, MiniMax, Wan, SeaDance, Grok)"
   },
-  "usage": "LLM",
+  "usage": "Txt2Vid",
   "examples": [
-    "llm list",
-    "llm set gemma",
-    "llm set gpt",
-    "llm set gemini",
-    "llm set deepseek"
+    "txt2vid pemandangan matahari terbit di atas pegunungan salju",
+    "txt2vid cinematic sunrise over snowy mountains"
   ],
   "minArgs": 0,
   "args": {},
@@ -39,7 +56,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -59,7 +75,7 @@
   },
   "source": {
     "file": "internal/plugins/ai",
-    "line": 137
+    "line": 555
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:41Z"
 }

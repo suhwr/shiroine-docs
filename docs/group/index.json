@@ -16,8 +16,8 @@
       "name": "AdminOnly",
       "description": "Make the bot only respond to commands from group admins",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -29,8 +29,8 @@
       "name": "Adzan",
       "description": "Automated adzan schedule and prayer notifications for the group",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -43,8 +43,8 @@
       "name": "AntiBot",
       "description": "Enable or disable anti-bot system for the group",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -55,8 +55,8 @@
       "name": "AntiBug",
       "description": "Configure anti bug/virtex",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -103,8 +103,8 @@
       "name": "AntiMedia",
       "description": "Configure group anti-media protection for specific media types",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -140,8 +140,8 @@
       "name": "AntiSpam",
       "description": "Configure anti spam",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -187,7 +187,7 @@
     },
     {
       "name": "BanChat",
-      "description": "Ban group across all bot sessions you own",
+      "description": "Ban bot from responding in specific groups selectively or globally",
       "permissions": {
         "hasbot": true
       },
@@ -314,8 +314,8 @@
       "name": "Ephemeral",
       "description": "Configure ephemeral messages",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -396,8 +396,8 @@
       "name": "Info",
       "description": "Configure group notification",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -429,11 +429,11 @@
       "name": "LeaveGroup",
       "description": "Remove bot from group or leave groups remotely",
       "permissions": {
-        "admin": true,
-        "owner": true,
         "subowner": true,
         "bot": true,
-        "hasbot": true
+        "hasbot": true,
+        "admin": true,
+        "owner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -449,8 +449,8 @@
       "name": "Left",
       "description": "Configure left notification",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -822,7 +822,7 @@
     },
     {
       "name": "UnbanChat",
-      "description": "Unban group across all bot sessions you own",
+      "description": "Unban bot response in specific groups selectively or globally",
       "permissions": {
         "hasbot": true
       },
@@ -853,8 +853,8 @@
       "name": "UnmuteMember",
       "description": "Unmute a specific member in the group",
       "permissions": {
-        "admin": true,
-        "moderator": true
+        "moderator": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -893,8 +893,8 @@
       "name": "Warn",
       "description": "Issue a formal warning to a rule-breaking group member",
       "permissions": {
-        "admin": true,
-        "moderator": true
+        "moderator": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [

@@ -1,0 +1,70 @@
+{
+  "name": "Order OTP & Nokos",
+  "commands": [
+    "orderotp",
+    "ordernokos",
+    "nokos",
+    "otp",
+    "order otp & nokos"
+  ],
+  "aliases": [],
+  "display": [
+    "Order OTP & Nokos"
+  ],
+  "category": "store",
+  "categories": [
+    "store"
+  ],
+  "tags": [
+    "orderotp",
+    "ordernokos",
+    "nokos",
+    "otp",
+    "order otp & nokos"
+  ],
+  "description": {
+    "id": "Layanan pemesanan OTP dan Nomor Kosong (Nokos) melalui dashboard Webview WhatsApp.",
+    "en": "Order OTP and virtual numbers via WhatsApp Webview dashboard."
+  },
+  "usage": "Order OTP & Nokos",
+  "examples": [
+    "orderotp",
+    "ordernokos",
+    "nokos"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/store",
+    "line": 74
+  },
+  "lastUpdated": "2026-10-28T07:47:42Z"
+}

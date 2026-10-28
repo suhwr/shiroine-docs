@@ -21,8 +21,8 @@
     "blacklist"
   ],
   "description": {
-    "id": "Ban user dari semua bot yang kamu miliki",
-    "en": "Ban a user from all bots you own"
+    "en": "Ban a user from all bots you own",
+    "id": "Ban user dari semua bot yang kamu miliki"
   },
   "usage": "BanUser",
   "examples": [
@@ -56,7 +56,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -76,7 +75,7 @@
   },
   "source": {
     "file": "internal/plugins/developer",
-    "line": 120
+    "line": 128
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:41Z"
 }

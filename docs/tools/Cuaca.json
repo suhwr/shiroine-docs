@@ -1,31 +1,31 @@
 {
-  "name": "SauceNAO",
+  "name": "Cuaca",
   "commands": [
-    "saucenao",
-    "sauce",
-    "source"
+    "cuaca",
+    "weather"
   ],
   "aliases": [],
   "display": [
-    "SauceNAO"
+    "Cuaca"
   ],
-  "category": "search",
+  "category": "tools",
   "categories": [
-    "search"
+    "tools"
   ],
   "tags": [
-    "saucenao",
-    "sauce",
-    "source"
+    "cuaca",
+    "weather"
   ],
   "description": {
-    "id": "Cari sumber gambar anime/ilustrasi menggunakan SauceNAO (kirim/reply gambar)",
-    "en": "Find anime/illustration image source using SauceNAO (send/reply image)"
+    "id": "Prakiraan cuaca resmi wilayah Indonesia dari BMKG berdasarkan nama kota/kabupaten atau kode ADM4",
+    "en": "Official weather forecast for Indonesian regions from BMKG based on city/regency name or ADM4 code"
   },
-  "usage": "SauceNAO",
+  "usage": "Cuaca",
   "examples": [
-    "saucenao (kirim/reply gambar)",
-    "saucenao (send/reply image)"
+    "cuaca Jakarta",
+    "cuaca Bandung",
+    "cuaca Surabaya",
+    "cuaca 31.71.03.1001"
   ],
   "minArgs": 0,
   "args": {},
@@ -36,11 +36,10 @@
   "premiumOnly": "",
   "nsfwOnly": false,
   "level": 0,
-  "limitCost": 1,
+  "limitCost": 0,
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -59,8 +58,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/search",
-    "line": 101
+    "file": "internal/plugins/tools",
+    "line": 93
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:42Z"
 }

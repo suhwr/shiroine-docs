@@ -17,8 +17,8 @@
     "mfdl"
   ],
   "description": {
-    "id": "Download file dari MediaFire",
-    "en": "Download file from MediaFire"
+    "en": "Download file from MediaFire",
+    "id": "Download file dari MediaFire"
   },
   "usage": "MediaFire",
   "examples": [
@@ -34,10 +34,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true,
     "newsletter": true,
-    "private": true
+    "private": true,
+    "group": true,
+    "group_community": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -47,7 +47,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": true,
   "disabled": false,
@@ -69,5 +68,5 @@
     "file": "internal/plugins/downloader",
     "line": 100
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:41Z"
 }

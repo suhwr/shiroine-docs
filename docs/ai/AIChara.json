@@ -15,13 +15,14 @@
     "aichara"
   ],
   "description": {
-    "id": "Kelola karakter AI",
-    "en": "Manage AI character"
+    "en": "Manage AI character",
+    "id": "Kelola karakter AI"
   },
   "usage": "AIChara",
   "examples": [
     "aichara list",
-    "aichara set 100101"
+    "aichara set 100101",
+    "aichara reset"
   ],
   "minArgs": 0,
   "args": {},
@@ -36,7 +37,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -56,7 +56,7 @@
   },
   "source": {
     "file": "internal/plugins/ai",
-    "line": 159
+    "line": 367
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:41Z"
 }

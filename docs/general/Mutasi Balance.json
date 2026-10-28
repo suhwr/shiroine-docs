@@ -1,0 +1,74 @@
+{
+  "name": "Mutasi Balance",
+  "commands": [
+    "mutasi",
+    "mutasibalance",
+    "balancehistory",
+    "history",
+    "riwayat",
+    "historybalance",
+    "mutasi balance"
+  ],
+  "aliases": [],
+  "display": [
+    "Mutasi Balance"
+  ],
+  "category": "general",
+  "categories": [
+    "general"
+  ],
+  "tags": [
+    "mutasi",
+    "mutasibalance",
+    "balancehistory",
+    "history",
+    "riwayat",
+    "historybalance",
+    "mutasi balance"
+  ],
+  "description": {
+    "id": "Lihat riwayat mutasi dan transaksi saldo balance",
+    "en": "View balance ledger mutation history"
+  },
+  "usage": "Mutasi Balance",
+  "examples": [
+    "mutasi",
+    "mutasi 2",
+    "history"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": true,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/general",
+    "line": 469
+  },
+  "lastUpdated": "2026-10-28T07:47:41Z"
+}

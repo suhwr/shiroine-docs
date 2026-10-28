@@ -52,17 +52,6 @@
       ]
     },
     {
-      "name": "SauceNAO",
-      "description": "Find anime/illustration image source using SauceNAO (send/reply image)",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "saucenao",
-        "sauce",
-        "source"
-      ]
-    },
-    {
       "name": "Wallhaven",
       "description": "Search and download wallpapers from Wallhaven",
       "permissions": {},
@@ -70,17 +59,6 @@
       "tags": [
         "wallhaven",
         "wh"
-      ]
-    },
-    {
-      "name": "WhatAnime",
-      "description": "Search anime title by image or video frame (send/reply image or video)",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "whatanime",
-        "wait",
-        "trace"
       ]
     },
     {

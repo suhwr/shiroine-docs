@@ -17,8 +17,8 @@
     "banmemberlist"
   ],
   "description": {
-    "en": "Show list of members banned by bot in this group",
-    "id": "Tampilkan daftar anggota yang diblokir bot di grup ini"
+    "id": "Tampilkan daftar anggota yang diblokir bot di grup ini",
+    "en": "Show list of members banned by bot in this group"
   },
   "usage": "ListBanMember",
   "examples": [
@@ -46,7 +46,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -66,7 +65,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 447
+    "line": 321
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:42Z"
 }

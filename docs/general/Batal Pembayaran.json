@@ -1,0 +1,71 @@
+{
+  "name": "Batal Pembayaran",
+  "commands": [
+    "batal",
+    "cancel",
+    "batalorder",
+    "cancelorder",
+    "batalbayar",
+    "batal pembayaran"
+  ],
+  "aliases": [],
+  "display": [
+    "Batal Pembayaran"
+  ],
+  "category": "general",
+  "categories": [
+    "general"
+  ],
+  "tags": [
+    "batal",
+    "cancel",
+    "batalorder",
+    "cancelorder",
+    "batalbayar",
+    "batal pembayaran"
+  ],
+  "description": {
+    "id": "Batalkan transaksi pembayaran QRIS aktif dan hapus gambar QR",
+    "en": "Cancel active QRIS payment transaction and delete QR image"
+  },
+  "usage": "Batal Pembayaran",
+  "examples": [
+    "batal",
+    "cancel"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/general",
+    "line": 53
+  },
+  "lastUpdated": "2026-10-28T07:47:41Z"
+}

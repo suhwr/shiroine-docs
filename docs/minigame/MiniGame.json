@@ -15,8 +15,8 @@
     "minigame"
   ],
   "description": {
-    "id": "Mainkan koleksi minigame HTML",
-    "en": "Play HTML minigame collection"
+    "en": "Play HTML minigame collection",
+    "id": "Mainkan koleksi minigame HTML"
   },
   "usage": "MiniGame",
   "examples": [
@@ -36,7 +36,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -58,5 +57,5 @@
     "file": "internal/plugins/minigame",
     "line": 162
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:42Z"
 }

@@ -17,8 +17,8 @@
     "set-gender"
   ],
   "description": {
-    "id": "Mengatur gender profil",
-    "en": "Set profile gender"
+    "en": "Set profile gender",
+    "id": "Mengatur gender profil"
   },
   "usage": "SetGender",
   "examples": [
@@ -39,7 +39,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -59,7 +58,7 @@
   },
   "source": {
     "file": "internal/plugins/profile",
-    "line": 59
+    "line": 68
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:42Z"
 }

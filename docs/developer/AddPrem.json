@@ -22,11 +22,11 @@
   },
   "usage": "AddPrem <teks>",
   "examples": [
-    "addprem 6284xxx 15 20",
-    "addprem @user 30 50",
-    "addprem 12xxxx@g.us 7 100"
+    "addprem 6284xxx 15",
+    "addprem @user 30",
+    "addprem 12xxxx@g.us 7"
   ],
-  "minArgs": 3,
+  "minArgs": 2,
   "args": {},
   "requireMedia": [],
   "chatPermissions": [
@@ -36,10 +36,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "newsletter": true,
     "private": true,
     "group": true,
-    "group_community": true
+    "group_community": true,
+    "newsletter": true
   },
   "permissions": {
     "owner": true
@@ -51,7 +51,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -71,7 +70,7 @@
   },
   "source": {
     "file": "internal/plugins/developer",
-    "line": 203
+    "line": 199
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:41Z"
 }

@@ -15,8 +15,8 @@
     "airkiss"
   ],
   "description": {
-    "id": "Reaksi airkiss",
-    "en": "React with airkiss"
+    "en": "React with airkiss",
+    "id": "Reaksi airkiss"
   },
   "usage": "AirKiss",
   "examples": [
@@ -35,7 +35,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -57,5 +56,5 @@
     "file": "internal/plugins/fun",
     "line": 1
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:41Z"
 }

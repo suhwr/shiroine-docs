@@ -15,8 +15,8 @@
     "rot13"
   ],
   "description": {
-    "en": "Encode/decode text using rot13",
-    "id": "Encode/decode teks menggunakan rot13"
+    "id": "Encode/decode teks menggunakan rot13",
+    "en": "Encode/decode text using rot13"
   },
   "usage": "ROT13",
   "examples": [
@@ -37,7 +37,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -59,5 +58,5 @@
     "file": "internal/plugins/tools",
     "line": 1
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:42Z"
 }

@@ -1,0 +1,71 @@
+{
+  "name": "Imagine",
+  "commands": [
+    "imagine",
+    "txt2img",
+    "aiimg",
+    "imagegen",
+    "draw",
+    "buatgambar"
+  ],
+  "aliases": [],
+  "display": [
+    "Imagine"
+  ],
+  "category": "ai",
+  "categories": [
+    "ai"
+  ],
+  "tags": [
+    "imagine",
+    "txt2img",
+    "aiimg",
+    "imagegen",
+    "draw",
+    "buatgambar"
+  ],
+  "description": {
+    "id": "Hasilkan gambar AI (Default: Grok Imagine, GPT Image, Nano Banana)",
+    "en": "Generate AI images (Default: Grok Imagine, GPT Image, Nano Banana)"
+  },
+  "usage": "Imagine",
+  "examples": [
+    "imagine seekor kucing lucu",
+    "imagine a cute cat in space"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/ai",
+    "line": 248
+  },
+  "lastUpdated": "2026-10-28T07:47:41Z"
+}

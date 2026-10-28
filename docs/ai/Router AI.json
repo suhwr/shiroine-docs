@@ -1,0 +1,65 @@
+{
+  "name": "Router AI",
+  "commands": [
+    "llm",
+    "router ai"
+  ],
+  "aliases": [],
+  "display": [
+    "Router AI"
+  ],
+  "category": "ai",
+  "categories": [
+    "ai"
+  ],
+  "tags": [
+    "llm",
+    "router ai"
+  ],
+  "description": {
+    "id": "Pilih router AI sesuai kebutuhan dan keunggulannya",
+    "en": "Select AI router based on capabilities and advantages"
+  },
+  "usage": "Router AI",
+  "examples": [
+    "llm list",
+    "llm set nexus",
+    "llm set lite",
+    "llm set nebula"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/ai",
+    "line": 150
+  },
+  "lastUpdated": "2026-10-28T07:47:41Z"
+}

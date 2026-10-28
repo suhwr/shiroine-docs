@@ -57,6 +57,15 @@
     {
       "aliases": [],
       "category": "ai",
+      "name": "Imagine",
+      "path": "/commands/ai/Imagine",
+      "tags": [
+        "Imagine"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "ai",
       "name": "JadiAnime",
       "path": "/commands/ai/JadiAnime",
       "tags": [
@@ -84,10 +93,10 @@
     {
       "aliases": [],
       "category": "ai",
-      "name": "LLM",
-      "path": "/commands/ai/LLM",
+      "name": "JobId",
+      "path": "/commands/ai/JobId",
       "tags": [
-        "LLM"
+        "JobId"
       ]
     },
     {
@@ -111,10 +120,46 @@
     {
       "aliases": [],
       "category": "ai",
+      "name": "Router AI",
+      "path": "/commands/ai/Router AI",
+      "tags": [
+        "Router AI"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "ai",
+      "name": "Txt2Vid",
+      "path": "/commands/ai/Txt2Vid",
+      "tags": [
+        "Txt2Vid"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "ai",
+      "name": "VideoHD",
+      "path": "/commands/ai/VideoHD",
+      "tags": [
+        "VideoHD"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "ai",
       "name": "index",
       "path": "/commands/ai/index",
       "tags": [
         "index"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "animanga",
+      "name": "AniList",
+      "path": "/commands/animanga/AniList",
+      "tags": [
+        "AniList"
       ]
     },
     {
@@ -129,10 +174,55 @@
     {
       "aliases": [],
       "category": "animanga",
+      "name": "Character",
+      "path": "/commands/animanga/Character",
+      "tags": [
+        "Character"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "animanga",
+      "name": "JadwalAnime",
+      "path": "/commands/animanga/JadwalAnime",
+      "tags": [
+        "JadwalAnime"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "animanga",
       "name": "Manga",
       "path": "/commands/animanga/Manga",
       "tags": [
         "Manga"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "animanga",
+      "name": "MyAnimeList",
+      "path": "/commands/animanga/MyAnimeList",
+      "tags": [
+        "MyAnimeList"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "animanga",
+      "name": "SauceNAO",
+      "path": "/commands/animanga/SauceNAO",
+      "tags": [
+        "SauceNAO"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "animanga",
+      "name": "WhatAnime",
+      "path": "/commands/animanga/WhatAnime",
+      "tags": [
+        "WhatAnime"
       ]
     },
     {
@@ -664,6 +754,15 @@
       "path": "/commands/developer/Swap",
       "tags": [
         "Swap"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "developer",
+      "name": "SyncPersona",
+      "path": "/commands/developer/SyncPersona",
+      "tags": [
+        "SyncPersona"
       ]
     },
     {
@@ -1893,6 +1992,24 @@
     {
       "aliases": [],
       "category": "general",
+      "name": "Batal Pembayaran",
+      "path": "/commands/general/Batal Pembayaran",
+      "tags": [
+        "Batal Pembayaran"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "general",
+      "name": "Beli Premium Balance",
+      "path": "/commands/general/Beli Premium Balance",
+      "tags": [
+        "Beli Premium Balance"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "general",
       "name": "CekBenefit",
       "path": "/commands/general/CekBenefit",
       "tags": [
@@ -1956,6 +2073,15 @@
     {
       "aliases": [],
       "category": "general",
+      "name": "Mutasi Balance",
+      "path": "/commands/general/Mutasi Balance",
+      "tags": [
+        "Mutasi Balance"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "general",
       "name": "NSFW",
       "path": "/commands/general/NSFW",
       "tags": [
@@ -2005,6 +2131,24 @@
       "path": "/commands/general/SC",
       "tags": [
         "SC"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "general",
+      "name": "Saldo Balance",
+      "path": "/commands/general/Saldo Balance",
+      "tags": [
+        "Saldo Balance"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "general",
+      "name": "Top Up Balance",
+      "path": "/commands/general/Top Up Balance",
+      "tags": [
+        "Top Up Balance"
       ]
     },
     {
@@ -2946,6 +3090,15 @@
     {
       "aliases": [],
       "category": "profile",
+      "name": "LinkAccount",
+      "path": "/commands/profile/LinkAccount",
+      "tags": [
+        "LinkAccount"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "profile",
       "name": "Profile",
       "path": "/commands/profile/Profile",
       "tags": [
@@ -2995,6 +3148,15 @@
       "path": "/commands/profile/SetPrefix",
       "tags": [
         "SetPrefix"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "profile",
+      "name": "Web Login",
+      "path": "/commands/profile/Web Login",
+      "tags": [
+        "Web Login"
       ]
     },
     {
@@ -3054,28 +3216,10 @@
     {
       "aliases": [],
       "category": "search",
-      "name": "SauceNAO",
-      "path": "/commands/search/SauceNAO",
-      "tags": [
-        "SauceNAO"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "search",
       "name": "Wallhaven",
       "path": "/commands/search/Wallhaven",
       "tags": [
         "Wallhaven"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "search",
-      "name": "WhatAnime",
-      "path": "/commands/search/WhatAnime",
-      "tags": [
-        "WhatAnime"
       ]
     },
     {
@@ -3103,6 +3247,15 @@
       "path": "/commands/store/Catalog",
       "tags": [
         "Catalog"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "store",
+      "name": "Order OTP & Nokos",
+      "path": "/commands/store/Order OTP & Nokos",
+      "tags": [
+        "Order OTP & Nokos"
       ]
     },
     {
@@ -3486,6 +3639,15 @@
     {
       "aliases": [],
       "category": "tools",
+      "name": "Cuaca",
+      "path": "/commands/tools/Cuaca",
+      "tags": [
+        "Cuaca"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
       "name": "Decode",
       "path": "/commands/tools/Decode",
       "tags": [
@@ -3580,6 +3742,15 @@
       "path": "/commands/tools/Flip",
       "tags": [
         "Flip"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Gempa",
+      "path": "/commands/tools/Gempa",
+      "tags": [
+        "Gempa"
       ]
     },
     {
@@ -3742,6 +3913,15 @@
       "path": "/commands/tools/MediaQuality",
       "tags": [
         "MediaQuality"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Music & Stem Separator",
+      "path": "/commands/tools/Music & Stem Separator",
+      "tags": [
+        "Music & Stem Separator"
       ]
     },
     {
@@ -4129,6 +4309,15 @@
       "path": "/commands/tools/Upscaler",
       "tags": [
         "Upscaler"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "Voice Note & Audio Transcribe",
+      "path": "/commands/tools/Voice Note & Audio Transcribe",
+      "tags": [
+        "Voice Note & Audio Transcribe"
       ]
     },
     {

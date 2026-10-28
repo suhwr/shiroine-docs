@@ -15,8 +15,8 @@
     "joinreq"
   ],
   "description": {
-    "en": "Manage group member join approval requests",
-    "id": "Kelola daftar permintaan masuk (join request) anggota grup"
+    "id": "Kelola daftar permintaan masuk (join request) anggota grup",
+    "en": "Manage group member join approval requests"
   },
   "usage": "JoinReq",
   "examples": [
@@ -37,8 +37,8 @@
     "group_community"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true
+    "group_community": true,
+    "group": true
   },
   "permissions": {
     "admin": true,
@@ -51,7 +51,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -73,5 +72,5 @@
     "file": "internal/plugins/group",
     "line": 445
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:42Z"
 }

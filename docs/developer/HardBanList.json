@@ -17,8 +17,8 @@
     "hbanlist"
   ],
   "description": {
-    "en": "Show global ban list",
-    "id": "Tampilkan daftar ban global"
+    "id": "Tampilkan daftar ban global",
+    "en": "Show global ban list"
   },
   "usage": "HardBanList",
   "examples": [
@@ -34,15 +34,15 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {
-    "moderator": true,
     "subowner": true,
-    "owner": true
+    "owner": true,
+    "moderator": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -51,7 +51,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -71,7 +70,7 @@
   },
   "source": {
     "file": "internal/plugins/developer",
-    "line": 205
+    "line": 208
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:41Z"
 }

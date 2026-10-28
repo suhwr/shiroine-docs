@@ -1,0 +1,66 @@
+{
+  "name": "Top Up Balance",
+  "commands": [
+    "topup",
+    "topupbalance",
+    "topupsaldo",
+    "top up balance"
+  ],
+  "aliases": [],
+  "display": [
+    "Top Up Balance"
+  ],
+  "category": "general",
+  "categories": [
+    "general"
+  ],
+  "tags": [
+    "topup",
+    "topupbalance",
+    "topupsaldo",
+    "top up balance"
+  ],
+  "description": {
+    "id": "Top up saldo balance menggunakan QRIS instan",
+    "en": "Top up your balance using instant QRIS"
+  },
+  "usage": "Top Up Balance",
+  "examples": [
+    "topup 10000"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": true,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/general",
+    "line": 458
+  },
+  "lastUpdated": "2026-10-28T07:47:41Z"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Gempa",
+  "commands": [
+    "gempa",
+    "infogempa"
+  ],
+  "aliases": [],
+  "display": [
+    "Gempa"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "gempa",
+    "infogempa"
+  ],
+  "description": {
+    "en": "Official latest earthquake information from BMKG with shakemap image",
+    "id": "Informasi gempa bumi resmi terkini dari BMKG beserta peta guncangan (shakemap)"
+  },
+  "usage": "Gempa",
+  "examples": [
+    "gempa",
+    "gempa terkini",
+    "gempa dirasakan"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 123
+  },
+  "lastUpdated": "2026-10-28T07:47:42Z"
+}

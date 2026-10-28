@@ -1,0 +1,66 @@
+{
+  "name": "AniList",
+  "commands": [
+    "anilist",
+    "al",
+    "almanga"
+  ],
+  "aliases": [],
+  "display": [
+    "AniList"
+  ],
+  "category": "animanga",
+  "categories": [
+    "animanga"
+  ],
+  "tags": [
+    "anilist",
+    "al",
+    "almanga"
+  ],
+  "description": {
+    "id": "Cari informasi dan skor anime/manga di AniList GraphQL",
+    "en": "Search anime/manga info and scores on AniList GraphQL"
+  },
+  "usage": "AniList",
+  "examples": [
+    ".al Bocchi the Rock",
+    ".anilist Frieren",
+    ".al --manga Chainsaw Man"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/anime",
+    "line": 231
+  },
+  "lastUpdated": "2026-10-28T07:47:41Z"
+}

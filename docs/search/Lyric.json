@@ -19,8 +19,8 @@
     "lyrics"
   ],
   "description": {
-    "id": "Cari lirik lagu",
-    "en": "Search song lyrics"
+    "en": "Search song lyrics",
+    "id": "Cari lirik lagu"
   },
   "usage": "Lyric",
   "examples": [
@@ -43,7 +43,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -65,5 +64,5 @@
     "file": "internal/plugins/search",
     "line": 77
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:42Z"
 }

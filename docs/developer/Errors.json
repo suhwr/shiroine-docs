@@ -17,8 +17,8 @@
     "errlog"
   ],
   "description": {
-    "id": "Melihat log error dependency",
-    "en": "View dependency error logs"
+    "en": "View dependency error logs",
+    "id": "Melihat log error dependency"
   },
   "usage": "Errors",
   "examples": [
@@ -54,7 +54,6 @@
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
-  "specialLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -76,5 +75,5 @@
     "file": "internal/plugins/developer",
     "line": 166
   },
-  "lastUpdated": "2026-10-12T00:55:40Z"
+  "lastUpdated": "2026-10-28T07:47:41Z"
 }
