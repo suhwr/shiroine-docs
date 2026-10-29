@@ -17,8 +17,8 @@
     "setname"
   ],
   "description": {
-    "id": "Mengatur nama profil",
-    "en": "Set profile name"
+    "en": "Set profile name",
+    "id": "Mengatur nama profil"
   },
   "usage": "SetName",
   "examples": [
@@ -60,5 +60,5 @@
     "file": "internal/plugins/profile",
     "line": 69
   },
-  "lastUpdated": "2026-10-28T07:47:42Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

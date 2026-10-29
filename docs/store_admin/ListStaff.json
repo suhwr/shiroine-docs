@@ -21,8 +21,8 @@
     "daftarstaff"
   ],
   "description": {
-    "en": "View store staff list",
-    "id": "Lihat daftar staff toko"
+    "id": "Lihat daftar staff toko",
+    "en": "View store staff list"
   },
   "usage": "ListStaff",
   "examples": [
@@ -62,5 +62,5 @@
     "file": "internal/plugins/store",
     "line": 230
   },
-  "lastUpdated": "2026-10-28T07:47:42Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

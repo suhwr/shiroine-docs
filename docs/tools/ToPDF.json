@@ -19,8 +19,8 @@
     "imgtopdf"
   ],
   "description": {
-    "en": "Convert images, image ZIP archives, or image URLs into a PDF document",
-    "id": "Ubah gambar, file ZIP gambar, atau kumpulan URL gambar menjadi dokumen PDF"
+    "id": "Ubah gambar, file ZIP gambar, atau kumpulan URL gambar menjadi dokumen PDF",
+    "en": "Convert images, image ZIP archives, or image URLs into a PDF document"
   },
   "usage": "ToPDF",
   "examples": [
@@ -61,5 +61,5 @@
     "file": "internal/plugins/tools",
     "line": 490
   },
-  "lastUpdated": "2026-10-28T07:47:42Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

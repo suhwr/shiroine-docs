@@ -641,7 +641,7 @@
     },
     {
       "name": "RemoveBG",
-      "description": "Remove photo/sticker background using AI (models: aiease, pixelcut, removebg, rembg, local)",
+      "description": "Remove photo/sticker background using AI (models: pixelcut, removebg, rembg, local)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [

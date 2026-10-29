@@ -1,0 +1,72 @@
+{
+  "name": "ComfyUI Anime Art",
+  "commands": [
+    "cui",
+    "comfy",
+    "animeart",
+    "illust",
+    "waifu",
+    "comfyui anime art"
+  ],
+  "aliases": [],
+  "display": [
+    "ComfyUI Anime Art"
+  ],
+  "category": "ai",
+  "categories": [
+    "ai"
+  ],
+  "tags": [
+    "cui",
+    "comfy",
+    "animeart",
+    "illust",
+    "waifu",
+    "comfyui anime art"
+  ],
+  "description": {
+    "id": "Generate karya seni anime SOTA menggunakan ComfyUI (Biaya: 10 limit AI, 👑 Premium: 3 limit AI).",
+    "en": "Generate SOTA anime artwork using ComfyUI (Cost: 10 AI limits, 👑 Premium: 3 AI limits)."
+  },
+  "usage": "ComfyUI Anime Art",
+  "examples": [
+    "cui 1girl, silver hair, cat ears, school uniform",
+    "cui 1girl, hatsune miku, concert stage --ar=landscape",
+    "comfy 1boy, cool samurai, neon tokyo --ar=portrait --seed=12345"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/ai",
+    "line": 212
+  },
+  "lastUpdated": "2026-10-29T18:40:25Z"
+}

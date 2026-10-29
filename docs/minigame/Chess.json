@@ -15,8 +15,8 @@
     "chess"
   ],
   "description": {
-    "en": "Play Chess",
-    "id": "Mainkan game catur melawan AI"
+    "id": "Mainkan game catur melawan AI",
+    "en": "Play Chess"
   },
   "usage": "Chess",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/minigame",
     "line": 1
   },
-  "lastUpdated": "2026-10-28T07:47:42Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

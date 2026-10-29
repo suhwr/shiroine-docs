@@ -19,8 +19,8 @@
     "lowquality"
   ],
   "description": {
-    "en": "Drastically lower the quality of media (image, audio, video).",
-    "id": "Turunkan kualitas media (image, audio, video) secara drastis."
+    "id": "Turunkan kualitas media (image, audio, video) secara drastis.",
+    "en": "Drastically lower the quality of media (image, audio, video)."
   },
   "usage": "JadiBurik",
   "examples": [
@@ -60,5 +60,5 @@
     "file": "internal/plugins/tools",
     "line": 130
   },
-  "lastUpdated": "2026-10-28T07:47:42Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

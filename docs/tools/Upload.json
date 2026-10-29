@@ -17,8 +17,8 @@
     "tourl"
   ],
   "description": {
-    "en": "Upload file to server and get URL",
-    "id": "Upload file ke server dan dapatkan URL"
+    "id": "Upload file ke server dan dapatkan URL",
+    "en": "Upload file to server and get URL"
   },
   "usage": "Upload",
   "examples": [
@@ -61,5 +61,5 @@
     "file": "internal/plugins/tools",
     "line": 67
   },
-  "lastUpdated": "2026-10-28T07:47:42Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

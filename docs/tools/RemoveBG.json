@@ -19,17 +19,15 @@
     "rbg"
   ],
   "description": {
-    "id": "Hapus background foto/stiker menggunakan AI (model: aiease, pixelcut, removebg, rembg, local)",
-    "en": "Remove photo/sticker background using AI (models: aiease, pixelcut, removebg, rembg, local)"
+    "id": "Hapus background foto/stiker menggunakan AI (model: pixelcut, removebg, rembg, local)",
+    "en": "Remove photo/sticker background using AI (models: pixelcut, removebg, rembg, local)"
   },
   "usage": "RemoveBG",
   "examples": [
     "removebg (kirim/reply gambar)",
-    "removebg aiease (kirim/reply gambar)",
     "removebg pixelcut (kirim/reply gambar)",
     "removebg removebg (kirim/reply gambar)",
     "removebg (send/reply image)",
-    "removebg aiease (send/reply image)",
     "removebg pixelcut (send/reply image)",
     "removebg removebg (send/reply image)"
   ],
@@ -65,7 +63,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 125
+    "line": 105
   },
-  "lastUpdated": "2026-10-28T07:47:42Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

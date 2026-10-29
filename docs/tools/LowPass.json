@@ -15,8 +15,8 @@
     "lowpass"
   ],
   "description": {
-    "en": "Cut high frequencies from audio (optional: frequency 100-10000Hz, default 500)",
-    "id": "Potong frekuensi tinggi pada audio (opsional: frekuensi 100-10000Hz, default 500)"
+    "id": "Potong frekuensi tinggi pada audio (opsional: frekuensi 100-10000Hz, default 500)",
+    "en": "Cut high frequencies from audio (optional: frequency 100-10000Hz, default 500)"
   },
   "usage": "LowPass",
   "examples": [
@@ -57,5 +57,5 @@
     "file": "internal/plugins/tools",
     "line": 608
   },
-  "lastUpdated": "2026-10-28T07:47:42Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

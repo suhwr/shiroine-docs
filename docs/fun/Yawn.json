@@ -15,8 +15,8 @@
     "yawn"
   ],
   "description": {
-    "en": "React with yawn",
-    "id": "Reaksi yawn"
+    "id": "Reaksi yawn",
+    "en": "React with yawn"
   },
   "usage": "Yawn",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/fun",
     "line": 1
   },
-  "lastUpdated": "2026-10-28T07:47:41Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

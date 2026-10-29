@@ -19,8 +19,8 @@
     "addkasir"
   ],
   "description": {
-    "id": "Tambah staff toko untuk memproses pesanan (Khusus Owner)",
-    "en": "Add store staff to process orders (Store Owner only)"
+    "en": "Add store staff to process orders (Store Owner only)",
+    "id": "Tambah staff toko untuk memproses pesanan (Khusus Owner)"
   },
   "usage": "AddStaff",
   "examples": [
@@ -60,5 +60,5 @@
     "file": "internal/plugins/store",
     "line": 208
   },
-  "lastUpdated": "2026-10-28T07:47:42Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

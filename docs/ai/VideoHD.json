@@ -25,8 +25,8 @@
     "hdvideo"
   ],
   "description": {
-    "id": "Tingkatkan resolusi & kejernihan video dengan AI (720P, 1080P, 2K, 4K & FlashVSR)",
-    "en": "Enhance video resolution and clarity with AI (720P, 1080P, 2K, 4K & FlashVSR)"
+    "en": "Enhance video resolution and clarity with AI (720P, 1080P, 2K, 4K & FlashVSR)",
+    "id": "Tingkatkan resolusi & kejernihan video dengan AI (720P, 1080P, 2K, 4K & FlashVSR)"
   },
   "usage": "VideoHD",
   "examples": [
@@ -69,5 +69,5 @@
     "file": "internal/plugins/ai",
     "line": 413
   },
-  "lastUpdated": "2026-10-28T07:47:41Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

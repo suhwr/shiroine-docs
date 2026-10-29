@@ -23,8 +23,8 @@
     "setgrouppict"
   ],
   "description": {
-    "id": "Mengubah foto profil obrolan grup",
-    "en": "Set group chat profile picture"
+    "en": "Set group chat profile picture",
+    "id": "Mengubah foto profil obrolan grup"
   },
   "usage": "SetPPGC",
   "examples": [
@@ -75,5 +75,5 @@
     "file": "internal/plugins/group",
     "line": 85
   },
-  "lastUpdated": "2026-10-28T07:47:42Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

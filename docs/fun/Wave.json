@@ -15,8 +15,8 @@
     "wave"
   ],
   "description": {
-    "en": "React with wave",
-    "id": "Reaksi wave"
+    "id": "Reaksi wave",
+    "en": "React with wave"
   },
   "usage": "Wave",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/fun",
     "line": 1
   },
-  "lastUpdated": "2026-10-28T07:47:41Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

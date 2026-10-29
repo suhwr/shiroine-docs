@@ -17,8 +17,8 @@
     "mute-member"
   ],
   "description": {
-    "id": "Mute anggota tertentu di grup agar pesannya dihapus otomatis",
-    "en": "Mute a specific member in the group so messages are auto-deleted"
+    "en": "Mute a specific member in the group so messages are auto-deleted",
+    "id": "Mute anggota tertentu di grup agar pesannya dihapus otomatis"
   },
   "usage": "MuteMember",
   "examples": [
@@ -70,5 +70,5 @@
     "file": "internal/plugins/group",
     "line": 527
   },
-  "lastUpdated": "2026-10-28T07:47:42Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

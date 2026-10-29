@@ -17,8 +17,8 @@
     "gofiledl"
   ],
   "description": {
-    "en": "Download files and folders from GoFile",
-    "id": "Download file dan folder dari GoFile"
+    "id": "Download file dan folder dari GoFile",
+    "en": "Download files and folders from GoFile"
   },
   "usage": "Gofile",
   "examples": [
@@ -34,10 +34,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true
+    "newsletter": true,
+    "private": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -68,5 +68,5 @@
     "file": "internal/plugins/downloader",
     "line": 204
   },
-  "lastUpdated": "2026-10-28T07:47:41Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

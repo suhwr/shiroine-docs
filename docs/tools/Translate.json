@@ -33,11 +33,11 @@
   ],
   "minArgs": 0,
   "args": {
-    "kode_bahasa | teks": {
-      "id": "Kode bahasa target diikuti teks yang ingin diterjemahkan (contoh: 'en Halo') atau kode bahasa saja jika mereply pesan"
-    },
     "lang_code | text": {
       "en": "Target language code followed by text to translate (e.g., 'en Halo') or target language code only when replying to a message"
+    },
+    "kode_bahasa | teks": {
+      "id": "Kode bahasa target diikuti teks yang ingin diterjemahkan (contoh: 'en Halo') atau kode bahasa saja jika mereply pesan"
     }
   },
   "requireMedia": [],
@@ -72,5 +72,5 @@
     "file": "internal/plugins/tools",
     "line": 101
   },
-  "lastUpdated": "2026-10-28T07:47:42Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

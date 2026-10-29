@@ -32,14 +32,14 @@
     "group_community"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
-    "group_community": true,
-    "private": true
+    "group_community": true
   },
   "permissions": {
-    "subowner": true,
     "moderator": true,
-    "owner": true
+    "owner": true,
+    "subowner": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -69,5 +69,5 @@
     "file": "internal/plugins/developer",
     "line": 56
   },
-  "lastUpdated": "2026-10-28T07:47:41Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

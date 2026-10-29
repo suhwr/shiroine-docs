@@ -17,8 +17,8 @@
     "cls"
   ],
   "description": {
-    "en": "Close group (only admins can send messages)",
-    "id": "Tutup grup (hanya admin yang dapat mengirim pesan)"
+    "id": "Tutup grup (hanya admin yang dapat mengirim pesan)",
+    "en": "Close group (only admins can send messages)"
   },
   "usage": "Close",
   "examples": [
@@ -68,5 +68,5 @@
     "file": "internal/plugins/group",
     "line": 120
   },
-  "lastUpdated": "2026-10-28T07:47:42Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

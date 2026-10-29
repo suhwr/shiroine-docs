@@ -21,6 +21,15 @@
     {
       "aliases": [],
       "category": "ai",
+      "name": "ComfyUI Anime Art",
+      "path": "/commands/ai/ComfyUI Anime Art",
+      "tags": [
+        "ComfyUI Anime Art"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "ai",
       "name": "DeepSeek",
       "path": "/commands/ai/DeepSeek",
       "tags": [

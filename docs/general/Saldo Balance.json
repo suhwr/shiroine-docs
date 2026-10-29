@@ -21,8 +21,8 @@
     "saldo balance"
   ],
   "description": {
-    "en": "Check your balance and digital credit status",
-    "id": "Cek saldo balance dan status kredit akun Anda"
+    "id": "Cek saldo balance dan status kredit akun Anda",
+    "en": "Check your balance and digital credit status"
   },
   "usage": "Saldo Balance",
   "examples": [
@@ -63,5 +63,5 @@
     "file": "internal/plugins/general",
     "line": 447
   },
-  "lastUpdated": "2026-10-28T07:47:41Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

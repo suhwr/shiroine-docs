@@ -15,8 +15,8 @@
     "setsubject"
   ],
   "description": {
-    "en": "Change group chat name",
-    "id": "Ubah nama obrolan grup"
+    "id": "Ubah nama obrolan grup",
+    "en": "Change group chat name"
   },
   "usage": "SetSubject",
   "examples": [
@@ -35,8 +35,8 @@
     "group_community": true
   },
   "permissions": {
-    "admin": true,
-    "subowner": true
+    "subowner": true,
+    "admin": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -66,5 +66,5 @@
     "file": "internal/plugins/group",
     "line": 99
   },
-  "lastUpdated": "2026-10-28T07:47:42Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }
