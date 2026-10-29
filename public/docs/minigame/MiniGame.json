@@ -15,8 +15,8 @@
     "minigame"
   ],
   "description": {
-    "en": "Play HTML minigame collection",
-    "id": "Mainkan koleksi minigame HTML"
+    "id": "Mainkan koleksi minigame HTML",
+    "en": "Play HTML minigame collection"
   },
   "usage": "MiniGame",
   "examples": [
@@ -57,5 +57,5 @@
     "file": "internal/plugins/minigame",
     "line": 162
   },
-  "lastUpdated": "2026-10-28T07:47:42Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

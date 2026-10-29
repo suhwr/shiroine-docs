@@ -15,8 +15,8 @@
     "pacman"
   ],
   "description": {
-    "en": "Play Pacman",
-    "id": "Mainkan game kejaran hantu Pacman"
+    "id": "Mainkan game kejaran hantu Pacman",
+    "en": "Play Pacman"
   },
   "usage": "Pacman",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/minigame",
     "line": 1
   },
-  "lastUpdated": "2026-10-28T07:47:42Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

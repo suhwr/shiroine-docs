@@ -15,8 +15,8 @@
     "reverb"
   ],
   "description": {
-    "en": "Add reverb effect to audio",
-    "id": "Tambahkan efek gema ke audio"
+    "id": "Tambahkan efek gema ke audio",
+    "en": "Add reverb effect to audio"
   },
   "usage": "Reverb",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/tools",
     "line": 524
   },
-  "lastUpdated": "2026-10-28T07:47:42Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

@@ -17,8 +17,8 @@
     "downloader"
   ],
   "description": {
-    "en": "Download video from various platforms",
-    "id": "Download video dari berbagai platform"
+    "id": "Download video dari berbagai platform",
+    "en": "Download video from various platforms"
   },
   "usage": "Downloader",
   "examples": [
@@ -64,5 +64,5 @@
     "file": "internal/plugins/downloader",
     "line": 333
   },
-  "lastUpdated": "2026-10-28T07:47:41Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

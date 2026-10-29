@@ -19,8 +19,8 @@
     "gd"
   ],
   "description": {
-    "en": "Download Google Drive files and upload media to storage (upload: Developer only)",
-    "id": "Download file Google Drive dan upload media ke storage (upload: Developer only)"
+    "id": "Download file Google Drive dan upload media ke storage (upload: Developer only)",
+    "en": "Download Google Drive files and upload media to storage (upload: Developer only)"
   },
   "usage": "GDrive",
   "examples": [
@@ -36,10 +36,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "private": true,
-    "group": true,
     "group_community": true,
-    "newsletter": true
+    "newsletter": true,
+    "private": true,
+    "group": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -70,5 +70,5 @@
     "file": "internal/plugins/downloader",
     "line": 221
   },
-  "lastUpdated": "2026-10-28T07:47:41Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

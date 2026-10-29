@@ -19,8 +19,8 @@
     "grouplb"
   ],
   "description": {
-    "en": "View group leaderboard",
-    "id": "Lihat leaderboard grup"
+    "id": "Lihat leaderboard grup",
+    "en": "View group leaderboard"
   },
   "usage": "GlobalLeaderboard",
   "examples": [
@@ -68,5 +68,5 @@
     "file": "internal/plugins/game",
     "line": 674
   },
-  "lastUpdated": "2026-10-28T07:47:41Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

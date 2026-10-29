@@ -15,8 +15,8 @@
     "lorem"
   ],
   "description": {
-    "id": "Generate teks Lorem Ipsum",
-    "en": "Generate Lorem Ipsum text"
+    "en": "Generate Lorem Ipsum text",
+    "id": "Generate teks Lorem Ipsum"
   },
   "usage": "Lorem",
   "examples": [
@@ -57,5 +57,5 @@
     "file": "internal/plugins/tools",
     "line": 47
   },
-  "lastUpdated": "2026-10-28T07:47:42Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

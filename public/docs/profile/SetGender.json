@@ -17,8 +17,8 @@
     "set-gender"
   ],
   "description": {
-    "en": "Set profile gender",
-    "id": "Mengatur gender profil"
+    "id": "Mengatur gender profil",
+    "en": "Set profile gender"
   },
   "usage": "SetGender",
   "examples": [
@@ -60,5 +60,5 @@
     "file": "internal/plugins/profile",
     "line": 68
   },
-  "lastUpdated": "2026-10-28T07:47:42Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

@@ -15,8 +15,8 @@
     "underwater"
   ],
   "description": {
-    "id": "Efek suara seperti di dalam air",
-    "en": "Underwater audio effect"
+    "en": "Underwater audio effect",
+    "id": "Efek suara seperti di dalam air"
   },
   "usage": "Underwater",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/tools",
     "line": 622
   },
-  "lastUpdated": "2026-10-28T07:47:42Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

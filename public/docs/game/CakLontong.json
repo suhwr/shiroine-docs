@@ -15,8 +15,8 @@
     "caklontong"
   ],
   "description": {
-    "id": "Mulai game caklontong / teka-teki lucu",
-    "en": "Start caklontong / funny riddle game"
+    "en": "Start caklontong / funny riddle game",
+    "id": "Mulai game caklontong / teka-teki lucu"
   },
   "usage": "CakLontong",
   "examples": [
@@ -62,5 +62,5 @@
     "file": "internal/plugins/game",
     "line": 206
   },
-  "lastUpdated": "2026-10-28T07:47:41Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

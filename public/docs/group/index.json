@@ -16,8 +16,8 @@
       "name": "AdminOnly",
       "description": "Make the bot only respond to commands from group admins",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -29,8 +29,8 @@
       "name": "Adzan",
       "description": "Automated adzan schedule and prayer notifications for the group",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -43,8 +43,8 @@
       "name": "AntiBot",
       "description": "Enable or disable anti-bot system for the group",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -314,8 +314,8 @@
       "name": "Ephemeral",
       "description": "Configure ephemeral messages",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -429,11 +429,11 @@
       "name": "LeaveGroup",
       "description": "Remove bot from group or leave groups remotely",
       "permissions": {
+        "admin": true,
+        "owner": true,
         "subowner": true,
         "bot": true,
-        "hasbot": true,
-        "admin": true,
-        "owner": true
+        "hasbot": true
       },
       "premiumOnly": "",
       "tags": [
@@ -449,8 +449,8 @@
       "name": "Left",
       "description": "Configure left notification",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -659,8 +659,8 @@
       "name": "SetDesc",
       "description": "Change group chat description",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -853,8 +853,8 @@
       "name": "UnmuteMember",
       "description": "Unmute a specific member in the group",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -893,8 +893,8 @@
       "name": "Warn",
       "description": "Issue a formal warning to a rule-breaking group member",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -915,8 +915,8 @@
       "name": "Welcome",
       "description": "Configure welcome message",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [

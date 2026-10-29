@@ -15,8 +15,8 @@
     "decode"
   ],
   "description": {
-    "en": "Decode text from various formats (base64, hex, morse, etc)",
-    "id": "Decode teks dari berbagai format (base64, hex, morse, dll)"
+    "id": "Decode teks dari berbagai format (base64, hex, morse, dll)",
+    "en": "Decode text from various formats (base64, hex, morse, etc)"
   },
   "usage": "Decode",
   "examples": [
@@ -58,5 +58,5 @@
     "file": "internal/plugins/tools",
     "line": 57
   },
-  "lastUpdated": "2026-10-28T07:47:42Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

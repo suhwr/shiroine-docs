@@ -19,6 +19,20 @@
       ]
     },
     {
+      "name": "ComfyUI Anime Art",
+      "description": "Generate SOTA anime artwork using ComfyUI (Cost: 10 AI limits, 👑 Premium: 3 AI limits).",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "cui",
+        "comfy",
+        "animeart",
+        "illust",
+        "waifu",
+        "comfyui anime art"
+      ]
+    },
+    {
       "name": "DeepSeek",
       "description": "Chat with DeepSeek without persona (text only)",
       "permissions": {},

@@ -17,8 +17,8 @@
     "infogempa"
   ],
   "description": {
-    "en": "Official latest earthquake information from BMKG with shakemap image",
-    "id": "Informasi gempa bumi resmi terkini dari BMKG beserta peta guncangan (shakemap)"
+    "id": "Informasi gempa bumi resmi terkini dari BMKG beserta peta guncangan (shakemap)",
+    "en": "Official latest earthquake information from BMKG with shakemap image"
   },
   "usage": "Gempa",
   "examples": [
@@ -60,5 +60,5 @@
     "file": "internal/plugins/tools",
     "line": 123
   },
-  "lastUpdated": "2026-10-28T07:47:42Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

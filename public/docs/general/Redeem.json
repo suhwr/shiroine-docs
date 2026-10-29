@@ -15,8 +15,8 @@
     "redeem"
   ],
   "description": {
-    "id": "Tukarkan kode redeem untuk mendapatkan hadiah",
-    "en": "Redeem a code to get rewards"
+    "en": "Redeem a code to get rewards",
+    "id": "Tukarkan kode redeem untuk mendapatkan hadiah"
   },
   "usage": "Redeem <teks>",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/general",
     "line": 141
   },
-  "lastUpdated": "2026-10-28T07:47:41Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

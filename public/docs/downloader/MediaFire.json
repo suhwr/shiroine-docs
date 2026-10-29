@@ -17,8 +17,8 @@
     "mfdl"
   ],
   "description": {
-    "en": "Download file from MediaFire",
-    "id": "Download file dari MediaFire"
+    "id": "Download file dari MediaFire",
+    "en": "Download file from MediaFire"
   },
   "usage": "MediaFire",
   "examples": [
@@ -68,5 +68,5 @@
     "file": "internal/plugins/downloader",
     "line": 100
   },
-  "lastUpdated": "2026-10-28T07:47:41Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

@@ -15,8 +15,8 @@
     "jadwalsholat"
   ],
   "description": {
-    "id": "Lihat jadwal sholat hari ini berdasarkan kota",
-    "en": "View today's prayer schedule by city"
+    "en": "View today's prayer schedule by city",
+    "id": "Lihat jadwal sholat hari ini berdasarkan kota"
   },
   "usage": "JadwalSholat",
   "examples": [
@@ -58,5 +58,5 @@
     "file": "internal/plugins/search",
     "line": 47
   },
-  "lastUpdated": "2026-10-28T07:47:42Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

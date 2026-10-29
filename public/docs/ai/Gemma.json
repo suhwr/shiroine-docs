@@ -15,8 +15,8 @@
     "gemma"
   ],
   "description": {
-    "en": "Chat with Gemma 3 27B IT (supports text and images)",
-    "id": "Chat dengan Gemma 3 27B IT (mendukung teks dan gambar)"
+    "id": "Chat dengan Gemma 3 27B IT (mendukung teks dan gambar)",
+    "en": "Chat with Gemma 3 27B IT (supports text and images)"
   },
   "usage": "Gemma",
   "examples": [
@@ -60,5 +60,5 @@
     "file": "internal/plugins/ai",
     "line": 97
   },
-  "lastUpdated": "2026-10-28T07:47:41Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

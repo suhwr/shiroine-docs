@@ -17,8 +17,8 @@
     "setwelcome"
   ],
   "description": {
-    "id": "Atur pesan atau cover welcome grup",
-    "en": "Set group welcome message or cover"
+    "en": "Set group welcome message or cover",
+    "id": "Atur pesan atau cover welcome grup"
   },
   "usage": "SetWelcome",
   "examples": [
@@ -70,5 +70,5 @@
     "file": "internal/plugins/group",
     "line": 144
   },
-  "lastUpdated": "2026-10-28T07:47:42Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

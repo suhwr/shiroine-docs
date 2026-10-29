@@ -15,8 +15,8 @@
     "setdesc"
   ],
   "description": {
-    "id": "Ubah deskripsi obrolan grup",
-    "en": "Change group chat description"
+    "en": "Change group chat description",
+    "id": "Ubah deskripsi obrolan grup"
   },
   "usage": "SetDesc",
   "examples": [
@@ -66,5 +66,5 @@
     "file": "internal/plugins/group",
     "line": 87
   },
-  "lastUpdated": "2026-10-28T07:47:42Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

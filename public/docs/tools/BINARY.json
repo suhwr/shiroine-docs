@@ -15,8 +15,8 @@
     "binary"
   ],
   "description": {
-    "en": "Encode/decode text using binary",
-    "id": "Encode/decode teks menggunakan binary"
+    "id": "Encode/decode teks menggunakan binary",
+    "en": "Encode/decode text using binary"
   },
   "usage": "BINARY",
   "examples": [
@@ -58,5 +58,5 @@
     "file": "internal/plugins/tools",
     "line": 1
   },
-  "lastUpdated": "2026-10-28T07:47:42Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

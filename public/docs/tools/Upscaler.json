@@ -21,8 +21,8 @@
     "hd"
   ],
   "description": {
-    "en": "Enhance image quality using AI",
-    "id": "Tingkatkan kualitas gambar menggunakan AI"
+    "id": "Tingkatkan kualitas gambar menggunakan AI",
+    "en": "Enhance image quality using AI"
   },
   "usage": "Upscaler",
   "examples": [
@@ -65,5 +65,5 @@
     "file": "internal/plugins/tools",
     "line": 177
   },
-  "lastUpdated": "2026-10-28T07:47:42Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }

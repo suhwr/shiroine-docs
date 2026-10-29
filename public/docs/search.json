@@ -19,6 +19,20 @@
       ]
     },
     {
+      "name": "ComfyUI Anime Art",
+      "aliases": [],
+      "category": "ai",
+      "path": "/commands/ai/ComfyUI Anime Art",
+      "tags": [
+        "cui",
+        "comfy",
+        "animeart",
+        "illust",
+        "waifu",
+        "comfyui anime art"
+      ]
+    },
+    {
       "name": "DeepSeek",
       "aliases": [],
       "category": "ai",

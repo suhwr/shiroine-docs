@@ -15,8 +15,8 @@
     "html"
   ],
   "description": {
-    "id": "Encode/decode teks menggunakan html",
-    "en": "Encode/decode text using html"
+    "en": "Encode/decode text using html",
+    "id": "Encode/decode teks menggunakan html"
   },
   "usage": "HTML",
   "examples": [
@@ -58,5 +58,5 @@
     "file": "internal/plugins/tools",
     "line": 1
   },
-  "lastUpdated": "2026-10-28T07:47:42Z"
+  "lastUpdated": "2026-10-29T18:40:25Z"
 }
