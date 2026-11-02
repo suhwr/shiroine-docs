@@ -15,12 +15,14 @@
     "qr"
   ],
   "description": {
-    "id": "Buat atau decode QR code",
-    "en": "Generate or decode QR code"
+    "id": "Membuat gambar QR code dari teks/link atau membaca/scan isi QR code dari gambar/stiker yang direply",
+    "en": "Generate QR code from text/URL or scan/decode QR code from replied image/sticker"
   },
   "usage": "QR",
   "examples": [
-    "qr https://example.com"
+    "qr https://example.com",
+    "qr (reply gambar QR)",
+    "qr (reply QR image)"
   ],
   "minArgs": 0,
   "args": {},
@@ -56,5 +58,5 @@
     "file": "internal/plugins/tools",
     "line": 77
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

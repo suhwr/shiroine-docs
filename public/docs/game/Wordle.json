@@ -1,0 +1,66 @@
+{
+  "name": "Wordle",
+  "commands": [
+    "wordle"
+  ],
+  "aliases": [],
+  "display": [
+    "Wordle"
+  ],
+  "category": "game",
+  "categories": [
+    "game"
+  ],
+  "tags": [
+    "wordle"
+  ],
+  "description": {
+    "id": "Mulai game tebak kata Wordle / Katla 5 huruf",
+    "en": "Start 5-letter Wordle / Katla guessing game"
+  },
+  "usage": "Wordle",
+  "examples": [
+    "wordle"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 3,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/game",
+    "line": 465
+  },
+  "lastUpdated": "2026-11-02T14:23:45Z"
+}

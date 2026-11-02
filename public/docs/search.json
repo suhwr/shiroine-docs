@@ -10,6 +10,23 @@
       ]
     },
     {
+      "name": "AI Stats",
+      "aliases": [
+        "aistats",
+        "aimodel",
+        "aistatus"
+      ],
+      "category": "ai",
+      "path": "/commands/ai/AI Stats",
+      "tags": [
+        "llmstats",
+        "ai stats",
+        "aistats",
+        "aimodel",
+        "aistatus"
+      ]
+    },
+    {
       "name": "AIChara",
       "aliases": [],
       "category": "ai",
@@ -19,17 +36,40 @@
       ]
     },
     {
-      "name": "ComfyUI Anime Art",
+      "name": "AIMemory",
       "aliases": [],
       "category": "ai",
-      "path": "/commands/ai/ComfyUI Anime Art",
+      "path": "/commands/ai/AIMemory",
+      "tags": [
+        "aimemory",
+        "ingatan",
+        "aimem"
+      ]
+    },
+    {
+      "name": "Claude",
+      "aliases": [
+        "anthropic",
+        "sonnet",
+        "claudeai"
+      ],
+      "category": "ai",
+      "path": "/commands/ai/Claude",
+      "tags": [
+        "claude",
+        "anthropic",
+        "sonnet",
+        "claudeai"
+      ]
+    },
+    {
+      "name": "ComfyUI",
+      "aliases": [],
+      "category": "ai",
+      "path": "/commands/ai/ComfyUI",
       "tags": [
         "cui",
-        "comfy",
-        "animeart",
-        "illust",
-        "waifu",
-        "comfyui anime art"
+        "comfyui"
       ]
     },
     {
@@ -57,15 +97,6 @@
       "path": "/commands/ai/Gemini",
       "tags": [
         "gemini"
-      ]
-    },
-    {
-      "name": "Gemma",
-      "aliases": [],
-      "category": "ai",
-      "path": "/commands/ai/Gemma",
-      "tags": [
-        "gemma"
       ]
     },
     {
@@ -125,24 +156,24 @@
       ]
     },
     {
-      "name": "ResetAI",
-      "aliases": [],
-      "category": "ai",
-      "path": "/commands/ai/ResetAI",
-      "tags": [
+      "name": "Reset AI",
+      "aliases": [
         "reset-ai",
-        "resetai"
-      ]
-    },
-    {
-      "name": "ResetAIGroup",
-      "aliases": [],
-      "category": "ai",
-      "path": "/commands/ai/ResetAIGroup",
-      "tags": [
-        "reset-ai-group",
         "resetaigroup",
-        "resetaigrup"
+        "resetaigrup",
+        "aireset",
+        "clearchat"
+      ],
+      "category": "ai",
+      "path": "/commands/ai/Reset AI",
+      "tags": [
+        "resetai",
+        "reset ai",
+        "reset-ai",
+        "resetaigroup",
+        "resetaigrup",
+        "aireset",
+        "clearchat"
       ]
     },
     {
@@ -681,6 +712,18 @@
       ]
     },
     {
+      "name": "Cancel Broadcast",
+      "aliases": [],
+      "category": "developer",
+      "path": "/commands/developer/Cancel Broadcast",
+      "tags": [
+        "cancelbroadcast",
+        "delbc",
+        "stopbc",
+        "cancel broadcast"
+      ]
+    },
+    {
       "name": "ClearDB",
       "aliases": [],
       "category": "developer",
@@ -727,6 +770,18 @@
       "tags": [
         "errors",
         "errlog"
+      ]
+    },
+    {
+      "name": "Forward Channel",
+      "aliases": [],
+      "category": "developer",
+      "path": "/commands/developer/Forward Channel",
+      "tags": [
+        "forwardchannel",
+        "fwdch",
+        "fwch",
+        "forward channel"
       ]
     },
     {
@@ -846,6 +901,17 @@
       ]
     },
     {
+      "name": "Set Broadcast",
+      "aliases": [],
+      "category": "developer",
+      "path": "/commands/developer/Set Broadcast",
+      "tags": [
+        "setbroadcast",
+        "setbc",
+        "set broadcast"
+      ]
+    },
+    {
       "name": "SetRole",
       "aliases": [],
       "category": "developer",
@@ -854,6 +920,18 @@
         "setrole",
         "setmod",
         "addmod"
+      ]
+    },
+    {
+      "name": "Status Broadcast",
+      "aliases": [],
+      "category": "developer",
+      "path": "/commands/developer/Status Broadcast",
+      "tags": [
+        "statusbroadcast",
+        "checkbc",
+        "statbc",
+        "status broadcast"
       ]
     },
     {
@@ -2037,6 +2115,15 @@
       ]
     },
     {
+      "name": "SambungKata",
+      "aliases": [],
+      "category": "game",
+      "path": "/commands/game/SambungKata",
+      "tags": [
+        "sambungkata"
+      ]
+    },
+    {
       "name": "SiapakahAku",
       "aliases": [],
       "category": "game",
@@ -2082,6 +2169,15 @@
       ]
     },
     {
+      "name": "TebakIbukota",
+      "aliases": [],
+      "category": "game",
+      "path": "/commands/game/TebakIbukota",
+      "tags": [
+        "tebakibukota"
+      ]
+    },
+    {
       "name": "TebakKata",
       "aliases": [],
       "category": "game",
@@ -2110,12 +2206,32 @@
       ]
     },
     {
+      "name": "Wordle",
+      "aliases": [],
+      "category": "game",
+      "path": "/commands/game/Wordle",
+      "tags": [
+        "wordle"
+      ]
+    },
+    {
       "name": "About",
       "aliases": [],
       "category": "general",
       "path": "/commands/general/About",
       "tags": [
         "about"
+      ]
+    },
+    {
+      "name": "Ask",
+      "aliases": [],
+      "category": "general",
+      "path": "/commands/general/Ask",
+      "tags": [
+        "ask",
+        "askai",
+        "carifitur"
       ]
     },
     {
@@ -2435,6 +2551,16 @@
       "path": "/commands/group/AntiTagSW",
       "tags": [
         "antitagsw"
+      ]
+    },
+    {
+      "name": "Attendance",
+      "aliases": [],
+      "category": "group",
+      "path": "/commands/group/Attendance",
+      "tags": [
+        "absen",
+        "attendance"
       ]
     },
     {
@@ -2780,6 +2906,16 @@
         "pinchat",
         "semat",
         "sematkan"
+      ]
+    },
+    {
+      "name": "Present",
+      "aliases": [],
+      "category": "group",
+      "path": "/commands/group/Present",
+      "tags": [
+        "hadir",
+        "present"
       ]
     },
     {
@@ -3553,17 +3689,6 @@
       ]
     },
     {
-      "name": "CancelOrder",
-      "aliases": [],
-      "category": "store_admin",
-      "path": "/commands/store_admin/CancelOrder",
-      "tags": [
-        "cancelorder",
-        "cancel",
-        "batal"
-      ]
-    },
-    {
       "name": "DetailOrder",
       "aliases": [],
       "category": "store_admin",
@@ -4053,6 +4178,17 @@
       "tags": [
         "gempa",
         "infogempa"
+      ]
+    },
+    {
+      "name": "GenerateLRC",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/GenerateLRC",
+      "tags": [
+        "generatelrc",
+        "lrc",
+        "makelrc"
       ]
     },
     {

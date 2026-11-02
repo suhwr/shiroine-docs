@@ -15,8 +15,8 @@
     "badword"
   ],
   "description": {
-    "id": "Kelola filter sensor kata terlarang dan sanksi pelanggaran grup",
-    "en": "Manage group forbidden badwords filter and violation strikes"
+    "en": "Manage group forbidden badwords filter and violation strikes",
+    "id": "Kelola filter sensor kata terlarang dan sanksi pelanggaran grup"
   },
   "usage": "BadWord",
   "examples": [
@@ -75,5 +75,5 @@
     "file": "internal/plugins/group",
     "line": 280
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

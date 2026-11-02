@@ -17,8 +17,8 @@
     "tovid"
   ],
   "description": {
-    "id": "Konversi sticker ke video",
-    "en": "Convert sticker to video"
+    "id": "Konversi stiker WhatsApp bergerak (animasi) menjadi video MP4 (reply stiker)",
+    "en": "Convert animated WhatsApp sticker into MP4 video (reply sticker)"
   },
   "usage": "ToVideo",
   "examples": [
@@ -57,7 +57,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 142
+    "line": 140
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

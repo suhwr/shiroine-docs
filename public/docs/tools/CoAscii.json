@@ -21,8 +21,8 @@
     "asciiart"
   ],
   "description": {
-    "en": "Convert an image to ASCII art text document (.txt).",
-    "id": "Konversi gambar menjadi dokumen teks ASCII art (.txt)."
+    "id": "Konversi gambar menjadi dokumen teks ASCII art (.txt).",
+    "en": "Convert an image to ASCII art text document (.txt)."
   },
   "usage": "CoAscii",
   "examples": [
@@ -63,5 +63,5 @@
     "file": "internal/plugins/tools",
     "line": 26
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

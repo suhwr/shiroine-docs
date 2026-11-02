@@ -15,13 +15,14 @@
     "barcode"
   ],
   "description": {
-    "id": "Buat atau decode barcode",
-    "en": "Generate or decode barcode"
+    "id": "Membuat gambar barcode Code 128 dari angka/teks atau membaca/scan barcode dari gambar/stiker yang direply",
+    "en": "Generate Code 128 barcode from number/text or scan/decode barcode from replied image/sticker"
   },
   "usage": "Barcode",
   "examples": [
-    "barcode 123456",
-    "barcode"
+    "barcode 1234567890",
+    "barcode (reply gambar barcode)",
+    "barcode (reply barcode image)"
   ],
   "minArgs": 0,
   "args": {},
@@ -57,5 +58,5 @@
     "file": "internal/plugins/tools",
     "line": 116
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

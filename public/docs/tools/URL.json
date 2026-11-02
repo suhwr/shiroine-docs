@@ -15,8 +15,8 @@
     "url"
   ],
   "description": {
-    "id": "Encode/decode teks menggunakan url",
-    "en": "Encode/decode text using url"
+    "en": "Encode/decode text using url",
+    "id": "Encode/decode teks menggunakan url"
   },
   "usage": "URL",
   "examples": [
@@ -58,5 +58,5 @@
     "file": "internal/plugins/tools",
     "line": 1
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

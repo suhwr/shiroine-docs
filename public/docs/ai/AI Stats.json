@@ -1,0 +1,71 @@
+{
+  "name": "AI Stats",
+  "commands": [
+    "llmstats",
+    "ai stats"
+  ],
+  "aliases": [
+    "aistats",
+    "aimodel",
+    "aistatus"
+  ],
+  "display": [
+    "AI Stats"
+  ],
+  "category": "ai",
+  "categories": [
+    "ai"
+  ],
+  "tags": [
+    "llmstats",
+    "ai stats",
+    "aistats",
+    "aimodel",
+    "aistatus"
+  ],
+  "description": {
+    "id": "Lihat metrik penggunaan token obrolan saat ini, breakdown input/output, router model, status memori, dan kuota limit (terpisah untuk obrolan pribadi & grup)",
+    "en": "View real-time chat token usage metrics, input/output breakdown, router model, memory status, and quota limit (separated for private & group chats)"
+  },
+  "usage": "AI Stats",
+  "examples": [
+    "llmstats",
+    "aistats",
+    "llmstats miku"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/ai",
+    "line": 316
+  },
+  "lastUpdated": "2026-11-02T14:23:45Z"
+}

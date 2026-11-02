@@ -100,6 +100,20 @@
       ]
     },
     {
+      "name": "Cancel Broadcast",
+      "description": "Cancel active passive broadcast campaign",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "cancelbroadcast",
+        "delbc",
+        "stopbc",
+        "cancel broadcast"
+      ]
+    },
+    {
       "name": "ClearDB",
       "description": "Clear data from specific database tables (message_daily_stats)",
       "permissions": {
@@ -150,14 +164,28 @@
       "name": "Errors",
       "description": "View dependency error logs",
       "permissions": {
-        "owner": true,
         "subowner": true,
-        "moderator": true
+        "moderator": true,
+        "owner": true
       },
       "premiumOnly": "",
       "tags": [
         "errors",
         "errlog"
+      ]
+    },
+    {
+      "name": "Forward Channel",
+      "description": "Forward WhatsApp channel post with channel origin metadata",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "forwardchannel",
+        "fwdch",
+        "fwch",
+        "forward channel"
       ]
     },
     {
@@ -192,9 +220,9 @@
       "name": "HardBanGC",
       "description": "Ban group globally (all bots)",
       "permissions": {
+        "owner": true,
         "subowner": true,
-        "moderator": true,
-        "owner": true
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -285,7 +313,7 @@
     },
     {
       "name": "RemoveSubOwner",
-      "description": "Remove a sub-owner",
+      "description": "Remove sub-owner privileges from a user (owner/developer only)",
       "permissions": {
         "owner": true
       },
@@ -309,6 +337,19 @@
       ]
     },
     {
+      "name": "Set Broadcast",
+      "description": "Set passive broadcast campaign from channel link with 3-day TTL",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "setbroadcast",
+        "setbc",
+        "set broadcast"
+      ]
+    },
+    {
       "name": "SetRole",
       "description": "Set user role (moderator, admin, user)",
       "permissions": {
@@ -319,6 +360,20 @@
         "setrole",
         "setmod",
         "addmod"
+      ]
+    },
+    {
+      "name": "Status Broadcast",
+      "description": "Check passive broadcast campaign statistics and status",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "statusbroadcast",
+        "checkbc",
+        "statbc",
+        "status broadcast"
       ]
     },
     {
@@ -359,7 +414,7 @@
     },
     {
       "name": "TestWG",
-      "description": "Test welcome or goodbye generator directly",
+      "description": "Test welcome or goodbye image generator directly (developer only)",
       "permissions": {
         "owner": true
       },
@@ -372,8 +427,8 @@
       "name": "UnbanUser",
       "description": "Unban a user from all bots you own",
       "permissions": {
-        "hasbot": true,
-        "moderator": true
+        "moderator": true,
+        "hasbot": true
       },
       "premiumOnly": "",
       "tags": [

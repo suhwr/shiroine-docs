@@ -17,8 +17,8 @@
     "mybadges"
   ],
   "description": {
-    "id": "Lihat koleksi badge Anda",
-    "en": "View your badge collection"
+    "id": "Melihat koleksi lencana dan badge pencapaian game Anda",
+    "en": "View your earned game achievement badges and medals"
   },
   "usage": "Badges",
   "examples": [
@@ -68,5 +68,5 @@
     "file": "internal/plugins/game",
     "line": 743
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

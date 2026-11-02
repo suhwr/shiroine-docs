@@ -15,8 +15,8 @@
     "deep"
   ],
   "description": {
-    "id": "Buat suara menjadi lebih dalam",
-    "en": "Make audio sound deeper"
+    "en": "Make audio sound deeper",
+    "id": "Buat suara menjadi lebih dalam"
   },
   "usage": "Deep",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/tools",
     "line": 412
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

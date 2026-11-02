@@ -15,8 +15,8 @@
     "base64"
   ],
   "description": {
-    "id": "Encode/decode teks menggunakan base64",
-    "en": "Encode/decode text using base64"
+    "en": "Encode/decode text using base64",
+    "id": "Encode/decode teks menggunakan base64"
   },
   "usage": "BASE64",
   "examples": [
@@ -58,5 +58,5 @@
     "file": "internal/plugins/tools",
     "line": 1
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

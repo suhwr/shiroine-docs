@@ -15,8 +15,8 @@
     "togif"
   ],
   "description": {
-    "id": "Konversi sticker ke GIF",
-    "en": "Convert sticker to GIF"
+    "id": "Konversi stiker WhatsApp bergerak (animasi) menjadi GIF (reply stiker)",
+    "en": "Convert animated WhatsApp sticker into GIF (reply sticker)"
   },
   "usage": "ToGif",
   "examples": [
@@ -54,7 +54,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 154
+    "line": 152
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

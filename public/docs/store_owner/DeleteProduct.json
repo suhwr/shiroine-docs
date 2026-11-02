@@ -23,8 +23,8 @@
     "delproduk"
   ],
   "description": {
-    "en": "Delete product from store (Store Owner)",
-    "id": "Hapus produk dari toko (Owner Toko)"
+    "id": "Hapus produk dari toko (Owner Toko)",
+    "en": "Delete product from store (Store Owner)"
   },
   "usage": "DeleteProduct",
   "examples": [
@@ -65,5 +65,5 @@
     "file": "internal/plugins/store",
     "line": 205
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

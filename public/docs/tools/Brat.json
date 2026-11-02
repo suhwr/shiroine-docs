@@ -55,12 +55,15 @@
     "brat4video"
   ],
   "description": {
-    "id": "Buat stiker BRAT",
-    "en": "Create BRAT sticker"
+    "id": "Buat stiker teks gaya BRAT (latar hijau/hitam, statis atau video animasi)",
+    "en": "Create BRAT style text stickers (green/black background, static or animated video)"
   },
   "usage": "Brat",
   "examples": [
-    "brat hello world"
+    "brat hello world",
+    "bratvid hello world",
+    "brat2 teks hitam",
+    "brat2 black text"
   ],
   "minArgs": 0,
   "args": {},
@@ -96,5 +99,5 @@
     "file": "internal/plugins/tools",
     "line": 89
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

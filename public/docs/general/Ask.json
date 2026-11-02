@@ -1,28 +1,35 @@
 {
-  "name": "ResetAI",
+  "name": "Ask",
   "commands": [
-    "reset-ai",
-    "resetai"
+    "ask",
+    "askai",
+    "carifitur"
   ],
   "aliases": [],
   "display": [
-    "ResetAI"
+    "Ask"
   ],
-  "category": "ai",
+  "category": "general",
   "categories": [
-    "ai"
+    "general"
   ],
   "tags": [
-    "reset-ai",
-    "resetai"
+    "ask",
+    "askai",
+    "carifitur"
   ],
   "description": {
-    "en": "Clear all private conversation history with AI and start a new session without previous context. Useful when you want to start a new topic unrelated to previous conversations.",
-    "id": "Hapus seluruh riwayat percakapan pribadi dengan AI dan mulai sesi baru tanpa konteks sebelumnya. Berguna ketika Anda ingin memulai topik baru yang tidak terkait dengan percakapan sebelumnya."
+    "id": "Cari fitur dan cara pakai command Shiroine menggunakan bahasa sehari-hari",
+    "en": "Find Shiroine features and command usage using natural language"
   },
-  "usage": "ResetAI",
+  "usage": "Ask",
   "examples": [
-    "resetai"
+    "ask jernihin foto",
+    "ask download video tiktok",
+    "ask pisah vokal",
+    "ask enhance photo",
+    "ask download tiktok video",
+    "ask separate vocals"
   ],
   "minArgs": 0,
   "args": {},
@@ -55,8 +62,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/ai",
-    "line": 36
+    "file": "internal/plugins/general",
+    "line": 48
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

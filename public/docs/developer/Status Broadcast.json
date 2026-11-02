@@ -1,0 +1,74 @@
+{
+  "name": "Status Broadcast",
+  "commands": [
+    "statusbroadcast",
+    "checkbc",
+    "statbc",
+    "status broadcast"
+  ],
+  "aliases": [],
+  "display": [
+    "Status Broadcast"
+  ],
+  "category": "developer",
+  "categories": [
+    "developer"
+  ],
+  "tags": [
+    "statusbroadcast",
+    "checkbc",
+    "statbc",
+    "status broadcast"
+  ],
+  "description": {
+    "id": "Melihat statistik dan status kampanye passive broadcast",
+    "en": "Check passive broadcast campaign statistics and status"
+  },
+  "usage": "Status Broadcast",
+  "examples": [],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "private": true,
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {
+    "owner": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/developer",
+    "line": 264
+  },
+  "lastUpdated": "2026-11-02T14:23:45Z"
+}

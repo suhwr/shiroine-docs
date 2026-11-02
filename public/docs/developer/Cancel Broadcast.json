@@ -1,0 +1,74 @@
+{
+  "name": "Cancel Broadcast",
+  "commands": [
+    "cancelbroadcast",
+    "delbc",
+    "stopbc",
+    "cancel broadcast"
+  ],
+  "aliases": [],
+  "display": [
+    "Cancel Broadcast"
+  ],
+  "category": "developer",
+  "categories": [
+    "developer"
+  ],
+  "tags": [
+    "cancelbroadcast",
+    "delbc",
+    "stopbc",
+    "cancel broadcast"
+  ],
+  "description": {
+    "id": "Menghentikan kampanye passive broadcast yang sedang aktif",
+    "en": "Cancel active passive broadcast campaign"
+  },
+  "usage": "Cancel Broadcast",
+  "examples": [],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "private": true,
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {
+    "owner": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/developer",
+    "line": 254
+  },
+  "lastUpdated": "2026-11-02T14:23:45Z"
+}

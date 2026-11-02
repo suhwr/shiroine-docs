@@ -10,8 +10,21 @@
       ]
     },
     {
+      "name": "AI Stats",
+      "description": "View real-time chat token usage metrics, input/output breakdown, router model, memory status, and quota limit (separated for private & group chats)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "llmstats",
+        "ai stats",
+        "aistats",
+        "aimodel",
+        "aistatus"
+      ]
+    },
+    {
       "name": "AIChara",
-      "description": "Manage AI character",
+      "description": "View available AI personas and change the active AI character",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -19,17 +32,36 @@
       ]
     },
     {
-      "name": "ComfyUI Anime Art",
-      "description": "Generate SOTA anime artwork using ComfyUI (Cost: 10 AI limits, 👑 Premium: 3 AI limits).",
+      "name": "AIMemory",
+      "description": "View or clear long-term memories (LTM) absorbed by AI about you",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "aimemory",
+        "ingatan",
+        "aimem"
+      ]
+    },
+    {
+      "name": "Claude",
+      "description": "Chat with Claude Sonnet (deep reasoning, creative writing & text analysis, Premium only)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "claude",
+        "anthropic",
+        "sonnet",
+        "claudeai"
+      ]
+    },
+    {
+      "name": "ComfyUI",
+      "description": "Generate modern DiT anime images via ComfyUI (Default: SilvermoonMix. Other models: Nova Anime AM v6.0, Nova Orange 2.5D. Cost: 10 AI limits, 👑 Premium: 3 AI limits).",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
         "cui",
-        "comfy",
-        "animeart",
-        "illust",
-        "waifu",
-        "comfyui anime art"
+        "comfyui"
       ]
     },
     {
@@ -57,15 +89,6 @@
       "premiumOnly": "",
       "tags": [
         "gemini"
-      ]
-    },
-    {
-      "name": "Gemma",
-      "description": "Chat with Gemma 3 27B IT (supports text and images)",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "gemma"
       ]
     },
     {
@@ -125,24 +148,18 @@
       ]
     },
     {
-      "name": "ResetAI",
-      "description": "Clear all private conversation history with AI and start a new session without previous context. Useful when you want to start a new topic unrelated to previous conversations.",
+      "name": "Reset AI",
+      "description": "Flexible AI chat reset: per character, rewind last N messages, or full wipe across all characters (auto-detects private & group sessions)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
+        "resetai",
+        "reset ai",
         "reset-ai",
-        "resetai"
-      ]
-    },
-    {
-      "name": "ResetAIGroup",
-      "description": "Reset AI chat history in group (Admin only)",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "reset-ai-group",
         "resetaigroup",
-        "resetaigrup"
+        "resetaigrup",
+        "aireset",
+        "clearchat"
       ]
     },
     {

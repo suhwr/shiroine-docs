@@ -10,6 +10,17 @@
       ]
     },
     {
+      "name": "Ask",
+      "description": "Find Shiroine features and command usage using natural language",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "ask",
+        "askai",
+        "carifitur"
+      ]
+    },
+    {
       "name": "Batal Pembayaran",
       "description": "Cancel active QRIS payment transaction and delete QR image",
       "permissions": {},

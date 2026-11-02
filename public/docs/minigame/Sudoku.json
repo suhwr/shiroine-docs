@@ -15,7 +15,7 @@
     "sudoku"
   ],
   "description": {
-    "id": "Mainkan puzzle angka Sudoku",
+    "id": "Mainkan puzzle asah otak angka Sudoku via webview WhatsApp",
     "en": "Play Sudoku"
   },
   "usage": "Sudoku",
@@ -56,5 +56,5 @@
     "file": "internal/plugins/minigame",
     "line": 1
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

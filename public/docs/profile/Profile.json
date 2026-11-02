@@ -17,8 +17,8 @@
     "me"
   ],
   "description": {
-    "id": "Lihat profil user",
-    "en": "View user profile"
+    "id": "Lihat kartu profil akun, level XP, saldo balance, status premium, dan statistik bot",
+    "en": "View user profile card, XP level, balance, premium status, and bot statistics"
   },
   "usage": "Profile",
   "examples": [
@@ -60,5 +60,5 @@
     "file": "internal/plugins/profile",
     "line": 414
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

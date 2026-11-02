@@ -92,7 +92,7 @@
     },
     {
       "name": "Barcode",
-      "description": "Generate or decode barcode",
+      "description": "Generate Code 128 barcode from number/text or scan/decode barcode from replied image/sticker",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -137,7 +137,7 @@
     },
     {
       "name": "Brat",
-      "description": "Create BRAT sticker",
+      "description": "Create BRAT style text stickers (green/black background, static or animated video)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -341,6 +341,17 @@
       "tags": [
         "gempa",
         "infogempa"
+      ]
+    },
+    {
+      "name": "GenerateLRC",
+      "description": "Automatically generate timestamped lyrics (.lrc) from audio or music video",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "generatelrc",
+        "lrc",
+        "makelrc"
       ]
     },
     {
@@ -604,7 +615,7 @@
     },
     {
       "name": "QR",
-      "description": "Generate or decode QR code",
+      "description": "Generate QR code from text/URL or scan/decode QR code from replied image/sticker",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -708,7 +719,7 @@
     },
     {
       "name": "SMeme",
-      "description": "Create meme from image",
+      "description": "Create meme sticker with top and bottom text from sent or replied image",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -820,7 +831,7 @@
     },
     {
       "name": "ToGif",
-      "description": "Convert sticker to GIF",
+      "description": "Convert animated WhatsApp sticker into GIF (reply sticker)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -829,7 +840,7 @@
     },
     {
       "name": "ToImage",
-      "description": "Convert sticker to image",
+      "description": "Convert WhatsApp sticker into regular image/photo (reply sticker)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -861,7 +872,7 @@
     },
     {
       "name": "ToVideo",
-      "description": "Convert sticker to video",
+      "description": "Convert animated WhatsApp sticker into MP4 video (reply sticker)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [

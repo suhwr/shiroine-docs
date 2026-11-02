@@ -15,8 +15,8 @@
     "kick"
   ],
   "description": {
-    "en": "React with kick",
-    "id": "Reaksi kick"
+    "id": "Reaksi kick",
+    "en": "React with kick"
   },
   "usage": "Kick",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/fun",
     "line": 1
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

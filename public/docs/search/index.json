@@ -22,7 +22,7 @@
     },
     {
       "name": "Lyric",
-      "description": "Search song lyrics",
+      "description": "Search full song lyrics by song title, artist, or lyric phrase",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -63,7 +63,7 @@
     },
     {
       "name": "YtMusicSearch",
-      "description": "Search music on YouTube Music",
+      "description": "Search track list on YouTube Music by title or artist",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -73,7 +73,7 @@
     },
     {
       "name": "YtSearch",
-      "description": "Search videos on YouTube",
+      "description": "Search video list on YouTube by title keyword",
       "permissions": {},
       "premiumOnly": "",
       "tags": [

@@ -15,8 +15,8 @@
     "run"
   ],
   "description": {
-    "en": "React with run",
-    "id": "Reaksi run"
+    "id": "Reaksi run",
+    "en": "React with run"
   },
   "usage": "Run",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/fun",
     "line": 1
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

@@ -21,8 +21,8 @@
     "delsubowner"
   ],
   "description": {
-    "id": "Hapus sub-owner",
-    "en": "Remove a sub-owner"
+    "id": "Hapus wewenang sub-owner dari user (khusus owner/developer)",
+    "en": "Remove sub-owner privileges from a user (owner/developer only)"
   },
   "usage": "RemoveSubOwner",
   "examples": [
@@ -69,5 +69,5 @@
     "file": "internal/plugins/developer",
     "line": 125
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

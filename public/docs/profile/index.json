@@ -30,7 +30,7 @@
     },
     {
       "name": "GetPP",
-      "description": "Get profile picture",
+      "description": "Download full resolution WhatsApp profile picture of a user or group",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -58,7 +58,7 @@
     },
     {
       "name": "Profile",
-      "description": "View user profile",
+      "description": "View user profile card, XP level, balance, premium status, and bot statistics",
       "permissions": {},
       "premiumOnly": "",
       "tags": [

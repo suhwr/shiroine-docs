@@ -19,8 +19,8 @@
     "set-bot-name"
   ],
   "description": {
-    "id": "Ubah nama bot",
-    "en": "Change bot name"
+    "id": "Mengubah nama panggilan bot untuk sesi ini",
+    "en": "Change the bot display name for this session"
   },
   "usage": "SetBotName",
   "examples": [
@@ -60,5 +60,5 @@
     "file": "internal/plugins/bot",
     "line": 47
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }
