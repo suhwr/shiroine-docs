@@ -15,8 +15,8 @@
     "cekpremium"
   ],
   "description": {
-    "en": "Check remaining premium duration",
-    "id": "Cek sisa durasi premium"
+    "id": "Cek sisa durasi premium",
+    "en": "Check remaining premium duration"
   },
   "usage": "CekPremium",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/profile",
     "line": 425
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

@@ -17,8 +17,8 @@
     "tag"
   ],
   "description": {
-    "id": "Tag semua anggota grup dikelompokkan berdasarkan peran",
-    "en": "Tag all group members grouped by role"
+    "en": "Tag all group members grouped by role",
+    "id": "Tag semua anggota grup dikelompokkan berdasarkan peran"
   },
   "usage": "TagAll",
   "examples": [
@@ -34,8 +34,8 @@
     "group_community"
   ],
   "chatTypes": {
-    "group_community": true,
-    "group": true
+    "group": true,
+    "group_community": true
   },
   "permissions": {
     "admin": true,
@@ -69,5 +69,5 @@
     "file": "internal/plugins/group",
     "line": 129
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

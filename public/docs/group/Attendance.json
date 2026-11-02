@@ -17,8 +17,8 @@
     "attendance"
   ],
   "description": {
-    "id": "Kelola absen grup dan ekspor CSV (admin)",
-    "en": "Manage group attendance and CSV exports (admins)"
+    "en": "Manage group attendance and CSV exports (admins)",
+    "id": "Kelola absen grup dan ekspor CSV (admin)"
   },
   "usage": "Attendance",
   "examples": [
@@ -43,8 +43,8 @@
     "group_community"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true
+    "group_community": true,
+    "group": true
   },
   "permissions": {
     "admin": true,
@@ -78,5 +78,5 @@
     "file": "internal/plugins/group",
     "line": 291
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

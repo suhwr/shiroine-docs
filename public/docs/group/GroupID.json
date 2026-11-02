@@ -15,8 +15,8 @@
     "groupid"
   ],
   "description": {
-    "id": "Menampilkan ID unik grup obrolan ini",
-    "en": "Display unique ID of this group chat"
+    "en": "Display unique ID of this group chat",
+    "id": "Menampilkan ID unik grup obrolan ini"
   },
   "usage": "GroupID",
   "examples": [
@@ -62,5 +62,5 @@
     "file": "internal/plugins/group",
     "line": 18
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

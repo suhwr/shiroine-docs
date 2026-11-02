@@ -19,8 +19,8 @@
     "d"
   ],
   "description": {
-    "en": "Delete replied message",
-    "id": "Hapus pesan yang dibalas (reply)"
+    "id": "Hapus pesan yang dibalas (reply)",
+    "en": "Delete replied message"
   },
   "usage": "Delete",
   "examples": [
@@ -70,5 +70,5 @@
     "file": "internal/plugins/group",
     "line": 196
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

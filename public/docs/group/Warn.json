@@ -38,8 +38,8 @@
     "group_community": true
   },
   "permissions": {
-    "admin": true,
-    "moderator": true
+    "moderator": true,
+    "admin": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -69,5 +69,5 @@
     "file": "internal/plugins/group",
     "line": 267
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

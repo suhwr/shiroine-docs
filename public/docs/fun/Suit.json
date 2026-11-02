@@ -17,8 +17,8 @@
     "rps"
   ],
   "description": {
-    "en": "Play rock-paper-scissors against the bot",
-    "id": "Bermain batu-gunting-kertas melawan bot"
+    "id": "Bermain batu-gunting-kertas melawan bot",
+    "en": "Play rock-paper-scissors against the bot"
   },
   "usage": "Suit",
   "examples": [
@@ -61,5 +61,5 @@
     "file": "internal/plugins/fun",
     "line": 172
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

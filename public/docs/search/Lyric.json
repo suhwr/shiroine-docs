@@ -19,8 +19,8 @@
     "lyrics"
   ],
   "description": {
-    "id": "Mencari lirik lagu lengkap berdasarkan judul musik atau penggalan lirik",
-    "en": "Search full song lyrics by song title, artist, or lyric phrase"
+    "en": "Search full song lyrics by song title, artist, or lyric phrase",
+    "id": "Mencari lirik lagu lengkap berdasarkan judul musik atau penggalan lirik"
   },
   "usage": "Lyric",
   "examples": [
@@ -64,5 +64,5 @@
     "file": "internal/plugins/search",
     "line": 77
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

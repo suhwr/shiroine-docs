@@ -15,8 +15,8 @@
     "fat"
   ],
   "description": {
-    "id": "Efek suara tebal / berat",
-    "en": "Fat / heavy audio effect"
+    "en": "Fat / heavy audio effect",
+    "id": "Efek suara tebal / berat"
   },
   "usage": "Fat",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/tools",
     "line": 454
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

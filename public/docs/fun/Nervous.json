@@ -15,8 +15,8 @@
     "nervous"
   ],
   "description": {
-    "id": "Reaksi nervous",
-    "en": "React with nervous"
+    "en": "React with nervous",
+    "id": "Reaksi nervous"
   },
   "usage": "Nervous",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/fun",
     "line": 1
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

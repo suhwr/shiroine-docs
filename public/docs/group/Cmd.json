@@ -15,8 +15,8 @@
     "cmd"
   ],
   "description": {
-    "en": "Disable or enable bot commands in this group individually or in bulk",
-    "id": "Nonaktifkan atau aktifkan perintah bot di grup ini secara satuan maupun massal"
+    "id": "Nonaktifkan atau aktifkan perintah bot di grup ini secara satuan maupun massal",
+    "en": "Disable or enable bot commands in this group individually or in bulk"
   },
   "usage": "Cmd",
   "examples": [
@@ -37,8 +37,8 @@
     "group_community": true
   },
   "permissions": {
-    "admin": true,
-    "subowner": true
+    "subowner": true,
+    "admin": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -68,5 +68,5 @@
     "file": "internal/plugins/group",
     "line": 305
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

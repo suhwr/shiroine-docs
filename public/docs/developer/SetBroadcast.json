@@ -1,31 +1,29 @@
 {
-  "name": "Status Broadcast",
+  "name": "SetBroadcast",
   "commands": [
-    "statusbroadcast",
-    "checkbc",
-    "statbc",
-    "status broadcast"
+    "setbroadcast",
+    "setbc"
   ],
   "aliases": [],
   "display": [
-    "Status Broadcast"
+    "SetBroadcast"
   ],
   "category": "developer",
   "categories": [
     "developer"
   ],
   "tags": [
-    "statusbroadcast",
-    "checkbc",
-    "statbc",
-    "status broadcast"
+    "setbroadcast",
+    "setbc"
   ],
   "description": {
-    "id": "Melihat statistik dan status kampanye passive broadcast",
-    "en": "Check passive broadcast campaign statistics and status"
+    "id": "Mengatur kampanye passive broadcast dari tautan channel dengan masa aktif 3 hari",
+    "en": "Set passive broadcast campaign from channel link with 3-day TTL"
   },
-  "usage": "Status Broadcast",
-  "examples": [],
+  "usage": "SetBroadcast",
+  "examples": [
+    "setbroadcast https://whatsapp.com/channel/0029Va.../123"
+  ],
   "minArgs": 0,
   "args": {},
   "requireMedia": [],
@@ -35,9 +33,9 @@
     "group_community"
   ],
   "chatTypes": {
+    "group_community": true,
     "private": true,
-    "group": true,
-    "group_community": true
+    "group": true
   },
   "permissions": {
     "owner": true
@@ -68,7 +66,7 @@
   },
   "source": {
     "file": "internal/plugins/developer",
-    "line": 264
+    "line": 242
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

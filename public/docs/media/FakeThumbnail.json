@@ -19,8 +19,8 @@
     "spoofmedia"
   ],
   "description": {
-    "id": "Kirim media asli namun manipulasi tampilannya dengan thumbnail dari media lain",
-    "en": "Send original media disguised with a fake thumbnail from another media"
+    "en": "Send original media disguised with a fake thumbnail from another media",
+    "id": "Kirim media asli namun manipulasi tampilannya dengan thumbnail dari media lain"
   },
   "usage": "FakeThumbnail",
   "examples": [
@@ -60,5 +60,5 @@
     "file": "internal/plugins/media",
     "line": 13
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

@@ -15,8 +15,8 @@
     "pacman"
   ],
   "description": {
-    "id": "Mainkan game retro klasik Pacman labirin hantu via webview WhatsApp",
-    "en": "Play Pacman"
+    "en": "Play Pacman",
+    "id": "Mainkan game retro klasik Pacman labirin hantu via webview WhatsApp"
   },
   "usage": "Pacman",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/minigame",
     "line": 1
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

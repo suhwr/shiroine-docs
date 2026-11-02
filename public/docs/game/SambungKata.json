@@ -15,8 +15,8 @@
     "sambungkata"
   ],
   "description": {
-    "en": "Start a fast word chain",
-    "id": "Mulai sambung kata siapa cepat"
+    "id": "Mulai sambung kata siapa cepat",
+    "en": "Start a fast word chain"
   },
   "usage": "SambungKata",
   "examples": [
@@ -62,5 +62,5 @@
     "file": "internal/plugins/game",
     "line": 218
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

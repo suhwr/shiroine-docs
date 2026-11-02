@@ -15,8 +15,8 @@
     "groupstats"
   ],
   "description": {
-    "en": "View group game statistics",
-    "id": "Lihat statistik game grup"
+    "id": "Lihat statistik game grup",
+    "en": "View group game statistics"
   },
   "usage": "GroupStats",
   "examples": [
@@ -30,8 +30,8 @@
     "group_community"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true
+    "group_community": true,
+    "group": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -62,5 +62,5 @@
     "file": "internal/plugins/game",
     "line": 685
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

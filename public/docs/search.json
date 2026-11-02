@@ -712,15 +712,16 @@
       ]
     },
     {
-      "name": "Cancel Broadcast",
+      "name": "CancelBroadcast",
       "aliases": [],
       "category": "developer",
-      "path": "/commands/developer/Cancel Broadcast",
+      "path": "/commands/developer/CancelBroadcast",
       "tags": [
         "cancelbroadcast",
         "delbc",
         "stopbc",
-        "cancel broadcast"
+        "deletebroadcast",
+        "delbroadcast"
       ]
     },
     {
@@ -901,14 +902,13 @@
       ]
     },
     {
-      "name": "Set Broadcast",
+      "name": "SetBroadcast",
       "aliases": [],
       "category": "developer",
-      "path": "/commands/developer/Set Broadcast",
+      "path": "/commands/developer/SetBroadcast",
       "tags": [
         "setbroadcast",
-        "setbc",
-        "set broadcast"
+        "setbc"
       ]
     },
     {
@@ -923,15 +923,14 @@
       ]
     },
     {
-      "name": "Status Broadcast",
+      "name": "StatusBroadcast",
       "aliases": [],
       "category": "developer",
-      "path": "/commands/developer/Status Broadcast",
+      "path": "/commands/developer/StatusBroadcast",
       "tags": [
         "statusbroadcast",
         "checkbc",
-        "statbc",
-        "status broadcast"
+        "statbc"
       ]
     },
     {

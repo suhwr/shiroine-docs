@@ -15,8 +15,8 @@
     "flip"
   ],
   "description": {
-    "en": "Flip image/video horizontally (h) or vertically (v)",
-    "id": "Balik gambar/video secara horizontal (h) atau vertikal (v)"
+    "id": "Balik gambar/video secara horizontal (h) atau vertikal (v)",
+    "en": "Flip image/video horizontally (h) or vertically (v)"
   },
   "usage": "Flip",
   "examples": [
@@ -57,5 +57,5 @@
     "file": "internal/plugins/tools",
     "line": 86
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

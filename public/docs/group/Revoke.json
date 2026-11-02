@@ -19,8 +19,8 @@
     "resetlink"
   ],
   "description": {
-    "en": "Reset group invite link and generate a new one",
-    "id": "Reset tautan undangan grup dan buat tautan baru"
+    "id": "Reset tautan undangan grup dan buat tautan baru",
+    "en": "Reset group invite link and generate a new one"
   },
   "usage": "Revoke",
   "examples": [
@@ -39,8 +39,8 @@
     "group_community": true
   },
   "permissions": {
-    "subowner": true,
-    "admin": true
+    "admin": true,
+    "subowner": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -70,5 +70,5 @@
     "file": "internal/plugins/group",
     "line": 73
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }
