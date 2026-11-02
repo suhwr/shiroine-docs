@@ -1,0 +1,66 @@
+{
+  "name": "GenerateLRC",
+  "commands": [
+    "generatelrc",
+    "lrc",
+    "makelrc"
+  ],
+  "aliases": [],
+  "display": [
+    "GenerateLRC"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "generatelrc",
+    "lrc",
+    "makelrc"
+  ],
+  "description": {
+    "id": "Membuat lirik lagu bertimestamp (.lrc) otomatis dari audio atau video musik",
+    "en": "Automatically generate timestamped lyrics (.lrc) from audio or music video"
+  },
+  "usage": "GenerateLRC",
+  "examples": [
+    "generatelrc (reply audio lagu)",
+    "lrc (reply VN/audio)",
+    "generatelrc (reply song audio)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 291
+  },
+  "lastUpdated": "2026-11-02T14:23:45Z"
+}

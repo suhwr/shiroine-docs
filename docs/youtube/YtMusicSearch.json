@@ -18,8 +18,8 @@
     "ytmusicsearch"
   ],
   "description": {
-    "id": "Cari musik di YouTube Music",
-    "en": "Search music on YouTube Music"
+    "id": "Mencari daftar lagu/musik di YouTube Music berdasarkan judul atau artis",
+    "en": "Search track list on YouTube Music by title or artist"
   },
   "usage": "YtMusicSearch",
   "examples": [
@@ -60,5 +60,5 @@
     "file": "internal/plugins/youtube",
     "line": 130
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

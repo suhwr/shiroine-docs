@@ -15,8 +15,8 @@
     "aichara"
   ],
   "description": {
-    "id": "Kelola karakter AI",
-    "en": "Manage AI character"
+    "id": "Melihat daftar karakter AI persona dan mengganti karakter AI yang aktif",
+    "en": "View available AI personas and change the active AI character"
   },
   "usage": "AIChara",
   "examples": [
@@ -58,5 +58,5 @@
     "file": "internal/plugins/ai",
     "line": 367
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

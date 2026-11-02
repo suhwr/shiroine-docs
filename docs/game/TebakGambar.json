@@ -15,8 +15,8 @@
     "tebakgambar"
   ],
   "description": {
-    "id": "Mulai game tebak gambar",
-    "en": "Start picture guessing game"
+    "id": "Memulai permainan kuis tebak gambar berhadiah skor dan XP di grup",
+    "en": "Start picture guessing quiz game with score and XP rewards in group"
   },
   "usage": "TebakGambar",
   "examples": [
@@ -62,5 +62,5 @@
     "file": "internal/plugins/game",
     "line": 208
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

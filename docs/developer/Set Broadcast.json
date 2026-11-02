@@ -1,0 +1,74 @@
+{
+  "name": "Set Broadcast",
+  "commands": [
+    "setbroadcast",
+    "setbc",
+    "set broadcast"
+  ],
+  "aliases": [],
+  "display": [
+    "Set Broadcast"
+  ],
+  "category": "developer",
+  "categories": [
+    "developer"
+  ],
+  "tags": [
+    "setbroadcast",
+    "setbc",
+    "set broadcast"
+  ],
+  "description": {
+    "id": "Mengatur kampanye passive broadcast dari tautan channel dengan masa aktif 3 hari",
+    "en": "Set passive broadcast campaign from channel link with 3-day TTL"
+  },
+  "usage": "Set Broadcast",
+  "examples": [
+    "setbroadcast https://whatsapp.com/channel/0029Va.../123"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "private": true,
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {
+    "owner": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/developer",
+    "line": 242
+  },
+  "lastUpdated": "2026-11-02T14:23:45Z"
+}

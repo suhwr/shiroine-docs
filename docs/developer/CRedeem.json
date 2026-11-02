@@ -15,8 +15,8 @@
     "credeem"
   ],
   "description": {
-    "id": "Buat kode redeem limit tanpa kuota (owner only)",
-    "en": "Create limit redeem code without quota (owner only)"
+    "en": "Create limit redeem code without quota (owner only)",
+    "id": "Buat kode redeem limit tanpa kuota (owner only)"
   },
   "usage": "CRedeem <teks>",
   "examples": [
@@ -68,5 +68,5 @@
     "file": "internal/plugins/developer",
     "line": 61
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

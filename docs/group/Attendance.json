@@ -1,0 +1,82 @@
+{
+  "name": "Attendance",
+  "commands": [
+    "absen",
+    "attendance"
+  ],
+  "aliases": [],
+  "display": [
+    "Attendance"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "absen",
+    "attendance"
+  ],
+  "description": {
+    "id": "Kelola absen grup dan ekspor CSV (admin)",
+    "en": "Manage group attendance and CSV exports (admins)"
+  },
+  "usage": "Attendance",
+  "examples": [
+    "absen mulai",
+    "absen status 1",
+    "absen belum",
+    "absen rekap 30d",
+    "absen selesai",
+    "absen csv",
+    "attendance mulai",
+    "attendance status 1",
+    "attendance belum",
+    "attendance rekap 30d",
+    "attendance selesai",
+    "attendance csv"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {
+    "admin": true,
+    "subowner": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 291
+  },
+  "lastUpdated": "2026-11-02T14:23:45Z"
+}

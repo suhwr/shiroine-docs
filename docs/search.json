@@ -1,6 +1,22 @@
 {
   "commands": [
     {
+      "aliases": [
+        "aistats",
+        "aimodel",
+        "aistatus"
+      ],
+      "category": "ai",
+      "name": "AI Stats",
+      "path": "/commands/ai/AI Stats",
+      "tags": [
+        "AI Stats",
+        "aistats",
+        "aimodel",
+        "aistatus"
+      ]
+    },
+    {
       "aliases": [],
       "category": "ai",
       "name": "AI",
@@ -21,10 +37,35 @@
     {
       "aliases": [],
       "category": "ai",
-      "name": "ComfyUI Anime Art",
-      "path": "/commands/ai/ComfyUI Anime Art",
+      "name": "AIMemory",
+      "path": "/commands/ai/AIMemory",
       "tags": [
-        "ComfyUI Anime Art"
+        "AIMemory"
+      ]
+    },
+    {
+      "aliases": [
+        "anthropic",
+        "sonnet",
+        "claudeai"
+      ],
+      "category": "ai",
+      "name": "Claude",
+      "path": "/commands/ai/Claude",
+      "tags": [
+        "Claude",
+        "anthropic",
+        "sonnet",
+        "claudeai"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "ai",
+      "name": "ComfyUI",
+      "path": "/commands/ai/ComfyUI",
+      "tags": [
+        "ComfyUI"
       ]
     },
     {
@@ -52,15 +93,6 @@
       "path": "/commands/ai/Gemini",
       "tags": [
         "Gemini"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "ai",
-      "name": "Gemma",
-      "path": "/commands/ai/Gemma",
-      "tags": [
-        "Gemma"
       ]
     },
     {
@@ -109,21 +141,23 @@
       ]
     },
     {
-      "aliases": [],
+      "aliases": [
+        "reset-ai",
+        "resetaigroup",
+        "resetaigrup",
+        "aireset",
+        "clearchat"
+      ],
       "category": "ai",
-      "name": "ResetAI",
-      "path": "/commands/ai/ResetAI",
+      "name": "Reset AI",
+      "path": "/commands/ai/Reset AI",
       "tags": [
-        "ResetAI"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "ai",
-      "name": "ResetAIGroup",
-      "path": "/commands/ai/ResetAIGroup",
-      "tags": [
-        "ResetAIGroup"
+        "Reset AI",
+        "reset-ai",
+        "resetaigroup",
+        "resetaigrup",
+        "aireset",
+        "clearchat"
       ]
     },
     {
@@ -606,6 +640,15 @@
     {
       "aliases": [],
       "category": "developer",
+      "name": "Cancel Broadcast",
+      "path": "/commands/developer/Cancel Broadcast",
+      "tags": [
+        "Cancel Broadcast"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "developer",
       "name": "ClearDB",
       "path": "/commands/developer/ClearDB",
       "tags": [
@@ -646,6 +689,15 @@
       "path": "/commands/developer/Errors",
       "tags": [
         "Errors"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "developer",
+      "name": "Forward Channel",
+      "path": "/commands/developer/Forward Channel",
+      "tags": [
+        "Forward Channel"
       ]
     },
     {
@@ -750,10 +802,28 @@
     {
       "aliases": [],
       "category": "developer",
+      "name": "Set Broadcast",
+      "path": "/commands/developer/Set Broadcast",
+      "tags": [
+        "Set Broadcast"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "developer",
       "name": "SetRole",
       "path": "/commands/developer/SetRole",
       "tags": [
         "SetRole"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "developer",
+      "name": "Status Broadcast",
+      "path": "/commands/developer/Status Broadcast",
+      "tags": [
+        "Status Broadcast"
       ]
     },
     {
@@ -1911,6 +1981,15 @@
     {
       "aliases": [],
       "category": "game",
+      "name": "SambungKata",
+      "path": "/commands/game/SambungKata",
+      "tags": [
+        "SambungKata"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
       "name": "SiapakahAku",
       "path": "/commands/game/SiapakahAku",
       "tags": [
@@ -1956,6 +2035,15 @@
     {
       "aliases": [],
       "category": "game",
+      "name": "TebakIbukota",
+      "path": "/commands/game/TebakIbukota",
+      "tags": [
+        "TebakIbukota"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
       "name": "TebakKata",
       "path": "/commands/game/TebakKata",
       "tags": [
@@ -1983,6 +2071,15 @@
     {
       "aliases": [],
       "category": "game",
+      "name": "Wordle",
+      "path": "/commands/game/Wordle",
+      "tags": [
+        "Wordle"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
       "name": "index",
       "path": "/commands/game/index",
       "tags": [
@@ -1996,6 +2093,15 @@
       "path": "/commands/general/About",
       "tags": [
         "About"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "general",
+      "name": "Ask",
+      "path": "/commands/general/Ask",
+      "tags": [
+        "Ask"
       ]
     },
     {
@@ -2298,6 +2404,15 @@
     {
       "aliases": [],
       "category": "group",
+      "name": "Attendance",
+      "path": "/commands/group/Attendance",
+      "tags": [
+        "Attendance"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
       "name": "AutoRespon",
       "path": "/commands/group/AutoRespon",
       "tags": [
@@ -2590,6 +2705,15 @@
       "path": "/commands/group/PinMsg",
       "tags": [
         "PinMsg"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "Present",
+      "path": "/commands/group/Present",
+      "tags": [
+        "Present"
       ]
     },
     {
@@ -3306,15 +3430,6 @@
     {
       "aliases": [],
       "category": "store_admin",
-      "name": "CancelOrder",
-      "path": "/commands/store_admin/CancelOrder",
-      "tags": [
-        "CancelOrder"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "store_admin",
       "name": "DetailOrder",
       "path": "/commands/store_admin/DetailOrder",
       "tags": [
@@ -3760,6 +3875,15 @@
       "path": "/commands/tools/Gempa",
       "tags": [
         "Gempa"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "GenerateLRC",
+      "path": "/commands/tools/GenerateLRC",
+      "tags": [
+        "GenerateLRC"
       ]
     },
     {

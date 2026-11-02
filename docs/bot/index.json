@@ -228,7 +228,7 @@
     },
     {
       "name": "SetBotName",
-      "description": "Change bot name",
+      "description": "Change the bot display name for this session",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -250,7 +250,7 @@
     },
     {
       "name": "SetPP",
-      "description": "Set bot profile picture",
+      "description": "Set bot profile picture (send/reply image, optional: -f for full image)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [

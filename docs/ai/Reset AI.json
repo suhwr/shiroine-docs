@@ -1,0 +1,77 @@
+{
+  "name": "Reset AI",
+  "commands": [
+    "resetai",
+    "reset ai"
+  ],
+  "aliases": [
+    "reset-ai",
+    "resetaigroup",
+    "resetaigrup",
+    "aireset",
+    "clearchat"
+  ],
+  "display": [
+    "Reset AI"
+  ],
+  "category": "ai",
+  "categories": [
+    "ai"
+  ],
+  "tags": [
+    "resetai",
+    "reset ai",
+    "reset-ai",
+    "resetaigroup",
+    "resetaigrup",
+    "aireset",
+    "clearchat"
+  ],
+  "description": {
+    "id": "Hapus riwayat obrolan AI fleksibel: per karakter, rewind N pesan terakhir, atau reset total semua karakter (otomatis mendeteksi sesi pribadi & grup)",
+    "en": "Flexible AI chat reset: per character, rewind last N messages, or full wipe across all characters (auto-detects private & group sessions)"
+  },
+  "usage": "Reset AI",
+  "examples": [
+    "resetai",
+    "resetai all",
+    "resetai miku",
+    "resetai last 5",
+    "resetai memory"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/ai",
+    "line": 234
+  },
+  "lastUpdated": "2026-11-02T14:23:45Z"
+}

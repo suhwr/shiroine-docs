@@ -21,8 +21,8 @@
     "livephoto"
   ],
   "description": {
-    "en": "Convert video or photo+video combination into WhatsApp Motion Photo",
-    "id": "Ubah video atau kombinasi foto+video menjadi Motion Photo WhatsApp"
+    "id": "Ubah video atau kombinasi foto+video menjadi Motion Photo WhatsApp",
+    "en": "Convert video or photo+video combination into WhatsApp Motion Photo"
   },
   "usage": "PhotoLive",
   "examples": [
@@ -62,5 +62,5 @@
     "file": "internal/plugins/media",
     "line": 14
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

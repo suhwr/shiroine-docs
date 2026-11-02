@@ -1,0 +1,72 @@
+{
+  "name": "AIMemory",
+  "commands": [
+    "aimemory",
+    "ingatan",
+    "aimem"
+  ],
+  "aliases": [],
+  "display": [
+    "AIMemory"
+  ],
+  "category": "ai",
+  "categories": [
+    "ai"
+  ],
+  "tags": [
+    "aimemory",
+    "ingatan",
+    "aimem"
+  ],
+  "description": {
+    "id": "Melihat atau menghapus ingatan jangka panjang (Long-Term Memory / LTM) yang diserap AI tentangmu",
+    "en": "View or clear long-term memories (LTM) absorbed by AI about you"
+  },
+  "usage": "AIMemory",
+  "examples": [
+    "aimemory",
+    "aimemory clear"
+  ],
+  "minArgs": 0,
+  "args": {
+    "[opsi]": {
+      "id": "Kosongkan untuk melihat ingatan, atau ketik 'clear' untuk menghapus ingatan"
+    },
+    "[option]": {
+      "en": "Leave empty to view memory, or type 'clear' to wipe memory"
+    }
+  },
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/ai",
+    "line": 87
+  },
+  "lastUpdated": "2026-11-02T14:23:45Z"
+}

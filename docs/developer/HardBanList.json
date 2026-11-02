@@ -34,15 +34,15 @@
     "newsletter"
   ],
   "chatTypes": {
-    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true
+    "newsletter": true,
+    "private": true
   },
   "permissions": {
+    "owner": true,
     "moderator": true,
-    "subowner": true,
-    "owner": true
+    "subowner": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -72,5 +72,5 @@
     "file": "internal/plugins/developer",
     "line": 208
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

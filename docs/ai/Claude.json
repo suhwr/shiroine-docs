@@ -1,0 +1,76 @@
+{
+  "name": "Claude",
+  "commands": [
+    "claude"
+  ],
+  "aliases": [
+    "anthropic",
+    "sonnet",
+    "claudeai"
+  ],
+  "display": [
+    "Claude"
+  ],
+  "category": "ai",
+  "categories": [
+    "ai"
+  ],
+  "tags": [
+    "claude",
+    "anthropic",
+    "sonnet",
+    "claudeai"
+  ],
+  "description": {
+    "en": "Chat with Claude Sonnet (deep reasoning, creative writing & text analysis, Premium only)",
+    "id": "Chat dengan Claude Sonnet (penalaran mendalam, penulisan kreatif & analisis teks, khusus Premium)"
+  },
+  "usage": "Claude",
+  "examples": [
+    "claude buatkan cerita pendek tentang dunia fantasi",
+    "claude clear",
+    "claude write a short fantasy story"
+  ],
+  "minArgs": 0,
+  "args": {
+    "pertanyaan": {
+      "id": "Pertanyaan atau teks instruksi (ketik 'clear' untuk menghapus riwayat obrolan)"
+    },
+    "query": {
+      "en": "Question or instruction text (type 'clear' to reset chat memory)"
+    }
+  },
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/ai",
+    "line": 105
+  },
+  "lastUpdated": "2026-11-02T14:23:45Z"
+}

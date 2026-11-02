@@ -1,16 +1,12 @@
 {
-  "name": "ComfyUI Anime Art",
+  "name": "ComfyUI",
   "commands": [
     "cui",
-    "comfy",
-    "animeart",
-    "illust",
-    "waifu",
-    "comfyui anime art"
+    "comfyui"
   ],
   "aliases": [],
   "display": [
-    "ComfyUI Anime Art"
+    "ComfyUI"
   ],
   "category": "ai",
   "categories": [
@@ -18,21 +14,18 @@
   ],
   "tags": [
     "cui",
-    "comfy",
-    "animeart",
-    "illust",
-    "waifu",
-    "comfyui anime art"
+    "comfyui"
   ],
   "description": {
-    "id": "Generate karya seni anime SOTA menggunakan ComfyUI (Biaya: 10 limit AI, 👑 Premium: 3 limit AI).",
-    "en": "Generate SOTA anime artwork using ComfyUI (Cost: 10 AI limits, 👑 Premium: 3 AI limits)."
+    "id": "Generate gambar anime modern DiT via ComfyUI (Default: SilvermoonMix. Model lain: Nova Anime AM v6.0, Nova Orange 2.5D. Biaya: 10 limit AI, 👑 Premium: 3 limit AI).",
+    "en": "Generate modern DiT anime images via ComfyUI (Default: SilvermoonMix. Other models: Nova Anime AM v6.0, Nova Orange 2.5D. Cost: 10 AI limits, 👑 Premium: 3 AI limits)."
   },
-  "usage": "ComfyUI Anime Art",
+  "usage": "ComfyUI",
   "examples": [
-    "cui 1girl, silver hair, cat ears, school uniform",
-    "cui 1girl, hatsune miku, concert stage --ar=landscape",
-    "comfy 1boy, cool samurai, neon tokyo --ar=portrait --seed=12345"
+    "cui 2girls, beautiful school uniform, delicate hands",
+    "cui nova 1girl, hatsune miku, cyber stage --landscape",
+    "cui orange 1girl, expressive lighting, soft skin --portrait",
+    "cui 1girl, cute maid --ar=portrait"
   ],
   "minArgs": 0,
   "args": {},
@@ -66,7 +59,7 @@
   },
   "source": {
     "file": "internal/plugins/ai",
-    "line": 212
+    "line": 289
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

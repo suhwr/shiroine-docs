@@ -15,8 +15,8 @@
     "info"
   ],
   "description": {
-    "id": "Atur notifikasi grup",
-    "en": "Configure group notification"
+    "id": "Atur notifikasi perubahan setelan informasi grup WhatsApp",
+    "en": "Configure group setting change notifications"
   },
   "usage": "Info",
   "examples": [
@@ -67,5 +67,5 @@
     "file": "internal/plugins/group",
     "line": 1
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

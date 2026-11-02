@@ -21,13 +21,17 @@
     "tsmeme"
   ],
   "description": {
-    "id": "Buat meme dari gambar",
-    "en": "Create meme from image"
+    "id": "Buat stiker meme dengan teks atas dan bawah dari gambar yang dikirim atau direply",
+    "en": "Create meme sticker with top and bottom text from sent or replied image"
   },
   "usage": "SMeme",
   "examples": [
-    "smeme halo|dunia",
-    "smeme hello|world"
+    "smeme teks atas|teks bawah",
+    "smeme |hanya teks bawah",
+    "smeme hanya teks atas|",
+    "smeme top text|bottom text",
+    "smeme |only bottom text",
+    "smeme only top text|"
   ],
   "minArgs": 0,
   "args": {},
@@ -63,5 +67,5 @@
     "file": "internal/plugins/tools",
     "line": 94
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

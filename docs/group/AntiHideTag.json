@@ -15,8 +15,8 @@
     "antihidetag"
   ],
   "description": {
-    "id": "Atur anti hidetag",
-    "en": "Configure anti hidetag"
+    "id": "Atur proteksi anti tag/mention tersembunyi (hidetag) di grup",
+    "en": "Configure anti hidden mention (hidetag) protection in group"
   },
   "usage": "AntiHideTag",
   "examples": [
@@ -69,5 +69,5 @@
     "file": "internal/plugins/group",
     "line": 423
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

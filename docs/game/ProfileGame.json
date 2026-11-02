@@ -17,8 +17,8 @@
     "gameprofile"
   ],
   "description": {
-    "id": "Lihat profil game kamu",
-    "en": "View your game profile"
+    "en": "View game profile card with total score, streak, and ranking",
+    "id": "Lihat kartu profil statistik game, skor total, streak, dan rank kamu"
   },
   "usage": "ProfileGame",
   "examples": [
@@ -68,5 +68,5 @@
     "file": "internal/plugins/game",
     "line": 166
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

@@ -1,36 +1,45 @@
 {
-  "name": "ResetAIGroup",
+  "name": "Present",
   "commands": [
-    "reset-ai-group",
-    "resetaigroup",
-    "resetaigrup"
+    "hadir",
+    "present"
   ],
   "aliases": [],
   "display": [
-    "ResetAIGroup"
+    "Present"
   ],
-  "category": "ai",
+  "category": "group",
   "categories": [
-    "ai"
+    "group"
   ],
   "tags": [
-    "reset-ai-group",
-    "resetaigroup",
-    "resetaigrup"
+    "hadir",
+    "present"
   ],
   "description": {
-    "id": "Reset riwayat chat AI di grup (Admin only)",
-    "en": "Reset AI chat history in group (Admin only)"
+    "id": "Catat hadir, izin, atau sakit sekali per sesi",
+    "en": "Check in as present, excused, or sick once per session"
   },
-  "usage": "ResetAIGroup",
+  "usage": "Present",
   "examples": [
-    "resetaigroup"
+    "hadir",
+    "hadir izin acara keluarga",
+    "hadir sakit demam",
+    "present",
+    "present izin family event",
+    "present sakit fever"
   ],
   "minArgs": 0,
   "args": {},
   "requireMedia": [],
-  "chatPermissions": [],
-  "chatTypes": {},
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
   "permissions": {},
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -57,8 +66,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/ai",
-    "line": 41
+    "file": "internal/plugins/group",
+    "line": 83
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

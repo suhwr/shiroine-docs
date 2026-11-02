@@ -1,45 +1,44 @@
 {
-  "name": "CancelOrder",
+  "name": "TebakIbukota",
   "commands": [
-    "cancelorder",
-    "cancel",
-    "batal"
+    "tebakibukota"
   ],
   "aliases": [],
   "display": [
-    "CancelOrder"
+    "TebakIbukota"
   ],
-  "category": "store_admin",
+  "category": "game",
   "categories": [
-    "store_admin"
+    "game"
   ],
   "tags": [
-    "cancelorder",
-    "cancel",
-    "batal"
+    "tebakibukota"
   ],
   "description": {
-    "id": "Batalkan pesanan transaksi pembeli (Staff / Owner Toko)",
-    "en": "Cancel buyer order transaction (Store Staff / Owner)"
+    "id": "Mulai game tebak ibukota negara di dunia",
+    "en": "Start capital city guessing game"
   },
-  "usage": "CancelOrder",
+  "usage": "TebakIbukota",
   "examples": [
-    "batal (reply invoice)",
-    "batal INV-20261004-1234",
-    "cancel (reply invoice)",
-    "cancel INV-20261004-1234"
+    "tebakibukota"
   ],
   "minArgs": 0,
   "args": {},
   "requireMedia": [],
-  "chatPermissions": [],
-  "chatTypes": {},
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
   "permissions": {},
   "premiumOnly": "",
   "nsfwOnly": false,
   "level": 0,
   "limitCost": 0,
-  "delaySeconds": 0,
+  "delaySeconds": 3,
   "ignoreQueue": false,
   "disableProcessLimit": false,
   "sendsToPrivate": false,
@@ -60,8 +59,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/store",
-    "line": 646
+    "file": "internal/plugins/game",
+    "line": 245
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

@@ -17,8 +17,8 @@
     "upstatus"
   ],
   "description": {
-    "id": "Upload media ke status WhatsApp (tanpa tag grup)",
-    "en": "Upload media to WhatsApp status (no group tagging)"
+    "en": "Upload media to WhatsApp status (no group tagging)",
+    "id": "Upload media ke status WhatsApp (tanpa tag grup)"
   },
   "usage": "UpSW",
   "examples": [
@@ -59,5 +59,5 @@
     "file": "internal/plugins/bot",
     "line": 211
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

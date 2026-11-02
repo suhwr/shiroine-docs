@@ -17,8 +17,8 @@
     "getpic"
   ],
   "description": {
-    "id": "Ambil foto profil",
-    "en": "Get profile picture"
+    "id": "Mengambil dan mengunduh foto profil pengguna WhatsApp atau foto profil grup dalam resolusi penuh",
+    "en": "Download full resolution WhatsApp profile picture of a user or group"
   },
   "usage": "GetPP",
   "examples": [
@@ -62,5 +62,5 @@
     "file": "internal/plugins/profile",
     "line": 147
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

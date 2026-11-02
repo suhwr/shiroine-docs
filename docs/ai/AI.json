@@ -15,8 +15,8 @@
     "ai"
   ],
   "description": {
-    "en": "Talk with AI using selected character",
-    "id": "Berbicara dengan AI menggunakan karakter yang dipilih"
+    "id": "Berbicara dengan AI menggunakan karakter yang dipilih",
+    "en": "Talk with AI using selected character"
   },
   "usage": "AI",
   "examples": [
@@ -57,7 +57,7 @@
   },
   "source": {
     "file": "internal/plugins/ai",
-    "line": 506
+    "line": 593
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

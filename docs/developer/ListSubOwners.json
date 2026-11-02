@@ -21,8 +21,8 @@
     "sublist"
   ],
   "description": {
-    "en": "Show sub-owners list",
-    "id": "Tampilkan daftar sub-owner"
+    "id": "Tampilkan daftar sub-owner",
+    "en": "Show sub-owners list"
   },
   "usage": "ListSubOwners",
   "examples": [
@@ -68,5 +68,5 @@
     "file": "internal/plugins/developer",
     "line": 143
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

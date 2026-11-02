@@ -17,8 +17,8 @@
     "hban"
   ],
   "description": {
-    "en": "Ban user globally (permanent)",
-    "id": "Ban user secara global (permanen)"
+    "id": "Ban user secara global (permanen)",
+    "en": "Ban user globally (permanent)"
   },
   "usage": "HardBan",
   "examples": [
@@ -36,10 +36,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "newsletter": true,
     "private": true,
     "group": true,
-    "group_community": true
+    "group_community": true,
+    "newsletter": true
   },
   "permissions": {
     "moderator": true,
@@ -74,5 +74,5 @@
     "file": "internal/plugins/developer",
     "line": 172
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

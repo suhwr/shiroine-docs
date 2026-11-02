@@ -15,8 +15,8 @@
     "breakout"
   ],
   "description": {
-    "id": "Mainkan game pemecah bata",
-    "en": "Play Breakout"
+    "en": "Play Breakout",
+    "id": "Mainkan game pantul bola pemecah bata Breakout via webview WhatsApp"
   },
   "usage": "Breakout",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/minigame",
     "line": 1
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

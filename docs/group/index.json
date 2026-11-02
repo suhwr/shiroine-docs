@@ -16,8 +16,8 @@
       "name": "AdminOnly",
       "description": "Make the bot only respond to commands from group admins",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -53,7 +53,7 @@
     },
     {
       "name": "AntiBug",
-      "description": "Configure anti bug/virtex",
+      "description": "Configure anti bug, virtex, and crash protection in group",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -65,7 +65,7 @@
     },
     {
       "name": "AntiCall",
-      "description": "Configure anti group call",
+      "description": "Configure automatic rejection of WhatsApp group calls",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -77,10 +77,10 @@
     },
     {
       "name": "AntiHideTag",
-      "description": "Configure anti hidetag",
+      "description": "Configure anti hidden mention (hidetag) protection in group",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -138,7 +138,7 @@
     },
     {
       "name": "AntiSpam",
-      "description": "Configure anti spam",
+      "description": "Configure anti spam flood protection in group",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -150,7 +150,7 @@
     },
     {
       "name": "AntiTagSW",
-      "description": "Configure anti tag status",
+      "description": "Configure anti status tag protection in group",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -158,6 +158,19 @@
       "premiumOnly": "",
       "tags": [
         "antitagsw"
+      ]
+    },
+    {
+      "name": "Attendance",
+      "description": "Manage group attendance and CSV exports (admins)",
+      "permissions": {
+        "subowner": true,
+        "admin": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "absen",
+        "attendance"
       ]
     },
     {
@@ -214,8 +227,8 @@
       "name": "BanMember",
       "description": "Ban member from using the bot in this group",
       "permissions": {
-        "admin": true,
-        "moderator": true
+        "moderator": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -312,7 +325,7 @@
     },
     {
       "name": "Ephemeral",
-      "description": "Configure ephemeral messages",
+      "description": "Configure disappearing / ephemeral messages in group",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -394,7 +407,7 @@
     },
     {
       "name": "Info",
-      "description": "Configure group notification",
+      "description": "Configure group setting change notifications",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -429,11 +442,11 @@
       "name": "LeaveGroup",
       "description": "Remove bot from group or leave groups remotely",
       "permissions": {
-        "admin": true,
         "owner": true,
         "subowner": true,
         "bot": true,
-        "hasbot": true
+        "hasbot": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -447,10 +460,10 @@
     },
     {
       "name": "Left",
-      "description": "Configure left notification",
+      "description": "Configure goodbye notification and cover when members leave",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -585,6 +598,16 @@
       ]
     },
     {
+      "name": "Present",
+      "description": "Check in as present, excused, or sick once per session",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "hadir",
+        "present"
+      ]
+    },
+    {
       "name": "Promote",
       "description": "Promote a group member to admin",
       "permissions": {
@@ -659,8 +682,8 @@
       "name": "SetDesc",
       "description": "Change group chat description",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -696,8 +719,8 @@
       "name": "SetPPGC",
       "description": "Set group chat profile picture",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -853,8 +876,8 @@
       "name": "UnmuteMember",
       "description": "Unmute a specific member in the group",
       "permissions": {
-        "admin": true,
-        "moderator": true
+        "moderator": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -913,7 +936,7 @@
     },
     {
       "name": "Welcome",
-      "description": "Configure welcome message",
+      "description": "Configure welcome message and cover for new group members",
       "permissions": {
         "subowner": true,
         "admin": true

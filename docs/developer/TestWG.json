@@ -15,8 +15,8 @@
     "testwg"
   ],
   "description": {
-    "id": "Test welcome or goodbye generator directly",
-    "en": "Test welcome or goodbye generator directly"
+    "id": "Uji coba langsung generator gambar welcome atau goodbye (khusus developer)",
+    "en": "Test welcome or goodbye image generator directly (developer only)"
   },
   "usage": "TestWG",
   "examples": [
@@ -68,5 +68,5 @@
     "file": "internal/plugins/developer",
     "line": 19
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }

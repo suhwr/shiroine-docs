@@ -1,42 +1,44 @@
 {
-  "name": "Gemma",
+  "name": "SambungKata",
   "commands": [
-    "gemma"
+    "sambungkata"
   ],
   "aliases": [],
   "display": [
-    "Gemma"
+    "SambungKata"
   ],
-  "category": "ai",
+  "category": "game",
   "categories": [
-    "ai"
+    "game"
   ],
   "tags": [
-    "gemma"
+    "sambungkata"
   ],
   "description": {
-    "id": "Chat dengan Gemma 3 27B IT (mendukung teks dan gambar)",
-    "en": "Chat with Gemma 3 27B IT (supports text and images)"
+    "en": "Start a fast word chain",
+    "id": "Mulai sambung kata siapa cepat"
   },
-  "usage": "Gemma",
+  "usage": "SambungKata",
   "examples": [
-    "gemma halo!",
-    "gemma apa itu machine learning?",
-    "gemma clear",
-    "gemma hello!",
-    "gemma what is machine learning?"
+    "sambungkata"
   ],
   "minArgs": 0,
   "args": {},
   "requireMedia": [],
-  "chatPermissions": [],
-  "chatTypes": {},
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
   "permissions": {},
   "premiumOnly": "",
   "nsfwOnly": false,
   "level": 0,
-  "limitCost": 1,
-  "delaySeconds": 0,
+  "limitCost": 0,
+  "delaySeconds": 3,
   "ignoreQueue": false,
   "disableProcessLimit": false,
   "sendsToPrivate": false,
@@ -57,8 +59,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/ai",
-    "line": 97
+    "file": "internal/plugins/game",
+    "line": 218
   },
-  "lastUpdated": "2026-10-29T18:40:25Z"
+  "lastUpdated": "2026-11-02T14:23:45Z"
 }
