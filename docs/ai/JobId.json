@@ -21,8 +21,8 @@
     "jobstatus"
   ],
   "description": {
-    "id": "Periksa status pekerjaan video AI yang sedang diproses",
-    "en": "Check the status of an ongoing AI video job"
+    "en": "Check the status of an ongoing AI video job",
+    "id": "Periksa status pekerjaan video AI yang sedang diproses"
   },
   "usage": "JobId",
   "examples": [
@@ -63,5 +63,5 @@
     "file": "internal/plugins/ai",
     "line": 565
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

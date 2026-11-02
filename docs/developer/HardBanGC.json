@@ -42,9 +42,9 @@
     "private": true
   },
   "permissions": {
+    "owner": true,
     "subowner": true,
-    "moderator": true,
-    "owner": true
+    "moderator": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -74,5 +74,5 @@
     "file": "internal/plugins/developer",
     "line": 98
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

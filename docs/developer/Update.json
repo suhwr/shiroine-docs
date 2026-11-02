@@ -15,8 +15,8 @@
     "update"
   ],
   "description": {
-    "id": "Update dan restart aplikasi via PM2",
-    "en": "Update and restart application via PM2"
+    "en": "Update and restart application via PM2",
+    "id": "Update dan restart aplikasi via PM2"
   },
   "usage": "Update",
   "examples": [
@@ -68,5 +68,5 @@
     "file": "internal/plugins/developer",
     "line": 183
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

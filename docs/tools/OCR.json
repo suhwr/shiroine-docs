@@ -15,8 +15,8 @@
     "ocr"
   ],
   "description": {
-    "en": "Extract text from photo/sticker using OCR (models: lens, ai, local)",
-    "id": "Ekstrak teks dari foto/stiker menggunakan OCR (model: lens, ai, local)"
+    "id": "Ekstrak teks dari foto/stiker menggunakan OCR (model: lens, ai, local)",
+    "en": "Extract text from photo/sticker using OCR (models: lens, ai, local)"
   },
   "usage": "OCR",
   "examples": [
@@ -63,5 +63,5 @@
     "file": "internal/plugins/tools",
     "line": 90
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

@@ -52,9 +52,9 @@
       "name": "BanMedia",
       "description": "Flag media as NSFW — instantly blocked in all groups",
       "permissions": {
-        "owner": true,
         "subowner": true,
-        "moderator": true
+        "moderator": true,
+        "owner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -100,7 +100,7 @@
       ]
     },
     {
-      "name": "Cancel Broadcast",
+      "name": "CancelBroadcast",
       "description": "Cancel active passive broadcast campaign",
       "permissions": {
         "owner": true
@@ -110,7 +110,8 @@
         "cancelbroadcast",
         "delbc",
         "stopbc",
-        "cancel broadcast"
+        "deletebroadcast",
+        "delbroadcast"
       ]
     },
     {
@@ -164,9 +165,9 @@
       "name": "Errors",
       "description": "View dependency error logs",
       "permissions": {
+        "owner": true,
         "subowner": true,
-        "moderator": true,
-        "owner": true
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -220,9 +221,9 @@
       "name": "HardBanGC",
       "description": "Ban group globally (all bots)",
       "permissions": {
+        "moderator": true,
         "owner": true,
-        "subowner": true,
-        "moderator": true
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -263,9 +264,9 @@
       "name": "HardUnbanGC",
       "description": "Unban group from global ban list",
       "permissions": {
-        "owner": true,
         "subowner": true,
-        "moderator": true
+        "moderator": true,
+        "owner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -337,7 +338,7 @@
       ]
     },
     {
-      "name": "Set Broadcast",
+      "name": "SetBroadcast",
       "description": "Set passive broadcast campaign from channel link with 3-day TTL",
       "permissions": {
         "owner": true
@@ -345,8 +346,7 @@
       "premiumOnly": "",
       "tags": [
         "setbroadcast",
-        "setbc",
-        "set broadcast"
+        "setbc"
       ]
     },
     {
@@ -363,7 +363,7 @@
       ]
     },
     {
-      "name": "Status Broadcast",
+      "name": "StatusBroadcast",
       "description": "Check passive broadcast campaign statistics and status",
       "permissions": {
         "owner": true
@@ -372,8 +372,7 @@
       "tags": [
         "statusbroadcast",
         "checkbc",
-        "statbc",
-        "status broadcast"
+        "statbc"
       ]
     },
     {
@@ -427,8 +426,8 @@
       "name": "UnbanUser",
       "description": "Unban a user from all bots you own",
       "permissions": {
-        "moderator": true,
-        "hasbot": true
+        "hasbot": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [

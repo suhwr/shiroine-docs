@@ -17,8 +17,8 @@
     "script"
   ],
   "description": {
-    "en": "Get the link to this bot's script",
-    "id": "Dapatkan link script bot ini"
+    "id": "Dapatkan link script bot ini",
+    "en": "Get the link to this bot's script"
   },
   "usage": "SC",
   "examples": [
@@ -58,5 +58,5 @@
     "file": "internal/plugins/general",
     "line": 28
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

@@ -15,8 +15,8 @@
     "gstats"
   ],
   "description": {
-    "en": "Show group message statistics this month including top 3 most active members",
-    "id": "Menampilkan statistik pesan grup bulan ini termasuk top 3 anggota teraktif"
+    "id": "Menampilkan statistik pesan grup bulan ini termasuk top 3 anggota teraktif",
+    "en": "Show group message statistics this month including top 3 most active members"
   },
   "usage": "GStats",
   "examples": [
@@ -30,8 +30,8 @@
     "group_community"
   ],
   "chatTypes": {
-    "group_community": true,
-    "group": true
+    "group": true,
+    "group_community": true
   },
   "permissions": {
     "admin": true,
@@ -65,5 +65,5 @@
     "file": "internal/plugins/group",
     "line": 442
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

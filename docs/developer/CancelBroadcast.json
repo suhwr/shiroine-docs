@@ -1,14 +1,15 @@
 {
-  "name": "Cancel Broadcast",
+  "name": "CancelBroadcast",
   "commands": [
     "cancelbroadcast",
     "delbc",
     "stopbc",
-    "cancel broadcast"
+    "deletebroadcast",
+    "delbroadcast"
   ],
   "aliases": [],
   "display": [
-    "Cancel Broadcast"
+    "CancelBroadcast"
   ],
   "category": "developer",
   "categories": [
@@ -18,13 +19,14 @@
     "cancelbroadcast",
     "delbc",
     "stopbc",
-    "cancel broadcast"
+    "deletebroadcast",
+    "delbroadcast"
   ],
   "description": {
     "id": "Menghentikan kampanye passive broadcast yang sedang aktif",
     "en": "Cancel active passive broadcast campaign"
   },
-  "usage": "Cancel Broadcast",
+  "usage": "CancelBroadcast",
   "examples": [],
   "minArgs": 0,
   "args": {},
@@ -35,9 +37,9 @@
     "group_community"
   ],
   "chatTypes": {
-    "private": true,
     "group": true,
-    "group_community": true
+    "group_community": true,
+    "private": true
   },
   "permissions": {
     "owner": true
@@ -70,5 +72,5 @@
     "file": "internal/plugins/developer",
     "line": 254
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

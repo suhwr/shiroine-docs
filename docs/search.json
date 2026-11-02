@@ -640,10 +640,10 @@
     {
       "aliases": [],
       "category": "developer",
-      "name": "Cancel Broadcast",
-      "path": "/commands/developer/Cancel Broadcast",
+      "name": "CancelBroadcast",
+      "path": "/commands/developer/CancelBroadcast",
       "tags": [
-        "Cancel Broadcast"
+        "CancelBroadcast"
       ]
     },
     {
@@ -802,10 +802,10 @@
     {
       "aliases": [],
       "category": "developer",
-      "name": "Set Broadcast",
-      "path": "/commands/developer/Set Broadcast",
+      "name": "SetBroadcast",
+      "path": "/commands/developer/SetBroadcast",
       "tags": [
-        "Set Broadcast"
+        "SetBroadcast"
       ]
     },
     {
@@ -820,10 +820,10 @@
     {
       "aliases": [],
       "category": "developer",
-      "name": "Status Broadcast",
-      "path": "/commands/developer/Status Broadcast",
+      "name": "StatusBroadcast",
+      "path": "/commands/developer/StatusBroadcast",
       "tags": [
-        "Status Broadcast"
+        "StatusBroadcast"
       ]
     },
     {

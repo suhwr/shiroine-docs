@@ -15,8 +15,8 @@
     "smile"
   ],
   "description": {
-    "en": "React with smile",
-    "id": "Reaksi smile"
+    "id": "Reaksi smile",
+    "en": "React with smile"
   },
   "usage": "Smile",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/fun",
     "line": 1
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

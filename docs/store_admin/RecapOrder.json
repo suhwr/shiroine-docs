@@ -23,8 +23,8 @@
     "omset"
   ],
   "description": {
-    "id": "Lihat rekap omset dan statistik penjualan toko (Staff / Owner Toko)",
-    "en": "View store sales recap and revenue summary (Store Staff / Owner)"
+    "en": "View store sales recap and revenue summary (Store Staff / Owner)",
+    "id": "Lihat rekap omset dan statistik penjualan toko (Staff / Owner Toko)"
   },
   "usage": "RecapOrder",
   "examples": [
@@ -66,5 +66,5 @@
     "file": "internal/plugins/store",
     "line": 636
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

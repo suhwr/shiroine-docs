@@ -23,8 +23,8 @@
     "beli premium balance"
   ],
   "description": {
-    "id": "Beli paket premium langganan via saldo balance dengan diskon 5%",
-    "en": "Purchase premium subscription using balance with 5% discount"
+    "en": "Purchase premium subscription using balance with 5% discount",
+    "id": "Beli paket premium langganan via saldo balance dengan diskon 5%"
   },
   "usage": "Beli Premium Balance",
   "examples": [
@@ -65,5 +65,5 @@
     "file": "internal/plugins/general",
     "line": 482
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

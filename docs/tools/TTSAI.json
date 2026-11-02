@@ -19,8 +19,8 @@
     "ttsai"
   ],
   "description": {
-    "en": "Convert text to natural AI voice (AI Text-to-Speech)",
-    "id": "Konversi teks ke suara AI yang lebih natural (Text-to-Speech AI)"
+    "id": "Konversi teks ke suara AI yang lebih natural (Text-to-Speech AI)",
+    "en": "Convert text to natural AI voice (AI Text-to-Speech)"
   },
   "usage": "TTSAI",
   "examples": [
@@ -65,5 +65,5 @@
     "file": "internal/plugins/tools",
     "line": 68
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

@@ -19,8 +19,8 @@
     "capcutdl"
   ],
   "description": {
-    "id": "Download video template dari CapCut",
-    "en": "Download template video from CapCut"
+    "en": "Download template video from CapCut",
+    "id": "Download video template dari CapCut"
   },
   "usage": "CapCut",
   "examples": [
@@ -70,5 +70,5 @@
     "file": "internal/plugins/downloader",
     "line": 75
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

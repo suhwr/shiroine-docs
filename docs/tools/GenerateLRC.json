@@ -19,8 +19,8 @@
     "makelrc"
   ],
   "description": {
-    "id": "Membuat lirik lagu bertimestamp (.lrc) otomatis dari audio atau video musik",
-    "en": "Automatically generate timestamped lyrics (.lrc) from audio or music video"
+    "en": "Automatically generate timestamped lyrics (.lrc) from audio or music video",
+    "id": "Membuat lirik lagu bertimestamp (.lrc) otomatis dari audio atau video musik"
   },
   "usage": "GenerateLRC",
   "examples": [
@@ -60,7 +60,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 291
+    "line": 359
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }

@@ -19,8 +19,8 @@
     "grouplb"
   ],
   "description": {
-    "id": "Lihat leaderboard grup",
-    "en": "View group leaderboard"
+    "en": "View group leaderboard",
+    "id": "Lihat leaderboard grup"
   },
   "usage": "GlobalLeaderboard",
   "examples": [
@@ -35,9 +35,9 @@
     "group_community"
   ],
   "chatTypes": {
-    "group_community": true,
     "private": true,
-    "group": true
+    "group": true,
+    "group_community": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -68,5 +68,5 @@
     "file": "internal/plugins/game",
     "line": 674
   },
-  "lastUpdated": "2026-11-02T14:23:45Z"
+  "lastUpdated": "2026-11-02T15:39:10Z"
 }
