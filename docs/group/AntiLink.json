@@ -15,8 +15,8 @@
     "antilink"
   ],
   "description": {
-    "en": "Configure AntiLink system to block prohibited links in group",
-    "id": "Pengaturan sistem AntiLink untuk memblokir tautan terlarang di grup"
+    "id": "Pengaturan sistem AntiLink untuk memblokir tautan terlarang di grup",
+    "en": "Configure AntiLink system to block prohibited links in group"
   },
   "usage": "AntiLink",
   "examples": [
@@ -66,7 +66,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 317
+    "line": 357
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

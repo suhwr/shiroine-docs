@@ -1,40 +1,32 @@
 {
-  "name": "Mutasi Balance",
+  "name": "StickersGG",
   "commands": [
-    "mutasi",
-    "mutasibalance",
-    "balancehistory",
-    "history",
-    "riwayat",
-    "historybalance",
-    "mutasi balance"
+    "stickersgg",
+    "sgg",
+    "stickerspack"
   ],
   "aliases": [],
   "display": [
-    "Mutasi Balance"
+    "StickersGG"
   ],
-  "category": "general",
+  "category": "downloader",
   "categories": [
-    "general"
+    "downloader"
   ],
   "tags": [
-    "mutasi",
-    "mutasibalance",
-    "balancehistory",
-    "history",
-    "riwayat",
-    "historybalance",
-    "mutasi balance"
+    "stickersgg",
+    "sgg",
+    "stickerspack"
   ],
   "description": {
-    "id": "Lihat riwayat mutasi dan transaksi saldo balance",
-    "en": "View balance ledger mutation history"
+    "id": "Download stiker pack dari Stickers.gg menggunakan link atau kategori.",
+    "en": "Download sticker packs from Stickers.gg via link or category."
   },
-  "usage": "Mutasi Balance",
+  "usage": "StickersGG",
   "examples": [
-    "mutasi",
-    "mutasi 2",
-    "history"
+    "stickersgg https://stickers.gg/pack/1519-pusheen",
+    "stickersgg 1519-pusheen",
+    "stickersgg cat"
   ],
   "minArgs": 0,
   "args": {},
@@ -45,10 +37,10 @@
   "premiumOnly": "",
   "nsfwOnly": false,
   "level": 0,
-  "limitCost": 0,
+  "limitCost": 1,
   "delaySeconds": 0,
   "ignoreQueue": false,
-  "disableProcessLimit": true,
+  "disableProcessLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -67,8 +59,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/general",
-    "line": 471
+    "file": "internal/plugins/downloader",
+    "line": 185
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

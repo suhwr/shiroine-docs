@@ -49,6 +49,16 @@
       ]
     },
     {
+      "name": "YtClip",
+      "description": "Trim/clip YouTube video or audio instantly without downloading the full video (max 1 minute), supports live stream clipping in H.264 (AVC High)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "ytclip",
+        "clip"
+      ]
+    },
+    {
       "name": "YtMp3",
       "description": "Search and download songs from YouTube as MP3",
       "permissions": {},
@@ -96,6 +106,28 @@
       "tags": [
         "yts",
         "ytsearch"
+      ]
+    },
+    {
+      "name": "YtSub",
+      "description": "Extract text transcript or download subtitle files (.srt / .vtt) from YouTube videos",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "ytsub",
+        "yttranscript",
+        "transcript"
+      ]
+    },
+    {
+      "name": "YtThumb",
+      "description": "Fetch highest quality thumbnail (1080p HD / 4K) or YouTube Music cover art",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "ytthumb",
+        "ytcover",
+        "thumbnail"
       ]
     }
   ]

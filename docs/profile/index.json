@@ -117,13 +117,12 @@
       ]
     },
     {
-      "name": "Web Login",
+      "name": "WebLogin",
       "description": "Generate a 6-digit code to log in to Shiroine and Prism dashboard.",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "weblogin",
-        "web login"
+        "weblogin"
       ]
     }
   ]

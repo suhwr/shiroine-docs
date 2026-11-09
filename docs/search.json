@@ -1,22 +1,6 @@
 {
   "commands": [
     {
-      "aliases": [
-        "aistats",
-        "aimodel",
-        "aistatus"
-      ],
-      "category": "ai",
-      "name": "AI Stats",
-      "path": "/commands/ai/AI Stats",
-      "tags": [
-        "AI Stats",
-        "aistats",
-        "aimodel",
-        "aistatus"
-      ]
-    },
-    {
       "aliases": [],
       "category": "ai",
       "name": "AI",
@@ -114,30 +98,44 @@
       ]
     },
     {
-      "aliases": [],
+      "aliases": [
+        "jobid",
+        "getjob",
+        "cekjob"
+      ],
       "category": "ai",
-      "name": "JadiAnimeV2",
-      "path": "/commands/ai/JadiAnimeV2",
+      "name": "JobStatus",
+      "path": "/commands/ai/JobStatus",
       "tags": [
-        "JadiAnimeV2"
+        "JobStatus",
+        "jobid",
+        "getjob",
+        "cekjob"
       ]
     },
     {
       "aliases": [],
       "category": "ai",
-      "name": "JadiGhibli",
-      "path": "/commands/ai/JadiGhibli",
+      "name": "LLM",
+      "path": "/commands/ai/LLM",
       "tags": [
-        "JadiGhibli"
+        "LLM"
       ]
     },
     {
-      "aliases": [],
+      "aliases": [
+        "aistats",
+        "aimodel",
+        "aistatus"
+      ],
       "category": "ai",
-      "name": "JobId",
-      "path": "/commands/ai/JobId",
+      "name": "LLMStats",
+      "path": "/commands/ai/LLMStats",
       "tags": [
-        "JobId"
+        "LLMStats",
+        "aistats",
+        "aimodel",
+        "aistatus"
       ]
     },
     {
@@ -146,27 +144,18 @@
         "resetaigroup",
         "resetaigrup",
         "aireset",
-        "clearchat"
+        "clearaichat"
       ],
       "category": "ai",
-      "name": "Reset AI",
-      "path": "/commands/ai/Reset AI",
+      "name": "ResetAI",
+      "path": "/commands/ai/ResetAI",
       "tags": [
-        "Reset AI",
+        "ResetAI",
         "reset-ai",
         "resetaigroup",
         "resetaigrup",
         "aireset",
-        "clearchat"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "ai",
-      "name": "Router AI",
-      "path": "/commands/ai/Router AI",
-      "tags": [
-        "Router AI"
+        "clearaichat"
       ]
     },
     {
@@ -208,10 +197,28 @@
     {
       "aliases": [],
       "category": "animanga",
+      "name": "Anime Wallpaper",
+      "path": "/commands/animanga/Anime Wallpaper",
+      "tags": [
+        "Anime Wallpaper"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "animanga",
       "name": "Anime",
       "path": "/commands/animanga/Anime",
       "tags": [
         "Anime"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "animanga",
+      "name": "Bunny Girl",
+      "path": "/commands/animanga/Bunny Girl",
+      "tags": [
+        "Bunny Girl"
       ]
     },
     {
@@ -226,10 +233,46 @@
     {
       "aliases": [],
       "category": "animanga",
+      "name": "Husbando",
+      "path": "/commands/animanga/Husbando",
+      "tags": [
+        "Husbando"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "animanga",
       "name": "JadwalAnime",
       "path": "/commands/animanga/JadwalAnime",
       "tags": [
         "JadwalAnime"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "animanga",
+      "name": "Kitsune",
+      "path": "/commands/animanga/Kitsune",
+      "tags": [
+        "Kitsune"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "animanga",
+      "name": "Konachan",
+      "path": "/commands/animanga/Konachan",
+      "tags": [
+        "Konachan"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "animanga",
+      "name": "Maid",
+      "path": "/commands/animanga/Maid",
+      "tags": [
+        "Maid"
       ]
     },
     {
@@ -253,6 +296,24 @@
     {
       "aliases": [],
       "category": "animanga",
+      "name": "Neko",
+      "path": "/commands/animanga/Neko",
+      "tags": [
+        "Neko"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "animanga",
+      "name": "Safebooru",
+      "path": "/commands/animanga/Safebooru",
+      "tags": [
+        "Safebooru"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "animanga",
       "name": "SauceNAO",
       "path": "/commands/animanga/SauceNAO",
       "tags": [
@@ -262,10 +323,55 @@
     {
       "aliases": [],
       "category": "animanga",
+      "name": "Schoolgirl",
+      "path": "/commands/animanga/Schoolgirl",
+      "tags": [
+        "Schoolgirl"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "animanga",
+      "name": "Swimsuit",
+      "path": "/commands/animanga/Swimsuit",
+      "tags": [
+        "Swimsuit"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "animanga",
+      "name": "Waifu",
+      "path": "/commands/animanga/Waifu",
+      "tags": [
+        "Waifu"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "animanga",
       "name": "WhatAnime",
       "path": "/commands/animanga/WhatAnime",
       "tags": [
         "WhatAnime"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "animanga",
+      "name": "Yandere",
+      "path": "/commands/animanga/Yandere",
+      "tags": [
+        "Yandere"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "animanga",
+      "name": "Zerochan",
+      "path": "/commands/animanga/Zerochan",
+      "tags": [
+        "Zerochan"
       ]
     },
     {
@@ -350,6 +456,26 @@
       ]
     },
     {
+      "aliases": [
+        "upch",
+        "postchannel",
+        "kirimsaluran",
+        "upsaluran",
+        "chpost"
+      ],
+      "category": "bot",
+      "name": "ChannelPost",
+      "path": "/commands/bot/ChannelPost",
+      "tags": [
+        "ChannelPost",
+        "upch",
+        "postchannel",
+        "kirimsaluran",
+        "upsaluran",
+        "chpost"
+      ]
+    },
+    {
       "aliases": [],
       "category": "bot",
       "name": "ClearChat",
@@ -428,6 +554,15 @@
       "path": "/commands/bot/MsgStats",
       "tags": [
         "MsgStats"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "bot",
+      "name": "OrderOTP",
+      "path": "/commands/bot/OrderOTP",
+      "tags": [
+        "OrderOTP"
       ]
     },
     {
@@ -521,39 +656,50 @@
       ]
     },
     {
+      "aliases": [
+        "upsw",
+        "upstatus",
+        "postsw",
+        "poststatus",
+        "swpost",
+        "ceritawa"
+      ],
+      "category": "bot",
+      "name": "StatusPost",
+      "path": "/commands/bot/StatusPost",
+      "tags": [
+        "StatusPost",
+        "upsw",
+        "upstatus",
+        "postsw",
+        "poststatus",
+        "swpost",
+        "ceritawa"
+      ]
+    },
+    {
+      "aliases": [
+        "upsw2",
+        "upstatustag",
+        "poststatustag"
+      ],
+      "category": "bot",
+      "name": "StatusPostTag",
+      "path": "/commands/bot/StatusPostTag",
+      "tags": [
+        "StatusPostTag",
+        "upsw2",
+        "upstatustag",
+        "poststatustag"
+      ]
+    },
+    {
       "aliases": [],
       "category": "bot",
       "name": "TrackBot",
       "path": "/commands/bot/TrackBot",
       "tags": [
         "TrackBot"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "bot",
-      "name": "UpCH",
-      "path": "/commands/bot/UpCH",
-      "tags": [
-        "UpCH"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "bot",
-      "name": "UpSW",
-      "path": "/commands/bot/UpSW",
-      "tags": [
-        "UpSW"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "bot",
-      "name": "UpSW2",
-      "path": "/commands/bot/UpSW2",
-      "tags": [
-        "UpSW2"
       ]
     },
     {
@@ -694,10 +840,10 @@
     {
       "aliases": [],
       "category": "developer",
-      "name": "Forward Channel",
-      "path": "/commands/developer/Forward Channel",
+      "name": "ForwardChannel",
+      "path": "/commands/developer/ForwardChannel",
       "tags": [
-        "Forward Channel"
+        "ForwardChannel"
       ]
     },
     {
@@ -919,6 +1065,15 @@
     {
       "aliases": [],
       "category": "downloader",
+      "name": "FStik",
+      "path": "/commands/downloader/FStik",
+      "tags": [
+        "FStik"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "downloader",
       "name": "Facebook",
       "path": "/commands/downloader/Facebook",
       "tags": [
@@ -964,10 +1119,28 @@
     {
       "aliases": [],
       "category": "downloader",
+      "name": "LINE Sticker",
+      "path": "/commands/downloader/LINE Sticker",
+      "tags": [
+        "LINE Sticker"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "downloader",
       "name": "MediaFire",
       "path": "/commands/downloader/MediaFire",
       "tags": [
         "MediaFire"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "downloader",
+      "name": "Minecraft",
+      "path": "/commands/downloader/Minecraft",
+      "tags": [
+        "Minecraft"
       ]
     },
     {
@@ -1004,6 +1177,24 @@
       "path": "/commands/downloader/Pixiv",
       "tags": [
         "Pixiv"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "downloader",
+      "name": "Stickerly",
+      "path": "/commands/downloader/Stickerly",
+      "tags": [
+        "Stickerly"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "downloader",
+      "name": "StickersGG",
+      "path": "/commands/downloader/StickersGG",
+      "tags": [
+        "StickersGG"
       ]
     },
     {
@@ -1243,6 +1434,15 @@
     {
       "aliases": [],
       "category": "fun",
+      "name": "Debate",
+      "path": "/commands/fun/Debate",
+      "tags": [
+        "Debate"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
       "name": "Drool",
       "path": "/commands/fun/Drool",
       "tags": [
@@ -1400,6 +1600,15 @@
       "path": "/commands/fun/Meme",
       "tags": [
         "Meme"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "MostLikely",
+      "path": "/commands/fun/MostLikely",
+      "tags": [
+        "MostLikely"
       ]
     },
     {
@@ -1765,6 +1974,15 @@
     {
       "aliases": [],
       "category": "fun",
+      "name": "TruthOrDare",
+      "path": "/commands/fun/TruthOrDare",
+      "tags": [
+        "TruthOrDare"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
       "name": "Wave",
       "path": "/commands/fun/Wave",
       "tags": [
@@ -1787,6 +2005,15 @@
       "path": "/commands/fun/Woah",
       "tags": [
         "Woah"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "fun",
+      "name": "WouldYouRather",
+      "path": "/commands/fun/WouldYouRather",
+      "tags": [
+        "WouldYouRather"
       ]
     },
     {
@@ -1859,6 +2086,15 @@
       "path": "/commands/game/CakLontong",
       "tags": [
         "CakLontong"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
+      "name": "Catur",
+      "path": "/commands/game/Catur",
+      "tags": [
+        "Catur"
       ]
     },
     {
@@ -2071,6 +2307,15 @@
     {
       "aliases": [],
       "category": "game",
+      "name": "UlarTangga",
+      "path": "/commands/game/UlarTangga",
+      "tags": [
+        "UlarTangga"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "game",
       "name": "Wordle",
       "path": "/commands/game/Wordle",
       "tags": [
@@ -2107,19 +2352,37 @@
     {
       "aliases": [],
       "category": "general",
-      "name": "Batal Pembayaran",
-      "path": "/commands/general/Batal Pembayaran",
+      "name": "Balance",
+      "path": "/commands/general/Balance",
       "tags": [
-        "Batal Pembayaran"
+        "Balance"
       ]
     },
     {
       "aliases": [],
       "category": "general",
-      "name": "Beli Premium Balance",
-      "path": "/commands/general/Beli Premium Balance",
+      "name": "BalanceHistory",
+      "path": "/commands/general/BalanceHistory",
       "tags": [
-        "Beli Premium Balance"
+        "BalanceHistory"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "general",
+      "name": "BuyPrem",
+      "path": "/commands/general/BuyPrem",
+      "tags": [
+        "BuyPrem"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "general",
+      "name": "CancelPayment",
+      "path": "/commands/general/CancelPayment",
+      "tags": [
+        "CancelPayment"
       ]
     },
     {
@@ -2188,15 +2451,6 @@
     {
       "aliases": [],
       "category": "general",
-      "name": "Mutasi Balance",
-      "path": "/commands/general/Mutasi Balance",
-      "tags": [
-        "Mutasi Balance"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "general",
       "name": "NSFW",
       "path": "/commands/general/NSFW",
       "tags": [
@@ -2251,28 +2505,19 @@
     {
       "aliases": [],
       "category": "general",
-      "name": "Saldo Balance",
-      "path": "/commands/general/Saldo Balance",
-      "tags": [
-        "Saldo Balance"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "general",
-      "name": "Top Up Balance",
-      "path": "/commands/general/Top Up Balance",
-      "tags": [
-        "Top Up Balance"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "general",
       "name": "Top",
       "path": "/commands/general/Top",
       "tags": [
         "Top"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "general",
+      "name": "TopUp",
+      "path": "/commands/general/TopUp",
+      "tags": [
+        "TopUp"
       ]
     },
     {
@@ -2399,6 +2644,15 @@
       "path": "/commands/group/AntiTagSW",
       "tags": [
         "AntiTagSW"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "group",
+      "name": "AntiVO",
+      "path": "/commands/group/AntiVO",
+      "tags": [
+        "AntiVO"
       ]
     },
     {
@@ -2570,6 +2824,22 @@
       "path": "/commands/group/GroupSettings",
       "tags": [
         "GroupSettings"
+      ]
+    },
+    {
+      "aliases": [
+        "upswgc",
+        "upstatusgrup",
+        "statusgrup"
+      ],
+      "category": "group",
+      "name": "GroupStatus",
+      "path": "/commands/group/GroupStatus",
+      "tags": [
+        "GroupStatus",
+        "upswgc",
+        "upstatusgrup",
+        "statusgrup"
       ]
     },
     {
@@ -2917,15 +3187,6 @@
     {
       "aliases": [],
       "category": "group",
-      "name": "UpSWGC",
-      "path": "/commands/group/UpSWGC",
-      "tags": [
-        "UpSWGC"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "group",
       "name": "Warn",
       "path": "/commands/group/Warn",
       "tags": [
@@ -3011,15 +3272,6 @@
       "path": "/commands/minigame/Breakout",
       "tags": [
         "Breakout"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "minigame",
-      "name": "Chess",
-      "path": "/commands/minigame/Chess",
-      "tags": [
-        "Chess"
       ]
     },
     {
@@ -3286,10 +3538,10 @@
     {
       "aliases": [],
       "category": "profile",
-      "name": "Web Login",
-      "path": "/commands/profile/Web Login",
+      "name": "WebLogin",
+      "path": "/commands/profile/WebLogin",
       "tags": [
-        "Web Login"
+        "WebLogin"
       ]
     },
     {
@@ -3380,15 +3632,6 @@
       "path": "/commands/store/Catalog",
       "tags": [
         "Catalog"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "store",
-      "name": "Order OTP & Nokos",
-      "path": "/commands/store/Order OTP & Nokos",
-      "tags": [
-        "Order OTP & Nokos"
       ]
     },
     {
@@ -3713,6 +3956,15 @@
       "path": "/commands/tools/Calculator",
       "tags": [
         "Calculator"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
+      "name": "ChSchedule",
+      "path": "/commands/tools/ChSchedule",
+      "tags": [
+        "ChSchedule"
       ]
     },
     {
@@ -4051,15 +4303,6 @@
     {
       "aliases": [],
       "category": "tools",
-      "name": "Music & Stem Separator",
-      "path": "/commands/tools/Music & Stem Separator",
-      "tags": [
-        "Music & Stem Separator"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
       "name": "Nightcore",
       "path": "/commands/tools/Nightcore",
       "tags": [
@@ -4249,6 +4492,15 @@
     {
       "aliases": [],
       "category": "tools",
+      "name": "Separate",
+      "path": "/commands/tools/Separate",
+      "tags": [
+        "Separate"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
       "name": "SetQRIS",
       "path": "/commands/tools/SetQRIS",
       "tags": [
@@ -4375,6 +4627,15 @@
     {
       "aliases": [],
       "category": "tools",
+      "name": "Transcribe",
+      "path": "/commands/tools/Transcribe",
+      "tags": [
+        "Transcribe"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "tools",
       "name": "Translate",
       "path": "/commands/tools/Translate",
       "tags": [
@@ -4447,15 +4708,6 @@
     {
       "aliases": [],
       "category": "tools",
-      "name": "Voice Note & Audio Transcribe",
-      "path": "/commands/tools/Voice Note & Audio Transcribe",
-      "tags": [
-        "Voice Note & Audio Transcribe"
-      ]
-    },
-    {
-      "aliases": [],
-      "category": "tools",
       "name": "WhatMusic",
       "path": "/commands/tools/WhatMusic",
       "tags": [
@@ -4519,6 +4771,15 @@
     {
       "aliases": [],
       "category": "youtube",
+      "name": "YtClip",
+      "path": "/commands/youtube/YtClip",
+      "tags": [
+        "YtClip"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "youtube",
       "name": "YtMp3",
       "path": "/commands/youtube/YtMp3",
       "tags": [
@@ -4559,6 +4820,24 @@
       "path": "/commands/youtube/YtSearch",
       "tags": [
         "YtSearch"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "youtube",
+      "name": "YtSub",
+      "path": "/commands/youtube/YtSub",
+      "tags": [
+        "YtSub"
+      ]
+    },
+    {
+      "aliases": [],
+      "category": "youtube",
+      "name": "YtThumb",
+      "path": "/commands/youtube/YtThumb",
+      "tags": [
+        "YtThumb"
       ]
     },
     {

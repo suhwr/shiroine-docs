@@ -1,0 +1,64 @@
+{
+  "name": "UlarTangga",
+  "commands": [
+    "ulartangga",
+    "ular",
+    "snakeladder"
+  ],
+  "aliases": [],
+  "display": [
+    "UlarTangga"
+  ],
+  "category": "game",
+  "categories": [
+    "game"
+  ],
+  "tags": [
+    "ulartangga",
+    "ular",
+    "snakeladder"
+  ],
+  "description": {
+    "id": "Mainkan game papan Ular Tangga (Snakes and Ladders) hingga 4 pemain di grup WhatsApp (swipe reply papan).",
+    "en": "Play Snakes and Ladders board game for up to 4 players in WhatsApp groups (swipe reply board)."
+  },
+  "usage": "UlarTangga",
+  "examples": [
+    "ulartangga"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": true,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/game",
+    "line": 487
+  },
+  "lastUpdated": "2026-11-09T05:53:26Z"
+}

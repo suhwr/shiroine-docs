@@ -19,8 +19,8 @@
     "trace"
   ],
   "description": {
-    "id": "Cari judul anime berdasarkan potongan gambar atau video (kirim/reply gambar atau video)",
-    "en": "Search anime title by image or video frame (send/reply image or video)"
+    "en": "Search anime title by image or video frame (send/reply image or video)",
+    "id": "Cari judul anime berdasarkan potongan gambar atau video (kirim/reply gambar atau video)"
   },
   "usage": "WhatAnime",
   "examples": [
@@ -70,5 +70,5 @@
     "file": "internal/plugins/search",
     "line": 145
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

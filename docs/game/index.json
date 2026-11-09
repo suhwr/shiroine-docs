@@ -29,6 +29,16 @@
       ]
     },
     {
+      "name": "Catur",
+      "description": "Play chess board game directly in WhatsApp groups (swipe reply board).",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "catur",
+        "chess"
+      ]
+    },
+    {
       "name": "GameLimit",
       "description": "Check remaining daily game limit",
       "permissions": {},
@@ -244,6 +254,17 @@
       "tags": [
         "tictactoe",
         "ttt"
+      ]
+    },
+    {
+      "name": "UlarTangga",
+      "description": "Play Snakes and Ladders board game for up to 4 players in WhatsApp groups (swipe reply board).",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "ulartangga",
+        "ular",
+        "snakeladder"
       ]
     },
     {

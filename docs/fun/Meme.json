@@ -15,8 +15,8 @@
     "meme"
   ],
   "description": {
-    "id": "Buat meme dari gambar menggunakan berbagai template",
-    "en": "Create meme from image using various templates"
+    "en": "Create meme from image using various templates",
+    "id": "Buat meme dari gambar menggunakan berbagai template"
   },
   "usage": "Meme",
   "examples": [
@@ -58,5 +58,5 @@
     "file": "internal/plugins/fun",
     "line": 53
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

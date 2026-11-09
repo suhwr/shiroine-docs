@@ -17,13 +17,13 @@
     "toanime"
   ],
   "description": {
-    "id": "Ubah foto menjadi gaya anime menggunakan AI",
-    "en": "Convert photo to anime style using AI"
+    "id": "Ubah foto menjadi gaya anime 2D atau Arcane menggunakan AI (Free: 5 AI limit, Premium: 3 AI limit)",
+    "en": "Convert photo to 2D anime or Arcane style using AI (Free: 5 AI limit, Premium: 3 AI limit)"
   },
   "usage": "JadiAnime",
   "examples": [
     "jadianime",
-    "toanime"
+    "jadianime arcane"
   ],
   "minArgs": 0,
   "args": {},
@@ -34,7 +34,7 @@
   "premiumOnly": "",
   "nsfwOnly": false,
   "level": 0,
-  "limitCost": 1,
+  "limitCost": 0,
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
@@ -57,7 +57,7 @@
   },
   "source": {
     "file": "internal/plugins/ai",
-    "line": 65
+    "line": 85
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

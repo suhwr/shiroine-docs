@@ -19,8 +19,8 @@
     "tdl"
   ],
   "description": {
-    "en": "Download photo/video from Threads",
-    "id": "Download foto/video dari Threads"
+    "id": "Download foto/video dari Threads",
+    "en": "Download photo/video from Threads"
   },
   "usage": "Threads",
   "examples": [
@@ -60,5 +60,5 @@
     "file": "internal/plugins/downloader",
     "line": 122
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

@@ -1,37 +1,29 @@
 {
-  "name": "Batal Pembayaran",
+  "name": "Swimsuit",
   "commands": [
-    "batal",
-    "cancel",
-    "batalorder",
-    "cancelorder",
-    "batalbayar",
-    "batal pembayaran"
+    "swimsuit",
+    "bikini"
   ],
   "aliases": [],
   "display": [
-    "Batal Pembayaran"
+    "Swimsuit"
   ],
-  "category": "general",
+  "category": "animanga",
   "categories": [
-    "general"
+    "animanga"
   ],
   "tags": [
-    "batal",
-    "cancel",
-    "batalorder",
-    "cancelorder",
-    "batalbayar",
-    "batal pembayaran"
+    "swimsuit",
+    "bikini"
   ],
   "description": {
-    "id": "Batalkan transaksi pembayaran QRIS aktif dan hapus gambar QR",
-    "en": "Cancel active QRIS payment transaction and delete QR image"
+    "en": "Random anime swimsuit and beach art",
+    "id": "Koleksi foto/art anime bertema baju renang / pantai"
   },
-  "usage": "Batal Pembayaran",
+  "usage": "Swimsuit",
   "examples": [
-    "batal",
-    "cancel"
+    ".swimsuit",
+    ".bikini raiden shogun"
   ],
   "minArgs": 0,
   "args": {},
@@ -42,7 +34,7 @@
   "premiumOnly": "",
   "nsfwOnly": false,
   "level": 0,
-  "limitCost": 0,
+  "limitCost": 1,
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
@@ -64,8 +56,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/general",
-    "line": 53
+    "file": "internal/plugins/anime",
+    "line": 290
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

@@ -30,8 +30,8 @@
   "minArgs": 0,
   "args": {
     "query / url": {
-      "id": "Kata kunci pencarian, link video, link musik, atau keyword bertipe: 'music [query]' / 'album [query]'",
-      "en": "Search keyword, video URL, music URL, or query prefixed with: 'music [query]' / 'album [query]'"
+      "en": "Search keyword, video URL, music URL, or query prefixed with: 'music [query]' / 'album [query]'",
+      "id": "Kata kunci pencarian, link video, link musik, atau keyword bertipe: 'music [query]' / 'album [query]'"
     }
   },
   "requireMedia": [],
@@ -66,5 +66,5 @@
     "file": "internal/plugins/youtube",
     "line": 312
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

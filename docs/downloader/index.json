@@ -31,6 +31,19 @@
       ]
     },
     {
+      "name": "FStik",
+      "description": "Download sticker packs from FStik catalog (fstik.app) via link or search keyword.",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "fstik",
+        "fstick",
+        "fgstick",
+        "fstiker",
+        "fstikers"
+      ]
+    },
+    {
       "name": "Facebook",
       "description": "Download video/photo from Facebook",
       "permissions": {},
@@ -84,6 +97,18 @@
       ]
     },
     {
+      "name": "LINE Sticker",
+      "description": "Download sticker packs from LINE Store and send them as WhatsApp stickers (static and animated).",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "linesticker",
+        "linestick",
+        "line",
+        "line sticker"
+      ]
+    },
+    {
       "name": "MediaFire",
       "description": "Download file from MediaFire",
       "permissions": {},
@@ -91,6 +116,19 @@
       "tags": [
         "mediafire",
         "mfdl"
+      ]
+    },
+    {
+      "name": "Minecraft",
+      "description": "Download public MCPEDL.com files; other sites restricted",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "mcpedl",
+        "mcpedlorg",
+        "curseforge",
+        "safefileku",
+        "minecraft"
       ]
     },
     {
@@ -135,6 +173,29 @@
       "tags": [
         "pixiv",
         "pxdl"
+      ]
+    },
+    {
+      "name": "Stickerly",
+      "description": "Download sticker packs from Sticker.ly via link, pack code, or search keyword.",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "stickerly",
+        "stickly",
+        "sly",
+        "stikerly"
+      ]
+    },
+    {
+      "name": "StickersGG",
+      "description": "Download sticker packs from Stickers.gg via link or category.",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "stickersgg",
+        "sgg",
+        "stickerspack"
       ]
     },
     {

@@ -1,0 +1,63 @@
+{
+  "name": "Safebooru",
+  "commands": [
+    "safebooru",
+    "safe"
+  ],
+  "aliases": [],
+  "display": [
+    "Safebooru"
+  ],
+  "category": "animanga",
+  "categories": [
+    "animanga"
+  ],
+  "tags": [
+    "safebooru",
+    "safe"
+  ],
+  "description": {
+    "id": "Cari anime art 100% aman (SFW) di Safebooru",
+    "en": "Search 100% safe anime art on Safebooru"
+  },
+  "usage": "Safebooru",
+  "examples": [
+    ".safebooru hatsune miku",
+    ".safe bocchi"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/anime",
+    "line": 374
+  },
+  "lastUpdated": "2026-11-09T05:53:26Z"
+}

@@ -1,0 +1,72 @@
+{
+  "name": "YtSub",
+  "commands": [
+    "ytsub",
+    "yttranscript",
+    "transcript"
+  ],
+  "aliases": [],
+  "display": [
+    "YtSub"
+  ],
+  "category": "youtube",
+  "categories": [
+    "youtube"
+  ],
+  "tags": [
+    "ytsub",
+    "yttranscript",
+    "transcript"
+  ],
+  "description": {
+    "id": "Ambil transkrip teks atau unduh file subtitle (.srt / .vtt) dari video YouTube",
+    "en": "Extract text transcript or download subtitle files (.srt / .vtt) from YouTube videos"
+  },
+  "usage": "YtSub",
+  "examples": [
+    "ytsub https://youtu.be/xxxx",
+    "ytsub https://youtu.be/xxxx --lang=id",
+    "ytsub https://youtu.be/xxxx --srt",
+    "ytsub https://youtu.be/xxxx --lang=en"
+  ],
+  "minArgs": 0,
+  "args": {
+    "url / query [--lang=xx] [--srt|--vtt]": {
+      "id": "Link video, opsi bahasa, dan format file subtitle",
+      "en": "Video link, language option, and subtitle format"
+    }
+  },
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/youtube",
+    "line": 178
+  },
+  "lastUpdated": "2026-11-09T05:53:26Z"
+}

@@ -1,35 +1,29 @@
 {
-  "name": "Beli Premium Balance",
+  "name": "Konachan",
   "commands": [
-    "buyprem",
-    "shopprem",
-    "belipremium",
-    "shop",
-    "beli premium balance"
+    "konachan",
+    "kona"
   ],
   "aliases": [],
   "display": [
-    "Beli Premium Balance"
+    "Konachan"
   ],
-  "category": "general",
+  "category": "animanga",
   "categories": [
-    "general"
+    "animanga"
   ],
   "tags": [
-    "buyprem",
-    "shopprem",
-    "belipremium",
-    "shop",
-    "beli premium balance"
+    "konachan",
+    "kona"
   ],
   "description": {
-    "en": "Purchase premium subscription using balance with 5% discount",
-    "id": "Beli paket premium langganan via saldo balance dengan diskon 5%"
+    "id": "Cari wallpaper anime resolusi tinggi di Konachan",
+    "en": "Search high-resolution anime wallpapers on Konachan"
   },
-  "usage": "Beli Premium Balance",
+  "usage": "Konachan",
   "examples": [
-    "buyprem",
-    "buyprem 1"
+    ".konachan genshin impact",
+    ".kona cyberpunk"
   ],
   "minArgs": 0,
   "args": {},
@@ -40,10 +34,10 @@
   "premiumOnly": "",
   "nsfwOnly": false,
   "level": 0,
-  "limitCost": 0,
+  "limitCost": 1,
   "delaySeconds": 0,
   "ignoreQueue": false,
-  "disableProcessLimit": true,
+  "disableProcessLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -62,8 +56,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/general",
-    "line": 482
+    "file": "internal/plugins/anime",
+    "line": 350
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

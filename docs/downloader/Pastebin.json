@@ -19,8 +19,8 @@
     "pastebindl"
   ],
   "description": {
-    "id": "Download teks dan kode dari Pastebin",
-    "en": "Download text and code from Pastebin"
+    "en": "Download text and code from Pastebin",
+    "id": "Download teks dan kode dari Pastebin"
   },
   "usage": "Pastebin",
   "examples": [
@@ -36,10 +36,10 @@
     "newsletter"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true,
-    "private": true
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -70,5 +70,5 @@
     "file": "internal/plugins/downloader",
     "line": 76
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

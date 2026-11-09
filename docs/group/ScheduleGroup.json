@@ -6,7 +6,6 @@
     "jadwalgrup",
     "jg",
     "jadwalgc",
-    "schedule",
     "setschedule",
     "reminder",
     "autoopen"
@@ -25,14 +24,13 @@
     "jadwalgrup",
     "jg",
     "jadwalgc",
-    "schedule",
     "setschedule",
     "reminder",
     "autoopen"
   ],
   "description": {
-    "id": "Sistem penjadwalan terpadu grup (buka/tutup chat, pesan rutin, hidetag, reset link)",
-    "en": "Unified group scheduling system (open/close chat, reminders, hidetag, reset link)"
+    "en": "Unified group scheduling system (open/close chat, reminders, hidetag, reset link)",
+    "id": "Sistem penjadwalan terpadu grup (buka/tutup chat, pesan rutin, hidetag, reset link)"
   },
   "usage": "ScheduleGroup",
   "examples": [
@@ -94,7 +92,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 999
+    "line": 1136
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

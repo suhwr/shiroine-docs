@@ -1,0 +1,68 @@
+{
+  "name": "JobStatus",
+  "commands": [
+    "jobstatus"
+  ],
+  "aliases": [
+    "jobid",
+    "getjob",
+    "cekjob"
+  ],
+  "display": [
+    "JobStatus"
+  ],
+  "category": "ai",
+  "categories": [
+    "ai"
+  ],
+  "tags": [
+    "jobstatus",
+    "jobid",
+    "getjob",
+    "cekjob"
+  ],
+  "description": {
+    "id": "Periksa status pekerjaan video AI yang sedang diproses",
+    "en": "Check the status of an ongoing AI video job"
+  },
+  "usage": "JobStatus",
+  "examples": [
+    "jobid ABCDE",
+    "getjob ABCDE"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/ai",
+    "line": 577
+  },
+  "lastUpdated": "2026-11-09T05:53:26Z"
+}

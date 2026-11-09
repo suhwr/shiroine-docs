@@ -19,17 +19,19 @@
     "carifitur"
   ],
   "description": {
-    "id": "Cari fitur dan cara pakai command Shiroine menggunakan bahasa sehari-hari",
-    "en": "Find Shiroine features and command usage using natural language"
+    "en": "Find Shiroine features and command usage using natural language",
+    "id": "Cari fitur dan cara pakai command Shiroine menggunakan bahasa sehari-hari"
   },
   "usage": "Ask",
   "examples": [
-    "ask jernihin foto",
-    "ask download video tiktok",
-    "ask pisah vokal",
-    "ask enhance photo",
-    "ask download tiktok video",
-    "ask separate vocals"
+    "ask main catur di grup",
+    "ask cara main ular tangga",
+    "ask download stiker stickerly",
+    "ask order nokos otp",
+    "ask play chess in group",
+    "ask how to play snake and ladder",
+    "ask download stickerly",
+    "ask order virtual otp"
   ],
   "minArgs": 0,
   "args": {},
@@ -63,7 +65,7 @@
   },
   "source": {
     "file": "internal/plugins/general",
-    "line": 48
+    "line": 57
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

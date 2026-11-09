@@ -23,7 +23,9 @@
     "en": "Check passive broadcast campaign statistics and status"
   },
   "usage": "StatusBroadcast",
-  "examples": [],
+  "examples": [
+    "statusbroadcast"
+  ],
   "minArgs": 0,
   "args": {},
   "requireMedia": [],
@@ -33,9 +35,9 @@
     "group_community"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
-    "group_community": true,
-    "private": true
+    "group_community": true
   },
   "permissions": {
     "owner": true
@@ -66,7 +68,7 @@
   },
   "source": {
     "file": "internal/plugins/developer",
-    "line": 264
+    "line": 266
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

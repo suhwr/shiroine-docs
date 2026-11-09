@@ -25,14 +25,16 @@
     "hdvideo"
   ],
   "description": {
-    "id": "Tingkatkan resolusi & kejernihan video dengan AI (720P, 1080P, 2K, 4K & FlashVSR)",
-    "en": "Enhance video resolution and clarity with AI (720P, 1080P, 2K, 4K & FlashVSR)"
+    "id": "Tingkatkan resolusi & kejernihan video dengan AI RunPod (Real-CUGAN Anime & FlashVSR: 720P, 1080P & 60FPS)",
+    "en": "Enhance video resolution and clarity with RunPod AI (Real-CUGAN Anime & FlashVSR: 720P, 1080P & 60FPS)"
   },
   "usage": "VideoHD",
   "examples": [
     "hdvid (reply video)",
+    "hdvid --720p (reply video)",
+    "hdvid --60fps (reply video)",
     "hdvid --flashvsr (reply video)",
-    "hdvid --4k (reply video)",
+    "hdvid --flashvsr --60fps (reply video)",
     "hdvid --dur=5 (reply video)"
   ],
   "minArgs": 0,
@@ -67,7 +69,7 @@
   },
   "source": {
     "file": "internal/plugins/ai",
-    "line": 413
+    "line": 453
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

@@ -1,29 +1,35 @@
 {
-  "name": "JadiGhibli",
+  "name": "LLMStats",
   "commands": [
-    "jadighibli",
-    "toghibli"
+    "llmstats"
   ],
-  "aliases": [],
+  "aliases": [
+    "aistats",
+    "aimodel",
+    "aistatus"
+  ],
   "display": [
-    "JadiGhibli"
+    "LLMStats"
   ],
   "category": "ai",
   "categories": [
     "ai"
   ],
   "tags": [
-    "jadighibli",
-    "toghibli"
+    "llmstats",
+    "aistats",
+    "aimodel",
+    "aistatus"
   ],
   "description": {
-    "id": "Ubah foto menjadi gaya Studio Ghibli menggunakan AI",
-    "en": "Convert photo to Studio Ghibli style using AI"
+    "id": "Lihat metrik penggunaan token obrolan saat ini, breakdown input/output, router model, status memori, dan kuota limit (terpisah untuk obrolan pribadi & grup)",
+    "en": "View real-time chat token usage metrics, input/output breakdown, router model, memory status, and quota limit (separated for private & group chats)"
   },
-  "usage": "JadiGhibli",
+  "usage": "LLMStats",
   "examples": [
-    "jadighibli",
-    "toghibli"
+    "llmstats",
+    "aistats",
+    "llmstats miku"
   ],
   "minArgs": 0,
   "args": {},
@@ -34,7 +40,7 @@
   "premiumOnly": "",
   "nsfwOnly": false,
   "level": 0,
-  "limitCost": 1,
+  "limitCost": 0,
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
@@ -57,7 +63,7 @@
   },
   "source": {
     "file": "internal/plugins/ai",
-    "line": 91
+    "line": 316
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

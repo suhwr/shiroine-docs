@@ -1,32 +1,29 @@
 {
-  "name": "Forward Channel",
+  "name": "MostLikely",
   "commands": [
-    "forwardchannel",
-    "fwdch",
-    "fwch",
-    "forward channel"
+    "mostlikely",
+    "siapapaling"
   ],
   "aliases": [],
   "display": [
-    "Forward Channel"
+    "MostLikely"
   ],
-  "category": "developer",
+  "category": "fun",
   "categories": [
-    "developer"
+    "fun"
   ],
   "tags": [
-    "forwardchannel",
-    "fwdch",
-    "fwch",
-    "forward channel"
+    "mostlikely",
+    "siapapaling"
   ],
   "description": {
-    "id": "Meneruskan postingan channel WhatsApp beserta metadata asal channel",
-    "en": "Forward WhatsApp channel post with channel origin metadata"
+    "id": "Tebak siapa yang paling mungkin melakukan hal tak terduga",
+    "en": "Who is most likely to do something unexpected"
   },
-  "usage": "Forward Channel",
+  "usage": "MostLikely",
   "examples": [
-    "forwardchannel https://whatsapp.com/channel/0029Va.../123"
+    "mostlikely",
+    "mostlikely @user"
   ],
   "minArgs": 0,
   "args": {},
@@ -34,23 +31,19 @@
   "chatPermissions": [
     "private",
     "group",
-    "group_community",
-    "newsletter"
+    "group_community"
   ],
   "chatTypes": {
     "private": true,
     "group": true,
-    "group_community": true,
-    "newsletter": true
+    "group_community": true
   },
-  "permissions": {
-    "owner": true
-  },
+  "permissions": {},
   "premiumOnly": "",
   "nsfwOnly": false,
   "level": 0,
   "limitCost": 0,
-  "delaySeconds": 0,
+  "delaySeconds": 2,
   "ignoreQueue": false,
   "disableProcessLimit": false,
   "sendsToPrivate": false,
@@ -71,8 +64,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/developer",
-    "line": 257
+    "file": "internal/plugins/fun",
+    "line": 42
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

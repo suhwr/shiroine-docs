@@ -1,39 +1,54 @@
 {
-  "name": "UpSW2",
+  "name": "TruthOrDare",
   "commands": [
-    "upsw2"
+    "truthordare",
+    "tod",
+    "truth",
+    "dare"
   ],
   "aliases": [],
   "display": [
-    "UpSW2"
+    "TruthOrDare"
   ],
-  "category": "bot",
+  "category": "fun",
   "categories": [
-    "bot"
+    "fun"
   ],
   "tags": [
-    "upsw2"
+    "truthordare",
+    "tod",
+    "truth",
+    "dare"
   ],
   "description": {
-    "id": "Upload media ke status WhatsApp dengan opsi tag grup",
-    "en": "Upload media to WhatsApp status with group tag option"
+    "id": "Main Truth or Dare dengan ribuan variasi pertanyaan dan tantangan",
+    "en": "Play Truth or Dare with thousands of questions and dares"
   },
-  "usage": "UpSW2",
+  "usage": "TruthOrDare",
   "examples": [
-    "upsw2 Hello world!",
-    "upsw2 Check this!"
+    "tod",
+    "truth",
+    "dare"
   ],
   "minArgs": 0,
   "args": {},
   "requireMedia": [],
-  "chatPermissions": [],
-  "chatTypes": {},
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "private": true,
+    "group": true,
+    "group_community": true
+  },
   "permissions": {},
   "premiumOnly": "",
   "nsfwOnly": false,
   "level": 0,
   "limitCost": 0,
-  "delaySeconds": 0,
+  "delaySeconds": 2,
   "ignoreQueue": false,
   "disableProcessLimit": false,
   "sendsToPrivate": false,
@@ -54,8 +69,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/bot",
-    "line": 497
+    "file": "internal/plugins/fun",
+    "line": 16
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

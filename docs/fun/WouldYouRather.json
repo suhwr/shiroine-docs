@@ -1,45 +1,48 @@
 {
-  "name": "JobId",
+  "name": "WouldYouRather",
   "commands": [
-    "jobid",
-    "getjob",
-    "cekjob",
-    "jobstatus"
+    "wouldyourather",
+    "wyr"
   ],
   "aliases": [],
   "display": [
-    "JobId"
+    "WouldYouRather"
   ],
-  "category": "ai",
+  "category": "fun",
   "categories": [
-    "ai"
+    "fun"
   ],
   "tags": [
-    "jobid",
-    "getjob",
-    "cekjob",
-    "jobstatus"
+    "wouldyourather",
+    "wyr"
   ],
   "description": {
-    "en": "Check the status of an ongoing AI video job",
-    "id": "Periksa status pekerjaan video AI yang sedang diproses"
+    "id": "Kirim pilihan Would You Rather sebagai bahan obrolan atau polling",
+    "en": "Send Would You Rather prompt for discussion or polling"
   },
-  "usage": "JobId",
+  "usage": "WouldYouRather",
   "examples": [
-    "jobid ABCDE",
-    "getjob ABCDE"
+    "wyr"
   ],
   "minArgs": 0,
   "args": {},
   "requireMedia": [],
-  "chatPermissions": [],
-  "chatTypes": {},
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "private": true,
+    "group": true,
+    "group_community": true
+  },
   "permissions": {},
   "premiumOnly": "",
   "nsfwOnly": false,
   "level": 0,
   "limitCost": 0,
-  "delaySeconds": 0,
+  "delaySeconds": 2,
   "ignoreQueue": false,
   "disableProcessLimit": false,
   "sendsToPrivate": false,
@@ -60,8 +63,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/ai",
-    "line": 565
+    "file": "internal/plugins/fun",
+    "line": 29
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

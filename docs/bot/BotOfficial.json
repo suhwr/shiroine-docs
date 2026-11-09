@@ -17,8 +17,8 @@
     "official"
   ],
   "description": {
-    "id": "Toggle status bot official (menghilangkan peringatan jadibot)",
-    "en": "Toggle official bot status (removes jadibot warnings)"
+    "en": "Toggle official bot status (removes jadibot warnings)",
+    "id": "Toggle status bot official (menghilangkan peringatan jadibot)"
   },
   "usage": "BotOfficial",
   "examples": [
@@ -58,5 +58,5 @@
     "file": "internal/plugins/bot",
     "line": 77
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

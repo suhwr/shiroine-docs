@@ -176,6 +176,21 @@
       ]
     },
     {
+      "name": "ChSchedule",
+      "description": "Schedule automatic posts to bot-managed WhatsApp channels",
+      "permissions": {
+        "hasbot": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "chschedule",
+        "schedulech",
+        "jadwalch",
+        "jadwalsaluran",
+        "chs"
+      ]
+    },
+    {
       "name": "Chorus",
       "description": "Add chorus effect to audio",
       "permissions": {},
@@ -522,20 +537,6 @@
       ]
     },
     {
-      "name": "Music & Stem Separator",
-      "description": "Separate vocals, instruments, drums, or bass from audio/song (👑 Premium).",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "separate",
-        "vocal",
-        "karaoke",
-        "acapella",
-        "pisah",
-        "music & stem separator"
-      ]
-    },
-    {
       "name": "Nightcore",
       "description": "Convert audio to nightcore style",
       "permissions": {},
@@ -741,6 +742,19 @@
       ]
     },
     {
+      "name": "Separate",
+      "description": "Separate vocals, instruments, drums, or bass from audio/song (👑 Premium).",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "separate",
+        "vocal",
+        "karaoke",
+        "acapella",
+        "pisah"
+      ]
+    },
+    {
       "name": "SetQRIS",
       "description": "Generate new QRIS from a QRIS image, optionally set payment amount",
       "permissions": {},
@@ -778,7 +792,7 @@
     },
     {
       "name": "Sticker",
-      "description": "Create a sticker from an image, video, sticker, or ZIP file sent or replied to. Supports shape modes (--circle, --round), crop modes (--crop, --full, --smart), framerate (-fps=1-60, -fps auto), native aspect ratio without padding (--direct), and custom metadata (--null, --avatar, --ai, --premium).",
+      "description": "Create a sticker from an image, video, sticker, or ZIP file sent or replied to. Supports shape modes (--circle, --round), crop modes (--crop, --full, --smart), framerate (-fps=1-60, -fps auto), direct 1:1 forced ratio (--direct), and custom metadata (--null, --avatar, --ai, --premium).",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -881,6 +895,18 @@
       ]
     },
     {
+      "name": "Transcribe",
+      "description": "Transcribe audio, song, or WhatsApp voice notes into text using OpenAI Whisper.",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "transcribe",
+        "whisper",
+        "stt",
+        "teks"
+      ]
+    },
+    {
       "name": "Translate",
       "description": "Translate text to various languages",
       "permissions": {},
@@ -956,19 +982,6 @@
         "upscale",
         "remini",
         "hd"
-      ]
-    },
-    {
-      "name": "Voice Note & Audio Transcribe",
-      "description": "Transcribe audio, song, or WhatsApp voice notes into text using OpenAI Whisper.",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "transcribe",
-        "whisper",
-        "stt",
-        "teks",
-        "voice note & audio transcribe"
       ]
     },
     {

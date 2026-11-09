@@ -1,0 +1,75 @@
+{
+  "name": "AntiVO",
+  "commands": [
+    "antivo",
+    "antiviewonce"
+  ],
+  "aliases": [],
+  "display": [
+    "AntiVO"
+  ],
+  "category": "group",
+  "categories": [
+    "group"
+  ],
+  "tags": [
+    "antivo",
+    "antiviewonce"
+  ],
+  "description": {
+    "id": "Atur proteksi anti pesan sekali lihat (viewonce) di grup",
+    "en": "Configure anti view-once message protection in group"
+  },
+  "usage": "AntiVO",
+  "examples": [
+    "antivo kick",
+    "antivo hapus",
+    "antivo on",
+    "antivo off",
+    "antivo delete"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {
+    "admin": true,
+    "subowner": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 603
+  },
+  "lastUpdated": "2026-11-09T05:53:26Z"
+}

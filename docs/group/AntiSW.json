@@ -1,7 +1,8 @@
 {
   "name": "AntiSW",
   "commands": [
-    "antisw"
+    "antisw",
+    "antiswgc"
   ],
   "aliases": [],
   "display": [
@@ -12,19 +13,19 @@
     "group"
   ],
   "tags": [
-    "antisw"
+    "antisw",
+    "antiswgc"
   ],
   "description": {
-    "id": "Atur anti tag status WhatsApp",
-    "en": "Configure anti tag status"
+    "id": "Atur anti tag status WhatsApp (SWGC)",
+    "en": "Configure anti tag status (SWGC)"
   },
   "usage": "AntiSW",
   "examples": [
-    "antisw",
-    "antisw on",
-    "antisw off",
-    "antisw limit 5",
-    "antisw limit 0"
+    "antiswgc warn",
+    "antiswgc kick",
+    "antiswgc on",
+    "antiswgc off"
   ],
   "minArgs": 0,
   "args": {},
@@ -67,7 +68,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 393
+    "line": 560
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

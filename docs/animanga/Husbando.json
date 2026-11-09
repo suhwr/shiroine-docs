@@ -1,0 +1,64 @@
+{
+  "name": "Husbando",
+  "commands": [
+    "husbando",
+    "ikemen"
+  ],
+  "aliases": [],
+  "display": [
+    "Husbando"
+  ],
+  "category": "animanga",
+  "categories": [
+    "animanga"
+  ],
+  "tags": [
+    "husbando",
+    "ikemen"
+  ],
+  "description": {
+    "en": "Random anime husbando / handsome male character art",
+    "id": "Koleksi foto/art anime karakter pria tampan (ikemen)"
+  },
+  "usage": "Husbando",
+  "examples": [
+    ".husbando",
+    ".husbando gojo satoru",
+    ".ikemen toji"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/anime",
+    "line": 314
+  },
+  "lastUpdated": "2026-11-09T05:53:26Z"
+}
