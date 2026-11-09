@@ -1,0 +1,62 @@
+{
+  "name": "Catur",
+  "commands": [
+    "catur",
+    "chess"
+  ],
+  "aliases": [],
+  "display": [
+    "Catur"
+  ],
+  "category": "game",
+  "categories": [
+    "game"
+  ],
+  "tags": [
+    "catur",
+    "chess"
+  ],
+  "description": {
+    "id": "Mainkan game papan catur (Chess) langsung di grup WhatsApp (swipe reply papan).",
+    "en": "Play chess board game directly in WhatsApp groups (swipe reply board)."
+  },
+  "usage": "Catur",
+  "examples": [
+    "catur"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": true,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/game",
+    "line": 621
+  },
+  "lastUpdated": "2026-11-09T05:53:26Z"
+}

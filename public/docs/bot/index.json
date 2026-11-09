@@ -78,6 +78,22 @@
       ]
     },
     {
+      "name": "ChannelPost",
+      "description": "Upload content (text/media) to managed WhatsApp channels (supports --gif, --nowaveform, and --upsw flags)",
+      "permissions": {
+        "hasbot": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "channelpost",
+        "upch",
+        "postchannel",
+        "kirimsaluran",
+        "upsaluran",
+        "chpost"
+      ]
+    },
+    {
       "name": "ClearChat",
       "description": "Clear all chat history without deleting the chat list",
       "permissions": {},
@@ -175,6 +191,18 @@
       "tags": [
         "nsfw",
         "nsfwmode"
+      ]
+    },
+    {
+      "name": "OrderOTP",
+      "description": "Order OTP and virtual numbers via WhatsApp Webview dashboard.",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "orderotp",
+        "ordernokos",
+        "nokos",
+        "otp"
       ]
     },
     {
@@ -279,6 +307,33 @@
       ]
     },
     {
+      "name": "StatusPost",
+      "description": "Upload media to WhatsApp status (no group tagging)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "statuspost",
+        "upsw",
+        "upstatus",
+        "postsw",
+        "poststatus",
+        "swpost",
+        "ceritawa"
+      ]
+    },
+    {
+      "name": "StatusPostTag",
+      "description": "Upload media to WhatsApp status with group tag option",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "statusposttag",
+        "upsw2",
+        "upstatustag",
+        "poststatustag"
+      ]
+    },
+    {
       "name": "TrackBot",
       "description": "View jadibot/logout logs from last 30 days",
       "permissions": {},
@@ -286,36 +341,6 @@
       "tags": [
         "trackbot",
         "track-bot"
-      ]
-    },
-    {
-      "name": "UpCH",
-      "description": "Upload content (text/media) to managed WhatsApp channels (supports --gif, --nowaveform, and --upsw flags)",
-      "permissions": {
-        "hasbot": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "upch"
-      ]
-    },
-    {
-      "name": "UpSW",
-      "description": "Upload media to WhatsApp status (no group tagging)",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "upsw",
-        "upstatus"
-      ]
-    },
-    {
-      "name": "UpSW2",
-      "description": "Upload media to WhatsApp status with group tag option",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "upsw2"
       ]
     }
   ]

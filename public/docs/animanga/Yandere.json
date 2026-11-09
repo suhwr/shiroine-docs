@@ -1,29 +1,29 @@
 {
-  "name": "UpSW",
+  "name": "Yandere",
   "commands": [
-    "upsw",
-    "upstatus"
+    "yandere",
+    "yan"
   ],
   "aliases": [],
   "display": [
-    "UpSW"
+    "Yandere"
   ],
-  "category": "bot",
+  "category": "animanga",
   "categories": [
-    "bot"
+    "animanga"
   ],
   "tags": [
-    "upsw",
-    "upstatus"
+    "yandere",
+    "yan"
   ],
   "description": {
-    "id": "Upload media ke status WhatsApp (tanpa tag grup)",
-    "en": "Upload media to WhatsApp status (no group tagging)"
+    "id": "Cari anime art dan wallpaper langsung di Yande.re",
+    "en": "Search anime art and wallpaper directly from Yande.re"
   },
-  "usage": "UpSW",
+  "usage": "Yandere",
   "examples": [
-    "upsw Hello world!",
-    "upsw Check this!"
+    ".yandere frieren",
+    ".yandere landscape #3"
   ],
   "minArgs": 0,
   "args": {},
@@ -34,7 +34,7 @@
   "premiumOnly": "",
   "nsfwOnly": false,
   "level": 0,
-  "limitCost": 0,
+  "limitCost": 1,
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
@@ -56,8 +56,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/bot",
-    "line": 211
+    "file": "internal/plugins/anime",
+    "line": 338
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

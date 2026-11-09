@@ -29,6 +29,28 @@
       ]
     },
     {
+      "name": "Anime Wallpaper",
+      "description": "HD anime wallpapers for phone / desktop",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "animewall",
+        "animepaper",
+        "anime wallpaper"
+      ]
+    },
+    {
+      "name": "Bunny Girl",
+      "description": "Random anime bunny girl art",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "bunny",
+        "bunnygirl",
+        "bunny girl"
+      ]
+    },
+    {
       "name": "Character",
       "description": "Search anime/manga character profile and photo",
       "permissions": {},
@@ -37,6 +59,16 @@
         "karakter",
         "char",
         "character"
+      ]
+    },
+    {
+      "name": "Husbando",
+      "description": "Random anime husbando / handsome male character art",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "husbando",
+        "ikemen"
       ]
     },
     {
@@ -49,6 +81,36 @@
         "schedule",
         "airing",
         "jadwal"
+      ]
+    },
+    {
+      "name": "Kitsune",
+      "description": "Random anime foxgirl (kitsune) art",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "kitsune",
+        "foxgirl"
+      ]
+    },
+    {
+      "name": "Konachan",
+      "description": "Search high-resolution anime wallpapers on Konachan",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "konachan",
+        "kona"
+      ]
+    },
+    {
+      "name": "Maid",
+      "description": "Random anime maid character art",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "maid",
+        "meido"
       ]
     },
     {
@@ -79,6 +141,26 @@
       ]
     },
     {
+      "name": "Neko",
+      "description": "Random anime catgirl (neko) art",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "neko",
+        "catgirl"
+      ]
+    },
+    {
+      "name": "Safebooru",
+      "description": "Search 100% safe anime art on Safebooru",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "safebooru",
+        "safe"
+      ]
+    },
+    {
       "name": "SauceNAO",
       "description": "Find anime/illustration image source using SauceNAO (send/reply image)",
       "permissions": {},
@@ -90,6 +172,36 @@
       ]
     },
     {
+      "name": "Schoolgirl",
+      "description": "Random anime schoolgirl uniform art",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "schoolgirl",
+        "seifuku"
+      ]
+    },
+    {
+      "name": "Swimsuit",
+      "description": "Random anime swimsuit and beach art",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "swimsuit",
+        "bikini"
+      ]
+    },
+    {
+      "name": "Waifu",
+      "description": "Random anime waifu photo/art or by character name",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "waifu",
+        "wf"
+      ]
+    },
+    {
       "name": "WhatAnime",
       "description": "Search anime title by image or video frame (send/reply image or video)",
       "permissions": {},
@@ -98,6 +210,26 @@
         "whatanime",
         "wait",
         "trace"
+      ]
+    },
+    {
+      "name": "Yandere",
+      "description": "Search anime art and wallpaper directly from Yande.re",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "yandere",
+        "yan"
+      ]
+    },
+    {
+      "name": "Zerochan",
+      "description": "Search anime art and wallpapers from artists on Zerochan",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "zerochan",
+        "zc"
       ]
     }
   ]

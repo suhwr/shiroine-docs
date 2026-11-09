@@ -1,37 +1,40 @@
 {
-  "name": "AI Stats",
+  "name": "StatusPost",
   "commands": [
-    "llmstats",
-    "ai stats"
+    "statuspost"
   ],
   "aliases": [
-    "aistats",
-    "aimodel",
-    "aistatus"
+    "upsw",
+    "upstatus",
+    "postsw",
+    "poststatus",
+    "swpost",
+    "ceritawa"
   ],
   "display": [
-    "AI Stats"
+    "StatusPost"
   ],
-  "category": "ai",
+  "category": "bot",
   "categories": [
-    "ai"
+    "bot"
   ],
   "tags": [
-    "llmstats",
-    "ai stats",
-    "aistats",
-    "aimodel",
-    "aistatus"
+    "statuspost",
+    "upsw",
+    "upstatus",
+    "postsw",
+    "poststatus",
+    "swpost",
+    "ceritawa"
   ],
   "description": {
-    "id": "Lihat metrik penggunaan token obrolan saat ini, breakdown input/output, router model, status memori, dan kuota limit (terpisah untuk obrolan pribadi & grup)",
-    "en": "View real-time chat token usage metrics, input/output breakdown, router model, memory status, and quota limit (separated for private & group chats)"
+    "id": "Upload media ke status WhatsApp (tanpa tag grup)",
+    "en": "Upload media to WhatsApp status (no group tagging)"
   },
-  "usage": "AI Stats",
+  "usage": "StatusPost",
   "examples": [
-    "llmstats",
-    "aistats",
-    "llmstats miku"
+    "upsw Hello world!",
+    "upsw Check this!"
   ],
   "minArgs": 0,
   "args": {},
@@ -64,8 +67,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/ai",
-    "line": 316
+    "file": "internal/plugins/bot",
+    "line": 211
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

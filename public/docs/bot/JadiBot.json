@@ -15,8 +15,8 @@
     "jadibot"
   ],
   "description": {
-    "en": "Turn your device into a bot",
-    "id": "Jadikan device kamu sebagai bot"
+    "id": "Jadikan device kamu sebagai bot",
+    "en": "Turn your device into a bot"
   },
   "usage": "JadiBot",
   "examples": [
@@ -62,5 +62,5 @@
     "file": "internal/plugins/bot",
     "line": 1062
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

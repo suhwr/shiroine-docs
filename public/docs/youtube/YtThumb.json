@@ -1,36 +1,39 @@
 {
-  "name": "Saldo Balance",
+  "name": "YtThumb",
   "commands": [
-    "saldo",
-    "balance",
-    "saldobilling",
-    "saldo balance"
+    "ytthumb",
+    "ytcover",
+    "thumbnail"
   ],
   "aliases": [],
   "display": [
-    "Saldo Balance"
+    "YtThumb"
   ],
-  "category": "general",
+  "category": "youtube",
   "categories": [
-    "general"
+    "youtube"
   ],
   "tags": [
-    "saldo",
-    "balance",
-    "saldobilling",
-    "saldo balance"
+    "ytthumb",
+    "ytcover",
+    "thumbnail"
   ],
   "description": {
-    "id": "Cek saldo balance dan status kredit akun Anda",
-    "en": "Check your balance and digital credit status"
+    "id": "Ambil thumbnail kualitas tertinggi (1080p HD / 4K) atau cover art YouTube Music",
+    "en": "Fetch highest quality thumbnail (1080p HD / 4K) or YouTube Music cover art"
   },
-  "usage": "Saldo Balance",
+  "usage": "YtThumb",
   "examples": [
-    "saldo",
-    "balance"
+    "ytthumb https://youtu.be/xxxx",
+    "ytcover https://youtu.be/xxxx"
   ],
   "minArgs": 0,
-  "args": {},
+  "args": {
+    "url / query": {
+      "id": "Link video atau kata kunci",
+      "en": "Video link or search query"
+    }
+  },
   "requireMedia": [],
   "chatPermissions": [],
   "chatTypes": {},
@@ -41,7 +44,7 @@
   "limitCost": 0,
   "delaySeconds": 0,
   "ignoreQueue": false,
-  "disableProcessLimit": true,
+  "disableProcessLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -60,8 +63,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/general",
-    "line": 449
+    "file": "internal/plugins/youtube",
+    "line": 111
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

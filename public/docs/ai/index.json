@@ -10,19 +10,6 @@
       ]
     },
     {
-      "name": "AI Stats",
-      "description": "View real-time chat token usage metrics, input/output breakdown, router model, memory status, and quota limit (separated for private & group chats)",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "llmstats",
-        "ai stats",
-        "aistats",
-        "aimodel",
-        "aistatus"
-      ]
-    },
-    {
       "name": "AIChara",
       "description": "View available AI personas and change the active AI character",
       "permissions": {},
@@ -56,7 +43,7 @@
     },
     {
       "name": "ComfyUI",
-      "description": "Generate modern DiT anime images via ComfyUI (Default: SilvermoonMix. Other models: Nova Anime AM v6.0, Nova Orange 2.5D. Cost: 10 AI limits, 👑 Premium: 3 AI limits).",
+      "description": "Generate modern DiT anime images via ComfyUI (Nova Anime, Anima Base, Silvermoon. Supports presets, img2img, & turbo).",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -93,9 +80,9 @@
     },
     {
       "name": "Imagine",
-      "description": "Generate AI images (Default: Grok Imagine, GPT Image, Nano Banana)",
+      "description": "Generate AI images via Grok, GPT, Nano Banana (Premium Users Only, Cost: 3 AI Limits).",
       "permissions": {},
-      "premiumOnly": "",
+      "premiumOnly": "user",
       "tags": [
         "imagine",
         "txt2img",
@@ -107,7 +94,7 @@
     },
     {
       "name": "JadiAnime",
-      "description": "Convert photo to anime style using AI",
+      "description": "Convert photo to 2D anime or Arcane style using AI (Free: 5 AI limit, Premium: 3 AI limit)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
@@ -116,60 +103,50 @@
       ]
     },
     {
-      "name": "JadiAnimeV2",
-      "description": "Convert photo to anime v2 style using AI",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "jadianimev2",
-        "toanimev2"
-      ]
-    },
-    {
-      "name": "JadiGhibli",
-      "description": "Convert photo to Studio Ghibli style using AI",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "jadighibli",
-        "toghibli"
-      ]
-    },
-    {
-      "name": "JobId",
+      "name": "JobStatus",
       "description": "Check the status of an ongoing AI video job",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
+        "jobstatus",
         "jobid",
         "getjob",
-        "cekjob",
-        "jobstatus"
+        "cekjob"
       ]
     },
     {
-      "name": "Reset AI",
+      "name": "LLM",
+      "description": "Select AI router based on capabilities and advantages",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "name": "LLMStats",
+      "description": "View real-time chat token usage metrics, input/output breakdown, router model, memory status, and quota limit (separated for private & group chats)",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "llmstats",
+        "aistats",
+        "aimodel",
+        "aistatus"
+      ]
+    },
+    {
+      "name": "ResetAI",
       "description": "Flexible AI chat reset: per character, rewind last N messages, or full wipe across all characters (auto-detects private & group sessions)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
         "resetai",
-        "reset ai",
         "reset-ai",
         "resetaigroup",
         "resetaigrup",
         "aireset",
-        "clearchat"
-      ]
-    },
-    {
-      "name": "Router AI",
-      "description": "Select AI router based on capabilities and advantages",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "llm",
-        "router ai"
+        "clearaichat"
       ]
     },
     {
@@ -193,7 +170,7 @@
     },
     {
       "name": "VideoHD",
-      "description": "Enhance video resolution and clarity with AI (720P, 1080P, 2K, 4K & FlashVSR)",
+      "description": "Enhance video resolution and clarity with RunPod AI (Real-CUGAN Anime & FlashVSR: 720P, 1080P & 60FPS)",
       "permissions": {},
       "premiumOnly": "",
       "tags": [

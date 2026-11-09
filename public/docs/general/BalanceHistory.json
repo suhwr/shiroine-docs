@@ -1,36 +1,38 @@
 {
-  "name": "Order OTP & Nokos",
+  "name": "BalanceHistory",
   "commands": [
-    "orderotp",
-    "ordernokos",
-    "nokos",
-    "otp",
-    "order otp & nokos"
+    "mutasi",
+    "mutasibalance",
+    "balancehistory",
+    "history",
+    "riwayat",
+    "historybalance"
   ],
   "aliases": [],
   "display": [
-    "Order OTP & Nokos"
+    "BalanceHistory"
   ],
-  "category": "store",
+  "category": "general",
   "categories": [
-    "store"
+    "general"
   ],
   "tags": [
-    "orderotp",
-    "ordernokos",
-    "nokos",
-    "otp",
-    "order otp & nokos"
+    "mutasi",
+    "mutasibalance",
+    "balancehistory",
+    "history",
+    "riwayat",
+    "historybalance"
   ],
   "description": {
-    "id": "Layanan pemesanan OTP dan Nomor Kosong (Nokos) melalui dashboard Webview WhatsApp.",
-    "en": "Order OTP and virtual numbers via WhatsApp Webview dashboard."
+    "id": "Lihat riwayat mutasi dan transaksi saldo balance",
+    "en": "View balance ledger mutation history"
   },
-  "usage": "Order OTP & Nokos",
+  "usage": "BalanceHistory",
   "examples": [
-    "orderotp",
-    "ordernokos",
-    "nokos"
+    "mutasi",
+    "mutasi 2",
+    "history"
   ],
   "minArgs": 0,
   "args": {},
@@ -44,7 +46,7 @@
   "limitCost": 0,
   "delaySeconds": 0,
   "ignoreQueue": false,
-  "disableProcessLimit": false,
+  "disableProcessLimit": true,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -63,8 +65,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/store",
-    "line": 77
+    "file": "internal/plugins/general",
+    "line": 471
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

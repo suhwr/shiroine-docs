@@ -1,0 +1,76 @@
+{
+  "name": "ForwardChannel",
+  "commands": [
+    "forwardchannel",
+    "fwdch",
+    "fwch"
+  ],
+  "aliases": [],
+  "display": [
+    "ForwardChannel"
+  ],
+  "category": "developer",
+  "categories": [
+    "developer"
+  ],
+  "tags": [
+    "forwardchannel",
+    "fwdch",
+    "fwch"
+  ],
+  "description": {
+    "id": "Meneruskan postingan channel WhatsApp beserta metadata asal channel",
+    "en": "Forward WhatsApp channel post with channel origin metadata"
+  },
+  "usage": "ForwardChannel",
+  "examples": [
+    "forwardchannel https://whatsapp.com/channel/0029Va.../123"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "private": true,
+    "group": true,
+    "group_community": true,
+    "newsletter": true
+  },
+  "permissions": {
+    "owner": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/developer",
+    "line": 257
+  },
+  "lastUpdated": "2026-11-09T05:53:26Z"
+}

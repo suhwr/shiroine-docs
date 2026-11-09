@@ -10,23 +10,6 @@
       ]
     },
     {
-      "name": "AI Stats",
-      "aliases": [
-        "aistats",
-        "aimodel",
-        "aistatus"
-      ],
-      "category": "ai",
-      "path": "/commands/ai/AI Stats",
-      "tags": [
-        "llmstats",
-        "ai stats",
-        "aistats",
-        "aimodel",
-        "aistatus"
-      ]
-    },
-    {
       "name": "AIChara",
       "aliases": [],
       "category": "ai",
@@ -124,66 +107,64 @@
       ]
     },
     {
-      "name": "JadiAnimeV2",
-      "aliases": [],
-      "category": "ai",
-      "path": "/commands/ai/JadiAnimeV2",
-      "tags": [
-        "jadianimev2",
-        "toanimev2"
-      ]
-    },
-    {
-      "name": "JadiGhibli",
-      "aliases": [],
-      "category": "ai",
-      "path": "/commands/ai/JadiGhibli",
-      "tags": [
-        "jadighibli",
-        "toghibli"
-      ]
-    },
-    {
-      "name": "JobId",
-      "aliases": [],
-      "category": "ai",
-      "path": "/commands/ai/JobId",
-      "tags": [
+      "name": "JobStatus",
+      "aliases": [
         "jobid",
         "getjob",
-        "cekjob",
-        "jobstatus"
+        "cekjob"
+      ],
+      "category": "ai",
+      "path": "/commands/ai/JobStatus",
+      "tags": [
+        "jobstatus",
+        "jobid",
+        "getjob",
+        "cekjob"
       ]
     },
     {
-      "name": "Reset AI",
+      "name": "LLM",
+      "aliases": [],
+      "category": "ai",
+      "path": "/commands/ai/LLM",
+      "tags": [
+        "llm"
+      ]
+    },
+    {
+      "name": "LLMStats",
+      "aliases": [
+        "aistats",
+        "aimodel",
+        "aistatus"
+      ],
+      "category": "ai",
+      "path": "/commands/ai/LLMStats",
+      "tags": [
+        "llmstats",
+        "aistats",
+        "aimodel",
+        "aistatus"
+      ]
+    },
+    {
+      "name": "ResetAI",
       "aliases": [
         "reset-ai",
         "resetaigroup",
         "resetaigrup",
         "aireset",
-        "clearchat"
+        "clearaichat"
       ],
       "category": "ai",
-      "path": "/commands/ai/Reset AI",
+      "path": "/commands/ai/ResetAI",
       "tags": [
         "resetai",
-        "reset ai",
         "reset-ai",
         "resetaigroup",
         "resetaigrup",
         "aireset",
-        "clearchat"
-      ]
-    },
-    {
-      "name": "Router AI",
-      "aliases": [],
-      "category": "ai",
-      "path": "/commands/ai/Router AI",
-      "tags": [
-        "llm",
-        "router ai"
+        "clearaichat"
       ]
     },
     {
@@ -248,6 +229,28 @@
       ]
     },
     {
+      "name": "Anime Wallpaper",
+      "aliases": [],
+      "category": "animanga",
+      "path": "/commands/animanga/Anime Wallpaper",
+      "tags": [
+        "animewall",
+        "animepaper",
+        "anime wallpaper"
+      ]
+    },
+    {
+      "name": "Bunny Girl",
+      "aliases": [],
+      "category": "animanga",
+      "path": "/commands/animanga/Bunny Girl",
+      "tags": [
+        "bunny",
+        "bunnygirl",
+        "bunny girl"
+      ]
+    },
+    {
       "name": "Character",
       "aliases": [],
       "category": "animanga",
@@ -256,6 +259,16 @@
         "karakter",
         "char",
         "character"
+      ]
+    },
+    {
+      "name": "Husbando",
+      "aliases": [],
+      "category": "animanga",
+      "path": "/commands/animanga/Husbando",
+      "tags": [
+        "husbando",
+        "ikemen"
       ]
     },
     {
@@ -268,6 +281,36 @@
         "schedule",
         "airing",
         "jadwal"
+      ]
+    },
+    {
+      "name": "Kitsune",
+      "aliases": [],
+      "category": "animanga",
+      "path": "/commands/animanga/Kitsune",
+      "tags": [
+        "kitsune",
+        "foxgirl"
+      ]
+    },
+    {
+      "name": "Konachan",
+      "aliases": [],
+      "category": "animanga",
+      "path": "/commands/animanga/Konachan",
+      "tags": [
+        "konachan",
+        "kona"
+      ]
+    },
+    {
+      "name": "Maid",
+      "aliases": [],
+      "category": "animanga",
+      "path": "/commands/animanga/Maid",
+      "tags": [
+        "maid",
+        "meido"
       ]
     },
     {
@@ -298,6 +341,26 @@
       ]
     },
     {
+      "name": "Neko",
+      "aliases": [],
+      "category": "animanga",
+      "path": "/commands/animanga/Neko",
+      "tags": [
+        "neko",
+        "catgirl"
+      ]
+    },
+    {
+      "name": "Safebooru",
+      "aliases": [],
+      "category": "animanga",
+      "path": "/commands/animanga/Safebooru",
+      "tags": [
+        "safebooru",
+        "safe"
+      ]
+    },
+    {
       "name": "SauceNAO",
       "aliases": [],
       "category": "animanga",
@@ -309,6 +372,36 @@
       ]
     },
     {
+      "name": "Schoolgirl",
+      "aliases": [],
+      "category": "animanga",
+      "path": "/commands/animanga/Schoolgirl",
+      "tags": [
+        "schoolgirl",
+        "seifuku"
+      ]
+    },
+    {
+      "name": "Swimsuit",
+      "aliases": [],
+      "category": "animanga",
+      "path": "/commands/animanga/Swimsuit",
+      "tags": [
+        "swimsuit",
+        "bikini"
+      ]
+    },
+    {
+      "name": "Waifu",
+      "aliases": [],
+      "category": "animanga",
+      "path": "/commands/animanga/Waifu",
+      "tags": [
+        "waifu",
+        "wf"
+      ]
+    },
+    {
       "name": "WhatAnime",
       "aliases": [],
       "category": "animanga",
@@ -317,6 +410,26 @@
         "whatanime",
         "wait",
         "trace"
+      ]
+    },
+    {
+      "name": "Yandere",
+      "aliases": [],
+      "category": "animanga",
+      "path": "/commands/animanga/Yandere",
+      "tags": [
+        "yandere",
+        "yan"
+      ]
+    },
+    {
+      "name": "Zerochan",
+      "aliases": [],
+      "category": "animanga",
+      "path": "/commands/animanga/Zerochan",
+      "tags": [
+        "zerochan",
+        "zc"
       ]
     },
     {
@@ -394,6 +507,26 @@
       "tags": [
         "botsettings",
         "settings"
+      ]
+    },
+    {
+      "name": "ChannelPost",
+      "aliases": [
+        "upch",
+        "postchannel",
+        "kirimsaluran",
+        "upsaluran",
+        "chpost"
+      ],
+      "category": "bot",
+      "path": "/commands/bot/ChannelPost",
+      "tags": [
+        "channelpost",
+        "upch",
+        "postchannel",
+        "kirimsaluran",
+        "upsaluran",
+        "chpost"
       ]
     },
     {
@@ -492,6 +625,18 @@
       "tags": [
         "nsfw",
         "nsfwmode"
+      ]
+    },
+    {
+      "name": "OrderOTP",
+      "aliases": [],
+      "category": "bot",
+      "path": "/commands/bot/OrderOTP",
+      "tags": [
+        "orderotp",
+        "ordernokos",
+        "nokos",
+        "otp"
       ]
     },
     {
@@ -594,6 +739,44 @@
       ]
     },
     {
+      "name": "StatusPost",
+      "aliases": [
+        "upsw",
+        "upstatus",
+        "postsw",
+        "poststatus",
+        "swpost",
+        "ceritawa"
+      ],
+      "category": "bot",
+      "path": "/commands/bot/StatusPost",
+      "tags": [
+        "statuspost",
+        "upsw",
+        "upstatus",
+        "postsw",
+        "poststatus",
+        "swpost",
+        "ceritawa"
+      ]
+    },
+    {
+      "name": "StatusPostTag",
+      "aliases": [
+        "upsw2",
+        "upstatustag",
+        "poststatustag"
+      ],
+      "category": "bot",
+      "path": "/commands/bot/StatusPostTag",
+      "tags": [
+        "statusposttag",
+        "upsw2",
+        "upstatustag",
+        "poststatustag"
+      ]
+    },
+    {
       "name": "TrackBot",
       "aliases": [],
       "category": "bot",
@@ -601,34 +784,6 @@
       "tags": [
         "trackbot",
         "track-bot"
-      ]
-    },
-    {
-      "name": "UpCH",
-      "aliases": [],
-      "category": "bot",
-      "path": "/commands/bot/UpCH",
-      "tags": [
-        "upch"
-      ]
-    },
-    {
-      "name": "UpSW",
-      "aliases": [],
-      "category": "bot",
-      "path": "/commands/bot/UpSW",
-      "tags": [
-        "upsw",
-        "upstatus"
-      ]
-    },
-    {
-      "name": "UpSW2",
-      "aliases": [],
-      "category": "bot",
-      "path": "/commands/bot/UpSW2",
-      "tags": [
-        "upsw2"
       ]
     },
     {
@@ -774,15 +929,14 @@
       ]
     },
     {
-      "name": "Forward Channel",
+      "name": "ForwardChannel",
       "aliases": [],
       "category": "developer",
-      "path": "/commands/developer/Forward Channel",
+      "path": "/commands/developer/ForwardChannel",
       "tags": [
         "forwardchannel",
         "fwdch",
-        "fwch",
-        "forward channel"
+        "fwch"
       ]
     },
     {
@@ -1024,6 +1178,19 @@
       ]
     },
     {
+      "name": "FStik",
+      "aliases": [],
+      "category": "downloader",
+      "path": "/commands/downloader/FStik",
+      "tags": [
+        "fstik",
+        "fstick",
+        "fgstick",
+        "fstiker",
+        "fstikers"
+      ]
+    },
+    {
       "name": "Facebook",
       "aliases": [],
       "category": "downloader",
@@ -1077,6 +1244,18 @@
       ]
     },
     {
+      "name": "LINE Sticker",
+      "aliases": [],
+      "category": "downloader",
+      "path": "/commands/downloader/LINE Sticker",
+      "tags": [
+        "linesticker",
+        "linestick",
+        "line",
+        "line sticker"
+      ]
+    },
+    {
       "name": "MediaFire",
       "aliases": [],
       "category": "downloader",
@@ -1084,6 +1263,19 @@
       "tags": [
         "mediafire",
         "mfdl"
+      ]
+    },
+    {
+      "name": "Minecraft",
+      "aliases": [],
+      "category": "downloader",
+      "path": "/commands/downloader/Minecraft",
+      "tags": [
+        "mcpedl",
+        "mcpedlorg",
+        "curseforge",
+        "safefileku",
+        "minecraft"
       ]
     },
     {
@@ -1128,6 +1320,29 @@
       "tags": [
         "pixiv",
         "pxdl"
+      ]
+    },
+    {
+      "name": "Stickerly",
+      "aliases": [],
+      "category": "downloader",
+      "path": "/commands/downloader/Stickerly",
+      "tags": [
+        "stickerly",
+        "stickly",
+        "sly",
+        "stikerly"
+      ]
+    },
+    {
+      "name": "StickersGG",
+      "aliases": [],
+      "category": "downloader",
+      "path": "/commands/downloader/StickersGG",
+      "tags": [
+        "stickersgg",
+        "sgg",
+        "stickerspack"
       ]
     },
     {
@@ -1371,6 +1586,16 @@
       ]
     },
     {
+      "name": "Debate",
+      "aliases": [],
+      "category": "fun",
+      "path": "/commands/fun/Debate",
+      "tags": [
+        "debate",
+        "debat"
+      ]
+    },
+    {
       "name": "Drool",
       "aliases": [],
       "category": "fun",
@@ -1532,6 +1757,16 @@
       "path": "/commands/fun/Meme",
       "tags": [
         "meme"
+      ]
+    },
+    {
+      "name": "MostLikely",
+      "aliases": [],
+      "category": "fun",
+      "path": "/commands/fun/MostLikely",
+      "tags": [
+        "mostlikely",
+        "siapapaling"
       ]
     },
     {
@@ -1896,6 +2131,18 @@
       ]
     },
     {
+      "name": "TruthOrDare",
+      "aliases": [],
+      "category": "fun",
+      "path": "/commands/fun/TruthOrDare",
+      "tags": [
+        "truthordare",
+        "tod",
+        "truth",
+        "dare"
+      ]
+    },
+    {
       "name": "Wave",
       "aliases": [],
       "category": "fun",
@@ -1920,6 +2167,16 @@
       "path": "/commands/fun/Woah",
       "tags": [
         "woah"
+      ]
+    },
+    {
+      "name": "WouldYouRather",
+      "aliases": [],
+      "category": "fun",
+      "path": "/commands/fun/WouldYouRather",
+      "tags": [
+        "wouldyourather",
+        "wyr"
       ]
     },
     {
@@ -1984,6 +2241,16 @@
       "path": "/commands/game/CakLontong",
       "tags": [
         "caklontong"
+      ]
+    },
+    {
+      "name": "Catur",
+      "aliases": [],
+      "category": "game",
+      "path": "/commands/game/Catur",
+      "tags": [
+        "catur",
+        "chess"
       ]
     },
     {
@@ -2205,6 +2472,17 @@
       ]
     },
     {
+      "name": "UlarTangga",
+      "aliases": [],
+      "category": "game",
+      "path": "/commands/game/UlarTangga",
+      "tags": [
+        "ulartangga",
+        "ular",
+        "snakeladder"
+      ]
+    },
+    {
       "name": "Wordle",
       "aliases": [],
       "category": "game",
@@ -2234,30 +2512,54 @@
       ]
     },
     {
-      "name": "Batal Pembayaran",
+      "name": "Balance",
       "aliases": [],
       "category": "general",
-      "path": "/commands/general/Batal Pembayaran",
+      "path": "/commands/general/Balance",
       "tags": [
-        "batal",
-        "cancel",
-        "batalorder",
-        "cancelorder",
-        "batalbayar",
-        "batal pembayaran"
+        "saldo",
+        "balance",
+        "saldobilling"
       ]
     },
     {
-      "name": "Beli Premium Balance",
+      "name": "BalanceHistory",
       "aliases": [],
       "category": "general",
-      "path": "/commands/general/Beli Premium Balance",
+      "path": "/commands/general/BalanceHistory",
+      "tags": [
+        "mutasi",
+        "mutasibalance",
+        "balancehistory",
+        "history",
+        "riwayat",
+        "historybalance"
+      ]
+    },
+    {
+      "name": "BuyPrem",
+      "aliases": [],
+      "category": "general",
+      "path": "/commands/general/BuyPrem",
       "tags": [
         "buyprem",
         "shopprem",
         "belipremium",
-        "shop",
-        "beli premium balance"
+        "shop"
+      ]
+    },
+    {
+      "name": "CancelPayment",
+      "aliases": [],
+      "category": "general",
+      "path": "/commands/general/CancelPayment",
+      "tags": [
+        "batal",
+        "cancel",
+        "cancelpayment",
+        "batalorder",
+        "cancelorder",
+        "batalbayar"
       ]
     },
     {
@@ -2326,21 +2628,6 @@
       ]
     },
     {
-      "name": "Mutasi Balance",
-      "aliases": [],
-      "category": "general",
-      "path": "/commands/general/Mutasi Balance",
-      "tags": [
-        "mutasi",
-        "mutasibalance",
-        "balancehistory",
-        "history",
-        "riwayat",
-        "historybalance",
-        "mutasi balance"
-      ]
-    },
-    {
       "name": "NSFW",
       "aliases": [],
       "category": "general",
@@ -2375,7 +2662,6 @@
       "path": "/commands/general/Premium",
       "tags": [
         "premium",
-        "buyprem",
         "buypremium"
       ]
     },
@@ -2399,18 +2685,6 @@
       ]
     },
     {
-      "name": "Saldo Balance",
-      "aliases": [],
-      "category": "general",
-      "path": "/commands/general/Saldo Balance",
-      "tags": [
-        "saldo",
-        "balance",
-        "saldobilling",
-        "saldo balance"
-      ]
-    },
-    {
       "name": "Top",
       "aliases": [],
       "category": "general",
@@ -2420,15 +2694,14 @@
       ]
     },
     {
-      "name": "Top Up Balance",
+      "name": "TopUp",
       "aliases": [],
       "category": "general",
-      "path": "/commands/general/Top Up Balance",
+      "path": "/commands/general/TopUp",
       "tags": [
         "topup",
         "topupbalance",
-        "topupsaldo",
-        "top up balance"
+        "topupsaldo"
       ]
     },
     {
@@ -2531,7 +2804,8 @@
       "category": "group",
       "path": "/commands/group/AntiSW",
       "tags": [
-        "antisw"
+        "antisw",
+        "antiswgc"
       ]
     },
     {
@@ -2550,6 +2824,16 @@
       "path": "/commands/group/AntiTagSW",
       "tags": [
         "antitagsw"
+      ]
+    },
+    {
+      "name": "AntiVO",
+      "aliases": [],
+      "category": "group",
+      "path": "/commands/group/AntiVO",
+      "tags": [
+        "antivo",
+        "antiviewonce"
       ]
     },
     {
@@ -2741,6 +3025,22 @@
       "tags": [
         "groupsettings",
         "gsettings"
+      ]
+    },
+    {
+      "name": "GroupStatus",
+      "aliases": [
+        "upswgc",
+        "upstatusgrup",
+        "statusgrup"
+      ],
+      "category": "group",
+      "path": "/commands/group/GroupStatus",
+      "tags": [
+        "groupstatus",
+        "upswgc",
+        "upstatusgrup",
+        "statusgrup"
       ]
     },
     {
@@ -2968,7 +3268,6 @@
         "jadwalgrup",
         "jg",
         "jadwalgc",
-        "schedule",
         "setschedule",
         "reminder",
         "autoopen"
@@ -3153,16 +3452,6 @@
       ]
     },
     {
-      "name": "UpSWGC",
-      "aliases": [],
-      "category": "group",
-      "path": "/commands/group/UpSWGC",
-      "tags": [
-        "upswgc",
-        "upstatusgrup"
-      ]
-    },
-    {
       "name": "Warn",
       "aliases": [],
       "category": "group",
@@ -3241,15 +3530,6 @@
       "path": "/commands/minigame/Breakout",
       "tags": [
         "breakout"
-      ]
-    },
-    {
-      "name": "Chess",
-      "aliases": [],
-      "category": "minigame",
-      "path": "/commands/minigame/Chess",
-      "tags": [
-        "chess"
       ]
     },
     {
@@ -3526,13 +3806,12 @@
       ]
     },
     {
-      "name": "Web Login",
+      "name": "WebLogin",
       "aliases": [],
       "category": "profile",
-      "path": "/commands/profile/Web Login",
+      "path": "/commands/profile/WebLogin",
       "tags": [
-        "weblogin",
-        "web login"
+        "weblogin"
       ]
     },
     {
@@ -3638,19 +3917,6 @@
         "store",
         "list",
         "produk"
-      ]
-    },
-    {
-      "name": "Order OTP & Nokos",
-      "aliases": [],
-      "category": "store",
-      "path": "/commands/store/Order OTP & Nokos",
-      "tags": [
-        "orderotp",
-        "ordernokos",
-        "nokos",
-        "otp",
-        "order otp & nokos"
       ]
     },
     {
@@ -4012,6 +4278,19 @@
       ]
     },
     {
+      "name": "ChSchedule",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/ChSchedule",
+      "tags": [
+        "chschedule",
+        "schedulech",
+        "jadwalch",
+        "jadwalsaluran",
+        "chs"
+      ]
+    },
+    {
       "name": "Chorus",
       "aliases": [],
       "category": "tools",
@@ -4358,20 +4637,6 @@
       ]
     },
     {
-      "name": "Music & Stem Separator",
-      "aliases": [],
-      "category": "tools",
-      "path": "/commands/tools/Music & Stem Separator",
-      "tags": [
-        "separate",
-        "vocal",
-        "karaoke",
-        "acapella",
-        "pisah",
-        "music & stem separator"
-      ]
-    },
-    {
       "name": "Nightcore",
       "aliases": [],
       "category": "tools",
@@ -4577,6 +4842,19 @@
       ]
     },
     {
+      "name": "Separate",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/Separate",
+      "tags": [
+        "separate",
+        "vocal",
+        "karaoke",
+        "acapella",
+        "pisah"
+      ]
+    },
+    {
       "name": "SetQRIS",
       "aliases": [],
       "category": "tools",
@@ -4717,6 +4995,18 @@
       ]
     },
     {
+      "name": "Transcribe",
+      "aliases": [],
+      "category": "tools",
+      "path": "/commands/tools/Transcribe",
+      "tags": [
+        "transcribe",
+        "whisper",
+        "stt",
+        "teks"
+      ]
+    },
+    {
       "name": "Translate",
       "aliases": [],
       "category": "tools",
@@ -4795,19 +5085,6 @@
       ]
     },
     {
-      "name": "Voice Note & Audio Transcribe",
-      "aliases": [],
-      "category": "tools",
-      "path": "/commands/tools/Voice Note & Audio Transcribe",
-      "tags": [
-        "transcribe",
-        "whisper",
-        "stt",
-        "teks",
-        "voice note & audio transcribe"
-      ]
-    },
-    {
       "name": "WhatMusic",
       "aliases": [],
       "category": "tools",
@@ -4866,6 +5143,16 @@
       ]
     },
     {
+      "name": "YtClip",
+      "aliases": [],
+      "category": "youtube",
+      "path": "/commands/youtube/YtClip",
+      "tags": [
+        "ytclip",
+        "clip"
+      ]
+    },
+    {
       "name": "YtMp3",
       "aliases": [],
       "category": "youtube",
@@ -4913,6 +5200,28 @@
       "tags": [
         "yts",
         "ytsearch"
+      ]
+    },
+    {
+      "name": "YtSub",
+      "aliases": [],
+      "category": "youtube",
+      "path": "/commands/youtube/YtSub",
+      "tags": [
+        "ytsub",
+        "yttranscript",
+        "transcript"
+      ]
+    },
+    {
+      "name": "YtThumb",
+      "aliases": [],
+      "category": "youtube",
+      "path": "/commands/youtube/YtThumb",
+      "tags": [
+        "ytthumb",
+        "ytcover",
+        "thumbnail"
       ]
     }
   ]

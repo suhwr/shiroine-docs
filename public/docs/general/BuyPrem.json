@@ -1,0 +1,67 @@
+{
+  "name": "BuyPrem",
+  "commands": [
+    "buyprem",
+    "shopprem",
+    "belipremium",
+    "shop"
+  ],
+  "aliases": [],
+  "display": [
+    "BuyPrem"
+  ],
+  "category": "general",
+  "categories": [
+    "general"
+  ],
+  "tags": [
+    "buyprem",
+    "shopprem",
+    "belipremium",
+    "shop"
+  ],
+  "description": {
+    "id": "Beli paket premium langganan via saldo balance dengan diskon 5%",
+    "en": "Purchase premium subscription using balance with 5% discount"
+  },
+  "usage": "BuyPrem",
+  "examples": [
+    "buyprem",
+    "buyprem 1"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": true,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/general",
+    "line": 482
+  },
+  "lastUpdated": "2026-11-09T05:53:26Z"
+}

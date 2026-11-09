@@ -1,28 +1,31 @@
 {
-  "name": "Web Login",
+  "name": "Anime Wallpaper",
   "commands": [
-    "weblogin",
-    "web login"
+    "animewall",
+    "animepaper"
   ],
   "aliases": [],
   "display": [
-    "Web Login"
+    "Anime Wallpaper"
   ],
-  "category": "profile",
+  "category": "animanga",
   "categories": [
-    "profile"
+    "animanga"
   ],
   "tags": [
-    "weblogin",
-    "web login"
+    "animewall",
+    "animepaper",
+    "anime wallpaper"
   ],
   "description": {
-    "id": "Membuat kode 6-digit untuk login ke website Shiroine dan dashboard Prism.",
-    "en": "Generate a 6-digit code to log in to Shiroine and Prism dashboard."
+    "id": "Koleksi wallpaper anime HD untuk ponsel / desktop",
+    "en": "HD anime wallpapers for phone / desktop"
   },
-  "usage": "Web Login",
+  "usage": "Anime Wallpaper",
   "examples": [
-    "weblogin"
+    ".animewall",
+    ".animewall solo leveling",
+    ".animewall #3"
   ],
   "minArgs": 0,
   "args": {},
@@ -33,10 +36,10 @@
   "premiumOnly": "",
   "nsfwOnly": false,
   "level": 0,
-  "limitCost": 0,
+  "limitCost": 1,
   "delaySeconds": 0,
   "ignoreQueue": false,
-  "disableProcessLimit": true,
+  "disableProcessLimit": false,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -55,8 +58,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/profile",
-    "line": 158
+    "file": "internal/plugins/anime",
+    "line": 326
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

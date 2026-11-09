@@ -1,0 +1,63 @@
+{
+  "name": "Schoolgirl",
+  "commands": [
+    "schoolgirl",
+    "seifuku"
+  ],
+  "aliases": [],
+  "display": [
+    "Schoolgirl"
+  ],
+  "category": "animanga",
+  "categories": [
+    "animanga"
+  ],
+  "tags": [
+    "schoolgirl",
+    "seifuku"
+  ],
+  "description": {
+    "id": "Koleksi foto/art anime berseragam sekolah",
+    "en": "Random anime schoolgirl uniform art"
+  },
+  "usage": "Schoolgirl",
+  "examples": [
+    ".schoolgirl",
+    ".seifuku asuka"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/anime",
+    "line": 302
+  },
+  "lastUpdated": "2026-11-09T05:53:26Z"
+}

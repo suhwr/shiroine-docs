@@ -1,30 +1,34 @@
 {
-  "name": "UpCH",
+  "name": "Minecraft",
   "commands": [
-    "upch"
+    "mcpedl",
+    "mcpedlorg",
+    "curseforge",
+    "safefileku",
+    "minecraft"
   ],
   "aliases": [],
   "display": [
-    "UpCH"
+    "Minecraft"
   ],
-  "category": "bot",
+  "category": "downloader",
   "categories": [
-    "bot"
+    "downloader"
   ],
   "tags": [
-    "upch"
+    "mcpedl",
+    "mcpedlorg",
+    "curseforge",
+    "safefileku",
+    "minecraft"
   ],
   "description": {
-    "id": "Upload konten (teks/media) ke saluran WhatsApp yang dikelola (dukung flag --gif, --nowaveform, dan --upsw)",
-    "en": "Upload content (text/media) to managed WhatsApp channels (supports --gif, --nowaveform, and --upsw flags)"
+    "en": "Download public MCPEDL.com files; other sites restricted",
+    "id": "Download file publik MCPEDL.com; situs lain terbatas"
   },
-  "usage": "UpCH",
+  "usage": "Minecraft",
   "examples": [
-    "upch Pesan teks",
-    "upch --gif",
-    "upch --nowaveform",
-    "upch --upsw",
-    "upch Text message"
+    "mcpedl https://mcpedl.com/auto-doors/"
   ],
   "minArgs": 0,
   "args": {},
@@ -32,25 +36,25 @@
   "chatPermissions": [
     "private",
     "group",
-    "group_community"
+    "group_community",
+    "newsletter"
   ],
   "chatTypes": {
     "private": true,
     "group": true,
-    "group_community": true
+    "group_community": true,
+    "newsletter": true
   },
-  "permissions": {
-    "hasbot": true
-  },
+  "permissions": {},
   "premiumOnly": "",
   "nsfwOnly": false,
   "level": 0,
-  "limitCost": 0,
+  "limitCost": 1,
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
   "sendsToPrivate": false,
-  "showPromotion": false,
+  "showPromotion": true,
   "disabled": false,
   "disabledReason": "",
   "customArgsMessage": {
@@ -67,8 +71,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/bot",
-    "line": 73
+    "file": "internal/plugins/downloader",
+    "line": 45
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

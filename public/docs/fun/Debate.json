@@ -1,0 +1,70 @@
+{
+  "name": "Debate",
+  "commands": [
+    "debate",
+    "debat"
+  ],
+  "aliases": [],
+  "display": [
+    "Debate"
+  ],
+  "category": "fun",
+  "categories": [
+    "fun"
+  ],
+  "tags": [
+    "debate",
+    "debat"
+  ],
+  "description": {
+    "id": "Kirim topik debat seru untuk dibahas bersama di grup",
+    "en": "Send a debate topic to discuss in group"
+  },
+  "usage": "Debate",
+  "examples": [
+    "debate"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "private": true,
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 2,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/fun",
+    "line": 55
+  },
+  "lastUpdated": "2026-11-09T05:53:26Z"
+}

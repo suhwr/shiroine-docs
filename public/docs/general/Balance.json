@@ -1,26 +1,31 @@
 {
-  "name": "Chess",
+  "name": "Balance",
   "commands": [
-    "chess"
+    "saldo",
+    "balance",
+    "saldobilling"
   ],
   "aliases": [],
   "display": [
-    "Chess"
+    "Balance"
   ],
-  "category": "minigame",
+  "category": "general",
   "categories": [
-    "minigame"
+    "general"
   ],
   "tags": [
-    "chess"
+    "saldo",
+    "balance",
+    "saldobilling"
   ],
   "description": {
-    "id": "Mainkan game catur papan melawan AI Chess via webview WhatsApp",
-    "en": "Play Chess"
+    "id": "Cek saldo balance dan status kredit akun Anda",
+    "en": "Check your balance and digital credit status"
   },
-  "usage": "Chess",
+  "usage": "Balance",
   "examples": [
-    "chess"
+    "saldo",
+    "balance"
   ],
   "minArgs": 0,
   "args": {},
@@ -31,10 +36,10 @@
   "premiumOnly": "",
   "nsfwOnly": false,
   "level": 0,
-  "limitCost": 1,
+  "limitCost": 0,
   "delaySeconds": 0,
   "ignoreQueue": false,
-  "disableProcessLimit": false,
+  "disableProcessLimit": true,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -53,8 +58,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/minigame",
-    "line": 1
+    "file": "internal/plugins/general",
+    "line": 449
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

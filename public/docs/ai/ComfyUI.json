@@ -17,15 +17,15 @@
     "comfyui"
   ],
   "description": {
-    "id": "Generate gambar anime modern DiT via ComfyUI (Default: SilvermoonMix. Model lain: Nova Anime AM v6.0, Nova Orange 2.5D. Biaya: 10 limit AI, 👑 Premium: 3 limit AI).",
-    "en": "Generate modern DiT anime images via ComfyUI (Default: SilvermoonMix. Other models: Nova Anime AM v6.0, Nova Orange 2.5D. Cost: 10 AI limits, 👑 Premium: 3 AI limits)."
+    "id": "Generate gambar anime modern DiT via ComfyUI (Nova Anime, Anima Base, Silvermoon. Support presets, img2img, & turbo).",
+    "en": "Generate modern DiT anime images via ComfyUI (Nova Anime, Anima Base, Silvermoon. Supports presets, img2img, & turbo)."
   },
   "usage": "ComfyUI",
   "examples": [
-    "cui 2girls, beautiful school uniform, delicate hands",
-    "cui nova 1girl, hatsune miku, cyber stage --landscape",
-    "cui orange 1girl, expressive lighting, soft skin --portrait",
-    "cui 1girl, cute maid --ar=portrait"
+    "cui 1girl, silver hair, school uniform --illustrator",
+    "cui 1girl, hatsune miku --landscape --turbo",
+    "cui 1girl, frieren --character --base",
+    "cui --presets"
   ],
   "minArgs": 0,
   "args": {},
@@ -59,7 +59,7 @@
   },
   "source": {
     "file": "internal/plugins/ai",
-    "line": 289
+    "line": 562
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

@@ -23,11 +23,13 @@
     "delbroadcast"
   ],
   "description": {
-    "id": "Menghentikan kampanye passive broadcast yang sedang aktif",
-    "en": "Cancel active passive broadcast campaign"
+    "en": "Cancel active passive broadcast campaign",
+    "id": "Menghentikan kampanye passive broadcast yang sedang aktif"
   },
   "usage": "CancelBroadcast",
-  "examples": [],
+  "examples": [
+    "cancelbroadcast"
+  ],
   "minArgs": 0,
   "args": {},
   "requireMedia": [],
@@ -37,9 +39,9 @@
     "group_community"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
-    "group_community": true,
-    "private": true
+    "group_community": true
   },
   "permissions": {
     "owner": true
@@ -72,5 +74,5 @@
     "file": "internal/plugins/developer",
     "line": 254
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

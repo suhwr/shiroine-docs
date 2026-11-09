@@ -15,8 +15,8 @@
     "tebakbom"
   ],
   "description": {
-    "id": "Mulai game Tebak Bom – hindari bom di antara 9 angka",
-    "en": "Start Tebak Bom game – avoid the bomb among 9 numbers"
+    "en": "Start Tebak Bom game – avoid the bomb among 9 numbers",
+    "id": "Mulai game Tebak Bom – hindari bom di antara 9 angka"
   },
   "usage": "TebakBom",
   "examples": [
@@ -62,5 +62,5 @@
     "file": "internal/plugins/game",
     "line": 476
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

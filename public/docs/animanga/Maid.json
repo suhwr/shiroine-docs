@@ -1,0 +1,64 @@
+{
+  "name": "Maid",
+  "commands": [
+    "maid",
+    "meido"
+  ],
+  "aliases": [],
+  "display": [
+    "Maid"
+  ],
+  "category": "animanga",
+  "categories": [
+    "animanga"
+  ],
+  "tags": [
+    "maid",
+    "meido"
+  ],
+  "description": {
+    "id": "Koleksi foto/art anime berkostum maid",
+    "en": "Random anime maid character art"
+  },
+  "usage": "Maid",
+  "examples": [
+    ".maid",
+    ".maid rem",
+    ".maid #3"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/anime",
+    "line": 266
+  },
+  "lastUpdated": "2026-11-09T05:53:26Z"
+}

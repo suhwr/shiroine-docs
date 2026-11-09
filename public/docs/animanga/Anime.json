@@ -38,8 +38,8 @@
     "kuramanime"
   ],
   "description": {
-    "id": "Cari dan dapatkan link streaming serta mirror download anime",
-    "en": "Search and get anime streaming players and download mirror links"
+    "en": "Search and get anime streaming players and download mirror links",
+    "id": "Cari dan dapatkan link streaming serta mirror download anime"
   },
   "usage": "Anime",
   "examples": [
@@ -83,5 +83,5 @@
     "file": "internal/plugins/anime",
     "line": 526
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

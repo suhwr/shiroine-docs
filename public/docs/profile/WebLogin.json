@@ -1,0 +1,60 @@
+{
+  "name": "WebLogin",
+  "commands": [
+    "weblogin"
+  ],
+  "aliases": [],
+  "display": [
+    "WebLogin"
+  ],
+  "category": "profile",
+  "categories": [
+    "profile"
+  ],
+  "tags": [
+    "weblogin"
+  ],
+  "description": {
+    "id": "Membuat kode 6-digit untuk login ke website Shiroine dan dashboard Prism.",
+    "en": "Generate a 6-digit code to log in to Shiroine and Prism dashboard."
+  },
+  "usage": "WebLogin",
+  "examples": [
+    "weblogin"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": true,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/profile",
+    "line": 158
+  },
+  "lastUpdated": "2026-11-09T05:53:26Z"
+}

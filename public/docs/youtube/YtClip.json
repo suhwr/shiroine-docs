@@ -1,0 +1,71 @@
+{
+  "name": "YtClip",
+  "commands": [
+    "ytclip",
+    "clip"
+  ],
+  "aliases": [],
+  "display": [
+    "YtClip"
+  ],
+  "category": "youtube",
+  "categories": [
+    "youtube"
+  ],
+  "tags": [
+    "ytclip",
+    "clip"
+  ],
+  "description": {
+    "id": "Potong klip video atau audio YouTube secara instan tanpa download full video (maks 1 menit), mendukung klip live streaming dalam format H.264 (AVC High)",
+    "en": "Trim/clip YouTube video or audio instantly without downloading the full video (max 1 minute), supports live stream clipping in H.264 (AVC High)"
+  },
+  "usage": "YtClip",
+  "examples": [
+    "ytclip https://youtu.be/xxxx 103:20:15 30",
+    "ytclip https://youtu.be/xxxx 24:20 30",
+    "ytclip https://youtu.be/xxxx 01:15 02:00",
+    "ytclip https://youtu.be/xxxx 10 40 --audio",
+    "ytclip https://youtu.be/live_id 30"
+  ],
+  "minArgs": 0,
+  "args": {
+    "url start duration/end [--audio]": {
+      "id": "Link video, waktu mulai, durasi/waktu selesai (maks 1 menit), dan opsi audio",
+      "en": "Video link, start time, duration/end time (max 1 minute), and audio option"
+    }
+  },
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/youtube",
+    "line": 215
+  },
+  "lastUpdated": "2026-11-09T05:53:26Z"
+}

@@ -17,8 +17,8 @@
     "addpremium"
   ],
   "description": {
-    "id": "Tambah/update premium manual (owner only)",
-    "en": "Add/update premium manually (owner only)"
+    "en": "Add/update premium manually (owner only)",
+    "id": "Tambah/update premium manual (owner only)"
   },
   "usage": "AddPrem <teks>",
   "examples": [
@@ -72,5 +72,5 @@
     "file": "internal/plugins/developer",
     "line": 199
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

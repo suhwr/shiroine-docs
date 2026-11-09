@@ -17,8 +17,8 @@
     "tag"
   ],
   "description": {
-    "en": "Tag all group members grouped by role",
-    "id": "Tag semua anggota grup dikelompokkan berdasarkan peran"
+    "id": "Tag semua anggota grup dikelompokkan berdasarkan peran",
+    "en": "Tag all group members grouped by role"
   },
   "usage": "TagAll",
   "examples": [
@@ -69,5 +69,5 @@
     "file": "internal/plugins/group",
     "line": 129
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

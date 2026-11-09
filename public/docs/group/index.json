@@ -101,7 +101,7 @@
     },
     {
       "name": "AntiMedia",
-      "description": "Configure group anti-media protection for specific media types",
+      "description": "Configure group anti-media protection: sticker, video, viewonce, image, voice, doc",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -126,14 +126,15 @@
     },
     {
       "name": "AntiSW",
-      "description": "Configure anti tag status",
+      "description": "Configure anti tag status (SWGC)",
       "permissions": {
         "admin": true,
         "subowner": true
       },
       "premiumOnly": "",
       "tags": [
-        "antisw"
+        "antisw",
+        "antiswgc"
       ]
     },
     {
@@ -158,6 +159,19 @@
       "premiumOnly": "",
       "tags": [
         "antitagsw"
+      ]
+    },
+    {
+      "name": "AntiVO",
+      "description": "Configure anti view-once message protection in group",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "antivo",
+        "antiviewonce"
       ]
     },
     {
@@ -276,8 +290,8 @@
       "name": "Cmd",
       "description": "Disable or enable bot commands in this group individually or in bulk",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -315,8 +329,8 @@
       "name": "Demote",
       "description": "Demote an admin to a regular member",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -327,8 +341,8 @@
       "name": "Ephemeral",
       "description": "Configure disappearing / ephemeral messages in group",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -339,8 +353,8 @@
       "name": "GStats",
       "description": "Show group message statistics this month including top 3 most active members",
       "permissions": {
-        "admin": true,
-        "moderator": true
+        "moderator": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -392,11 +406,25 @@
       ]
     },
     {
+      "name": "GroupStatus",
+      "description": "Upload media to group status",
+      "permissions": {
+        "admin": true
+      },
+      "premiumOnly": "",
+      "tags": [
+        "groupstatus",
+        "upswgc",
+        "upstatusgrup",
+        "statusgrup"
+      ]
+    },
+    {
       "name": "HideTag",
       "description": "Tag all group members invisibly",
       "permissions": {
-        "admin": true,
-        "moderator": true
+        "moderator": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -550,8 +578,8 @@
       "name": "MuteMember",
       "description": "Mute a specific member in the group so messages are auto-deleted",
       "permissions": {
-        "admin": true,
-        "moderator": true
+        "moderator": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [
@@ -573,8 +601,8 @@
       "name": "Open",
       "description": "Open group (all members can send messages)",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -672,7 +700,6 @@
         "jadwalgrup",
         "jg",
         "jadwalgc",
-        "schedule",
         "setschedule",
         "reminder",
         "autoopen"
@@ -694,8 +721,8 @@
       "name": "SetGoodbye",
       "description": "Set group goodbye message or cover",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -735,8 +762,8 @@
       "name": "SetSubject",
       "description": "Change group chat name",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "tags": [
@@ -863,8 +890,8 @@
       "name": "UnbanMember",
       "description": "Unban member from the bot in this group",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -876,8 +903,8 @@
       "name": "UnmuteMember",
       "description": "Unmute a specific member in the group",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "tags": [
@@ -898,18 +925,6 @@
         "unpin",
         "unpinchat",
         "lepassemat"
-      ]
-    },
-    {
-      "name": "UpSWGC",
-      "description": "Upload media to group status",
-      "permissions": {
-        "admin": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "upswgc",
-        "upstatusgrup"
       ]
     },
     {
@@ -938,8 +953,8 @@
       "name": "Welcome",
       "description": "Configure welcome message and cover for new group members",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "tags": [

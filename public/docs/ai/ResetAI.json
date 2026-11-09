@@ -1,31 +1,41 @@
 {
-  "name": "Router AI",
+  "name": "ResetAI",
   "commands": [
-    "llm",
-    "router ai"
+    "resetai"
   ],
-  "aliases": [],
+  "aliases": [
+    "reset-ai",
+    "resetaigroup",
+    "resetaigrup",
+    "aireset",
+    "clearaichat"
+  ],
   "display": [
-    "Router AI"
+    "ResetAI"
   ],
   "category": "ai",
   "categories": [
     "ai"
   ],
   "tags": [
-    "llm",
-    "router ai"
+    "resetai",
+    "reset-ai",
+    "resetaigroup",
+    "resetaigrup",
+    "aireset",
+    "clearaichat"
   ],
   "description": {
-    "id": "Pilih router AI sesuai kebutuhan dan keunggulannya",
-    "en": "Select AI router based on capabilities and advantages"
+    "id": "Hapus riwayat obrolan AI fleksibel: per karakter, rewind N pesan terakhir, atau reset total semua karakter (otomatis mendeteksi sesi pribadi & grup)",
+    "en": "Flexible AI chat reset: per character, rewind last N messages, or full wipe across all characters (auto-detects private & group sessions)"
   },
-  "usage": "Router AI",
+  "usage": "ResetAI",
   "examples": [
-    "llm list",
-    "llm set nexus",
-    "llm set lite",
-    "llm set nebula"
+    "resetai",
+    "resetai all",
+    "resetai miku",
+    "resetai last 5",
+    "resetai memory"
   ],
   "minArgs": 0,
   "args": {},
@@ -59,7 +69,7 @@
   },
   "source": {
     "file": "internal/plugins/ai",
-    "line": 150
+    "line": 234
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

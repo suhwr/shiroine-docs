@@ -1,0 +1,85 @@
+{
+  "name": "ChSchedule",
+  "commands": [
+    "chschedule",
+    "schedulech",
+    "jadwalch",
+    "jadwalsaluran",
+    "chs"
+  ],
+  "aliases": [],
+  "display": [
+    "ChSchedule"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "chschedule",
+    "schedulech",
+    "jadwalch",
+    "jadwalsaluran",
+    "chs"
+  ],
+  "description": {
+    "id": "Jadwalkan posting otomatis ke saluran (channel) WhatsApp yang dikelola bot",
+    "en": "Schedule automatic posts to bot-managed WhatsApp channels"
+  },
+  "usage": "ChSchedule",
+  "examples": [
+    "chschedule add https://whatsapp.com/channel/0029VamMXWI47Xe4brJoiV0q 08:00 everyday halo semua!",
+    "chschedule add 0029VamMXWI47Xe4brJoiV0q 08:00 once 2026-11-10 --bot=62812xxxx",
+    "chschedule edit 1 09:00 everyday pesan baru",
+    "chschedule list",
+    "chschedule off 1",
+    "chschedule del 1",
+    "chschedule add https://whatsapp.com/channel/0029VamMXWI47Xe4brJoiV0q 08:00 everyday hello all!",
+    "chschedule edit 1 09:00 everyday new message"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group_community": true,
+    "private": true,
+    "group": true
+  },
+  "permissions": {
+    "hasbot": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 1149
+  },
+  "lastUpdated": "2026-11-09T05:53:26Z"
+}

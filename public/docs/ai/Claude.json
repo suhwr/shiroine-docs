@@ -22,8 +22,8 @@
     "claudeai"
   ],
   "description": {
-    "en": "Chat with Claude Sonnet (deep reasoning, creative writing & text analysis, Premium only)",
-    "id": "Chat dengan Claude Sonnet (penalaran mendalam, penulisan kreatif & analisis teks, khusus Premium)"
+    "id": "Chat dengan Claude Sonnet (penalaran mendalam, penulisan kreatif & analisis teks, khusus Premium)",
+    "en": "Chat with Claude Sonnet (deep reasoning, creative writing & text analysis, Premium only)"
   },
   "usage": "Claude",
   "examples": [
@@ -72,5 +72,5 @@
     "file": "internal/plugins/ai",
     "line": 105
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

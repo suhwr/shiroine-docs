@@ -1,15 +1,14 @@
 {
-  "name": "Voice Note & Audio Transcribe",
+  "name": "Transcribe",
   "commands": [
     "transcribe",
     "whisper",
     "stt",
-    "teks",
-    "voice note & audio transcribe"
+    "teks"
   ],
   "aliases": [],
   "display": [
-    "Voice Note & Audio Transcribe"
+    "Transcribe"
   ],
   "category": "tools",
   "categories": [
@@ -19,14 +18,13 @@
     "transcribe",
     "whisper",
     "stt",
-    "teks",
-    "voice note & audio transcribe"
+    "teks"
   ],
   "description": {
     "id": "Transkrip audio, lagu, atau voice note WhatsApp menjadi teks menggunakan OpenAI Whisper.",
     "en": "Transcribe audio, song, or WhatsApp voice notes into text using OpenAI Whisper."
   },
-  "usage": "Voice Note & Audio Transcribe",
+  "usage": "Transcribe",
   "examples": [
     "transcribe (reply VN / audio)",
     "transcribe --lrc (mode lirik LRC bertimestamp)",
@@ -74,5 +72,5 @@
     "file": "internal/plugins/tools",
     "line": 260
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

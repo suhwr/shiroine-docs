@@ -1,0 +1,69 @@
+{
+  "name": "Stickerly",
+  "commands": [
+    "stickerly",
+    "stickly",
+    "sly",
+    "stikerly"
+  ],
+  "aliases": [],
+  "display": [
+    "Stickerly"
+  ],
+  "category": "downloader",
+  "categories": [
+    "downloader"
+  ],
+  "tags": [
+    "stickerly",
+    "stickly",
+    "sly",
+    "stikerly"
+  ],
+  "description": {
+    "en": "Download sticker packs from Sticker.ly via link, pack code, or search keyword.",
+    "id": "Download stiker pack dari Sticker.ly menggunakan link, kode pack, atau cari berdasarkan kata kunci."
+  },
+  "usage": "Stickerly",
+  "examples": [
+    "stickerly https://sticker.ly/s/BNXSJG",
+    "stickerly BNXSJG",
+    "stickerly kucing",
+    "stickerly cat"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/downloader",
+    "line": 229
+  },
+  "lastUpdated": "2026-11-09T05:53:26Z"
+}

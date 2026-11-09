@@ -1,43 +1,29 @@
 {
-  "name": "Reset AI",
+  "name": "LLM",
   "commands": [
-    "resetai",
-    "reset ai"
+    "llm"
   ],
-  "aliases": [
-    "reset-ai",
-    "resetaigroup",
-    "resetaigrup",
-    "aireset",
-    "clearchat"
-  ],
+  "aliases": [],
   "display": [
-    "Reset AI"
+    "LLM"
   ],
   "category": "ai",
   "categories": [
     "ai"
   ],
   "tags": [
-    "resetai",
-    "reset ai",
-    "reset-ai",
-    "resetaigroup",
-    "resetaigrup",
-    "aireset",
-    "clearchat"
+    "llm"
   ],
   "description": {
-    "id": "Hapus riwayat obrolan AI fleksibel: per karakter, rewind N pesan terakhir, atau reset total semua karakter (otomatis mendeteksi sesi pribadi & grup)",
-    "en": "Flexible AI chat reset: per character, rewind last N messages, or full wipe across all characters (auto-detects private & group sessions)"
+    "id": "Pilih router AI sesuai kebutuhan dan keunggulannya",
+    "en": "Select AI router based on capabilities and advantages"
   },
-  "usage": "Reset AI",
+  "usage": "LLM",
   "examples": [
-    "resetai",
-    "resetai all",
-    "resetai miku",
-    "resetai last 5",
-    "resetai memory"
+    "llm list",
+    "llm set nexus",
+    "llm set lite",
+    "llm set nebula"
   ],
   "minArgs": 0,
   "args": {},
@@ -71,7 +57,7 @@
   },
   "source": {
     "file": "internal/plugins/ai",
-    "line": 234
+    "line": 150
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

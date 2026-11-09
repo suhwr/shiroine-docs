@@ -21,21 +21,32 @@
       ]
     },
     {
-      "name": "Batal Pembayaran",
-      "description": "Cancel active QRIS payment transaction and delete QR image",
+      "name": "Balance",
+      "description": "Check your balance and digital credit status",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
-        "batal",
-        "cancel",
-        "batalorder",
-        "cancelorder",
-        "batalbayar",
-        "batal pembayaran"
+        "saldo",
+        "balance",
+        "saldobilling"
       ]
     },
     {
-      "name": "Beli Premium Balance",
+      "name": "BalanceHistory",
+      "description": "View balance ledger mutation history",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "mutasi",
+        "mutasibalance",
+        "balancehistory",
+        "history",
+        "riwayat",
+        "historybalance"
+      ]
+    },
+    {
+      "name": "BuyPrem",
       "description": "Purchase premium subscription using balance with 5% discount",
       "permissions": {},
       "premiumOnly": "",
@@ -43,8 +54,21 @@
         "buyprem",
         "shopprem",
         "belipremium",
-        "shop",
-        "beli premium balance"
+        "shop"
+      ]
+    },
+    {
+      "name": "CancelPayment",
+      "description": "Cancel active QRIS payment transaction and delete QR image",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "batal",
+        "cancel",
+        "cancelpayment",
+        "batalorder",
+        "cancelorder",
+        "batalbayar"
       ]
     },
     {
@@ -113,21 +137,6 @@
       ]
     },
     {
-      "name": "Mutasi Balance",
-      "description": "View balance ledger mutation history",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "mutasi",
-        "mutasibalance",
-        "balancehistory",
-        "history",
-        "riwayat",
-        "historybalance",
-        "mutasi balance"
-      ]
-    },
-    {
       "name": "NSFW",
       "description": "Toggle NSFW mode (in group: admin only, in private: bot only)",
       "permissions": {},
@@ -162,7 +171,6 @@
       "premiumOnly": "",
       "tags": [
         "premium",
-        "buyprem",
         "buypremium"
       ]
     },
@@ -186,18 +194,6 @@
       ]
     },
     {
-      "name": "Saldo Balance",
-      "description": "Check your balance and digital credit status",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "saldo",
-        "balance",
-        "saldobilling",
-        "saldo balance"
-      ]
-    },
-    {
       "name": "Top",
       "description": "View bot leaderboard/top rank by level, chat, command, or AFK duration",
       "permissions": {},
@@ -207,15 +203,14 @@
       ]
     },
     {
-      "name": "Top Up Balance",
+      "name": "TopUp",
       "description": "Top up your balance using instant QRIS",
       "permissions": {},
       "premiumOnly": "",
       "tags": [
         "topup",
         "topupbalance",
-        "topupsaldo",
-        "top up balance"
+        "topupsaldo"
       ]
     }
   ]

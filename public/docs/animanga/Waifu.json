@@ -1,48 +1,42 @@
 {
-  "name": "UpSWGC",
+  "name": "Waifu",
   "commands": [
-    "upswgc",
-    "upstatusgrup"
+    "waifu",
+    "wf"
   ],
   "aliases": [],
   "display": [
-    "UpSWGC"
+    "Waifu"
   ],
-  "category": "group",
+  "category": "animanga",
   "categories": [
-    "group"
+    "animanga"
   ],
   "tags": [
-    "upswgc",
-    "upstatusgrup"
+    "waifu",
+    "wf"
   ],
   "description": {
-    "id": "Upload media ke status grup",
-    "en": "Upload media to group status"
+    "id": "Koleksi foto/art anime waifu acak atau sesuai nama karakter",
+    "en": "Random anime waifu photo/art or by character name"
   },
-  "usage": "UpSWGC",
+  "usage": "Waifu",
   "examples": [
-    "upswgc Halo grup!",
-    "upswgc Hello group!"
+    ".waifu",
+    ".waifu frieren",
+    ".waifu marin kitagawa",
+    ".waifu #3"
   ],
   "minArgs": 0,
   "args": {},
   "requireMedia": [],
-  "chatPermissions": [
-    "group",
-    "group_community"
-  ],
-  "chatTypes": {
-    "group": true,
-    "group_community": true
-  },
-  "permissions": {
-    "admin": true
-  },
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
   "premiumOnly": "",
   "nsfwOnly": false,
   "level": 0,
-  "limitCost": 0,
+  "limitCost": 1,
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
@@ -64,8 +58,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/group",
-    "line": 139
+    "file": "internal/plugins/anime",
+    "line": 230
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

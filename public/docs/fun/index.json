@@ -174,6 +174,16 @@
       ]
     },
     {
+      "name": "Debate",
+      "description": "Send a debate topic to discuss in group",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "debate",
+        "debat"
+      ]
+    },
+    {
       "name": "Drool",
       "description": "React with drool",
       "permissions": {},
@@ -335,6 +345,16 @@
       "premiumOnly": "",
       "tags": [
         "meme"
+      ]
+    },
+    {
+      "name": "MostLikely",
+      "description": "Who is most likely to do something unexpected",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "mostlikely",
+        "siapapaling"
       ]
     },
     {
@@ -699,6 +719,18 @@
       ]
     },
     {
+      "name": "TruthOrDare",
+      "description": "Play Truth or Dare with thousands of questions and dares",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "truthordare",
+        "tod",
+        "truth",
+        "dare"
+      ]
+    },
+    {
       "name": "Wave",
       "description": "React with wave",
       "permissions": {},
@@ -723,6 +755,16 @@
       "premiumOnly": "",
       "tags": [
         "woah"
+      ]
+    },
+    {
+      "name": "WouldYouRather",
+      "description": "Send Would You Rather prompt for discussion or polling",
+      "permissions": {},
+      "premiumOnly": "",
+      "tags": [
+        "wouldyourather",
+        "wyr"
       ]
     },
     {

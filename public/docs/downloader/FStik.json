@@ -1,29 +1,37 @@
 {
-  "name": "JadiAnimeV2",
+  "name": "FStik",
   "commands": [
-    "jadianimev2",
-    "toanimev2"
+    "fstik",
+    "fstick",
+    "fgstick",
+    "fstiker",
+    "fstikers"
   ],
   "aliases": [],
   "display": [
-    "JadiAnimeV2"
+    "FStik"
   ],
-  "category": "ai",
+  "category": "downloader",
   "categories": [
-    "ai"
+    "downloader"
   ],
   "tags": [
-    "jadianimev2",
-    "toanimev2"
+    "fstik",
+    "fstick",
+    "fgstick",
+    "fstiker",
+    "fstikers"
   ],
   "description": {
-    "id": "Ubah foto menjadi gaya anime v2 menggunakan AI",
-    "en": "Convert photo to anime v2 style using AI"
+    "en": "Download sticker packs from FStik catalog (fstik.app) via link or search keyword.",
+    "id": "Download stiker pack dari katalog FStik (fstik.app) menggunakan link atau kata kunci."
   },
-  "usage": "JadiAnimeV2",
+  "usage": "FStik",
   "examples": [
-    "jadianimev2",
-    "toanimev2"
+    "fstik https://fstik.app/stickerSet/Hakucing",
+    "fstik kucing",
+    "fstik anime",
+    "fstik cat"
   ],
   "minArgs": 0,
   "args": {},
@@ -56,8 +64,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/ai",
-    "line": 78
+    "file": "internal/plugins/downloader",
+    "line": 185
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

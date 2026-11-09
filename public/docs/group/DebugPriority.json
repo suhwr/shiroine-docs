@@ -21,8 +21,8 @@
     "cekprioritas"
   ],
   "description": {
-    "en": "Debug bot priority and cross-server routing status in group",
-    "id": "Debug status prioritas dan routing bot lintas server di grup"
+    "id": "Debug status prioritas dan routing bot lintas server di grup",
+    "en": "Debug bot priority and cross-server routing status in group"
   },
   "usage": "DebugPriority",
   "examples": [
@@ -73,5 +73,5 @@
     "file": "internal/plugins/group",
     "line": 23
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

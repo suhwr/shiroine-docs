@@ -1,16 +1,15 @@
 {
-  "name": "Music & Stem Separator",
+  "name": "Separate",
   "commands": [
     "separate",
     "vocal",
     "karaoke",
     "acapella",
-    "pisah",
-    "music & stem separator"
+    "pisah"
   ],
   "aliases": [],
   "display": [
-    "Music & Stem Separator"
+    "Separate"
   ],
   "category": "tools",
   "categories": [
@@ -21,14 +20,13 @@
     "vocal",
     "karaoke",
     "acapella",
-    "pisah",
-    "music & stem separator"
+    "pisah"
   ],
   "description": {
     "id": "Pisahkan vokal, instrumen, drum, atau bass dari lagu/audio (👑 Premium).",
     "en": "Separate vocals, instruments, drums, or bass from audio/song (👑 Premium)."
   },
-  "usage": "Music & Stem Separator",
+  "usage": "Separate",
   "examples": [
     "separate (vokal + musik)",
     "separate drum (hanya drum)",
@@ -77,5 +75,5 @@
     "file": "internal/plugins/tools",
     "line": 250
   },
-  "lastUpdated": "2026-11-02T15:39:10Z"
+  "lastUpdated": "2026-11-09T05:53:26Z"
 }

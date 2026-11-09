@@ -1,0 +1,66 @@
+{
+  "name": "LINE Sticker",
+  "commands": [
+    "linesticker",
+    "linestick",
+    "line"
+  ],
+  "aliases": [],
+  "display": [
+    "LINE Sticker"
+  ],
+  "category": "downloader",
+  "categories": [
+    "downloader"
+  ],
+  "tags": [
+    "linesticker",
+    "linestick",
+    "line",
+    "line sticker"
+  ],
+  "description": {
+    "id": "Download stiker pack dari LINE Store dan kirim sebagai stiker WhatsApp (stiker statis maupun animasi).",
+    "en": "Download sticker packs from LINE Store and send them as WhatsApp stickers (static and animated)."
+  },
+  "usage": "LINE Sticker",
+  "examples": [
+    "linesticker https://store.line.me/stickershop/product/1",
+    "linesticker 1"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/downloader",
+    "line": 121
+  },
+  "lastUpdated": "2026-11-09T05:53:26Z"
+}
