@@ -1,101 +1,109 @@
+import { Play, CheckCheck, FileText, Zap } from 'lucide-react';
 
-import { Play } from 'lucide-react';
+interface SimulatedChatProps {
+  cmdName: string;
+  details: {
+    description?: { en?: string; id?: string };
+    requireMedia?: string | string[];
+    category?: string;
+    limitCost?: number;
+    examples?: string[];
+    [key: string]: any;
+  };
+}
 
-export function SimulatedChat({ cmdName, details }: { cmdName: string; details: any }) {
-  // Try to find the best description
-  const desc = details.description?.en || details.description?.id || "Memproses perintah...";
+export function SimulatedChat({ cmdName, details }: SimulatedChatProps) {
+  const desc = details.description?.id || details.description?.en || 'Memproses perintah...';
 
-  const hasRequireMedia = details.requireMedia && (Array.isArray(details.requireMedia) ? details.requireMedia.length > 0 : !!details.requireMedia);
-  const requireMediaLabel = Array.isArray(details.requireMedia) ? details.requireMedia.join(" / ") : details.requireMedia;
-  const isDownloaderOrMedia = details.category === 'downloader' || 
-    details.category === 'youtube' || 
-    (Array.isArray(details.requireMedia) 
+  const hasRequireMedia =
+    details.requireMedia &&
+    (Array.isArray(details.requireMedia)
+      ? details.requireMedia.length > 0
+      : Boolean(details.requireMedia));
+  const requireMediaLabel = Array.isArray(details.requireMedia)
+    ? details.requireMedia.join(' / ')
+    : details.requireMedia;
+
+  const isDownloaderOrMedia =
+    details.category === 'downloader' ||
+    details.category === 'youtube' ||
+    (Array.isArray(details.requireMedia)
       ? details.requireMedia.includes('image') || details.requireMedia.includes('video')
-      : (details.requireMedia === 'image' || details.requireMedia === 'video'));
+      : details.requireMedia === 'image' || details.requireMedia === 'video');
+
+  const exampleArgs = details.examples?.[0]
+    ? details.examples[0].replace(new RegExp(`^\\.?${cmdName}\\s*`, 'i'), '').trim()
+    : '';
 
   return (
-    <div style={{
-      background: '#0B141A', // WhatsApp Dark Mode BG
-      backgroundImage: 'url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png")',
-      backgroundSize: 'contain',
-      borderRadius: '12px',
-      padding: '1.5rem 1rem',
-      border: '1px solid var(--border-color)',
-      fontFamily: 'Helvetica, Arial, sans-serif',
-      display: 'flex',
-      flexDirection: 'column',
-      gap: '1rem'
-    }}>
-      {/* Outgoing Message (User) */}
-      <div style={{
-        alignSelf: 'flex-end',
-        background: '#005C4B', // WhatsApp Dark Outgoing Bubble
-        color: '#E9EDEF',
-        borderRadius: '8px 0px 8px 8px',
-        padding: '0.5rem 0.75rem',
-        maxWidth: '85%',
-        fontSize: '0.9rem',
-        boxShadow: '0 1px 0.5px rgba(11,20,26,.13)',
-        position: 'relative'
-      }}>
-        {hasRequireMedia && (
-          <div style={{ background: '#111B21', borderRadius: '6px', overflow: 'hidden', marginBottom: '6px' }}>
-            <div style={{ background: '#2A3942', height: '100px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              <div style={{ fontSize: '0.75rem', color: '#8696A0' }}>[ Lampiran {requireMediaLabel} ]</div>
-            </div>
+    <div className="overflow-hidden rounded-2xl border border-border/80 bg-[#0B141A] shadow-layer-1 text-slate-100 font-sans">
+      {/* WhatsApp Simulated Header */}
+      <div className="flex items-center justify-between border-b border-white/10 bg-[#202C33] px-4 py-2.5">
+        <div className="flex items-center gap-2.5">
+          <div className="flex h-7 w-7 items-center justify-center rounded-full bg-primary/30 text-[11px] font-bold text-primary-foreground">
+            S
           </div>
-        )}
-        .{cmdName} {details.examples?.[0] ? details.examples[0].replace(cmdName, "").trim() : ""}
-        <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', gap: '4px', marginTop: '2px' }}>
-          <span style={{ fontSize: '0.65rem', color: 'rgba(255,255,255,0.6)' }}>11:30</span>
-          {/* Read ticks */}
-          <svg viewBox="0 0 16 15" width="16" height="15"><path fill="#53bdeb" d="m15.01 3.316-.478-.372a.365.365 0 0 0-.51.063L8.666 9.88a.32.32 0 0 1-.484.032l-.358-.325a.32.32 0 0 0-.484.032l-.378.48a.418.418 0 0 0 .036.54l1.32 1.267c.143.14.364.125.484-.033l6.272-8.048a.366.366 0 0 0-.064-.51zm-4.1 0-.478-.372a.365.365 0 0 0-.51.063L4.566 9.88a.32.32 0 0 1-.484.032L1.892 7.72a.366.366 0 0 0-.516.005l-.423.433a.364.364 0 0 0 .006.514l3.255 3.185c.143.14.364.125.484-.033l6.272-8.048a.365.365 0 0 0-.063-.51z"></path></svg>
+          <div>
+            <div className="text-xs font-semibold text-white leading-tight">Shiroine Bot</div>
+            <div className="text-[10px] text-emerald-400 leading-tight">online</div>
+          </div>
         </div>
+        <span className="rounded bg-white/10 px-2 py-0.5 text-[10px] font-mono text-white/70">
+          Simulasi Obrolan
+        </span>
       </div>
 
-      {/* Incoming Message (Bot) */}
-      <div style={{
-        alignSelf: 'flex-start',
-        background: '#202C33', // WhatsApp Dark Incoming Bubble
-        color: '#E9EDEF',
-        borderRadius: '0px 8px 8px 8px',
-        padding: '0.5rem 0.75rem',
-        maxWidth: '85%',
-        fontSize: '0.9rem',
-        boxShadow: '0 1px 0.5px rgba(11,20,26,.13)',
-        position: 'relative'
-      }}>
-        {/* Author Name */}
-        <div style={{ fontWeight: '600', color: '#A78BFA', fontSize: '0.8rem', marginBottom: '4px' }}>
-          Shiroine Bot
+      {/* Chat Messages Body */}
+      <div className="flex flex-col gap-3 p-4 sm:p-5 text-sm min-h-[200px] justify-center bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#111B21] to-[#0B141A]">
+        {/* Outgoing Message (User) */}
+        <div className="self-end max-w-[85%] sm:max-w-[75%] rounded-2xl rounded-tr-xs bg-[#005C4B] p-3 text-slate-100 shadow-sm space-y-1.5">
+          {hasRequireMedia && (
+            <div className="rounded-lg bg-[#111B21]/80 p-2 border border-white/10 text-xs flex items-center gap-2 text-white/80">
+              <FileText className="h-4 w-4 shrink-0 text-emerald-400" />
+              <span>[Lampiran Media: {requireMediaLabel}]</span>
+            </div>
+          )}
+          <div className="font-mono text-xs font-semibold">
+            .{cmdName} {exampleArgs}
+          </div>
+          <div className="flex items-center justify-end gap-1 text-[10px] text-white/60">
+            <span>12:00</span>
+            <CheckCheck className="h-3 w-3 text-[#53bdeb]" />
+          </div>
         </div>
 
-        {/* Dynamic content rendering based on tags/name */}
-        {isDownloaderOrMedia ? (
-          <div style={{ background: '#111B21', borderRadius: '6px', overflow: 'hidden', marginBottom: '6px' }}>
-            <div style={{ background: '#2A3942', height: '120px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              <div style={{ width: '40px', height: '40px', background: 'rgba(0,0,0,0.5)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <Play className="w-5 h-5 text-white fill-current" />
+        {/* Incoming Message (Bot) */}
+        <div className="self-start max-w-[88%] sm:max-w-[80%] rounded-2xl rounded-tl-xs bg-[#202C33] p-3.5 text-slate-100 shadow-sm space-y-2">
+          <div className="font-semibold text-xs text-[#818cf8]">Shiroine Bot</div>
+
+          {isDownloaderOrMedia && (
+            <div className="rounded-xl overflow-hidden bg-[#111B21] border border-white/10">
+              <div className="h-24 bg-white/5 flex items-center justify-center">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white">
+                  <Play className="h-5 w-5 fill-current ml-0.5" />
+                </div>
+              </div>
+              <div className="p-2.5 text-xs">
+                <div className="font-semibold text-white">Media Berhasil Diunduh</div>
+                <div className="text-[11px] text-white/60">media_shiroine.mp4 • 4.8 MB</div>
               </div>
             </div>
-            <div style={{ padding: '6px 8px', fontSize: '0.8rem' }}>
-              <span style={{ fontWeight: '600' }}>Media downloaded successfully</span>
-              <div style={{ fontSize: '0.75rem', color: '#8696A0' }}>video.mp4 • 4.2 MB</div>
+          )}
+
+          <div className="text-xs sm:text-sm leading-relaxed text-slate-200">
+            {desc}
+          </div>
+
+          {details.limitCost && details.limitCost > 0 ? (
+            <div className="pt-2 border-t border-white/10 flex items-center gap-1.5 text-[11px] text-white/70">
+              <Zap className="h-3 w-3 text-amber-400 shrink-0" />
+              <span>Limit terpakai: {details.limitCost} poin</span>
             </div>
+          ) : null}
+
+          <div className="flex justify-end text-[10px] text-white/50">
+            <span>12:00</span>
           </div>
-        ) : null}
-
-        <div style={{ lineHeight: '1.4' }}>{desc}</div>
-
-        {/* Footer (e.g. costs) */}
-        {details.limitCost > 0 && (
-          <div style={{ marginTop: '6px', fontSize: '0.75rem', color: '#8696A0', borderTop: '1px solid rgba(255,255,255,0.05)', paddingTop: '4px' }}>
-            💎 Digunakan: {details.limitCost} limit
-          </div>
-        )}
-
-        <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '2px' }}>
-          <span style={{ fontSize: '0.65rem', color: '#8696A0' }}>11:30</span>
         </div>
       </div>
     </div>
