@@ -15,8 +15,8 @@
     "groupmvp"
   ],
   "description": {
-    "id": "Lihat pemain terbaik (MVP) pada game di grup ini",
-    "en": "View top Most Valuable Player (MVP) of games in this group"
+    "en": "View top Most Valuable Player (MVP) of games in this group",
+    "id": "Lihat pemain terbaik (MVP) pada game di grup ini"
   },
   "usage": "GroupMVP",
   "examples": [
@@ -62,5 +62,5 @@
     "file": "internal/plugins/game",
     "line": 696
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

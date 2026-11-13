@@ -17,8 +17,8 @@
     "testimg"
   ],
   "description": {
-    "id": "Menampilkan gambar dengan FOA HTML",
-    "en": "Display an image using FOA HTML"
+    "en": "Display an image using FOA HTML",
+    "id": "Menampilkan gambar dengan FOA HTML"
   },
   "usage": "TestImage",
   "examples": [
@@ -58,5 +58,5 @@
     "file": "internal/plugins/tools",
     "line": 240
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

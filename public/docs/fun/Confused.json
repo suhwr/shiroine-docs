@@ -15,8 +15,8 @@
     "confused"
   ],
   "description": {
-    "en": "React with confused",
-    "id": "Reaksi confused"
+    "id": "Reaksi confused",
+    "en": "React with confused"
   },
   "usage": "Confused",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/fun",
     "line": 1
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

@@ -23,8 +23,8 @@
     "terimapesanan"
   ],
   "description": {
-    "id": "Selesaikan transaksi / Konfirmasi terima pesanan (Staff Toko / Pembeli)",
-    "en": "Complete transaction / Confirm order receipt (Store Staff / Buyer)"
+    "en": "Complete transaction / Confirm order receipt (Store Staff / Buyer)",
+    "id": "Selesaikan transaksi / Konfirmasi terima pesanan (Staff Toko / Pembeli)"
   },
   "usage": "DoneOrder",
   "examples": [
@@ -65,5 +65,5 @@
     "file": "internal/plugins/store",
     "line": 606
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

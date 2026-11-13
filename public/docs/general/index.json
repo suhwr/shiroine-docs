@@ -2,215 +2,449 @@
   "commands": [
     {
       "name": "About",
-      "description": "Information about the bot",
+      "description": "Informasi tentang bot",
+      "descriptionId": "Informasi tentang bot",
+      "descriptionEn": "Information about the bot",
+      "aliases": [],
+      "category": "general",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "about"
+        "about",
+        "general"
       ]
     },
     {
       "name": "Ask",
-      "description": "Find Shiroine features and command usage using natural language",
+      "description": "Cari fitur dan cara pakai command Shiroine menggunakan bahasa sehari-hari",
+      "descriptionId": "Cari fitur dan cara pakai command Shiroine menggunakan bahasa sehari-hari",
+      "descriptionEn": "Find Shiroine features and command usage using natural language",
+      "aliases": [],
+      "category": "general",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "ask",
         "askai",
-        "carifitur"
+        "carifitur",
+        "general"
       ]
     },
     {
       "name": "Balance",
-      "description": "Check your balance and digital credit status",
+      "description": "Cek saldo balance dan status kredit akun Anda",
+      "descriptionId": "Cek saldo balance dan status kredit akun Anda",
+      "descriptionEn": "Check your balance and digital credit status",
+      "aliases": [],
+      "category": "general",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "saldo",
         "balance",
-        "saldobilling"
+        "saldo",
+        "saldobilling",
+        "general"
       ]
     },
     {
       "name": "BalanceHistory",
-      "description": "View balance ledger mutation history",
+      "description": "Lihat riwayat mutasi dan transaksi saldo balance",
+      "descriptionId": "Lihat riwayat mutasi dan transaksi saldo balance",
+      "descriptionEn": "View balance ledger mutation history",
+      "aliases": [],
+      "category": "general",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
+        "balancehistory",
         "mutasi",
         "mutasibalance",
-        "balancehistory",
         "history",
         "riwayat",
-        "historybalance"
+        "historybalance",
+        "general"
       ]
     },
     {
       "name": "BuyPrem",
-      "description": "Purchase premium subscription using balance with 5% discount",
+      "description": "Beli paket premium langganan via saldo balance dengan diskon 5%",
+      "descriptionId": "Beli paket premium langganan via saldo balance dengan diskon 5%",
+      "descriptionEn": "Purchase premium subscription using balance with 5% discount",
+      "aliases": [],
+      "category": "general",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "buyprem",
         "shopprem",
         "belipremium",
-        "shop"
+        "shop",
+        "general"
       ]
     },
     {
       "name": "CancelPayment",
-      "description": "Cancel active QRIS payment transaction and delete QR image",
+      "description": "Batalkan transaksi pembayaran QRIS aktif dan hapus gambar QR",
+      "descriptionId": "Batalkan transaksi pembayaran QRIS aktif dan hapus gambar QR",
+      "descriptionEn": "Cancel active QRIS payment transaction and delete QR image",
+      "aliases": [],
+      "category": "general",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
+        "cancelpayment",
         "batal",
         "cancel",
-        "cancelpayment",
         "batalorder",
         "cancelorder",
-        "batalbayar"
+        "batalbayar",
+        "general"
       ]
     },
     {
       "name": "CekBenefit",
-      "description": "View all benefits of becoming premium",
+      "description": "Lihat semua benefit menjadi premium",
+      "descriptionId": "Lihat semua benefit menjadi premium",
+      "descriptionEn": "View all benefits of becoming premium",
+      "aliases": [],
+      "category": "general",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 2,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "cekbenefit"
+        "cekbenefit",
+        "general"
       ]
     },
     {
       "name": "Daily",
-      "description": "Claim daily rewards based on your level",
+      "description": "Claim reward harian berdasarkan level",
+      "descriptionId": "Claim reward harian berdasarkan level",
+      "descriptionEn": "Claim daily rewards based on your level",
+      "aliases": [],
+      "category": "general",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "daily"
+        "daily",
+        "general"
       ]
     },
     {
       "name": "Donatur",
-      "description": "View list of all donaturs & total donations",
+      "description": "Lihat daftar semua donatur & total donasi",
+      "descriptionId": "Lihat daftar semua donatur & total donasi",
+      "descriptionEn": "View list of all donaturs & total donations",
+      "aliases": [],
+      "category": "general",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "donatur",
         "listdonatur",
-        "donaturs"
+        "donaturs",
+        "general"
       ]
     },
     {
       "name": "Help",
-      "description": "Show help for a specific command",
+      "description": "Tampilkan bantuan untuk command tertentu",
+      "descriptionId": "Tampilkan bantuan untuk command tertentu",
+      "descriptionEn": "Show help for a specific command",
+      "aliases": [],
+      "category": "general",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "help"
+        "help",
+        "general"
       ]
     },
     {
       "name": "Join",
-      "description": "Join WhatsApp group via invite link",
+      "description": "Join ke grup WhatsApp via link invite",
+      "descriptionId": "Join ke grup WhatsApp via link invite",
+      "descriptionEn": "Join WhatsApp group via invite link",
+      "aliases": [],
+      "category": "general",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 1,
+      "requireMedia": [],
       "tags": [
-        "join"
+        "join",
+        "general"
       ]
     },
     {
       "name": "Limit",
-      "description": "View your daily limit information",
+      "description": "Lihat informasi limit harian kamu",
+      "descriptionId": "Lihat informasi limit harian kamu",
+      "descriptionEn": "View your daily limit information",
+      "aliases": [],
+      "category": "general",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "limit"
+        "limit",
+        "general"
       ]
     },
     {
       "name": "Menu",
-      "description": "Show command menu",
+      "description": "Tampilkan menu perintah",
+      "descriptionId": "Tampilkan menu perintah",
+      "descriptionEn": "Show command menu",
+      "aliases": [],
+      "category": "general",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "menu"
+        "menu",
+        "general"
       ]
     },
     {
       "name": "NSFW",
-      "description": "Toggle NSFW mode (in group: admin only, in private: bot only)",
-      "permissions": {},
+      "description": "Toggle mode NSFW (di grup: admin only, di private: bot only)",
+      "descriptionId": "Toggle mode NSFW (di grup: admin only, di private: bot only)",
+      "descriptionEn": "Toggle NSFW mode (in group: admin only, in private: bot only)",
+      "aliases": [],
+      "category": "general",
+      "permissions": {
+        "admin": true
+      },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "nsfw",
-        "nsfwmode"
+        "nsfwmode",
+        "general",
+        "admin"
       ]
     },
     {
       "name": "Owner",
-      "description": "Show bot number owner information",
+      "description": "Tampilkan informasi pemilik nomor bot",
+      "descriptionId": "Tampilkan informasi pemilik nomor bot",
+      "descriptionEn": "Show bot number owner information",
+      "aliases": [],
+      "category": "general",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "owner"
+        "owner",
+        "general"
       ]
     },
     {
       "name": "Ping",
-      "description": "Check bot latency and database status",
+      "description": "Cek latensi bot dan status database",
+      "descriptionId": "Cek latensi bot dan status database",
+      "descriptionEn": "Check bot latency and database status",
+      "aliases": [],
+      "category": "general",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "ping"
+        "ping",
+        "general"
       ]
     },
     {
       "name": "Premium",
-      "description": "Buy premium using payment gateway",
+      "description": "Beli premium menggunakan payment gateway",
+      "descriptionId": "Beli premium menggunakan payment gateway",
+      "descriptionEn": "Buy premium using payment gateway",
+      "aliases": [],
+      "category": "general",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "premium",
-        "buypremium"
+        "buypremium",
+        "general"
       ]
     },
     {
       "name": "Redeem",
-      "description": "Redeem a code to get rewards",
+      "description": "Tukarkan kode redeem untuk mendapatkan hadiah",
+      "descriptionId": "Tukarkan kode redeem untuk mendapatkan hadiah",
+      "descriptionEn": "Redeem a code to get rewards",
+      "aliases": [],
+      "category": "general",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 1,
+      "requireMedia": [],
       "tags": [
-        "redeem"
+        "redeem",
+        "general"
       ]
     },
     {
       "name": "SC",
-      "description": "Get the link to this bot's script",
+      "description": "Dapatkan link script bot ini",
+      "descriptionId": "Dapatkan link script bot ini",
+      "descriptionEn": "Get the link to this bot's script",
+      "aliases": [],
+      "category": "general",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "sc",
-        "script"
+        "script",
+        "general"
       ]
     },
     {
       "name": "Top",
-      "description": "View bot leaderboard/top rank by level, chat, command, or AFK duration",
+      "description": "Melihat leaderboard/top rank bot berdasarkan level, chat, command, atau durasi AFK",
+      "descriptionId": "Melihat leaderboard/top rank bot berdasarkan level, chat, command, atau durasi AFK",
+      "descriptionEn": "View bot leaderboard/top rank by level, chat, command, or AFK duration",
+      "aliases": [],
+      "category": "general",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "top"
+        "top",
+        "general"
       ]
     },
     {
       "name": "TopUp",
-      "description": "Top up your balance using instant QRIS",
+      "description": "Top up saldo balance menggunakan QRIS instan",
+      "descriptionId": "Top up saldo balance menggunakan QRIS instan",
+      "descriptionEn": "Top up your balance using instant QRIS",
+      "aliases": [],
+      "category": "general",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "topup",
         "topupbalance",
-        "topupsaldo"
+        "topupsaldo",
+        "general"
       ]
     }
   ]

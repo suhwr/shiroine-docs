@@ -15,8 +15,8 @@
     "barcode"
   ],
   "description": {
-    "en": "Generate Code 128 barcode from number/text or scan/decode barcode from replied image/sticker",
-    "id": "Membuat gambar barcode Code 128 dari angka/teks atau membaca/scan barcode dari gambar/stiker yang direply"
+    "id": "Membuat gambar barcode Code 128 dari angka/teks atau membaca/scan barcode dari gambar/stiker yang direply",
+    "en": "Generate Code 128 barcode from number/text or scan/decode barcode from replied image/sticker"
   },
   "usage": "Barcode",
   "examples": [
@@ -58,5 +58,5 @@
     "file": "internal/plugins/tools",
     "line": 116
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

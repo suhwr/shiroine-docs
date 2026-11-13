@@ -21,8 +21,8 @@
     "ptv"
   ],
   "description": {
-    "en": "Convert video into circular Video Note (PTV)",
-    "id": "Ubah video biasa menjadi Video Note bundar (PTV)"
+    "id": "Ubah video biasa menjadi Video Note bundar (PTV)",
+    "en": "Convert video into circular Video Note (PTV)"
   },
   "usage": "TopTV",
   "examples": [
@@ -62,5 +62,5 @@
     "file": "internal/plugins/media",
     "line": 14
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

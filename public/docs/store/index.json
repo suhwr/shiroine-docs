@@ -2,20 +2,41 @@
   "commands": [
     {
       "name": "Buy",
-      "description": "Order products from official store catalogue",
+      "description": "Pesan produk dari katalog toko resmi",
+      "descriptionId": "Pesan produk dari katalog toko resmi",
+      "descriptionEn": "Order products from official store catalogue",
+      "aliases": [],
+      "category": "store",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "buy",
         "order",
-        "beli"
+        "beli",
+        "store"
       ]
     },
     {
       "name": "Catalog",
-      "description": "View official store product catalogue",
+      "description": "Lihat katalog produk toko resmi",
+      "descriptionId": "Lihat katalog produk toko resmi",
+      "descriptionEn": "View official store product catalogue",
+      "aliases": [],
+      "category": "store",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "catalog",
         "katalog",
@@ -26,23 +47,45 @@
     },
     {
       "name": "Pay",
-      "description": "View store bank accounts and payment methods",
+      "description": "Lihat rekening dan metode pembayaran toko",
+      "descriptionId": "Lihat rekening dan metode pembayaran toko",
+      "descriptionEn": "View store bank accounts and payment methods",
+      "aliases": [],
+      "category": "store",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "pay",
         "payment",
-        "pembayaran"
+        "pembayaran",
+        "store"
       ]
     },
     {
       "name": "Stock",
-      "description": "Check product stock in store",
+      "description": "Cek stok produk di toko",
+      "descriptionId": "Cek stok produk di toko",
+      "descriptionEn": "Check product stock in store",
+      "aliases": [],
+      "category": "store",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "stock",
-        "stok"
+        "stok",
+        "store"
       ]
     }
   ]

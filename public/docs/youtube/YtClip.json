@@ -31,8 +31,8 @@
   "minArgs": 0,
   "args": {
     "url start duration/end [--audio]": {
-      "id": "Link video, waktu mulai, durasi/waktu selesai (maks 1 menit), dan opsi audio",
-      "en": "Video link, start time, duration/end time (max 1 minute), and audio option"
+      "en": "Video link, start time, duration/end time (max 1 minute), and audio option",
+      "id": "Link video, waktu mulai, durasi/waktu selesai (maks 1 menit), dan opsi audio"
     }
   },
   "requireMedia": [],
@@ -67,5 +67,5 @@
     "file": "internal/plugins/youtube",
     "line": 215
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

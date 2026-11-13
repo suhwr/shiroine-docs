@@ -19,8 +19,8 @@
     "carifitur"
   ],
   "description": {
-    "en": "Find Shiroine features and command usage using natural language",
-    "id": "Cari fitur dan cara pakai command Shiroine menggunakan bahasa sehari-hari"
+    "id": "Cari fitur dan cara pakai command Shiroine menggunakan bahasa sehari-hari",
+    "en": "Find Shiroine features and command usage using natural language"
   },
   "usage": "Ask",
   "examples": [
@@ -67,5 +67,5 @@
     "file": "internal/plugins/general",
     "line": 57
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

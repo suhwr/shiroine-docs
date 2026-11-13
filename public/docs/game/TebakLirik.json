@@ -15,8 +15,8 @@
     "tebaklirik"
   ],
   "description": {
-    "id": "Mulai game tebak lirik lagu",
-    "en": "Start song lyrics guessing game"
+    "en": "Start song lyrics guessing game",
+    "id": "Mulai game tebak lirik lagu"
   },
   "usage": "TebakLirik",
   "examples": [
@@ -62,5 +62,5 @@
     "file": "internal/plugins/game",
     "line": 196
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

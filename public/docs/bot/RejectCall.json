@@ -17,8 +17,8 @@
     "rc"
   ],
   "description": {
-    "id": "Aktifkan/nonaktifkan penolakan panggilan otomatis",
-    "en": "Enable/disable automatic call rejection"
+    "en": "Enable/disable automatic call rejection",
+    "id": "Aktifkan/nonaktifkan penolakan panggilan otomatis"
   },
   "usage": "RejectCall",
   "examples": [
@@ -58,5 +58,5 @@
     "file": "internal/plugins/bot",
     "line": 79
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

@@ -2,132 +2,286 @@
   "commands": [
     {
       "name": "Album",
-      "description": "Download album from YouTube Music",
+      "description": "Download album dari YouTube Music",
+      "descriptionId": "Download album dari YouTube Music",
+      "descriptionEn": "Download album from YouTube Music",
+      "aliases": [],
+      "category": "youtube",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "album"
-      ]
-    },
-    {
-      "name": "Play",
-      "description": "Search and play songs from YouTube Music",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "play"
-      ]
-    },
-    {
-      "name": "Play2",
-      "description": "Search and play videos from YouTube",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "play2"
-      ]
-    },
-    {
-      "name": "PlayDownloader",
-      "description": "Download song from YouTube URL",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "playdownloader",
-        "playdl",
-        "play-downloader"
-      ]
-    },
-    {
-      "name": "YouTube",
-      "description": "YouTube helper - choose to download audio, video, or album",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "yt",
+        "album",
         "youtube"
       ]
     },
     {
-      "name": "YtClip",
-      "description": "Trim/clip YouTube video or audio instantly without downloading the full video (max 1 minute), supports live stream clipping in H.264 (AVC High)",
+      "name": "Play",
+      "description": "Cari dan putar lagu dari YouTube Music",
+      "descriptionId": "Cari dan putar lagu dari YouTube Music",
+      "descriptionEn": "Search and play songs from YouTube Music",
+      "aliases": [],
+      "category": "youtube",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "play",
+        "youtube",
+        "limit",
+        "limit harian"
+      ]
+    },
+    {
+      "name": "Play2",
+      "description": "Cari dan putar video dari YouTube",
+      "descriptionId": "Cari dan putar video dari YouTube",
+      "descriptionEn": "Search and play videos from YouTube",
+      "aliases": [],
+      "category": "youtube",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "play2",
+        "youtube",
+        "limit",
+        "limit harian"
+      ]
+    },
+    {
+      "name": "PlayDownloader",
+      "description": "Unduh lagu dari URL YouTube",
+      "descriptionId": "Unduh lagu dari URL YouTube",
+      "descriptionEn": "Download song from YouTube URL",
+      "aliases": [],
+      "category": "youtube",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "playdownloader",
+        "playdl",
+        "play-downloader",
+        "youtube",
+        "limit",
+        "limit harian"
+      ]
+    },
+    {
+      "name": "YouTube",
+      "description": "Helper YouTube - pilih aksi download audio, video, atau album",
+      "descriptionId": "Helper YouTube - pilih aksi download audio, video, atau album",
+      "descriptionEn": "YouTube helper - choose to download audio, video, or album",
+      "aliases": [],
+      "category": "youtube",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "youtube",
+        "yt"
+      ]
+    },
+    {
+      "name": "YtClip",
+      "description": "Potong klip video atau audio YouTube secara instan tanpa download full video (maks 1 menit), mendukung klip live streaming dalam format H.264 (AVC High)",
+      "descriptionId": "Potong klip video atau audio YouTube secara instan tanpa download full video (maks 1 menit), mendukung klip live streaming dalam format H.264 (AVC High)",
+      "descriptionEn": "Trim/clip YouTube video or audio instantly without downloading the full video (max 1 minute), supports live stream clipping in H.264 (AVC High)",
+      "aliases": [],
+      "category": "youtube",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "ytclip",
-        "clip"
+        "clip",
+        "youtube"
       ]
     },
     {
       "name": "YtMp3",
-      "description": "Search and download songs from YouTube as MP3",
+      "description": "Cari dan unduh lagu dari YouTube sebagai MP3",
+      "descriptionId": "Cari dan unduh lagu dari YouTube sebagai MP3",
+      "descriptionEn": "Search and download songs from YouTube as MP3",
+      "aliases": [],
+      "category": "youtube",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "ytmp3"
+        "ytmp3",
+        "youtube",
+        "limit",
+        "limit harian"
       ]
     },
     {
       "name": "YtMp4",
-      "description": "Download video from YouTube",
+      "description": "Download video dari YouTube",
+      "descriptionId": "Download video dari YouTube",
+      "descriptionEn": "Download video from YouTube",
+      "aliases": [],
+      "category": "youtube",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "ytmp4",
-        "ytvideo"
+        "ytvideo",
+        "youtube"
       ]
     },
     {
       "name": "YtMusic",
-      "description": "Search or download tracks, albums, or playlists from YouTube Music",
+      "description": "Cari atau unduh lagu, album, atau playlist dari YouTube Music",
+      "descriptionId": "Cari atau unduh lagu, album, atau playlist dari YouTube Music",
+      "descriptionEn": "Search or download tracks, albums, or playlists from YouTube Music",
+      "aliases": [],
+      "category": "youtube",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "ytm",
         "ytmusic",
-        "youtube-music"
+        "ytm",
+        "youtube-music",
+        "youtube",
+        "limit",
+        "limit harian"
       ]
     },
     {
       "name": "YtMusicSearch",
-      "description": "Search track list on YouTube Music by title or artist",
+      "description": "Mencari daftar lagu/musik di YouTube Music berdasarkan judul atau artis",
+      "descriptionId": "Mencari daftar lagu/musik di YouTube Music berdasarkan judul atau artis",
+      "descriptionEn": "Search track list on YouTube Music by title or artist",
+      "aliases": [],
+      "category": "youtube",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
+        "ytmusicsearch",
         "ytms",
-        "ytmusicsearch"
+        "youtube",
+        "limit",
+        "limit harian"
       ]
     },
     {
       "name": "YtSearch",
-      "description": "Search video list on YouTube by title keyword",
+      "description": "Mencari daftar video di YouTube berdasarkan kata kunci judul",
+      "descriptionId": "Mencari daftar video di YouTube berdasarkan kata kunci judul",
+      "descriptionEn": "Search video list on YouTube by title keyword",
+      "aliases": [],
+      "category": "youtube",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
+        "ytsearch",
         "yts",
-        "ytsearch"
+        "youtube"
       ]
     },
     {
       "name": "YtSub",
-      "description": "Extract text transcript or download subtitle files (.srt / .vtt) from YouTube videos",
+      "description": "Ambil transkrip teks atau unduh file subtitle (.srt / .vtt) dari video YouTube",
+      "descriptionId": "Ambil transkrip teks atau unduh file subtitle (.srt / .vtt) dari video YouTube",
+      "descriptionEn": "Extract text transcript or download subtitle files (.srt / .vtt) from YouTube videos",
+      "aliases": [],
+      "category": "youtube",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "ytsub",
         "yttranscript",
-        "transcript"
+        "transcript",
+        "youtube"
       ]
     },
     {
       "name": "YtThumb",
-      "description": "Fetch highest quality thumbnail (1080p HD / 4K) or YouTube Music cover art",
+      "description": "Ambil thumbnail kualitas tertinggi (1080p HD / 4K) atau cover art YouTube Music",
+      "descriptionId": "Ambil thumbnail kualitas tertinggi (1080p HD / 4K) atau cover art YouTube Music",
+      "descriptionEn": "Fetch highest quality thumbnail (1080p HD / 4K) or YouTube Music cover art",
+      "aliases": [],
+      "category": "youtube",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "ytthumb",
         "ytcover",
-        "thumbnail"
+        "thumbnail",
+        "youtube"
       ]
     }
   ]

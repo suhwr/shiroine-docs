@@ -17,8 +17,8 @@
     "hbanlist"
   ],
   "description": {
-    "en": "Show global ban list",
-    "id": "Tampilkan daftar ban global"
+    "id": "Tampilkan daftar ban global",
+    "en": "Show global ban list"
   },
   "usage": "HardBanList",
   "examples": [
@@ -72,5 +72,5 @@
     "file": "internal/plugins/developer",
     "line": 208
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

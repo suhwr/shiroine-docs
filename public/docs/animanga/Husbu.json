@@ -1,26 +1,26 @@
 {
-  "name": "Husbando",
+  "name": "Husbu",
   "commands": [
-    "husbando",
+    "husbu",
     "ikemen"
   ],
   "aliases": [],
   "display": [
-    "Husbando"
+    "Husbu"
   ],
   "category": "animanga",
   "categories": [
     "animanga"
   ],
   "tags": [
-    "husbando",
+    "husbu",
     "ikemen"
   ],
   "description": {
     "en": "Random anime husbando / handsome male character art",
     "id": "Koleksi foto/art anime karakter pria tampan (ikemen)"
   },
-  "usage": "Husbando",
+  "usage": "Husbu",
   "examples": [
     ".husbando",
     ".husbando gojo satoru",
@@ -58,7 +58,7 @@
   },
   "source": {
     "file": "internal/plugins/anime",
-    "line": 314
+    "line": 310
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

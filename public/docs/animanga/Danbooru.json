@@ -1,0 +1,61 @@
+{
+  "name": "Danbooru",
+  "commands": [
+    "danbooru"
+  ],
+  "aliases": [],
+  "display": [
+    "Danbooru"
+  ],
+  "category": "animanga",
+  "categories": [
+    "animanga"
+  ],
+  "tags": [
+    "danbooru"
+  ],
+  "description": {
+    "id": "Cari anime art dan wallpaper langsung di Danbooru",
+    "en": "Search anime art and wallpaper directly from Danbooru"
+  },
+  "usage": "Danbooru",
+  "examples": [
+    ".danbooru frieren",
+    ".db hatsune miku #3"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/anime",
+    "line": 358
+  },
+  "lastUpdated": "2026-11-13T08:32:52Z"
+}

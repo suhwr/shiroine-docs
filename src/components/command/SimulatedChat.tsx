@@ -1,19 +1,25 @@
-import { Play, CheckCheck, FileText, Zap } from 'lucide-react';
+import { Play, CheckCheck, FileText, Zap, Sparkles } from 'lucide-react';
 
 interface SimulatedChatProps {
   cmdName: string;
   details: {
-    description?: { en?: string; id?: string };
+    description?: { en?: string; id?: string } | string;
     requireMedia?: string | string[];
     category?: string;
     limitCost?: number;
+    limitType?: string;
     examples?: string[];
     [key: string]: any;
   };
 }
 
 export function SimulatedChat({ cmdName, details }: SimulatedChatProps) {
-  const desc = details.description?.id || details.description?.en || 'Memproses perintah...';
+  let desc = 'Memproses perintah...';
+  if (typeof details.description === 'string') {
+    desc = details.description;
+  } else if (details.description && typeof details.description === 'object') {
+    desc = details.description.id || details.description.en || 'Memproses perintah...';
+  }
 
   const hasRequireMedia =
     details.requireMedia &&
@@ -34,6 +40,9 @@ export function SimulatedChat({ cmdName, details }: SimulatedChatProps) {
   const exampleArgs = details.examples?.[0]
     ? details.examples[0].replace(new RegExp(`^\\.?${cmdName}\\s*`, 'i'), '').trim()
     : '';
+
+  const isAi = details.category === 'ai' || details.limitType === 'ai';
+  const cost = details.limitCost || 0;
 
   return (
     <div className="overflow-hidden rounded-2xl border border-border/80 bg-[#0B141A] shadow-layer-1 text-slate-100 font-sans">
@@ -94,10 +103,16 @@ export function SimulatedChat({ cmdName, details }: SimulatedChatProps) {
             {desc}
           </div>
 
-          {details.limitCost && details.limitCost > 0 ? (
-            <div className="pt-2 border-t border-white/10 flex items-center gap-1.5 text-[11px] text-white/70">
+          {/* Quota / Limit Info */}
+          {isAi ? (
+            <div className="pt-2 border-t border-white/10 flex items-center gap-1.5 text-[11px] text-violet-300">
+              <Sparkles className="h-3 w-3 text-violet-400 shrink-0" />
+              <span>Limit AI terpakai: {cost > 0 ? cost : 1} limit</span>
+            </div>
+          ) : cost > 0 ? (
+            <div className="pt-2 border-t border-white/10 flex items-center gap-1.5 text-[11px] text-amber-300">
               <Zap className="h-3 w-3 text-amber-400 shrink-0" />
-              <span>Limit terpakai: {details.limitCost} poin</span>
+              <span>Limit harian terpakai: {cost} poin</span>
             </div>
           ) : null}
 

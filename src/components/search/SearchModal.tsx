@@ -1,6 +1,14 @@
 import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Search, X, CornerDownLeft, Sparkles } from 'lucide-react';
+import {
+  Search,
+  X,
+  CornerDownLeft,
+  Sparkles,
+  Shield,
+  Crown,
+  Zap,
+} from 'lucide-react';
 
 function useDebounce<T>(value: T, delay: number): T {
   const [debouncedValue, setDebouncedValue] = useState<T>(value);
@@ -19,7 +27,17 @@ interface CommandSearchItem {
   description?: string;
   aliases?: string[];
   tags?: string[];
-  premiumOnly?: boolean;
+  permissions?: {
+    owner?: boolean;
+    subowner?: boolean;
+    admin?: boolean;
+    bot?: boolean;
+    [key: string]: any;
+  };
+  premiumOnly?: string;
+  limitCost?: number;
+  limitType?: 'ai' | 'game' | 'daily' | 'none';
+  nsfwOnly?: boolean;
 }
 
 export function SearchModal({ onClose }: { onClose: () => void }) {
@@ -36,12 +54,12 @@ export function SearchModal({ onClose }: { onClose: () => void }) {
     inputRef.current?.focus();
     setLoading(true);
     fetch('./docs/search.json')
-      .then(res => res.json())
-      .then(data => {
+      .then((res) => res.json())
+      .then((data) => {
         setAllCommands(data.commands || []);
         setLoading(false);
       })
-      .catch(err => {
+      .catch((err) => {
         console.error('Gagal memuat data pencarian:', err);
         setLoading(false);
       });
@@ -103,7 +121,7 @@ export function SearchModal({ onClose }: { onClose: () => void }) {
           <input
             ref={inputRef}
             type="text"
-            placeholder="Cari perintah, alias, tag, atau kategori..."
+            placeholder="Cari perintah, alias, tag (owner, admin, limit, ai, premium)..."
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             onKeyDown={handleKeyDown}
@@ -133,12 +151,20 @@ export function SearchModal({ onClose }: { onClose: () => void }) {
           )}
 
           {!loading && query.trim() === '' && (
-            <div className="p-8 text-center">
-              <p className="text-sm font-medium text-muted-foreground">
-                Ketik nama perintah (contoh: <code className="font-mono text-primary">menu</code>, <code className="font-mono text-primary">ai</code>, <code className="font-mono text-primary">sticker</code>)
+            <div className="p-8 text-center space-y-2">
+              <p className="text-sm font-medium text-foreground">
+                Ketik nama perintah atau kata kunci filter
               </p>
-              <p className="mt-1 text-xs text-muted-foreground/80">
-                Total {allCommands.length} perintah tersedia dalam registry.
+              <p className="text-xs text-muted-foreground">
+                Coba cari:{' '}
+                <span className="font-mono text-primary">ai</span>,{' '}
+                <span className="font-mono text-primary">owner</span>,{' '}
+                <span className="font-mono text-primary">admin</span>,{' '}
+                <span className="font-mono text-primary">limit</span>,{' '}
+                <span className="font-mono text-primary">premium</span>
+              </p>
+              <p className="text-[11px] text-muted-foreground/80 pt-2">
+                Total {allCommands.length} perintah terindeks.
               </p>
             </div>
           )}
@@ -151,6 +177,16 @@ export function SearchModal({ onClose }: { onClose: () => void }) {
 
           {results.map((r, i) => {
             const isSelected = i === selectedIndex;
+            const isOwner = Boolean(
+              r.permissions?.owner || r.category === 'developer' || r.category === 'owner'
+            );
+            const isAdmin = Boolean(
+              r.permissions?.admin || r.category === 'store_admin' || r.category === 'admin'
+            );
+            const isPrem = Boolean(r.premiumOnly);
+            const isAi = r.limitType === 'ai' || r.category === 'ai';
+            const cost = r.limitCost || 0;
+
             return (
               <div
                 key={`${r.category}-${r.name}`}
@@ -176,19 +212,46 @@ export function SearchModal({ onClose }: { onClose: () => void }) {
                     .
                   </div>
                   <div className="min-w-0 flex-1">
-                    <div className="flex items-center gap-2">
-                      <span className="font-mono text-sm font-semibold truncate">
+                    <div className="flex flex-wrap items-center gap-1.5">
+                      <span className="font-mono text-sm font-semibold truncate text-foreground">
                         .{r.name}
                       </span>
-                      {r.premiumOnly && (
-                        <span className="inline-flex items-center gap-1 rounded px-1.5 py-0.5 text-[10px] font-bold uppercase bg-amber-500/10 text-amber-600 dark:text-amber-400 border border-amber-500/20">
-                          <Sparkles className="h-2.5 w-2.5" /> Premium
+
+                      {/* Badges in Search Modal */}
+                      {isPrem && (
+                        <span className="inline-flex items-center gap-0.5 rounded px-1.5 py-0.2 text-[9px] font-bold uppercase bg-amber-500/10 text-amber-600 dark:text-amber-400 border border-amber-500/20">
+                          <Sparkles className="h-2 w-2" /> Prem
+                        </span>
+                      )}
+
+                      {isOwner && (
+                        <span className="inline-flex items-center gap-0.5 rounded px-1.5 py-0.2 text-[9px] font-mono font-bold uppercase bg-rose-500/10 text-rose-600 dark:text-rose-400 border border-rose-500/20">
+                          <Crown className="h-2 w-2" /> Owner
+                        </span>
+                      )}
+
+                      {isAdmin && (
+                        <span className="inline-flex items-center gap-0.5 rounded px-1.5 py-0.2 text-[9px] font-mono font-bold uppercase bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20">
+                          <Shield className="h-2 w-2" /> Admin
+                        </span>
+                      )}
+
+                      {isAi && (
+                        <span className="inline-flex items-center gap-0.5 rounded px-1.5 py-0.2 text-[9px] font-mono font-bold uppercase bg-violet-500/10 text-violet-600 dark:text-violet-400 border border-violet-500/20">
+                          <Sparkles className="h-2 w-2" /> {cost > 0 ? `${cost} AI` : 'AI'}
+                        </span>
+                      )}
+
+                      {!isAi && cost > 0 && (
+                        <span className="inline-flex items-center gap-0.5 rounded px-1.5 py-0.2 text-[9px] font-mono font-bold uppercase bg-orange-500/10 text-orange-600 dark:text-orange-400 border border-orange-500/20">
+                          <Zap className="h-2 w-2" /> {cost} Limit
                         </span>
                       )}
                     </div>
-                    {r.aliases && r.aliases.length > 0 && (
-                      <p className="text-xs text-muted-foreground truncate">
-                        Alias: {r.aliases.join(', ')}
+
+                    {r.description && (
+                      <p className="text-xs text-muted-foreground truncate pt-0.5">
+                        {r.description}
                       </p>
                     )}
                   </div>

@@ -2,65 +2,141 @@
   "commands": [
     {
       "name": "AFK",
-      "description": "Set AFK status with reason",
+      "description": "Set status AFK dengan alasan",
+      "descriptionId": "Set status AFK dengan alasan",
+      "descriptionEn": "Set AFK status with reason",
+      "aliases": [],
+      "category": "profile",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "afk"
+        "afk",
+        "profile"
       ]
     },
     {
       "name": "CekPremium",
-      "description": "Check remaining premium duration",
+      "description": "Cek sisa durasi premium",
+      "descriptionId": "Cek sisa durasi premium",
+      "descriptionEn": "Check remaining premium duration",
+      "aliases": [],
+      "category": "profile",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "cekpremium"
+        "cekpremium",
+        "profile"
       ]
     },
     {
       "name": "ChangePassword",
-      "description": "Change password for website login",
+      "description": "Mengubah password untuk login website",
+      "descriptionId": "Mengubah password untuk login website",
+      "descriptionEn": "Change password for website login",
+      "aliases": [],
+      "category": "profile",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
+        "changepassword",
         "change-password",
-        "changepassword"
+        "profile"
       ]
     },
     {
       "name": "GetPP",
-      "description": "Download full resolution WhatsApp profile picture of a user or group",
+      "description": "Mengambil dan mengunduh foto profil pengguna WhatsApp atau foto profil grup dalam resolusi penuh",
+      "descriptionId": "Mengambil dan mengunduh foto profil pengguna WhatsApp atau foto profil grup dalam resolusi penuh",
+      "descriptionEn": "Download full resolution WhatsApp profile picture of a user or group",
+      "aliases": [],
+      "category": "profile",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "getpp",
-        "getpic"
+        "getpic",
+        "profile"
       ]
     },
     {
       "name": "Level",
-      "description": "View your or another user's level and XP",
+      "description": "Lihat level dan XP kamu atau user lain",
+      "descriptionId": "Lihat level dan XP kamu atau user lain",
+      "descriptionEn": "View your or another user's level and XP",
+      "aliases": [],
+      "category": "profile",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "level"
+        "level",
+        "profile"
       ]
     },
     {
       "name": "LinkAccount",
-      "description": "Link WhatsApp account to Shiroine website account",
+      "description": "Menghubungkan akun WhatsApp dengan akun website Shiroine",
+      "descriptionId": "Menghubungkan akun WhatsApp dengan akun website Shiroine",
+      "descriptionEn": "Link WhatsApp account to Shiroine website account",
+      "aliases": [],
+      "category": "profile",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "linkaccount"
+        "linkaccount",
+        "profile"
       ]
     },
     {
       "name": "Profile",
-      "description": "View user profile card, XP level, balance, premium status, and bot statistics",
+      "description": "Lihat kartu profil akun, level XP, saldo balance, status premium, dan statistik bot",
+      "descriptionId": "Lihat kartu profil akun, level XP, saldo balance, status premium, dan statistik bot",
+      "descriptionEn": "View user profile card, XP level, balance, premium status, and bot statistics",
+      "aliases": [],
+      "category": "profile",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "profile",
         "me"
@@ -68,61 +144,127 @@
     },
     {
       "name": "SetAge",
-      "description": "Set profile age",
+      "description": "Mengatur umur profil",
+      "descriptionId": "Mengatur umur profil",
+      "descriptionEn": "Set profile age",
+      "aliases": [],
+      "category": "profile",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "setage",
-        "set-age"
+        "set-age",
+        "profile"
       ]
     },
     {
       "name": "SetBio",
-      "description": "Set profile bio/about",
+      "description": "Mengatur bio/about profil",
+      "descriptionId": "Mengatur bio/about profil",
+      "descriptionEn": "Set profile bio/about",
+      "aliases": [],
+      "category": "profile",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
+        "setbio",
         "set-bio",
-        "setbio"
+        "profile"
       ]
     },
     {
       "name": "SetGender",
-      "description": "Set profile gender",
+      "description": "Mengatur gender profil",
+      "descriptionId": "Mengatur gender profil",
+      "descriptionEn": "Set profile gender",
+      "aliases": [],
+      "category": "profile",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "setgender",
-        "set-gender"
+        "set-gender",
+        "profile"
       ]
     },
     {
       "name": "SetName",
-      "description": "Set profile name",
+      "description": "Mengatur nama profil",
+      "descriptionId": "Mengatur nama profil",
+      "descriptionEn": "Set profile name",
+      "aliases": [],
+      "category": "profile",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
+        "setname",
         "set-name",
-        "setname"
+        "profile"
       ]
     },
     {
       "name": "SetPrefix",
-      "description": "Set personal prefix (private chat only)",
+      "description": "Mengatur prefix pribadi (hanya untuk chat private)",
+      "descriptionId": "Mengatur prefix pribadi (hanya untuk chat private)",
+      "descriptionEn": "Set personal prefix (private chat only)",
+      "aliases": [],
+      "category": "profile",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "setprefix",
-        "set-prefix"
+        "set-prefix",
+        "profile"
       ]
     },
     {
       "name": "WebLogin",
-      "description": "Generate a 6-digit code to log in to Shiroine and Prism dashboard.",
+      "description": "Membuat kode 6-digit untuk login ke website Shiroine dan dashboard Prism.",
+      "descriptionId": "Membuat kode 6-digit untuk login ke website Shiroine dan dashboard Prism.",
+      "descriptionEn": "Generate a 6-digit code to log in to Shiroine and Prism dashboard.",
+      "aliases": [],
+      "category": "profile",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "weblogin"
+        "weblogin",
+        "profile"
       ]
     }
   ]

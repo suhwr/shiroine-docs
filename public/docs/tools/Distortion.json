@@ -15,8 +15,8 @@
     "distortion"
   ],
   "description": {
-    "en": "Add distortion effect to audio",
-    "id": "Tambahkan efek distorsi ke audio"
+    "id": "Tambahkan efek distorsi ke audio",
+    "en": "Add distortion effect to audio"
   },
   "usage": "Distortion",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/tools",
     "line": 566
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

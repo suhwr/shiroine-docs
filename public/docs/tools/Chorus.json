@@ -15,8 +15,8 @@
     "chorus"
   ],
   "description": {
-    "id": "Tambahkan efek suara berlapis",
-    "en": "Add chorus effect to audio"
+    "en": "Add chorus effect to audio",
+    "id": "Tambahkan efek suara berlapis"
   },
   "usage": "Chorus",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/tools",
     "line": 538
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

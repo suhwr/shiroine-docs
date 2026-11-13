@@ -19,8 +19,8 @@
     "malmanga"
   ],
   "description": {
-    "id": "Cari informasi dan skor anime/manga di MyAnimeList",
-    "en": "Search anime/manga info and scores on MyAnimeList"
+    "en": "Search anime/manga info and scores on MyAnimeList",
+    "id": "Cari informasi dan skor anime/manga di MyAnimeList"
   },
   "usage": "MyAnimeList",
   "examples": [
@@ -62,5 +62,5 @@
     "file": "internal/plugins/anime",
     "line": 296
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

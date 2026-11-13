@@ -15,8 +15,8 @@
     "asahotak"
   ],
   "description": {
-    "en": "Start brain teaser / trivia game",
-    "id": "Mulai game asah otak / trivia"
+    "id": "Mulai game asah otak / trivia",
+    "en": "Start brain teaser / trivia game"
   },
   "usage": "AsahOtak",
   "examples": [
@@ -30,8 +30,8 @@
     "group_community"
   ],
   "chatTypes": {
-    "group_community": true,
-    "group": true
+    "group": true,
+    "group_community": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -62,5 +62,5 @@
     "file": "internal/plugins/game",
     "line": 191
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

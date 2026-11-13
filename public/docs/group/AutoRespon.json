@@ -17,8 +17,8 @@
     "autorespo"
   ],
   "description": {
-    "en": "Manage group auto-response system",
-    "id": "Kelola sistem autorespon pesan otomatis grup"
+    "id": "Kelola sistem autorespon pesan otomatis grup",
+    "en": "Manage group auto-response system"
   },
   "usage": "AutoRespon",
   "examples": [
@@ -41,8 +41,8 @@
     "group_community"
   ],
   "chatTypes": {
-    "group_community": true,
-    "group": true
+    "group": true,
+    "group_community": true
   },
   "permissions": {
     "admin": true,
@@ -76,5 +76,5 @@
     "file": "internal/plugins/group",
     "line": 437
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

@@ -19,8 +19,8 @@
     "transcript"
   ],
   "description": {
-    "id": "Ambil transkrip teks atau unduh file subtitle (.srt / .vtt) dari video YouTube",
-    "en": "Extract text transcript or download subtitle files (.srt / .vtt) from YouTube videos"
+    "en": "Extract text transcript or download subtitle files (.srt / .vtt) from YouTube videos",
+    "id": "Ambil transkrip teks atau unduh file subtitle (.srt / .vtt) dari video YouTube"
   },
   "usage": "YtSub",
   "examples": [
@@ -32,8 +32,8 @@
   "minArgs": 0,
   "args": {
     "url / query [--lang=xx] [--srt|--vtt]": {
-      "id": "Link video, opsi bahasa, dan format file subtitle",
-      "en": "Video link, language option, and subtitle format"
+      "en": "Video link, language option, and subtitle format",
+      "id": "Link video, opsi bahasa, dan format file subtitle"
     }
   },
   "requireMedia": [],
@@ -68,5 +68,5 @@
     "file": "internal/plugins/youtube",
     "line": 178
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

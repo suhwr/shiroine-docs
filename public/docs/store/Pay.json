@@ -19,8 +19,8 @@
     "pembayaran"
   ],
   "description": {
-    "id": "Lihat rekening dan metode pembayaran toko",
-    "en": "View store bank accounts and payment methods"
+    "en": "View store bank accounts and payment methods",
+    "id": "Lihat rekening dan metode pembayaran toko"
   },
   "usage": "Pay",
   "examples": [
@@ -61,5 +61,5 @@
     "file": "internal/plugins/store",
     "line": 80
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

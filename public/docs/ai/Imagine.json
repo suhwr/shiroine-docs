@@ -25,13 +25,17 @@
     "buatgambar"
   ],
   "description": {
-    "id": "Hasilkan gambar AI via Grok, GPT, Nano Banana (Khusus User Premium, Biaya: 3 Limit AI).",
-    "en": "Generate AI images via Grok, GPT, Nano Banana (Premium Users Only, Cost: 3 AI Limits)."
+    "id": "Hasilkan gambar AI via Flare 2.5, Grok, Nano Banana (Khusus User Premium, Biaya: 3-5 Limit AI).",
+    "en": "Generate AI images via Flare 2.5, Grok, Nano Banana (Premium Users Only, Cost: 3-5 AI Limits)."
   },
   "usage": "Imagine",
   "examples": [
     "imagine seekor kucing lucu",
-    "imagine a cute cat in space"
+    "imagine --grok mobil sport",
+    "imagine --banana pemandangan",
+    "imagine a cute cat in space",
+    "imagine --grok sports car",
+    "imagine --banana landscape"
   ],
   "minArgs": 0,
   "args": {},
@@ -65,7 +69,7 @@
   },
   "source": {
     "file": "internal/plugins/ai",
-    "line": 218
+    "line": 241
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

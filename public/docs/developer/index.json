@@ -2,449 +2,878 @@
   "commands": [
     {
       "name": "AddDonatur",
-      "description": "Add/update donatur to list (owner only)",
+      "description": "Tambah/update donatur ke daftar (owner only)",
+      "descriptionId": "Tambah/update donatur ke daftar (owner only)",
+      "descriptionEn": "Add/update donatur to list (owner only)",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "owner": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 2,
+      "requireMedia": [],
       "tags": [
         "adddonatur",
-        "tambahdonatur"
+        "tambahdonatur",
+        "developer",
+        "owner"
       ]
     },
     {
       "name": "AddPrem",
-      "description": "Add/update premium manually (owner only)",
+      "description": "Tambah/update premium manual (owner only)",
+      "descriptionId": "Tambah/update premium manual (owner only)",
+      "descriptionEn": "Add/update premium manually (owner only)",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "owner": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 2,
+      "requireMedia": [],
       "tags": [
         "addprem",
-        "addpremium"
+        "addpremium",
+        "developer",
+        "owner"
       ]
     },
     {
       "name": "AddSubOwner",
-      "description": "Add a new sub-owner",
+      "description": "Tambahkan sub-owner baru",
+      "descriptionId": "Tambahkan sub-owner baru",
+      "descriptionEn": "Add a new sub-owner",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "owner": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "addsubowner",
-        "addsub"
-      ]
-    },
-    {
-      "name": "BCGroup",
-      "description": "Broadcast message to Community/Group",
-      "permissions": {
-        "owner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "bcgroup",
-        "broadcastgroup"
+        "addsub",
+        "developer",
+        "owner"
       ]
     },
     {
       "name": "BanMedia",
-      "description": "Flag media as NSFW — instantly blocked in all groups",
+      "description": "Tandai media sebagai NSFW — langsung diblokir di semua grup",
+      "descriptionId": "Tandai media sebagai NSFW — langsung diblokir di semua grup",
+      "descriptionEn": "Flag media as NSFW — instantly blocked in all groups",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "owner": true,
         "subowner": true,
         "moderator": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "banmedia"
+        "banmedia",
+        "developer",
+        "owner",
+        "subowner"
       ]
     },
     {
       "name": "BanUser",
-      "description": "Ban a user from all bots you own",
+      "description": "Ban user dari semua bot yang kamu miliki",
+      "descriptionId": "Ban user dari semua bot yang kamu miliki",
+      "descriptionEn": "Ban a user from all bots you own",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "hasbot": true,
-        "moderator": true
+        "moderator": true,
+        "owner": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "ban-user",
         "banuser",
+        "ban-user",
         "ban",
-        "blacklist"
+        "blacklist",
+        "developer",
+        "owner"
+      ]
+    },
+    {
+      "name": "BCGroup",
+      "description": "Broadcast pesan ke Community/Group",
+      "descriptionId": "Broadcast pesan ke Community/Group",
+      "descriptionEn": "Broadcast message to Community/Group",
+      "aliases": [],
+      "category": "developer",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "bcgroup",
+        "broadcastgroup",
+        "developer",
+        "owner"
       ]
     },
     {
       "name": "Broadcast",
-      "description": "Broadcast message to Newsletter",
+      "description": "Broadcast pesan ke Newsletter",
+      "descriptionId": "Broadcast pesan ke Newsletter",
+      "descriptionEn": "Broadcast message to Newsletter",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "owner": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "broadcast",
-        "bc"
-      ]
-    },
-    {
-      "name": "CRedeem",
-      "description": "Create limit redeem code without quota (owner only)",
-      "permissions": {
-        "owner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "credeem"
+        "bc",
+        "developer",
+        "owner"
       ]
     },
     {
       "name": "CancelBroadcast",
-      "description": "Cancel active passive broadcast campaign",
+      "description": "Menghentikan kampanye passive broadcast yang sedang aktif",
+      "descriptionId": "Menghentikan kampanye passive broadcast yang sedang aktif",
+      "descriptionEn": "Cancel active passive broadcast campaign",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "owner": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "cancelbroadcast",
         "delbc",
         "stopbc",
         "deletebroadcast",
-        "delbroadcast"
+        "delbroadcast",
+        "developer",
+        "owner"
       ]
     },
     {
       "name": "ClearDB",
-      "description": "Clear data from specific database tables (message_daily_stats)",
+      "description": "Hapus data dari tabel database tertentu (message_daily_stats)",
+      "descriptionId": "Hapus data dari tabel database tertentu (message_daily_stats)",
+      "descriptionEn": "Clear data from specific database tables (message_daily_stats)",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "owner": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "cleardb"
+        "cleardb",
+        "developer",
+        "owner"
       ]
     },
     {
       "name": "CreateRedeem",
-      "description": "Create redeem code (owner only)",
+      "description": "Buat kode redeem (owner only)",
+      "descriptionId": "Buat kode redeem (owner only)",
+      "descriptionEn": "Create redeem code (owner only)",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "owner": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 3,
+      "requireMedia": [],
       "tags": [
+        "createredeem",
         "create-redeem",
-        "createredeem"
+        "developer",
+        "owner"
       ]
     },
     {
-      "name": "DelMod",
-      "description": "Remove moderator role from user",
+      "name": "CRedeem",
+      "description": "Buat kode redeem limit tanpa kuota (owner only)",
+      "descriptionId": "Buat kode redeem limit tanpa kuota (owner only)",
+      "descriptionEn": "Create limit redeem code without quota (owner only)",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "owner": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 1,
+      "requireMedia": [],
       "tags": [
-        "delmod",
-        "unmod",
-        "removerole"
+        "credeem",
+        "developer",
+        "owner"
       ]
     },
     {
       "name": "DeleteNameTable",
-      "description": "Permanently delete 'name' table (considered useless)",
+      "description": "Hapus tabel 'name' secara permanen (dianggap tidak berguna)",
+      "descriptionId": "Hapus tabel 'name' secara permanen (dianggap tidak berguna)",
+      "descriptionEn": "Permanently delete 'name' table (considered useless)",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "owner": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "deletenametable"
+        "deletenametable",
+        "developer",
+        "owner"
+      ]
+    },
+    {
+      "name": "DelMod",
+      "description": "Hapus role moderator dari user",
+      "descriptionId": "Hapus role moderator dari user",
+      "descriptionEn": "Remove moderator role from user",
+      "aliases": [],
+      "category": "developer",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "delmod",
+        "unmod",
+        "removerole",
+        "developer",
+        "owner"
       ]
     },
     {
       "name": "Errors",
-      "description": "View dependency error logs",
+      "description": "Melihat log error dependency",
+      "descriptionId": "Melihat log error dependency",
+      "descriptionEn": "View dependency error logs",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "owner": true,
         "subowner": true,
         "moderator": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "errors",
-        "errlog"
+        "errlog",
+        "developer",
+        "owner",
+        "subowner"
       ]
     },
     {
       "name": "ForwardChannel",
-      "description": "Forward WhatsApp channel post with channel origin metadata",
+      "description": "Meneruskan postingan channel WhatsApp beserta metadata asal channel",
+      "descriptionId": "Meneruskan postingan channel WhatsApp beserta metadata asal channel",
+      "descriptionEn": "Forward WhatsApp channel post with channel origin metadata",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "owner": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "forwardchannel",
         "fwdch",
-        "fwch"
-      ]
-    },
-    {
-      "name": "HTTPRequest",
-      "description": "Make HTTP requests with various methods (GET default, POST, PUT, DELETE, etc) with support for custom headers, form data, JSON, and file upload",
-      "permissions": {
-        "owner": true
-      },
-      "premiumOnly": "",
-      "tags": [
-        "httprequest",
-        "httpreq",
-        "fetch",
-        "request"
+        "fwch",
+        "developer",
+        "owner"
       ]
     },
     {
       "name": "HardBan",
-      "description": "Ban user globally (permanent)",
+      "description": "Ban user secara global (permanen)",
+      "descriptionId": "Ban user secara global (permanen)",
+      "descriptionEn": "Ban user globally (permanent)",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "moderator": true,
         "subowner": true,
         "owner": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "hardban",
-        "hban"
+        "hban",
+        "developer",
+        "owner",
+        "subowner"
       ]
     },
     {
       "name": "HardBanGC",
-      "description": "Ban group globally (all bots)",
+      "description": "Ban grup secara global (semua bot)",
+      "descriptionId": "Ban grup secara global (semua bot)",
+      "descriptionEn": "Ban group globally (all bots)",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "owner": true,
         "subowner": true,
         "moderator": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 1,
+      "requireMedia": [],
       "tags": [
         "hardbangc",
         "hbangc",
-        "hardbangrup"
+        "hardbangrup",
+        "developer",
+        "owner",
+        "subowner"
       ]
     },
     {
       "name": "HardBanList",
-      "description": "Show global ban list",
+      "description": "Tampilkan daftar ban global",
+      "descriptionId": "Tampilkan daftar ban global",
+      "descriptionEn": "Show global ban list",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "moderator": true,
         "subowner": true,
         "owner": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "hardbanlist",
-        "hbanlist"
+        "hbanlist",
+        "developer",
+        "owner",
+        "subowner"
       ]
     },
     {
       "name": "HardUnban",
-      "description": "Unban user from global ban list",
+      "description": "Unban user dari daftar ban global",
+      "descriptionId": "Unban user dari daftar ban global",
+      "descriptionEn": "Unban user from global ban list",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
-        "moderator": true,
         "subowner": true,
-        "owner": true
+        "owner": true,
+        "moderator": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "hardunban",
-        "hunban"
+        "hunban",
+        "developer",
+        "owner",
+        "subowner"
       ]
     },
     {
       "name": "HardUnbanGC",
-      "description": "Unban group from global ban list",
+      "description": "Unban grup dari daftar ban global",
+      "descriptionId": "Unban grup dari daftar ban global",
+      "descriptionEn": "Unban group from global ban list",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "owner": true,
         "subowner": true,
         "moderator": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 1,
+      "requireMedia": [],
       "tags": [
         "hardunbangc",
         "hunbangc",
-        "hardunbangrup"
+        "hardunbangrup",
+        "developer",
+        "owner",
+        "subowner"
+      ]
+    },
+    {
+      "name": "HTTPRequest",
+      "description": "Melakukan HTTP request dengan berbagai method (GET default, POST, PUT, DELETE, dll) dengan dukungan custom headers, form data, JSON, dan file upload",
+      "descriptionId": "Melakukan HTTP request dengan berbagai method (GET default, POST, PUT, DELETE, dll) dengan dukungan custom headers, form data, JSON, dan file upload",
+      "descriptionEn": "Make HTTP requests with various methods (GET default, POST, PUT, DELETE, etc) with support for custom headers, form data, JSON, and file upload",
+      "aliases": [],
+      "category": "developer",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "httprequest",
+        "httpreq",
+        "fetch",
+        "request",
+        "developer",
+        "owner"
       ]
     },
     {
       "name": "ListSubOwners",
-      "description": "Show sub-owners list",
+      "description": "Tampilkan daftar sub-owner",
+      "descriptionId": "Tampilkan daftar sub-owner",
+      "descriptionEn": "Show sub-owners list",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "owner": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "listsubowners",
         "listsub",
         "subowners",
-        "sublist"
+        "sublist",
+        "developer",
+        "owner"
       ]
     },
     {
       "name": "Logger",
-      "description": "Configure logger in realtime",
+      "description": "Mengatur logger secara realtime",
+      "descriptionId": "Mengatur logger secara realtime",
+      "descriptionEn": "Configure logger in realtime",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "owner": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "logger"
+        "logger",
+        "developer",
+        "owner"
       ]
     },
     {
       "name": "Param",
-      "description": "Inspect incoming WhatsApp message parameters as JSON",
+      "description": "Melihat parameter pesan WhatsApp yang diterima bot (JSON)",
+      "descriptionId": "Melihat parameter pesan WhatsApp yang diterima bot (JSON)",
+      "descriptionEn": "Inspect incoming WhatsApp message parameters as JSON",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "owner": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "param",
-        "params"
+        "params",
+        "developer",
+        "owner"
       ]
     },
     {
       "name": "RemoveSubOwner",
-      "description": "Remove sub-owner privileges from a user (owner/developer only)",
+      "description": "Hapus wewenang sub-owner dari user (khusus owner/developer)",
+      "descriptionId": "Hapus wewenang sub-owner dari user (khusus owner/developer)",
+      "descriptionEn": "Remove sub-owner privileges from a user (owner/developer only)",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "owner": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "removesubowner",
         "removesub",
         "delsub",
-        "delsubowner"
+        "delsubowner",
+        "developer",
+        "owner"
       ]
     },
     {
       "name": "Restart",
-      "description": "Restart application via PM2",
+      "description": "Restart aplikasi via PM2",
+      "descriptionId": "Restart aplikasi via PM2",
+      "descriptionEn": "Restart application via PM2",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "owner": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "restart"
+        "restart",
+        "developer",
+        "owner"
       ]
     },
     {
       "name": "SetBroadcast",
-      "description": "Set passive broadcast campaign from channel link with 3-day TTL",
+      "description": "Mengatur kampanye passive broadcast dari tautan channel dengan masa aktif 3 hari",
+      "descriptionId": "Mengatur kampanye passive broadcast dari tautan channel dengan masa aktif 3 hari",
+      "descriptionEn": "Set passive broadcast campaign from channel link with 3-day TTL",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "owner": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "setbroadcast",
-        "setbc"
+        "setbc",
+        "developer",
+        "owner"
       ]
     },
     {
       "name": "SetRole",
-      "description": "Set user role (moderator, admin, user)",
+      "description": "Atur role user (moderator, admin, user)",
+      "descriptionId": "Atur role user (moderator, admin, user)",
+      "descriptionEn": "Set user role (moderator, admin, user)",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "owner": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "setrole",
         "setmod",
-        "addmod"
+        "addmod",
+        "developer",
+        "owner"
       ]
     },
     {
       "name": "StatusBroadcast",
-      "description": "Check passive broadcast campaign statistics and status",
+      "description": "Melihat statistik dan status kampanye passive broadcast",
+      "descriptionId": "Melihat statistik dan status kampanye passive broadcast",
+      "descriptionEn": "Check passive broadcast campaign statistics and status",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "owner": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "statusbroadcast",
         "checkbc",
-        "statbc"
+        "statbc",
+        "developer",
+        "owner"
       ]
     },
     {
       "name": "Swap",
-      "description": "Swap number between two sessions",
+      "description": "Swap nomor antara dua sesi",
+      "descriptionId": "Swap nomor antara dua sesi",
+      "descriptionEn": "Swap number between two sessions",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "owner": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 2,
+      "requireMedia": [],
       "tags": [
-        "swap"
+        "swap",
+        "developer",
+        "owner"
       ]
     },
     {
       "name": "SyncPersona",
-      "description": "Sync persona database from GitHub and hot-reload without restart",
+      "description": "Sinkronisasi database persona dari GitHub dan hot-reload tanpa restart",
+      "descriptionId": "Sinkronisasi database persona dari GitHub dan hot-reload tanpa restart",
+      "descriptionEn": "Sync persona database from GitHub and hot-reload without restart",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "owner": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "syncpersona",
         "reloadpersona",
-        "personasupdate"
+        "personasupdate",
+        "developer",
+        "owner"
       ]
     },
     {
       "name": "Terminal",
-      "description": "Execute a command in the server terminal",
+      "description": "Menjalankan perintah di terminal server",
+      "descriptionId": "Menjalankan perintah di terminal server",
+      "descriptionEn": "Execute a command in the server terminal",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "owner": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 1,
+      "requireMedia": [],
       "tags": [
         "terminal",
-        "$"
+        "$",
+        "developer",
+        "owner"
       ]
     },
     {
       "name": "TestWG",
-      "description": "Test welcome or goodbye image generator directly (developer only)",
+      "description": "Uji coba langsung generator gambar welcome atau goodbye (khusus developer)",
+      "descriptionId": "Uji coba langsung generator gambar welcome atau goodbye (khusus developer)",
+      "descriptionEn": "Test welcome or goodbye image generator directly (developer only)",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "owner": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "testwg"
+        "testwg",
+        "developer",
+        "owner"
       ]
     },
     {
       "name": "UnbanUser",
-      "description": "Unban a user from all bots you own",
+      "description": "Unban user dari semua bot yang kamu miliki",
+      "descriptionId": "Unban user dari semua bot yang kamu miliki",
+      "descriptionEn": "Unban a user from all bots you own",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
+        "hasbot": true,
         "moderator": true,
-        "hasbot": true
+        "owner": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "unban-user",
         "unbanuser",
+        "unban-user",
         "unban",
-        "unblacklist"
+        "unblacklist",
+        "developer",
+        "owner"
       ]
     },
     {
       "name": "Update",
-      "description": "Update and restart application via PM2",
+      "description": "Update dan restart aplikasi via PM2",
+      "descriptionId": "Update dan restart aplikasi via PM2",
+      "descriptionEn": "Update and restart application via PM2",
+      "aliases": [],
+      "category": "developer",
       "permissions": {
         "owner": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "update"
+        "update",
+        "developer",
+        "owner"
       ]
     }
   ]

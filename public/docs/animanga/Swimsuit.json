@@ -17,8 +17,8 @@
     "bikini"
   ],
   "description": {
-    "en": "Random anime swimsuit and beach art",
-    "id": "Koleksi foto/art anime bertema baju renang / pantai"
+    "id": "Koleksi foto/art anime bertema baju renang / pantai",
+    "en": "Random anime swimsuit and beach art"
   },
   "usage": "Swimsuit",
   "examples": [
@@ -57,7 +57,7 @@
   },
   "source": {
     "file": "internal/plugins/anime",
-    "line": 290
+    "line": 286
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

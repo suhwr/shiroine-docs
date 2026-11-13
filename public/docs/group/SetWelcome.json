@@ -17,8 +17,8 @@
     "setwelcome"
   ],
   "description": {
-    "id": "Atur pesan atau cover welcome grup",
-    "en": "Set group welcome message or cover"
+    "en": "Set group welcome message or cover",
+    "id": "Atur pesan atau cover welcome grup"
   },
   "usage": "SetWelcome",
   "examples": [
@@ -39,8 +39,8 @@
     "group_community": true
   },
   "permissions": {
-    "subowner": true,
-    "admin": true
+    "admin": true,
+    "subowner": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -70,5 +70,5 @@
     "file": "internal/plugins/group",
     "line": 144
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }
