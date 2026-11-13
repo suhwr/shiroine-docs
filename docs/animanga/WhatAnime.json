@@ -19,8 +19,8 @@
     "trace"
   ],
   "description": {
-    "en": "Search anime title by image or video frame (send/reply image or video)",
-    "id": "Cari judul anime berdasarkan potongan gambar atau video (kirim/reply gambar atau video)"
+    "id": "Cari judul anime berdasarkan potongan gambar atau video (kirim/reply gambar atau video)",
+    "en": "Search anime title by image or video frame (send/reply image or video)"
   },
   "usage": "WhatAnime",
   "examples": [
@@ -36,10 +36,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "private": true,
     "group": true,
     "group_community": true,
-    "newsletter": true
+    "newsletter": true,
+    "private": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -70,5 +70,5 @@
     "file": "internal/plugins/search",
     "line": 145
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

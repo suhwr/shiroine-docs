@@ -2,144 +2,321 @@
   "commands": [
     {
       "name": "ASCII85",
-      "description": "Encode/decode text using ascii85",
+      "description": "Encode/decode teks menggunakan ascii85",
+      "descriptionId": "Encode/decode teks menggunakan ascii85",
+      "descriptionEn": "Encode/decode text using ascii85",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "ascii85"
+        "ascii85",
+        "tools"
       ]
     },
     {
       "name": "ATBASH",
-      "description": "Encode/decode text using atbash",
+      "description": "Encode/decode teks menggunakan atbash",
+      "descriptionId": "Encode/decode teks menggunakan atbash",
+      "descriptionEn": "Encode/decode text using atbash",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "atbash"
+        "atbash",
+        "tools"
       ]
     },
     {
       "name": "AudioEffect",
-      "description": "Show list of all available audio effects",
+      "description": "Tampilkan daftar semua audio effect yang tersedia",
+      "descriptionId": "Tampilkan daftar semua audio effect yang tersedia",
+      "descriptionEn": "Show list of all available audio effects",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "audioeffect"
+        "audioeffect",
+        "tools"
       ]
     },
     {
       "name": "B32",
-      "description": "Encode/decode text using b32",
+      "description": "Encode/decode teks menggunakan b32",
+      "descriptionId": "Encode/decode teks menggunakan b32",
+      "descriptionEn": "Encode/decode text using b32",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "b32"
+        "b32",
+        "tools"
       ]
     },
     {
       "name": "B64",
-      "description": "Encode/decode text using b64",
+      "description": "Encode/decode teks menggunakan b64",
+      "descriptionId": "Encode/decode teks menggunakan b64",
+      "descriptionEn": "Encode/decode text using b64",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "b64"
-      ]
-    },
-    {
-      "name": "BASE32",
-      "description": "Encode/decode text using base32",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "base32"
-      ]
-    },
-    {
-      "name": "BASE64",
-      "description": "Encode/decode text using base64",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "base64"
-      ]
-    },
-    {
-      "name": "BASE85",
-      "description": "Encode/decode text using base85",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "base85"
-      ]
-    },
-    {
-      "name": "BIN",
-      "description": "Encode/decode text using bin",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "bin"
-      ]
-    },
-    {
-      "name": "BINARY",
-      "description": "Encode/decode text using binary",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "binary"
+        "b64",
+        "tools"
       ]
     },
     {
       "name": "Barcode",
-      "description": "Generate Code 128 barcode from number/text or scan/decode barcode from replied image/sticker",
+      "description": "Membuat gambar barcode Code 128 dari angka/teks atau membaca/scan barcode dari gambar/stiker yang direply",
+      "descriptionId": "Membuat gambar barcode Code 128 dari angka/teks atau membaca/scan barcode dari gambar/stiker yang direply",
+      "descriptionEn": "Generate Code 128 barcode from number/text or scan/decode barcode from replied image/sticker",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "barcode"
+        "barcode",
+        "tools"
+      ]
+    },
+    {
+      "name": "BASE32",
+      "description": "Encode/decode teks menggunakan base32",
+      "descriptionId": "Encode/decode teks menggunakan base32",
+      "descriptionEn": "Encode/decode text using base32",
+      "aliases": [],
+      "category": "tools",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "base32",
+        "tools"
+      ]
+    },
+    {
+      "name": "BASE64",
+      "description": "Encode/decode teks menggunakan base64",
+      "descriptionId": "Encode/decode teks menggunakan base64",
+      "descriptionEn": "Encode/decode text using base64",
+      "aliases": [],
+      "category": "tools",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "base64",
+        "tools"
+      ]
+    },
+    {
+      "name": "BASE85",
+      "description": "Encode/decode teks menggunakan base85",
+      "descriptionId": "Encode/decode teks menggunakan base85",
+      "descriptionEn": "Encode/decode text using base85",
+      "aliases": [],
+      "category": "tools",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "base85",
+        "tools"
       ]
     },
     {
       "name": "Bass",
-      "description": "Add bass boost effect to audio/video (optional: bass level 1-100, default 20)",
+      "description": "Tambahkan efek bass boost ke audio/video (opsional: tingkat bass 1-100, default 20)",
+      "descriptionId": "Tambahkan efek bass boost ke audio/video (opsional: tingkat bass 1-100, default 20)",
+      "descriptionEn": "Add bass boost effect to audio/video (optional: bass level 1-100, default 20)",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "bass"
+        "bass",
+        "tools"
       ]
     },
     {
       "name": "BestFrame",
-      "description": "Extract the best frame from a video based on visual quality (sharpness, blur, etc.)",
+      "description": "Mengambil frame terbaik dari video berdasarkan kualitas visual (sharpness, blur, dll)",
+      "descriptionId": "Mengambil frame terbaik dari video berdasarkan kualitas visual (sharpness, blur, dll)",
+      "descriptionEn": "Extract the best frame from a video based on visual quality (sharpness, blur, etc.)",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "all",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "bestframe"
+        "bestframe",
+        "tools",
+        "premium",
+        "vip"
+      ]
+    },
+    {
+      "name": "BIN",
+      "description": "Encode/decode teks menggunakan bin",
+      "descriptionId": "Encode/decode teks menggunakan bin",
+      "descriptionEn": "Encode/decode text using bin",
+      "aliases": [],
+      "category": "tools",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "bin",
+        "tools"
+      ]
+    },
+    {
+      "name": "BINARY",
+      "description": "Encode/decode teks menggunakan binary",
+      "descriptionId": "Encode/decode teks menggunakan binary",
+      "descriptionEn": "Encode/decode text using binary",
+      "aliases": [],
+      "category": "tools",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "binary",
+        "tools"
       ]
     },
     {
       "name": "Blown",
-      "description": "Blown / overdrive effect on audio",
+      "description": "Efek pecah / overdrive kasar pada audio",
+      "descriptionId": "Efek pecah / overdrive kasar pada audio",
+      "descriptionEn": "Blown / overdrive effect on audio",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "blown"
+        "blown",
+        "tools"
       ]
     },
     {
       "name": "Blur",
-      "description": "Apply blur effect to an image (gaussian, box, motion, pixelate).",
+      "description": "Berikan efek blur pada gambar (gaussian, box, motion, pixelate).",
+      "descriptionId": "Berikan efek blur pada gambar (gaussian, box, motion, pixelate).",
+      "descriptionEn": "Apply blur effect to an image (gaussian, box, motion, pixelate).",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "blur"
+        "blur",
+        "tools"
       ]
     },
     {
       "name": "Brat",
-      "description": "Create BRAT style text stickers (green/black background, static or animated video)",
+      "description": "Buat stiker teks gaya BRAT (latar hijau/hitam, statis atau video animasi)",
+      "descriptionId": "Buat stiker teks gaya BRAT (latar hijau/hitam, statis atau video animasi)",
+      "descriptionEn": "Create BRAT style text stickers (green/black background, static or animated video)",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "brat",
         "bratvid",
@@ -161,837 +338,1805 @@
         "brat3video",
         "brat4",
         "brat4vid",
-        "brat4video"
+        "brat4video",
+        "tools"
       ]
     },
     {
       "name": "Calculator",
-      "description": "Complex calculator (supports math functions)",
+      "description": "Kalkulator kompleks (mendukung fungsi matematika)",
+      "descriptionId": "Kalkulator kompleks (mendukung fungsi matematika)",
+      "descriptionEn": "Complex calculator (supports math functions)",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "calculator",
         "calc",
-        "kalkulator"
+        "kalkulator",
+        "tools"
+      ]
+    },
+    {
+      "name": "Chorus",
+      "description": "Tambahkan efek suara berlapis",
+      "descriptionId": "Tambahkan efek suara berlapis",
+      "descriptionEn": "Add chorus effect to audio",
+      "aliases": [],
+      "category": "tools",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "chorus",
+        "tools"
       ]
     },
     {
       "name": "ChSchedule",
-      "description": "Schedule automatic posts to bot-managed WhatsApp channels",
+      "description": "Jadwalkan posting otomatis ke saluran (channel) WhatsApp yang dikelola bot",
+      "descriptionId": "Jadwalkan posting otomatis ke saluran (channel) WhatsApp yang dikelola bot",
+      "descriptionEn": "Schedule automatic posts to bot-managed WhatsApp channels",
+      "aliases": [],
+      "category": "tools",
       "permissions": {
         "hasbot": true
       },
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "chschedule",
         "schedulech",
         "jadwalch",
         "jadwalsaluran",
-        "chs"
-      ]
-    },
-    {
-      "name": "Chorus",
-      "description": "Add chorus effect to audio",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "chorus"
+        "chs",
+        "tools"
       ]
     },
     {
       "name": "CoAscii",
-      "description": "Convert an image to ASCII art text document (.txt).",
+      "description": "Konversi gambar menjadi dokumen teks ASCII art (.txt).",
+      "descriptionId": "Konversi gambar menjadi dokumen teks ASCII art (.txt).",
+      "descriptionEn": "Convert an image to ASCII art text document (.txt).",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "coascii",
         "ascii",
         "toascii",
-        "asciiart"
+        "asciiart",
+        "tools"
       ]
     },
     {
       "name": "Color",
-      "description": "Adjust image colors using flags or presets. Use 'color list' to see presets.",
+      "description": "Sesuaikan warna gambar dengan flag atau preset. Gunakan 'color list' untuk melihat preset.",
+      "descriptionId": "Sesuaikan warna gambar dengan flag atau preset. Gunakan 'color list' untuk melihat preset.",
+      "descriptionEn": "Adjust image colors using flags or presets. Use 'color list' to see presets.",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "color"
+        "color",
+        "tools"
       ]
     },
     {
       "name": "Compress",
-      "description": "Smart image compression with progressive scan, optimal quality & maximum size savings",
+      "description": "Kompresi gambar cerdas dengan kualitas optimal, progressive scan & hemat ukuran",
+      "descriptionId": "Kompresi gambar cerdas dengan kualitas optimal, progressive scan & hemat ukuran",
+      "descriptionEn": "Smart image compression with progressive scan, optimal quality & maximum size savings",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "compress"
+        "compress",
+        "tools"
       ]
     },
     {
       "name": "Crop",
-      "description": "Crop image: ratio (4:3), center, free, or x/y coordinates",
+      "description": "Crop gambar: rasio (4:3), center, free, atau koordinat x/y",
+      "descriptionId": "Crop gambar: rasio (4:3), center, free, atau koordinat x/y",
+      "descriptionEn": "Crop image: ratio (4:3), center, free, or x/y coordinates",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "crop"
+        "crop",
+        "tools"
       ]
     },
     {
       "name": "Cuaca",
-      "description": "Official weather forecast for Indonesian regions from BMKG based on city/regency name or ADM4 code",
+      "description": "Prakiraan cuaca resmi wilayah Indonesia dari BMKG berdasarkan nama kota/kabupaten atau kode ADM4",
+      "descriptionId": "Prakiraan cuaca resmi wilayah Indonesia dari BMKG berdasarkan nama kota/kabupaten atau kode ADM4",
+      "descriptionEn": "Official weather forecast for Indonesian regions from BMKG based on city/regency name or ADM4 code",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "cuaca",
-        "weather"
+        "weather",
+        "tools"
       ]
     },
     {
       "name": "Decode",
-      "description": "Decode text from various formats (base64, hex, morse, etc)",
+      "description": "Decode teks dari berbagai format (base64, hex, morse, dll)",
+      "descriptionId": "Decode teks dari berbagai format (base64, hex, morse, dll)",
+      "descriptionEn": "Decode text from various formats (base64, hex, morse, etc)",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "decode"
+        "decode",
+        "tools"
       ]
     },
     {
       "name": "Deep",
-      "description": "Make audio sound deeper",
+      "description": "Buat suara menjadi lebih dalam",
+      "descriptionId": "Buat suara menjadi lebih dalam",
+      "descriptionEn": "Make audio sound deeper",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "deep"
+        "deep",
+        "tools"
       ]
     },
     {
       "name": "Denoise",
-      "description": "Reduce noise in audio",
+      "description": "Kurangi noise pada audio",
+      "descriptionId": "Kurangi noise pada audio",
+      "descriptionEn": "Reduce noise in audio",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "denoise"
+        "denoise",
+        "tools"
       ]
     },
     {
       "name": "Distortion",
-      "description": "Add distortion effect to audio",
+      "description": "Tambahkan efek distorsi ke audio",
+      "descriptionId": "Tambahkan efek distorsi ke audio",
+      "descriptionEn": "Add distortion effect to audio",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "distortion"
+        "distortion",
+        "tools"
       ]
     },
     {
       "name": "EarRape",
-      "description": "Extreme volume boost effect (optional: volume level 1-50, default 12)",
+      "description": "Naikkan volume audio secara ekstrem (opsional: tingkat volume 1-50, default 12)",
+      "descriptionId": "Naikkan volume audio secara ekstrem (opsional: tingkat volume 1-50, default 12)",
+      "descriptionEn": "Extreme volume boost effect (optional: volume level 1-50, default 12)",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "earrape"
+        "earrape",
+        "tools"
       ]
     },
     {
       "name": "Emojimix",
-      "description": "Mix two emojis into one (Emoji Kitchen)",
+      "description": "Mencampur dua emoji menjadi satu (Emoji Kitchen)",
+      "descriptionId": "Mencampur dua emoji menjadi satu (Emoji Kitchen)",
+      "descriptionEn": "Mix two emojis into one (Emoji Kitchen)",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "emojimix",
-        "mixemoji"
+        "mixemoji",
+        "tools",
+        "limit",
+        "limit harian"
       ]
     },
     {
       "name": "Encode",
-      "description": "Encode text to various formats (base64, hex, morse, etc)",
+      "description": "Encode teks ke berbagai format (base64, hex, morse, dll)",
+      "descriptionId": "Encode teks ke berbagai format (base64, hex, morse, dll)",
+      "descriptionEn": "Encode text to various formats (base64, hex, morse, etc)",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "encode"
+        "encode",
+        "tools"
       ]
     },
     {
       "name": "Fast",
-      "description": "Speed up audio playback (optional: speed ratio 1.0-4.0, default 1.63)",
+      "description": "Percepat kecepatan audio (opsional: rasio kecepatan 1.0-4.0, default 1.63)",
+      "descriptionId": "Percepat kecepatan audio (opsional: rasio kecepatan 1.0-4.0, default 1.63)",
+      "descriptionEn": "Speed up audio playback (optional: speed ratio 1.0-4.0, default 1.63)",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "fast"
+        "fast",
+        "tools"
       ]
     },
     {
       "name": "Fat",
-      "description": "Fat / heavy audio effect",
+      "description": "Efek suara tebal / berat",
+      "descriptionId": "Efek suara tebal / berat",
+      "descriptionEn": "Fat / heavy audio effect",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "fat"
+        "fat",
+        "tools"
       ]
     },
     {
       "name": "Flanger",
-      "description": "Add flanger effect to audio",
+      "description": "Tambahkan efek flanger ke audio",
+      "descriptionId": "Tambahkan efek flanger ke audio",
+      "descriptionEn": "Add flanger effect to audio",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "flanger"
+        "flanger",
+        "tools"
       ]
     },
     {
       "name": "Flip",
-      "description": "Flip image/video horizontally (h) or vertically (v)",
+      "description": "Balik gambar/video secara horizontal (h) atau vertikal (v)",
+      "descriptionId": "Balik gambar/video secara horizontal (h) atau vertikal (v)",
+      "descriptionEn": "Flip image/video horizontally (h) or vertically (v)",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "flip"
+        "flip",
+        "tools"
       ]
     },
     {
       "name": "Gempa",
-      "description": "Official latest earthquake information from BMKG with shakemap image",
+      "description": "Informasi gempa bumi resmi terkini dari BMKG beserta peta guncangan (shakemap)",
+      "descriptionId": "Informasi gempa bumi resmi terkini dari BMKG beserta peta guncangan (shakemap)",
+      "descriptionEn": "Official latest earthquake information from BMKG with shakemap image",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "gempa",
-        "infogempa"
+        "infogempa",
+        "tools"
       ]
     },
     {
       "name": "GenerateLRC",
-      "description": "Automatically generate timestamped lyrics (.lrc) from audio or music video",
+      "description": "Membuat lirik lagu bertimestamp (.lrc) otomatis dari audio atau video musik",
+      "descriptionId": "Membuat lirik lagu bertimestamp (.lrc) otomatis dari audio atau video musik",
+      "descriptionEn": "Automatically generate timestamped lyrics (.lrc) from audio or music video",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "generatelrc",
         "lrc",
-        "makelrc"
+        "makelrc",
+        "tools",
+        "limit",
+        "limit harian"
       ]
     },
     {
       "name": "GetEXIF",
-      "description": "Get EXIF metadata from the quoted/replied sticker",
+      "description": "Ambil metadata EXIF dari stiker yang di-quote/reply",
+      "descriptionId": "Ambil metadata EXIF dari stiker yang di-quote/reply",
+      "descriptionEn": "Get EXIF metadata from the quoted/replied sticker",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "getexif"
+        "getexif",
+        "tools"
       ]
     },
     {
       "name": "GetIDCH",
-      "description": "Get Channel JID from WhatsApp Channel URL",
+      "description": "Dapatkan Channel JID dari URL WhatsApp Channel",
+      "descriptionId": "Dapatkan Channel JID dari URL WhatsApp Channel",
+      "descriptionEn": "Get Channel JID from WhatsApp Channel URL",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "getidch"
+        "getidch",
+        "tools"
       ]
     },
     {
       "name": "GetMedia",
-      "description": "Retrieve media from the quoted/replied message",
+      "description": "Ambil media dari pesan yang di-quote/reply",
+      "descriptionId": "Ambil media dari pesan yang di-quote/reply",
+      "descriptionEn": "Retrieve media from the quoted/replied message",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "getmedia"
+        "getmedia",
+        "tools"
       ]
     },
     {
       "name": "GetMsgID",
-      "description": "Get Message ID from the quoted/replied message",
+      "description": "Ambil Message ID dari pesan yang di-quote/reply",
+      "descriptionId": "Ambil Message ID dari pesan yang di-quote/reply",
+      "descriptionEn": "Get Message ID from the quoted/replied message",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "getmsgid"
+        "getmsgid",
+        "tools"
       ]
     },
     {
       "name": "HEX",
-      "description": "Encode/decode text using hex",
+      "description": "Encode/decode teks menggunakan hex",
+      "descriptionId": "Encode/decode teks menggunakan hex",
+      "descriptionEn": "Encode/decode text using hex",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "hex"
-      ]
-    },
-    {
-      "name": "HTML",
-      "description": "Encode/decode text using html",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "html"
+        "hex",
+        "tools"
       ]
     },
     {
       "name": "HighPass",
-      "description": "Cut low frequencies from audio (optional: frequency 100-10000Hz, default 500)",
+      "description": "Potong frekuensi rendah pada audio (opsional: frekuensi 100-10000Hz, default 500)",
+      "descriptionId": "Potong frekuensi rendah pada audio (opsional: frekuensi 100-10000Hz, default 500)",
+      "descriptionEn": "Cut low frequencies from audio (optional: frequency 100-10000Hz, default 500)",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "highpass"
+        "highpass",
+        "tools"
+      ]
+    },
+    {
+      "name": "HTML",
+      "description": "Encode/decode teks menggunakan html",
+      "descriptionId": "Encode/decode teks menggunakan html",
+      "descriptionEn": "Encode/decode text using html",
+      "aliases": [],
+      "category": "tools",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "html",
+        "tools"
       ]
     },
     {
       "name": "Humming",
-      "description": "Find song by humming (send or reply to your humming audio then type the command)",
+      "description": "Cari lagu dengan cara humming/bersenandung (kirim atau reply audio senandungmu lalu ketik perintah)",
+      "descriptionId": "Cari lagu dengan cara humming/bersenandung (kirim atau reply audio senandungmu lalu ketik perintah)",
+      "descriptionEn": "Find song by humming (send or reply to your humming audio then type the command)",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "humming"
+        "humming",
+        "tools",
+        "limit",
+        "limit harian"
       ]
     },
     {
       "name": "IQC",
-      "description": "Create iPhone WhatsApp Chat screenshot (self-hosted)\nOptional args: --time=HH:MM --battery=0-100 --carrier=NAME\nEmbed image: send/reply image + text",
+      "description": "Buat screenshot iPhone WhatsApp Chat (self-host)\nArgs opsional: --time=HH:MM --battery=0-100 --carrier=NAMA\nSupport embed gambar: kirim/reply gambar + teks",
+      "descriptionId": "Buat screenshot iPhone WhatsApp Chat (self-host)\nArgs opsional: --time=HH:MM --battery=0-100 --carrier=NAMA\nSupport embed gambar: kirim/reply gambar + teks",
+      "descriptionEn": "Create iPhone WhatsApp Chat screenshot (self-hosted)\nOptional args: --time=HH:MM --battery=0-100 --carrier=NAME\nEmbed image: send/reply image + text",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "iqc"
-      ]
-    },
-    {
-      "name": "JWT",
-      "description": "Decode JWT token locally",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "jwt"
+        "iqc",
+        "tools"
       ]
     },
     {
       "name": "JadiBurik",
-      "description": "Drastically lower the quality of media (image, audio, video).",
+      "description": "Turunkan kualitas media (image, audio, video) secara drastis.",
+      "descriptionId": "Turunkan kualitas media (image, audio, video) secara drastis.",
+      "descriptionEn": "Drastically lower the quality of media (image, audio, video).",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "jadiburik",
         "burik",
-        "lowquality"
+        "lowquality",
+        "tools"
+      ]
+    },
+    {
+      "name": "JWT",
+      "description": "Decode token JWT secara lokal",
+      "descriptionId": "Decode token JWT secara lokal",
+      "descriptionEn": "Decode JWT token locally",
+      "aliases": [],
+      "category": "tools",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "jwt",
+        "tools"
       ]
     },
     {
       "name": "Lang",
-      "description": "Show the list of languages supported by the translate plugin",
+      "description": "Tampilkan daftar bahasa yang didukung plugin translate",
+      "descriptionId": "Tampilkan daftar bahasa yang didukung plugin translate",
+      "descriptionEn": "Show the list of languages supported by the translate plugin",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "lang",
-        "languages"
+        "languages",
+        "tools"
       ]
     },
     {
       "name": "Lens",
-      "description": "Search image information using Google Lens (send or reply to an image then type the command)",
+      "description": "Cari informasi dari gambar menggunakan Google Lens (kirim atau reply gambar lalu ketik perintah)",
+      "descriptionId": "Cari informasi dari gambar menggunakan Google Lens (kirim atau reply gambar lalu ketik perintah)",
+      "descriptionEn": "Search image information using Google Lens (send or reply to an image then type the command)",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "all",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "lens",
-        "googlelens"
+        "googlelens",
+        "tools",
+        "premium",
+        "vip"
       ]
     },
     {
       "name": "Lorem",
-      "description": "Generate Lorem Ipsum text",
+      "description": "Generate teks Lorem Ipsum",
+      "descriptionId": "Generate teks Lorem Ipsum",
+      "descriptionEn": "Generate Lorem Ipsum text",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "lorem"
-      ]
-    },
-    {
-      "name": "LowPass",
-      "description": "Cut high frequencies from audio (optional: frequency 100-10000Hz, default 500)",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "lowpass"
+        "lorem",
+        "tools"
       ]
     },
     {
       "name": "Lower",
-      "description": "Convert text to lowercase",
+      "description": "Ubah teks menjadi huruf kecil",
+      "descriptionId": "Ubah teks menjadi huruf kecil",
+      "descriptionEn": "Convert text to lowercase",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "lower"
+        "lower",
+        "tools"
       ]
     },
     {
-      "name": "MORSE",
-      "description": "Encode/decode text using morse",
+      "name": "LowPass",
+      "description": "Potong frekuensi tinggi pada audio (opsional: frekuensi 100-10000Hz, default 500)",
+      "descriptionId": "Potong frekuensi tinggi pada audio (opsional: frekuensi 100-10000Hz, default 500)",
+      "descriptionEn": "Cut high frequencies from audio (optional: frequency 100-10000Hz, default 500)",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "morse"
+        "lowpass",
+        "tools"
       ]
     },
     {
       "name": "MediaQuality",
-      "description": "Analyze specifications and quality of an image, video, or audio",
+      "description": "Menganalisis spesifikasi dan kualitas dari gambar, video, atau audio",
+      "descriptionId": "Menganalisis spesifikasi dan kualitas dari gambar, video, atau audio",
+      "descriptionEn": "Analyze specifications and quality of an image, video, or audio",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "mediaquality",
-        "mq"
+        "mq",
+        "tools"
+      ]
+    },
+    {
+      "name": "MORSE",
+      "description": "Encode/decode teks menggunakan morse",
+      "descriptionId": "Encode/decode teks menggunakan morse",
+      "descriptionEn": "Encode/decode text using morse",
+      "aliases": [],
+      "category": "tools",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "morse",
+        "tools"
       ]
     },
     {
       "name": "Nightcore",
-      "description": "Convert audio to nightcore style",
+      "description": "Ubah audio menjadi gaya nightcore",
+      "descriptionId": "Ubah audio menjadi gaya nightcore",
+      "descriptionEn": "Convert audio to nightcore style",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "nightcore"
+        "nightcore",
+        "tools"
       ]
     },
     {
       "name": "OCR",
-      "description": "Extract text from photo/sticker using OCR (models: lens, ai, local)",
+      "description": "Ekstrak teks dari foto/stiker menggunakan OCR (model: lens, ai, local)",
+      "descriptionId": "Ekstrak teks dari foto/stiker menggunakan OCR (model: lens, ai, local)",
+      "descriptionEn": "Extract text from photo/sticker using OCR (models: lens, ai, local)",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "ocr"
+        "ocr",
+        "tools",
+        "limit",
+        "limit harian"
       ]
     },
     {
       "name": "OCT",
-      "description": "Encode/decode text using oct",
+      "description": "Encode/decode teks menggunakan oct",
+      "descriptionId": "Encode/decode teks menggunakan oct",
+      "descriptionEn": "Encode/decode text using oct",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "oct"
+        "oct",
+        "tools"
       ]
     },
     {
       "name": "OCTAL",
-      "description": "Encode/decode text using octal",
+      "description": "Encode/decode teks menggunakan octal",
+      "descriptionId": "Encode/decode teks menggunakan octal",
+      "descriptionEn": "Encode/decode text using octal",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "octal"
+        "octal",
+        "tools"
       ]
     },
     {
       "name": "Pesan",
-      "description": "Inspect incoming WhatsApp message parameters as JSON",
+      "description": "Melihat parameter pesan WhatsApp yang diterima bot (JSON)",
+      "descriptionId": "Melihat parameter pesan WhatsApp yang diterima bot (JSON)",
+      "descriptionEn": "Inspect incoming WhatsApp message parameters as JSON",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
+        "pesan",
         "msg",
-        "pesan"
+        "tools"
       ]
     },
     {
       "name": "Pitch",
-      "description": "Raise audio pitch (optional: pitch level 0.5-2.0, default 1.25)",
+      "description": "Naikkan pitch suara (opsional: tingkat pitch 0.5-2.0, default 1.25)",
+      "descriptionId": "Naikkan pitch suara (opsional: tingkat pitch 0.5-2.0, default 1.25)",
+      "descriptionEn": "Raise audio pitch (optional: pitch level 0.5-2.0, default 1.25)",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "pitch"
+        "pitch",
+        "tools"
       ]
     },
     {
       "name": "Pixelate",
-      "description": "Convert image to pixel art. Number represents pixel block size (2-100), larger means more blocky.",
+      "description": "Ubah gambar menjadi pixel art. Angka menunjukkan ukuran blok piksel (2-100), makin besar makin kotak-kotak.",
+      "descriptionId": "Ubah gambar menjadi pixel art. Angka menunjukkan ukuran blok piksel (2-100), makin besar makin kotak-kotak.",
+      "descriptionEn": "Convert image to pixel art. Number represents pixel block size (2-100), larger means more blocky.",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "pixelate",
-        "pixel"
+        "pixel",
+        "tools"
       ]
     },
     {
       "name": "QC",
-      "description": "Create chat quotes from text/images",
+      "description": "Buat quote chat dari teks/gambar",
+      "descriptionId": "Buat quote chat dari teks/gambar",
+      "descriptionEn": "Create chat quotes from text/images",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "qc",
         "sqc",
         "isqc",
         "jsqc",
-        "tsqc"
+        "tsqc",
+        "tools"
       ]
     },
     {
       "name": "QR",
-      "description": "Generate QR code from text/URL or scan/decode QR code from replied image/sticker",
+      "description": "Membuat gambar QR code dari teks/link atau membaca/scan isi QR code dari gambar/stiker yang direply",
+      "descriptionId": "Membuat gambar QR code dari teks/link atau membaca/scan isi QR code dari gambar/stiker yang direply",
+      "descriptionEn": "Generate QR code from text/URL or scan/decode QR code from replied image/sticker",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "qr"
-      ]
-    },
-    {
-      "name": "ROT13",
-      "description": "Encode/decode text using rot13",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "rot13"
+        "qr",
+        "tools"
       ]
     },
     {
       "name": "ReadMore",
-      "description": "Create a message with a 'Read more' button.",
+      "description": "Membuat pesan dengan tombol 'Baca selengkapnya' atau 'Read more'.",
+      "descriptionId": "Membuat pesan dengan tombol 'Baca selengkapnya' atau 'Read more'.",
+      "descriptionEn": "Create a message with a 'Read more' button.",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "readmore",
-        "spoiler"
+        "spoiler",
+        "tools"
       ]
     },
     {
       "name": "ReadQRIS",
-      "description": "Read and decode QRIS information from image or sticker",
+      "description": "Baca dan decode informasi QRIS dari gambar atau stiker",
+      "descriptionId": "Baca dan decode informasi QRIS dari gambar atau stiker",
+      "descriptionEn": "Read and decode QRIS information from image or sticker",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "readqris"
+        "readqris",
+        "tools"
       ]
     },
     {
       "name": "RemoveBG",
-      "description": "Remove photo/sticker background using AI (models: pixelcut, removebg, rembg, local)",
+      "description": "Hapus background foto/stiker menggunakan AI (model: pixelcut, removebg, rembg, local)",
+      "descriptionId": "Hapus background foto/stiker menggunakan AI (model: pixelcut, removebg, rembg, local)",
+      "descriptionEn": "Remove photo/sticker background using AI (models: pixelcut, removebg, rembg, local)",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "removebg",
         "rmbg",
-        "rbg"
+        "rbg",
+        "tools",
+        "limit",
+        "limit harian"
       ]
     },
     {
       "name": "Resize",
-      "description": "Resize image. Use absolute pixel value (e.g. 512 or 512x512) or percentage (e.g. 50%)",
+      "description": "Ubah ukuran gambar. Gunakan nilai pixel absolut (contoh: 512 atau 512x512) atau persentase (contoh: 50%)",
+      "descriptionId": "Ubah ukuran gambar. Gunakan nilai pixel absolut (contoh: 512 atau 512x512) atau persentase (contoh: 50%)",
+      "descriptionEn": "Resize image. Use absolute pixel value (e.g. 512 or 512x512) or percentage (e.g. 50%)",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "resize"
+        "resize",
+        "tools"
       ]
     },
     {
       "name": "Reverb",
-      "description": "Add reverb effect to audio",
+      "description": "Tambahkan efek gema ke audio",
+      "descriptionId": "Tambahkan efek gema ke audio",
+      "descriptionEn": "Add reverb effect to audio",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "reverb"
+        "reverb",
+        "tools"
       ]
     },
     {
       "name": "Reverse",
-      "description": "Reverse text, audio (max 10 min) or video (max 1 min, premium)",
+      "description": "Balik teks, audio (maks 10 menit) atau video (maks 1 menit, premium)",
+      "descriptionId": "Balik teks, audio (maks 10 menit) atau video (maks 1 menit, premium)",
+      "descriptionEn": "Reverse text, audio (max 10 min) or video (max 1 min, premium)",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "reverse"
+        "reverse",
+        "tools"
       ]
     },
     {
       "name": "Robot",
-      "description": "Apply robot voice effect",
+      "description": "Ubah suara menjadi efek robot",
+      "descriptionId": "Ubah suara menjadi efek robot",
+      "descriptionEn": "Apply robot voice effect",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "robot"
+        "robot",
+        "tools"
       ]
     },
     {
       "name": "Romanize",
-      "description": "Convert non-Latin text (Japanese, Korean, Arabic, etc.) to Latin characters",
+      "description": "Ubah teks non-Latin (Jepang, Korea, Arab, dll) ke huruf Latin",
+      "descriptionId": "Ubah teks non-Latin (Jepang, Korea, Arab, dll) ke huruf Latin",
+      "descriptionEn": "Convert non-Latin text (Japanese, Korean, Arabic, etc.) to Latin characters",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "romanize",
         "romaji",
-        "roman"
+        "roman",
+        "tools"
+      ]
+    },
+    {
+      "name": "ROT13",
+      "description": "Encode/decode teks menggunakan rot13",
+      "descriptionId": "Encode/decode teks menggunakan rot13",
+      "descriptionEn": "Encode/decode text using rot13",
+      "aliases": [],
+      "category": "tools",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "rot13",
+        "tools"
       ]
     },
     {
       "name": "Rotate",
-      "description": "Rotate image by a given angle (dynamic -360 to 360)",
+      "description": "Putar gambar atau video sebesar sudut tertentu (bebas, misal 45, -30, 270)",
+      "descriptionId": "Putar gambar atau video sebesar sudut tertentu (bebas, misal 45, -30, 270)",
+      "descriptionEn": "Rotate an image or video by any angle (e.g. 45, -30, 270)",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "rotate"
-      ]
-    },
-    {
-      "name": "SMeme",
-      "description": "Create meme sticker with top and bottom text from sent or replied image",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "smeme",
-        "ismeme",
-        "jsmeme",
-        "tsmeme"
-      ]
-    },
-    {
-      "name": "SSWeb",
-      "description": "Take a screenshot of a web page",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "ssweb",
-        "ss",
-        "screenshot"
+        "rotate",
+        "tools"
       ]
     },
     {
       "name": "Separate",
-      "description": "Separate vocals, instruments, drums, or bass from audio/song (👑 Premium).",
+      "description": "Pisahkan vokal, instrumen, drum, atau bass dari lagu/audio (👑 Premium).",
+      "descriptionId": "Pisahkan vokal, instrumen, drum, atau bass dari lagu/audio (👑 Premium).",
+      "descriptionEn": "Separate vocals, instruments, drums, or bass from audio/song (👑 Premium).",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "separate",
         "vocal",
         "karaoke",
         "acapella",
-        "pisah"
+        "pisah",
+        "tools",
+        "limit",
+        "limit harian"
       ]
     },
     {
       "name": "SetQRIS",
-      "description": "Generate new QRIS from a QRIS image, optionally set payment amount",
+      "description": "Generate QRIS baru dari gambar QRIS, opsional set nominal pembayaran",
+      "descriptionId": "Generate QRIS baru dari gambar QRIS, opsional set nominal pembayaran",
+      "descriptionEn": "Generate new QRIS from a QRIS image, optionally set payment amount",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "setqris"
+        "setqris",
+        "tools"
       ]
     },
     {
       "name": "Slow",
-      "description": "Slow down audio playback speed (optional: speed ratio 0.5-0.99, default 0.7)",
+      "description": "Perlambat kecepatan audio (opsional: rasio kecepatan 0.5-0.99, default 0.7)",
+      "descriptionId": "Perlambat kecepatan audio (opsional: rasio kecepatan 0.5-0.99, default 0.7)",
+      "descriptionEn": "Slow down audio playback speed (optional: speed ratio 0.5-0.99, default 0.7)",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "slow"
+        "slow",
+        "tools"
+      ]
+    },
+    {
+      "name": "SMeme",
+      "description": "Buat stiker meme dengan teks atas dan bawah dari gambar yang dikirim atau direply",
+      "descriptionId": "Buat stiker meme dengan teks atas dan bawah dari gambar yang dikirim atau direply",
+      "descriptionEn": "Create meme sticker with top and bottom text from sent or replied image",
+      "aliases": [],
+      "category": "tools",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "smeme",
+        "ismeme",
+        "jsmeme",
+        "tsmeme",
+        "tools"
       ]
     },
     {
       "name": "Smooth",
-      "description": "Smooth video with 120fps frame interpolation (Premium, max. 1:30 min)",
+      "description": "Haluskan video menggunakan interpolasi frame 120fps (Premium, maks. 1:30 menit)",
+      "descriptionId": "Haluskan video menggunakan interpolasi frame 120fps (Premium, maks. 1:30 menit)",
+      "descriptionEn": "Smooth video with 120fps frame interpolation (Premium, max. 1:30 min)",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "all",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "smooth"
+        "smooth",
+        "tools",
+        "premium",
+        "vip"
+      ]
+    },
+    {
+      "name": "SSWeb",
+      "description": "Ambil screenshot halaman web",
+      "descriptionId": "Ambil screenshot halaman web",
+      "descriptionEn": "Take a screenshot of a web page",
+      "aliases": [],
+      "category": "tools",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "ssweb",
+        "ss",
+        "screenshot",
+        "tools",
+        "limit",
+        "limit harian"
       ]
     },
     {
       "name": "Stabilize",
-      "description": "Stabilize shaky video (premium only, max 5 min)",
+      "description": "Menstabilkan video yang goyang (khusus premium, maks 5 menit)",
+      "descriptionId": "Menstabilkan video yang goyang (khusus premium, maks 5 menit)",
+      "descriptionEn": "Stabilize shaky video (premium only, max 5 min)",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "all",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "stabilize"
+        "stabilize",
+        "tools",
+        "premium",
+        "vip"
       ]
     },
     {
       "name": "Sticker",
-      "description": "Create a sticker from an image, video, sticker, or ZIP file sent or replied to. Supports shape modes (--circle, --round), crop modes (--crop, --full, --smart), framerate (-fps=1-60, -fps auto), direct 1:1 forced ratio (--direct), and custom metadata (--null, --avatar, --ai, --premium).",
+      "description": "Membuat sticker dari gambar, video, sticker, atau ZIP yang dikirim atau direply. Mendukung mode bentuk (--circle, --round), crop (--crop, --full, --smart), framerate (-fps=1-60, -fps auto), paksa rasio 1:1 langsung (--direct), dan metadata kustom (--null, --avatar, --ai, --premium).",
+      "descriptionId": "Membuat sticker dari gambar, video, sticker, atau ZIP yang dikirim atau direply. Mendukung mode bentuk (--circle, --round), crop (--crop, --full, --smart), framerate (-fps=1-60, -fps auto), paksa rasio 1:1 langsung (--direct), dan metadata kustom (--null, --avatar, --ai, --premium).",
+      "descriptionEn": "Create a sticker from an image, video, sticker, or ZIP file sent or replied to. Supports shape modes (--circle, --round), crop modes (--crop, --full, --smart), framerate (-fps=1-60, -fps auto), direct 1:1 forced ratio (--direct), and custom metadata (--null, --avatar, --ai, --premium).",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "sticker",
         "stiker",
         "swm",
-        "s"
-      ]
-    },
-    {
-      "name": "TTS",
-      "description": "Convert text to speech (Text-to-Speech)",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "tts",
-        "text2speech"
-      ]
-    },
-    {
-      "name": "TTSAI",
-      "description": "Convert text to natural AI voice (AI Text-to-Speech)",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "tts-ai",
-        "ai-tts",
-        "ttsai"
+        "s",
+        "tools"
       ]
     },
     {
       "name": "TestImage",
-      "description": "Display an image using FOA HTML",
+      "description": "Menampilkan gambar dengan FOA HTML",
+      "descriptionId": "Menampilkan gambar dengan FOA HTML",
+      "descriptionEn": "Display an image using FOA HTML",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "testimage",
-        "testimg"
+        "testimg",
+        "tools",
+        "limit",
+        "limit harian"
       ]
     },
     {
       "name": "ToDocMsg",
-      "description": "Convert media (image/video/audio) into a document message",
+      "description": "Ubah media (gambar/video/audio) menjadi pesan dokumen",
+      "descriptionId": "Ubah media (gambar/video/audio) menjadi pesan dokumen",
+      "descriptionEn": "Convert media (image/video/audio) into a document message",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "todocmsg",
-        "todoc"
+        "todoc",
+        "tools"
       ]
     },
     {
       "name": "ToGif",
-      "description": "Convert animated WhatsApp sticker into GIF (reply sticker)",
+      "description": "Konversi stiker WhatsApp bergerak (animasi) menjadi GIF (reply stiker)",
+      "descriptionId": "Konversi stiker WhatsApp bergerak (animasi) menjadi GIF (reply stiker)",
+      "descriptionEn": "Convert animated WhatsApp sticker into GIF (reply sticker)",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "togif"
+        "togif",
+        "tools"
       ]
     },
     {
       "name": "ToImage",
-      "description": "Convert WhatsApp sticker into regular image/photo (reply sticker)",
+      "description": "Konversi stiker WhatsApp menjadi gambar/foto biasa (reply stiker)",
+      "descriptionId": "Konversi stiker WhatsApp menjadi gambar/foto biasa (reply stiker)",
+      "descriptionEn": "Convert WhatsApp sticker into regular image/photo (reply sticker)",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "toimage",
-        "toimg"
+        "toimg",
+        "tools"
       ]
     },
     {
       "name": "ToMP3",
-      "description": "Convert video to mp3 or voice note.",
+      "description": "Convert video ke mp3 atau voice note.",
+      "descriptionId": "Convert video ke mp3 atau voice note.",
+      "descriptionEn": "Convert video to mp3 or voice note.",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "tomp3",
         "toaudio",
-        "tovn"
+        "tovn",
+        "tools"
       ]
     },
     {
       "name": "ToPDF",
-      "description": "Convert images, image ZIP archives, or image URLs into a PDF document",
+      "description": "Ubah gambar, file ZIP gambar, atau kumpulan URL gambar menjadi dokumen PDF",
+      "descriptionId": "Ubah gambar, file ZIP gambar, atau kumpulan URL gambar menjadi dokumen PDF",
+      "descriptionEn": "Convert images, image ZIP archives, or image URLs into a PDF document",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "topdf",
         "pdf",
-        "imgtopdf"
+        "imgtopdf",
+        "tools"
       ]
     },
     {
       "name": "ToVideo",
-      "description": "Convert animated WhatsApp sticker into MP4 video (reply sticker)",
+      "description": "Konversi stiker WhatsApp bergerak (animasi) menjadi video MP4 (reply stiker)",
+      "descriptionId": "Konversi stiker WhatsApp bergerak (animasi) menjadi video MP4 (reply stiker)",
+      "descriptionEn": "Convert animated WhatsApp sticker into MP4 video (reply sticker)",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "tovideo",
-        "tovid"
+        "tovid",
+        "tools"
       ]
     },
     {
       "name": "Transcribe",
-      "description": "Transcribe audio, song, or WhatsApp voice notes into text using OpenAI Whisper.",
+      "description": "Transkrip audio, lagu, atau voice note menggunakan OpenAI Whisper; mode timestamp juga memakai Whisper.",
+      "descriptionId": "Transkrip audio, lagu, atau voice note menggunakan OpenAI Whisper; mode timestamp juga memakai Whisper.",
+      "descriptionEn": "Transcribe audio, songs, or voice notes using OpenAI Whisper; timestamp modes also use Whisper.",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "transcribe",
         "whisper",
         "stt",
-        "teks"
+        "teks",
+        "tools",
+        "limit",
+        "limit harian"
       ]
     },
     {
       "name": "Translate",
-      "description": "Translate text to various languages",
+      "description": "Terjemahkan teks ke berbagai bahasa",
+      "descriptionId": "Terjemahkan teks ke berbagai bahasa",
+      "descriptionEn": "Translate text to various languages",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "translate",
         "tl",
-        "tr"
+        "tr",
+        "tools",
+        "limit",
+        "limit harian"
       ]
     },
     {
       "name": "Trim",
-      "description": "Trim video/audio by time range",
+      "description": "Potong video/audio berdasarkan waktu",
+      "descriptionId": "Potong video/audio berdasarkan waktu",
+      "descriptionEn": "Trim video/audio by time range",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "trim"
+        "trim",
+        "tools"
+      ]
+    },
+    {
+      "name": "TTS",
+      "description": "Konversi teks menjadi suara (Text-to-Speech)",
+      "descriptionId": "Konversi teks menjadi suara (Text-to-Speech)",
+      "descriptionEn": "Convert text to speech (Text-to-Speech)",
+      "aliases": [],
+      "category": "tools",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "tts",
+        "text2speech",
+        "tools"
+      ]
+    },
+    {
+      "name": "TTSAI",
+      "description": "Konversi teks ke suara AI yang lebih natural (Text-to-Speech AI)",
+      "descriptionId": "Konversi teks ke suara AI yang lebih natural (Text-to-Speech AI)",
+      "descriptionEn": "Convert text to natural AI voice (AI Text-to-Speech)",
+      "aliases": [],
+      "category": "tools",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "ttsai",
+        "tts-ai",
+        "ai-tts",
+        "tools",
+        "limit",
+        "limit harian"
       ]
     },
     {
       "name": "Tupai",
-      "description": "Chipmunk / squirrel voice effect",
+      "description": "Efek suara kecil seperti tupai",
+      "descriptionId": "Efek suara kecil seperti tupai",
+      "descriptionEn": "Chipmunk / squirrel voice effect",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "tupai"
-      ]
-    },
-    {
-      "name": "URL",
-      "description": "Encode/decode text using url",
-      "permissions": {},
-      "premiumOnly": "",
-      "tags": [
-        "url"
+        "tupai",
+        "tools"
       ]
     },
     {
       "name": "Underwater",
-      "description": "Underwater audio effect",
+      "description": "Efek suara seperti di dalam air",
+      "descriptionId": "Efek suara seperti di dalam air",
+      "descriptionEn": "Underwater audio effect",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "underwater"
+        "underwater",
+        "tools"
       ]
     },
     {
       "name": "Upload",
-      "description": "Upload file to server and get URL",
+      "description": "Upload file ke server dan dapatkan URL",
+      "descriptionId": "Upload file ke server dan dapatkan URL",
+      "descriptionEn": "Upload file to server and get URL",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "upload",
-        "tourl"
+        "tourl",
+        "tools"
       ]
     },
     {
       "name": "Upper",
-      "description": "Convert text to UPPERCASE",
+      "description": "Ubah teks menjadi HURUF BESAR",
+      "descriptionId": "Ubah teks menjadi HURUF BESAR",
+      "descriptionEn": "Convert text to UPPERCASE",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "upper"
+        "upper",
+        "tools"
       ]
     },
     {
       "name": "Upscaler",
-      "description": "Enhance image quality using AI",
+      "description": "Tingkatkan kualitas gambar menggunakan AI",
+      "descriptionId": "Tingkatkan kualitas gambar menggunakan AI",
+      "descriptionEn": "Enhance image quality using AI",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "upscaler",
         "upscale",
         "remini",
-        "hd"
+        "hd",
+        "tools",
+        "limit",
+        "limit harian"
+      ]
+    },
+    {
+      "name": "URL",
+      "description": "Encode/decode teks menggunakan url",
+      "descriptionId": "Encode/decode teks menggunakan url",
+      "descriptionEn": "Encode/decode text using url",
+      "aliases": [],
+      "category": "tools",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "url",
+        "tools"
       ]
     },
     {
       "name": "WhatMusic",
-      "description": "Find song from audio or video (send or reply to audio/video then type the command)",
+      "description": "Cari lagu berdasarkan audio atau video (kirim atau reply audio/video lalu ketik perintah)",
+      "descriptionId": "Cari lagu berdasarkan audio atau video (kirim atau reply audio/video lalu ketik perintah)",
+      "descriptionEn": "Find song from audio or video (send or reply to audio/video then type the command)",
+      "aliases": [],
+      "category": "tools",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "whatmusic",
-        "whatsong"
+        "whatsong",
+        "tools",
+        "limit",
+        "limit harian"
       ]
     }
   ]

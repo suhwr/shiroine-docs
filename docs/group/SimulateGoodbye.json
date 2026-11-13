@@ -17,8 +17,8 @@
     "previewgoodbye"
   ],
   "description": {
-    "id": "Simulasi pesan goodbye grup dengan data kamu sebagai contoh",
-    "en": "Simulate group goodbye message using your data as example"
+    "en": "Simulate group goodbye message using your data as example",
+    "id": "Simulasi pesan goodbye grup dengan data kamu sebagai contoh"
   },
   "usage": "SimulateGoodbye",
   "examples": [
@@ -68,5 +68,5 @@
     "file": "internal/plugins/group",
     "line": 180
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

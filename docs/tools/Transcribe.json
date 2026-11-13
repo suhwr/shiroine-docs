@@ -21,8 +21,8 @@
     "teks"
   ],
   "description": {
-    "id": "Transkrip audio, lagu, atau voice note WhatsApp menjadi teks menggunakan OpenAI Whisper.",
-    "en": "Transcribe audio, song, or WhatsApp voice notes into text using OpenAI Whisper."
+    "id": "Transkrip audio, lagu, atau voice note menggunakan OpenAI Whisper; mode timestamp juga memakai Whisper.",
+    "en": "Transcribe audio, songs, or voice notes using OpenAI Whisper; timestamp modes also use Whisper."
   },
   "usage": "Transcribe",
   "examples": [
@@ -70,7 +70,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 260
+    "line": 270
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

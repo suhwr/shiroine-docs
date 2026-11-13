@@ -2,805 +2,1777 @@
   "commands": [
     {
       "name": "AirKiss",
-      "description": "React with airkiss",
+      "description": "Reaksi airkiss",
+      "descriptionId": "Reaksi airkiss",
+      "descriptionEn": "React with airkiss",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "airkiss"
+        "airkiss",
+        "fun"
       ]
     },
     {
       "name": "Angry",
-      "description": "React with angry",
+      "description": "Reaksi angry",
+      "descriptionId": "Reaksi angry",
+      "descriptionEn": "React with angry",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "angry"
+        "angry",
+        "fun"
       ]
     },
     {
       "name": "AngryStare",
-      "description": "React with angrystare",
+      "description": "Reaksi angrystare",
+      "descriptionId": "Reaksi angrystare",
+      "descriptionEn": "React with angrystare",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "angrystare"
+        "angrystare",
+        "fun"
       ]
     },
     {
       "name": "Baka",
-      "description": "React with baka",
+      "description": "Reaksi baka",
+      "descriptionId": "Reaksi baka",
+      "descriptionEn": "React with baka",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "baka"
+        "baka",
+        "fun"
       ]
     },
     {
       "name": "Bite",
-      "description": "React with bite",
+      "description": "Reaksi bite",
+      "descriptionId": "Reaksi bite",
+      "descriptionEn": "React with bite",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "bite"
+        "bite",
+        "fun"
       ]
     },
     {
       "name": "Bleh",
-      "description": "React with bleh",
+      "description": "Reaksi bleh",
+      "descriptionId": "Reaksi bleh",
+      "descriptionEn": "React with bleh",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "bleh"
+        "bleh",
+        "fun"
       ]
     },
     {
       "name": "Blush",
-      "description": "React with blush",
+      "description": "Reaksi blush",
+      "descriptionId": "Reaksi blush",
+      "descriptionEn": "React with blush",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "blush"
+        "blush",
+        "fun"
       ]
     },
     {
       "name": "Bored",
-      "description": "React with bored",
+      "description": "Reaksi bored",
+      "descriptionId": "Reaksi bored",
+      "descriptionEn": "React with bored",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "bored"
+        "bored",
+        "fun"
       ]
     },
     {
       "name": "BroFist",
-      "description": "React with brofist",
+      "description": "Reaksi brofist",
+      "descriptionId": "Reaksi brofist",
+      "descriptionEn": "React with brofist",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "brofist"
+        "brofist",
+        "fun"
       ]
     },
     {
       "name": "Cek",
-      "description": "Check a certain category percentage on someone",
+      "description": "Cek persentase kategori tertentu pada seseorang",
+      "descriptionId": "Cek persentase kategori tertentu pada seseorang",
+      "descriptionEn": "Check a certain category percentage on someone",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 2,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "cek",
-        "check"
+        "check",
+        "fun"
       ]
     },
     {
       "name": "Celebrate",
-      "description": "React with celebrate",
+      "description": "Reaksi celebrate",
+      "descriptionId": "Reaksi celebrate",
+      "descriptionEn": "React with celebrate",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "celebrate"
+        "celebrate",
+        "fun"
       ]
     },
     {
       "name": "Cheers",
-      "description": "React with cheers",
+      "description": "Reaksi cheers",
+      "descriptionId": "Reaksi cheers",
+      "descriptionEn": "React with cheers",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "cheers"
+        "cheers",
+        "fun"
       ]
     },
     {
       "name": "Clap",
-      "description": "React with clap",
+      "description": "Reaksi clap",
+      "descriptionId": "Reaksi clap",
+      "descriptionEn": "React with clap",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "clap"
+        "clap",
+        "fun"
       ]
     },
     {
       "name": "Confused",
-      "description": "React with confused",
+      "description": "Reaksi confused",
+      "descriptionId": "Reaksi confused",
+      "descriptionEn": "React with confused",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "confused"
+        "confused",
+        "fun"
       ]
     },
     {
       "name": "Cool",
-      "description": "React with cool",
+      "description": "Reaksi cool",
+      "descriptionId": "Reaksi cool",
+      "descriptionEn": "React with cool",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "cool"
+        "cool",
+        "fun"
       ]
     },
     {
       "name": "Cry",
-      "description": "React with cry",
+      "description": "Reaksi cry",
+      "descriptionId": "Reaksi cry",
+      "descriptionEn": "React with cry",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "cry"
+        "cry",
+        "fun"
       ]
     },
     {
       "name": "Cuddle",
-      "description": "React with cuddle",
+      "description": "Reaksi cuddle",
+      "descriptionId": "Reaksi cuddle",
+      "descriptionEn": "React with cuddle",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "cuddle"
+        "cuddle",
+        "fun"
       ]
     },
     {
       "name": "Dadu",
-      "description": "Roll a random dice 1–6, optionally guess the number",
+      "description": "Lempar dadu random 1–6, opsional tebak angkanya",
+      "descriptionId": "Lempar dadu random 1–6, opsional tebak angkanya",
+      "descriptionEn": "Roll a random dice 1–6, optionally guess the number",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 2,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "dadu",
-        "dice"
+        "dice",
+        "fun"
       ]
     },
     {
       "name": "Dance",
-      "description": "React with dance",
+      "description": "Reaksi dance",
+      "descriptionId": "Reaksi dance",
+      "descriptionEn": "React with dance",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "dance"
+        "dance",
+        "fun"
       ]
     },
     {
       "name": "Debate",
-      "description": "Send a debate topic to discuss in group",
+      "description": "Kirim topik debat seru untuk dibahas bersama di grup",
+      "descriptionId": "Kirim topik debat seru untuk dibahas bersama di grup",
+      "descriptionEn": "Send a debate topic to discuss in group",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 2,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "debate",
-        "debat"
+        "debat",
+        "fun"
       ]
     },
     {
       "name": "Drool",
-      "description": "React with drool",
+      "description": "Reaksi drool",
+      "descriptionId": "Reaksi drool",
+      "descriptionEn": "React with drool",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "drool"
+        "drool",
+        "fun"
       ]
     },
     {
       "name": "EvilLaugh",
-      "description": "React with evillaugh",
+      "description": "Reaksi evillaugh",
+      "descriptionId": "Reaksi evillaugh",
+      "descriptionEn": "React with evillaugh",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "evillaugh"
+        "evillaugh",
+        "fun"
       ]
     },
     {
       "name": "FacePalm",
-      "description": "React with facepalm",
+      "description": "Reaksi facepalm",
+      "descriptionId": "Reaksi facepalm",
+      "descriptionEn": "React with facepalm",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "facepalm"
+        "facepalm",
+        "fun"
       ]
     },
     {
       "name": "Fact",
-      "description": "Get a random interesting fact",
+      "description": "Dapatkan fakta menarik acak",
+      "descriptionId": "Dapatkan fakta menarik acak",
+      "descriptionEn": "Get a random interesting fact",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "fact",
-        "fakta"
+        "fakta",
+        "fun",
+        "limit",
+        "limit harian"
       ]
     },
     {
       "name": "Feed",
-      "description": "React with feed",
+      "description": "Reaksi feed",
+      "descriptionId": "Reaksi feed",
+      "descriptionEn": "React with feed",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "feed"
+        "feed",
+        "fun"
       ]
     },
     {
       "name": "HandHold",
-      "description": "React with handhold",
+      "description": "Reaksi handhold",
+      "descriptionId": "Reaksi handhold",
+      "descriptionEn": "React with handhold",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "handhold"
+        "handhold",
+        "fun"
       ]
     },
     {
       "name": "Happy",
-      "description": "React with happy",
+      "description": "Reaksi happy",
+      "descriptionId": "Reaksi happy",
+      "descriptionEn": "React with happy",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "happy"
+        "happy",
+        "fun"
       ]
     },
     {
       "name": "HeadBang",
-      "description": "React with headbang",
+      "description": "Reaksi headbang",
+      "descriptionId": "Reaksi headbang",
+      "descriptionEn": "React with headbang",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "headbang"
+        "headbang",
+        "fun"
       ]
     },
     {
       "name": "HighFive",
-      "description": "React with highfive",
+      "description": "Reaksi highfive",
+      "descriptionId": "Reaksi highfive",
+      "descriptionEn": "React with highfive",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "highfive"
+        "highfive",
+        "fun"
       ]
     },
     {
       "name": "Hug",
-      "description": "React with hug",
+      "description": "Reaksi hug",
+      "descriptionId": "Reaksi hug",
+      "descriptionEn": "React with hug",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "hug"
+        "hug",
+        "fun"
       ]
     },
     {
       "name": "Kick",
-      "description": "React with kick",
+      "description": "Reaksi kick",
+      "descriptionId": "Reaksi kick",
+      "descriptionEn": "React with kick",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "kick"
+        "kick",
+        "fun"
       ]
     },
     {
       "name": "Kill",
-      "description": "React with kill",
+      "description": "Reaksi kill",
+      "descriptionId": "Reaksi kill",
+      "descriptionEn": "React with kill",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "kill"
+        "kill",
+        "fun"
       ]
     },
     {
       "name": "Kiss",
-      "description": "React with kiss",
+      "description": "Reaksi kiss",
+      "descriptionId": "Reaksi kiss",
+      "descriptionEn": "React with kiss",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "kiss"
+        "kiss",
+        "fun"
       ]
     },
     {
       "name": "Koin",
-      "description": "Flip a coin and guess the outcome",
+      "description": "Lempar koin, tebak hasilnya",
+      "descriptionId": "Lempar koin, tebak hasilnya",
+      "descriptionEn": "Flip a coin and guess the outcome",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 2,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "koin",
-        "coin"
+        "coin",
+        "fun"
       ]
     },
     {
       "name": "Laugh",
-      "description": "React with laugh",
+      "description": "Reaksi laugh",
+      "descriptionId": "Reaksi laugh",
+      "descriptionEn": "React with laugh",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "laugh"
+        "laugh",
+        "fun"
       ]
     },
     {
       "name": "Lick",
-      "description": "React with lick",
+      "description": "Reaksi lick",
+      "descriptionId": "Reaksi lick",
+      "descriptionEn": "React with lick",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "lick"
+        "lick",
+        "fun"
       ]
     },
     {
       "name": "Mad",
-      "description": "React with mad",
+      "description": "Reaksi mad",
+      "descriptionId": "Reaksi mad",
+      "descriptionEn": "React with mad",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "mad"
+        "mad",
+        "fun"
       ]
     },
     {
       "name": "Meme",
-      "description": "Create meme from image using various templates",
+      "description": "Buat meme dari gambar menggunakan berbagai template",
+      "descriptionId": "Buat meme dari gambar menggunakan berbagai template",
+      "descriptionEn": "Create meme from image using various templates",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "meme"
+        "meme",
+        "fun",
+        "limit",
+        "limit harian"
       ]
     },
     {
       "name": "MostLikely",
-      "description": "Who is most likely to do something unexpected",
+      "description": "Tebak siapa yang paling mungkin melakukan hal tak terduga",
+      "descriptionId": "Tebak siapa yang paling mungkin melakukan hal tak terduga",
+      "descriptionEn": "Who is most likely to do something unexpected",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 2,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "mostlikely",
-        "siapapaling"
+        "siapapaling",
+        "fun"
       ]
     },
     {
       "name": "Nervous",
-      "description": "React with nervous",
+      "description": "Reaksi nervous",
+      "descriptionId": "Reaksi nervous",
+      "descriptionEn": "React with nervous",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "nervous"
+        "nervous",
+        "fun"
       ]
     },
     {
       "name": "No",
-      "description": "React with no",
+      "description": "Reaksi no",
+      "descriptionId": "Reaksi no",
+      "descriptionEn": "React with no",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "no"
+        "no",
+        "fun"
       ]
     },
     {
       "name": "Nod",
-      "description": "React with nod",
+      "description": "Reaksi nod",
+      "descriptionId": "Reaksi nod",
+      "descriptionEn": "React with nod",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "nod"
+        "nod",
+        "fun"
       ]
     },
     {
       "name": "Nom",
-      "description": "React with nom",
+      "description": "Reaksi nom",
+      "descriptionId": "Reaksi nom",
+      "descriptionEn": "React with nom",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "nom"
+        "nom",
+        "fun"
       ]
     },
     {
       "name": "Nuzzle",
-      "description": "React with nuzzle",
+      "description": "Reaksi nuzzle",
+      "descriptionId": "Reaksi nuzzle",
+      "descriptionEn": "React with nuzzle",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "nuzzle"
+        "nuzzle",
+        "fun"
       ]
     },
     {
       "name": "Nyah",
-      "description": "React with nyah",
+      "description": "Reaksi nyah",
+      "descriptionId": "Reaksi nyah",
+      "descriptionEn": "React with nyah",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "nyah"
+        "nyah",
+        "fun"
       ]
     },
     {
       "name": "Pat",
-      "description": "React with pat",
+      "description": "Reaksi pat",
+      "descriptionId": "Reaksi pat",
+      "descriptionEn": "React with pat",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "pat"
+        "pat",
+        "fun"
       ]
     },
     {
       "name": "Peck",
-      "description": "React with peck",
+      "description": "Reaksi peck",
+      "descriptionId": "Reaksi peck",
+      "descriptionEn": "React with peck",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "peck"
+        "peck",
+        "fun"
       ]
     },
     {
       "name": "Peek",
-      "description": "React with peek",
+      "description": "Reaksi peek",
+      "descriptionId": "Reaksi peek",
+      "descriptionEn": "React with peek",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "peek"
+        "peek",
+        "fun"
       ]
     },
     {
       "name": "Pinch",
-      "description": "React with pinch",
+      "description": "Reaksi pinch",
+      "descriptionId": "Reaksi pinch",
+      "descriptionEn": "React with pinch",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "pinch"
+        "pinch",
+        "fun"
       ]
     },
     {
       "name": "Poke",
-      "description": "React with poke",
+      "description": "Reaksi poke",
+      "descriptionId": "Reaksi poke",
+      "descriptionEn": "React with poke",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "poke"
+        "poke",
+        "fun"
       ]
     },
     {
       "name": "Pout",
-      "description": "React with pout",
+      "description": "Reaksi pout",
+      "descriptionId": "Reaksi pout",
+      "descriptionEn": "React with pout",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "pout"
+        "pout",
+        "fun"
       ]
     },
     {
       "name": "Punch",
-      "description": "React with punch",
+      "description": "Reaksi punch",
+      "descriptionId": "Reaksi punch",
+      "descriptionEn": "React with punch",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "punch"
+        "punch",
+        "fun"
       ]
     },
     {
       "name": "Reaction",
-      "description": "List all available reaction commands",
+      "description": "Daftar semua perintah reaksi yang tersedia",
+      "descriptionId": "Daftar semua perintah reaksi yang tersedia",
+      "descriptionEn": "List all available reaction commands",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "reaction"
+        "reaction",
+        "fun"
       ]
     },
     {
       "name": "Roast",
-      "description": "Roast yourself or someone else randomly",
+      "description": "Roast diri sendiri atau orang lain secara random",
+      "descriptionId": "Roast diri sendiri atau orang lain secara random",
+      "descriptionEn": "Roast yourself or someone else randomly",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 2,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "roast"
+        "roast",
+        "fun"
       ]
     },
     {
       "name": "Roll",
-      "description": "React with roll",
+      "description": "Reaksi roll",
+      "descriptionId": "Reaksi roll",
+      "descriptionEn": "React with roll",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "roll"
+        "roll",
+        "fun"
       ]
     },
     {
       "name": "Run",
-      "description": "React with run",
+      "description": "Reaksi run",
+      "descriptionId": "Reaksi run",
+      "descriptionEn": "React with run",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "run"
+        "run",
+        "fun"
       ]
     },
     {
       "name": "Sad",
-      "description": "React with sad",
+      "description": "Reaksi sad",
+      "descriptionId": "Reaksi sad",
+      "descriptionEn": "React with sad",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "sad"
+        "sad",
+        "fun"
       ]
     },
     {
       "name": "Scared",
-      "description": "React with scared",
+      "description": "Reaksi scared",
+      "descriptionId": "Reaksi scared",
+      "descriptionEn": "React with scared",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "scared"
+        "scared",
+        "fun"
       ]
     },
     {
       "name": "Ship",
-      "description": "Ship two group members deterministically per hour",
+      "description": "Ship dua member grup secara deterministic per jam",
+      "descriptionId": "Ship dua member grup secara deterministic per jam",
+      "descriptionEn": "Ship two group members deterministically per hour",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 2,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "ship"
+        "ship",
+        "fun"
       ]
     },
     {
       "name": "Shoot",
-      "description": "React with shoot",
+      "description": "Reaksi shoot",
+      "descriptionId": "Reaksi shoot",
+      "descriptionEn": "React with shoot",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "shoot"
+        "shoot",
+        "fun"
       ]
     },
     {
       "name": "Shout",
-      "description": "React with shout",
+      "description": "Reaksi shout",
+      "descriptionId": "Reaksi shout",
+      "descriptionEn": "React with shout",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "shout"
+        "shout",
+        "fun"
       ]
     },
     {
       "name": "Shrug",
-      "description": "React with shrug",
+      "description": "Reaksi shrug",
+      "descriptionId": "Reaksi shrug",
+      "descriptionEn": "React with shrug",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "shrug"
+        "shrug",
+        "fun"
       ]
     },
     {
       "name": "Shy",
-      "description": "React with shy",
+      "description": "Reaksi shy",
+      "descriptionId": "Reaksi shy",
+      "descriptionEn": "React with shy",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "shy"
+        "shy",
+        "fun"
       ]
     },
     {
       "name": "Sigh",
-      "description": "React with sigh",
+      "description": "Reaksi sigh",
+      "descriptionId": "Reaksi sigh",
+      "descriptionEn": "React with sigh",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "sigh"
+        "sigh",
+        "fun"
       ]
     },
     {
       "name": "Sip",
-      "description": "React with sip",
+      "description": "Reaksi sip",
+      "descriptionId": "Reaksi sip",
+      "descriptionEn": "React with sip",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "sip"
+        "sip",
+        "fun"
       ]
     },
     {
       "name": "Slap",
-      "description": "React with slap",
+      "description": "Reaksi slap",
+      "descriptionId": "Reaksi slap",
+      "descriptionEn": "React with slap",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "slap"
+        "slap",
+        "fun"
       ]
     },
     {
       "name": "Sleep",
-      "description": "React with sleep",
+      "description": "Reaksi sleep",
+      "descriptionId": "Reaksi sleep",
+      "descriptionEn": "React with sleep",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "sleep"
+        "sleep",
+        "fun"
       ]
     },
     {
       "name": "SlowClap",
-      "description": "React with slowclap",
+      "description": "Reaksi slowclap",
+      "descriptionId": "Reaksi slowclap",
+      "descriptionEn": "React with slowclap",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "slowclap"
+        "slowclap",
+        "fun"
       ]
     },
     {
       "name": "Smack",
-      "description": "React with smack",
+      "description": "Reaksi smack",
+      "descriptionId": "Reaksi smack",
+      "descriptionEn": "React with smack",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "smack"
+        "smack",
+        "fun"
       ]
     },
     {
       "name": "Smile",
-      "description": "React with smile",
+      "description": "Reaksi smile",
+      "descriptionId": "Reaksi smile",
+      "descriptionEn": "React with smile",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "smile"
+        "smile",
+        "fun"
       ]
     },
     {
       "name": "Smug",
-      "description": "React with smug",
+      "description": "Reaksi smug",
+      "descriptionId": "Reaksi smug",
+      "descriptionEn": "React with smug",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "smug"
+        "smug",
+        "fun"
       ]
     },
     {
       "name": "Stare",
-      "description": "React with stare",
+      "description": "Reaksi stare",
+      "descriptionId": "Reaksi stare",
+      "descriptionEn": "React with stare",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "stare"
+        "stare",
+        "fun"
       ]
     },
     {
       "name": "Suit",
-      "description": "Play rock-paper-scissors against the bot",
+      "description": "Bermain batu-gunting-kertas melawan bot",
+      "descriptionId": "Bermain batu-gunting-kertas melawan bot",
+      "descriptionEn": "Play rock-paper-scissors against the bot",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 2,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "suit",
-        "rps"
+        "rps",
+        "fun"
       ]
     },
     {
       "name": "Surprised",
-      "description": "React with surprised",
+      "description": "Reaksi surprised",
+      "descriptionId": "Reaksi surprised",
+      "descriptionEn": "React with surprised",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "surprised"
+        "surprised",
+        "fun"
       ]
     },
     {
       "name": "Sweat",
-      "description": "React with sweat",
+      "description": "Reaksi sweat",
+      "descriptionId": "Reaksi sweat",
+      "descriptionEn": "React with sweat",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "sweat"
+        "sweat",
+        "fun"
       ]
     },
     {
       "name": "Think",
-      "description": "React with think",
+      "description": "Reaksi think",
+      "descriptionId": "Reaksi think",
+      "descriptionEn": "React with think",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "think"
+        "think",
+        "fun"
       ]
     },
     {
       "name": "ThumbsUp",
-      "description": "React with thumbsup",
+      "description": "Reaksi thumbsup",
+      "descriptionId": "Reaksi thumbsup",
+      "descriptionEn": "React with thumbsup",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "thumbsup"
+        "thumbsup",
+        "fun"
       ]
     },
     {
       "name": "Tickle",
-      "description": "React with tickle",
+      "description": "Reaksi tickle",
+      "descriptionId": "Reaksi tickle",
+      "descriptionEn": "React with tickle",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "tickle"
+        "tickle",
+        "fun"
       ]
     },
     {
       "name": "Tired",
-      "description": "React with tired",
+      "description": "Reaksi tired",
+      "descriptionId": "Reaksi tired",
+      "descriptionEn": "React with tired",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "tired"
+        "tired",
+        "fun"
       ]
     },
     {
       "name": "TruthOrDare",
-      "description": "Play Truth or Dare with thousands of questions and dares",
+      "description": "Main Truth or Dare dengan ribuan variasi pertanyaan dan tantangan",
+      "descriptionId": "Main Truth or Dare dengan ribuan variasi pertanyaan dan tantangan",
+      "descriptionEn": "Play Truth or Dare with thousands of questions and dares",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 2,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "truthordare",
         "tod",
         "truth",
-        "dare"
+        "dare",
+        "fun"
       ]
     },
     {
       "name": "Wave",
-      "description": "React with wave",
+      "description": "Reaksi wave",
+      "descriptionId": "Reaksi wave",
+      "descriptionEn": "React with wave",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "wave"
+        "wave",
+        "fun"
       ]
     },
     {
       "name": "Wink",
-      "description": "React with wink",
+      "description": "Reaksi wink",
+      "descriptionId": "Reaksi wink",
+      "descriptionEn": "React with wink",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "wink"
+        "wink",
+        "fun"
       ]
     },
     {
       "name": "Woah",
-      "description": "React with woah",
+      "description": "Reaksi woah",
+      "descriptionId": "Reaksi woah",
+      "descriptionEn": "React with woah",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "woah"
+        "woah",
+        "fun"
       ]
     },
     {
       "name": "WouldYouRather",
-      "description": "Send Would You Rather prompt for discussion or polling",
+      "description": "Kirim pilihan Would You Rather sebagai bahan obrolan atau polling",
+      "descriptionId": "Kirim pilihan Would You Rather sebagai bahan obrolan atau polling",
+      "descriptionEn": "Send Would You Rather prompt for discussion or polling",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 2,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "wouldyourather",
-        "wyr"
+        "wyr",
+        "fun"
       ]
     },
     {
       "name": "Yawn",
-      "description": "React with yawn",
+      "description": "Reaksi yawn",
+      "descriptionId": "Reaksi yawn",
+      "descriptionEn": "React with yawn",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "yawn"
+        "yawn",
+        "fun"
       ]
     },
     {
       "name": "Yay",
-      "description": "React with yay",
+      "description": "Reaksi yay",
+      "descriptionId": "Reaksi yay",
+      "descriptionEn": "React with yay",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "yay"
+        "yay",
+        "fun"
       ]
     },
     {
       "name": "Yeet",
-      "description": "React with yeet",
+      "description": "Reaksi yeet",
+      "descriptionId": "Reaksi yeet",
+      "descriptionEn": "React with yeet",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "yeet"
+        "yeet",
+        "fun"
       ]
     },
     {
       "name": "Yes",
-      "description": "React with yes",
+      "description": "Reaksi yes",
+      "descriptionId": "Reaksi yes",
+      "descriptionEn": "React with yes",
+      "aliases": [],
+      "category": "fun",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "yes"
+        "yes",
+        "fun"
       ]
     }
   ]

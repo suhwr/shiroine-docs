@@ -15,8 +15,8 @@
     "spotify"
   ],
   "description": {
-    "id": "Download atau cari musik dari Spotify",
-    "en": "Download or search music from Spotify"
+    "en": "Download or search music from Spotify",
+    "id": "Download atau cari musik dari Spotify"
   },
   "usage": "Spotify",
   "examples": [
@@ -58,5 +58,5 @@
     "file": "internal/plugins/music",
     "line": 269
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

@@ -15,8 +15,8 @@
     "oct"
   ],
   "description": {
-    "id": "Encode/decode teks menggunakan oct",
-    "en": "Encode/decode text using oct"
+    "en": "Encode/decode text using oct",
+    "id": "Encode/decode teks menggunakan oct"
   },
   "usage": "OCT",
   "examples": [
@@ -58,5 +58,5 @@
     "file": "internal/plugins/tools",
     "line": 1
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

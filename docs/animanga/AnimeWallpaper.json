@@ -1,27 +1,28 @@
 {
-  "name": "Anime Wallpaper",
+  "name": "AnimeWallpaper",
   "commands": [
+    "animewallpaper",
     "animewall",
     "animepaper"
   ],
   "aliases": [],
   "display": [
-    "Anime Wallpaper"
+    "AnimeWallpaper"
   ],
   "category": "animanga",
   "categories": [
     "animanga"
   ],
   "tags": [
+    "animewallpaper",
     "animewall",
-    "animepaper",
-    "anime wallpaper"
+    "animepaper"
   ],
   "description": {
     "id": "Koleksi wallpaper anime HD untuk ponsel / desktop",
     "en": "HD anime wallpapers for phone / desktop"
   },
-  "usage": "Anime Wallpaper",
+  "usage": "AnimeWallpaper",
   "examples": [
     ".animewall",
     ".animewall solo leveling",
@@ -59,7 +60,7 @@
   },
   "source": {
     "file": "internal/plugins/anime",
-    "line": 326
+    "line": 322
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

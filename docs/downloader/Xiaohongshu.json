@@ -19,8 +19,8 @@
     "xhs"
   ],
   "description": {
-    "en": "Download photo/video from Xiaohongshu / Rednote",
-    "id": "Download foto/video dari Xiaohongshu / Rednote"
+    "id": "Download foto/video dari Xiaohongshu / Rednote",
+    "en": "Download photo/video from Xiaohongshu / Rednote"
   },
   "usage": "Xiaohongshu",
   "examples": [
@@ -60,5 +60,5 @@
     "file": "internal/plugins/downloader",
     "line": 120
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

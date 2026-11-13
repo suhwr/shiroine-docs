@@ -21,8 +21,8 @@
     "tsmeme"
   ],
   "description": {
-    "en": "Create meme sticker with top and bottom text from sent or replied image",
-    "id": "Buat stiker meme dengan teks atas dan bawah dari gambar yang dikirim atau direply"
+    "id": "Buat stiker meme dengan teks atas dan bawah dari gambar yang dikirim atau direply",
+    "en": "Create meme sticker with top and bottom text from sent or replied image"
   },
   "usage": "SMeme",
   "examples": [
@@ -67,5 +67,5 @@
     "file": "internal/plugins/tools",
     "line": 94
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

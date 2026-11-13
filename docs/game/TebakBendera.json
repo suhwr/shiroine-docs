@@ -15,8 +15,8 @@
     "tebakbendera"
   ],
   "description": {
-    "en": "Start country flag guessing game",
-    "id": "Mulai game tebak bendera negara"
+    "id": "Mulai game tebak bendera negara",
+    "en": "Start country flag guessing game"
   },
   "usage": "TebakBendera",
   "examples": [
@@ -30,8 +30,8 @@
     "group_community"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true
+    "group_community": true,
+    "group": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -62,5 +62,5 @@
     "file": "internal/plugins/game",
     "line": 237
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

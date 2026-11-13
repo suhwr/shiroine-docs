@@ -19,8 +19,8 @@
     "setppbot"
   ],
   "description": {
-    "en": "Set bot profile picture (send/reply image, optional: -f for full image)",
-    "id": "Mengubah foto profil akun bot WhatsApp (kirim/reply foto, opsional: -f untuk gambar penuh)"
+    "id": "Mengubah foto profil akun bot WhatsApp (kirim/reply foto, opsional: -f untuk gambar penuh)",
+    "en": "Set bot profile picture (send/reply image, optional: -f for full image)"
   },
   "usage": "SetPP",
   "examples": [
@@ -62,5 +62,5 @@
     "file": "internal/plugins/bot",
     "line": 73
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

@@ -23,8 +23,8 @@
     "fstikers"
   ],
   "description": {
-    "en": "Download sticker packs from FStik catalog (fstik.app) via link or search keyword.",
-    "id": "Download stiker pack dari katalog FStik (fstik.app) menggunakan link atau kata kunci."
+    "id": "Download stiker pack dari katalog FStik (fstik.app) menggunakan link atau kata kunci.",
+    "en": "Download sticker packs from FStik catalog (fstik.app) via link or search keyword."
   },
   "usage": "FStik",
   "examples": [
@@ -67,5 +67,5 @@
     "file": "internal/plugins/downloader",
     "line": 185
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

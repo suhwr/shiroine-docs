@@ -15,8 +15,8 @@
     "about"
   ],
   "description": {
-    "en": "Information about the bot",
-    "id": "Informasi tentang bot"
+    "id": "Informasi tentang bot",
+    "en": "Information about the bot"
   },
   "usage": "About",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/general",
     "line": 30
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

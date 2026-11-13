@@ -17,8 +17,8 @@
     "yan"
   ],
   "description": {
-    "id": "Cari anime art dan wallpaper langsung di Yande.re",
-    "en": "Search anime art and wallpaper directly from Yande.re"
+    "en": "Search anime art and wallpaper directly from Yande.re",
+    "id": "Cari anime art dan wallpaper langsung di Yande.re"
   },
   "usage": "Yandere",
   "examples": [
@@ -57,7 +57,7 @@
   },
   "source": {
     "file": "internal/plugins/anime",
-    "line": 338
+    "line": 334
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

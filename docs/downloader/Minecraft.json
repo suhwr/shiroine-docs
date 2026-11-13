@@ -23,8 +23,8 @@
     "minecraft"
   ],
   "description": {
-    "en": "Download public MCPEDL.com files; other sites restricted",
-    "id": "Download file publik MCPEDL.com; situs lain terbatas"
+    "id": "Download file publik MCPEDL.com; situs lain terbatas",
+    "en": "Download public MCPEDL.com files; other sites restricted"
   },
   "usage": "Minecraft",
   "examples": [
@@ -74,5 +74,5 @@
     "file": "internal/plugins/downloader",
     "line": 45
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

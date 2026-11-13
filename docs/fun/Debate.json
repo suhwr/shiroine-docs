@@ -33,9 +33,9 @@
     "group_community"
   ],
   "chatTypes": {
+    "group_community": true,
     "private": true,
-    "group": true,
-    "group_community": true
+    "group": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -66,5 +66,5 @@
     "file": "internal/plugins/fun",
     "line": 55
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

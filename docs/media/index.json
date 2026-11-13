@@ -2,37 +2,70 @@
   "commands": [
     {
       "name": "FakeThumbnail",
-      "description": "Send original media disguised with a fake thumbnail from another media",
+      "description": "Kirim media asli namun manipulasi tampilannya dengan thumbnail dari media lain",
+      "descriptionId": "Kirim media asli namun manipulasi tampilannya dengan thumbnail dari media lain",
+      "descriptionEn": "Send original media disguised with a fake thumbnail from another media",
+      "aliases": [],
+      "category": "media",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "fakethumbnail",
         "fakethumb",
-        "spoofmedia"
+        "spoofmedia",
+        "media"
       ]
     },
     {
       "name": "PhotoLive",
-      "description": "Convert video or photo+video combination into WhatsApp Motion Photo",
+      "description": "Ubah video atau kombinasi foto+video menjadi Motion Photo WhatsApp",
+      "descriptionId": "Ubah video atau kombinasi foto+video menjadi Motion Photo WhatsApp",
+      "descriptionEn": "Convert video or photo+video combination into WhatsApp Motion Photo",
+      "aliases": [],
+      "category": "media",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
-        "fotolive",
         "photolive",
+        "fotolive",
         "motionphoto",
-        "livephoto"
+        "livephoto",
+        "media"
       ]
     },
     {
       "name": "TopTV",
-      "description": "Convert video into circular Video Note (PTV)",
+      "description": "Ubah video biasa menjadi Video Note bundar (PTV)",
+      "descriptionId": "Ubah video biasa menjadi Video Note bundar (PTV)",
+      "descriptionEn": "Convert video into circular Video Note (PTV)",
+      "aliases": [],
+      "category": "media",
       "permissions": {},
       "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
       "tags": [
         "toptv",
         "toptvmsg",
         "videonote",
-        "ptv"
+        "ptv",
+        "media"
       ]
     }
   ]

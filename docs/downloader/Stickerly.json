@@ -21,8 +21,8 @@
     "stikerly"
   ],
   "description": {
-    "en": "Download sticker packs from Sticker.ly via link, pack code, or search keyword.",
-    "id": "Download stiker pack dari Sticker.ly menggunakan link, kode pack, atau cari berdasarkan kata kunci."
+    "id": "Download stiker pack dari Sticker.ly menggunakan link, kode pack, atau cari berdasarkan kata kunci.",
+    "en": "Download sticker packs from Sticker.ly via link, pack code, or search keyword."
   },
   "usage": "Stickerly",
   "examples": [
@@ -65,5 +65,5 @@
     "file": "internal/plugins/downloader",
     "line": 229
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

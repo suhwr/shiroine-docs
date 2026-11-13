@@ -1,12 +1,12 @@
 {
-  "name": "Bunny Girl",
+  "name": "BunnyGirl",
   "commands": [
     "bunny",
     "bunnygirl"
   ],
   "aliases": [],
   "display": [
-    "Bunny Girl"
+    "BunnyGirl"
   ],
   "category": "animanga",
   "categories": [
@@ -14,14 +14,13 @@
   ],
   "tags": [
     "bunny",
-    "bunnygirl",
-    "bunny girl"
+    "bunnygirl"
   ],
   "description": {
     "id": "Koleksi foto/art anime berkostum bunny",
     "en": "Random anime bunny girl art"
   },
-  "usage": "Bunny Girl",
+  "usage": "BunnyGirl",
   "examples": [
     ".bunny",
     ".bunny mai sakurajima"
@@ -58,7 +57,7 @@
   },
   "source": {
     "file": "internal/plugins/anime",
-    "line": 278
+    "line": 274
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }

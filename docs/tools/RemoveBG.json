@@ -19,8 +19,8 @@
     "rbg"
   ],
   "description": {
-    "en": "Remove photo/sticker background using AI (models: pixelcut, removebg, rembg, local)",
-    "id": "Hapus background foto/stiker menggunakan AI (model: pixelcut, removebg, rembg, local)"
+    "id": "Hapus background foto/stiker menggunakan AI (model: pixelcut, removebg, rembg, local)",
+    "en": "Remove photo/sticker background using AI (models: pixelcut, removebg, rembg, local)"
   },
   "usage": "RemoveBG",
   "examples": [
@@ -65,5 +65,5 @@
     "file": "internal/plugins/tools",
     "line": 105
   },
-  "lastUpdated": "2026-11-09T05:53:26Z"
+  "lastUpdated": "2026-11-13T08:32:52Z"
 }
