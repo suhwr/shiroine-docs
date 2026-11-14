@@ -15,8 +15,8 @@
     "tupai"
   ],
   "description": {
-    "id": "Efek suara kecil seperti tupai",
-    "en": "Chipmunk / squirrel voice effect"
+    "en": "Chipmunk / squirrel voice effect",
+    "id": "Efek suara kecil seperti tupai"
   },
   "usage": "Tupai",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/tools",
     "line": 510
   },
-  "lastUpdated": "2026-11-13T08:32:52Z"
+  "lastUpdated": "2026-11-14T00:26:24Z"
 }

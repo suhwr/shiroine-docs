@@ -17,8 +17,8 @@
     "onlyadmin"
   ],
   "description": {
-    "en": "Make the bot only respond to commands from group admins",
-    "id": "Membuat bot hanya merespons perintah dari admin grup"
+    "id": "Membuat bot hanya merespons perintah dari admin grup",
+    "en": "Make the bot only respond to commands from group admins"
   },
   "usage": "AdminOnly",
   "examples": [
@@ -39,8 +39,8 @@
     "group_community": true
   },
   "permissions": {
-    "admin": true,
-    "subowner": true
+    "subowner": true,
+    "admin": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -70,5 +70,5 @@
     "file": "internal/plugins/group",
     "line": 75
   },
-  "lastUpdated": "2026-11-13T08:32:52Z"
+  "lastUpdated": "2026-11-14T00:26:24Z"
 }

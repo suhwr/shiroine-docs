@@ -213,8 +213,8 @@
       "path": "/command/group/AdminOnly",
       "description": "Membuat bot hanya merespons perintah dari admin grup",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -236,8 +236,8 @@
       "path": "/command/group/Adzan",
       "description": "Pengaturan jadwal dan notifikasi adzan otomatis di grup",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -507,8 +507,8 @@
       "path": "/command/group/AntiBot",
       "description": "Aktifkan atau nonaktifkan sistem anti-bot untuk grup",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -1510,7 +1510,7 @@
       "aliases": [],
       "category": "tools",
       "path": "/command/tools/Brat",
-      "description": "Buat stiker teks gaya BRAT (latar hijau/hitam, statis atau video animasi)",
+      "description": "Buat stiker teks gaya BRAT (latar hijau/hitam, statis atau video animasi, versi blur atau HD)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -1521,24 +1521,52 @@
         "brat",
         "bratvid",
         "bratvideo",
+        "brathd",
+        "brathdvid",
+        "brathdvideo",
+        "bratvidhd",
         "ibrat",
         "ibratvid",
         "ibratvideo",
+        "ibrathd",
+        "ibrathdvid",
+        "ibrathdvideo",
+        "ibratvidhd",
         "jbrat",
         "jbratvid",
         "jbratvideo",
+        "jbrathd",
+        "jbrathdvid",
+        "jbrathdvideo",
+        "jbratvidhd",
         "tbrat",
         "tbratvid",
         "tbratvideo",
+        "tbrathd",
+        "tbrathdvid",
+        "tbrathdvideo",
+        "tbratvidhd",
         "brat2",
         "brat2vid",
         "brat2video",
+        "brat2hd",
+        "brat2hdvid",
+        "brat2hdvideo",
+        "brat2vidhd",
         "brat3",
         "brat3vid",
         "brat3video",
+        "brat3hd",
+        "brat3hdvid",
+        "brat3hdvideo",
+        "brat3vidhd",
         "brat4",
         "brat4vid",
         "brat4video",
+        "brat4hd",
+        "brat4hdvid",
+        "brat4hdvideo",
+        "brat4vidhd",
         "tools"
       ]
     },
@@ -2147,8 +2175,8 @@
       "path": "/command/group/Cmd",
       "description": "Nonaktifkan atau aktifkan perintah bot di grup ini secara satuan maupun massal",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -3832,8 +3860,8 @@
       "path": "/command/group/GStats",
       "description": "Menampilkan statistik pesan grup bulan ini termasuk top 3 anggota teraktif",
       "permissions": {
-        "admin": true,
-        "moderator": true
+        "moderator": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -3887,9 +3915,9 @@
       "path": "/command/developer/HardBan",
       "description": "Ban user secara global (permanen)",
       "permissions": {
+        "owner": true,
         "moderator": true,
-        "subowner": true,
-        "owner": true
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -3911,9 +3939,9 @@
       "path": "/command/developer/HardBanGC",
       "description": "Ban grup secara global (semua bot)",
       "permissions": {
+        "moderator": true,
         "owner": true,
-        "subowner": true,
-        "moderator": true
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -3960,9 +3988,9 @@
       "path": "/command/developer/HardUnban",
       "description": "Unban user dari daftar ban global",
       "permissions": {
+        "moderator": true,
         "subowner": true,
-        "owner": true,
-        "moderator": true
+        "owner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -4060,8 +4088,8 @@
       "path": "/command/group/HideTag",
       "description": "Tag seluruh anggota grup secara tersembunyi",
       "permissions": {
-        "admin": true,
-        "moderator": true
+        "moderator": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -4469,8 +4497,8 @@
       "path": "/command/group/JoinReq",
       "description": "Kelola daftar permintaan masuk (join request) anggota grup",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -4672,11 +4700,11 @@
       "path": "/command/group/LeaveGroup",
       "description": "Keluarkan bot dari grup atau tinggalkan grup dari jarak jauh",
       "permissions": {
-        "hasbot": true,
         "admin": true,
         "owner": true,
         "subowner": true,
-        "bot": true
+        "bot": true,
+        "hasbot": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -5456,8 +5484,8 @@
       "path": "/command/group/MuteMember",
       "description": "Mute anggota tertentu di grup agar pesannya dihapus otomatis",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -6333,8 +6361,8 @@
       "path": "/command/group/Promote",
       "description": "Angkat anggota menjadi admin grup",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -7261,8 +7289,8 @@
       "path": "/command/group/SetGoodbye",
       "description": "Atur pesan atau cover goodbye grup",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -7506,8 +7534,8 @@
       "path": "/command/group/SetWelcome",
       "description": "Atur pesan atau cover welcome grup",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -7670,8 +7698,8 @@
       "path": "/command/group/SimulateGoodbye",
       "description": "Simulasi pesan goodbye grup dengan data kamu sebagai contoh",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -8091,6 +8119,27 @@
         "swm",
         "s",
         "tools"
+      ]
+    },
+    {
+      "name": "Sticker React",
+      "aliases": [],
+      "category": "developer",
+      "path": "/command/developer/Sticker React",
+      "description": "React pesan WhatsApp dengan stiker dari gambar (bisa tumpuk banyak react)",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "tags": [
+        "sticker react",
+        "sreact",
+        "developer",
+        "owner"
       ]
     },
     {
@@ -9167,8 +9216,8 @@
       "path": "/command/group/UnbanMember",
       "description": "Cabut ban bot anggota di grup ini",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -9271,8 +9320,8 @@
       "path": "/command/group/UnpinMsg",
       "description": "Lepas sematan pesan di grup",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -9453,8 +9502,8 @@
       "path": "/command/group/Warn",
       "description": "Beri peringatan kepada anggota grup yang melanggar aturan",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,

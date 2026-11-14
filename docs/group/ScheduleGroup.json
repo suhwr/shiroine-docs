@@ -29,8 +29,8 @@
     "autoopen"
   ],
   "description": {
-    "en": "Unified group scheduling system (open/close chat, reminders, hidetag, reset link)",
-    "id": "Sistem penjadwalan terpadu grup (buka/tutup chat, pesan rutin, hidetag, reset link)"
+    "id": "Sistem penjadwalan terpadu grup (buka/tutup chat, pesan rutin, hidetag, reset link)",
+    "en": "Unified group scheduling system (open/close chat, reminders, hidetag, reset link)"
   },
   "usage": "ScheduleGroup",
   "examples": [
@@ -94,5 +94,5 @@
     "file": "internal/plugins/group",
     "line": 1136
   },
-  "lastUpdated": "2026-11-13T08:32:52Z"
+  "lastUpdated": "2026-11-14T00:26:24Z"
 }

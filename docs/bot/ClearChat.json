@@ -15,8 +15,8 @@
     "clearchat"
   ],
   "description": {
-    "id": "Membersihkan seluruh riwayat chat tanpa menghapus daftar chat",
-    "en": "Clear all chat history without deleting the chat list"
+    "en": "Clear all chat history without deleting the chat list",
+    "id": "Membersihkan seluruh riwayat chat tanpa menghapus daftar chat"
   },
   "usage": "ClearChat",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/bot",
     "line": 136
   },
-  "lastUpdated": "2026-11-13T08:32:52Z"
+  "lastUpdated": "2026-11-14T00:26:24Z"
 }

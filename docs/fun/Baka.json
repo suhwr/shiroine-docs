@@ -15,8 +15,8 @@
     "baka"
   ],
   "description": {
-    "id": "Reaksi baka",
-    "en": "React with baka"
+    "en": "React with baka",
+    "id": "Reaksi baka"
   },
   "usage": "Baka",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/fun",
     "line": 1
   },
-  "lastUpdated": "2026-11-13T08:32:52Z"
+  "lastUpdated": "2026-11-14T00:26:24Z"
 }

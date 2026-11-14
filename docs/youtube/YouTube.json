@@ -17,8 +17,8 @@
     "youtube"
   ],
   "description": {
-    "id": "Helper YouTube - pilih aksi download audio, video, atau album",
-    "en": "YouTube helper - choose to download audio, video, or album"
+    "en": "YouTube helper - choose to download audio, video, or album",
+    "id": "Helper YouTube - pilih aksi download audio, video, atau album"
   },
   "usage": "YouTube",
   "examples": [
@@ -66,5 +66,5 @@
     "file": "internal/plugins/youtube",
     "line": 312
   },
-  "lastUpdated": "2026-11-13T08:32:52Z"
+  "lastUpdated": "2026-11-14T00:26:24Z"
 }

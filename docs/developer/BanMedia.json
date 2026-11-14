@@ -15,8 +15,8 @@
     "banmedia"
   ],
   "description": {
-    "en": "Flag media as NSFW — instantly blocked in all groups",
-    "id": "Tandai media sebagai NSFW — langsung diblokir di semua grup"
+    "id": "Tandai media sebagai NSFW — langsung diblokir di semua grup",
+    "en": "Flag media as NSFW — instantly blocked in all groups"
   },
   "usage": "BanMedia",
   "examples": [
@@ -32,9 +32,9 @@
     "group_community"
   ],
   "chatTypes": {
+    "group": true,
     "group_community": true,
-    "private": true,
-    "group": true
+    "private": true
   },
   "permissions": {
     "owner": true,
@@ -69,5 +69,5 @@
     "file": "internal/plugins/developer",
     "line": 56
   },
-  "lastUpdated": "2026-11-13T08:32:52Z"
+  "lastUpdated": "2026-11-14T00:26:24Z"
 }

@@ -1,0 +1,72 @@
+{
+  "name": "Sticker React",
+  "commands": [
+    "sreact"
+  ],
+  "aliases": [],
+  "display": [
+    "Sticker React"
+  ],
+  "category": "developer",
+  "categories": [
+    "developer"
+  ],
+  "tags": [
+    "sreact",
+    "sticker react"
+  ],
+  "description": {
+    "id": "React pesan WhatsApp dengan stiker dari gambar (bisa tumpuk banyak react)",
+    "en": "React to a WhatsApp message with a sticker from image (supports stacking multiple reacts)"
+  },
+  "usage": "Sticker React",
+  "examples": [
+    "sreact 10 (kirim gambar dengan caption .sreact 10 sambil reply target, atau reply pesan gambar)",
+    "sreact 10 (send image with caption .sreact 10 while replying, or reply to an image)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "private": true,
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {
+    "owner": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/developer",
+    "line": 204
+  },
+  "lastUpdated": "2026-11-14T00:26:24Z"
+}

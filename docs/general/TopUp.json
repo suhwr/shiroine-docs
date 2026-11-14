@@ -19,8 +19,8 @@
     "topupsaldo"
   ],
   "description": {
-    "en": "Top up your balance using instant QRIS",
-    "id": "Top up saldo balance menggunakan QRIS instan"
+    "id": "Top up saldo balance menggunakan QRIS instan",
+    "en": "Top up your balance using instant QRIS"
   },
   "usage": "TopUp",
   "examples": [
@@ -60,5 +60,5 @@
     "file": "internal/plugins/general",
     "line": 460
   },
-  "lastUpdated": "2026-11-13T08:32:52Z"
+  "lastUpdated": "2026-11-14T00:26:24Z"
 }

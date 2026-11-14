@@ -19,8 +19,8 @@
     "pastebindl"
   ],
   "description": {
-    "en": "Download text and code from Pastebin",
-    "id": "Download teks dan kode dari Pastebin"
+    "id": "Download teks dan kode dari Pastebin",
+    "en": "Download text and code from Pastebin"
   },
   "usage": "Pastebin",
   "examples": [
@@ -70,5 +70,5 @@
     "file": "internal/plugins/downloader",
     "line": 76
   },
-  "lastUpdated": "2026-11-13T08:32:52Z"
+  "lastUpdated": "2026-11-14T00:26:24Z"
 }

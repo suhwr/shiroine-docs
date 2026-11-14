@@ -29,11 +29,11 @@
   ],
   "minArgs": 0,
   "args": {
-    "[opsi]": {
-      "id": "Kosongkan untuk melihat ingatan, atau ketik 'clear' untuk menghapus ingatan"
-    },
     "[option]": {
       "en": "Leave empty to view memory, or type 'clear' to wipe memory"
+    },
+    "[opsi]": {
+      "id": "Kosongkan untuk melihat ingatan, atau ketik 'clear' untuk menghapus ingatan"
     }
   },
   "requireMedia": [],
@@ -68,5 +68,5 @@
     "file": "internal/plugins/ai",
     "line": 87
   },
-  "lastUpdated": "2026-11-13T08:32:52Z"
+  "lastUpdated": "2026-11-14T00:26:24Z"
 }

@@ -17,8 +17,8 @@
     "chess"
   ],
   "description": {
-    "id": "Mainkan game papan catur (Chess) langsung di grup WhatsApp (swipe reply papan).",
-    "en": "Play chess board game directly in WhatsApp groups (swipe reply board)."
+    "en": "Play chess board game directly in WhatsApp groups (swipe reply board).",
+    "id": "Mainkan game papan catur (Chess) langsung di grup WhatsApp (swipe reply papan)."
   },
   "usage": "Catur",
   "examples": [
@@ -58,5 +58,5 @@
     "file": "internal/plugins/game",
     "line": 843
   },
-  "lastUpdated": "2026-11-13T08:32:52Z"
+  "lastUpdated": "2026-11-14T00:26:24Z"
 }

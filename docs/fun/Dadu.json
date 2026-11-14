@@ -17,8 +17,8 @@
     "dice"
   ],
   "description": {
-    "id": "Lempar dadu random 1–6, opsional tebak angkanya",
-    "en": "Roll a random dice 1–6, optionally guess the number"
+    "en": "Roll a random dice 1–6, optionally guess the number",
+    "id": "Lempar dadu random 1–6, opsional tebak angkanya"
   },
   "usage": "Dadu",
   "examples": [
@@ -59,5 +59,5 @@
     "file": "internal/plugins/game",
     "line": 541
   },
-  "lastUpdated": "2026-11-13T08:32:52Z"
+  "lastUpdated": "2026-11-14T00:26:24Z"
 }

@@ -33,8 +33,8 @@
       "aliases": [],
       "category": "group",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -59,8 +59,8 @@
       "aliases": [],
       "category": "group",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -86,8 +86,8 @@
       "aliases": [],
       "category": "group",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -585,8 +585,8 @@
       "aliases": [],
       "category": "group",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -832,8 +832,8 @@
       "aliases": [],
       "category": "group",
       "permissions": {
-        "admin": true,
-        "moderator": true
+        "moderator": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -856,8 +856,8 @@
       "aliases": [],
       "category": "group",
       "permissions": {
-        "admin": true,
-        "moderator": true
+        "moderator": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -927,8 +927,8 @@
       "aliases": [],
       "category": "group",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -952,11 +952,11 @@
       "aliases": [],
       "category": "group",
       "permissions": {
-        "hasbot": true,
         "admin": true,
         "owner": true,
         "subowner": true,
-        "bot": true
+        "bot": true,
+        "hasbot": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -1160,8 +1160,8 @@
       "aliases": [],
       "category": "group",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -1259,8 +1259,8 @@
       "aliases": [],
       "category": "group",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -1417,8 +1417,8 @@
       "aliases": [],
       "category": "group",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -1548,8 +1548,8 @@
       "aliases": [],
       "category": "group",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -1598,8 +1598,8 @@
       "aliases": [],
       "category": "group",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -1749,8 +1749,8 @@
       "aliases": [],
       "category": "group",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -1799,8 +1799,8 @@
       "aliases": [],
       "category": "group",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -1826,8 +1826,8 @@
       "aliases": [],
       "category": "group",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,

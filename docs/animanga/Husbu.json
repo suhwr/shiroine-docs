@@ -17,8 +17,8 @@
     "ikemen"
   ],
   "description": {
-    "en": "Random anime husbando / handsome male character art",
-    "id": "Koleksi foto/art anime karakter pria tampan (ikemen)"
+    "id": "Koleksi foto/art anime karakter pria tampan (ikemen)",
+    "en": "Random anime husbando / handsome male character art"
   },
   "usage": "Husbu",
   "examples": [
@@ -60,5 +60,5 @@
     "file": "internal/plugins/anime",
     "line": 310
   },
-  "lastUpdated": "2026-11-13T08:32:52Z"
+  "lastUpdated": "2026-11-14T00:26:24Z"
 }

@@ -17,8 +17,8 @@
     "banmember"
   ],
   "description": {
-    "en": "Ban member from using the bot in this group",
-    "id": "Ban anggota dari penggunaan bot di grup ini"
+    "id": "Ban anggota dari penggunaan bot di grup ini",
+    "en": "Ban member from using the bot in this group"
   },
   "usage": "BanMember",
   "examples": [
@@ -69,5 +69,5 @@
     "file": "internal/plugins/group",
     "line": 297
   },
-  "lastUpdated": "2026-11-13T08:32:52Z"
+  "lastUpdated": "2026-11-14T00:26:24Z"
 }

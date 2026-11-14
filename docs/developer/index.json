@@ -379,9 +379,9 @@
       "aliases": [],
       "category": "developer",
       "permissions": {
+        "owner": true,
         "moderator": true,
-        "subowner": true,
-        "owner": true
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -406,9 +406,9 @@
       "aliases": [],
       "category": "developer",
       "permissions": {
+        "moderator": true,
         "owner": true,
-        "subowner": true,
-        "moderator": true
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -461,9 +461,9 @@
       "aliases": [],
       "category": "developer",
       "permissions": {
+        "moderator": true,
         "subowner": true,
-        "owner": true,
-        "moderator": true
+        "owner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -726,6 +726,30 @@
         "statusbroadcast",
         "checkbc",
         "statbc",
+        "developer",
+        "owner"
+      ]
+    },
+    {
+      "name": "Sticker React",
+      "description": "React pesan WhatsApp dengan stiker dari gambar (bisa tumpuk banyak react)",
+      "descriptionId": "React pesan WhatsApp dengan stiker dari gambar (bisa tumpuk banyak react)",
+      "descriptionEn": "React to a WhatsApp message with a sticker from image (supports stacking multiple reacts)",
+      "aliases": [],
+      "category": "developer",
+      "permissions": {
+        "owner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "sticker react",
+        "sreact",
         "developer",
         "owner"
       ]
