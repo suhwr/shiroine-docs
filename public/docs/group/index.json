@@ -2,11 +2,7 @@
   "commands": [
     {
       "name": "Add",
-      "description": "Tambahkan anggota baru ke dalam grup",
-      "descriptionId": "Tambahkan anggota baru ke dalam grup",
-      "descriptionEn": "Add new member(s) to the group",
-      "aliases": [],
-      "category": "group",
+      "description": "Add new member(s) to the group",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -17,21 +13,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "add",
-        "group",
-        "admin",
-        "subowner"
+        "add"
       ]
     },
     {
       "name": "AdminOnly",
-      "description": "Membuat bot hanya merespons perintah dari admin grup",
-      "descriptionId": "Membuat bot hanya merespons perintah dari admin grup",
-      "descriptionEn": "Make the bot only respond to commands from group admins",
-      "aliases": [],
-      "category": "group",
+      "description": "Make the bot only respond to commands from group admins",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -42,25 +30,17 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "adminonly",
-        "onlyadmin",
-        "group",
-        "admin",
-        "subowner"
+        "onlyadmin"
       ]
     },
     {
       "name": "Adzan",
-      "description": "Pengaturan jadwal dan notifikasi adzan otomatis di grup",
-      "descriptionId": "Pengaturan jadwal dan notifikasi adzan otomatis di grup",
-      "descriptionEn": "Automated adzan schedule and prayer notifications for the group",
-      "aliases": [],
-      "category": "group",
+      "description": "Automated adzan schedule and prayer notifications for the group",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -68,23 +48,83 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "adzan",
         "autoadzan",
-        "sholat",
-        "group",
-        "admin",
-        "subowner"
+        "sholat"
       ]
     },
     {
       "name": "AntiBot",
-      "description": "Aktifkan atau nonaktifkan sistem anti-bot untuk grup",
-      "descriptionId": "Aktifkan atau nonaktifkan sistem anti-bot untuk grup",
-      "descriptionEn": "Enable or disable anti-bot system for the group",
-      "aliases": [],
-      "category": "group",
+      "description": "Enable or disable anti-bot system for the group",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "antibot"
+      ]
+    },
+    {
+      "name": "AntiBug",
+      "description": "Configure anti bug, virtex, and crash protection in group",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "antibug"
+      ]
+    },
+    {
+      "name": "AntiCall",
+      "description": "Configure automatic rejection of WhatsApp group calls",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "anticall"
+      ]
+    },
+    {
+      "name": "AntiHideTag",
+      "description": "Configure anti hidden mention (hidetag) protection in group",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "antihidetag"
+      ]
+    },
+    {
+      "name": "AntiLink",
+      "description": "Configure AntiLink system to block prohibited links in group",
       "permissions": {
         "subowner": true,
         "admin": true
@@ -95,121 +135,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "antibot",
-        "group",
-        "admin",
-        "subowner"
-      ]
-    },
-    {
-      "name": "AntiBug",
-      "description": "Atur proteksi anti bug, virtex, dan crash WhatsApp di grup",
-      "descriptionId": "Atur proteksi anti bug, virtex, dan crash WhatsApp di grup",
-      "descriptionEn": "Configure anti bug, virtex, and crash protection in group",
-      "aliases": [],
-      "category": "group",
-      "permissions": {
-        "admin": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "requireMedia": [],
-      "tags": [
-        "antibug",
-        "group",
-        "admin",
-        "subowner"
-      ]
-    },
-    {
-      "name": "AntiCall",
-      "description": "Atur penolakan otomatis panggilan telepon grup WhatsApp",
-      "descriptionId": "Atur penolakan otomatis panggilan telepon grup WhatsApp",
-      "descriptionEn": "Configure automatic rejection of WhatsApp group calls",
-      "aliases": [],
-      "category": "group",
-      "permissions": {
-        "admin": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "requireMedia": [],
-      "tags": [
-        "anticall",
-        "group",
-        "admin",
-        "subowner"
-      ]
-    },
-    {
-      "name": "AntiHideTag",
-      "description": "Atur proteksi anti tag/mention tersembunyi (hidetag) di grup",
-      "descriptionId": "Atur proteksi anti tag/mention tersembunyi (hidetag) di grup",
-      "descriptionEn": "Configure anti hidden mention (hidetag) protection in group",
-      "aliases": [],
-      "category": "group",
-      "permissions": {
-        "admin": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "requireMedia": [],
-      "tags": [
-        "antihidetag",
-        "group",
-        "admin",
-        "subowner"
-      ]
-    },
-    {
-      "name": "AntiLink",
-      "description": "Pengaturan sistem AntiLink untuk memblokir tautan terlarang di grup",
-      "descriptionId": "Pengaturan sistem AntiLink untuk memblokir tautan terlarang di grup",
-      "descriptionEn": "Configure AntiLink system to block prohibited links in group",
-      "aliases": [],
-      "category": "group",
-      "permissions": {
-        "admin": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "requireMedia": [],
-      "tags": [
-        "antilink",
-        "group",
-        "admin",
-        "subowner"
+        "antilink"
       ]
     },
     {
       "name": "AntiMedia",
-      "description": "Atur proteksi anti-media grup: stiker, video, viewonce, gambar, vn, dokumen",
-      "descriptionId": "Atur proteksi anti-media grup: stiker, video, viewonce, gambar, vn, dokumen",
-      "descriptionEn": "Configure group anti-media protection: sticker, video, viewonce, image, voice, doc",
-      "aliases": [],
-      "category": "group",
+      "description": "Configure group anti-media protection: sticker, video, viewonce, image, voice, doc",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -220,21 +152,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "antimedia",
-        "group",
-        "admin",
-        "subowner"
+        "antimedia"
       ]
     },
     {
       "name": "AntiNSFWMedia",
-      "description": "Aktifkan filter media NSFW otomatis di grup",
-      "descriptionId": "Aktifkan filter media NSFW otomatis di grup",
-      "descriptionEn": "Enable automatic NSFW media filter in group",
-      "aliases": [],
-      "category": "group",
+      "description": "Enable automatic NSFW media filter in group",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -245,47 +169,32 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "antinsfwmedia",
-        "antinsfw",
-        "group",
-        "admin",
-        "subowner"
-      ]
-    },
-    {
-      "name": "AntiSpam",
-      "description": "Atur proteksi anti spam pesan bertubi-tubi di grup",
-      "descriptionId": "Atur proteksi anti spam pesan bertubi-tubi di grup",
-      "descriptionEn": "Configure anti spam flood protection in group",
-      "aliases": [],
-      "category": "group",
-      "permissions": {
-        "admin": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "requireMedia": [],
-      "tags": [
-        "antispam",
-        "group",
-        "admin",
-        "subowner"
+        "antinsfw"
       ]
     },
     {
       "name": "AntiSW",
-      "description": "Atur anti tag status WhatsApp (SWGC)",
-      "descriptionId": "Atur anti tag status WhatsApp (SWGC)",
-      "descriptionEn": "Configure anti tag status (SWGC)",
-      "aliases": [],
-      "category": "group",
+      "description": "Configure anti tag status (SWGC)",
+      "permissions": {
+        "subowner": true,
+        "admin": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "antisw",
+        "antiswgc"
+      ]
+    },
+    {
+      "name": "AntiSpam",
+      "description": "Configure anti spam flood protection in group",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -296,22 +205,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "antisw",
-        "antiswgc",
-        "group",
-        "admin",
-        "subowner"
+        "antispam"
       ]
     },
     {
       "name": "AntiTagSW",
-      "description": "Atur proteksi anti tag status WhatsApp di grup",
-      "descriptionId": "Atur proteksi anti tag status WhatsApp di grup",
-      "descriptionEn": "Configure anti status tag protection in group",
-      "aliases": [],
-      "category": "group",
+      "description": "Configure anti status tag protection in group",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -322,21 +222,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "antitagsw",
-        "group",
-        "admin",
-        "subowner"
+        "antitagsw"
       ]
     },
     {
       "name": "AntiVO",
-      "description": "Atur proteksi anti pesan sekali lihat (viewonce) di grup",
-      "descriptionId": "Atur proteksi anti pesan sekali lihat (viewonce) di grup",
-      "descriptionEn": "Configure anti view-once message protection in group",
-      "aliases": [],
-      "category": "group",
+      "description": "Configure anti view-once message protection in group",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -347,22 +239,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "antivo",
-        "antiviewonce",
-        "group",
-        "admin",
-        "subowner"
+        "antiviewonce"
       ]
     },
     {
       "name": "Attendance",
-      "description": "Kelola absen grup dan ekspor CSV (admin)",
-      "descriptionId": "Kelola absen grup dan ekspor CSV (admin)",
-      "descriptionEn": "Manage group attendance and CSV exports (admins)",
-      "aliases": [],
-      "category": "group",
+      "description": "Manage group attendance and CSV exports (admins)",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -373,22 +257,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "attendance",
         "absen",
-        "group",
-        "admin",
-        "subowner"
+        "attendance"
       ]
     },
     {
       "name": "AutoRespon",
-      "description": "Kelola sistem autorespon pesan otomatis grup",
-      "descriptionId": "Kelola sistem autorespon pesan otomatis grup",
-      "descriptionEn": "Manage group auto-response system",
-      "aliases": [],
-      "category": "group",
+      "description": "Manage group auto-response system",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -399,22 +275,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "autorespon",
-        "autorespo",
-        "group",
-        "admin",
-        "subowner"
+        "autorespo"
       ]
     },
     {
       "name": "BadWord",
-      "description": "Kelola filter sensor kata terlarang dan sanksi pelanggaran grup",
-      "descriptionId": "Kelola filter sensor kata terlarang dan sanksi pelanggaran grup",
-      "descriptionEn": "Manage group forbidden badwords filter and violation strikes",
-      "aliases": [],
-      "category": "group",
+      "description": "Manage group forbidden badwords filter and violation strikes",
       "permissions": {
         "admin": true,
         "moderator": true
@@ -425,20 +293,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "badword",
-        "group",
-        "admin"
+        "badword"
       ]
     },
     {
       "name": "BanChat",
-      "description": "Memblokir bot dari merespons di grup tertentu secara selektif atau keseluruhan",
-      "descriptionId": "Memblokir bot dari merespons di grup tertentu secara selektif atau keseluruhan",
-      "descriptionEn": "Ban bot from responding in specific groups selectively or globally",
-      "aliases": [],
-      "category": "group",
+      "description": "Ban bot from responding in specific groups selectively or globally",
       "permissions": {
         "hasbot": true
       },
@@ -448,24 +309,18 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "banchat",
         "ban-chat",
+        "banchat",
         "bangc",
         "bangrup",
         "ban-gc",
-        "ban-grup",
-        "group"
+        "ban-grup"
       ]
     },
     {
       "name": "BanList",
-      "description": "Tampilkan daftar entitas yang diban berdasarkan kategori",
-      "descriptionId": "Tampilkan daftar entitas yang diban berdasarkan kategori",
-      "descriptionEn": "Show list of banned entities by category",
-      "aliases": [],
-      "category": "group",
+      "description": "Show list of banned entities by category",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -473,19 +328,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "banlist",
-        "group"
+        "banlist"
       ]
     },
     {
       "name": "BanMember",
-      "description": "Ban anggota dari penggunaan bot di grup ini",
-      "descriptionId": "Ban anggota dari penggunaan bot di grup ini",
-      "descriptionEn": "Ban member from using the bot in this group",
-      "aliases": [],
-      "category": "group",
+      "description": "Ban member from using the bot in this group",
       "permissions": {
         "admin": true,
         "moderator": true
@@ -496,21 +345,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "banmember",
         "ban-member",
-        "group",
-        "admin"
+        "banmember"
       ]
     },
     {
       "name": "CekBotAdmin",
-      "description": "Cek daftar bot yang menjadi admin di grup ini",
-      "descriptionId": "Cek daftar bot yang menjadi admin di grup ini",
-      "descriptionEn": "Check list of bots that are admin in this group",
-      "aliases": [],
-      "category": "group",
+      "description": "Check list of bots that are admin in this group",
       "permissions": {
         "admin": true
       },
@@ -520,21 +362,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "cekbotadmin",
-        "cba",
-        "group",
-        "admin"
+        "cba"
       ]
     },
     {
       "name": "CekTanpaGrup",
-      "description": "Periksa anggota komunitas yang belum bergabung ke grup mana pun",
-      "descriptionId": "Periksa anggota komunitas yang belum bergabung ke grup mana pun",
-      "descriptionEn": "Check community members who have not joined any subgroup",
-      "aliases": [],
-      "category": "group",
+      "description": "Check community members who have not joined any subgroup",
       "permissions": {
         "admin": true
       },
@@ -544,20 +379,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "cektanpagrup",
-        "group",
-        "admin"
+        "cektanpagrup"
       ]
     },
     {
       "name": "Close",
-      "description": "Tutup grup (hanya admin yang dapat mengirim pesan)",
-      "descriptionId": "Tutup grup (hanya admin yang dapat mengirim pesan)",
-      "descriptionEn": "Close group (only admins can send messages)",
-      "aliases": [],
-      "category": "group",
+      "description": "Close group (only admins can send messages)",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -568,22 +396,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "close",
-        "cls",
-        "group",
-        "admin",
-        "subowner"
+        "cls"
       ]
     },
     {
       "name": "Cmd",
-      "description": "Nonaktifkan atau aktifkan perintah bot di grup ini secara satuan maupun massal",
-      "descriptionId": "Nonaktifkan atau aktifkan perintah bot di grup ini secara satuan maupun massal",
-      "descriptionEn": "Disable or enable bot commands in this group individually or in bulk",
-      "aliases": [],
-      "category": "group",
+      "description": "Disable or enable bot commands in this group individually or in bulk",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -594,25 +414,17 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "cmd",
-        "group",
-        "admin",
-        "subowner"
+        "cmd"
       ]
     },
     {
       "name": "DebugPriority",
-      "description": "Debug status prioritas dan routing bot lintas server di grup",
-      "descriptionId": "Debug status prioritas dan routing bot lintas server di grup",
-      "descriptionEn": "Debug bot priority and cross-server routing status in group",
-      "aliases": [],
-      "category": "group",
+      "description": "Debug bot priority and cross-server routing status in group",
       "permissions": {
+        "admin": true,
         "owner": true,
-        "subowner": true,
-        "admin": true
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -620,26 +432,16 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "debugpriority",
         "dbgpriority",
         "cekpriority",
-        "cekprioritas",
-        "group",
-        "owner",
-        "developer",
-        "admin",
-        "subowner"
+        "cekprioritas"
       ]
     },
     {
       "name": "Delete",
-      "description": "Hapus pesan yang dibalas (reply)",
-      "descriptionId": "Hapus pesan yang dibalas (reply)",
-      "descriptionEn": "Delete replied message",
-      "aliases": [],
-      "category": "group",
+      "description": "Delete replied message",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -647,21 +449,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "delete",
         "del",
-        "d",
-        "group"
+        "d"
       ]
     },
     {
       "name": "Demote",
-      "description": "Turunkan admin menjadi anggota biasa",
-      "descriptionId": "Turunkan admin menjadi anggota biasa",
-      "descriptionEn": "Demote an admin to a regular member",
-      "aliases": [],
-      "category": "group",
+      "description": "Demote an admin to a regular member",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -672,21 +468,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "demote",
-        "group",
-        "admin",
-        "subowner"
+        "demote"
       ]
     },
     {
       "name": "Ephemeral",
-      "description": "Atur pesan sementara (ephemeral / hilang otomatis) di grup",
-      "descriptionId": "Atur pesan sementara (ephemeral / hilang otomatis) di grup",
-      "descriptionEn": "Configure disappearing / ephemeral messages in group",
-      "aliases": [],
-      "category": "group",
+      "description": "Configure disappearing / ephemeral messages in group",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -697,21 +485,30 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "ephemeral",
-        "group",
-        "admin",
-        "subowner"
+        "ephemeral"
+      ]
+    },
+    {
+      "name": "GStats",
+      "description": "Show group message statistics this month including top 3 most active members",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "gstats"
       ]
     },
     {
       "name": "GroupID",
-      "description": "Menampilkan ID unik grup obrolan ini",
-      "descriptionId": "Menampilkan ID unik grup obrolan ini",
-      "descriptionEn": "Display unique ID of this group chat",
-      "aliases": [],
-      "category": "group",
+      "description": "Display unique ID of this group chat",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -719,19 +516,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "groupid",
-        "group"
+        "groupid"
       ]
     },
     {
       "name": "GroupInfo",
-      "description": "Lihat informasi dan konfigurasi lengkap grup",
-      "descriptionId": "Lihat informasi dan konfigurasi lengkap grup",
-      "descriptionEn": "View complete group information and configuration",
-      "aliases": [],
-      "category": "group",
+      "description": "View complete group information and configuration",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -739,7 +530,6 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "groupinfo",
         "group",
@@ -748,11 +538,7 @@
     },
     {
       "name": "GroupPrefix",
-      "description": "Mengatur prefix perintah kustom untuk grup",
-      "descriptionId": "Mengatur prefix perintah kustom untuk grup",
-      "descriptionEn": "Set custom command prefix for the group",
-      "aliases": [],
-      "category": "group",
+      "description": "Set custom command prefix for the group",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -763,23 +549,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "groupprefix",
         "group-prefix",
-        "gprefix",
-        "group",
-        "admin",
-        "subowner"
+        "gprefix"
       ]
     },
     {
       "name": "GroupSettings",
-      "description": "Lihat daftar fitur grup dan statusnya",
-      "descriptionId": "Lihat daftar fitur grup dan statusnya",
-      "descriptionEn": "Show group features and their status",
-      "aliases": [],
-      "category": "group",
+      "description": "Show group features and their status",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -787,24 +565,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "groupsettings",
-        "gsettings",
-        "group"
+        "gsettings"
       ]
     },
     {
       "name": "GroupStatus",
-      "description": "Upload media ke status grup",
-      "descriptionId": "Upload media ke status grup",
-      "descriptionEn": "Upload media to group status",
-      "aliases": [
-        "upswgc",
-        "upstatusgrup",
-        "statusgrup"
-      ],
-      "category": "group",
+      "description": "Upload media to group status",
       "permissions": {
         "admin": true
       },
@@ -814,47 +582,16 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "groupstatus",
         "upswgc",
         "upstatusgrup",
-        "statusgrup",
-        "group",
-        "admin"
-      ]
-    },
-    {
-      "name": "GStats",
-      "description": "Menampilkan statistik pesan grup bulan ini termasuk top 3 anggota teraktif",
-      "descriptionId": "Menampilkan statistik pesan grup bulan ini termasuk top 3 anggota teraktif",
-      "descriptionEn": "Show group message statistics this month including top 3 most active members",
-      "aliases": [],
-      "category": "group",
-      "permissions": {
-        "admin": true,
-        "moderator": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "requireMedia": [],
-      "tags": [
-        "gstats",
-        "group",
-        "admin"
+        "statusgrup"
       ]
     },
     {
       "name": "HideTag",
-      "description": "Tag seluruh anggota grup secara tersembunyi",
-      "descriptionId": "Tag seluruh anggota grup secara tersembunyi",
-      "descriptionEn": "Tag all group members invisibly",
-      "aliases": [],
-      "category": "group",
+      "description": "Tag all group members invisibly",
       "permissions": {
         "admin": true,
         "moderator": true
@@ -865,22 +602,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "hidetag",
         "ht",
-        "h",
-        "group",
-        "admin"
+        "h"
       ]
     },
     {
       "name": "Info",
-      "description": "Atur notifikasi perubahan setelan informasi grup WhatsApp",
-      "descriptionId": "Atur notifikasi perubahan setelan informasi grup WhatsApp",
-      "descriptionEn": "Configure group setting change notifications",
-      "aliases": [],
-      "category": "group",
+      "description": "Configure group setting change notifications",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -891,21 +621,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "info",
-        "group",
-        "admin",
-        "subowner"
+        "info"
       ]
     },
     {
       "name": "Jockey",
-      "description": "Bot pemutar musik untuk panggilan suara grup WhatsApp",
-      "descriptionId": "Bot pemutar musik untuk panggilan suara grup WhatsApp",
-      "descriptionEn": "Music player bot for WhatsApp group voice calls",
-      "aliases": [],
-      "category": "group",
+      "description": "Music player bot for WhatsApp group voice calls",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -913,22 +635,16 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "jockey",
-        "group"
+        "jockey"
       ]
     },
     {
       "name": "JoinReq",
-      "description": "Kelola daftar permintaan masuk (join request) anggota grup",
-      "descriptionId": "Kelola daftar permintaan masuk (join request) anggota grup",
-      "descriptionEn": "Manage group member join approval requests",
-      "aliases": [],
-      "category": "group",
+      "description": "Manage group member join approval requests",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -936,27 +652,19 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "joinreq",
-        "group",
-        "admin",
-        "subowner"
+        "joinreq"
       ]
     },
     {
       "name": "LeaveGroup",
-      "description": "Keluarkan bot dari grup atau tinggalkan grup dari jarak jauh",
-      "descriptionId": "Keluarkan bot dari grup atau tinggalkan grup dari jarak jauh",
-      "descriptionEn": "Remove bot from group or leave groups remotely",
-      "aliases": [],
-      "category": "group",
+      "description": "Remove bot from group or leave groups remotely",
       "permissions": {
+        "bot": true,
         "hasbot": true,
         "admin": true,
         "owner": true,
-        "subowner": true,
-        "bot": true
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -964,28 +672,18 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "leavegroup",
         "leave-group",
         "leavegc",
         "leavebot",
         "leave-bot",
-        "leave",
-        "group",
-        "owner",
-        "developer",
-        "admin",
-        "subowner"
+        "leave"
       ]
     },
     {
       "name": "Left",
-      "description": "Atur notifikasi dan cover perpisahan saat ada anggota yang keluar dari grup",
-      "descriptionId": "Atur notifikasi dan cover perpisahan saat ada anggota yang keluar dari grup",
-      "descriptionEn": "Configure goodbye notification and cover when members leave",
-      "aliases": [],
-      "category": "group",
+      "description": "Configure goodbye notification and cover when members leave",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -996,21 +694,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "left",
-        "group",
-        "admin",
-        "subowner"
+        "left"
       ]
     },
     {
       "name": "LinkGC",
-      "description": "Dapatkan tautan undangan grup",
-      "descriptionId": "Dapatkan tautan undangan grup",
-      "descriptionEn": "Get group invite link",
-      "aliases": [],
-      "category": "group",
+      "description": "Get group invite link",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -1021,23 +711,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "linkgc",
         "gruplink",
-        "link",
-        "group",
-        "admin",
-        "subowner"
+        "link"
       ]
     },
     {
       "name": "ListAktif",
-      "description": "Lihat daftar member yang aktif hari ini beserta total pesannya",
-      "descriptionId": "Lihat daftar member yang aktif hari ini beserta total pesannya",
-      "descriptionEn": "View the list of members active today along with their total messages",
-      "aliases": [],
-      "category": "group",
+      "description": "View the list of members active today along with their total messages",
       "permissions": {
         "admin": true,
         "moderator": true
@@ -1048,20 +730,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "listaktif",
-        "group",
-        "admin"
+        "listaktif"
       ]
     },
     {
       "name": "ListBanMember",
-      "description": "Tampilkan daftar anggota yang diblokir bot di grup ini",
-      "descriptionId": "Tampilkan daftar anggota yang diblokir bot di grup ini",
-      "descriptionEn": "Show list of members banned by bot in this group",
-      "aliases": [],
-      "category": "group",
+      "description": "Show list of members banned by bot in this group",
       "permissions": {
         "admin": true,
         "moderator": true
@@ -1072,21 +747,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "listbanmember",
-        "banmemberlist",
-        "group",
-        "admin"
+        "banmemberlist"
       ]
     },
     {
       "name": "ListMute",
-      "description": "Lihat daftar anggota yang sedang dimute di grup dan unmute secara interaktif",
-      "descriptionId": "Lihat daftar anggota yang sedang dimute di grup dan unmute secara interaktif",
-      "descriptionEn": "View list of currently muted members in the group and unmute interactively",
-      "aliases": [],
-      "category": "group",
+      "description": "View list of currently muted members in the group and unmute interactively",
       "permissions": {
         "admin": true,
         "moderator": true
@@ -1097,21 +765,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "listmute",
-        "mutelist",
-        "group",
-        "admin"
+        "mutelist"
       ]
     },
     {
       "name": "ListTimezone",
-      "description": "Lihat daftar zona waktu populer yang tersedia",
-      "descriptionId": "Lihat daftar zona waktu populer yang tersedia",
-      "descriptionEn": "View list of popular available timezones",
-      "aliases": [],
-      "category": "group",
+      "description": "View list of popular available timezones",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -1119,21 +780,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "listtimezone",
         "timezones",
-        "tzlist",
-        "group"
+        "tzlist"
       ]
     },
     {
       "name": "ListWarning",
-      "description": "Lihat seluruh anggota yang memiliki peringatan aktif di grup",
-      "descriptionId": "Lihat seluruh anggota yang memiliki peringatan aktif di grup",
-      "descriptionEn": "View all members with active warnings in the group",
-      "aliases": [],
-      "category": "group",
+      "description": "View all members with active warnings in the group",
       "permissions": {
         "admin": true,
         "moderator": true
@@ -1144,72 +799,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "listwarning",
-        "warninglist",
-        "group",
-        "admin"
+        "warninglist"
       ]
     },
     {
       "name": "MuteMember",
-      "description": "Mute anggota tertentu di grup agar pesannya dihapus otomatis",
-      "descriptionId": "Mute anggota tertentu di grup agar pesannya dihapus otomatis",
-      "descriptionEn": "Mute a specific member in the group so messages are auto-deleted",
-      "aliases": [],
-      "category": "group",
-      "permissions": {
-        "moderator": true,
-        "admin": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "requireMedia": [],
-      "tags": [
-        "mutemember",
-        "mute-member",
-        "group",
-        "admin"
-      ]
-    },
-    {
-      "name": "Open",
-      "description": "Buka grup (semua anggota dapat mengirim pesan)",
-      "descriptionId": "Buka grup (semua anggota dapat mengirim pesan)",
-      "descriptionEn": "Open group (all members can send messages)",
-      "aliases": [],
-      "category": "group",
-      "permissions": {
-        "admin": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "requireMedia": [],
-      "tags": [
-        "open",
-        "opn",
-        "group",
-        "admin",
-        "subowner"
-      ]
-    },
-    {
-      "name": "PinMsg",
-      "description": "Sematkan pesan di grup selama 1 hari, 7 hari, atau 30 hari",
-      "descriptionId": "Sematkan pesan di grup selama 1 hari, 7 hari, atau 30 hari",
-      "descriptionEn": "Pin message in group for 1 day, 7 days, or 30 days",
-      "aliases": [],
-      "category": "group",
+      "description": "Mute a specific member in the group so messages are auto-deleted",
       "permissions": {
         "admin": true,
         "moderator": true
@@ -1220,23 +817,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "pinmsg",
-        "pinchat",
-        "semat",
-        "sematkan",
-        "group",
-        "admin"
+        "mutemember",
+        "mute-member"
       ]
     },
     {
-      "name": "Present",
-      "description": "Catat hadir, izin, atau sakit sekali per sesi",
-      "descriptionId": "Catat hadir, izin, atau sakit sekali per sesi",
-      "descriptionEn": "Check in as present, excused, or sick once per session",
-      "aliases": [],
-      "category": "group",
+      "name": "NSFW",
+      "description": "Toggle NSFW mode (in group: admin only, in private: bot only)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -1244,20 +832,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "present",
-        "hadir",
-        "group"
+        "nsfw",
+        "nsfwmode"
       ]
     },
     {
-      "name": "Promote",
-      "description": "Angkat anggota menjadi admin grup",
-      "descriptionId": "Angkat anggota menjadi admin grup",
-      "descriptionEn": "Promote a group member to admin",
-      "aliases": [],
-      "category": "group",
+      "name": "Open",
+      "description": "Open group (all members can send messages)",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -1268,45 +850,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "promote",
-        "group",
-        "admin",
-        "subowner"
+        "open",
+        "opn"
       ]
     },
     {
-      "name": "Remove",
-      "description": "Keluarkan anggota tertentu dari obrolan grup",
-      "descriptionId": "Keluarkan anggota tertentu dari obrolan grup",
-      "descriptionEn": "Remove a specific member from the group chat",
-      "aliases": [],
-      "category": "group",
-      "permissions": {
-        "admin": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "requireMedia": [],
-      "tags": [
-        "remove",
-        "dor",
-        "group",
-        "admin"
-      ]
-    },
-    {
-      "name": "ResetWarn",
-      "description": "Reset seluruh catatan peringatan anggota",
-      "descriptionId": "Reset seluruh catatan peringatan anggota",
-      "descriptionEn": "Reset all warnings for a group member",
-      "aliases": [],
-      "category": "group",
+      "name": "PinMsg",
+      "description": "Pin message in group for 1 day, 7 days, or 30 days",
       "permissions": {
         "admin": true,
         "moderator": true
@@ -1317,21 +868,83 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
+      "tags": [
+        "pinmsg",
+        "pinchat",
+        "semat",
+        "sematkan"
+      ]
+    },
+    {
+      "name": "Present",
+      "description": "Check in as present, excused, or sick once per session",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "hadir",
+        "present"
+      ]
+    },
+    {
+      "name": "Promote",
+      "description": "Promote a group member to admin",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "promote"
+      ]
+    },
+    {
+      "name": "Remove",
+      "description": "Remove a specific member from the group chat",
+      "permissions": {
+        "admin": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "remove",
+        "dor"
+      ]
+    },
+    {
+      "name": "ResetWarn",
+      "description": "Reset all warnings for a group member",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
       "tags": [
         "resetwarn",
-        "clearwarn",
-        "group",
-        "admin"
+        "clearwarn"
       ]
     },
     {
       "name": "Revoke",
-      "description": "Reset tautan undangan grup dan buat tautan baru",
-      "descriptionId": "Reset tautan undangan grup dan buat tautan baru",
-      "descriptionEn": "Reset group invite link and generate a new one",
-      "aliases": [],
-      "category": "group",
+      "description": "Reset group invite link and generate a new one",
       "permissions": {
         "subowner": true,
         "admin": true
@@ -1342,23 +955,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "revoke",
         "newlinkgc",
-        "resetlink",
-        "group",
-        "admin",
-        "subowner"
+        "resetlink"
       ]
     },
     {
       "name": "ScheduleGroup",
-      "description": "Sistem penjadwalan terpadu grup (buka/tutup chat, pesan rutin, hidetag, reset link)",
-      "descriptionId": "Sistem penjadwalan terpadu grup (buka/tutup chat, pesan rutin, hidetag, reset link)",
-      "descriptionEn": "Unified group scheduling system (open/close chat, reminders, hidetag, reset link)",
-      "aliases": [],
-      "category": "group",
+      "description": "Unified group scheduling system (open/close chat, reminders, hidetag, reset link)",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -1369,7 +974,6 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "schedulegroup",
         "groupschedule",
@@ -1378,19 +982,12 @@
         "jadwalgc",
         "setschedule",
         "reminder",
-        "autoopen",
-        "group",
-        "admin",
-        "subowner"
+        "autoopen"
       ]
     },
     {
       "name": "SetDesc",
-      "description": "Ubah deskripsi obrolan grup",
-      "descriptionId": "Ubah deskripsi obrolan grup",
-      "descriptionEn": "Change group chat description",
-      "aliases": [],
-      "category": "group",
+      "description": "Change group chat description",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -1401,202 +998,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "setdesc",
-        "group",
-        "admin",
-        "subowner"
+        "setdesc"
       ]
     },
     {
       "name": "SetGoodbye",
-      "description": "Atur pesan atau cover goodbye grup",
-      "descriptionId": "Atur pesan atau cover goodbye grup",
-      "descriptionEn": "Set group goodbye message or cover",
-      "aliases": [],
-      "category": "group",
-      "permissions": {
-        "admin": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "requireMedia": [],
-      "tags": [
-        "setgoodbye",
-        "set-goodbye",
-        "group",
-        "admin",
-        "subowner"
-      ]
-    },
-    {
-      "name": "SetLang",
-      "description": "Mengatur bahasa bot di grup (khusus admin) atau chat pribadi",
-      "descriptionId": "Mengatur bahasa bot di grup (khusus admin) atau chat pribadi",
-      "descriptionEn": "Set bot language for the group (admin only) or private chat",
-      "aliases": [],
-      "category": "group",
-      "permissions": {
-        "admin": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "requireMedia": [],
-      "tags": [
-        "setlang",
-        "set-lang",
-        "set-language",
-        "setlanguage",
-        "group",
-        "admin"
-      ]
-    },
-    {
-      "name": "SetPPGC",
-      "description": "Mengubah foto profil obrolan grup",
-      "descriptionId": "Mengubah foto profil obrolan grup",
-      "descriptionEn": "Set group chat profile picture",
-      "aliases": [],
-      "category": "group",
-      "permissions": {
-        "admin": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "requireMedia": [],
-      "tags": [
-        "setppgc",
-        "setgrouppp",
-        "setppgroup",
-        "set-group-pict",
-        "setgrouppict",
-        "group",
-        "admin",
-        "subowner"
-      ]
-    },
-    {
-      "name": "SetSubject",
-      "description": "Ubah nama obrolan grup",
-      "descriptionId": "Ubah nama obrolan grup",
-      "descriptionEn": "Change group chat name",
-      "aliases": [],
-      "category": "group",
-      "permissions": {
-        "admin": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "requireMedia": [],
-      "tags": [
-        "setsubject",
-        "group",
-        "admin",
-        "subowner"
-      ]
-    },
-    {
-      "name": "SetTimezone",
-      "description": "Set zona waktu grup untuk keperluan jadwal dan aktivitas",
-      "descriptionId": "Set zona waktu grup untuk keperluan jadwal dan aktivitas",
-      "descriptionEn": "Set group timezone for schedule and activity tracking",
-      "aliases": [],
-      "category": "group",
-      "permissions": {
-        "admin": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "requireMedia": [],
-      "tags": [
-        "settimezone",
-        "group",
-        "admin",
-        "subowner"
-      ]
-    },
-    {
-      "name": "SetWelcome",
-      "description": "Atur pesan atau cover welcome grup",
-      "descriptionId": "Atur pesan atau cover welcome grup",
-      "descriptionEn": "Set group welcome message or cover",
-      "aliases": [],
-      "category": "group",
-      "permissions": {
-        "admin": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "requireMedia": [],
-      "tags": [
-        "setwelcome",
-        "set-welcome",
-        "group",
-        "admin",
-        "subowner"
-      ]
-    },
-    {
-      "name": "Sider",
-      "description": "Manajemen anggota pasif (sider) dan pembersihan grup",
-      "descriptionId": "Manajemen anggota pasif (sider) dan pembersihan grup",
-      "descriptionEn": "Manage inactive members (siders) and group cleanup",
-      "aliases": [],
-      "category": "group",
-      "permissions": {
-        "moderator": true,
-        "admin": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "requireMedia": [],
-      "tags": [
-        "sider",
-        "group",
-        "admin"
-      ]
-    },
-    {
-      "name": "SimulateGoodbye",
-      "description": "Simulasi pesan goodbye grup dengan data kamu sebagai contoh",
-      "descriptionId": "Simulasi pesan goodbye grup dengan data kamu sebagai contoh",
-      "descriptionEn": "Simulate group goodbye message using your data as example",
-      "aliases": [],
-      "category": "group",
+      "description": "Set group goodbye message or cover",
       "permissions": {
         "subowner": true,
         "admin": true
@@ -1607,22 +1015,31 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "simulategoodbye",
-        "previewgoodbye",
-        "group",
-        "admin",
-        "subowner"
+        "set-goodbye",
+        "setgoodbye"
       ]
     },
     {
-      "name": "SimulateWelcome",
-      "description": "Simulasi pesan welcome grup dengan data kamu sebagai contoh",
-      "descriptionId": "Simulasi pesan welcome grup dengan data kamu sebagai contoh",
-      "descriptionEn": "Simulate group welcome message using your data as example",
-      "aliases": [],
-      "category": "group",
+      "name": "SetLang",
+      "description": "Set bot language for the group (admin only) or private chat",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "set-lang",
+        "setlang",
+        "set-language",
+        "setlanguage"
+      ]
+    },
+    {
+      "name": "SetPPGC",
+      "description": "Set group chat profile picture",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -1633,22 +1050,122 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
+      "tags": [
+        "setppgc",
+        "setgrouppp",
+        "setppgroup",
+        "set-group-pict",
+        "setgrouppict"
+      ]
+    },
+    {
+      "name": "SetSubject",
+      "description": "Change group chat name",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "setsubject"
+      ]
+    },
+    {
+      "name": "SetTimezone",
+      "description": "Set group timezone for schedule and activity tracking",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "settimezone"
+      ]
+    },
+    {
+      "name": "SetWelcome",
+      "description": "Set group welcome message or cover",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "set-welcome",
+        "setwelcome"
+      ]
+    },
+    {
+      "name": "Sider",
+      "description": "Manage inactive members (siders) and group cleanup",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "sider"
+      ]
+    },
+    {
+      "name": "SimulateGoodbye",
+      "description": "Simulate group goodbye message using your data as example",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "simulategoodbye",
+        "previewgoodbye"
+      ]
+    },
+    {
+      "name": "SimulateWelcome",
+      "description": "Simulate group welcome message using your data as example",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
       "tags": [
         "simulatewelcome",
-        "previewwelcome",
-        "group",
-        "admin",
-        "subowner"
+        "previewwelcome"
       ]
     },
     {
       "name": "SyncGroup",
-      "description": "Hapus cache grup agar data diperbarui langsung dari WhatsApp",
-      "descriptionId": "Hapus cache grup agar data diperbarui langsung dari WhatsApp",
-      "descriptionEn": "Clear group cache to refresh data directly from WhatsApp",
-      "aliases": [],
-      "category": "group",
+      "description": "Clear group cache to refresh data directly from WhatsApp",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -1656,20 +1173,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "syncgroup",
         "sync-group",
-        "group"
+        "syncgroup"
       ]
     },
     {
       "name": "TagAll",
-      "description": "Tag semua anggota grup dikelompokkan berdasarkan peran",
-      "descriptionId": "Tag semua anggota grup dikelompokkan berdasarkan peran",
-      "descriptionEn": "Tag all group members grouped by role",
-      "aliases": [],
-      "category": "group",
+      "description": "Tag all group members grouped by role",
       "permissions": {
         "admin": true,
         "moderator": true
@@ -1680,21 +1191,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "tagall",
-        "tag",
-        "group",
-        "admin"
+        "tag"
       ]
     },
     {
       "name": "TopActive",
-      "description": "Menampilkan anggota paling aktif di grup berdasarkan jumlah pesan",
-      "descriptionId": "Menampilkan anggota paling aktif di grup berdasarkan jumlah pesan",
-      "descriptionEn": "Show most active members in the group based on message count",
-      "aliases": [],
-      "category": "group",
+      "description": "Show most active members in the group based on message count",
       "permissions": {
         "admin": true,
         "moderator": true
@@ -1705,22 +1209,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "topactive",
         "top-active",
         "topaktif",
-        "group",
-        "admin"
+        "topactive"
       ]
     },
     {
       "name": "UnbanChat",
-      "description": "Mencabut blokir bot pada grup tertentu secara selektif atau keseluruhan",
-      "descriptionId": "Mencabut blokir bot pada grup tertentu secara selektif atau keseluruhan",
-      "descriptionEn": "Unban bot response in specific groups selectively or globally",
-      "aliases": [],
-      "category": "group",
+      "description": "Unban bot response in specific groups selectively or globally",
       "permissions": {
         "hasbot": true
       },
@@ -1730,49 +1227,18 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "unbanchat",
         "unban-chat",
+        "unbanchat",
         "unbangc",
         "unbangrup",
         "unban-gc",
-        "unban-grup",
-        "group"
+        "unban-grup"
       ]
     },
     {
       "name": "UnbanMember",
-      "description": "Cabut ban bot anggota di grup ini",
-      "descriptionId": "Cabut ban bot anggota di grup ini",
-      "descriptionEn": "Unban member from the bot in this group",
-      "aliases": [],
-      "category": "group",
-      "permissions": {
-        "moderator": true,
-        "admin": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "requireMedia": [],
-      "tags": [
-        "unbanmember",
-        "unban-member",
-        "group",
-        "admin"
-      ]
-    },
-    {
-      "name": "UnmuteMember",
-      "description": "Unmute anggota tertentu di grup",
-      "descriptionId": "Unmute anggota tertentu di grup",
-      "descriptionEn": "Unmute a specific member in the group",
-      "aliases": [],
-      "category": "group",
+      "description": "Unban member from the bot in this group",
       "permissions": {
         "admin": true,
         "moderator": true
@@ -1783,24 +1249,35 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
+      "tags": [
+        "unban-member",
+        "unbanmember"
+      ]
+    },
+    {
+      "name": "UnmuteMember",
+      "description": "Unmute a specific member in the group",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
       "tags": [
         "unmutemember",
-        "unmute-member",
-        "group",
-        "admin"
+        "unmute-member"
       ]
     },
     {
       "name": "UnpinMsg",
-      "description": "Lepas sematan pesan di grup",
-      "descriptionId": "Lepas sematan pesan di grup",
-      "descriptionEn": "Unpin message in group",
-      "aliases": [],
-      "category": "group",
+      "description": "Unpin message in group",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -1808,26 +1285,19 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "unpinmsg",
         "unpin",
         "unpinchat",
-        "lepassemat",
-        "group",
-        "admin"
+        "lepassemat"
       ]
     },
     {
       "name": "Warn",
-      "description": "Beri peringatan kepada anggota grup yang melanggar aturan",
-      "descriptionId": "Beri peringatan kepada anggota grup yang melanggar aturan",
-      "descriptionEn": "Issue a formal warning to a rule-breaking group member",
-      "aliases": [],
-      "category": "group",
+      "description": "Issue a formal warning to a rule-breaking group member",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -1835,20 +1305,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "warn",
-        "group",
-        "admin"
+        "warn"
       ]
     },
     {
       "name": "Warnings",
-      "description": "Lihat riwayat peringatan anggota di grup",
-      "descriptionId": "Lihat riwayat peringatan anggota di grup",
-      "descriptionEn": "View member's warning history in the group",
-      "aliases": [],
-      "category": "group",
+      "description": "View member's warning history in the group",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -1856,20 +1319,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "warnings",
-        "warnlist",
-        "group"
+        "warnlist"
       ]
     },
     {
       "name": "Welcome",
-      "description": "Atur pesan sambutan dan cover welcome untuk anggota baru yang masuk ke grup",
-      "descriptionId": "Atur pesan sambutan dan cover welcome untuk anggota baru yang masuk ke grup",
-      "descriptionEn": "Configure welcome message and cover for new group members",
-      "aliases": [],
-      "category": "group",
+      "description": "Configure welcome message and cover for new group members",
       "permissions": {
         "admin": true,
         "subowner": true
@@ -1880,12 +1337,8 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "welcome",
-        "group",
-        "admin",
-        "subowner"
+        "welcome"
       ]
     }
   ]

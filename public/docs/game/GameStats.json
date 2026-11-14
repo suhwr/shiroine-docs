@@ -21,8 +21,8 @@
     "statsgame"
   ],
   "description": {
-    "id": "Lihat statistik game personal",
-    "en": "View personal game statistics"
+    "en": "View personal game statistics",
+    "id": "Lihat statistik game personal"
   },
   "usage": "GameStats",
   "examples": [
@@ -72,5 +72,5 @@
     "file": "internal/plugins/game",
     "line": 144
   },
-  "lastUpdated": "2026-11-13T08:32:52Z"
+  "lastUpdated": "2026-11-14T00:26:24Z"
 }

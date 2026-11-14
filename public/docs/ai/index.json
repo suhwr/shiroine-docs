@@ -2,11 +2,7 @@
   "commands": [
     {
       "name": "AI",
-      "description": "Berbicara dengan AI menggunakan karakter yang dipilih",
-      "descriptionId": "Berbicara dengan AI menggunakan karakter yang dipilih",
-      "descriptionEn": "Talk with AI using selected character",
-      "aliases": [],
-      "category": "ai",
+      "description": "Talk with AI using selected character",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -14,20 +10,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "ai",
-        "limit-ai",
-        "limit ai"
+        "ai"
       ]
     },
     {
       "name": "AIChara",
-      "description": "Melihat daftar karakter AI persona dan mengganti karakter AI yang aktif",
-      "descriptionId": "Melihat daftar karakter AI persona dan mengganti karakter AI yang aktif",
-      "descriptionEn": "View available AI personas and change the active AI character",
-      "aliases": [],
-      "category": "ai",
+      "description": "View available AI personas and change the active AI character",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -35,21 +24,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "aichara",
-        "ai",
-        "limit-ai",
-        "limit ai"
+        "aichara"
       ]
     },
     {
       "name": "AIMemory",
-      "description": "Melihat atau menghapus ingatan jangka panjang (Long-Term Memory / LTM) yang diserap AI tentangmu",
-      "descriptionId": "Melihat atau menghapus ingatan jangka panjang (Long-Term Memory / LTM) yang diserap AI tentangmu",
-      "descriptionEn": "View or clear long-term memories (LTM) absorbed by AI about you",
-      "aliases": [],
-      "category": "ai",
+      "description": "View or clear long-term memories (LTM) absorbed by AI about you",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -57,54 +38,32 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "aimemory",
         "ingatan",
-        "aimem",
-        "ai",
-        "limit-ai",
-        "limit ai"
+        "aimem"
       ]
     },
     {
       "name": "Claude",
-      "description": "Chat dengan Claude Sonnet (penalaran mendalam, penulisan kreatif & analisis teks, khusus Premium)",
-      "descriptionId": "Chat dengan Claude Sonnet (penalaran mendalam, penulisan kreatif & analisis teks, khusus Premium)",
-      "descriptionEn": "Chat with Claude Sonnet (deep reasoning, creative writing & text analysis, Premium only)",
-      "aliases": [
-        "anthropic",
-        "sonnet",
-        "claudeai"
-      ],
-      "category": "ai",
+      "description": "Chat with Claude Sonnet (deep reasoning, creative writing & text analysis, Premium only)",
       "permissions": {},
-      "premiumOnly": "user",
+      "premiumOnly": "",
       "limitCost": 1,
       "limitType": "ai",
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "claude",
         "anthropic",
         "sonnet",
-        "claudeai",
-        "ai",
-        "premium",
-        "vip",
-        "limit-ai",
-        "limit ai"
+        "claudeai"
       ]
     },
     {
       "name": "ComfyUI",
-      "description": "Generate gambar anime modern DiT via ComfyUI (Nova Anime, Anima Base, Silvermoon. Support presets, img2img, & turbo).",
-      "descriptionId": "Generate gambar anime modern DiT via ComfyUI (Nova Anime, Anima Base, Silvermoon. Support presets, img2img, & turbo).",
-      "descriptionEn": "Generate modern DiT anime images via ComfyUI (Nova Anime, Anima Base, Silvermoon. Supports presets, img2img, & turbo).",
-      "aliases": [],
-      "category": "ai",
+      "description": "Generate modern DiT anime images via ComfyUI (Nova Anime, Anima Base, Silvermoon. Supports presets, img2img, & turbo).",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -112,22 +71,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "comfyui",
         "cui",
-        "ai",
-        "limit-ai",
-        "limit ai"
+        "comfyui"
       ]
     },
     {
       "name": "DeepSeek",
-      "description": "Chat dengan DeepSeek tanpa persona (hanya teks)",
-      "descriptionId": "Chat dengan DeepSeek tanpa persona (hanya teks)",
-      "descriptionEn": "Chat with DeepSeek without persona (text only)",
-      "aliases": [],
-      "category": "ai",
+      "description": "Chat with DeepSeek without persona (text only)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 2,
@@ -135,21 +86,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "deepseek",
-        "ai",
-        "limit-ai",
-        "limit ai"
+        "deepseek"
       ]
     },
     {
-      "name": "Gemini",
-      "description": "Chat dengan Gemini Flash tanpa persona (mendukung teks & media, khusus user/grup premium)",
-      "descriptionId": "Chat dengan Gemini Flash tanpa persona (mendukung teks & media, khusus user/grup premium)",
-      "descriptionEn": "Chat with Gemini Flash without persona (supports text & media, premium user/group only)",
-      "aliases": [],
-      "category": "ai",
+      "name": "GPT",
+      "description": "Chat with GPT-5 Nano without persona (supports text & image, premium only)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -157,45 +100,27 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "gemini",
-        "ai",
-        "limit-ai",
-        "limit ai"
+        "gpt"
       ]
     },
     {
-      "name": "GPT",
-      "description": "Chat dengan GPT-5 Nano tanpa persona (mendukung teks & gambar, khusus premium)",
-      "descriptionId": "Chat dengan GPT-5 Nano tanpa persona (mendukung teks & gambar, khusus premium)",
-      "descriptionEn": "Chat with GPT-5 Nano without persona (supports text & image, premium only)",
-      "aliases": [],
-      "category": "ai",
+      "name": "Gemini",
+      "description": "Chat with Gemini Flash without persona (supports text & media, premium user/group only)",
       "permissions": {},
-      "premiumOnly": "user",
+      "premiumOnly": "",
       "limitCost": 1,
       "limitType": "ai",
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "gpt",
-        "ai",
-        "premium",
-        "vip",
-        "limit-ai",
-        "limit ai"
+        "gemini"
       ]
     },
     {
       "name": "Imagine",
-      "description": "Hasilkan gambar AI via Flare 2.5, Grok, Nano Banana (Khusus User Premium, Biaya: 3-5 Limit AI).",
-      "descriptionId": "Hasilkan gambar AI via Flare 2.5, Grok, Nano Banana (Khusus User Premium, Biaya: 3-5 Limit AI).",
-      "descriptionEn": "Generate AI images via Flare 2.5, Grok, Nano Banana (Premium Users Only, Cost: 3-5 AI Limits).",
-      "aliases": [],
-      "category": "ai",
+      "description": "Generate AI images via Flare 2.5, Grok, Nano Banana (Premium Users Only, Cost: 3-5 AI Limits).",
       "permissions": {},
       "premiumOnly": "user",
       "limitCost": 0,
@@ -203,28 +128,18 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "imagine",
         "txt2img",
         "aiimg",
         "imagegen",
         "draw",
-        "buatgambar",
-        "ai",
-        "premium",
-        "vip",
-        "limit-ai",
-        "limit ai"
+        "buatgambar"
       ]
     },
     {
       "name": "JadiAnime",
-      "description": "Ubah foto menjadi gaya anime 2D atau Arcane menggunakan AI (Free: 5 AI limit, Premium: 3 AI limit)",
-      "descriptionId": "Ubah foto menjadi gaya anime 2D atau Arcane menggunakan AI (Free: 5 AI limit, Premium: 3 AI limit)",
-      "descriptionEn": "Convert photo to 2D anime or Arcane style using AI (Free: 5 AI limit, Premium: 3 AI limit)",
-      "aliases": [],
-      "category": "ai",
+      "description": "Convert photo to 2D anime or Arcane style using AI (Free: 5 AI limit, Premium: 3 AI limit)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -232,26 +147,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "jadianime",
-        "toanime",
-        "ai",
-        "limit-ai",
-        "limit ai"
+        "toanime"
       ]
     },
     {
       "name": "JobStatus",
-      "description": "Periksa status pekerjaan video AI yang sedang diproses",
-      "descriptionId": "Periksa status pekerjaan video AI yang sedang diproses",
-      "descriptionEn": "Check the status of an ongoing AI video job",
-      "aliases": [
-        "jobid",
-        "getjob",
-        "cekjob"
-      ],
-      "category": "ai",
+      "description": "Check the status of an ongoing AI video job",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -259,24 +162,16 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "jobstatus",
         "jobid",
         "getjob",
-        "cekjob",
-        "ai",
-        "limit-ai",
-        "limit ai"
+        "cekjob"
       ]
     },
     {
       "name": "LLM",
-      "description": "Pilih router AI sesuai kebutuhan dan keunggulannya",
-      "descriptionId": "Pilih router AI sesuai kebutuhan dan keunggulannya",
-      "descriptionEn": "Select AI router based on capabilities and advantages",
-      "aliases": [],
-      "category": "ai",
+      "description": "Select AI router based on capabilities and advantages",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -284,25 +179,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "llm",
-        "ai",
-        "limit-ai",
-        "limit ai"
+        "llm"
       ]
     },
     {
       "name": "LLMStats",
-      "description": "Lihat metrik penggunaan token obrolan saat ini, breakdown input/output, router model, status memori, dan kuota limit (terpisah untuk obrolan pribadi & grup)",
-      "descriptionId": "Lihat metrik penggunaan token obrolan saat ini, breakdown input/output, router model, status memori, dan kuota limit (terpisah untuk obrolan pribadi & grup)",
-      "descriptionEn": "View real-time chat token usage metrics, input/output breakdown, router model, memory status, and quota limit (separated for private & group chats)",
-      "aliases": [
-        "aistats",
-        "aimodel",
-        "aistatus"
-      ],
-      "category": "ai",
+      "description": "View real-time chat token usage metrics, input/output breakdown, router model, memory status, and quota limit (separated for private & group chats)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -310,30 +193,16 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "llmstats",
         "aistats",
         "aimodel",
-        "aistatus",
-        "ai",
-        "limit-ai",
-        "limit ai"
+        "aistatus"
       ]
     },
     {
       "name": "ResetAI",
-      "description": "Hapus riwayat obrolan AI fleksibel: per karakter, rewind N pesan terakhir, atau reset total semua karakter (otomatis mendeteksi sesi pribadi & grup)",
-      "descriptionId": "Hapus riwayat obrolan AI fleksibel: per karakter, rewind N pesan terakhir, atau reset total semua karakter (otomatis mendeteksi sesi pribadi & grup)",
-      "descriptionEn": "Flexible AI chat reset: per character, rewind last N messages, or full wipe across all characters (auto-detects private & group sessions)",
-      "aliases": [
-        "reset-ai",
-        "resetaigroup",
-        "resetaigrup",
-        "aireset",
-        "clearaichat"
-      ],
-      "category": "ai",
+      "description": "Flexible AI chat reset: per character, rewind last N messages, or full wipe across all characters (auto-detects private & group sessions)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -341,26 +210,18 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "resetai",
         "reset-ai",
         "resetaigroup",
         "resetaigrup",
         "aireset",
-        "clearaichat",
-        "ai",
-        "limit-ai",
-        "limit ai"
+        "clearaichat"
       ]
     },
     {
       "name": "Txt2Vid",
-      "description": "Hasilkan video AI (Google Veo, MiniMax, Wan, SeaDance, Grok)",
-      "descriptionId": "Hasilkan video AI (Google Veo, MiniMax, Wan, SeaDance, Grok)",
-      "descriptionEn": "Generate AI videos (Google Veo, MiniMax, Wan, SeaDance, Grok)",
-      "aliases": [],
-      "category": "ai",
+      "description": "Generate AI videos (Google Veo, MiniMax, Wan, SeaDance, Grok)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -368,7 +229,6 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "txt2vid",
         "video",
@@ -380,19 +240,12 @@
         "veo",
         "minimax",
         "wan",
-        "seedance",
-        "ai",
-        "limit-ai",
-        "limit ai"
+        "seedance"
       ]
     },
     {
       "name": "VideoHD",
-      "description": "Tingkatkan resolusi & kejernihan video dengan AI RunPod (Real-CUGAN Anime & FlashVSR: 720P, 1080P & 60FPS)",
-      "descriptionId": "Tingkatkan resolusi & kejernihan video dengan AI RunPod (Real-CUGAN Anime & FlashVSR: 720P, 1080P & 60FPS)",
-      "descriptionEn": "Enhance video resolution and clarity with RunPod AI (Real-CUGAN Anime & FlashVSR: 720P, 1080P & 60FPS)",
-      "aliases": [],
-      "category": "ai",
+      "description": "Enhance video resolution and clarity with RunPod AI (Real-CUGAN Anime & FlashVSR: 720P, 1080P & 60FPS)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -400,17 +253,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "videohd",
         "hdvid",
         "vhd",
         "upscalevid",
         "upscalevideo",
-        "hdvideo",
-        "ai",
-        "limit-ai",
-        "limit ai"
+        "hdvideo"
       ]
     }
   ]

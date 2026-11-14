@@ -2,11 +2,7 @@
   "commands": [
     {
       "name": "Google",
-      "description": "Cari informasi menggunakan Google",
-      "descriptionId": "Cari informasi menggunakan Google",
-      "descriptionEn": "Search for information using Google",
-      "aliases": [],
-      "category": "search",
+      "description": "Search for information using Google",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -14,23 +10,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "google",
         "gsearch",
-        "cari",
-        "search",
-        "limit",
-        "limit harian"
+        "cari"
       ]
     },
     {
       "name": "JadwalSholat",
-      "description": "Lihat jadwal sholat hari ini berdasarkan kota",
-      "descriptionId": "Lihat jadwal sholat hari ini berdasarkan kota",
-      "descriptionEn": "View today's prayer schedule by city",
-      "aliases": [],
-      "category": "search",
+      "description": "View today's prayer schedule by city",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -38,19 +26,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "jadwalsholat",
-        "search"
+        "jadwalsholat"
       ]
     },
     {
       "name": "Lyric",
-      "description": "Mencari lirik lagu lengkap berdasarkan judul musik atau penggalan lirik",
-      "descriptionId": "Mencari lirik lagu lengkap berdasarkan judul musik atau penggalan lirik",
-      "descriptionEn": "Search full song lyrics by song title, artist, or lyric phrase",
-      "aliases": [],
-      "category": "search",
+      "description": "Search full song lyrics by song title, artist, or lyric phrase",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -58,21 +40,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "lyric",
         "lirik",
-        "lyrics",
-        "search"
+        "lyrics"
       ]
     },
     {
       "name": "Pinterest",
-      "description": "Cari dan download gambar dari Pinterest",
-      "descriptionId": "Cari dan download gambar dari Pinterest",
-      "descriptionEn": "Search and download images from Pinterest",
-      "aliases": [],
-      "category": "search",
+      "description": "Search and download images from Pinterest",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -80,20 +56,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "pinterest",
-        "pin",
-        "search"
+        "pin"
       ]
     },
     {
       "name": "PinterestVideo",
-      "description": "Cari dan download video dari Pinterest",
-      "descriptionId": "Cari dan download video dari Pinterest",
-      "descriptionEn": "Search and download videos from Pinterest",
-      "aliases": [],
-      "category": "search",
+      "description": "Search and download videos from Pinterest",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -101,20 +71,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "pinterestvideo",
-        "pinvid",
-        "search"
+        "pinvid"
       ]
     },
     {
       "name": "Wallhaven",
-      "description": "Cari dan download wallpaper dari Wallhaven",
-      "descriptionId": "Cari dan download wallpaper dari Wallhaven",
-      "descriptionEn": "Search and download wallpapers from Wallhaven",
-      "aliases": [],
-      "category": "search",
+      "description": "Search and download wallpapers from Wallhaven",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -122,13 +86,39 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "wallhaven",
-        "wh",
-        "search",
-        "limit",
-        "limit harian"
+        "wh"
+      ]
+    },
+    {
+      "name": "YtMusicSearch",
+      "description": "Search track list on YouTube Music by title or artist",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "ytms",
+        "ytmusicsearch"
+      ]
+    },
+    {
+      "name": "YtSearch",
+      "description": "Search video list on YouTube by title keyword",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "yts",
+        "ytsearch"
       ]
     }
   ]

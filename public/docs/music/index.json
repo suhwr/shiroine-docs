@@ -2,11 +2,7 @@
   "commands": [
     {
       "name": "AmazonMusic",
-      "description": "Cari atau unduh track, album, playlist, atau artis dari Amazon Music (Ultra HD / HD quality)",
-      "descriptionId": "Cari atau unduh track, album, playlist, atau artis dari Amazon Music (Ultra HD / HD quality)",
-      "descriptionEn": "Search or download tracks, albums, playlists, or artists from Amazon Music (Ultra HD / HD quality)",
-      "aliases": [],
-      "category": "music",
+      "description": "Search or download tracks, albums, playlists, or artists from Amazon Music (Ultra HD / HD quality)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -14,23 +10,29 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "amazonmusic",
         "amz",
-        "amazon-music",
-        "music",
-        "limit",
-        "limit harian"
+        "amazon-music"
+      ]
+    },
+    {
+      "name": "Play",
+      "description": "Search and play songs from YouTube Music",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "play"
       ]
     },
     {
       "name": "Spotify",
-      "description": "Download atau cari musik dari Spotify",
-      "descriptionId": "Download atau cari musik dari Spotify",
-      "descriptionEn": "Download or search music from Spotify",
-      "aliases": [],
-      "category": "music",
+      "description": "Download or search music from Spotify",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -38,21 +40,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "spotify",
-        "music",
-        "limit",
-        "limit harian"
+        "spotify"
       ]
     },
     {
       "name": "Tidal",
-      "description": "Cari atau download track, album, atau video dari Tidal (HiFi quality)",
-      "descriptionId": "Cari atau download track, album, atau video dari Tidal (HiFi quality)",
-      "descriptionEn": "Search or download track, album, or video from Tidal (HiFi quality)",
-      "aliases": [],
-      "category": "music",
+      "description": "Search or download track, album, or video from Tidal (HiFi quality)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -60,12 +54,24 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "tidal",
-        "music",
-        "limit",
-        "limit harian"
+        "tidal"
+      ]
+    },
+    {
+      "name": "YtMusic",
+      "description": "Search or download tracks, albums, or playlists from YouTube Music",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "ytm",
+        "ytmusic",
+        "youtube-music"
       ]
     }
   ]

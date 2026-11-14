@@ -2,11 +2,7 @@
   "commands": [
     {
       "name": "AniList",
-      "description": "Cari informasi dan skor anime/manga di AniList GraphQL",
-      "descriptionId": "Cari informasi dan skor anime/manga di AniList GraphQL",
-      "descriptionEn": "Search anime/manga info and scores on AniList GraphQL",
-      "aliases": [],
-      "category": "animanga",
+      "description": "Search anime/manga info and scores on AniList GraphQL",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -14,21 +10,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "anilist",
         "al",
-        "almanga",
-        "animanga"
+        "almanga"
       ]
     },
     {
       "name": "Anime",
-      "description": "Cari dan dapatkan link streaming serta mirror download anime",
-      "descriptionId": "Cari dan dapatkan link streaming serta mirror download anime",
-      "descriptionEn": "Search and get anime streaming players and download mirror links",
-      "aliases": [],
-      "category": "animanga",
+      "description": "Search and get anime streaming players and download mirror links",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -36,7 +26,6 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "anime",
         "animes",
@@ -46,17 +35,12 @@
         "animasu",
         "sokuja",
         "alqanime",
-        "kuramanime",
-        "animanga"
+        "kuramanime"
       ]
     },
     {
       "name": "AnimeWallpaper",
-      "description": "Koleksi wallpaper anime HD untuk ponsel / desktop",
-      "descriptionId": "Koleksi wallpaper anime HD untuk ponsel / desktop",
-      "descriptionEn": "HD anime wallpapers for phone / desktop",
-      "aliases": [],
-      "category": "animanga",
+      "description": "HD anime wallpapers for phone / desktop",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -64,23 +48,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "animewallpaper",
         "animewall",
-        "animepaper",
-        "animanga",
-        "limit",
-        "limit harian"
+        "animepaper"
       ]
     },
     {
       "name": "BunnyGirl",
-      "description": "Koleksi foto/art anime berkostum bunny",
-      "descriptionId": "Koleksi foto/art anime berkostum bunny",
-      "descriptionEn": "Random anime bunny girl art",
-      "aliases": [],
-      "category": "animanga",
+      "description": "Random anime bunny girl art",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -88,22 +64,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "bunnygirl",
         "bunny",
-        "animanga",
-        "limit",
-        "limit harian"
+        "bunnygirl"
       ]
     },
     {
       "name": "Character",
-      "description": "Cari biodata dan foto karakter anime/manga",
-      "descriptionId": "Cari biodata dan foto karakter anime/manga",
-      "descriptionEn": "Search anime/manga character profile and photo",
-      "aliases": [],
-      "category": "animanga",
+      "description": "Search anime/manga character profile and photo",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -111,21 +79,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "character",
         "karakter",
         "char",
-        "animanga"
+        "character"
       ]
     },
     {
       "name": "Danbooru",
-      "description": "Cari anime art dan wallpaper langsung di Danbooru",
-      "descriptionId": "Cari anime art dan wallpaper langsung di Danbooru",
-      "descriptionEn": "Search anime art and wallpaper directly from Danbooru",
-      "aliases": [],
-      "category": "animanga",
+      "description": "Search anime art and wallpaper directly from Danbooru",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -133,21 +95,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "danbooru",
-        "animanga",
-        "limit",
-        "limit harian"
+        "danbooru"
       ]
     },
     {
       "name": "Husbu",
-      "description": "Koleksi foto/art anime karakter pria tampan (ikemen)",
-      "descriptionId": "Koleksi foto/art anime karakter pria tampan (ikemen)",
-      "descriptionEn": "Random anime husbando / handsome male character art",
-      "aliases": [],
-      "category": "animanga",
+      "description": "Random anime husbando / handsome male character art",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -155,22 +109,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "husbu",
-        "ikemen",
-        "animanga",
-        "limit",
-        "limit harian"
+        "ikemen"
       ]
     },
     {
       "name": "JadwalAnime",
-      "description": "Lihat jadwal rilis anime ongoing hari ini atau per hari",
-      "descriptionId": "Lihat jadwal rilis anime ongoing hari ini atau per hari",
-      "descriptionEn": "View ongoing anime release schedule for today or specific day",
-      "aliases": [],
-      "category": "animanga",
+      "description": "View ongoing anime release schedule for today or specific day",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -178,22 +124,16 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "jadwalanime",
         "schedule",
         "airing",
-        "jadwal",
-        "animanga"
+        "jadwal"
       ]
     },
     {
       "name": "Kitsune",
-      "description": "Koleksi foto/art anime foxgirl (kitsune)",
-      "descriptionId": "Koleksi foto/art anime foxgirl (kitsune)",
-      "descriptionEn": "Random anime foxgirl (kitsune) art",
-      "aliases": [],
-      "category": "animanga",
+      "description": "Random anime foxgirl (kitsune) art",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -201,22 +141,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "kitsune",
-        "foxgirl",
-        "animanga",
-        "limit",
-        "limit harian"
+        "foxgirl"
       ]
     },
     {
       "name": "Konachan",
-      "description": "Cari wallpaper anime resolusi tinggi di Konachan",
-      "descriptionId": "Cari wallpaper anime resolusi tinggi di Konachan",
-      "descriptionEn": "Search high-resolution anime wallpapers on Konachan",
-      "aliases": [],
-      "category": "animanga",
+      "description": "Search high-resolution anime wallpapers on Konachan",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -224,22 +156,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "konachan",
-        "kona",
-        "animanga",
-        "limit",
-        "limit harian"
+        "kona"
       ]
     },
     {
       "name": "Maid",
-      "description": "Koleksi foto/art anime berkostum maid",
-      "descriptionId": "Koleksi foto/art anime berkostum maid",
-      "descriptionEn": "Random anime maid character art",
-      "aliases": [],
-      "category": "animanga",
+      "description": "Random anime maid character art",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -247,22 +171,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "maid",
-        "meido",
-        "animanga",
-        "limit",
-        "limit harian"
+        "meido"
       ]
     },
     {
       "name": "Manga",
-      "description": "Cari dan unduh chapter manga/manhwa/manhua menjadi dokumen PDF",
-      "descriptionId": "Cari dan unduh chapter manga/manhwa/manhua menjadi dokumen PDF",
-      "descriptionEn": "Search and download manga/manhwa/manhua chapters as PDF documents",
-      "aliases": [],
-      "category": "animanga",
+      "description": "Search and download manga/manhwa/manhua chapters as PDF documents",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -270,26 +186,20 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "manga",
         "komik",
+        "manga",
         "manhwa",
         "manhua",
         "komiku",
         "kiryuu",
         "westmanga",
-        "bacakomik",
-        "animanga"
+        "bacakomik"
       ]
     },
     {
       "name": "MyAnimeList",
-      "description": "Cari informasi dan skor anime/manga di MyAnimeList",
-      "descriptionId": "Cari informasi dan skor anime/manga di MyAnimeList",
-      "descriptionEn": "Search anime/manga info and scores on MyAnimeList",
-      "aliases": [],
-      "category": "animanga",
+      "description": "Search anime/manga info and scores on MyAnimeList",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -297,21 +207,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "myanimelist",
         "mal",
-        "malmanga",
-        "animanga"
+        "myanimelist",
+        "malmanga"
       ]
     },
     {
       "name": "Neko",
-      "description": "Koleksi foto/art anime catgirl (neko)",
-      "descriptionId": "Koleksi foto/art anime catgirl (neko)",
-      "descriptionEn": "Random anime catgirl (neko) art",
-      "aliases": [],
-      "category": "animanga",
+      "description": "Random anime catgirl (neko) art",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -319,22 +223,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "neko",
-        "catgirl",
-        "animanga",
-        "limit",
-        "limit harian"
+        "catgirl"
       ]
     },
     {
       "name": "Safebooru",
-      "description": "Cari anime art 100% aman (SFW) di Safebooru",
-      "descriptionId": "Cari anime art 100% aman (SFW) di Safebooru",
-      "descriptionEn": "Search 100% safe anime art on Safebooru",
-      "aliases": [],
-      "category": "animanga",
+      "description": "Search 100% safe anime art on Safebooru",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -342,22 +238,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "safebooru",
-        "safe",
-        "animanga",
-        "limit",
-        "limit harian"
+        "safe"
       ]
     },
     {
       "name": "SauceNAO",
-      "description": "Cari sumber gambar anime/ilustrasi menggunakan SauceNAO (kirim/reply gambar)",
-      "descriptionId": "Cari sumber gambar anime/ilustrasi menggunakan SauceNAO (kirim/reply gambar)",
-      "descriptionEn": "Find anime/illustration image source using SauceNAO (send/reply image)",
-      "aliases": [],
-      "category": "animanga",
+      "description": "Find anime/illustration image source using SauceNAO (send/reply image)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -365,23 +253,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "saucenao",
         "sauce",
-        "source",
-        "animanga",
-        "limit",
-        "limit harian"
+        "source"
       ]
     },
     {
       "name": "Schoolgirl",
-      "description": "Koleksi foto/art anime berseragam sekolah",
-      "descriptionId": "Koleksi foto/art anime berseragam sekolah",
-      "descriptionEn": "Random anime schoolgirl uniform art",
-      "aliases": [],
-      "category": "animanga",
+      "description": "Random anime schoolgirl uniform art",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -389,22 +269,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "schoolgirl",
-        "seifuku",
-        "animanga",
-        "limit",
-        "limit harian"
+        "seifuku"
       ]
     },
     {
       "name": "Swimsuit",
-      "description": "Koleksi foto/art anime bertema baju renang / pantai",
-      "descriptionId": "Koleksi foto/art anime bertema baju renang / pantai",
-      "descriptionEn": "Random anime swimsuit and beach art",
-      "aliases": [],
-      "category": "animanga",
+      "description": "Random anime swimsuit and beach art",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -412,22 +284,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "swimsuit",
-        "bikini",
-        "animanga",
-        "limit",
-        "limit harian"
+        "bikini"
       ]
     },
     {
       "name": "Waifu",
-      "description": "Koleksi foto/art anime waifu acak atau sesuai nama karakter",
-      "descriptionId": "Koleksi foto/art anime waifu acak atau sesuai nama karakter",
-      "descriptionEn": "Random anime waifu photo/art or by character name",
-      "aliases": [],
-      "category": "animanga",
+      "description": "Random anime waifu photo/art or by character name",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -435,22 +299,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "waifu",
-        "wf",
-        "animanga",
-        "limit",
-        "limit harian"
+        "wf"
       ]
     },
     {
       "name": "WhatAnime",
-      "description": "Cari judul anime berdasarkan potongan gambar atau video (kirim/reply gambar atau video)",
-      "descriptionId": "Cari judul anime berdasarkan potongan gambar atau video (kirim/reply gambar atau video)",
-      "descriptionEn": "Search anime title by image or video frame (send/reply image or video)",
-      "aliases": [],
-      "category": "animanga",
+      "description": "Search anime title by image or video frame (send/reply image or video)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -458,23 +314,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "whatanime",
         "wait",
-        "trace",
-        "animanga",
-        "limit",
-        "limit harian"
+        "trace"
       ]
     },
     {
       "name": "Yandere",
-      "description": "Cari anime art dan wallpaper langsung di Yande.re",
-      "descriptionId": "Cari anime art dan wallpaper langsung di Yande.re",
-      "descriptionEn": "Search anime art and wallpaper directly from Yande.re",
-      "aliases": [],
-      "category": "animanga",
+      "description": "Search anime art and wallpaper directly from Yande.re",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -482,22 +330,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "yandere",
-        "yan",
-        "animanga",
-        "limit",
-        "limit harian"
+        "yan"
       ]
     },
     {
       "name": "Zerochan",
-      "description": "Cari anime art dan wallpaper dari seniman di Zerochan",
-      "descriptionId": "Cari anime art dan wallpaper dari seniman di Zerochan",
-      "descriptionEn": "Search anime art and wallpapers from artists on Zerochan",
-      "aliases": [],
-      "category": "animanga",
+      "description": "Search anime art and wallpapers from artists on Zerochan",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -505,13 +345,9 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "zerochan",
-        "zc",
-        "animanga",
-        "limit",
-        "limit harian"
+        "zc"
       ]
     }
   ]

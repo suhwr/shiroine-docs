@@ -16,8 +16,8 @@
     "play"
   ],
   "description": {
-    "id": "Cari dan putar lagu dari YouTube Music",
-    "en": "Search and play songs from YouTube Music"
+    "en": "Search and play songs from YouTube Music",
+    "id": "Cari dan putar lagu dari YouTube Music"
   },
   "usage": "Play",
   "examples": [
@@ -57,5 +57,5 @@
     "file": "internal/plugins/youtube",
     "line": 593
   },
-  "lastUpdated": "2026-11-13T08:32:52Z"
+  "lastUpdated": "2026-11-14T00:26:24Z"
 }

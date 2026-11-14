@@ -2,11 +2,7 @@
   "commands": [
     {
       "name": "CapCut",
-      "description": "Download video template dari CapCut",
-      "descriptionId": "Download video template dari CapCut",
-      "descriptionEn": "Download template video from CapCut",
-      "aliases": [],
-      "category": "downloader",
+      "description": "Download template video from CapCut",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -14,45 +10,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "capcut",
         "ccdl",
-        "capcutdl",
-        "downloader",
-        "limit",
-        "limit harian"
-      ]
-    },
-    {
-      "name": "Downloader",
-      "description": "Download video dari berbagai platform",
-      "descriptionId": "Download video dari berbagai platform",
-      "descriptionEn": "Download video from various platforms",
-      "aliases": [],
-      "category": "downloader",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "requireMedia": [],
-      "tags": [
-        "downloader",
-        "dl",
-        "limit",
-        "limit harian"
+        "capcutdl"
       ]
     },
     {
       "name": "DownloadStickerPack",
-      "description": "Download stiker pack WhatsApp sebagai file ZIP",
-      "descriptionId": "Download stiker pack WhatsApp sebagai file ZIP",
-      "descriptionEn": "Download a WhatsApp sticker pack message as a ZIP file",
-      "aliases": [],
-      "category": "downloader",
+      "description": "Download a WhatsApp sticker pack message as a ZIP file",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -60,21 +26,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "downloadstickerpack",
-        "downloader",
-        "limit",
-        "limit harian"
+        "downloadstickerpack"
       ]
     },
     {
-      "name": "Facebook",
-      "description": "Download video/foto dari Facebook",
-      "descriptionId": "Download video/foto dari Facebook",
-      "descriptionEn": "Download video/photo from Facebook",
-      "aliases": [],
-      "category": "downloader",
+      "name": "Downloader",
+      "description": "Download video from various platforms",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -82,23 +40,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "facebook",
-        "fb",
-        "fesnuk",
-        "downloader",
-        "limit",
-        "limit harian"
+        "dl",
+        "downloader"
       ]
     },
     {
       "name": "FStik",
-      "description": "Download stiker pack dari katalog FStik (fstik.app) menggunakan link atau kata kunci.",
-      "descriptionId": "Download stiker pack dari katalog FStik (fstik.app) menggunakan link atau kata kunci.",
-      "descriptionEn": "Download sticker packs from FStik catalog (fstik.app) via link or search keyword.",
-      "aliases": [],
-      "category": "downloader",
+      "description": "Download sticker packs from FStik catalog (fstik.app) via link or search keyword.",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -106,25 +55,33 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "fstik",
         "fstick",
         "fgstick",
         "fstiker",
-        "fstikers",
-        "downloader",
-        "limit",
-        "limit harian"
+        "fstikers"
+      ]
+    },
+    {
+      "name": "Facebook",
+      "description": "Download video/photo from Facebook",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "facebook",
+        "fb",
+        "fesnuk"
       ]
     },
     {
       "name": "GDrive",
-      "description": "Download file Google Drive dan upload media ke storage (upload: Developer only)",
-      "descriptionId": "Download file Google Drive dan upload media ke storage (upload: Developer only)",
-      "descriptionEn": "Download Google Drive files and upload media to storage (upload: Developer only)",
-      "aliases": [],
-      "category": "downloader",
+      "description": "Download Google Drive files and upload media to storage (upload: Developer only)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -132,23 +89,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "gdrive",
         "gdrivedl",
-        "gd",
-        "downloader",
-        "limit",
-        "limit harian"
+        "gd"
       ]
     },
     {
       "name": "Gist",
-      "description": "Download file dan kode dari GitHub Gist",
-      "descriptionId": "Download file dan kode dari GitHub Gist",
-      "descriptionEn": "Download files and code from GitHub Gist",
-      "aliases": [],
-      "category": "downloader",
+      "description": "Download files and code from GitHub Gist",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -156,22 +105,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "gist",
-        "gistdl",
-        "downloader",
-        "limit",
-        "limit harian"
+        "gistdl"
       ]
     },
     {
       "name": "Gofile",
-      "description": "Download file dan folder dari GoFile",
-      "descriptionId": "Download file dan folder dari GoFile",
-      "descriptionEn": "Download files and folders from GoFile",
-      "aliases": [],
-      "category": "downloader",
+      "description": "Download files and folders from GoFile",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -179,22 +120,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "gofile",
-        "gofiledl",
-        "downloader",
-        "limit",
-        "limit harian"
+        "gofiledl"
       ]
     },
     {
       "name": "Instagram",
-      "description": "Download foto/video dari Instagram",
-      "descriptionId": "Download foto/video dari Instagram",
-      "descriptionEn": "Download photo/video from Instagram",
-      "aliases": [],
-      "category": "downloader",
+      "description": "Download photo/video from Instagram",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -202,23 +135,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "instagram",
         "igdl",
-        "ig",
-        "downloader",
-        "limit",
-        "limit harian"
+        "ig"
       ]
     },
     {
       "name": "LINE Sticker",
-      "description": "Download stiker pack dari LINE Store dan kirim sebagai stiker WhatsApp (stiker statis maupun animasi).",
-      "descriptionId": "Download stiker pack dari LINE Store dan kirim sebagai stiker WhatsApp (stiker statis maupun animasi).",
-      "descriptionEn": "Download sticker packs from LINE Store and send them as WhatsApp stickers (static and animated).",
-      "aliases": [],
-      "category": "downloader",
+      "description": "Download sticker packs from LINE Store and send them as WhatsApp stickers (static and animated).",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -226,24 +151,16 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "line sticker",
         "linesticker",
         "linestick",
         "line",
-        "downloader",
-        "limit",
-        "limit harian"
+        "line sticker"
       ]
     },
     {
       "name": "MediaFire",
-      "description": "Download file dari MediaFire",
-      "descriptionId": "Download file dari MediaFire",
-      "descriptionEn": "Download file from MediaFire",
-      "aliases": [],
-      "category": "downloader",
+      "description": "Download file from MediaFire",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -251,22 +168,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "mediafire",
-        "mfdl",
-        "downloader",
-        "limit",
-        "limit harian"
+        "mfdl"
       ]
     },
     {
       "name": "Minecraft",
-      "description": "Download file publik MCPEDL.com; situs lain terbatas",
-      "descriptionId": "Download file publik MCPEDL.com; situs lain terbatas",
-      "descriptionEn": "Download public MCPEDL.com files; other sites restricted",
-      "aliases": [],
-      "category": "downloader",
+      "description": "Download public MCPEDL.com files; other sites restricted",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -274,25 +183,17 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "minecraft",
         "mcpedl",
         "mcpedlorg",
         "curseforge",
         "safefileku",
-        "downloader",
-        "limit",
-        "limit harian"
+        "minecraft"
       ]
     },
     {
       "name": "Pastebin",
-      "description": "Download teks dan kode dari Pastebin",
-      "descriptionId": "Download teks dan kode dari Pastebin",
-      "descriptionEn": "Download text and code from Pastebin",
-      "aliases": [],
-      "category": "downloader",
+      "description": "Download text and code from Pastebin",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -300,23 +201,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "pastebin",
         "pbindl",
-        "pastebindl",
-        "downloader",
-        "limit",
-        "limit harian"
+        "pastebindl"
       ]
     },
     {
       "name": "PinterestDownloader",
-      "description": "Download foto/video dari Pinterest",
-      "descriptionId": "Download foto/video dari Pinterest",
-      "descriptionEn": "Download photo/video from Pinterest",
-      "aliases": [],
-      "category": "downloader",
+      "description": "Download photo/video from Pinterest",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -324,24 +217,16 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "pinterestdownloader",
         "pinterestdl",
         "pindl",
-        "ptdl",
-        "downloader",
-        "limit",
-        "limit harian"
+        "ptdl"
       ]
     },
     {
       "name": "PixelDrain",
-      "description": "Download file dan album dari Pixeldrain",
-      "descriptionId": "Download file dan album dari Pixeldrain",
-      "descriptionEn": "Download files and albums from Pixeldrain",
-      "aliases": [],
-      "category": "downloader",
+      "description": "Download files and albums from Pixeldrain",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -349,23 +234,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "pixeldrain",
         "pdl",
-        "pixeldraindl",
-        "downloader",
-        "limit",
-        "limit harian"
+        "pixeldraindl"
       ]
     },
     {
       "name": "Pixiv",
-      "description": "Download artwork NSFW dari Pixiv (pencarian atau ID/URL)",
-      "descriptionId": "Download artwork NSFW dari Pixiv (pencarian atau ID/URL)",
-      "descriptionEn": "Download NSFW artwork from Pixiv (search or ID/URL)",
-      "aliases": [],
-      "category": "downloader",
+      "description": "Download NSFW artwork from Pixiv (search or ID/URL)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -373,22 +250,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "pixiv",
-        "pxdl",
-        "downloader",
-        "limit",
-        "limit harian"
+        "pxdl"
       ]
     },
     {
       "name": "Stickerly",
-      "description": "Download stiker pack dari Sticker.ly menggunakan link, kode pack, atau cari berdasarkan kata kunci.",
-      "descriptionId": "Download stiker pack dari Sticker.ly menggunakan link, kode pack, atau cari berdasarkan kata kunci.",
-      "descriptionEn": "Download sticker packs from Sticker.ly via link, pack code, or search keyword.",
-      "aliases": [],
-      "category": "downloader",
+      "description": "Download sticker packs from Sticker.ly via link, pack code, or search keyword.",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -396,24 +265,16 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "stickerly",
         "stickly",
         "sly",
-        "stikerly",
-        "downloader",
-        "limit",
-        "limit harian"
+        "stikerly"
       ]
     },
     {
       "name": "StickersGG",
-      "description": "Download stiker pack dari Stickers.gg menggunakan link atau kategori.",
-      "descriptionId": "Download stiker pack dari Stickers.gg menggunakan link atau kategori.",
-      "descriptionEn": "Download sticker packs from Stickers.gg via link or category.",
-      "aliases": [],
-      "category": "downloader",
+      "description": "Download sticker packs from Stickers.gg via link or category.",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -421,23 +282,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "stickersgg",
         "sgg",
-        "stickerspack",
-        "downloader",
-        "limit",
-        "limit harian"
+        "stickerspack"
       ]
     },
     {
       "name": "TelegramSticker",
-      "description": "Download stiker pack dari Telegram dan kirim sebagai stiker WhatsApp (mendukung opsi -fps=1-60 atau -fps auto)",
-      "descriptionId": "Download stiker pack dari Telegram dan kirim sebagai stiker WhatsApp (mendukung opsi -fps=1-60 atau -fps auto)",
-      "descriptionEn": "Download a Telegram sticker pack and send it as WhatsApp stickers (supports -fps=1-60 or -fps auto)",
-      "aliases": [],
-      "category": "downloader",
+      "description": "Download a Telegram sticker pack and send it as WhatsApp stickers (supports -fps=1-60 or -fps auto)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -445,23 +298,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "telegramsticker",
         "tgsticker",
-        "tgs",
-        "downloader",
-        "limit",
-        "limit harian"
+        "tgs"
       ]
     },
     {
       "name": "TelegramStickerV2",
-      "description": "Download stiker pack Telegram sebagai ZIP (tanpa konversi)",
-      "descriptionId": "Download stiker pack Telegram sebagai ZIP (tanpa konversi)",
-      "descriptionEn": "Download a Telegram sticker pack as ZIP without conversion",
-      "aliases": [],
-      "category": "downloader",
+      "description": "Download a Telegram sticker pack as ZIP without conversion",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -469,22 +314,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "telegramstickerv2",
-        "tgsv2",
-        "downloader",
-        "limit",
-        "limit harian"
+        "tgsv2"
       ]
     },
     {
       "name": "Threads",
-      "description": "Download foto/video dari Threads",
-      "descriptionId": "Download foto/video dari Threads",
-      "descriptionEn": "Download photo/video from Threads",
-      "aliases": [],
-      "category": "downloader",
+      "description": "Download photo/video from Threads",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -492,23 +329,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "threads",
         "threadsdl",
-        "tdl",
-        "downloader",
-        "limit",
-        "limit harian"
+        "tdl"
       ]
     },
     {
       "name": "TikTok",
-      "description": "Download video/foto dari TikTok",
-      "descriptionId": "Download video/foto dari TikTok",
-      "descriptionEn": "Download video/photo from TikTok",
-      "aliases": [],
-      "category": "downloader",
+      "description": "Download video/photo from TikTok",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -516,24 +345,16 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "tiktok",
         "ttdl",
         "tt",
-        "douyin",
-        "downloader",
-        "limit",
-        "limit harian"
+        "douyin"
       ]
     },
     {
       "name": "Twitter",
-      "description": "Download video/foto dari Twitter/X",
-      "descriptionId": "Download video/foto dari Twitter/X",
-      "descriptionEn": "Download video/photo from Twitter/X",
-      "aliases": [],
-      "category": "downloader",
+      "description": "Download video/photo from Twitter/X",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -541,24 +362,16 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "twitter",
         "twdl",
         "tw",
-        "x",
-        "downloader",
-        "limit",
-        "limit harian"
+        "x"
       ]
     },
     {
       "name": "Xiaohongshu",
-      "description": "Download foto/video dari Xiaohongshu / Rednote",
-      "descriptionId": "Download foto/video dari Xiaohongshu / Rednote",
-      "descriptionEn": "Download photo/video from Xiaohongshu / Rednote",
-      "aliases": [],
-      "category": "downloader",
+      "description": "Download photo/video from Xiaohongshu / Rednote",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -566,14 +379,10 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "xiaohongshu",
         "rednote",
-        "xhs",
-        "downloader",
-        "limit",
-        "limit harian"
+        "xhs"
       ]
     }
   ]

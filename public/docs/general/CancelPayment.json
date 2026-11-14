@@ -25,8 +25,8 @@
     "batalbayar"
   ],
   "description": {
-    "id": "Batalkan transaksi pembayaran QRIS aktif dan hapus gambar QR",
-    "en": "Cancel active QRIS payment transaction and delete QR image"
+    "en": "Cancel active QRIS payment transaction and delete QR image",
+    "id": "Batalkan transaksi pembayaran QRIS aktif dan hapus gambar QR"
   },
   "usage": "CancelPayment",
   "examples": [
@@ -67,5 +67,5 @@
     "file": "internal/plugins/general",
     "line": 53
   },
-  "lastUpdated": "2026-11-13T08:32:52Z"
+  "lastUpdated": "2026-11-14T00:26:24Z"
 }

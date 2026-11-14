@@ -28,11 +28,11 @@
   ],
   "minArgs": 0,
   "args": {
-    "query": {
-      "en": "Question or instruction text (type 'clear' to reset chat memory)"
-    },
     "pertanyaan": {
       "id": "Pertanyaan atau teks instruksi (ketik 'clear' untuk menghapus riwayat obrolan)"
+    },
+    "query": {
+      "en": "Question or instruction text (type 'clear' to reset chat memory)"
     }
   },
   "requireMedia": [],
@@ -67,5 +67,5 @@
     "file": "internal/plugins/ai",
     "line": 107
   },
-  "lastUpdated": "2026-11-13T08:32:52Z"
+  "lastUpdated": "2026-11-14T00:26:24Z"
 }

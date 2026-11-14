@@ -2,11 +2,7 @@
   "commands": [
     {
       "name": "AddProduct",
-      "description": "Tambah atau perbarui produk toko (Owner Toko)",
-      "descriptionId": "Tambah atau perbarui produk toko (Owner Toko)",
-      "descriptionEn": "Add or update store product (Store Owner)",
-      "aliases": [],
-      "category": "store_owner",
+      "description": "Add or update store product (Store Owner)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -14,48 +10,32 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "addproduct",
         "addlist",
         "tambahproduk",
-        "addproduk",
-        "store_owner"
+        "addproduk"
       ]
     },
     {
       "name": "AddStaff",
-      "description": "Tambah staff toko untuk memproses pesanan (Khusus Owner)",
-      "descriptionId": "Tambah staff toko untuk memproses pesanan (Khusus Owner)",
-      "descriptionEn": "Add store staff to process orders (Store Owner only)",
-      "aliases": [],
-      "category": "store_owner",
-      "permissions": {
-        "owner": true
-      },
+      "description": "Add store staff to process orders (Store Owner only)",
+      "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
       "limitType": "none",
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "addstaff",
         "tambahstaff",
-        "addkasir",
-        "store_owner",
-        "owner",
-        "developer"
+        "addkasir"
       ]
     },
     {
       "name": "AddStock",
-      "description": "Tambah jumlah stok produk (Owner Toko)",
-      "descriptionId": "Tambah jumlah stok produk (Owner Toko)",
-      "descriptionEn": "Add stock quantity to product (Store Owner)",
-      "aliases": [],
-      "category": "store_owner",
+      "description": "Add stock quantity to product (Store Owner)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -63,20 +43,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "addstock",
-        "tambahstok",
-        "store_owner"
+        "tambahstok"
       ]
     },
     {
       "name": "DeleteProduct",
-      "description": "Hapus produk dari toko (Owner Toko)",
-      "descriptionId": "Hapus produk dari toko (Owner Toko)",
-      "descriptionEn": "Delete product from store (Store Owner)",
-      "aliases": [],
-      "category": "store_owner",
+      "description": "Delete product from store (Store Owner)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -84,51 +58,35 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "deleteproduct",
         "delproduct",
         "dellist",
         "hapusproduk",
-        "delproduk",
-        "store_owner"
+        "delproduk"
       ]
     },
     {
       "name": "DeleteStaff",
-      "description": "Hapus staff toko (Khusus Owner)",
-      "descriptionId": "Hapus staff toko (Khusus Owner)",
-      "descriptionEn": "Remove store staff (Store Owner only)",
-      "aliases": [],
-      "category": "store_owner",
-      "permissions": {
-        "owner": true
-      },
+      "description": "Remove store staff (Store Owner only)",
+      "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
       "limitType": "none",
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "deletestaff",
         "delstaff",
         "hapusstaff",
         "delkasir",
-        "removestaff",
-        "store_owner",
-        "owner",
-        "developer"
+        "removestaff"
       ]
     },
     {
       "name": "PairStore",
-      "description": "Tautkan grup ini ke Toko dengan token dari web (Owner Toko)",
-      "descriptionId": "Tautkan grup ini ke Toko dengan token dari web (Owner Toko)",
-      "descriptionEn": "Link this group to Store using token from web (Store Owner)",
-      "aliases": [],
-      "category": "store_owner",
+      "description": "Link this group to Store using token from web (Store Owner)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -136,20 +94,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "pairstore",
-        "tauttoko",
-        "store_owner"
+        "tauttoko"
       ]
     },
     {
       "name": "SetStock",
-      "description": "Atur jumlah pasti stok produk (Owner Toko)",
-      "descriptionId": "Atur jumlah pasti stok produk (Owner Toko)",
-      "descriptionEn": "Set exact stock quantity for product (Store Owner)",
-      "aliases": [],
-      "category": "store_owner",
+      "description": "Set exact stock quantity for product (Store Owner)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -157,20 +109,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "setstock",
-        "aturstok",
-        "store_owner"
+        "aturstok"
       ]
     },
     {
       "name": "UnpairStore",
-      "description": "Lepas tautan toko dari grup ini (Owner Toko)",
-      "descriptionId": "Lepas tautan toko dari grup ini (Owner Toko)",
-      "descriptionEn": "Unlink store from this group (Store Owner)",
-      "aliases": [],
-      "category": "store_owner",
+      "description": "Unlink store from this group (Store Owner)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -178,11 +124,9 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "unpairstore",
-        "lepastoko",
-        "store_owner"
+        "lepastoko"
       ]
     }
   ]

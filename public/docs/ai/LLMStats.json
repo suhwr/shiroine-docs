@@ -22,8 +22,8 @@
     "aistatus"
   ],
   "description": {
-    "en": "View real-time chat token usage metrics, input/output breakdown, router model, memory status, and quota limit (separated for private & group chats)",
-    "id": "Lihat metrik penggunaan token obrolan saat ini, breakdown input/output, router model, status memori, dan kuota limit (terpisah untuk obrolan pribadi & grup)"
+    "id": "Lihat metrik penggunaan token obrolan saat ini, breakdown input/output, router model, status memori, dan kuota limit (terpisah untuk obrolan pribadi & grup)",
+    "en": "View real-time chat token usage metrics, input/output breakdown, router model, memory status, and quota limit (separated for private & group chats)"
   },
   "usage": "LLMStats",
   "examples": [
@@ -65,5 +65,5 @@
     "file": "internal/plugins/ai",
     "line": 316
   },
-  "lastUpdated": "2026-11-13T08:32:52Z"
+  "lastUpdated": "2026-11-14T00:26:24Z"
 }

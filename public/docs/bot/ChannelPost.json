@@ -46,9 +46,9 @@
     "group_community"
   ],
   "chatTypes": {
+    "private": true,
     "group": true,
-    "group_community": true,
-    "private": true
+    "group_community": true
   },
   "permissions": {
     "hasbot": true
@@ -81,5 +81,5 @@
     "file": "internal/plugins/bot",
     "line": 73
   },
-  "lastUpdated": "2026-11-13T08:32:52Z"
+  "lastUpdated": "2026-11-14T00:26:24Z"
 }

@@ -15,8 +15,8 @@
     "danbooru"
   ],
   "description": {
-    "id": "Cari anime art dan wallpaper langsung di Danbooru",
-    "en": "Search anime art and wallpaper directly from Danbooru"
+    "en": "Search anime art and wallpaper directly from Danbooru",
+    "id": "Cari anime art dan wallpaper langsung di Danbooru"
   },
   "usage": "Danbooru",
   "examples": [
@@ -57,5 +57,5 @@
     "file": "internal/plugins/anime",
     "line": 358
   },
-  "lastUpdated": "2026-11-13T08:32:52Z"
+  "lastUpdated": "2026-11-14T00:26:24Z"
 }

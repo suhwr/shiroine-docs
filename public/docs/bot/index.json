@@ -2,11 +2,7 @@
   "commands": [
     {
       "name": "AnswerCall",
-      "description": "Aktifkan/nonaktifkan jawab panggilan otomatis (pakde melawan)",
-      "descriptionId": "Aktifkan/nonaktifkan jawab panggilan otomatis (pakde melawan)",
-      "descriptionEn": "Enable/disable auto answer call (pakde melawan)",
-      "aliases": [],
-      "category": "bot",
+      "description": "Enable/disable auto answer call (pakde melawan)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -14,20 +10,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "answercall",
-        "ac",
-        "bot"
+        "ac"
       ]
     },
     {
       "name": "AutoClear",
-      "description": "Aktifkan/nonaktifkan pembersihan chat otomatis setiap tengah malam",
-      "descriptionId": "Aktifkan/nonaktifkan pembersihan chat otomatis setiap tengah malam",
-      "descriptionEn": "Enable/disable automatic chat clearing every midnight",
-      "aliases": [],
-      "category": "bot",
+      "description": "Enable/disable automatic chat clearing every midnight",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -35,19 +25,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "autoclear",
-        "bot"
+        "autoclear"
       ]
     },
     {
       "name": "AutoDelete",
-      "description": "Aktifkan/nonaktifkan penghapusan chat otomatis setiap tengah malam",
-      "descriptionId": "Aktifkan/nonaktifkan penghapusan chat otomatis setiap tengah malam",
-      "descriptionEn": "Enable/disable automatic chat deletion every midnight",
-      "aliases": [],
-      "category": "bot",
+      "description": "Enable/disable automatic chat deletion every midnight",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -55,19 +39,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "autodelete",
-        "bot"
+        "autodelete"
       ]
     },
     {
       "name": "AutoRead",
-      "description": "Aktifkan/nonaktifkan fitur auto-read pesan",
-      "descriptionId": "Aktifkan/nonaktifkan fitur auto-read pesan",
-      "descriptionEn": "Enable/disable auto-read message feature",
-      "aliases": [],
-      "category": "bot",
+      "description": "Enable/disable auto-read message feature",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -75,19 +53,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "autoread",
-        "bot"
+        "autoread"
       ]
     },
     {
       "name": "Bot",
-      "description": "Merespon sapaan bot dengan latency",
-      "descriptionId": "Merespon sapaan bot dengan latency",
-      "descriptionEn": "Responds to bot greeting with latency",
-      "aliases": [],
-      "category": "bot",
+      "description": "Responds to bot greeting with latency",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -95,18 +67,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "bot"
       ]
     },
     {
       "name": "BotInfo",
-      "description": "Menampilkan informasi, pengaturan, dan statistik bot (cekbot tanpa statistik)",
-      "descriptionId": "Menampilkan informasi, pengaturan, dan statistik bot (cekbot tanpa statistik)",
-      "descriptionEn": "Display bot info, settings, and statistics (checkbot omits statistics)",
-      "aliases": [],
-      "category": "bot",
+      "description": "Display bot info, settings, and statistics (checkbot omits statistics)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -114,21 +81,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "botinfo",
         "cekbot",
-        "checkbot",
-        "bot"
+        "checkbot"
       ]
     },
     {
       "name": "BotOfficial",
-      "description": "Toggle status bot official (menghilangkan peringatan jadibot)",
-      "descriptionId": "Toggle status bot official (menghilangkan peringatan jadibot)",
-      "descriptionEn": "Toggle official bot status (removes jadibot warnings)",
-      "aliases": [],
-      "category": "bot",
+      "description": "Toggle official bot status (removes jadibot warnings)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -136,20 +97,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "botofficial",
-        "official",
-        "bot"
+        "official"
       ]
     },
     {
       "name": "BotSettings",
-      "description": "Menampilkan daftar pengaturan bot",
-      "descriptionId": "Menampilkan daftar pengaturan bot",
-      "descriptionEn": "Display bot settings list",
-      "aliases": [],
-      "category": "bot",
+      "description": "Display bot settings list",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -157,26 +112,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "botsettings",
-        "settings",
-        "bot"
+        "settings"
       ]
     },
     {
       "name": "ChannelPost",
-      "description": "Upload konten (teks/media) ke saluran WhatsApp yang dikelola (dukung flag --gif, --nowaveform, dan --upsw)",
-      "descriptionId": "Upload konten (teks/media) ke saluran WhatsApp yang dikelola (dukung flag --gif, --nowaveform, dan --upsw)",
-      "descriptionEn": "Upload content (text/media) to managed WhatsApp channels (supports --gif, --nowaveform, and --upsw flags)",
-      "aliases": [
-        "upch",
-        "postchannel",
-        "kirimsaluran",
-        "upsaluran",
-        "chpost"
-      ],
-      "category": "bot",
+      "description": "Upload content (text/media) to managed WhatsApp channels (supports --gif, --nowaveform, and --upsw flags)",
       "permissions": {
         "hasbot": true
       },
@@ -186,24 +129,18 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "channelpost",
         "upch",
         "postchannel",
         "kirimsaluran",
         "upsaluran",
-        "chpost",
-        "bot"
+        "chpost"
       ]
     },
     {
       "name": "ClearChat",
-      "description": "Membersihkan seluruh riwayat chat tanpa menghapus daftar chat",
-      "descriptionId": "Membersihkan seluruh riwayat chat tanpa menghapus daftar chat",
-      "descriptionEn": "Clear all chat history without deleting the chat list",
-      "aliases": [],
-      "category": "bot",
+      "description": "Clear all chat history without deleting the chat list",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -211,19 +148,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "clearchat",
-        "bot"
+        "clearchat"
       ]
     },
     {
       "name": "DeleteChat",
-      "description": "Menghapus seluruh chat dari daftar percakapan",
-      "descriptionId": "Menghapus seluruh chat dari daftar percakapan",
-      "descriptionEn": "Delete all chats from the chat list",
-      "aliases": [],
-      "category": "bot",
+      "description": "Delete all chats from the chat list",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -231,19 +162,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "deletechat",
-        "bot"
+        "deletechat"
       ]
     },
     {
       "name": "GetPrivacySetting",
-      "description": "Lihat semua privacy setting WhatsApp",
-      "descriptionId": "Lihat semua privacy setting WhatsApp",
-      "descriptionEn": "View all WhatsApp privacy settings",
-      "aliases": [],
-      "category": "bot",
+      "description": "View all WhatsApp privacy settings",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -251,20 +176,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "getprivacysetting",
-        "getprivacy",
-        "bot"
+        "getprivacy"
       ]
     },
     {
       "name": "GoStats",
-      "description": "Menampilkan status mendalam dari Go runtime & penggunaan memori sistem",
-      "descriptionId": "Menampilkan status mendalam dari Go runtime & penggunaan memori sistem",
-      "descriptionEn": "Display in-depth status of Go runtime & system memory usage",
-      "aliases": [],
-      "category": "bot",
+      "description": "Display in-depth status of Go runtime & system memory usage",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -272,21 +191,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "gostats",
         "runtime",
-        "goruntime",
-        "bot"
+        "goruntime"
       ]
     },
     {
       "name": "GroupMode",
-      "description": "Toggle mode grup (bot hanya menerima perintah di grup)",
-      "descriptionId": "Toggle mode grup (bot hanya menerima perintah di grup)",
-      "descriptionEn": "Toggle group mode (bot only accepts commands in groups)",
-      "aliases": [],
-      "category": "bot",
+      "description": "Toggle group mode (bot only accepts commands in groups)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -294,20 +207,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "groupmode",
-        "gm",
-        "bot"
+        "gm"
       ]
     },
     {
       "name": "JadiBot",
-      "description": "Jadikan device kamu sebagai bot",
-      "descriptionId": "Jadikan device kamu sebagai bot",
-      "descriptionEn": "Turn your device into a bot",
-      "aliases": [],
-      "category": "bot",
+      "description": "Turn your device into a bot",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -315,19 +222,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "jadibot",
-        "bot"
+        "jadibot"
       ]
     },
     {
       "name": "JoinMode",
-      "description": "Toggle join command (izin join grup)",
-      "descriptionId": "Toggle join command (izin join grup)",
-      "descriptionEn": "Toggle join command (group join permission)",
-      "aliases": [],
-      "category": "bot",
+      "description": "Toggle join command (group join permission)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -335,19 +236,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "joinmode",
-        "bot"
+        "joinmode"
       ]
     },
     {
       "name": "ListGroup",
-      "description": "Tampilkan daftar grup bot dan lihat detailnya secara interaktif",
-      "descriptionId": "Tampilkan daftar grup bot dan lihat detailnya secara interaktif",
-      "descriptionEn": "Show bot's group list and view details interactively",
-      "aliases": [],
-      "category": "bot",
+      "description": "Show bot's group list and view details interactively",
       "permissions": {
         "bot": true
       },
@@ -357,21 +252,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "listgroup",
         "listgrup",
-        "grouplist",
-        "bot"
+        "grouplist"
       ]
     },
     {
       "name": "MsgStats",
-      "description": "Tampilkan statistik pesan bot dalam 24 jam terakhir",
-      "descriptionId": "Tampilkan statistik pesan bot dalam 24 jam terakhir",
-      "descriptionEn": "Show bot message statistics for the last 24 hours",
-      "aliases": [],
-      "category": "bot",
+      "description": "Show bot message statistics for the last 24 hours",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -379,20 +268,29 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "msgstats",
-        "bot_msgstats",
-        "bot"
+        "bot_msgstats"
+      ]
+    },
+    {
+      "name": "NSFW",
+      "description": "Toggle NSFW mode (in group: admin only, in private: bot only)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "nsfw",
+        "nsfwmode"
       ]
     },
     {
       "name": "OrderOTP",
-      "description": "Layanan pemesanan OTP dan Nomor Kosong (Nokos) melalui dashboard Webview WhatsApp.",
-      "descriptionId": "Layanan pemesanan OTP dan Nomor Kosong (Nokos) melalui dashboard Webview WhatsApp.",
-      "descriptionEn": "Order OTP and virtual numbers via WhatsApp Webview dashboard.",
-      "aliases": [],
-      "category": "bot",
+      "description": "Order OTP and virtual numbers via WhatsApp Webview dashboard.",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -400,22 +298,16 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "orderotp",
         "ordernokos",
         "nokos",
-        "otp",
-        "bot"
+        "otp"
       ]
     },
     {
       "name": "Pacing",
-      "description": "Pengaturan jeda pesan, simulasi pengetikan, dan perlindungan aksi grup",
-      "descriptionId": "Pengaturan jeda pesan, simulasi pengetikan, dan perlindungan aksi grup",
-      "descriptionEn": "Configure message pacing delay, typing simulation, and group mutation guard",
-      "aliases": [],
-      "category": "bot",
+      "description": "Configure message pacing delay, typing simulation, and group mutation guard",
       "permissions": {
         "bot": true
       },
@@ -425,19 +317,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "pacing",
-        "bot"
+        "pacing"
       ]
     },
     {
       "name": "RejectCall",
-      "description": "Aktifkan/nonaktifkan penolakan panggilan otomatis",
-      "descriptionId": "Aktifkan/nonaktifkan penolakan panggilan otomatis",
-      "descriptionEn": "Enable/disable automatic call rejection",
-      "aliases": [],
-      "category": "bot",
+      "description": "Enable/disable automatic call rejection",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -445,20 +331,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "rejectcall",
-        "rc",
-        "bot"
+        "rc"
       ]
     },
     {
       "name": "ResetPassword",
-      "description": "Reset password akun kamu",
-      "descriptionId": "Reset password akun kamu",
-      "descriptionEn": "Reset your account password",
-      "aliases": [],
-      "category": "bot",
+      "description": "Reset your account password",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -466,20 +346,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "resetpassword",
         "reset-password",
-        "bot"
+        "resetpassword"
       ]
     },
     {
       "name": "ScanBot",
-      "description": "Scan bot aktif yang ada di grup ini",
-      "descriptionId": "Scan bot aktif yang ada di grup ini",
-      "descriptionEn": "Scan active bots that are members of this group",
-      "aliases": [],
-      "category": "bot",
+      "description": "Scan active bots that are members of this group",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -487,19 +361,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "scanbot",
-        "bot"
+        "scanbot"
       ]
     },
     {
       "name": "SelfMode",
-      "description": "Toggle self mode (bot hanya menerima perintah dari owner)",
-      "descriptionId": "Toggle self mode (bot hanya menerima perintah dari owner)",
-      "descriptionEn": "Toggle self mode (bot only accepts commands from owner)",
-      "aliases": [],
-      "category": "bot",
+      "description": "Toggle self mode (bot only accepts commands from owner)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -507,19 +375,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "selfmode",
-        "bot"
+        "selfmode"
       ]
     },
     {
       "name": "SetBotName",
-      "description": "Mengubah nama panggilan bot untuk sesi ini",
-      "descriptionId": "Mengubah nama panggilan bot untuk sesi ini",
-      "descriptionEn": "Change the bot display name for this session",
-      "aliases": [],
-      "category": "bot",
+      "description": "Change the bot display name for this session",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -527,21 +389,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "setbotname",
         "setnamebot",
-        "set-bot-name",
-        "bot"
+        "set-bot-name"
       ]
     },
     {
       "name": "SetBotOwner",
-      "description": "Ganti nomor owner untuk sesi bot ini",
-      "descriptionId": "Ganti nomor owner untuk sesi bot ini",
-      "descriptionEn": "Change the owner number for this bot session",
-      "aliases": [],
-      "category": "bot",
+      "description": "Change the owner number for this bot session",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -549,21 +405,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "setbotowner",
         "setowner",
-        "sbo",
-        "bot"
+        "sbo"
       ]
     },
     {
       "name": "SetPP",
-      "description": "Mengubah foto profil akun bot WhatsApp (kirim/reply foto, opsional: -f untuk gambar penuh)",
-      "descriptionId": "Mengubah foto profil akun bot WhatsApp (kirim/reply foto, opsional: -f untuk gambar penuh)",
-      "descriptionEn": "Set bot profile picture (send/reply image, optional: -f for full image)",
-      "aliases": [],
-      "category": "bot",
+      "description": "Set bot profile picture (send/reply image, optional: -f for full image)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -571,21 +421,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "setpp",
         "setbotpp",
-        "setppbot",
-        "bot"
+        "setppbot"
       ]
     },
     {
       "name": "SetPrivacy",
-      "description": "Ubah privacy setting WhatsApp",
-      "descriptionId": "Ubah privacy setting WhatsApp",
-      "descriptionEn": "Change WhatsApp privacy settings",
-      "aliases": [],
-      "category": "bot",
+      "description": "Change WhatsApp privacy settings",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -593,19 +437,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "setprivacy",
-        "bot"
+        "setprivacy"
       ]
     },
     {
       "name": "Stats",
-      "description": "Tampilkan statistik bot",
-      "descriptionId": "Tampilkan statistik bot",
-      "descriptionEn": "Show bot statistics",
-      "aliases": [],
-      "category": "bot",
+      "description": "Show bot statistics",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -613,27 +451,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "stats",
-        "statistics",
-        "bot"
+        "statistics"
       ]
     },
     {
       "name": "StatusPost",
-      "description": "Upload media ke status WhatsApp (tanpa tag grup)",
-      "descriptionId": "Upload media ke status WhatsApp (tanpa tag grup)",
-      "descriptionEn": "Upload media to WhatsApp status (no group tagging)",
-      "aliases": [
-        "upsw",
-        "upstatus",
-        "postsw",
-        "poststatus",
-        "swpost",
-        "ceritawa"
-      ],
-      "category": "bot",
+      "description": "Upload media to WhatsApp status (no group tagging)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -641,7 +466,6 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "statuspost",
         "upsw",
@@ -649,21 +473,12 @@
         "postsw",
         "poststatus",
         "swpost",
-        "ceritawa",
-        "bot"
+        "ceritawa"
       ]
     },
     {
       "name": "StatusPostTag",
-      "description": "Upload media ke status WhatsApp dengan opsi tag grup",
-      "descriptionId": "Upload media ke status WhatsApp dengan opsi tag grup",
-      "descriptionEn": "Upload media to WhatsApp status with group tag option",
-      "aliases": [
-        "upsw2",
-        "upstatustag",
-        "poststatustag"
-      ],
-      "category": "bot",
+      "description": "Upload media to WhatsApp status with group tag option",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -671,22 +486,16 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "statusposttag",
         "upsw2",
         "upstatustag",
-        "poststatustag",
-        "bot"
+        "poststatustag"
       ]
     },
     {
       "name": "TrackBot",
-      "description": "Lihat log jadibot/logout 30 hari terakhir",
-      "descriptionId": "Lihat log jadibot/logout 30 hari terakhir",
-      "descriptionEn": "View jadibot/logout logs from last 30 days",
-      "aliases": [],
-      "category": "bot",
+      "description": "View jadibot/logout logs from last 30 days",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -694,11 +503,9 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "trackbot",
-        "track-bot",
-        "bot"
+        "track-bot"
       ]
     }
   ]

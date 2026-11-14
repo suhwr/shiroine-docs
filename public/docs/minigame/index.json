@@ -2,11 +2,7 @@
   "commands": [
     {
       "name": "2048",
-      "description": "Mainkan game puzzle angka geser 2048 via webview WhatsApp",
-      "descriptionId": "Mainkan game puzzle angka geser 2048 via webview WhatsApp",
-      "descriptionEn": "Play 2048",
-      "aliases": [],
-      "category": "minigame",
+      "description": "Play 2048",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -14,21 +10,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "2048",
-        "minigame",
-        "game",
-        "limit-game"
+        "2048"
       ]
     },
     {
       "name": "Breakout",
-      "description": "Mainkan game pantul bola pemecah bata Breakout via webview WhatsApp",
-      "descriptionId": "Mainkan game pantul bola pemecah bata Breakout via webview WhatsApp",
-      "descriptionEn": "Play Breakout",
-      "aliases": [],
-      "category": "minigame",
+      "description": "Play Breakout",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -36,21 +24,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "breakout",
-        "minigame",
-        "game",
-        "limit-game"
+        "breakout"
       ]
     },
     {
       "name": "DinoRun",
-      "description": "Mainkan game lari T-Rex melompati rintangan Dino Run via webview WhatsApp",
-      "descriptionId": "Mainkan game lari T-Rex melompati rintangan Dino Run via webview WhatsApp",
-      "descriptionEn": "Play DinoRun",
-      "aliases": [],
-      "category": "minigame",
+      "description": "Play DinoRun",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -58,21 +38,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "dinorun",
-        "minigame",
-        "game",
-        "limit-game"
+        "dinorun"
       ]
     },
     {
       "name": "FlappyBird",
-      "description": "Mainkan game burung melewati rintangan Flappy Bird via webview WhatsApp",
-      "descriptionId": "Mainkan game burung melewati rintangan Flappy Bird via webview WhatsApp",
-      "descriptionEn": "Play FlappyBird",
-      "aliases": [],
-      "category": "minigame",
+      "description": "Play FlappyBird",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -80,21 +52,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "flappybird",
-        "minigame",
-        "game",
-        "limit-game"
+        "flappybird"
       ]
     },
     {
       "name": "Frogger",
-      "description": "Mainkan game katak menyeberang jalan Frogger via webview WhatsApp",
-      "descriptionId": "Mainkan game katak menyeberang jalan Frogger via webview WhatsApp",
-      "descriptionEn": "Play Frogger",
-      "aliases": [],
-      "category": "minigame",
+      "description": "Play Frogger",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -102,21 +66,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "frogger",
-        "minigame",
-        "game",
-        "limit-game"
+        "frogger"
       ]
     },
     {
       "name": "Galaga",
-      "description": "Mainkan game tembak-tembakan pesawat luar angkasa Galaga via webview WhatsApp",
-      "descriptionId": "Mainkan game tembak-tembakan pesawat luar angkasa Galaga via webview WhatsApp",
-      "descriptionEn": "Play Galaga",
-      "aliases": [],
-      "category": "minigame",
+      "description": "Play Galaga",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -124,21 +80,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "galaga",
-        "minigame",
-        "game",
-        "limit-game"
+        "galaga"
       ]
     },
     {
       "name": "Minesweeper",
-      "description": "Mainkan game sapu ranjau tebak bom Minesweeper via webview WhatsApp",
-      "descriptionId": "Mainkan game sapu ranjau tebak bom Minesweeper via webview WhatsApp",
-      "descriptionEn": "Play Minesweeper",
-      "aliases": [],
-      "category": "minigame",
+      "description": "Play Minesweeper",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -146,21 +94,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "minesweeper",
-        "minigame",
-        "game",
-        "limit-game"
+        "minesweeper"
       ]
     },
     {
       "name": "MiniGame",
-      "description": "Mainkan koleksi minigame HTML",
-      "descriptionId": "Mainkan koleksi minigame HTML",
-      "descriptionEn": "Play HTML minigame collection",
-      "aliases": [],
-      "category": "minigame",
+      "description": "Play HTML minigame collection",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -168,20 +108,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "minigame",
-        "game",
-        "limit-game"
+        "minigame"
       ]
     },
     {
       "name": "Pacman",
-      "description": "Mainkan game retro klasik Pacman labirin hantu via webview WhatsApp",
-      "descriptionId": "Mainkan game retro klasik Pacman labirin hantu via webview WhatsApp",
-      "descriptionEn": "Play Pacman",
-      "aliases": [],
-      "category": "minigame",
+      "description": "Play Pacman",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -189,21 +122,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "pacman",
-        "minigame",
-        "game",
-        "limit-game"
+        "pacman"
       ]
     },
     {
       "name": "Racing",
-      "description": "Mainkan game retro balapan mobil klasik Racing via webview WhatsApp",
-      "descriptionId": "Mainkan game retro balapan mobil klasik Racing via webview WhatsApp",
-      "descriptionEn": "Play Racing",
-      "aliases": [],
-      "category": "minigame",
+      "description": "Play Racing",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -211,21 +136,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "racing",
-        "minigame",
-        "game",
-        "limit-game"
+        "racing"
       ]
     },
     {
       "name": "Snake",
-      "description": "Mainkan game klasik ular Snake via webview WhatsApp",
-      "descriptionId": "Mainkan game klasik ular Snake via webview WhatsApp",
-      "descriptionEn": "Play Snake",
-      "aliases": [],
-      "category": "minigame",
+      "description": "Play Snake",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -233,21 +150,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "snake",
-        "minigame",
-        "game",
-        "limit-game"
+        "snake"
       ]
     },
     {
       "name": "Sudoku",
-      "description": "Mainkan puzzle asah otak angka Sudoku via webview WhatsApp",
-      "descriptionId": "Mainkan puzzle asah otak angka Sudoku via webview WhatsApp",
-      "descriptionEn": "Play Sudoku",
-      "aliases": [],
-      "category": "minigame",
+      "description": "Play Sudoku",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -255,21 +164,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "sudoku",
-        "minigame",
-        "game",
-        "limit-game"
+        "sudoku"
       ]
     },
     {
       "name": "Tetris",
-      "description": "Mainkan game susun balok klasik Tetris via webview WhatsApp",
-      "descriptionId": "Mainkan game susun balok klasik Tetris via webview WhatsApp",
-      "descriptionEn": "Play Tetris",
-      "aliases": [],
-      "category": "minigame",
+      "description": "Play Tetris",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -277,12 +178,8 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "tetris",
-        "minigame",
-        "game",
-        "limit-game"
+        "tetris"
       ]
     }
   ]

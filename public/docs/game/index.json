@@ -2,11 +2,7 @@
   "commands": [
     {
       "name": "AsahOtak",
-      "description": "Mulai game asah otak / trivia",
-      "descriptionId": "Mulai game asah otak / trivia",
-      "descriptionEn": "Start brain teaser / trivia game",
-      "aliases": [],
-      "category": "game",
+      "description": "Start brain teaser / trivia game",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -14,20 +10,13 @@
       "nsfwOnly": false,
       "delaySeconds": 3,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "asahotak",
-        "game",
-        "limit-game"
+        "asahotak"
       ]
     },
     {
       "name": "Badges",
-      "description": "Melihat koleksi lencana dan badge pencapaian game Anda",
-      "descriptionId": "Melihat koleksi lencana dan badge pencapaian game Anda",
-      "descriptionEn": "View your earned game achievement badges and medals",
-      "aliases": [],
-      "category": "game",
+      "description": "View your earned game achievement badges and medals",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -35,21 +24,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "badges",
-        "mybadges",
-        "game",
-        "limit-game"
+        "mybadges"
       ]
     },
     {
       "name": "CakLontong",
-      "description": "Mulai game caklontong / teka-teki lucu",
-      "descriptionId": "Mulai game caklontong / teka-teki lucu",
-      "descriptionEn": "Start caklontong / funny riddle game",
-      "aliases": [],
-      "category": "game",
+      "description": "Start caklontong / funny riddle game",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -57,20 +39,13 @@
       "nsfwOnly": false,
       "delaySeconds": 3,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "caklontong",
-        "game",
-        "limit-game"
+        "caklontong"
       ]
     },
     {
       "name": "Catur",
-      "description": "Mainkan game papan catur (Chess) langsung di grup WhatsApp (swipe reply papan).",
-      "descriptionId": "Mainkan game papan catur (Chess) langsung di grup WhatsApp (swipe reply papan).",
-      "descriptionEn": "Play chess board game directly in WhatsApp groups (swipe reply board).",
-      "aliases": [],
-      "category": "game",
+      "description": "Play chess board game directly in WhatsApp groups (swipe reply board).",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -78,21 +53,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "catur",
-        "chess",
-        "game",
-        "limit-game"
+        "chess"
       ]
     },
     {
       "name": "GameLimit",
-      "description": "Cek sisa limit game hari ini",
-      "descriptionId": "Cek sisa limit game hari ini",
-      "descriptionEn": "Check remaining daily game limit",
-      "aliases": [],
-      "category": "game",
+      "description": "Check remaining daily game limit",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -100,20 +68,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "gamelimit",
-        "game",
-        "limit-game"
+        "gamelimit"
       ]
     },
     {
       "name": "GameStats",
-      "description": "Lihat statistik game personal",
-      "descriptionId": "Lihat statistik game personal",
-      "descriptionEn": "View personal game statistics",
-      "aliases": [],
-      "category": "game",
+      "description": "View personal game statistics",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -121,23 +82,16 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "gamestats",
         "mystats",
         "mygamescore",
-        "statsgame",
-        "game",
-        "limit-game"
+        "statsgame"
       ]
     },
     {
       "name": "GlobalLeaderboard",
-      "description": "Lihat leaderboard grup",
-      "descriptionId": "Lihat leaderboard grup",
-      "descriptionEn": "View group leaderboard",
-      "aliases": [],
-      "category": "game",
+      "description": "View group leaderboard",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -145,22 +99,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "globalleaderboard",
         "glb",
-        "grouplb",
-        "game",
-        "limit-game"
+        "grouplb"
       ]
     },
     {
       "name": "GroupAchievements",
-      "description": "Lihat achievement grup",
-      "descriptionId": "Lihat achievement grup",
-      "descriptionEn": "View group achievements",
-      "aliases": [],
-      "category": "game",
+      "description": "View group achievements",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -168,21 +115,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "groupachievements",
-        "ga",
-        "game",
-        "limit-game"
+        "ga"
       ]
     },
     {
       "name": "GroupCarry",
-      "description": "Deteksi carry di grup",
-      "descriptionId": "Deteksi carry di grup",
-      "descriptionEn": "Detect carry player in group",
-      "aliases": [],
-      "category": "game",
+      "description": "Detect carry player in group",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -190,20 +130,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "groupcarry",
-        "game",
-        "limit-game"
+        "groupcarry"
       ]
     },
     {
       "name": "GroupCompare",
-      "description": "Bandingkan grup kamu vs rival",
-      "descriptionId": "Bandingkan grup kamu vs rival",
-      "descriptionEn": "Compare your group vs rival",
-      "aliases": [],
-      "category": "game",
+      "description": "Compare your group vs rival",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -211,20 +144,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "groupcompare",
-        "game",
-        "limit-game"
+        "groupcompare"
       ]
     },
     {
       "name": "GroupContrib",
-      "description": "Lihat top contributor grup",
-      "descriptionId": "Lihat top contributor grup",
-      "descriptionEn": "View group top contributors",
-      "aliases": [],
-      "category": "game",
+      "description": "View group top contributors",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -232,21 +158,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "groupcontrib",
-        "gc",
-        "game",
-        "limit-game"
+        "gc"
       ]
     },
     {
       "name": "GroupMVP",
-      "description": "Lihat pemain terbaik (MVP) pada game di grup ini",
-      "descriptionId": "Lihat pemain terbaik (MVP) pada game di grup ini",
-      "descriptionEn": "View top Most Valuable Player (MVP) of games in this group",
-      "aliases": [],
-      "category": "game",
+      "description": "View top Most Valuable Player (MVP) of games in this group",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -254,20 +173,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "groupmvp",
-        "game",
-        "limit-game"
+        "groupmvp"
       ]
     },
     {
       "name": "GroupStats",
-      "description": "Lihat statistik game grup",
-      "descriptionId": "Lihat statistik game grup",
-      "descriptionEn": "View group game statistics",
-      "aliases": [],
-      "category": "game",
+      "description": "View group game statistics",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -275,20 +187,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "groupstats",
-        "game",
-        "limit-game"
+        "groupstats"
       ]
     },
     {
       "name": "Leaderboard",
-      "description": "Tampilkan leaderboard game",
-      "descriptionId": "Tampilkan leaderboard game",
-      "descriptionEn": "Show game leaderboard",
-      "aliases": [],
-      "category": "game",
+      "description": "Show game leaderboard",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -296,22 +201,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "leaderboard",
         "lb",
-        "ranking",
-        "game",
-        "limit-game"
+        "ranking"
       ]
     },
     {
       "name": "Math",
-      "description": "Mulai game matematika dengan level pilihan",
-      "descriptionId": "Mulai game matematika dengan level pilihan",
-      "descriptionEn": "Start math game with difficulty level",
-      "aliases": [],
-      "category": "game",
+      "description": "Start math game with difficulty level",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -319,20 +217,13 @@
       "nsfwOnly": false,
       "delaySeconds": 3,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "math",
-        "game",
-        "limit-game"
+        "math"
       ]
     },
     {
       "name": "ProfileGame",
-      "description": "Lihat kartu profil statistik game, skor total, streak, dan rank kamu",
-      "descriptionId": "Lihat kartu profil statistik game, skor total, streak, dan rank kamu",
-      "descriptionEn": "View game profile card with total score, streak, and ranking",
-      "aliases": [],
-      "category": "game",
+      "description": "View game profile card with total score, streak, and ranking",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -340,21 +231,14 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "profilegame",
-        "gameprofile",
-        "game",
-        "limit-game"
+        "gameprofile"
       ]
     },
     {
       "name": "Rival",
-      "description": "Lihat rival pemain game terdekatmu berdasarkan skor dan ranking",
-      "descriptionId": "Lihat rival pemain game terdekatmu berdasarkan skor dan ranking",
-      "descriptionEn": "View your closest game competitor based on score and ranking",
-      "aliases": [],
-      "category": "game",
+      "description": "View your closest game competitor based on score and ranking",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -362,20 +246,13 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "rival",
-        "game",
-        "limit-game"
+        "rival"
       ]
     },
     {
       "name": "SambungKata",
-      "description": "Mulai sambung kata siapa cepat",
-      "descriptionId": "Mulai sambung kata siapa cepat",
-      "descriptionEn": "Start a fast word chain",
-      "aliases": [],
-      "category": "game",
+      "description": "Start a fast word chain",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -383,20 +260,13 @@
       "nsfwOnly": false,
       "delaySeconds": 3,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "sambungkata",
-        "game",
-        "limit-game"
+        "sambungkata"
       ]
     },
     {
       "name": "SiapakahAku",
-      "description": "Mulai game tebak-tebakan siapakah aku",
-      "descriptionId": "Mulai game tebak-tebakan siapakah aku",
-      "descriptionEn": "Start who am I guessing game",
-      "aliases": [],
-      "category": "game",
+      "description": "Start who am I guessing game",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -404,20 +274,13 @@
       "nsfwOnly": false,
       "delaySeconds": 3,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "siapakahaku",
-        "game",
-        "limit-game"
+        "siapakahaku"
       ]
     },
     {
       "name": "SusunKata",
-      "description": "Mulai game susun kata acak",
-      "descriptionId": "Mulai game susun kata acak",
-      "descriptionEn": "Start word scramble game",
-      "aliases": [],
-      "category": "game",
+      "description": "Start word scramble game",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -425,20 +288,13 @@
       "nsfwOnly": false,
       "delaySeconds": 3,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "susunkata",
-        "game",
-        "limit-game"
+        "susunkata"
       ]
     },
     {
       "name": "TebakBendera",
-      "description": "Mulai game tebak bendera negara",
-      "descriptionId": "Mulai game tebak bendera negara",
-      "descriptionEn": "Start country flag guessing game",
-      "aliases": [],
-      "category": "game",
+      "description": "Start country flag guessing game",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -446,20 +302,13 @@
       "nsfwOnly": false,
       "delaySeconds": 3,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "tebakbendera",
-        "game",
-        "limit-game"
+        "tebakbendera"
       ]
     },
     {
       "name": "TebakBom",
-      "description": "Mulai game Tebak Bom – hindari bom di antara 9 angka",
-      "descriptionId": "Mulai game Tebak Bom – hindari bom di antara 9 angka",
-      "descriptionEn": "Start Tebak Bom game – avoid the bomb among 9 numbers",
-      "aliases": [],
-      "category": "game",
+      "description": "Start Tebak Bom game – avoid the bomb among 9 numbers",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -467,20 +316,13 @@
       "nsfwOnly": false,
       "delaySeconds": 3,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "tebakbom",
-        "game",
-        "limit-game"
+        "tebakbom"
       ]
     },
     {
       "name": "TebakGambar",
-      "description": "Memulai permainan kuis tebak gambar berhadiah skor dan XP di grup",
-      "descriptionId": "Memulai permainan kuis tebak gambar berhadiah skor dan XP di grup",
-      "descriptionEn": "Start picture guessing quiz game with score and XP rewards in group",
-      "aliases": [],
-      "category": "game",
+      "description": "Start picture guessing quiz game with score and XP rewards in group",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -488,20 +330,13 @@
       "nsfwOnly": false,
       "delaySeconds": 3,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "tebakgambar",
-        "game",
-        "limit-game"
+        "tebakgambar"
       ]
     },
     {
       "name": "TebakIbukota",
-      "description": "Mulai game tebak ibukota negara di dunia",
-      "descriptionId": "Mulai game tebak ibukota negara di dunia",
-      "descriptionEn": "Start capital city guessing game",
-      "aliases": [],
-      "category": "game",
+      "description": "Start capital city guessing game",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -509,20 +344,13 @@
       "nsfwOnly": false,
       "delaySeconds": 3,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "tebakibukota",
-        "game",
-        "limit-game"
+        "tebakibukota"
       ]
     },
     {
       "name": "TebakKata",
-      "description": "Mulai game tebak kata dari petunjuk",
-      "descriptionId": "Mulai game tebak kata dari petunjuk",
-      "descriptionEn": "Start word guessing game from hints",
-      "aliases": [],
-      "category": "game",
+      "description": "Start word guessing game from hints",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -530,20 +358,13 @@
       "nsfwOnly": false,
       "delaySeconds": 3,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "tebakkata",
-        "game",
-        "limit-game"
+        "tebakkata"
       ]
     },
     {
       "name": "TebakLirik",
-      "description": "Mulai game tebak lirik lagu",
-      "descriptionId": "Mulai game tebak lirik lagu",
-      "descriptionEn": "Start song lyrics guessing game",
-      "aliases": [],
-      "category": "game",
+      "description": "Start song lyrics guessing game",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -551,20 +372,13 @@
       "nsfwOnly": false,
       "delaySeconds": 3,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "tebaklirik",
-        "game",
-        "limit-game"
+        "tebaklirik"
       ]
     },
     {
       "name": "TicTacToe",
-      "description": "Main Tictactoe 2 orang di grup",
-      "descriptionId": "Main Tictactoe 2 orang di grup",
-      "descriptionEn": "Play Tictactoe with 2 players in group",
-      "aliases": [],
-      "category": "game",
+      "description": "Play Tictactoe with 2 players in group",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -572,21 +386,14 @@
       "nsfwOnly": false,
       "delaySeconds": 3,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "tictactoe",
-        "ttt",
-        "game",
-        "limit-game"
+        "ttt"
       ]
     },
     {
       "name": "UlarTangga",
-      "description": "Mainkan game papan Ular Tangga (Snakes and Ladders) hingga 4 pemain di grup WhatsApp (swipe reply papan).",
-      "descriptionId": "Mainkan game papan Ular Tangga (Snakes and Ladders) hingga 4 pemain di grup WhatsApp (swipe reply papan).",
-      "descriptionEn": "Play Snakes and Ladders board game for up to 4 players in WhatsApp groups (swipe reply board).",
-      "aliases": [],
-      "category": "game",
+      "description": "Play Snakes and Ladders board game for up to 4 players in WhatsApp groups (swipe reply board).",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -594,22 +401,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "ulartangga",
         "ular",
-        "snakeladder",
-        "game",
-        "limit-game"
+        "snakeladder"
       ]
     },
     {
       "name": "Wordle",
-      "description": "Mulai game tebak kata Wordle / Katla 5 huruf",
-      "descriptionId": "Mulai game tebak kata Wordle / Katla 5 huruf",
-      "descriptionEn": "Start 5-letter Wordle / Katla guessing game",
-      "aliases": [],
-      "category": "game",
+      "description": "Start 5-letter Wordle / Katla guessing game",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -617,11 +417,8 @@
       "nsfwOnly": false,
       "delaySeconds": 3,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "wordle",
-        "game",
-        "limit-game"
+        "wordle"
       ]
     }
   ]

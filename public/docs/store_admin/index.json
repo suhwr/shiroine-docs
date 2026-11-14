@@ -2,159 +2,105 @@
   "commands": [
     {
       "name": "AcceptOrder",
-      "description": "Konfirmasi / ACC pembayaran pesanan pembeli (Staff / Owner Toko)",
-      "descriptionId": "Konfirmasi / ACC pembayaran pesanan pembeli (Staff / Owner Toko)",
-      "descriptionEn": "Confirm / approve buyer payment (Store Staff / Owner)",
-      "aliases": [],
-      "category": "store_admin",
-      "permissions": {
-        "admin": true
-      },
+      "description": "Confirm / approve buyer payment (Store Staff / Owner)",
+      "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
       "limitType": "none",
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "acceptorder",
         "acc",
         "accorder",
         "proses",
-        "konfirmasi",
-        "store_admin",
-        "admin"
+        "konfirmasi"
       ]
     },
     {
       "name": "DetailOrder",
-      "description": "Lihat rincian lengkap pesanan (Staff Toko / Pembeli)",
-      "descriptionId": "Lihat rincian lengkap pesanan (Staff Toko / Pembeli)",
-      "descriptionEn": "View full order invoice details (Store Staff / Buyer)",
-      "aliases": [],
-      "category": "store_admin",
-      "permissions": {
-        "admin": true
-      },
+      "description": "View full order invoice details (Store Staff / Buyer)",
+      "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
       "limitType": "none",
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "detailorder",
         "cekorder",
-        "detailpesanan",
-        "store_admin",
-        "admin"
+        "detailpesanan"
       ]
     },
     {
       "name": "DoneOrder",
-      "description": "Selesaikan transaksi / Konfirmasi terima pesanan (Staff Toko / Pembeli)",
-      "descriptionId": "Selesaikan transaksi / Konfirmasi terima pesanan (Staff Toko / Pembeli)",
-      "descriptionEn": "Complete transaction / Confirm order receipt (Store Staff / Buyer)",
-      "aliases": [],
-      "category": "store_admin",
-      "permissions": {
-        "admin": true
-      },
+      "description": "Complete transaction / Confirm order receipt (Store Staff / Buyer)",
+      "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
       "limitType": "none",
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "doneorder",
         "done",
         "selesai",
         "terima",
-        "terimapesanan",
-        "store_admin",
-        "admin"
+        "terimapesanan"
       ]
     },
     {
       "name": "ListOrder",
-      "description": "Lihat antrean pesanan aktif yang belum selesai (Staff / Owner Toko)",
-      "descriptionId": "Lihat antrean pesanan aktif yang belum selesai (Staff / Owner Toko)",
-      "descriptionEn": "View active pending and processing orders queue (Store Staff / Owner)",
-      "aliases": [],
-      "category": "store_admin",
-      "permissions": {
-        "admin": true
-      },
+      "description": "View active pending and processing orders queue (Store Staff / Owner)",
+      "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
       "limitType": "none",
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "listorder",
         "antrean",
-        "orderan",
-        "store_admin",
-        "admin"
+        "orderan"
       ]
     },
     {
       "name": "ListStaff",
-      "description": "Lihat daftar staff toko",
-      "descriptionId": "Lihat daftar staff toko",
-      "descriptionEn": "View store staff list",
-      "aliases": [],
-      "category": "store_admin",
-      "permissions": {
-        "admin": true
-      },
+      "description": "View store staff list",
+      "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
       "limitType": "none",
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "liststaff",
         "staff",
         "daftarkasir",
-        "daftarstaff",
-        "store_admin",
-        "admin"
+        "daftarstaff"
       ]
     },
     {
       "name": "RecapOrder",
-      "description": "Lihat rekap omset dan statistik penjualan toko (Staff / Owner Toko)",
-      "descriptionId": "Lihat rekap omset dan statistik penjualan toko (Staff / Owner Toko)",
-      "descriptionEn": "View store sales recap and revenue summary (Store Staff / Owner)",
-      "aliases": [],
-      "category": "store_admin",
-      "permissions": {
-        "admin": true
-      },
+      "description": "View store sales recap and revenue summary (Store Staff / Owner)",
+      "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
       "limitType": "none",
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "recaporder",
         "rekaporder",
         "recap",
         "rekap",
-        "omset",
-        "store_admin",
-        "admin"
+        "omset"
       ]
     }
   ]

@@ -15,8 +15,8 @@
     "blown"
   ],
   "description": {
-    "id": "Efek pecah / overdrive kasar pada audio",
-    "en": "Blown / overdrive effect on audio"
+    "en": "Blown / overdrive effect on audio",
+    "id": "Efek pecah / overdrive kasar pada audio"
   },
   "usage": "Blown",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/tools",
     "line": 398
   },
-  "lastUpdated": "2026-11-13T08:32:52Z"
+  "lastUpdated": "2026-11-14T00:26:24Z"
 }

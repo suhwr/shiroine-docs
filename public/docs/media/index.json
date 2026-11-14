@@ -2,11 +2,7 @@
   "commands": [
     {
       "name": "FakeThumbnail",
-      "description": "Kirim media asli namun manipulasi tampilannya dengan thumbnail dari media lain",
-      "descriptionId": "Kirim media asli namun manipulasi tampilannya dengan thumbnail dari media lain",
-      "descriptionEn": "Send original media disguised with a fake thumbnail from another media",
-      "aliases": [],
-      "category": "media",
+      "description": "Send original media disguised with a fake thumbnail from another media",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -14,21 +10,15 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "fakethumbnail",
         "fakethumb",
-        "spoofmedia",
-        "media"
+        "spoofmedia"
       ]
     },
     {
       "name": "PhotoLive",
-      "description": "Ubah video atau kombinasi foto+video menjadi Motion Photo WhatsApp",
-      "descriptionId": "Ubah video atau kombinasi foto+video menjadi Motion Photo WhatsApp",
-      "descriptionEn": "Convert video or photo+video combination into WhatsApp Motion Photo",
-      "aliases": [],
-      "category": "media",
+      "description": "Convert video or photo+video combination into WhatsApp Motion Photo",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -36,22 +26,16 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
-        "photolive",
         "fotolive",
+        "photolive",
         "motionphoto",
-        "livephoto",
-        "media"
+        "livephoto"
       ]
     },
     {
       "name": "TopTV",
-      "description": "Ubah video biasa menjadi Video Note bundar (PTV)",
-      "descriptionId": "Ubah video biasa menjadi Video Note bundar (PTV)",
-      "descriptionEn": "Convert video into circular Video Note (PTV)",
-      "aliases": [],
-      "category": "media",
+      "description": "Convert video into circular Video Note (PTV)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -59,13 +43,11 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "minArgs": 0,
-      "requireMedia": [],
       "tags": [
         "toptv",
         "toptvmsg",
         "videonote",
-        "ptv",
-        "media"
+        "ptv"
       ]
     }
   ]

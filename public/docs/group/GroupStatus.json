@@ -22,8 +22,8 @@
     "statusgrup"
   ],
   "description": {
-    "id": "Upload media ke status grup",
-    "en": "Upload media to group status"
+    "en": "Upload media to group status",
+    "id": "Upload media ke status grup"
   },
   "usage": "GroupStatus",
   "examples": [
@@ -72,5 +72,5 @@
     "file": "internal/plugins/group",
     "line": 277
   },
-  "lastUpdated": "2026-11-13T08:32:52Z"
+  "lastUpdated": "2026-11-14T00:26:24Z"
 }

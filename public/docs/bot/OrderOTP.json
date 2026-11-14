@@ -21,8 +21,8 @@
     "otp"
   ],
   "description": {
-    "id": "Layanan pemesanan OTP dan Nomor Kosong (Nokos) melalui dashboard Webview WhatsApp.",
-    "en": "Order OTP and virtual numbers via WhatsApp Webview dashboard."
+    "en": "Order OTP and virtual numbers via WhatsApp Webview dashboard.",
+    "id": "Layanan pemesanan OTP dan Nomor Kosong (Nokos) melalui dashboard Webview WhatsApp."
   },
   "usage": "OrderOTP",
   "examples": [
@@ -64,5 +64,5 @@
     "file": "internal/plugins/bot",
     "line": 112
   },
-  "lastUpdated": "2026-11-13T08:32:52Z"
+  "lastUpdated": "2026-11-14T00:26:24Z"
 }

@@ -15,8 +15,8 @@
     "anticall"
   ],
   "description": {
-    "en": "Configure automatic rejection of WhatsApp group calls",
-    "id": "Atur penolakan otomatis panggilan telepon grup WhatsApp"
+    "id": "Atur penolakan otomatis panggilan telepon grup WhatsApp",
+    "en": "Configure automatic rejection of WhatsApp group calls"
   },
   "usage": "AntiCall",
   "examples": [
@@ -69,5 +69,5 @@
     "file": "internal/plugins/group",
     "line": 1
   },
-  "lastUpdated": "2026-11-13T08:32:52Z"
+  "lastUpdated": "2026-11-14T00:26:24Z"
 }

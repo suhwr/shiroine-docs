@@ -15,8 +15,8 @@
     "pacing"
   ],
   "description": {
-    "en": "Configure message pacing delay, typing simulation, and group mutation guard",
-    "id": "Pengaturan jeda pesan, simulasi pengetikan, dan perlindungan aksi grup"
+    "id": "Pengaturan jeda pesan, simulasi pengetikan, dan perlindungan aksi grup",
+    "en": "Configure message pacing delay, typing simulation, and group mutation guard"
   },
   "usage": "Pacing",
   "examples": [
@@ -61,5 +61,5 @@
     "file": "internal/plugins/bot",
     "line": 73
   },
-  "lastUpdated": "2026-11-13T08:32:52Z"
+  "lastUpdated": "2026-11-14T00:26:24Z"
 }

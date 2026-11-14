@@ -1,3 +1,18 @@
 {
-  "commands": []
+  "commands": [
+    {
+      "name": "BanList",
+      "description": "Show list of banned entities by category",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "banlist"
+      ]
+    }
+  ]
 }

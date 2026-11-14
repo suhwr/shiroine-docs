@@ -17,8 +17,8 @@
     "meido"
   ],
   "description": {
-    "en": "Random anime maid character art",
-    "id": "Koleksi foto/art anime berkostum maid"
+    "id": "Koleksi foto/art anime berkostum maid",
+    "en": "Random anime maid character art"
   },
   "usage": "Maid",
   "examples": [
@@ -60,5 +60,5 @@
     "file": "internal/plugins/anime",
     "line": 262
   },
-  "lastUpdated": "2026-11-13T08:32:52Z"
+  "lastUpdated": "2026-11-14T00:26:24Z"
 }

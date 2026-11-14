@@ -19,8 +19,8 @@
     "almanga"
   ],
   "description": {
-    "en": "Search anime/manga info and scores on AniList GraphQL",
-    "id": "Cari informasi dan skor anime/manga di AniList GraphQL"
+    "id": "Cari informasi dan skor anime/manga di AniList GraphQL",
+    "en": "Search anime/manga info and scores on AniList GraphQL"
   },
   "usage": "AniList",
   "examples": [
@@ -62,5 +62,5 @@
     "file": "internal/plugins/anime",
     "line": 231
   },
-  "lastUpdated": "2026-11-13T08:32:52Z"
+  "lastUpdated": "2026-11-14T00:26:24Z"
 }
