@@ -1,0 +1,64 @@
+{
+  "name": "AddVoucher",
+  "commands": [
+    "addvoucher",
+    "tambahvoucher",
+    "createvoucher"
+  ],
+  "aliases": [],
+  "display": [
+    "AddVoucher"
+  ],
+  "category": "store_admin",
+  "categories": [
+    "store_admin"
+  ],
+  "tags": [
+    "addvoucher",
+    "tambahvoucher",
+    "createvoucher"
+  ],
+  "description": {
+    "en": "Add store discount voucher coupon (Store Staff / Owner)",
+    "id": "Tambah kupon voucher diskon toko (Staff / Owner Toko)"
+  },
+  "usage": "AddVoucher",
+  "examples": [
+    "addvoucher PROMO5K 5000 20 15000 7"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/store",
+    "line": 203
+  },
+  "lastUpdated": "2026-11-15T16:37:42Z"
+}

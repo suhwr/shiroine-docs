@@ -1,0 +1,65 @@
+{
+  "name": "SigStick",
+  "commands": [
+    "sigstick",
+    "sig",
+    "sigstickers"
+  ],
+  "aliases": [],
+  "display": [
+    "SigStick"
+  ],
+  "category": "sticker",
+  "categories": [
+    "sticker"
+  ],
+  "tags": [
+    "sigstick",
+    "sig",
+    "sigstickers"
+  ],
+  "description": {
+    "id": "Download stiker pack dari SigStick menggunakan link pack atau slug.",
+    "en": "Download sticker packs from SigStick via pack link or slug."
+  },
+  "usage": "SigStick",
+  "examples": [
+    "sigstick https://www.sigstick.com/pack/yLeUBahzfovZ3Lk6tXgL-0",
+    "sigstick yLeUBahzfovZ3Lk6tXgL-0"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/downloader",
+    "line": 144
+  },
+  "lastUpdated": "2026-11-15T16:37:42Z"
+}

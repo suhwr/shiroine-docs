@@ -17,20 +17,6 @@
       ]
     },
     {
-      "name": "DownloadStickerPack",
-      "description": "Download a WhatsApp sticker pack message as a ZIP file",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "downloadstickerpack"
-      ]
-    },
-    {
       "name": "Downloader",
       "description": "Download video from various platforms",
       "permissions": {},
@@ -43,24 +29,6 @@
       "tags": [
         "dl",
         "downloader"
-      ]
-    },
-    {
-      "name": "FStik",
-      "description": "Download sticker packs from FStik catalog (fstik.app) via link or search keyword.",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "fstik",
-        "fstick",
-        "fgstick",
-        "fstiker",
-        "fstikers"
       ]
     },
     {
@@ -139,23 +107,6 @@
         "instagram",
         "igdl",
         "ig"
-      ]
-    },
-    {
-      "name": "LINE Sticker",
-      "description": "Download sticker packs from LINE Store and send them as WhatsApp stickers (static and animated).",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "linesticker",
-        "linestick",
-        "line",
-        "line sticker"
       ]
     },
     {
@@ -253,70 +204,6 @@
       "tags": [
         "pixiv",
         "pxdl"
-      ]
-    },
-    {
-      "name": "Stickerly",
-      "description": "Download sticker packs from Sticker.ly via link, pack code, or search keyword.",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "stickerly",
-        "stickly",
-        "sly",
-        "stikerly"
-      ]
-    },
-    {
-      "name": "StickersGG",
-      "description": "Download sticker packs from Stickers.gg via link or category.",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "stickersgg",
-        "sgg",
-        "stickerspack"
-      ]
-    },
-    {
-      "name": "TelegramSticker",
-      "description": "Download a Telegram sticker pack and send it as WhatsApp stickers (supports -fps=1-60 or -fps auto)",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "telegramsticker",
-        "tgsticker",
-        "tgs"
-      ]
-    },
-    {
-      "name": "TelegramStickerV2",
-      "description": "Download a Telegram sticker pack as ZIP without conversion",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "telegramstickerv2",
-        "tgsv2"
       ]
     },
     {

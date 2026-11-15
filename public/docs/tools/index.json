@@ -29,20 +29,6 @@
       ]
     },
     {
-      "name": "AudioEffect",
-      "description": "Show list of all available audio effects",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "audioeffect"
-      ]
-    },
-    {
       "name": "B32",
       "description": "Encode/decode text using b32",
       "permissions": {},
@@ -155,20 +141,6 @@
       ]
     },
     {
-      "name": "Bass",
-      "description": "Add bass boost effect to audio/video (optional: bass level 1-100, default 20)",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "bass"
-      ]
-    },
-    {
       "name": "BestFrame",
       "description": "Extract the best frame from a video based on visual quality (sharpness, blur, etc.)",
       "permissions": {},
@@ -183,20 +155,6 @@
       ]
     },
     {
-      "name": "Blown",
-      "description": "Blown / overdrive effect on audio",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "blown"
-      ]
-    },
-    {
       "name": "Blur",
       "description": "Apply blur effect to an image (gaussian, box, motion, pixelate).",
       "permissions": {},
@@ -208,68 +166,6 @@
       "minArgs": 0,
       "tags": [
         "blur"
-      ]
-    },
-    {
-      "name": "Brat",
-      "description": "Create BRAT style text stickers (green/black background, static or animated video, blur or HD)",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "brat",
-        "bratvid",
-        "bratvideo",
-        "brathd",
-        "brathdvid",
-        "brathdvideo",
-        "bratvidhd",
-        "ibrat",
-        "ibratvid",
-        "ibratvideo",
-        "ibrathd",
-        "ibrathdvid",
-        "ibrathdvideo",
-        "ibratvidhd",
-        "jbrat",
-        "jbratvid",
-        "jbratvideo",
-        "jbrathd",
-        "jbrathdvid",
-        "jbrathdvideo",
-        "jbratvidhd",
-        "tbrat",
-        "tbratvid",
-        "tbratvideo",
-        "tbrathd",
-        "tbrathdvid",
-        "tbrathdvideo",
-        "tbratvidhd",
-        "brat2",
-        "brat2vid",
-        "brat2video",
-        "brat2hd",
-        "brat2hdvid",
-        "brat2hdvideo",
-        "brat2vidhd",
-        "brat3",
-        "brat3vid",
-        "brat3video",
-        "brat3hd",
-        "brat3hdvid",
-        "brat3hdvideo",
-        "brat3vidhd",
-        "brat4",
-        "brat4vid",
-        "brat4video",
-        "brat4hd",
-        "brat4hdvid",
-        "brat4hdvideo",
-        "brat4vidhd"
       ]
     },
     {
@@ -306,20 +202,6 @@
         "jadwalch",
         "jadwalsaluran",
         "chs"
-      ]
-    },
-    {
-      "name": "Chorus",
-      "description": "Add chorus effect to audio",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "chorus"
       ]
     },
     {
@@ -411,77 +293,6 @@
       ]
     },
     {
-      "name": "Deep",
-      "description": "Make audio sound deeper",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "deep"
-      ]
-    },
-    {
-      "name": "Denoise",
-      "description": "Reduce noise in audio",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "denoise"
-      ]
-    },
-    {
-      "name": "Distortion",
-      "description": "Add distortion effect to audio",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "distortion"
-      ]
-    },
-    {
-      "name": "EarRape",
-      "description": "Extreme volume boost effect (optional: volume level 1-50, default 12)",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "earrape"
-      ]
-    },
-    {
-      "name": "Emojimix",
-      "description": "Mix two emojis into one (Emoji Kitchen)",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "emojimix",
-        "mixemoji"
-      ]
-    },
-    {
       "name": "Encode",
       "description": "Encode text to various formats (base64, hex, morse, etc)",
       "permissions": {},
@@ -496,8 +307,8 @@
       ]
     },
     {
-      "name": "Fast",
-      "description": "Speed up audio playback (optional: speed ratio 1.0-4.0, default 1.63)",
+      "name": "FakeThumbnail",
+      "description": "Send original media disguised with a fake thumbnail from another media",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -506,35 +317,9 @@
       "delaySeconds": 0,
       "minArgs": 0,
       "tags": [
-        "fast"
-      ]
-    },
-    {
-      "name": "Fat",
-      "description": "Fat / heavy audio effect",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "fat"
-      ]
-    },
-    {
-      "name": "Flanger",
-      "description": "Add flanger effect to audio",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "flanger"
+        "fakethumbnail",
+        "fakethumb",
+        "spoofmedia"
       ]
     },
     {
@@ -580,20 +365,6 @@
         "generatelrc",
         "lrc",
         "makelrc"
-      ]
-    },
-    {
-      "name": "GetEXIF",
-      "description": "Get EXIF metadata from the quoted/replied sticker",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "getexif"
       ]
     },
     {
@@ -664,20 +435,6 @@
       "minArgs": 0,
       "tags": [
         "html"
-      ]
-    },
-    {
-      "name": "HighPass",
-      "description": "Cut low frequencies from audio (optional: frequency 100-10000Hz, default 500)",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "highpass"
       ]
     },
     {
@@ -783,20 +540,6 @@
       ]
     },
     {
-      "name": "LowPass",
-      "description": "Cut high frequencies from audio (optional: frequency 100-10000Hz, default 500)",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "lowpass"
-      ]
-    },
-    {
       "name": "Lower",
       "description": "Convert text to lowercase",
       "permissions": {},
@@ -837,20 +580,6 @@
       "tags": [
         "mediaquality",
         "mq"
-      ]
-    },
-    {
-      "name": "Nightcore",
-      "description": "Convert audio to nightcore style",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "nightcore"
       ]
     },
     {
@@ -911,8 +640,8 @@
       ]
     },
     {
-      "name": "Pitch",
-      "description": "Raise audio pitch (optional: pitch level 0.5-2.0, default 1.25)",
+      "name": "PhotoLive",
+      "description": "Convert video or photo+video combination into WhatsApp Motion Photo",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -921,7 +650,10 @@
       "delaySeconds": 0,
       "minArgs": 0,
       "tags": [
-        "pitch"
+        "fotolive",
+        "photolive",
+        "motionphoto",
+        "livephoto"
       ]
     },
     {
@@ -937,24 +669,6 @@
       "tags": [
         "pixelate",
         "pixel"
-      ]
-    },
-    {
-      "name": "QC",
-      "description": "Create chat quotes from text/images",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "qc",
-        "sqc",
-        "isqc",
-        "jsqc",
-        "tsqc"
       ]
     },
     {
@@ -1045,20 +759,6 @@
       ]
     },
     {
-      "name": "Reverb",
-      "description": "Add reverb effect to audio",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "reverb"
-      ]
-    },
-    {
       "name": "Reverse",
       "description": "Reverse text, audio (max 10 min) or video (max 1 min, premium)",
       "permissions": {},
@@ -1070,20 +770,6 @@
       "minArgs": 0,
       "tags": [
         "reverse"
-      ]
-    },
-    {
-      "name": "Robot",
-      "description": "Apply robot voice effect",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "robot"
       ]
     },
     {
@@ -1114,23 +800,6 @@
       "minArgs": 0,
       "tags": [
         "rotate"
-      ]
-    },
-    {
-      "name": "SMeme",
-      "description": "Create meme sticker with top and bottom text from sent or replied image",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "smeme",
-        "ismeme",
-        "jsmeme",
-        "tsmeme"
       ]
     },
     {
@@ -1182,20 +851,6 @@
       ]
     },
     {
-      "name": "Slow",
-      "description": "Slow down audio playback speed (optional: speed ratio 0.5-0.99, default 0.7)",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "slow"
-      ]
-    },
-    {
       "name": "Smooth",
       "description": "Smooth video with 120fps frame interpolation (Premium, max. 1:30 min)",
       "permissions": {},
@@ -1221,23 +876,6 @@
       "minArgs": 0,
       "tags": [
         "stabilize"
-      ]
-    },
-    {
-      "name": "Sticker",
-      "description": "Create a sticker from an image, video, sticker, or ZIP file sent or replied to. Supports shape modes (--circle, --round), crop modes (--crop, --full, --smart), framerate (-fps=1-60, -fps auto), direct 1:1 forced ratio (--direct), and custom metadata (--null, --avatar, --ai, --premium).",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "sticker",
-        "stiker",
-        "swm",
-        "s"
       ]
     },
     {
@@ -1302,35 +940,6 @@
       ]
     },
     {
-      "name": "ToGif",
-      "description": "Convert animated WhatsApp sticker into GIF (reply sticker)",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "togif"
-      ]
-    },
-    {
-      "name": "ToImage",
-      "description": "Convert WhatsApp sticker into regular image/photo (reply sticker)",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "toimage",
-        "toimg"
-      ]
-    },
-    {
       "name": "ToMP3",
       "description": "Convert video to mp3 or voice note.",
       "permissions": {},
@@ -1363,8 +972,8 @@
       ]
     },
     {
-      "name": "ToVideo",
-      "description": "Convert animated WhatsApp sticker into MP4 video (reply sticker)",
+      "name": "TopTV",
+      "description": "Convert video into circular Video Note (PTV)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -1373,8 +982,10 @@
       "delaySeconds": 0,
       "minArgs": 0,
       "tags": [
-        "tovideo",
-        "tovid"
+        "toptv",
+        "toptvmsg",
+        "videonote",
+        "ptv"
       ]
     },
     {
@@ -1425,20 +1036,6 @@
       ]
     },
     {
-      "name": "Tupai",
-      "description": "Chipmunk / squirrel voice effect",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "tupai"
-      ]
-    },
-    {
       "name": "URL",
       "description": "Encode/decode text using url",
       "permissions": {},
@@ -1450,20 +1047,6 @@
       "minArgs": 0,
       "tags": [
         "url"
-      ]
-    },
-    {
-      "name": "Underwater",
-      "description": "Underwater audio effect",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "underwater"
       ]
     },
     {

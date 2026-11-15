@@ -19,6 +19,38 @@
       ]
     },
     {
+      "name": "AddVoucher",
+      "description": "Add store discount voucher coupon (Store Staff / Owner)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "addvoucher",
+        "tambahvoucher",
+        "createvoucher"
+      ]
+    },
+    {
+      "name": "DelVoucher",
+      "description": "Delete store voucher coupon (Store Staff / Owner)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "delvoucher",
+        "hapusvoucher",
+        "rmvoucher"
+      ]
+    },
+    {
       "name": "DetailOrder",
       "description": "View full order invoice details (Store Staff / Buyer)",
       "permissions": {},

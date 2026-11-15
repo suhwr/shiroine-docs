@@ -340,7 +340,7 @@
       "name": "AnimeWallpaper",
       "aliases": [],
       "category": "animanga",
-      "path": "/command/animanga/AnimeWallpaper",
+      "path": "/command/waifu/AnimeWallpaper",
       "description": "HD anime wallpapers for phone / desktop",
       "permissions": {},
       "premiumOnly": "",
@@ -357,7 +357,7 @@
       "name": "BunnyGirl",
       "aliases": [],
       "category": "animanga",
-      "path": "/command/animanga/BunnyGirl",
+      "path": "/command/waifu/BunnyGirl",
       "description": "Random anime bunny girl art",
       "permissions": {},
       "premiumOnly": "",
@@ -390,7 +390,7 @@
       "name": "Danbooru",
       "aliases": [],
       "category": "animanga",
-      "path": "/command/animanga/Danbooru",
+      "path": "/command/waifu/Danbooru",
       "description": "Search anime art and wallpaper directly from Danbooru",
       "permissions": {},
       "premiumOnly": "",
@@ -405,7 +405,7 @@
       "name": "Husbu",
       "aliases": [],
       "category": "animanga",
-      "path": "/command/animanga/Husbu",
+      "path": "/command/waifu/Husbu",
       "description": "Random anime husbando / handsome male character art",
       "permissions": {},
       "premiumOnly": "",
@@ -439,7 +439,7 @@
       "name": "Kitsune",
       "aliases": [],
       "category": "animanga",
-      "path": "/command/animanga/Kitsune",
+      "path": "/command/waifu/Kitsune",
       "description": "Random anime foxgirl (kitsune) art",
       "permissions": {},
       "premiumOnly": "",
@@ -455,7 +455,7 @@
       "name": "Konachan",
       "aliases": [],
       "category": "animanga",
-      "path": "/command/animanga/Konachan",
+      "path": "/command/waifu/Konachan",
       "description": "Search high-resolution anime wallpapers on Konachan",
       "permissions": {},
       "premiumOnly": "",
@@ -471,7 +471,7 @@
       "name": "Maid",
       "aliases": [],
       "category": "animanga",
-      "path": "/command/animanga/Maid",
+      "path": "/command/waifu/Maid",
       "description": "Random anime maid character art",
       "permissions": {},
       "premiumOnly": "",
@@ -526,7 +526,7 @@
       "name": "Neko",
       "aliases": [],
       "category": "animanga",
-      "path": "/command/animanga/Neko",
+      "path": "/command/waifu/Neko",
       "description": "Random anime catgirl (neko) art",
       "permissions": {},
       "premiumOnly": "",
@@ -542,7 +542,7 @@
       "name": "Safebooru",
       "aliases": [],
       "category": "animanga",
-      "path": "/command/animanga/Safebooru",
+      "path": "/command/waifu/Safebooru",
       "description": "Search 100% safe anime art on Safebooru",
       "permissions": {},
       "premiumOnly": "",
@@ -575,7 +575,7 @@
       "name": "Schoolgirl",
       "aliases": [],
       "category": "animanga",
-      "path": "/command/animanga/Schoolgirl",
+      "path": "/command/waifu/Schoolgirl",
       "description": "Random anime schoolgirl uniform art",
       "permissions": {},
       "premiumOnly": "",
@@ -591,7 +591,7 @@
       "name": "Swimsuit",
       "aliases": [],
       "category": "animanga",
-      "path": "/command/animanga/Swimsuit",
+      "path": "/command/waifu/Swimsuit",
       "description": "Random anime swimsuit and beach art",
       "permissions": {},
       "premiumOnly": "",
@@ -607,7 +607,7 @@
       "name": "Waifu",
       "aliases": [],
       "category": "animanga",
-      "path": "/command/animanga/Waifu",
+      "path": "/command/waifu/Waifu",
       "description": "Random anime waifu photo/art or by character name",
       "permissions": {},
       "premiumOnly": "",
@@ -640,7 +640,7 @@
       "name": "Yandere",
       "aliases": [],
       "category": "animanga",
-      "path": "/command/animanga/Yandere",
+      "path": "/command/waifu/Yandere",
       "description": "Search anime art and wallpaper directly from Yande.re",
       "permissions": {},
       "premiumOnly": "",
@@ -656,7 +656,7 @@
       "name": "Zerochan",
       "aliases": [],
       "category": "animanga",
-      "path": "/command/animanga/Zerochan",
+      "path": "/command/waifu/Zerochan",
       "description": "Search anime art and wallpapers from artists on Zerochan",
       "permissions": {},
       "premiumOnly": "",
@@ -666,6 +666,306 @@
       "tags": [
         "zerochan",
         "zc"
+      ]
+    },
+    {
+      "name": "AudioEffect",
+      "aliases": [],
+      "category": "audiofx",
+      "path": "/command/audiofx/AudioEffect",
+      "description": "Show list of all available audio effects",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "audioeffect"
+      ]
+    },
+    {
+      "name": "Bass",
+      "aliases": [],
+      "category": "audiofx",
+      "path": "/command/audiofx/Bass",
+      "description": "Add bass boost effect to audio/video (optional: bass level 1-100, default 20)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "bass"
+      ]
+    },
+    {
+      "name": "Blown",
+      "aliases": [],
+      "category": "audiofx",
+      "path": "/command/audiofx/Blown",
+      "description": "Blown / overdrive effect on audio",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "blown"
+      ]
+    },
+    {
+      "name": "Chorus",
+      "aliases": [],
+      "category": "audiofx",
+      "path": "/command/audiofx/Chorus",
+      "description": "Add chorus effect to audio",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "chorus"
+      ]
+    },
+    {
+      "name": "Deep",
+      "aliases": [],
+      "category": "audiofx",
+      "path": "/command/audiofx/Deep",
+      "description": "Make audio sound deeper",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "deep"
+      ]
+    },
+    {
+      "name": "Denoise",
+      "aliases": [],
+      "category": "audiofx",
+      "path": "/command/audiofx/Denoise",
+      "description": "Reduce noise in audio",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "denoise"
+      ]
+    },
+    {
+      "name": "Distortion",
+      "aliases": [],
+      "category": "audiofx",
+      "path": "/command/audiofx/Distortion",
+      "description": "Add distortion effect to audio",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "distortion"
+      ]
+    },
+    {
+      "name": "EarRape",
+      "aliases": [],
+      "category": "audiofx",
+      "path": "/command/audiofx/EarRape",
+      "description": "Extreme volume boost effect (optional: volume level 1-50, default 12)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "earrape"
+      ]
+    },
+    {
+      "name": "Fast",
+      "aliases": [],
+      "category": "audiofx",
+      "path": "/command/audiofx/Fast",
+      "description": "Speed up audio playback (optional: speed ratio 1.0-4.0, default 1.63)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "fast"
+      ]
+    },
+    {
+      "name": "Fat",
+      "aliases": [],
+      "category": "audiofx",
+      "path": "/command/audiofx/Fat",
+      "description": "Fat / heavy audio effect",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "fat"
+      ]
+    },
+    {
+      "name": "Flanger",
+      "aliases": [],
+      "category": "audiofx",
+      "path": "/command/audiofx/Flanger",
+      "description": "Add flanger effect to audio",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "flanger"
+      ]
+    },
+    {
+      "name": "HighPass",
+      "aliases": [],
+      "category": "audiofx",
+      "path": "/command/audiofx/HighPass",
+      "description": "Cut low frequencies from audio (optional: frequency 100-10000Hz, default 500)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "highpass"
+      ]
+    },
+    {
+      "name": "LowPass",
+      "aliases": [],
+      "category": "audiofx",
+      "path": "/command/audiofx/LowPass",
+      "description": "Cut high frequencies from audio (optional: frequency 100-10000Hz, default 500)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "lowpass"
+      ]
+    },
+    {
+      "name": "Nightcore",
+      "aliases": [],
+      "category": "audiofx",
+      "path": "/command/audiofx/Nightcore",
+      "description": "Convert audio to nightcore style",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "nightcore"
+      ]
+    },
+    {
+      "name": "Pitch",
+      "aliases": [],
+      "category": "audiofx",
+      "path": "/command/audiofx/Pitch",
+      "description": "Raise audio pitch (optional: pitch level 0.5-2.0, default 1.25)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "pitch"
+      ]
+    },
+    {
+      "name": "Reverb",
+      "aliases": [],
+      "category": "audiofx",
+      "path": "/command/audiofx/Reverb",
+      "description": "Add reverb effect to audio",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "reverb"
+      ]
+    },
+    {
+      "name": "Robot",
+      "aliases": [],
+      "category": "audiofx",
+      "path": "/command/audiofx/Robot",
+      "description": "Apply robot voice effect",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "robot"
+      ]
+    },
+    {
+      "name": "Slow",
+      "aliases": [],
+      "category": "audiofx",
+      "path": "/command/audiofx/Slow",
+      "description": "Slow down audio playback speed (optional: speed ratio 0.5-0.99, default 0.7)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "slow"
+      ]
+    },
+    {
+      "name": "Tupai",
+      "aliases": [],
+      "category": "audiofx",
+      "path": "/command/audiofx/Tupai",
+      "description": "Chipmunk / squirrel voice effect",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "tupai"
+      ]
+    },
+    {
+      "name": "Underwater",
+      "aliases": [],
+      "category": "audiofx",
+      "path": "/command/audiofx/Underwater",
+      "description": "Underwater audio effect",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "underwater"
       ]
     },
     {
@@ -1531,9 +1831,9 @@
       "path": "/command/developer/HardBan",
       "description": "Ban user globally (permanent)",
       "permissions": {
+        "owner": true,
         "moderator": true,
-        "subowner": true,
-        "owner": true
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -1919,21 +2219,6 @@
       ]
     },
     {
-      "name": "DownloadStickerPack",
-      "aliases": [],
-      "category": "downloader",
-      "path": "/command/downloader/DownloadStickerPack",
-      "description": "Download a WhatsApp sticker pack message as a ZIP file",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "tags": [
-        "downloadstickerpack"
-      ]
-    },
-    {
       "name": "Downloader",
       "aliases": [],
       "category": "downloader",
@@ -1947,25 +2232,6 @@
       "tags": [
         "dl",
         "downloader"
-      ]
-    },
-    {
-      "name": "FStik",
-      "aliases": [],
-      "category": "downloader",
-      "path": "/command/downloader/FStik",
-      "description": "Download sticker packs from FStik catalog (fstik.app) via link or search keyword.",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "tags": [
-        "fstik",
-        "fstick",
-        "fgstick",
-        "fstiker",
-        "fstikers"
       ]
     },
     {
@@ -2049,24 +2315,6 @@
         "instagram",
         "igdl",
         "ig"
-      ]
-    },
-    {
-      "name": "LINE Sticker",
-      "aliases": [],
-      "category": "downloader",
-      "path": "/command/downloader/LINE Sticker",
-      "description": "Download sticker packs from LINE Store and send them as WhatsApp stickers (static and animated).",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "tags": [
-        "linesticker",
-        "linestick",
-        "line",
-        "line sticker"
       ]
     },
     {
@@ -2170,74 +2418,6 @@
       "tags": [
         "pixiv",
         "pxdl"
-      ]
-    },
-    {
-      "name": "Stickerly",
-      "aliases": [],
-      "category": "downloader",
-      "path": "/command/downloader/Stickerly",
-      "description": "Download sticker packs from Sticker.ly via link, pack code, or search keyword.",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "tags": [
-        "stickerly",
-        "stickly",
-        "sly",
-        "stikerly"
-      ]
-    },
-    {
-      "name": "StickersGG",
-      "aliases": [],
-      "category": "downloader",
-      "path": "/command/downloader/StickersGG",
-      "description": "Download sticker packs from Stickers.gg via link or category.",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "tags": [
-        "stickersgg",
-        "sgg",
-        "stickerspack"
-      ]
-    },
-    {
-      "name": "TelegramSticker",
-      "aliases": [],
-      "category": "downloader",
-      "path": "/command/downloader/TelegramSticker",
-      "description": "Download a Telegram sticker pack and send it as WhatsApp stickers (supports -fps=1-60 or -fps auto)",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "tags": [
-        "telegramsticker",
-        "tgsticker",
-        "tgs"
-      ]
-    },
-    {
-      "name": "TelegramStickerV2",
-      "aliases": [],
-      "category": "downloader",
-      "path": "/command/downloader/TelegramStickerV2",
-      "description": "Download a Telegram sticker pack as ZIP without conversion",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "tags": [
-        "telegramstickerv2",
-        "tgsv2"
       ]
     },
     {
@@ -4433,8 +4613,8 @@
     {
       "name": "Add",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Add",
+      "category": "group_admin",
+      "path": "/command/group_admin/Add",
       "description": "Add new member(s) to the group",
       "permissions": {
         "admin": true,
@@ -4451,8 +4631,8 @@
     {
       "name": "AdminOnly",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/AdminOnly",
+      "category": "group_admin",
+      "path": "/command/group_admin/AdminOnly",
       "description": "Make the bot only respond to commands from group admins",
       "permissions": {
         "admin": true,
@@ -4470,8 +4650,8 @@
     {
       "name": "Adzan",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Adzan",
+      "category": "group_admin",
+      "path": "/command/group_admin/Adzan",
       "description": "Automated adzan schedule and prayer notifications for the group",
       "permissions": {
         "admin": true,
@@ -4488,28 +4668,10 @@
       ]
     },
     {
-      "name": "AntiBot",
-      "aliases": [],
-      "category": "group",
-      "path": "/command/group/AntiBot",
-      "description": "Enable or disable anti-bot system for the group",
-      "permissions": {
-        "admin": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "antibot"
-      ]
-    },
-    {
       "name": "AntiBug",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/AntiBug",
+      "category": "group_admin",
+      "path": "/command/group_admin/AntiBug",
       "description": "Configure anti bug, virtex, and crash protection in group",
       "permissions": {
         "admin": true,
@@ -4526,12 +4688,12 @@
     {
       "name": "AntiCall",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/AntiCall",
+      "category": "group_admin",
+      "path": "/command/group_admin/AntiCall",
       "description": "Configure automatic rejection of WhatsApp group calls",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -4544,8 +4706,8 @@
     {
       "name": "AntiHideTag",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/AntiHideTag",
+      "category": "group_admin",
+      "path": "/command/group_admin/AntiHideTag",
       "description": "Configure anti hidden mention (hidetag) protection in group",
       "permissions": {
         "admin": true,
@@ -4560,65 +4722,10 @@
       ]
     },
     {
-      "name": "AntiLink",
-      "aliases": [],
-      "category": "group",
-      "path": "/command/group/AntiLink",
-      "description": "Configure AntiLink system to block prohibited links in group",
-      "permissions": {
-        "admin": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "antilink"
-      ]
-    },
-    {
-      "name": "AntiMedia",
-      "aliases": [],
-      "category": "group",
-      "path": "/command/group/AntiMedia",
-      "description": "Configure group anti-media protection: sticker, video, viewonce, image, voice, doc",
-      "permissions": {
-        "admin": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "antimedia"
-      ]
-    },
-    {
-      "name": "AntiNSFWMedia",
-      "aliases": [],
-      "category": "group",
-      "path": "/command/group/AntiNSFWMedia",
-      "description": "Enable automatic NSFW media filter in group",
-      "permissions": {
-        "admin": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "antinsfwmedia",
-        "antinsfw"
-      ]
-    },
-    {
       "name": "AntiSW",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/AntiSW",
+      "category": "group_admin",
+      "path": "/command/group_admin/AntiSW",
       "description": "Configure anti tag status (SWGC)",
       "permissions": {
         "admin": true,
@@ -4636,12 +4743,12 @@
     {
       "name": "AntiSpam",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/AntiSpam",
+      "category": "group_admin",
+      "path": "/command/group_admin/AntiSpam",
       "description": "Configure anti spam flood protection in group",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -4654,8 +4761,8 @@
     {
       "name": "AntiTagSW",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/AntiTagSW",
+      "category": "group_admin",
+      "path": "/command/group_admin/AntiTagSW",
       "description": "Configure anti status tag protection in group",
       "permissions": {
         "admin": true,
@@ -4672,8 +4779,8 @@
     {
       "name": "AntiVO",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/AntiVO",
+      "category": "group_admin",
+      "path": "/command/group_admin/AntiVO",
       "description": "Configure anti view-once message protection in group",
       "permissions": {
         "admin": true,
@@ -4691,12 +4798,12 @@
     {
       "name": "Attendance",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Attendance",
+      "category": "group_admin",
+      "path": "/command/group_admin/Attendance",
       "description": "Manage group attendance and CSV exports (admins)",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -4710,8 +4817,8 @@
     {
       "name": "AutoRespon",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/AutoRespon",
+      "category": "group_admin",
+      "path": "/command/group_admin/AutoRespon",
       "description": "Manage group auto-response system",
       "permissions": {
         "admin": true,
@@ -4727,84 +4834,10 @@
       ]
     },
     {
-      "name": "BadWord",
-      "aliases": [],
-      "category": "group",
-      "path": "/command/group/BadWord",
-      "description": "Manage group forbidden badwords filter and violation strikes",
-      "permissions": {
-        "admin": true,
-        "moderator": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "badword"
-      ]
-    },
-    {
-      "name": "BanChat",
-      "aliases": [],
-      "category": "group",
-      "path": "/command/group/BanChat",
-      "description": "Ban bot from responding in specific groups selectively or globally",
-      "permissions": {
-        "hasbot": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "ban-chat",
-        "banchat",
-        "bangc",
-        "bangrup",
-        "ban-gc",
-        "ban-grup"
-      ]
-    },
-    {
-      "name": "BanList",
-      "aliases": [],
-      "category": "group",
-      "path": "/command/group/BanList",
-      "description": "Show list of banned entities by category",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "banlist"
-      ]
-    },
-    {
-      "name": "BanMember",
-      "aliases": [],
-      "category": "group",
-      "path": "/command/group/BanMember",
-      "description": "Ban member from using the bot in this group",
-      "permissions": {
-        "admin": true,
-        "moderator": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "ban-member",
-        "banmember"
-      ]
-    },
-    {
       "name": "CekBotAdmin",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/CekBotAdmin",
+      "category": "group_admin",
+      "path": "/command/group_admin/CekBotAdmin",
       "description": "Check list of bots that are admin in this group",
       "permissions": {
         "admin": true
@@ -4821,8 +4854,8 @@
     {
       "name": "CekTanpaGrup",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/CekTanpaGrup",
+      "category": "group_admin",
+      "path": "/command/group_admin/CekTanpaGrup",
       "description": "Check community members who have not joined any subgroup",
       "permissions": {
         "admin": true
@@ -4838,8 +4871,8 @@
     {
       "name": "Close",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Close",
+      "category": "group_admin",
+      "path": "/command/group_admin/Close",
       "description": "Close group (only admins can send messages)",
       "permissions": {
         "admin": true,
@@ -4857,8 +4890,8 @@
     {
       "name": "Cmd",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Cmd",
+      "category": "group_admin",
+      "path": "/command/group_admin/Cmd",
       "description": "Disable or enable bot commands in this group individually or in bulk",
       "permissions": {
         "admin": true,
@@ -4875,8 +4908,8 @@
     {
       "name": "DebugPriority",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/DebugPriority",
+      "category": "group_admin",
+      "path": "/command/group_admin/DebugPriority",
       "description": "Debug bot priority and cross-server routing status in group",
       "permissions": {
         "owner": true,
@@ -4897,8 +4930,8 @@
     {
       "name": "Delete",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Delete",
+      "category": "group_admin",
+      "path": "/command/group_admin/Delete",
       "description": "Delete replied message",
       "permissions": {},
       "premiumOnly": "",
@@ -4914,8 +4947,8 @@
     {
       "name": "Demote",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Demote",
+      "category": "group_admin",
+      "path": "/command/group_admin/Demote",
       "description": "Demote an admin to a regular member",
       "permissions": {
         "admin": true,
@@ -4932,8 +4965,8 @@
     {
       "name": "Ephemeral",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Ephemeral",
+      "category": "group_admin",
+      "path": "/command/group_admin/Ephemeral",
       "description": "Configure disappearing / ephemeral messages in group",
       "permissions": {
         "admin": true,
@@ -4950,8 +4983,8 @@
     {
       "name": "GStats",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/GStats",
+      "category": "group_admin",
+      "path": "/command/group_admin/GStats",
       "description": "Show group message statistics this month including top 3 most active members",
       "permissions": {
         "admin": true,
@@ -4968,8 +5001,8 @@
     {
       "name": "GroupID",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/GroupID",
+      "category": "group_admin",
+      "path": "/command/group_admin/GroupID",
       "description": "Display unique ID of this group chat",
       "permissions": {},
       "premiumOnly": "",
@@ -4983,8 +5016,8 @@
     {
       "name": "GroupInfo",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/GroupInfo",
+      "category": "group_admin",
+      "path": "/command/group_admin/GroupInfo",
       "description": "View complete group information and configuration",
       "permissions": {},
       "premiumOnly": "",
@@ -5000,8 +5033,8 @@
     {
       "name": "GroupPrefix",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/GroupPrefix",
+      "category": "group_admin",
+      "path": "/command/group_admin/GroupPrefix",
       "description": "Set custom command prefix for the group",
       "permissions": {
         "admin": true,
@@ -5020,8 +5053,8 @@
     {
       "name": "GroupSettings",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/GroupSettings",
+      "category": "group_admin",
+      "path": "/command/group_admin/GroupSettings",
       "description": "Show group features and their status",
       "permissions": {},
       "premiumOnly": "",
@@ -5040,8 +5073,8 @@
         "upstatusgrup",
         "statusgrup"
       ],
-      "category": "group",
-      "path": "/command/group/GroupStatus",
+      "category": "group_admin",
+      "path": "/command/group_admin/GroupStatus",
       "description": "Upload media to group status",
       "permissions": {
         "admin": true
@@ -5060,8 +5093,8 @@
     {
       "name": "HideTag",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/HideTag",
+      "category": "group_admin",
+      "path": "/command/group_admin/HideTag",
       "description": "Tag all group members invisibly",
       "permissions": {
         "admin": true,
@@ -5080,8 +5113,8 @@
     {
       "name": "Info",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Info",
+      "category": "group_admin",
+      "path": "/command/group_admin/Info",
       "description": "Configure group setting change notifications",
       "permissions": {
         "admin": true,
@@ -5098,8 +5131,8 @@
     {
       "name": "Jockey",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Jockey",
+      "category": "group_admin",
+      "path": "/command/group_admin/Jockey",
       "description": "Music player bot for WhatsApp group voice calls",
       "permissions": {},
       "premiumOnly": "",
@@ -5113,8 +5146,8 @@
     {
       "name": "JoinReq",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/JoinReq",
+      "category": "group_admin",
+      "path": "/command/group_admin/JoinReq",
       "description": "Manage group member join approval requests",
       "permissions": {
         "admin": true,
@@ -5131,15 +5164,15 @@
     {
       "name": "LeaveGroup",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/LeaveGroup",
+      "category": "group_admin",
+      "path": "/command/group_admin/LeaveGroup",
       "description": "Remove bot from group or leave groups remotely",
       "permissions": {
+        "bot": true,
+        "hasbot": true,
         "admin": true,
         "owner": true,
-        "subowner": true,
-        "bot": true,
-        "hasbot": true
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -5157,8 +5190,8 @@
     {
       "name": "Left",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Left",
+      "category": "group_admin",
+      "path": "/command/group_admin/Left",
       "description": "Configure goodbye notification and cover when members leave",
       "permissions": {
         "admin": true,
@@ -5175,12 +5208,12 @@
     {
       "name": "LinkGC",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/LinkGC",
+      "category": "group_admin",
+      "path": "/command/group_admin/LinkGC",
       "description": "Get group invite link",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -5195,12 +5228,12 @@
     {
       "name": "ListAktif",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/ListAktif",
+      "category": "group_admin",
+      "path": "/command/group_admin/ListAktif",
       "description": "View the list of members active today along with their total messages",
       "permissions": {
-        "admin": true,
-        "moderator": true
+        "moderator": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -5211,48 +5244,10 @@
       ]
     },
     {
-      "name": "ListBanMember",
-      "aliases": [],
-      "category": "group",
-      "path": "/command/group/ListBanMember",
-      "description": "Show list of members banned by bot in this group",
-      "permissions": {
-        "admin": true,
-        "moderator": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "listbanmember",
-        "banmemberlist"
-      ]
-    },
-    {
-      "name": "ListMute",
-      "aliases": [],
-      "category": "group",
-      "path": "/command/group/ListMute",
-      "description": "View list of currently muted members in the group and unmute interactively",
-      "permissions": {
-        "admin": true,
-        "moderator": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "listmute",
-        "mutelist"
-      ]
-    },
-    {
       "name": "ListTimezone",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/ListTimezone",
+      "category": "group_admin",
+      "path": "/command/group_admin/ListTimezone",
       "description": "View list of popular available timezones",
       "permissions": {},
       "premiumOnly": "",
@@ -5266,47 +5261,9 @@
       ]
     },
     {
-      "name": "ListWarning",
-      "aliases": [],
-      "category": "group",
-      "path": "/command/group/ListWarning",
-      "description": "View all members with active warnings in the group",
-      "permissions": {
-        "admin": true,
-        "moderator": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "listwarning",
-        "warninglist"
-      ]
-    },
-    {
-      "name": "MuteMember",
-      "aliases": [],
-      "category": "group",
-      "path": "/command/group/MuteMember",
-      "description": "Mute a specific member in the group so messages are auto-deleted",
-      "permissions": {
-        "admin": true,
-        "moderator": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "mutemember",
-        "mute-member"
-      ]
-    },
-    {
       "name": "NSFW",
       "aliases": [],
-      "category": "group",
+      "category": "group_admin",
       "path": "/command/general/NSFW",
       "description": "Toggle NSFW mode (in group: admin only, in private: bot only)",
       "permissions": {},
@@ -5322,8 +5279,8 @@
     {
       "name": "Open",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Open",
+      "category": "group_admin",
+      "path": "/command/group_admin/Open",
       "description": "Open group (all members can send messages)",
       "permissions": {
         "admin": true,
@@ -5341,8 +5298,8 @@
     {
       "name": "PinMsg",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/PinMsg",
+      "category": "group_admin",
+      "path": "/command/group_admin/PinMsg",
       "description": "Pin message in group for 1 day, 7 days, or 30 days",
       "permissions": {
         "admin": true,
@@ -5362,8 +5319,8 @@
     {
       "name": "Present",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Present",
+      "category": "group_admin",
+      "path": "/command/group_admin/Present",
       "description": "Check in as present, excused, or sick once per session",
       "permissions": {},
       "premiumOnly": "",
@@ -5378,8 +5335,8 @@
     {
       "name": "Promote",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Promote",
+      "category": "group_admin",
+      "path": "/command/group_admin/Promote",
       "description": "Promote a group member to admin",
       "permissions": {
         "admin": true,
@@ -5396,8 +5353,8 @@
     {
       "name": "Remove",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Remove",
+      "category": "group_admin",
+      "path": "/command/group_admin/Remove",
       "description": "Remove a specific member from the group chat",
       "permissions": {
         "admin": true
@@ -5412,29 +5369,10 @@
       ]
     },
     {
-      "name": "ResetWarn",
-      "aliases": [],
-      "category": "group",
-      "path": "/command/group/ResetWarn",
-      "description": "Reset all warnings for a group member",
-      "permissions": {
-        "admin": true,
-        "moderator": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "resetwarn",
-        "clearwarn"
-      ]
-    },
-    {
       "name": "Revoke",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Revoke",
+      "category": "group_admin",
+      "path": "/command/group_admin/Revoke",
       "description": "Reset group invite link and generate a new one",
       "permissions": {
         "admin": true,
@@ -5453,8 +5391,8 @@
     {
       "name": "ScheduleGroup",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/ScheduleGroup",
+      "category": "group_admin",
+      "path": "/command/group_admin/ScheduleGroup",
       "description": "Unified group scheduling system (open/close chat, reminders, hidetag, reset link)",
       "permissions": {
         "admin": true,
@@ -5472,14 +5410,17 @@
         "jadwalgc",
         "setschedule",
         "reminder",
-        "autoopen"
+        "autoopen",
+        "schedule",
+        "remindgc",
+        "pengumuman"
       ]
     },
     {
       "name": "SetDesc",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/SetDesc",
+      "category": "group_admin",
+      "path": "/command/group_admin/SetDesc",
       "description": "Change group chat description",
       "permissions": {
         "admin": true,
@@ -5496,8 +5437,8 @@
     {
       "name": "SetGoodbye",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/SetGoodbye",
+      "category": "group_admin",
+      "path": "/command/group_admin/SetGoodbye",
       "description": "Set group goodbye message or cover",
       "permissions": {
         "admin": true,
@@ -5515,8 +5456,8 @@
     {
       "name": "SetLang",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/SetLang",
+      "category": "group_admin",
+      "path": "/command/group_admin/SetLang",
       "description": "Set bot language for the group (admin only) or private chat",
       "permissions": {},
       "premiumOnly": "",
@@ -5533,8 +5474,8 @@
     {
       "name": "SetPPGC",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/SetPPGC",
+      "category": "group_admin",
+      "path": "/command/group_admin/SetPPGC",
       "description": "Set group chat profile picture",
       "permissions": {
         "admin": true,
@@ -5555,8 +5496,8 @@
     {
       "name": "SetSubject",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/SetSubject",
+      "category": "group_admin",
+      "path": "/command/group_admin/SetSubject",
       "description": "Change group chat name",
       "permissions": {
         "admin": true,
@@ -5573,8 +5514,8 @@
     {
       "name": "SetTimezone",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/SetTimezone",
+      "category": "group_admin",
+      "path": "/command/group_admin/SetTimezone",
       "description": "Set group timezone for schedule and activity tracking",
       "permissions": {
         "admin": true,
@@ -5591,8 +5532,8 @@
     {
       "name": "SetWelcome",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/SetWelcome",
+      "category": "group_admin",
+      "path": "/command/group_admin/SetWelcome",
       "description": "Set group welcome message or cover",
       "permissions": {
         "admin": true,
@@ -5610,8 +5551,8 @@
     {
       "name": "Sider",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Sider",
+      "category": "group_admin",
+      "path": "/command/group_admin/Sider",
       "description": "Manage inactive members (siders) and group cleanup",
       "permissions": {
         "admin": true,
@@ -5628,8 +5569,8 @@
     {
       "name": "SimulateGoodbye",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/SimulateGoodbye",
+      "category": "group_admin",
+      "path": "/command/group_admin/SimulateGoodbye",
       "description": "Simulate group goodbye message using your data as example",
       "permissions": {
         "admin": true,
@@ -5647,12 +5588,12 @@
     {
       "name": "SimulateWelcome",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/SimulateWelcome",
+      "category": "group_admin",
+      "path": "/command/group_admin/SimulateWelcome",
       "description": "Simulate group welcome message using your data as example",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -5666,8 +5607,8 @@
     {
       "name": "SyncGroup",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/SyncGroup",
+      "category": "group_admin",
+      "path": "/command/group_admin/SyncGroup",
       "description": "Clear group cache to refresh data directly from WhatsApp",
       "permissions": {},
       "premiumOnly": "",
@@ -5682,8 +5623,8 @@
     {
       "name": "TagAll",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/TagAll",
+      "category": "group_admin",
+      "path": "/command/group_admin/TagAll",
       "description": "Tag all group members grouped by role",
       "permissions": {
         "moderator": true,
@@ -5701,8 +5642,8 @@
     {
       "name": "TopActive",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/TopActive",
+      "category": "group_admin",
+      "path": "/command/group_admin/TopActive",
       "description": "Show most active members in the group based on message count",
       "permissions": {
         "admin": true,
@@ -5719,10 +5660,291 @@
       ]
     },
     {
+      "name": "UnpinMsg",
+      "aliases": [],
+      "category": "group_admin",
+      "path": "/command/group_admin/UnpinMsg",
+      "description": "Unpin message in group",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "unpinmsg",
+        "unpin",
+        "unpinchat",
+        "lepassemat"
+      ]
+    },
+    {
+      "name": "Welcome",
+      "aliases": [],
+      "category": "group_admin",
+      "path": "/command/group_admin/Welcome",
+      "description": "Configure welcome message and cover for new group members",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "welcome"
+      ]
+    },
+    {
+      "name": "AntiBot",
+      "aliases": [],
+      "category": "group_security",
+      "path": "/command/group_security/AntiBot",
+      "description": "Enable or disable anti-bot system for the group",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "antibot"
+      ]
+    },
+    {
+      "name": "AntiLink",
+      "aliases": [],
+      "category": "group_security",
+      "path": "/command/group_security/AntiLink",
+      "description": "Configure AntiLink system to block prohibited links in group",
+      "permissions": {
+        "subowner": true,
+        "admin": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "antilink"
+      ]
+    },
+    {
+      "name": "AntiMedia",
+      "aliases": [],
+      "category": "group_security",
+      "path": "/command/group_security/AntiMedia",
+      "description": "Configure group anti-media protection: sticker, video, viewonce, image, voice, doc",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "antimedia"
+      ]
+    },
+    {
+      "name": "AntiNSFWMedia",
+      "aliases": [],
+      "category": "group_security",
+      "path": "/command/group_security/AntiNSFWMedia",
+      "description": "Enable automatic NSFW media filter in group",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "antinsfwmedia",
+        "antinsfw"
+      ]
+    },
+    {
+      "name": "BadWord",
+      "aliases": [],
+      "category": "group_security",
+      "path": "/command/group_security/BadWord",
+      "description": "Manage group forbidden badwords filter and violation strikes",
+      "permissions": {
+        "moderator": true,
+        "admin": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "badword"
+      ]
+    },
+    {
+      "name": "BanChat",
+      "aliases": [],
+      "category": "group_security",
+      "path": "/command/group_security/BanChat",
+      "description": "Ban bot from responding in specific groups selectively or globally",
+      "permissions": {
+        "hasbot": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "ban-chat",
+        "banchat",
+        "bangc",
+        "bangrup",
+        "ban-gc",
+        "ban-grup"
+      ]
+    },
+    {
+      "name": "BanList",
+      "aliases": [],
+      "category": "group_security",
+      "path": "/command/group_security/BanList",
+      "description": "Show list of banned entities by category",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "banlist"
+      ]
+    },
+    {
+      "name": "BanMember",
+      "aliases": [],
+      "category": "group_security",
+      "path": "/command/group_security/BanMember",
+      "description": "Ban member from using the bot in this group",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "ban-member",
+        "banmember"
+      ]
+    },
+    {
+      "name": "ListBanMember",
+      "aliases": [],
+      "category": "group_security",
+      "path": "/command/group_security/ListBanMember",
+      "description": "Show list of members banned by bot in this group",
+      "permissions": {
+        "moderator": true,
+        "admin": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "listbanmember",
+        "banmemberlist"
+      ]
+    },
+    {
+      "name": "ListMute",
+      "aliases": [],
+      "category": "group_security",
+      "path": "/command/group_security/ListMute",
+      "description": "View list of currently muted members in the group and unmute interactively",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "listmute",
+        "mutelist"
+      ]
+    },
+    {
+      "name": "ListWarning",
+      "aliases": [],
+      "category": "group_security",
+      "path": "/command/group_security/ListWarning",
+      "description": "View all members with active warnings in the group",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "listwarning",
+        "warninglist"
+      ]
+    },
+    {
+      "name": "MuteMember",
+      "aliases": [],
+      "category": "group_security",
+      "path": "/command/group_security/MuteMember",
+      "description": "Mute a specific member in the group so messages are auto-deleted",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "mutemember",
+        "mute-member"
+      ]
+    },
+    {
+      "name": "ResetWarn",
+      "aliases": [],
+      "category": "group_security",
+      "path": "/command/group_security/ResetWarn",
+      "description": "Reset all warnings for a group member",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "resetwarn",
+        "clearwarn"
+      ]
+    },
+    {
       "name": "UnbanChat",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/UnbanChat",
+      "category": "group_security",
+      "path": "/command/group_security/UnbanChat",
       "description": "Unban bot response in specific groups selectively or globally",
       "permissions": {
         "hasbot": true
@@ -5743,12 +5965,12 @@
     {
       "name": "UnbanMember",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/UnbanMember",
+      "category": "group_security",
+      "path": "/command/group_security/UnbanMember",
       "description": "Unban member from the bot in this group",
       "permissions": {
-        "admin": true,
-        "moderator": true
+        "moderator": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -5762,8 +5984,8 @@
     {
       "name": "UnmuteMember",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/UnmuteMember",
+      "category": "group_security",
+      "path": "/command/group_security/UnmuteMember",
       "description": "Unmute a specific member in the group",
       "permissions": {
         "admin": true,
@@ -5779,31 +6001,10 @@
       ]
     },
     {
-      "name": "UnpinMsg",
-      "aliases": [],
-      "category": "group",
-      "path": "/command/group/UnpinMsg",
-      "description": "Unpin message in group",
-      "permissions": {
-        "admin": true,
-        "moderator": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "unpinmsg",
-        "unpin",
-        "unpinchat",
-        "lepassemat"
-      ]
-    },
-    {
       "name": "Warn",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Warn",
+      "category": "group_security",
+      "path": "/command/group_security/Warn",
       "description": "Issue a formal warning to a rule-breaking group member",
       "permissions": {
         "admin": true,
@@ -5820,8 +6021,8 @@
     {
       "name": "Warnings",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Warnings",
+      "category": "group_security",
+      "path": "/command/group_security/Warnings",
       "description": "View member's warning history in the group",
       "permissions": {},
       "premiumOnly": "",
@@ -5831,77 +6032,6 @@
       "tags": [
         "warnings",
         "warnlist"
-      ]
-    },
-    {
-      "name": "Welcome",
-      "aliases": [],
-      "category": "group",
-      "path": "/command/group/Welcome",
-      "description": "Configure welcome message and cover for new group members",
-      "permissions": {
-        "admin": true,
-        "subowner": true
-      },
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "welcome"
-      ]
-    },
-    {
-      "name": "FakeThumbnail",
-      "aliases": [],
-      "category": "media",
-      "path": "/command/media/FakeThumbnail",
-      "description": "Send original media disguised with a fake thumbnail from another media",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "fakethumbnail",
-        "fakethumb",
-        "spoofmedia"
-      ]
-    },
-    {
-      "name": "PhotoLive",
-      "aliases": [],
-      "category": "media",
-      "path": "/command/media/PhotoLive",
-      "description": "Convert video or photo+video combination into WhatsApp Motion Photo",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "fotolive",
-        "photolive",
-        "motionphoto",
-        "livephoto"
-      ]
-    },
-    {
-      "name": "TopTV",
-      "aliases": [],
-      "category": "media",
-      "path": "/command/media/TopTV",
-      "description": "Convert video into circular Video Note (PTV)",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "toptv",
-        "toptvmsg",
-        "videonote",
-        "ptv"
       ]
     },
     {
@@ -6100,6 +6230,21 @@
       ]
     },
     {
+      "name": "Album",
+      "aliases": [],
+      "category": "music",
+      "path": "/command/youtube/Album",
+      "description": "Download album from YouTube Music",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "album"
+      ]
+    },
+    {
       "name": "AmazonMusic",
       "aliases": [],
       "category": "music",
@@ -6129,6 +6274,38 @@
       "nsfwOnly": false,
       "tags": [
         "play"
+      ]
+    },
+    {
+      "name": "Play2",
+      "aliases": [],
+      "category": "music",
+      "path": "/command/youtube/Play2",
+      "description": "Search and play videos from YouTube",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "tags": [
+        "play2"
+      ]
+    },
+    {
+      "name": "PlayDownloader",
+      "aliases": [],
+      "category": "music",
+      "path": "/command/youtube/PlayDownloader",
+      "description": "Download song from YouTube URL",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "tags": [
+        "playdownloader",
+        "playdl",
+        "play-downloader"
       ]
     },
     {
@@ -6162,6 +6339,69 @@
       ]
     },
     {
+      "name": "YouTube",
+      "aliases": [],
+      "category": "music",
+      "path": "/command/youtube/YouTube",
+      "description": "YouTube helper - choose to download audio, video, or album",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "yt",
+        "youtube"
+      ]
+    },
+    {
+      "name": "YtClip",
+      "aliases": [],
+      "category": "music",
+      "path": "/command/youtube/YtClip",
+      "description": "Trim/clip YouTube video or audio instantly without downloading the full video (max 1 minute), supports live stream clipping in H.264 (AVC High)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "ytclip",
+        "clip"
+      ]
+    },
+    {
+      "name": "YtMp3",
+      "aliases": [],
+      "category": "music",
+      "path": "/command/youtube/YtMp3",
+      "description": "Search and download songs from YouTube as MP3",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "tags": [
+        "ytmp3"
+      ]
+    },
+    {
+      "name": "YtMp4",
+      "aliases": [],
+      "category": "music",
+      "path": "/command/youtube/YtMp4",
+      "description": "Download video from YouTube",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "ytmp4",
+        "ytvideo"
+      ]
+    },
+    {
       "name": "YtMusic",
       "aliases": [],
       "category": "music",
@@ -6179,18 +6419,69 @@
       ]
     },
     {
-      "name": "BanList",
+      "name": "YtMusicSearch",
       "aliases": [],
-      "category": "owner",
-      "path": "/command/group/BanList",
-      "description": "Show list of banned entities by category",
+      "category": "music",
+      "path": "/command/youtube/YtMusicSearch",
+      "description": "Search track list on YouTube Music by title or artist",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "tags": [
+        "ytms",
+        "ytmusicsearch"
+      ]
+    },
+    {
+      "name": "YtSearch",
+      "aliases": [],
+      "category": "music",
+      "path": "/command/youtube/YtSearch",
+      "description": "Search video list on YouTube by title keyword",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
       "limitType": "none",
       "nsfwOnly": false,
       "tags": [
-        "banlist"
+        "yts",
+        "ytsearch"
+      ]
+    },
+    {
+      "name": "YtSub",
+      "aliases": [],
+      "category": "music",
+      "path": "/command/youtube/YtSub",
+      "description": "Extract text transcript or download subtitle files (.srt / .vtt) from YouTube videos",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "ytsub",
+        "yttranscript",
+        "transcript"
+      ]
+    },
+    {
+      "name": "YtThumb",
+      "aliases": [],
+      "category": "music",
+      "path": "/command/youtube/YtThumb",
+      "description": "Fetch highest quality thumbnail (1080p HD / 4K) or YouTube Music cover art",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "ytthumb",
+        "ytcover",
+        "thumbnail"
       ]
     },
     {
@@ -6526,6 +6817,338 @@
       ]
     },
     {
+      "name": "Brat",
+      "aliases": [],
+      "category": "sticker",
+      "path": "/command/sticker/Brat",
+      "description": "Create BRAT style text stickers (green/black background, static or animated video, blur or HD)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "brat",
+        "bratvid",
+        "bratvideo",
+        "brathd",
+        "brathdvid",
+        "brathdvideo",
+        "bratvidhd",
+        "ibrat",
+        "ibratvid",
+        "ibratvideo",
+        "ibrathd",
+        "ibrathdvid",
+        "ibrathdvideo",
+        "ibratvidhd",
+        "jbrat",
+        "jbratvid",
+        "jbratvideo",
+        "jbrathd",
+        "jbrathdvid",
+        "jbrathdvideo",
+        "jbratvidhd",
+        "tbrat",
+        "tbratvid",
+        "tbratvideo",
+        "tbrathd",
+        "tbrathdvid",
+        "tbrathdvideo",
+        "tbratvidhd",
+        "brat2",
+        "brat2vid",
+        "brat2video",
+        "brat2hd",
+        "brat2hdvid",
+        "brat2hdvideo",
+        "brat2vidhd",
+        "brat3",
+        "brat3vid",
+        "brat3video",
+        "brat3hd",
+        "brat3hdvid",
+        "brat3hdvideo",
+        "brat3vidhd",
+        "brat4",
+        "brat4vid",
+        "brat4video",
+        "brat4hd",
+        "brat4hdvid",
+        "brat4hdvideo",
+        "brat4vidhd"
+      ]
+    },
+    {
+      "name": "DownloadStickerPack",
+      "aliases": [],
+      "category": "sticker",
+      "path": "/command/sticker/DownloadStickerPack",
+      "description": "Download a WhatsApp sticker pack message as a ZIP file",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "tags": [
+        "downloadstickerpack"
+      ]
+    },
+    {
+      "name": "Emojimix",
+      "aliases": [],
+      "category": "sticker",
+      "path": "/command/sticker/Emojimix",
+      "description": "Mix two emojis into one (Emoji Kitchen)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "tags": [
+        "emojimix",
+        "mixemoji"
+      ]
+    },
+    {
+      "name": "FStik",
+      "aliases": [],
+      "category": "sticker",
+      "path": "/command/sticker/FStik",
+      "description": "Download sticker packs from FStik catalog (fstik.app) via link or search keyword.",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "tags": [
+        "fstik",
+        "fstick",
+        "fgstick",
+        "fstiker",
+        "fstikers"
+      ]
+    },
+    {
+      "name": "GetEXIF",
+      "aliases": [],
+      "category": "sticker",
+      "path": "/command/sticker/GetEXIF",
+      "description": "Get EXIF metadata from the quoted/replied sticker",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "getexif"
+      ]
+    },
+    {
+      "name": "LineSticker",
+      "aliases": [],
+      "category": "sticker",
+      "path": "/command/sticker/LineSticker",
+      "description": "Download sticker packs from LINE Store and send them as WhatsApp stickers (static and animated).",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "tags": [
+        "linesticker",
+        "linestick",
+        "line"
+      ]
+    },
+    {
+      "name": "QC",
+      "aliases": [],
+      "category": "sticker",
+      "path": "/command/sticker/QC",
+      "description": "Create chat quotes from text/images",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "qc",
+        "sqc",
+        "isqc",
+        "jsqc",
+        "tsqc"
+      ]
+    },
+    {
+      "name": "SMeme",
+      "aliases": [],
+      "category": "sticker",
+      "path": "/command/sticker/SMeme",
+      "description": "Create meme sticker with top and bottom text from sent or replied image",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "smeme",
+        "ismeme",
+        "jsmeme",
+        "tsmeme"
+      ]
+    },
+    {
+      "name": "SigStick",
+      "aliases": [],
+      "category": "sticker",
+      "path": "/command/sticker/SigStick",
+      "description": "Download sticker packs from SigStick via pack link or slug.",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "tags": [
+        "sigstick",
+        "sig",
+        "sigstickers"
+      ]
+    },
+    {
+      "name": "Sticker",
+      "aliases": [],
+      "category": "sticker",
+      "path": "/command/sticker/Sticker",
+      "description": "Create a sticker from an image, video, sticker, or ZIP file sent or replied to. Supports shape modes (--circle, --round), crop modes (--crop, --full, --smart), framerate (-fps=1-60, -fps auto), direct 1:1 forced ratio (--direct), and custom metadata (--null, --avatar, --ai, --premium).",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "sticker",
+        "stiker",
+        "swm",
+        "s"
+      ]
+    },
+    {
+      "name": "Stickerly",
+      "aliases": [],
+      "category": "sticker",
+      "path": "/command/sticker/Stickerly",
+      "description": "Download sticker packs from Sticker.ly via link, pack code, or search keyword.",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "tags": [
+        "stickerly",
+        "stickly",
+        "sly",
+        "stikerly"
+      ]
+    },
+    {
+      "name": "StickersGG",
+      "aliases": [],
+      "category": "sticker",
+      "path": "/command/sticker/StickersGG",
+      "description": "Download sticker packs from Stickers.gg via link or category.",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "tags": [
+        "stickersgg",
+        "sgg",
+        "stickerspack"
+      ]
+    },
+    {
+      "name": "TelegramSticker",
+      "aliases": [],
+      "category": "sticker",
+      "path": "/command/sticker/TelegramSticker",
+      "description": "Download a Telegram sticker pack and send it as WhatsApp stickers (supports -fps=1-60 or -fps auto)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "tags": [
+        "telegramsticker",
+        "tgsticker",
+        "tgs"
+      ]
+    },
+    {
+      "name": "TelegramStickerV2",
+      "aliases": [],
+      "category": "sticker",
+      "path": "/command/sticker/TelegramStickerV2",
+      "description": "Download a Telegram sticker pack as ZIP without conversion",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "tags": [
+        "telegramstickerv2",
+        "tgsv2"
+      ]
+    },
+    {
+      "name": "ToGif",
+      "aliases": [],
+      "category": "sticker",
+      "path": "/command/sticker/ToGif",
+      "description": "Convert animated WhatsApp sticker into GIF (reply sticker)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "togif"
+      ]
+    },
+    {
+      "name": "ToImage",
+      "aliases": [],
+      "category": "sticker",
+      "path": "/command/sticker/ToImage",
+      "description": "Convert WhatsApp sticker into regular image/photo (reply sticker)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "toimage",
+        "toimg"
+      ]
+    },
+    {
+      "name": "ToVideo",
+      "aliases": [],
+      "category": "sticker",
+      "path": "/command/sticker/ToVideo",
+      "description": "Convert animated WhatsApp sticker into MP4 video (reply sticker)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "tovideo",
+        "tovid"
+      ]
+    },
+    {
       "name": "Buy",
       "aliases": [],
       "category": "store",
@@ -6562,6 +7185,24 @@
       ]
     },
     {
+      "name": "ListVoucher",
+      "aliases": [],
+      "category": "store",
+      "path": "/command/store/ListVoucher",
+      "description": "List active store discount vouchers",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "listvoucher",
+        "vouchers",
+        "voucher",
+        "kupon"
+      ]
+    },
+    {
       "name": "Pay",
       "aliases": [],
       "category": "store",
@@ -6595,6 +7236,24 @@
       ]
     },
     {
+      "name": "Struk",
+      "aliases": [],
+      "category": "store",
+      "path": "/command/store/Struk",
+      "description": "Print and view official thermal receipt for store orders",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "struk",
+        "receipt",
+        "notabeli",
+        "cetakstruk"
+      ]
+    },
+    {
       "name": "AcceptOrder",
       "aliases": [],
       "category": "store_admin",
@@ -6611,6 +7270,40 @@
         "accorder",
         "proses",
         "konfirmasi"
+      ]
+    },
+    {
+      "name": "AddVoucher",
+      "aliases": [],
+      "category": "store_admin",
+      "path": "/command/store_admin/AddVoucher",
+      "description": "Add store discount voucher coupon (Store Staff / Owner)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "addvoucher",
+        "tambahvoucher",
+        "createvoucher"
+      ]
+    },
+    {
+      "name": "DelVoucher",
+      "aliases": [],
+      "category": "store_admin",
+      "path": "/command/store_admin/DelVoucher",
+      "description": "Delete store voucher coupon (Store Staff / Owner)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "delvoucher",
+        "hapusvoucher",
+        "rmvoucher"
       ]
     },
     {
@@ -6871,21 +7564,6 @@
       ]
     },
     {
-      "name": "AudioEffect",
-      "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/AudioEffect",
-      "description": "Show list of all available audio effects",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "audioeffect"
-      ]
-    },
-    {
       "name": "B32",
       "aliases": [],
       "category": "tools",
@@ -7006,21 +7684,6 @@
       ]
     },
     {
-      "name": "Bass",
-      "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Bass",
-      "description": "Add bass boost effect to audio/video (optional: bass level 1-100, default 20)",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "bass"
-      ]
-    },
-    {
       "name": "BestFrame",
       "aliases": [],
       "category": "tools",
@@ -7036,21 +7699,6 @@
       ]
     },
     {
-      "name": "Blown",
-      "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Blown",
-      "description": "Blown / overdrive effect on audio",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "blown"
-      ]
-    },
-    {
       "name": "Blur",
       "aliases": [],
       "category": "tools",
@@ -7063,69 +7711,6 @@
       "nsfwOnly": false,
       "tags": [
         "blur"
-      ]
-    },
-    {
-      "name": "Brat",
-      "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Brat",
-      "description": "Create BRAT style text stickers (green/black background, static or animated video, blur or HD)",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "brat",
-        "bratvid",
-        "bratvideo",
-        "brathd",
-        "brathdvid",
-        "brathdvideo",
-        "bratvidhd",
-        "ibrat",
-        "ibratvid",
-        "ibratvideo",
-        "ibrathd",
-        "ibrathdvid",
-        "ibrathdvideo",
-        "ibratvidhd",
-        "jbrat",
-        "jbratvid",
-        "jbratvideo",
-        "jbrathd",
-        "jbrathdvid",
-        "jbrathdvideo",
-        "jbratvidhd",
-        "tbrat",
-        "tbratvid",
-        "tbratvideo",
-        "tbrathd",
-        "tbrathdvid",
-        "tbrathdvideo",
-        "tbratvidhd",
-        "brat2",
-        "brat2vid",
-        "brat2video",
-        "brat2hd",
-        "brat2hdvid",
-        "brat2hdvideo",
-        "brat2vidhd",
-        "brat3",
-        "brat3vid",
-        "brat3video",
-        "brat3hd",
-        "brat3hdvid",
-        "brat3hdvideo",
-        "brat3vidhd",
-        "brat4",
-        "brat4vid",
-        "brat4video",
-        "brat4hd",
-        "brat4hdvid",
-        "brat4hdvideo",
-        "brat4vidhd"
       ]
     },
     {
@@ -7164,21 +7749,6 @@
         "jadwalch",
         "jadwalsaluran",
         "chs"
-      ]
-    },
-    {
-      "name": "Chorus",
-      "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Chorus",
-      "description": "Add chorus effect to audio",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "chorus"
       ]
     },
     {
@@ -7276,82 +7846,6 @@
       ]
     },
     {
-      "name": "Deep",
-      "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Deep",
-      "description": "Make audio sound deeper",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "deep"
-      ]
-    },
-    {
-      "name": "Denoise",
-      "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Denoise",
-      "description": "Reduce noise in audio",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "denoise"
-      ]
-    },
-    {
-      "name": "Distortion",
-      "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Distortion",
-      "description": "Add distortion effect to audio",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "distortion"
-      ]
-    },
-    {
-      "name": "EarRape",
-      "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/EarRape",
-      "description": "Extreme volume boost effect (optional: volume level 1-50, default 12)",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "earrape"
-      ]
-    },
-    {
-      "name": "Emojimix",
-      "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Emojimix",
-      "description": "Mix two emojis into one (Emoji Kitchen)",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "tags": [
-        "emojimix",
-        "mixemoji"
-      ]
-    },
-    {
       "name": "Encode",
       "aliases": [],
       "category": "tools",
@@ -7367,48 +7861,20 @@
       ]
     },
     {
-      "name": "Fast",
+      "name": "FakeThumbnail",
       "aliases": [],
       "category": "tools",
-      "path": "/command/tools/Fast",
-      "description": "Speed up audio playback (optional: speed ratio 1.0-4.0, default 1.63)",
+      "path": "/command/tools/FakeThumbnail",
+      "description": "Send original media disguised with a fake thumbnail from another media",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
       "limitType": "none",
       "nsfwOnly": false,
       "tags": [
-        "fast"
-      ]
-    },
-    {
-      "name": "Fat",
-      "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Fat",
-      "description": "Fat / heavy audio effect",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "fat"
-      ]
-    },
-    {
-      "name": "Flanger",
-      "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Flanger",
-      "description": "Add flanger effect to audio",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "flanger"
+        "fakethumbnail",
+        "fakethumb",
+        "spoofmedia"
       ]
     },
     {
@@ -7457,21 +7923,6 @@
         "generatelrc",
         "lrc",
         "makelrc"
-      ]
-    },
-    {
-      "name": "GetEXIF",
-      "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/GetEXIF",
-      "description": "Get EXIF metadata from the quoted/replied sticker",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "getexif"
       ]
     },
     {
@@ -7547,21 +7998,6 @@
       "nsfwOnly": false,
       "tags": [
         "html"
-      ]
-    },
-    {
-      "name": "HighPass",
-      "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/HighPass",
-      "description": "Cut low frequencies from audio (optional: frequency 100-10000Hz, default 500)",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "highpass"
       ]
     },
     {
@@ -7674,21 +8110,6 @@
       ]
     },
     {
-      "name": "LowPass",
-      "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/LowPass",
-      "description": "Cut high frequencies from audio (optional: frequency 100-10000Hz, default 500)",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "lowpass"
-      ]
-    },
-    {
       "name": "Lower",
       "aliases": [],
       "category": "tools",
@@ -7732,21 +8153,6 @@
       "tags": [
         "mediaquality",
         "mq"
-      ]
-    },
-    {
-      "name": "Nightcore",
-      "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Nightcore",
-      "description": "Convert audio to nightcore style",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "nightcore"
       ]
     },
     {
@@ -7811,18 +8217,21 @@
       ]
     },
     {
-      "name": "Pitch",
+      "name": "PhotoLive",
       "aliases": [],
       "category": "tools",
-      "path": "/command/tools/Pitch",
-      "description": "Raise audio pitch (optional: pitch level 0.5-2.0, default 1.25)",
+      "path": "/command/tools/PhotoLive",
+      "description": "Convert video or photo+video combination into WhatsApp Motion Photo",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
       "limitType": "none",
       "nsfwOnly": false,
       "tags": [
-        "pitch"
+        "fotolive",
+        "photolive",
+        "motionphoto",
+        "livephoto"
       ]
     },
     {
@@ -7839,25 +8248,6 @@
       "tags": [
         "pixelate",
         "pixel"
-      ]
-    },
-    {
-      "name": "QC",
-      "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/QC",
-      "description": "Create chat quotes from text/images",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "qc",
-        "sqc",
-        "isqc",
-        "jsqc",
-        "tsqc"
       ]
     },
     {
@@ -7954,21 +8344,6 @@
       ]
     },
     {
-      "name": "Reverb",
-      "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Reverb",
-      "description": "Add reverb effect to audio",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "reverb"
-      ]
-    },
-    {
       "name": "Reverse",
       "aliases": [],
       "category": "tools",
@@ -7981,21 +8356,6 @@
       "nsfwOnly": false,
       "tags": [
         "reverse"
-      ]
-    },
-    {
-      "name": "Robot",
-      "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Robot",
-      "description": "Apply robot voice effect",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "robot"
       ]
     },
     {
@@ -8028,24 +8388,6 @@
       "nsfwOnly": false,
       "tags": [
         "rotate"
-      ]
-    },
-    {
-      "name": "SMeme",
-      "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/SMeme",
-      "description": "Create meme sticker with top and bottom text from sent or replied image",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "smeme",
-        "ismeme",
-        "jsmeme",
-        "tsmeme"
       ]
     },
     {
@@ -8100,21 +8442,6 @@
       ]
     },
     {
-      "name": "Slow",
-      "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Slow",
-      "description": "Slow down audio playback speed (optional: speed ratio 0.5-0.99, default 0.7)",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "slow"
-      ]
-    },
-    {
       "name": "Smooth",
       "aliases": [],
       "category": "tools",
@@ -8142,24 +8469,6 @@
       "nsfwOnly": false,
       "tags": [
         "stabilize"
-      ]
-    },
-    {
-      "name": "Sticker",
-      "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Sticker",
-      "description": "Create a sticker from an image, video, sticker, or ZIP file sent or replied to. Supports shape modes (--circle, --round), crop modes (--crop, --full, --smart), framerate (-fps=1-60, -fps auto), direct 1:1 forced ratio (--direct), and custom metadata (--null, --avatar, --ai, --premium).",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "sticker",
-        "stiker",
-        "swm",
-        "s"
       ]
     },
     {
@@ -8228,37 +8537,6 @@
       ]
     },
     {
-      "name": "ToGif",
-      "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/ToGif",
-      "description": "Convert animated WhatsApp sticker into GIF (reply sticker)",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "togif"
-      ]
-    },
-    {
-      "name": "ToImage",
-      "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/ToImage",
-      "description": "Convert WhatsApp sticker into regular image/photo (reply sticker)",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "toimage",
-        "toimg"
-      ]
-    },
-    {
       "name": "ToMP3",
       "aliases": [],
       "category": "tools",
@@ -8293,19 +8571,21 @@
       ]
     },
     {
-      "name": "ToVideo",
+      "name": "TopTV",
       "aliases": [],
       "category": "tools",
-      "path": "/command/tools/ToVideo",
-      "description": "Convert animated WhatsApp sticker into MP4 video (reply sticker)",
+      "path": "/command/tools/TopTV",
+      "description": "Convert video into circular Video Note (PTV)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
       "limitType": "none",
       "nsfwOnly": false,
       "tags": [
-        "tovideo",
-        "tovid"
+        "toptv",
+        "toptvmsg",
+        "videonote",
+        "ptv"
       ]
     },
     {
@@ -8359,21 +8639,6 @@
       ]
     },
     {
-      "name": "Tupai",
-      "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Tupai",
-      "description": "Chipmunk / squirrel voice effect",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "tupai"
-      ]
-    },
-    {
       "name": "URL",
       "aliases": [],
       "category": "tools",
@@ -8386,21 +8651,6 @@
       "nsfwOnly": false,
       "tags": [
         "url"
-      ]
-    },
-    {
-      "name": "Underwater",
-      "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Underwater",
-      "description": "Underwater audio effect",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "underwater"
       ]
     },
     {
@@ -8466,6 +8716,230 @@
       "tags": [
         "whatmusic",
         "whatsong"
+      ]
+    },
+    {
+      "name": "AnimeWallpaper",
+      "aliases": [],
+      "category": "waifu",
+      "path": "/command/waifu/AnimeWallpaper",
+      "description": "HD anime wallpapers for phone / desktop",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "tags": [
+        "animewallpaper",
+        "animewall",
+        "animepaper"
+      ]
+    },
+    {
+      "name": "BunnyGirl",
+      "aliases": [],
+      "category": "waifu",
+      "path": "/command/waifu/BunnyGirl",
+      "description": "Random anime bunny girl art",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "tags": [
+        "bunny",
+        "bunnygirl"
+      ]
+    },
+    {
+      "name": "Danbooru",
+      "aliases": [],
+      "category": "waifu",
+      "path": "/command/waifu/Danbooru",
+      "description": "Search anime art and wallpaper directly from Danbooru",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "tags": [
+        "danbooru"
+      ]
+    },
+    {
+      "name": "Husbu",
+      "aliases": [],
+      "category": "waifu",
+      "path": "/command/waifu/Husbu",
+      "description": "Random anime husbando / handsome male character art",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "tags": [
+        "husbu",
+        "ikemen"
+      ]
+    },
+    {
+      "name": "Kitsune",
+      "aliases": [],
+      "category": "waifu",
+      "path": "/command/waifu/Kitsune",
+      "description": "Random anime foxgirl (kitsune) art",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "tags": [
+        "kitsune",
+        "foxgirl"
+      ]
+    },
+    {
+      "name": "Konachan",
+      "aliases": [],
+      "category": "waifu",
+      "path": "/command/waifu/Konachan",
+      "description": "Search high-resolution anime wallpapers on Konachan",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "tags": [
+        "konachan",
+        "kona"
+      ]
+    },
+    {
+      "name": "Maid",
+      "aliases": [],
+      "category": "waifu",
+      "path": "/command/waifu/Maid",
+      "description": "Random anime maid character art",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "tags": [
+        "maid",
+        "meido"
+      ]
+    },
+    {
+      "name": "Neko",
+      "aliases": [],
+      "category": "waifu",
+      "path": "/command/waifu/Neko",
+      "description": "Random anime catgirl (neko) art",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "tags": [
+        "neko",
+        "catgirl"
+      ]
+    },
+    {
+      "name": "Safebooru",
+      "aliases": [],
+      "category": "waifu",
+      "path": "/command/waifu/Safebooru",
+      "description": "Search 100% safe anime art on Safebooru",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "tags": [
+        "safebooru",
+        "safe"
+      ]
+    },
+    {
+      "name": "Schoolgirl",
+      "aliases": [],
+      "category": "waifu",
+      "path": "/command/waifu/Schoolgirl",
+      "description": "Random anime schoolgirl uniform art",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "tags": [
+        "schoolgirl",
+        "seifuku"
+      ]
+    },
+    {
+      "name": "Swimsuit",
+      "aliases": [],
+      "category": "waifu",
+      "path": "/command/waifu/Swimsuit",
+      "description": "Random anime swimsuit and beach art",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "tags": [
+        "swimsuit",
+        "bikini"
+      ]
+    },
+    {
+      "name": "Waifu",
+      "aliases": [],
+      "category": "waifu",
+      "path": "/command/waifu/Waifu",
+      "description": "Random anime waifu photo/art or by character name",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "tags": [
+        "waifu",
+        "wf"
+      ]
+    },
+    {
+      "name": "Yandere",
+      "aliases": [],
+      "category": "waifu",
+      "path": "/command/waifu/Yandere",
+      "description": "Search anime art and wallpaper directly from Yande.re",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "tags": [
+        "yandere",
+        "yan"
+      ]
+    },
+    {
+      "name": "Zerochan",
+      "aliases": [],
+      "category": "waifu",
+      "path": "/command/waifu/Zerochan",
+      "description": "Search anime art and wallpapers from artists on Zerochan",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "tags": [
+        "zerochan",
+        "zc"
       ]
     },
     {

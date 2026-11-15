@@ -1,0 +1,284 @@
+{
+  "commands": [
+    {
+      "name": "AudioEffect",
+      "description": "Show list of all available audio effects",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "audioeffect"
+      ]
+    },
+    {
+      "name": "Bass",
+      "description": "Add bass boost effect to audio/video (optional: bass level 1-100, default 20)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "bass"
+      ]
+    },
+    {
+      "name": "Blown",
+      "description": "Blown / overdrive effect on audio",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "blown"
+      ]
+    },
+    {
+      "name": "Chorus",
+      "description": "Add chorus effect to audio",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "chorus"
+      ]
+    },
+    {
+      "name": "Deep",
+      "description": "Make audio sound deeper",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "deep"
+      ]
+    },
+    {
+      "name": "Denoise",
+      "description": "Reduce noise in audio",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "denoise"
+      ]
+    },
+    {
+      "name": "Distortion",
+      "description": "Add distortion effect to audio",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "distortion"
+      ]
+    },
+    {
+      "name": "EarRape",
+      "description": "Extreme volume boost effect (optional: volume level 1-50, default 12)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "earrape"
+      ]
+    },
+    {
+      "name": "Fast",
+      "description": "Speed up audio playback (optional: speed ratio 1.0-4.0, default 1.63)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "fast"
+      ]
+    },
+    {
+      "name": "Fat",
+      "description": "Fat / heavy audio effect",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "fat"
+      ]
+    },
+    {
+      "name": "Flanger",
+      "description": "Add flanger effect to audio",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "flanger"
+      ]
+    },
+    {
+      "name": "HighPass",
+      "description": "Cut low frequencies from audio (optional: frequency 100-10000Hz, default 500)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "highpass"
+      ]
+    },
+    {
+      "name": "LowPass",
+      "description": "Cut high frequencies from audio (optional: frequency 100-10000Hz, default 500)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "lowpass"
+      ]
+    },
+    {
+      "name": "Nightcore",
+      "description": "Convert audio to nightcore style",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "nightcore"
+      ]
+    },
+    {
+      "name": "Pitch",
+      "description": "Raise audio pitch (optional: pitch level 0.5-2.0, default 1.25)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "pitch"
+      ]
+    },
+    {
+      "name": "Reverb",
+      "description": "Add reverb effect to audio",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "reverb"
+      ]
+    },
+    {
+      "name": "Robot",
+      "description": "Apply robot voice effect",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "robot"
+      ]
+    },
+    {
+      "name": "Slow",
+      "description": "Slow down audio playback speed (optional: speed ratio 0.5-0.99, default 0.7)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "slow"
+      ]
+    },
+    {
+      "name": "Tupai",
+      "description": "Chipmunk / squirrel voice effect",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "tupai"
+      ]
+    },
+    {
+      "name": "Underwater",
+      "description": "Underwater audio effect",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "underwater"
+      ]
+    }
+  ]
+}

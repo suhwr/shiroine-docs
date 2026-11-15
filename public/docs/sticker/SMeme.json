@@ -1,0 +1,71 @@
+{
+  "name": "SMeme",
+  "commands": [
+    "smeme",
+    "ismeme",
+    "jsmeme",
+    "tsmeme"
+  ],
+  "aliases": [],
+  "display": [
+    "SMeme"
+  ],
+  "category": "sticker",
+  "categories": [
+    "sticker"
+  ],
+  "tags": [
+    "smeme",
+    "ismeme",
+    "jsmeme",
+    "tsmeme"
+  ],
+  "description": {
+    "id": "Buat stiker meme dengan teks atas dan bawah dari gambar yang dikirim atau direply",
+    "en": "Create meme sticker with top and bottom text from sent or replied image"
+  },
+  "usage": "SMeme",
+  "examples": [
+    "smeme teks atas|teks bawah",
+    "smeme |hanya teks bawah",
+    "smeme hanya teks atas|",
+    "smeme top text|bottom text",
+    "smeme |only bottom text",
+    "smeme only top text|"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 94
+  },
+  "lastUpdated": "2026-11-15T16:37:42Z"
+}

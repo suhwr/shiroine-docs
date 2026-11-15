@@ -1,0 +1,322 @@
+{
+  "commands": [
+    {
+      "name": "AntiBot",
+      "description": "Enable or disable anti-bot system for the group",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "antibot"
+      ]
+    },
+    {
+      "name": "AntiLink",
+      "description": "Configure AntiLink system to block prohibited links in group",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "antilink"
+      ]
+    },
+    {
+      "name": "AntiMedia",
+      "description": "Configure group anti-media protection: sticker, video, viewonce, image, voice, doc",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "antimedia"
+      ]
+    },
+    {
+      "name": "AntiNSFWMedia",
+      "description": "Enable automatic NSFW media filter in group",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "antinsfwmedia",
+        "antinsfw"
+      ]
+    },
+    {
+      "name": "BadWord",
+      "description": "Manage group forbidden badwords filter and violation strikes",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "badword"
+      ]
+    },
+    {
+      "name": "BanChat",
+      "description": "Ban bot from responding in specific groups selectively or globally",
+      "permissions": {
+        "hasbot": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "ban-chat",
+        "banchat",
+        "bangc",
+        "bangrup",
+        "ban-gc",
+        "ban-grup"
+      ]
+    },
+    {
+      "name": "BanList",
+      "description": "Show list of banned entities by category",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "banlist"
+      ]
+    },
+    {
+      "name": "BanMember",
+      "description": "Ban member from using the bot in this group",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "ban-member",
+        "banmember"
+      ]
+    },
+    {
+      "name": "ListBanMember",
+      "description": "Show list of members banned by bot in this group",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "listbanmember",
+        "banmemberlist"
+      ]
+    },
+    {
+      "name": "ListMute",
+      "description": "View list of currently muted members in the group and unmute interactively",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "listmute",
+        "mutelist"
+      ]
+    },
+    {
+      "name": "ListWarning",
+      "description": "View all members with active warnings in the group",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "listwarning",
+        "warninglist"
+      ]
+    },
+    {
+      "name": "MuteMember",
+      "description": "Mute a specific member in the group so messages are auto-deleted",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "mutemember",
+        "mute-member"
+      ]
+    },
+    {
+      "name": "ResetWarn",
+      "description": "Reset all warnings for a group member",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "resetwarn",
+        "clearwarn"
+      ]
+    },
+    {
+      "name": "UnbanChat",
+      "description": "Unban bot response in specific groups selectively or globally",
+      "permissions": {
+        "hasbot": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "unban-chat",
+        "unbanchat",
+        "unbangc",
+        "unbangrup",
+        "unban-gc",
+        "unban-grup"
+      ]
+    },
+    {
+      "name": "UnbanMember",
+      "description": "Unban member from the bot in this group",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "unban-member",
+        "unbanmember"
+      ]
+    },
+    {
+      "name": "UnmuteMember",
+      "description": "Unmute a specific member in the group",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "unmutemember",
+        "unmute-member"
+      ]
+    },
+    {
+      "name": "Warn",
+      "description": "Issue a formal warning to a rule-breaking group member",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "warn"
+      ]
+    },
+    {
+      "name": "Warnings",
+      "description": "View member's warning history in the group",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "warnings",
+        "warnlist"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "name": "AntiHideTag",
+  "commands": [
+    "antihidetag"
+  ],
+  "aliases": [],
+  "display": [
+    "AntiHideTag"
+  ],
+  "category": "group_admin",
+  "categories": [
+    "group_admin"
+  ],
+  "tags": [
+    "antihidetag"
+  ],
+  "description": {
+    "id": "Atur proteksi anti tag/mention tersembunyi (hidetag) di grup",
+    "en": "Configure anti hidden mention (hidetag) protection in group"
+  },
+  "usage": "AntiHideTag",
+  "examples": [
+    "antihidetag",
+    "antihidetag on",
+    "antihidetag off",
+    "antihidetag limit 3",
+    "antihidetag limit 0"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group_community": true,
+    "group": true
+  },
+  "permissions": {
+    "admin": true,
+    "subowner": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 590
+  },
+  "lastUpdated": "2026-11-15T16:37:42Z"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "ToVideo",
+  "commands": [
+    "tovideo",
+    "tovid"
+  ],
+  "aliases": [],
+  "display": [
+    "ToVideo"
+  ],
+  "category": "sticker",
+  "categories": [
+    "sticker"
+  ],
+  "tags": [
+    "tovideo",
+    "tovid"
+  ],
+  "description": {
+    "id": "Konversi stiker WhatsApp bergerak (animasi) menjadi video MP4 (reply stiker)",
+    "en": "Convert animated WhatsApp sticker into MP4 video (reply sticker)"
+  },
+  "usage": "ToVideo",
+  "examples": [
+    "tovideo",
+    "tovid"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 140
+  },
+  "lastUpdated": "2026-11-15T16:37:42Z"
+}

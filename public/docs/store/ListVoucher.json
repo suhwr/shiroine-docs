@@ -1,0 +1,66 @@
+{
+  "name": "ListVoucher",
+  "commands": [
+    "listvoucher",
+    "vouchers",
+    "voucher",
+    "kupon"
+  ],
+  "aliases": [],
+  "display": [
+    "ListVoucher"
+  ],
+  "category": "store",
+  "categories": [
+    "store"
+  ],
+  "tags": [
+    "listvoucher",
+    "vouchers",
+    "voucher",
+    "kupon"
+  ],
+  "description": {
+    "id": "Lihat daftar kupon voucher diskon aktif toko",
+    "en": "List active store discount vouchers"
+  },
+  "usage": "ListVoucher",
+  "examples": [
+    "listvoucher"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/store",
+    "line": 223
+  },
+  "lastUpdated": "2026-11-15T16:37:42Z"
+}

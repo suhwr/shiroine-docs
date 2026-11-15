@@ -10,15 +10,16 @@
   ],
   "category": "youtube",
   "categories": [
-    "youtube"
+    "youtube",
+    "music"
   ],
   "tags": [
     "yt",
     "youtube"
   ],
   "description": {
-    "en": "YouTube helper - choose to download audio, video, or album",
-    "id": "Helper YouTube - pilih aksi download audio, video, atau album"
+    "id": "Helper YouTube - pilih aksi download audio, video, atau album",
+    "en": "YouTube helper - choose to download audio, video, or album"
   },
   "usage": "YouTube",
   "examples": [
@@ -66,5 +67,5 @@
     "file": "internal/plugins/youtube",
     "line": 312
   },
-  "lastUpdated": "2026-11-14T00:26:24Z"
+  "lastUpdated": "2026-11-15T16:37:42Z"
 }

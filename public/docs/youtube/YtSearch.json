@@ -11,6 +11,7 @@
   "category": "youtube",
   "categories": [
     "youtube",
+    "music",
     "search"
   ],
   "tags": [
@@ -18,8 +19,8 @@
     "ytsearch"
   ],
   "description": {
-    "id": "Mencari daftar video di YouTube berdasarkan kata kunci judul",
-    "en": "Search video list on YouTube by title keyword"
+    "en": "Search video list on YouTube by title keyword",
+    "id": "Mencari daftar video di YouTube berdasarkan kata kunci judul"
   },
   "usage": "YtSearch",
   "examples": [
@@ -61,5 +62,5 @@
     "file": "internal/plugins/youtube",
     "line": 119
   },
-  "lastUpdated": "2026-11-14T00:26:24Z"
+  "lastUpdated": "2026-11-15T16:37:42Z"
 }

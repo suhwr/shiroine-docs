@@ -1,0 +1,1030 @@
+{
+  "commands": [
+    {
+      "name": "Add",
+      "description": "Add new member(s) to the group",
+      "permissions": {
+        "subowner": true,
+        "admin": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "add"
+      ]
+    },
+    {
+      "name": "AdminOnly",
+      "description": "Make the bot only respond to commands from group admins",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "adminonly",
+        "onlyadmin"
+      ]
+    },
+    {
+      "name": "Adzan",
+      "description": "Automated adzan schedule and prayer notifications for the group",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "adzan",
+        "autoadzan",
+        "sholat"
+      ]
+    },
+    {
+      "name": "AntiBug",
+      "description": "Configure anti bug, virtex, and crash protection in group",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "antibug"
+      ]
+    },
+    {
+      "name": "AntiCall",
+      "description": "Configure automatic rejection of WhatsApp group calls",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "anticall"
+      ]
+    },
+    {
+      "name": "AntiHideTag",
+      "description": "Configure anti hidden mention (hidetag) protection in group",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "antihidetag"
+      ]
+    },
+    {
+      "name": "AntiSW",
+      "description": "Configure anti tag status (SWGC)",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "antisw",
+        "antiswgc"
+      ]
+    },
+    {
+      "name": "AntiSpam",
+      "description": "Configure anti spam flood protection in group",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "antispam"
+      ]
+    },
+    {
+      "name": "AntiTagSW",
+      "description": "Configure anti status tag protection in group",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "antitagsw"
+      ]
+    },
+    {
+      "name": "AntiVO",
+      "description": "Configure anti view-once message protection in group",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "antivo",
+        "antiviewonce"
+      ]
+    },
+    {
+      "name": "Attendance",
+      "description": "Manage group attendance and CSV exports (admins)",
+      "permissions": {
+        "subowner": true,
+        "admin": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "absen",
+        "attendance"
+      ]
+    },
+    {
+      "name": "AutoRespon",
+      "description": "Manage group auto-response system",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "autorespon",
+        "autorespo"
+      ]
+    },
+    {
+      "name": "CekBotAdmin",
+      "description": "Check list of bots that are admin in this group",
+      "permissions": {
+        "admin": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "cekbotadmin",
+        "cba"
+      ]
+    },
+    {
+      "name": "CekTanpaGrup",
+      "description": "Check community members who have not joined any subgroup",
+      "permissions": {
+        "admin": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "cektanpagrup"
+      ]
+    },
+    {
+      "name": "Close",
+      "description": "Close group (only admins can send messages)",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "close",
+        "cls"
+      ]
+    },
+    {
+      "name": "Cmd",
+      "description": "Disable or enable bot commands in this group individually or in bulk",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "cmd"
+      ]
+    },
+    {
+      "name": "DebugPriority",
+      "description": "Debug bot priority and cross-server routing status in group",
+      "permissions": {
+        "owner": true,
+        "subowner": true,
+        "admin": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "debugpriority",
+        "dbgpriority",
+        "cekpriority",
+        "cekprioritas"
+      ]
+    },
+    {
+      "name": "Delete",
+      "description": "Delete replied message",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "delete",
+        "del",
+        "d"
+      ]
+    },
+    {
+      "name": "Demote",
+      "description": "Demote an admin to a regular member",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "demote"
+      ]
+    },
+    {
+      "name": "Ephemeral",
+      "description": "Configure disappearing / ephemeral messages in group",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "ephemeral"
+      ]
+    },
+    {
+      "name": "GStats",
+      "description": "Show group message statistics this month including top 3 most active members",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "gstats"
+      ]
+    },
+    {
+      "name": "GroupID",
+      "description": "Display unique ID of this group chat",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "groupid"
+      ]
+    },
+    {
+      "name": "GroupInfo",
+      "description": "View complete group information and configuration",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "groupinfo",
+        "group",
+        "ginfo"
+      ]
+    },
+    {
+      "name": "GroupPrefix",
+      "description": "Set custom command prefix for the group",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "groupprefix",
+        "group-prefix",
+        "gprefix"
+      ]
+    },
+    {
+      "name": "GroupSettings",
+      "description": "Show group features and their status",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "groupsettings",
+        "gsettings"
+      ]
+    },
+    {
+      "name": "GroupStatus",
+      "description": "Upload media to group status",
+      "permissions": {
+        "admin": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "groupstatus",
+        "upswgc",
+        "upstatusgrup",
+        "statusgrup"
+      ]
+    },
+    {
+      "name": "HideTag",
+      "description": "Tag all group members invisibly",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "hidetag",
+        "ht",
+        "h"
+      ]
+    },
+    {
+      "name": "Info",
+      "description": "Configure group setting change notifications",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "info"
+      ]
+    },
+    {
+      "name": "Jockey",
+      "description": "Music player bot for WhatsApp group voice calls",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "jockey"
+      ]
+    },
+    {
+      "name": "JoinReq",
+      "description": "Manage group member join approval requests",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "joinreq"
+      ]
+    },
+    {
+      "name": "LeaveGroup",
+      "description": "Remove bot from group or leave groups remotely",
+      "permissions": {
+        "admin": true,
+        "owner": true,
+        "subowner": true,
+        "bot": true,
+        "hasbot": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "leavegroup",
+        "leave-group",
+        "leavegc",
+        "leavebot",
+        "leave-bot",
+        "leave"
+      ]
+    },
+    {
+      "name": "Left",
+      "description": "Configure goodbye notification and cover when members leave",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "left"
+      ]
+    },
+    {
+      "name": "LinkGC",
+      "description": "Get group invite link",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "linkgc",
+        "gruplink",
+        "link"
+      ]
+    },
+    {
+      "name": "ListAktif",
+      "description": "View the list of members active today along with their total messages",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "listaktif"
+      ]
+    },
+    {
+      "name": "ListTimezone",
+      "description": "View list of popular available timezones",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "listtimezone",
+        "timezones",
+        "tzlist"
+      ]
+    },
+    {
+      "name": "NSFW",
+      "description": "Toggle NSFW mode (in group: admin only, in private: bot only)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "nsfw",
+        "nsfwmode"
+      ]
+    },
+    {
+      "name": "Open",
+      "description": "Open group (all members can send messages)",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "open",
+        "opn"
+      ]
+    },
+    {
+      "name": "PinMsg",
+      "description": "Pin message in group for 1 day, 7 days, or 30 days",
+      "permissions": {
+        "moderator": true,
+        "admin": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "pinmsg",
+        "pinchat",
+        "semat",
+        "sematkan"
+      ]
+    },
+    {
+      "name": "Present",
+      "description": "Check in as present, excused, or sick once per session",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "hadir",
+        "present"
+      ]
+    },
+    {
+      "name": "Promote",
+      "description": "Promote a group member to admin",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "promote"
+      ]
+    },
+    {
+      "name": "Remove",
+      "description": "Remove a specific member from the group chat",
+      "permissions": {
+        "admin": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "remove",
+        "dor"
+      ]
+    },
+    {
+      "name": "Revoke",
+      "description": "Reset group invite link and generate a new one",
+      "permissions": {
+        "subowner": true,
+        "admin": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "revoke",
+        "newlinkgc",
+        "resetlink"
+      ]
+    },
+    {
+      "name": "ScheduleGroup",
+      "description": "Unified group scheduling system (open/close chat, reminders, hidetag, reset link)",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "schedulegroup",
+        "groupschedule",
+        "jadwalgrup",
+        "jg",
+        "jadwalgc",
+        "setschedule",
+        "reminder",
+        "autoopen",
+        "schedule",
+        "remindgc",
+        "pengumuman"
+      ]
+    },
+    {
+      "name": "SetDesc",
+      "description": "Change group chat description",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "setdesc"
+      ]
+    },
+    {
+      "name": "SetGoodbye",
+      "description": "Set group goodbye message or cover",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "set-goodbye",
+        "setgoodbye"
+      ]
+    },
+    {
+      "name": "SetLang",
+      "description": "Set bot language for the group (admin only) or private chat",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "set-lang",
+        "setlang",
+        "set-language",
+        "setlanguage"
+      ]
+    },
+    {
+      "name": "SetPPGC",
+      "description": "Set group chat profile picture",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "setppgc",
+        "setgrouppp",
+        "setppgroup",
+        "set-group-pict",
+        "setgrouppict"
+      ]
+    },
+    {
+      "name": "SetSubject",
+      "description": "Change group chat name",
+      "permissions": {
+        "subowner": true,
+        "admin": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "setsubject"
+      ]
+    },
+    {
+      "name": "SetTimezone",
+      "description": "Set group timezone for schedule and activity tracking",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "settimezone"
+      ]
+    },
+    {
+      "name": "SetWelcome",
+      "description": "Set group welcome message or cover",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "set-welcome",
+        "setwelcome"
+      ]
+    },
+    {
+      "name": "Sider",
+      "description": "Manage inactive members (siders) and group cleanup",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "sider"
+      ]
+    },
+    {
+      "name": "SimulateGoodbye",
+      "description": "Simulate group goodbye message using your data as example",
+      "permissions": {
+        "subowner": true,
+        "admin": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "simulategoodbye",
+        "previewgoodbye"
+      ]
+    },
+    {
+      "name": "SimulateWelcome",
+      "description": "Simulate group welcome message using your data as example",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "simulatewelcome",
+        "previewwelcome"
+      ]
+    },
+    {
+      "name": "SyncGroup",
+      "description": "Clear group cache to refresh data directly from WhatsApp",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "sync-group",
+        "syncgroup"
+      ]
+    },
+    {
+      "name": "TagAll",
+      "description": "Tag all group members grouped by role",
+      "permissions": {
+        "moderator": true,
+        "admin": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "tagall",
+        "tag"
+      ]
+    },
+    {
+      "name": "TopActive",
+      "description": "Show most active members in the group based on message count",
+      "permissions": {
+        "moderator": true,
+        "admin": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "top-active",
+        "topaktif",
+        "topactive"
+      ]
+    },
+    {
+      "name": "UnpinMsg",
+      "description": "Unpin message in group",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "unpinmsg",
+        "unpin",
+        "unpinchat",
+        "lepassemat"
+      ]
+    },
+    {
+      "name": "Welcome",
+      "description": "Configure welcome message and cover for new group members",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "welcome"
+      ]
+    }
+  ]
+}

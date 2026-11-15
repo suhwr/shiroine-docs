@@ -1,0 +1,319 @@
+{
+  "commands": [
+    {
+      "name": "Brat",
+      "description": "Create BRAT style text stickers (green/black background, static or animated video, blur or HD)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "brat",
+        "bratvid",
+        "bratvideo",
+        "brathd",
+        "brathdvid",
+        "brathdvideo",
+        "bratvidhd",
+        "ibrat",
+        "ibratvid",
+        "ibratvideo",
+        "ibrathd",
+        "ibrathdvid",
+        "ibrathdvideo",
+        "ibratvidhd",
+        "jbrat",
+        "jbratvid",
+        "jbratvideo",
+        "jbrathd",
+        "jbrathdvid",
+        "jbrathdvideo",
+        "jbratvidhd",
+        "tbrat",
+        "tbratvid",
+        "tbratvideo",
+        "tbrathd",
+        "tbrathdvid",
+        "tbrathdvideo",
+        "tbratvidhd",
+        "brat2",
+        "brat2vid",
+        "brat2video",
+        "brat2hd",
+        "brat2hdvid",
+        "brat2hdvideo",
+        "brat2vidhd",
+        "brat3",
+        "brat3vid",
+        "brat3video",
+        "brat3hd",
+        "brat3hdvid",
+        "brat3hdvideo",
+        "brat3vidhd",
+        "brat4",
+        "brat4vid",
+        "brat4video",
+        "brat4hd",
+        "brat4hdvid",
+        "brat4hdvideo",
+        "brat4vidhd"
+      ]
+    },
+    {
+      "name": "DownloadStickerPack",
+      "description": "Download a WhatsApp sticker pack message as a ZIP file",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "downloadstickerpack"
+      ]
+    },
+    {
+      "name": "Emojimix",
+      "description": "Mix two emojis into one (Emoji Kitchen)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "emojimix",
+        "mixemoji"
+      ]
+    },
+    {
+      "name": "FStik",
+      "description": "Download sticker packs from FStik catalog (fstik.app) via link or search keyword.",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "fstik",
+        "fstick",
+        "fgstick",
+        "fstiker",
+        "fstikers"
+      ]
+    },
+    {
+      "name": "GetEXIF",
+      "description": "Get EXIF metadata from the quoted/replied sticker",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "getexif"
+      ]
+    },
+    {
+      "name": "LineSticker",
+      "description": "Download sticker packs from LINE Store and send them as WhatsApp stickers (static and animated).",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "linesticker",
+        "linestick",
+        "line"
+      ]
+    },
+    {
+      "name": "QC",
+      "description": "Create chat quotes from text/images",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "qc",
+        "sqc",
+        "isqc",
+        "jsqc",
+        "tsqc"
+      ]
+    },
+    {
+      "name": "SMeme",
+      "description": "Create meme sticker with top and bottom text from sent or replied image",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "smeme",
+        "ismeme",
+        "jsmeme",
+        "tsmeme"
+      ]
+    },
+    {
+      "name": "SigStick",
+      "description": "Download sticker packs from SigStick via pack link or slug.",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "sigstick",
+        "sig",
+        "sigstickers"
+      ]
+    },
+    {
+      "name": "Sticker",
+      "description": "Create a sticker from an image, video, sticker, or ZIP file sent or replied to. Supports shape modes (--circle, --round), crop modes (--crop, --full, --smart), framerate (-fps=1-60, -fps auto), direct 1:1 forced ratio (--direct), and custom metadata (--null, --avatar, --ai, --premium).",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "sticker",
+        "stiker",
+        "swm",
+        "s"
+      ]
+    },
+    {
+      "name": "Stickerly",
+      "description": "Download sticker packs from Sticker.ly via link, pack code, or search keyword.",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "stickerly",
+        "stickly",
+        "sly",
+        "stikerly"
+      ]
+    },
+    {
+      "name": "StickersGG",
+      "description": "Download sticker packs from Stickers.gg via link or category.",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "stickersgg",
+        "sgg",
+        "stickerspack"
+      ]
+    },
+    {
+      "name": "TelegramSticker",
+      "description": "Download a Telegram sticker pack and send it as WhatsApp stickers (supports -fps=1-60 or -fps auto)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "telegramsticker",
+        "tgsticker",
+        "tgs"
+      ]
+    },
+    {
+      "name": "TelegramStickerV2",
+      "description": "Download a Telegram sticker pack as ZIP without conversion",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "telegramstickerv2",
+        "tgsv2"
+      ]
+    },
+    {
+      "name": "ToGif",
+      "description": "Convert animated WhatsApp sticker into GIF (reply sticker)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "togif"
+      ]
+    },
+    {
+      "name": "ToImage",
+      "description": "Convert WhatsApp sticker into regular image/photo (reply sticker)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "toimage",
+        "toimg"
+      ]
+    },
+    {
+      "name": "ToVideo",
+      "description": "Convert animated WhatsApp sticker into MP4 video (reply sticker)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "tovideo",
+        "tovid"
+      ]
+    }
+  ]
+}

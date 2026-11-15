@@ -1,0 +1,86 @@
+{
+  "name": "UnbanChat",
+  "commands": [
+    "unban-chat",
+    "unbanchat",
+    "unbangc",
+    "unbangrup",
+    "unban-gc",
+    "unban-grup"
+  ],
+  "aliases": [],
+  "display": [
+    "UnbanChat"
+  ],
+  "category": "group_security",
+  "categories": [
+    "group_security"
+  ],
+  "tags": [
+    "unban-chat",
+    "unbanchat",
+    "unbangc",
+    "unbangrup",
+    "unban-gc",
+    "unban-grup"
+  ],
+  "description": {
+    "id": "Mencabut blokir bot pada grup tertentu secara selektif atau keseluruhan",
+    "en": "Unban bot response in specific groups selectively or globally"
+  },
+  "usage": "UnbanChat",
+  "examples": [
+    "unbanchat",
+    "unbangc",
+    "unbangrup",
+    "unbangc 120363xxx@g.us",
+    "unbangc --list",
+    "unbangc --all",
+    "unbangc --bot 1,2"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true,
+    "private": true
+  },
+  "permissions": {
+    "hasbot": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 520
+  },
+  "lastUpdated": "2026-11-15T16:37:42Z"
+}

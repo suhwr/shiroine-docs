@@ -17,8 +17,8 @@
     "gameprofile"
   ],
   "description": {
-    "id": "Lihat kartu profil statistik game, skor total, streak, dan rank kamu",
-    "en": "View game profile card with total score, streak, and ranking"
+    "en": "View game profile card with total score, streak, and ranking",
+    "id": "Lihat kartu profil statistik game, skor total, streak, dan rank kamu"
   },
   "usage": "ProfileGame",
   "examples": [
@@ -34,10 +34,10 @@
     "newsletter"
   ],
   "chatTypes": {
-    "group_community": true,
-    "newsletter": true,
     "private": true,
-    "group": true
+    "group": true,
+    "group_community": true,
+    "newsletter": true
   },
   "permissions": {},
   "premiumOnly": "",
@@ -68,5 +68,5 @@
     "file": "internal/plugins/game",
     "line": 166
   },
-  "lastUpdated": "2026-11-14T00:26:24Z"
+  "lastUpdated": "2026-11-15T16:37:42Z"
 }

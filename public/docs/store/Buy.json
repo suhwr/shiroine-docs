@@ -19,8 +19,8 @@
     "beli"
   ],
   "description": {
-    "id": "Pesan produk dari katalog toko resmi",
-    "en": "Order products from official store catalogue"
+    "en": "Order products from official store catalogue",
+    "id": "Pesan produk dari katalog toko resmi"
   },
   "usage": "Buy",
   "examples": [
@@ -59,7 +59,7 @@
   },
   "source": {
     "file": "internal/plugins/store",
-    "line": 146
+    "line": 188
   },
-  "lastUpdated": "2026-11-14T00:26:24Z"
+  "lastUpdated": "2026-11-15T16:37:42Z"
 }

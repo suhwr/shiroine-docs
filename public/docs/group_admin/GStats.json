@@ -1,0 +1,69 @@
+{
+  "name": "GStats",
+  "commands": [
+    "gstats"
+  ],
+  "aliases": [],
+  "display": [
+    "GStats"
+  ],
+  "category": "group_admin",
+  "categories": [
+    "group_admin"
+  ],
+  "tags": [
+    "gstats"
+  ],
+  "description": {
+    "id": "Menampilkan statistik pesan grup bulan ini termasuk top 3 anggota teraktif",
+    "en": "Show group message statistics this month including top 3 most active members"
+  },
+  "usage": "GStats",
+  "examples": [
+    "gstats"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {
+    "admin": true,
+    "moderator": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 442
+  },
+  "lastUpdated": "2026-11-15T16:37:42Z"
+}

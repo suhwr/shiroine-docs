@@ -1,6 +1,20 @@
 {
   "commands": [
     {
+      "name": "Album",
+      "description": "Download album from YouTube Music",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "album"
+      ]
+    },
+    {
       "name": "AmazonMusic",
       "description": "Search or download tracks, albums, playlists, or artists from Amazon Music (Ultra HD / HD quality)",
       "permissions": {},
@@ -28,6 +42,36 @@
       "minArgs": 0,
       "tags": [
         "play"
+      ]
+    },
+    {
+      "name": "Play2",
+      "description": "Search and play videos from YouTube",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "play2"
+      ]
+    },
+    {
+      "name": "PlayDownloader",
+      "description": "Download song from YouTube URL",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "playdownloader",
+        "playdl",
+        "play-downloader"
       ]
     },
     {
@@ -59,6 +103,65 @@
       ]
     },
     {
+      "name": "YouTube",
+      "description": "YouTube helper - choose to download audio, video, or album",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "yt",
+        "youtube"
+      ]
+    },
+    {
+      "name": "YtClip",
+      "description": "Trim/clip YouTube video or audio instantly without downloading the full video (max 1 minute), supports live stream clipping in H.264 (AVC High)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "ytclip",
+        "clip"
+      ]
+    },
+    {
+      "name": "YtMp3",
+      "description": "Search and download songs from YouTube as MP3",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "ytmp3"
+      ]
+    },
+    {
+      "name": "YtMp4",
+      "description": "Download video from YouTube",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "ytmp4",
+        "ytvideo"
+      ]
+    },
+    {
       "name": "YtMusic",
       "description": "Search or download tracks, albums, or playlists from YouTube Music",
       "permissions": {},
@@ -72,6 +175,68 @@
         "ytm",
         "ytmusic",
         "youtube-music"
+      ]
+    },
+    {
+      "name": "YtMusicSearch",
+      "description": "Search track list on YouTube Music by title or artist",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "ytms",
+        "ytmusicsearch"
+      ]
+    },
+    {
+      "name": "YtSearch",
+      "description": "Search video list on YouTube by title keyword",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "yts",
+        "ytsearch"
+      ]
+    },
+    {
+      "name": "YtSub",
+      "description": "Extract text transcript or download subtitle files (.srt / .vtt) from YouTube videos",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "ytsub",
+        "yttranscript",
+        "transcript"
+      ]
+    },
+    {
+      "name": "YtThumb",
+      "description": "Fetch highest quality thumbnail (1080p HD / 4K) or YouTube Music cover art",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "ytthumb",
+        "ytcover",
+        "thumbnail"
       ]
     }
   ]

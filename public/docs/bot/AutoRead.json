@@ -15,8 +15,8 @@
     "autoread"
   ],
   "description": {
-    "en": "Enable/disable auto-read message feature",
-    "id": "Aktifkan/nonaktifkan fitur auto-read pesan"
+    "id": "Aktifkan/nonaktifkan fitur auto-read pesan",
+    "en": "Enable/disable auto-read message feature"
   },
   "usage": "AutoRead",
   "examples": [
@@ -58,5 +58,5 @@
     "file": "internal/plugins/bot",
     "line": 77
   },
-  "lastUpdated": "2026-11-14T00:26:24Z"
+  "lastUpdated": "2026-11-15T16:37:42Z"
 }

@@ -10,15 +10,16 @@
   ],
   "category": "youtube",
   "categories": [
-    "youtube"
+    "youtube",
+    "music"
   ],
   "tags": [
     "ytclip",
     "clip"
   ],
   "description": {
-    "id": "Potong klip video atau audio YouTube secara instan tanpa download full video (maks 1 menit), mendukung klip live streaming dalam format H.264 (AVC High)",
-    "en": "Trim/clip YouTube video or audio instantly without downloading the full video (max 1 minute), supports live stream clipping in H.264 (AVC High)"
+    "en": "Trim/clip YouTube video or audio instantly without downloading the full video (max 1 minute), supports live stream clipping in H.264 (AVC High)",
+    "id": "Potong klip video atau audio YouTube secara instan tanpa download full video (maks 1 menit), mendukung klip live streaming dalam format H.264 (AVC High)"
   },
   "usage": "YtClip",
   "examples": [
@@ -31,8 +32,8 @@
   "minArgs": 0,
   "args": {
     "url start duration/end [--audio]": {
-      "en": "Video link, start time, duration/end time (max 1 minute), and audio option",
-      "id": "Link video, waktu mulai, durasi/waktu selesai (maks 1 menit), dan opsi audio"
+      "id": "Link video, waktu mulai, durasi/waktu selesai (maks 1 menit), dan opsi audio",
+      "en": "Video link, start time, duration/end time (max 1 minute), and audio option"
     }
   },
   "requireMedia": [],
@@ -67,5 +68,5 @@
     "file": "internal/plugins/youtube",
     "line": 215
   },
-  "lastUpdated": "2026-11-14T00:26:24Z"
+  "lastUpdated": "2026-11-15T16:37:42Z"
 }

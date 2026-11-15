@@ -1,0 +1,71 @@
+{
+  "name": "ListMute",
+  "commands": [
+    "listmute",
+    "mutelist"
+  ],
+  "aliases": [],
+  "display": [
+    "ListMute"
+  ],
+  "category": "group_security",
+  "categories": [
+    "group_security"
+  ],
+  "tags": [
+    "listmute",
+    "mutelist"
+  ],
+  "description": {
+    "id": "Lihat daftar anggota yang sedang dimute di grup dan unmute secara interaktif",
+    "en": "View list of currently muted members in the group and unmute interactively"
+  },
+  "usage": "ListMute",
+  "examples": [
+    "listmute"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {
+    "admin": true,
+    "moderator": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 559
+  },
+  "lastUpdated": "2026-11-15T16:37:42Z"
+}

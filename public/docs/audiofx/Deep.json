@@ -1,0 +1,60 @@
+{
+  "name": "Deep",
+  "commands": [
+    "deep"
+  ],
+  "aliases": [],
+  "display": [
+    "Deep"
+  ],
+  "category": "audiofx",
+  "categories": [
+    "audiofx"
+  ],
+  "tags": [
+    "deep"
+  ],
+  "description": {
+    "en": "Make audio sound deeper",
+    "id": "Buat suara menjadi lebih dalam"
+  },
+  "usage": "Deep",
+  "examples": [
+    "deep"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 412
+  },
+  "lastUpdated": "2026-11-15T16:37:42Z"
+}

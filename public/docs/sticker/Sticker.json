@@ -1,0 +1,73 @@
+{
+  "name": "Sticker",
+  "commands": [
+    "sticker",
+    "stiker",
+    "swm",
+    "s"
+  ],
+  "aliases": [],
+  "display": [
+    "Sticker"
+  ],
+  "category": "sticker",
+  "categories": [
+    "sticker"
+  ],
+  "tags": [
+    "sticker",
+    "stiker",
+    "swm",
+    "s"
+  ],
+  "description": {
+    "id": "Membuat sticker dari gambar, video, sticker, atau ZIP yang dikirim atau direply. Mendukung mode bentuk (--circle, --round), crop (--crop, --full, --smart), framerate (-fps=1-60, -fps auto), paksa rasio 1:1 langsung (--direct), dan metadata kustom (--null, --avatar, --ai, --premium).",
+    "en": "Create a sticker from an image, video, sticker, or ZIP file sent or replied to. Supports shape modes (--circle, --round), crop modes (--crop, --full, --smart), framerate (-fps=1-60, -fps auto), direct 1:1 forced ratio (--direct), and custom metadata (--null, --avatar, --ai, --premium)."
+  },
+  "usage": "Sticker",
+  "examples": [
+    "sticker",
+    "sticker --circle",
+    "sticker --round",
+    "sticker --full",
+    "sticker -fps 30",
+    "sticker -fps auto",
+    "sticker NamaPack|NamaAuthor",
+    "sticker PackName|AuthorName"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 505
+  },
+  "lastUpdated": "2026-11-15T16:37:42Z"
+}

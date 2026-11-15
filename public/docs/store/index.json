@@ -35,6 +35,23 @@
       ]
     },
     {
+      "name": "ListVoucher",
+      "description": "List active store discount vouchers",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "listvoucher",
+        "vouchers",
+        "voucher",
+        "kupon"
+      ]
+    },
+    {
       "name": "Pay",
       "description": "View store bank accounts and payment methods",
       "permissions": {},
@@ -63,6 +80,23 @@
       "tags": [
         "stock",
         "stok"
+      ]
+    },
+    {
+      "name": "Struk",
+      "description": "Print and view official thermal receipt for store orders",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "struk",
+        "receipt",
+        "notabeli",
+        "cetakstruk"
       ]
     }
   ]

@@ -1,0 +1,74 @@
+{
+  "name": "AntiMedia",
+  "commands": [
+    "antimedia"
+  ],
+  "aliases": [],
+  "display": [
+    "AntiMedia"
+  ],
+  "category": "group_security",
+  "categories": [
+    "group_security"
+  ],
+  "tags": [
+    "antimedia"
+  ],
+  "description": {
+    "id": "Atur proteksi anti-media grup: stiker, video, viewonce, gambar, vn, dokumen",
+    "en": "Configure group anti-media protection: sticker, video, viewonce, image, voice, doc"
+  },
+  "usage": "AntiMedia",
+  "examples": [
+    "antimedia",
+    "antimedia video kick",
+    "antimedia viewonce kick",
+    "antimedia stiker hapus",
+    "antimedia off video",
+    "antimedia sticker delete"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {
+    "admin": true,
+    "subowner": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 328
+  },
+  "lastUpdated": "2026-11-15T16:37:42Z"
+}

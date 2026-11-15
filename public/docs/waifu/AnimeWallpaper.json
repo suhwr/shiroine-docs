@@ -1,0 +1,67 @@
+{
+  "name": "AnimeWallpaper",
+  "commands": [
+    "animewallpaper",
+    "animewall",
+    "animepaper"
+  ],
+  "aliases": [],
+  "display": [
+    "AnimeWallpaper"
+  ],
+  "category": "waifu",
+  "categories": [
+    "waifu",
+    "animanga"
+  ],
+  "tags": [
+    "animewallpaper",
+    "animewall",
+    "animepaper"
+  ],
+  "description": {
+    "en": "HD anime wallpapers for phone / desktop",
+    "id": "Koleksi wallpaper anime HD untuk ponsel / desktop"
+  },
+  "usage": "AnimeWallpaper",
+  "examples": [
+    ".animewall",
+    ".animewall solo leveling",
+    ".animewall #3"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/anime",
+    "line": 322
+  },
+  "lastUpdated": "2026-11-15T16:37:42Z"
+}
