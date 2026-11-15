@@ -63,8 +63,8 @@
     {
       "name": "Add",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Add",
+      "category": "group_admin",
+      "path": "/command/group_admin/Add",
       "description": "Tambahkan anggota baru ke dalam grup",
       "permissions": {
         "admin": true,
@@ -77,7 +77,7 @@
       "delaySeconds": 0,
       "tags": [
         "add",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -207,14 +207,36 @@
       ]
     },
     {
+      "name": "AddVoucher",
+      "aliases": [],
+      "category": "store_admin",
+      "path": "/command/store_admin/AddVoucher",
+      "description": "Tambah kupon voucher diskon toko (Staff / Owner Toko)",
+      "permissions": {
+        "admin": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "tags": [
+        "addvoucher",
+        "tambahvoucher",
+        "createvoucher",
+        "store_admin",
+        "admin"
+      ]
+    },
+    {
       "name": "AdminOnly",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/AdminOnly",
+      "category": "group_admin",
+      "path": "/command/group_admin/AdminOnly",
       "description": "Membuat bot hanya merespons perintah dari admin grup",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -224,7 +246,7 @@
       "tags": [
         "adminonly",
         "onlyadmin",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -232,8 +254,8 @@
     {
       "name": "Adzan",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Adzan",
+      "category": "group_admin",
+      "path": "/command/group_admin/Adzan",
       "description": "Pengaturan jadwal dan notifikasi adzan otomatis di grup",
       "permissions": {
         "admin": true,
@@ -248,7 +270,7 @@
         "adzan",
         "autoadzan",
         "sholat",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -464,8 +486,8 @@
     {
       "name": "AnimeWallpaper",
       "aliases": [],
-      "category": "animanga",
-      "path": "/command/animanga/AnimeWallpaper",
+      "category": "waifu",
+      "path": "/command/waifu/AnimeWallpaper",
       "description": "Koleksi wallpaper anime HD untuk ponsel / desktop",
       "permissions": {},
       "premiumOnly": "",
@@ -477,7 +499,7 @@
         "animewallpaper",
         "animewall",
         "animepaper",
-        "animanga",
+        "waifu",
         "limit",
         "limit harian"
       ]
@@ -503,8 +525,8 @@
     {
       "name": "AntiBot",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/AntiBot",
+      "category": "group_security",
+      "path": "/command/group_security/AntiBot",
       "description": "Aktifkan atau nonaktifkan sistem anti-bot untuk grup",
       "permissions": {
         "admin": true,
@@ -517,7 +539,7 @@
       "delaySeconds": 0,
       "tags": [
         "antibot",
-        "group",
+        "group_security",
         "admin",
         "subowner"
       ]
@@ -525,8 +547,8 @@
     {
       "name": "AntiBug",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/AntiBug",
+      "category": "group_admin",
+      "path": "/command/group_admin/AntiBug",
       "description": "Atur proteksi anti bug, virtex, dan crash WhatsApp di grup",
       "permissions": {
         "admin": true,
@@ -539,7 +561,7 @@
       "delaySeconds": 0,
       "tags": [
         "antibug",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -547,8 +569,8 @@
     {
       "name": "AntiCall",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/AntiCall",
+      "category": "group_admin",
+      "path": "/command/group_admin/AntiCall",
       "description": "Atur penolakan otomatis panggilan telepon grup WhatsApp",
       "permissions": {
         "admin": true,
@@ -561,7 +583,7 @@
       "delaySeconds": 0,
       "tags": [
         "anticall",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -569,8 +591,8 @@
     {
       "name": "AntiHideTag",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/AntiHideTag",
+      "category": "group_admin",
+      "path": "/command/group_admin/AntiHideTag",
       "description": "Atur proteksi anti tag/mention tersembunyi (hidetag) di grup",
       "permissions": {
         "admin": true,
@@ -583,7 +605,7 @@
       "delaySeconds": 0,
       "tags": [
         "antihidetag",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -591,8 +613,8 @@
     {
       "name": "AntiLink",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/AntiLink",
+      "category": "group_security",
+      "path": "/command/group_security/AntiLink",
       "description": "Pengaturan sistem AntiLink untuk memblokir tautan terlarang di grup",
       "permissions": {
         "admin": true,
@@ -605,7 +627,7 @@
       "delaySeconds": 0,
       "tags": [
         "antilink",
-        "group",
+        "group_security",
         "admin",
         "subowner"
       ]
@@ -613,8 +635,8 @@
     {
       "name": "AntiMedia",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/AntiMedia",
+      "category": "group_security",
+      "path": "/command/group_security/AntiMedia",
       "description": "Atur proteksi anti-media grup: stiker, video, viewonce, gambar, vn, dokumen",
       "permissions": {
         "admin": true,
@@ -627,7 +649,7 @@
       "delaySeconds": 0,
       "tags": [
         "antimedia",
-        "group",
+        "group_security",
         "admin",
         "subowner"
       ]
@@ -635,8 +657,8 @@
     {
       "name": "AntiNSFWMedia",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/AntiNSFWMedia",
+      "category": "group_security",
+      "path": "/command/group_security/AntiNSFWMedia",
       "description": "Aktifkan filter media NSFW otomatis di grup",
       "permissions": {
         "admin": true,
@@ -650,7 +672,7 @@
       "tags": [
         "antinsfwmedia",
         "antinsfw",
-        "group",
+        "group_security",
         "admin",
         "subowner"
       ]
@@ -658,8 +680,8 @@
     {
       "name": "AntiSpam",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/AntiSpam",
+      "category": "group_admin",
+      "path": "/command/group_admin/AntiSpam",
       "description": "Atur proteksi anti spam pesan bertubi-tubi di grup",
       "permissions": {
         "admin": true,
@@ -672,7 +694,7 @@
       "delaySeconds": 0,
       "tags": [
         "antispam",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -680,12 +702,12 @@
     {
       "name": "AntiSW",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/AntiSW",
+      "category": "group_admin",
+      "path": "/command/group_admin/AntiSW",
       "description": "Atur anti tag status WhatsApp (SWGC)",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -695,7 +717,7 @@
       "tags": [
         "antisw",
         "antiswgc",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -703,8 +725,8 @@
     {
       "name": "AntiTagSW",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/AntiTagSW",
+      "category": "group_admin",
+      "path": "/command/group_admin/AntiTagSW",
       "description": "Atur proteksi anti tag status WhatsApp di grup",
       "permissions": {
         "admin": true,
@@ -717,7 +739,7 @@
       "delaySeconds": 0,
       "tags": [
         "antitagsw",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -725,8 +747,8 @@
     {
       "name": "AntiVO",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/AntiVO",
+      "category": "group_admin",
+      "path": "/command/group_admin/AntiVO",
       "description": "Atur proteksi anti pesan sekali lihat (viewonce) di grup",
       "permissions": {
         "admin": true,
@@ -740,7 +762,7 @@
       "tags": [
         "antivo",
         "antiviewonce",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -819,8 +841,8 @@
     {
       "name": "Attendance",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Attendance",
+      "category": "group_admin",
+      "path": "/command/group_admin/Attendance",
       "description": "Kelola absen grup dan ekspor CSV (admin)",
       "permissions": {
         "admin": true,
@@ -834,7 +856,7 @@
       "tags": [
         "attendance",
         "absen",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -842,8 +864,8 @@
     {
       "name": "AudioEffect",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/AudioEffect",
+      "category": "audiofx",
+      "path": "/command/audiofx/AudioEffect",
       "description": "Tampilkan daftar semua audio effect yang tersedia",
       "permissions": {},
       "premiumOnly": "",
@@ -853,7 +875,7 @@
       "delaySeconds": 0,
       "tags": [
         "audioeffect",
-        "tools"
+        "audiofx"
       ]
     },
     {
@@ -910,8 +932,8 @@
     {
       "name": "AutoRespon",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/AutoRespon",
+      "category": "group_admin",
+      "path": "/command/group_admin/AutoRespon",
       "description": "Kelola sistem autorespon pesan otomatis grup",
       "permissions": {
         "admin": true,
@@ -925,7 +947,7 @@
       "tags": [
         "autorespon",
         "autorespo",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -986,8 +1008,8 @@
     {
       "name": "BadWord",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/BadWord",
+      "category": "group_security",
+      "path": "/command/group_security/BadWord",
       "description": "Kelola filter sensor kata terlarang dan sanksi pelanggaran grup",
       "permissions": {
         "admin": true,
@@ -1000,7 +1022,7 @@
       "delaySeconds": 0,
       "tags": [
         "badword",
-        "group",
+        "group_security",
         "admin"
       ]
     },
@@ -1065,8 +1087,8 @@
     {
       "name": "BanChat",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/BanChat",
+      "category": "group_security",
+      "path": "/command/group_security/BanChat",
       "description": "Memblokir bot dari merespons di grup tertentu secara selektif atau keseluruhan",
       "permissions": {
         "hasbot": true
@@ -1083,14 +1105,14 @@
         "bangrup",
         "ban-gc",
         "ban-grup",
-        "group"
+        "group_security"
       ]
     },
     {
       "name": "BanList",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/BanList",
+      "category": "group_security",
+      "path": "/command/group_security/BanList",
       "description": "Tampilkan daftar entitas yang diban berdasarkan kategori",
       "permissions": {},
       "premiumOnly": "",
@@ -1100,7 +1122,7 @@
       "delaySeconds": 0,
       "tags": [
         "banlist",
-        "group"
+        "group_security"
       ]
     },
     {
@@ -1129,8 +1151,8 @@
     {
       "name": "BanMember",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/BanMember",
+      "category": "group_security",
+      "path": "/command/group_security/BanMember",
       "description": "Ban anggota dari penggunaan bot di grup ini",
       "permissions": {
         "admin": true,
@@ -1144,7 +1166,7 @@
       "tags": [
         "banmember",
         "ban-member",
-        "group",
+        "group_security",
         "admin"
       ]
     },
@@ -1244,8 +1266,8 @@
     {
       "name": "Bass",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Bass",
+      "category": "audiofx",
+      "path": "/command/audiofx/Bass",
       "description": "Tambahkan efek bass boost ke audio/video (opsional: tingkat bass 1-100, default 20)",
       "permissions": {},
       "premiumOnly": "",
@@ -1255,7 +1277,7 @@
       "delaySeconds": 0,
       "tags": [
         "bass",
-        "tools"
+        "audiofx"
       ]
     },
     {
@@ -1369,8 +1391,8 @@
     {
       "name": "Blown",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Blown",
+      "category": "audiofx",
+      "path": "/command/audiofx/Blown",
       "description": "Efek pecah / overdrive kasar pada audio",
       "permissions": {},
       "premiumOnly": "",
@@ -1380,7 +1402,7 @@
       "delaySeconds": 0,
       "tags": [
         "blown",
-        "tools"
+        "audiofx"
       ]
     },
     {
@@ -1508,8 +1530,8 @@
     {
       "name": "Brat",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Brat",
+      "category": "sticker",
+      "path": "/command/sticker/Brat",
       "description": "Buat stiker teks gaya BRAT (latar hijau/hitam, statis atau video animasi, versi blur atau HD)",
       "permissions": {},
       "premiumOnly": "",
@@ -1567,7 +1589,7 @@
         "brat4hdvid",
         "brat4hdvideo",
         "brat4vidhd",
-        "tools"
+        "sticker"
       ]
     },
     {
@@ -1630,8 +1652,8 @@
     {
       "name": "BunnyGirl",
       "aliases": [],
-      "category": "animanga",
-      "path": "/command/animanga/BunnyGirl",
+      "category": "waifu",
+      "path": "/command/waifu/BunnyGirl",
       "description": "Koleksi foto/art anime berkostum bunny",
       "permissions": {},
       "premiumOnly": "",
@@ -1642,7 +1664,7 @@
       "tags": [
         "bunnygirl",
         "bunny",
-        "animanga",
+        "waifu",
         "limit",
         "limit harian"
       ]
@@ -1867,8 +1889,8 @@
     {
       "name": "CekBotAdmin",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/CekBotAdmin",
+      "category": "group_admin",
+      "path": "/command/group_admin/CekBotAdmin",
       "description": "Cek daftar bot yang menjadi admin di grup ini",
       "permissions": {
         "admin": true
@@ -1881,7 +1903,7 @@
       "tags": [
         "cekbotadmin",
         "cba",
-        "group",
+        "group_admin",
         "admin"
       ]
     },
@@ -1905,8 +1927,8 @@
     {
       "name": "CekTanpaGrup",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/CekTanpaGrup",
+      "category": "group_admin",
+      "path": "/command/group_admin/CekTanpaGrup",
       "description": "Periksa anggota komunitas yang belum bergabung ke grup mana pun",
       "permissions": {
         "admin": true
@@ -1918,7 +1940,7 @@
       "delaySeconds": 0,
       "tags": [
         "cektanpagrup",
-        "group",
+        "group_admin",
         "admin"
       ]
     },
@@ -2026,8 +2048,8 @@
     {
       "name": "Chorus",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Chorus",
+      "category": "audiofx",
+      "path": "/command/audiofx/Chorus",
       "description": "Tambahkan efek suara berlapis",
       "permissions": {},
       "premiumOnly": "",
@@ -2037,7 +2059,7 @@
       "delaySeconds": 0,
       "tags": [
         "chorus",
-        "tools"
+        "audiofx"
       ]
     },
     {
@@ -2148,8 +2170,8 @@
     {
       "name": "Close",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Close",
+      "category": "group_admin",
+      "path": "/command/group_admin/Close",
       "description": "Tutup grup (hanya admin yang dapat mengirim pesan)",
       "permissions": {
         "admin": true,
@@ -2163,7 +2185,7 @@
       "tags": [
         "close",
         "cls",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -2171,12 +2193,12 @@
     {
       "name": "Cmd",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Cmd",
+      "category": "group_admin",
+      "path": "/command/group_admin/Cmd",
       "description": "Nonaktifkan atau aktifkan perintah bot di grup ini secara satuan maupun massal",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -2185,7 +2207,7 @@
       "delaySeconds": 0,
       "tags": [
         "cmd",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -2446,8 +2468,8 @@
     {
       "name": "Danbooru",
       "aliases": [],
-      "category": "animanga",
-      "path": "/command/animanga/Danbooru",
+      "category": "waifu",
+      "path": "/command/waifu/Danbooru",
       "description": "Cari anime art dan wallpaper langsung di Danbooru",
       "permissions": {},
       "premiumOnly": "",
@@ -2457,7 +2479,7 @@
       "delaySeconds": 0,
       "tags": [
         "danbooru",
-        "animanga",
+        "waifu",
         "limit",
         "limit harian"
       ]
@@ -2500,8 +2522,8 @@
     {
       "name": "DebugPriority",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/DebugPriority",
+      "category": "group_admin",
+      "path": "/command/group_admin/DebugPriority",
       "description": "Debug status prioritas dan routing bot lintas server di grup",
       "permissions": {
         "owner": true,
@@ -2518,7 +2540,7 @@
         "dbgpriority",
         "cekpriority",
         "cekprioritas",
-        "group",
+        "group_admin",
         "owner",
         "developer",
         "admin",
@@ -2545,8 +2567,8 @@
     {
       "name": "Deep",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Deep",
+      "category": "audiofx",
+      "path": "/command/audiofx/Deep",
       "description": "Buat suara menjadi lebih dalam",
       "permissions": {},
       "premiumOnly": "",
@@ -2556,7 +2578,7 @@
       "delaySeconds": 0,
       "tags": [
         "deep",
-        "tools"
+        "audiofx"
       ]
     },
     {
@@ -2581,8 +2603,8 @@
     {
       "name": "Delete",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Delete",
+      "category": "group_admin",
+      "path": "/command/group_admin/Delete",
       "description": "Hapus pesan yang dibalas (reply)",
       "permissions": {},
       "premiumOnly": "",
@@ -2594,7 +2616,7 @@
         "delete",
         "del",
         "d",
-        "group"
+        "group_admin"
       ]
     },
     {
@@ -2703,10 +2725,32 @@
       ]
     },
     {
+      "name": "DelVoucher",
+      "aliases": [],
+      "category": "store_admin",
+      "path": "/command/store_admin/DelVoucher",
+      "description": "Hapus kupon voucher toko (Staff / Owner Toko)",
+      "permissions": {
+        "admin": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "tags": [
+        "delvoucher",
+        "hapusvoucher",
+        "rmvoucher",
+        "store_admin",
+        "admin"
+      ]
+    },
+    {
       "name": "Demote",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Demote",
+      "category": "group_admin",
+      "path": "/command/group_admin/Demote",
       "description": "Turunkan admin menjadi anggota biasa",
       "permissions": {
         "admin": true,
@@ -2719,7 +2763,7 @@
       "delaySeconds": 0,
       "tags": [
         "demote",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -2727,8 +2771,8 @@
     {
       "name": "Denoise",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Denoise",
+      "category": "audiofx",
+      "path": "/command/audiofx/Denoise",
       "description": "Kurangi noise pada audio",
       "permissions": {},
       "premiumOnly": "",
@@ -2738,7 +2782,7 @@
       "delaySeconds": 0,
       "tags": [
         "denoise",
-        "tools"
+        "audiofx"
       ]
     },
     {
@@ -2785,8 +2829,8 @@
     {
       "name": "Distortion",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Distortion",
+      "category": "audiofx",
+      "path": "/command/audiofx/Distortion",
       "description": "Tambahkan efek distorsi ke audio",
       "permissions": {},
       "premiumOnly": "",
@@ -2796,7 +2840,7 @@
       "delaySeconds": 0,
       "tags": [
         "distortion",
-        "tools"
+        "audiofx"
       ]
     },
     {
@@ -2864,8 +2908,8 @@
     {
       "name": "DownloadStickerPack",
       "aliases": [],
-      "category": "downloader",
-      "path": "/command/downloader/DownloadStickerPack",
+      "category": "sticker",
+      "path": "/command/sticker/DownloadStickerPack",
       "description": "Download stiker pack WhatsApp sebagai file ZIP",
       "permissions": {},
       "premiumOnly": "",
@@ -2875,7 +2919,7 @@
       "delaySeconds": 0,
       "tags": [
         "downloadstickerpack",
-        "downloader",
+        "sticker",
         "limit",
         "limit harian"
       ]
@@ -2900,8 +2944,8 @@
     {
       "name": "EarRape",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/EarRape",
+      "category": "audiofx",
+      "path": "/command/audiofx/EarRape",
       "description": "Naikkan volume audio secara ekstrem (opsional: tingkat volume 1-50, default 12)",
       "permissions": {},
       "premiumOnly": "",
@@ -2911,14 +2955,14 @@
       "delaySeconds": 0,
       "tags": [
         "earrape",
-        "tools"
+        "audiofx"
       ]
     },
     {
       "name": "Emojimix",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Emojimix",
+      "category": "sticker",
+      "path": "/command/sticker/Emojimix",
       "description": "Mencampur dua emoji menjadi satu (Emoji Kitchen)",
       "permissions": {},
       "premiumOnly": "",
@@ -2929,7 +2973,7 @@
       "tags": [
         "emojimix",
         "mixemoji",
-        "tools",
+        "sticker",
         "limit",
         "limit harian"
       ]
@@ -2954,8 +2998,8 @@
     {
       "name": "Ephemeral",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Ephemeral",
+      "category": "group_admin",
+      "path": "/command/group_admin/Ephemeral",
       "description": "Atur pesan sementara (ephemeral / hilang otomatis) di grup",
       "permissions": {
         "admin": true,
@@ -2968,7 +3012,7 @@
       "delaySeconds": 0,
       "tags": [
         "ephemeral",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -3075,8 +3119,8 @@
     {
       "name": "FakeThumbnail",
       "aliases": [],
-      "category": "media",
-      "path": "/command/media/FakeThumbnail",
+      "category": "tools",
+      "path": "/command/tools/FakeThumbnail",
       "description": "Kirim media asli namun manipulasi tampilannya dengan thumbnail dari media lain",
       "permissions": {},
       "premiumOnly": "",
@@ -3088,14 +3132,14 @@
         "fakethumbnail",
         "fakethumb",
         "spoofmedia",
-        "media"
+        "tools"
       ]
     },
     {
       "name": "Fast",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Fast",
+      "category": "audiofx",
+      "path": "/command/audiofx/Fast",
       "description": "Percepat kecepatan audio (opsional: rasio kecepatan 1.0-4.0, default 1.63)",
       "permissions": {},
       "premiumOnly": "",
@@ -3105,14 +3149,14 @@
       "delaySeconds": 0,
       "tags": [
         "fast",
-        "tools"
+        "audiofx"
       ]
     },
     {
       "name": "Fat",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Fat",
+      "category": "audiofx",
+      "path": "/command/audiofx/Fat",
       "description": "Efek suara tebal / berat",
       "permissions": {},
       "premiumOnly": "",
@@ -3122,7 +3166,7 @@
       "delaySeconds": 0,
       "tags": [
         "fat",
-        "tools"
+        "audiofx"
       ]
     },
     {
@@ -3145,8 +3189,8 @@
     {
       "name": "Flanger",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Flanger",
+      "category": "audiofx",
+      "path": "/command/audiofx/Flanger",
       "description": "Tambahkan efek flanger ke audio",
       "permissions": {},
       "premiumOnly": "",
@@ -3156,7 +3200,7 @@
       "delaySeconds": 0,
       "tags": [
         "flanger",
-        "tools"
+        "audiofx"
       ]
     },
     {
@@ -3239,8 +3283,8 @@
     {
       "name": "FStik",
       "aliases": [],
-      "category": "downloader",
-      "path": "/command/downloader/FStik",
+      "category": "sticker",
+      "path": "/command/sticker/FStik",
       "description": "Download stiker pack dari katalog FStik (fstik.app) menggunakan link atau kata kunci.",
       "permissions": {},
       "premiumOnly": "",
@@ -3254,7 +3298,7 @@
         "fgstick",
         "fstiker",
         "fstikers",
-        "downloader",
+        "sticker",
         "limit",
         "limit harian"
       ]
@@ -3399,8 +3443,8 @@
     {
       "name": "GetEXIF",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/GetEXIF",
+      "category": "sticker",
+      "path": "/command/sticker/GetEXIF",
       "description": "Ambil metadata EXIF dari stiker yang di-quote/reply",
       "permissions": {},
       "premiumOnly": "",
@@ -3410,7 +3454,7 @@
       "delaySeconds": 0,
       "tags": [
         "getexif",
-        "tools"
+        "sticker"
       ]
     },
     {
@@ -3698,8 +3742,8 @@
     {
       "name": "GroupID",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/GroupID",
+      "category": "group_admin",
+      "path": "/command/group_admin/GroupID",
       "description": "Menampilkan ID unik grup obrolan ini",
       "permissions": {},
       "premiumOnly": "",
@@ -3709,14 +3753,14 @@
       "delaySeconds": 0,
       "tags": [
         "groupid",
-        "group"
+        "group_admin"
       ]
     },
     {
       "name": "GroupInfo",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/GroupInfo",
+      "category": "group_admin",
+      "path": "/command/group_admin/GroupInfo",
       "description": "Lihat informasi dan konfigurasi lengkap grup",
       "permissions": {},
       "premiumOnly": "",
@@ -3727,7 +3771,8 @@
       "tags": [
         "groupinfo",
         "group",
-        "ginfo"
+        "ginfo",
+        "group_admin"
       ]
     },
     {
@@ -3769,8 +3814,8 @@
     {
       "name": "GroupPrefix",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/GroupPrefix",
+      "category": "group_admin",
+      "path": "/command/group_admin/GroupPrefix",
       "description": "Mengatur prefix perintah kustom untuk grup",
       "permissions": {
         "admin": true,
@@ -3785,7 +3830,7 @@
         "groupprefix",
         "group-prefix",
         "gprefix",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -3793,8 +3838,8 @@
     {
       "name": "GroupSettings",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/GroupSettings",
+      "category": "group_admin",
+      "path": "/command/group_admin/GroupSettings",
       "description": "Lihat daftar fitur grup dan statusnya",
       "permissions": {},
       "premiumOnly": "",
@@ -3805,7 +3850,7 @@
       "tags": [
         "groupsettings",
         "gsettings",
-        "group"
+        "group_admin"
       ]
     },
     {
@@ -3833,8 +3878,8 @@
         "upstatusgrup",
         "statusgrup"
       ],
-      "category": "group",
-      "path": "/command/group/GroupStatus",
+      "category": "group_admin",
+      "path": "/command/group_admin/GroupStatus",
       "description": "Upload media ke status grup",
       "permissions": {
         "admin": true
@@ -3849,19 +3894,19 @@
         "upswgc",
         "upstatusgrup",
         "statusgrup",
-        "group",
+        "group_admin",
         "admin"
       ]
     },
     {
       "name": "GStats",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/GStats",
+      "category": "group_admin",
+      "path": "/command/group_admin/GStats",
       "description": "Menampilkan statistik pesan grup bulan ini termasuk top 3 anggota teraktif",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -3870,7 +3915,7 @@
       "delaySeconds": 0,
       "tags": [
         "gstats",
-        "group",
+        "group_admin",
         "admin"
       ]
     },
@@ -3915,9 +3960,9 @@
       "path": "/command/developer/HardBan",
       "description": "Ban user secara global (permanen)",
       "permissions": {
-        "owner": true,
         "moderator": true,
-        "subowner": true
+        "subowner": true,
+        "owner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -3939,9 +3984,9 @@
       "path": "/command/developer/HardBanGC",
       "description": "Ban grup secara global (semua bot)",
       "permissions": {
-        "moderator": true,
         "owner": true,
-        "subowner": true
+        "subowner": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -4084,12 +4129,12 @@
     {
       "name": "HideTag",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/HideTag",
+      "category": "group_admin",
+      "path": "/command/group_admin/HideTag",
       "description": "Tag seluruh anggota grup secara tersembunyi",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -4100,7 +4145,7 @@
         "hidetag",
         "ht",
         "h",
-        "group",
+        "group_admin",
         "admin"
       ]
     },
@@ -4124,8 +4169,8 @@
     {
       "name": "HighPass",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/HighPass",
+      "category": "audiofx",
+      "path": "/command/audiofx/HighPass",
       "description": "Potong frekuensi rendah pada audio (opsional: frekuensi 100-10000Hz, default 500)",
       "permissions": {},
       "premiumOnly": "",
@@ -4135,7 +4180,7 @@
       "delaySeconds": 0,
       "tags": [
         "highpass",
-        "tools"
+        "audiofx"
       ]
     },
     {
@@ -4217,8 +4262,8 @@
     {
       "name": "Husbu",
       "aliases": [],
-      "category": "animanga",
-      "path": "/command/animanga/Husbu",
+      "category": "waifu",
+      "path": "/command/waifu/Husbu",
       "description": "Koleksi foto/art anime karakter pria tampan (ikemen)",
       "permissions": {},
       "premiumOnly": "",
@@ -4229,7 +4274,7 @@
       "tags": [
         "husbu",
         "ikemen",
-        "animanga",
+        "waifu",
         "limit",
         "limit harian"
       ]
@@ -4263,8 +4308,8 @@
     {
       "name": "Info",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Info",
+      "category": "group_admin",
+      "path": "/command/group_admin/Info",
       "description": "Atur notifikasi perubahan setelan informasi grup WhatsApp",
       "permissions": {
         "admin": true,
@@ -4277,7 +4322,7 @@
       "delaySeconds": 0,
       "tags": [
         "info",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -4442,8 +4487,8 @@
     {
       "name": "Jockey",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Jockey",
+      "category": "group_admin",
+      "path": "/command/group_admin/Jockey",
       "description": "Bot pemutar musik untuk panggilan suara grup WhatsApp",
       "permissions": {},
       "premiumOnly": "",
@@ -4453,7 +4498,7 @@
       "delaySeconds": 0,
       "tags": [
         "jockey",
-        "group"
+        "group_admin"
       ]
     },
     {
@@ -4493,8 +4538,8 @@
     {
       "name": "JoinReq",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/JoinReq",
+      "category": "group_admin",
+      "path": "/command/group_admin/JoinReq",
       "description": "Kelola daftar permintaan masuk (join request) anggota grup",
       "permissions": {
         "admin": true,
@@ -4507,7 +4552,7 @@
       "delaySeconds": 0,
       "tags": [
         "joinreq",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -4583,8 +4628,8 @@
     {
       "name": "Kitsune",
       "aliases": [],
-      "category": "animanga",
-      "path": "/command/animanga/Kitsune",
+      "category": "waifu",
+      "path": "/command/waifu/Kitsune",
       "description": "Koleksi foto/art anime foxgirl (kitsune)",
       "permissions": {},
       "premiumOnly": "",
@@ -4595,7 +4640,7 @@
       "tags": [
         "kitsune",
         "foxgirl",
-        "animanga",
+        "waifu",
         "limit",
         "limit harian"
       ]
@@ -4621,8 +4666,8 @@
     {
       "name": "Konachan",
       "aliases": [],
-      "category": "animanga",
-      "path": "/command/animanga/Konachan",
+      "category": "waifu",
+      "path": "/command/waifu/Konachan",
       "description": "Cari wallpaper anime resolusi tinggi di Konachan",
       "permissions": {},
       "premiumOnly": "",
@@ -4633,7 +4678,7 @@
       "tags": [
         "konachan",
         "kona",
-        "animanga",
+        "waifu",
         "limit",
         "limit harian"
       ]
@@ -4696,8 +4741,8 @@
     {
       "name": "LeaveGroup",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/LeaveGroup",
+      "category": "group_admin",
+      "path": "/command/group_admin/LeaveGroup",
       "description": "Keluarkan bot dari grup atau tinggalkan grup dari jarak jauh",
       "permissions": {
         "admin": true,
@@ -4718,7 +4763,7 @@
         "leavebot",
         "leave-bot",
         "leave",
-        "group",
+        "group_admin",
         "owner",
         "developer",
         "admin",
@@ -4728,8 +4773,8 @@
     {
       "name": "Left",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Left",
+      "category": "group_admin",
+      "path": "/command/group_admin/Left",
       "description": "Atur notifikasi dan cover perpisahan saat ada anggota yang keluar dari grup",
       "permissions": {
         "admin": true,
@@ -4742,7 +4787,7 @@
       "delaySeconds": 0,
       "tags": [
         "left",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -4819,10 +4864,10 @@
       ]
     },
     {
-      "name": "LINE Sticker",
+      "name": "LineSticker",
       "aliases": [],
-      "category": "downloader",
-      "path": "/command/downloader/LINE Sticker",
+      "category": "sticker",
+      "path": "/command/sticker/LineSticker",
       "description": "Download stiker pack dari LINE Store dan kirim sebagai stiker WhatsApp (stiker statis maupun animasi).",
       "permissions": {},
       "premiumOnly": "",
@@ -4831,11 +4876,10 @@
       "nsfwOnly": false,
       "delaySeconds": 0,
       "tags": [
-        "line sticker",
         "linesticker",
         "linestick",
         "line",
-        "downloader",
+        "sticker",
         "limit",
         "limit harian"
       ]
@@ -4860,8 +4904,8 @@
     {
       "name": "LinkGC",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/LinkGC",
+      "category": "group_admin",
+      "path": "/command/group_admin/LinkGC",
       "description": "Dapatkan tautan undangan grup",
       "permissions": {
         "admin": true,
@@ -4876,7 +4920,7 @@
         "linkgc",
         "gruplink",
         "link",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -4884,8 +4928,8 @@
     {
       "name": "ListAktif",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/ListAktif",
+      "category": "group_admin",
+      "path": "/command/group_admin/ListAktif",
       "description": "Lihat daftar member yang aktif hari ini beserta total pesannya",
       "permissions": {
         "admin": true,
@@ -4898,15 +4942,15 @@
       "delaySeconds": 0,
       "tags": [
         "listaktif",
-        "group",
+        "group_admin",
         "admin"
       ]
     },
     {
       "name": "ListBanMember",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/ListBanMember",
+      "category": "group_security",
+      "path": "/command/group_security/ListBanMember",
       "description": "Tampilkan daftar anggota yang diblokir bot di grup ini",
       "permissions": {
         "admin": true,
@@ -4920,7 +4964,7 @@
       "tags": [
         "listbanmember",
         "banmemberlist",
-        "group",
+        "group_security",
         "admin"
       ]
     },
@@ -4948,8 +4992,8 @@
     {
       "name": "ListMute",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/ListMute",
+      "category": "group_security",
+      "path": "/command/group_security/ListMute",
       "description": "Lihat daftar anggota yang sedang dimute di grup dan unmute secara interaktif",
       "permissions": {
         "admin": true,
@@ -4963,7 +5007,7 @@
       "tags": [
         "listmute",
         "mutelist",
-        "group",
+        "group_security",
         "admin"
       ]
     },
@@ -5038,8 +5082,8 @@
     {
       "name": "ListTimezone",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/ListTimezone",
+      "category": "group_admin",
+      "path": "/command/group_admin/ListTimezone",
       "description": "Lihat daftar zona waktu populer yang tersedia",
       "permissions": {},
       "premiumOnly": "",
@@ -5051,14 +5095,34 @@
         "listtimezone",
         "timezones",
         "tzlist",
-        "group"
+        "group_admin"
+      ]
+    },
+    {
+      "name": "ListVoucher",
+      "aliases": [],
+      "category": "store",
+      "path": "/command/store/ListVoucher",
+      "description": "Lihat daftar kupon voucher diskon aktif toko",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "tags": [
+        "listvoucher",
+        "vouchers",
+        "voucher",
+        "kupon",
+        "store"
       ]
     },
     {
       "name": "ListWarning",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/ListWarning",
+      "category": "group_security",
+      "path": "/command/group_security/ListWarning",
       "description": "Lihat seluruh anggota yang memiliki peringatan aktif di grup",
       "permissions": {
         "admin": true,
@@ -5072,7 +5136,7 @@
       "tags": [
         "listwarning",
         "warninglist",
-        "group",
+        "group_security",
         "admin"
       ]
     },
@@ -5178,8 +5242,8 @@
     {
       "name": "LowPass",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/LowPass",
+      "category": "audiofx",
+      "path": "/command/audiofx/LowPass",
       "description": "Potong frekuensi tinggi pada audio (opsional: frekuensi 100-10000Hz, default 500)",
       "permissions": {},
       "premiumOnly": "",
@@ -5189,7 +5253,7 @@
       "delaySeconds": 0,
       "tags": [
         "lowpass",
-        "tools"
+        "audiofx"
       ]
     },
     {
@@ -5231,8 +5295,8 @@
     {
       "name": "Maid",
       "aliases": [],
-      "category": "animanga",
-      "path": "/command/animanga/Maid",
+      "category": "waifu",
+      "path": "/command/waifu/Maid",
       "description": "Koleksi foto/art anime berkostum maid",
       "permissions": {},
       "premiumOnly": "",
@@ -5243,7 +5307,7 @@
       "tags": [
         "maid",
         "meido",
-        "animanga",
+        "waifu",
         "limit",
         "limit harian"
       ]
@@ -5480,8 +5544,8 @@
     {
       "name": "MuteMember",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/MuteMember",
+      "category": "group_security",
+      "path": "/command/group_security/MuteMember",
       "description": "Mute anggota tertentu di grup agar pesannya dihapus otomatis",
       "permissions": {
         "admin": true,
@@ -5495,7 +5559,7 @@
       "tags": [
         "mutemember",
         "mute-member",
-        "group",
+        "group_security",
         "admin"
       ]
     },
@@ -5521,8 +5585,8 @@
     {
       "name": "Neko",
       "aliases": [],
-      "category": "animanga",
-      "path": "/command/animanga/Neko",
+      "category": "waifu",
+      "path": "/command/waifu/Neko",
       "description": "Koleksi foto/art anime catgirl (neko)",
       "permissions": {},
       "premiumOnly": "",
@@ -5533,7 +5597,7 @@
       "tags": [
         "neko",
         "catgirl",
-        "animanga",
+        "waifu",
         "limit",
         "limit harian"
       ]
@@ -5558,8 +5622,8 @@
     {
       "name": "Nightcore",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Nightcore",
+      "category": "audiofx",
+      "path": "/command/audiofx/Nightcore",
       "description": "Ubah audio menjadi gaya nightcore",
       "permissions": {},
       "premiumOnly": "",
@@ -5569,7 +5633,7 @@
       "delaySeconds": 0,
       "tags": [
         "nightcore",
-        "tools"
+        "audiofx"
       ]
     },
     {
@@ -5734,8 +5798,8 @@
     {
       "name": "Open",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Open",
+      "category": "group_admin",
+      "path": "/command/group_admin/Open",
       "description": "Buka grup (semua anggota dapat mengirim pesan)",
       "permissions": {
         "admin": true,
@@ -5749,7 +5813,7 @@
       "tags": [
         "open",
         "opn",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -5980,8 +6044,8 @@
     {
       "name": "PhotoLive",
       "aliases": [],
-      "category": "media",
-      "path": "/command/media/PhotoLive",
+      "category": "tools",
+      "path": "/command/tools/PhotoLive",
       "description": "Ubah video atau kombinasi foto+video menjadi Motion Photo WhatsApp",
       "permissions": {},
       "premiumOnly": "",
@@ -5994,7 +6058,7 @@
         "fotolive",
         "motionphoto",
         "livephoto",
-        "media"
+        "tools"
       ]
     },
     {
@@ -6034,8 +6098,8 @@
     {
       "name": "PinMsg",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/PinMsg",
+      "category": "group_admin",
+      "path": "/command/group_admin/PinMsg",
       "description": "Sematkan pesan di grup selama 1 hari, 7 hari, atau 30 hari",
       "permissions": {
         "admin": true,
@@ -6051,7 +6115,7 @@
         "pinchat",
         "semat",
         "sematkan",
-        "group",
+        "group_admin",
         "admin"
       ]
     },
@@ -6116,8 +6180,8 @@
     {
       "name": "Pitch",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Pitch",
+      "category": "audiofx",
+      "path": "/command/audiofx/Pitch",
       "description": "Naikkan pitch suara (opsional: tingkat pitch 0.5-2.0, default 1.25)",
       "permissions": {},
       "premiumOnly": "",
@@ -6127,7 +6191,7 @@
       "delaySeconds": 0,
       "tags": [
         "pitch",
-        "tools"
+        "audiofx"
       ]
     },
     {
@@ -6303,8 +6367,8 @@
     {
       "name": "Present",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Present",
+      "category": "group_admin",
+      "path": "/command/group_admin/Present",
       "description": "Catat hadir, izin, atau sakit sekali per sesi",
       "permissions": {},
       "premiumOnly": "",
@@ -6315,7 +6379,7 @@
       "tags": [
         "present",
         "hadir",
-        "group"
+        "group_admin"
       ]
     },
     {
@@ -6357,12 +6421,12 @@
     {
       "name": "Promote",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Promote",
+      "category": "group_admin",
+      "path": "/command/group_admin/Promote",
       "description": "Angkat anggota menjadi admin grup",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -6371,7 +6435,7 @@
       "delaySeconds": 0,
       "tags": [
         "promote",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -6396,8 +6460,8 @@
     {
       "name": "QC",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/QC",
+      "category": "sticker",
+      "path": "/command/sticker/QC",
       "description": "Buat quote chat dari teks/gambar",
       "permissions": {},
       "premiumOnly": "",
@@ -6411,7 +6475,7 @@
         "isqc",
         "jsqc",
         "tsqc",
-        "tools"
+        "sticker"
       ]
     },
     {
@@ -6564,8 +6628,8 @@
     {
       "name": "Remove",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Remove",
+      "category": "group_admin",
+      "path": "/command/group_admin/Remove",
       "description": "Keluarkan anggota tertentu dari obrolan grup",
       "permissions": {
         "admin": true
@@ -6578,7 +6642,7 @@
       "tags": [
         "remove",
         "dor",
-        "group",
+        "group_admin",
         "admin"
       ]
     },
@@ -6677,8 +6741,8 @@
     {
       "name": "ResetWarn",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/ResetWarn",
+      "category": "group_security",
+      "path": "/command/group_security/ResetWarn",
       "description": "Reset seluruh catatan peringatan anggota",
       "permissions": {
         "admin": true,
@@ -6692,7 +6756,7 @@
       "tags": [
         "resetwarn",
         "clearwarn",
-        "group",
+        "group_security",
         "admin"
       ]
     },
@@ -6736,8 +6800,8 @@
     {
       "name": "Reverb",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Reverb",
+      "category": "audiofx",
+      "path": "/command/audiofx/Reverb",
       "description": "Tambahkan efek gema ke audio",
       "permissions": {},
       "premiumOnly": "",
@@ -6747,7 +6811,7 @@
       "delaySeconds": 0,
       "tags": [
         "reverb",
-        "tools"
+        "audiofx"
       ]
     },
     {
@@ -6770,12 +6834,12 @@
     {
       "name": "Revoke",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Revoke",
+      "category": "group_admin",
+      "path": "/command/group_admin/Revoke",
       "description": "Reset tautan undangan grup dan buat tautan baru",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -6786,7 +6850,7 @@
         "revoke",
         "newlinkgc",
         "resetlink",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -6829,8 +6893,8 @@
     {
       "name": "Robot",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Robot",
+      "category": "audiofx",
+      "path": "/command/audiofx/Robot",
       "description": "Ubah suara menjadi efek robot",
       "permissions": {},
       "premiumOnly": "",
@@ -6840,7 +6904,7 @@
       "delaySeconds": 0,
       "tags": [
         "robot",
-        "tools"
+        "audiofx"
       ]
     },
     {
@@ -6950,8 +7014,8 @@
     {
       "name": "Safebooru",
       "aliases": [],
-      "category": "animanga",
-      "path": "/command/animanga/Safebooru",
+      "category": "waifu",
+      "path": "/command/waifu/Safebooru",
       "description": "Cari anime art 100% aman (SFW) di Safebooru",
       "permissions": {},
       "premiumOnly": "",
@@ -6962,7 +7026,7 @@
       "tags": [
         "safebooru",
         "safe",
-        "animanga",
+        "waifu",
         "limit",
         "limit harian"
       ]
@@ -7061,8 +7125,8 @@
     {
       "name": "ScheduleGroup",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/ScheduleGroup",
+      "category": "group_admin",
+      "path": "/command/group_admin/ScheduleGroup",
       "description": "Sistem penjadwalan terpadu grup (buka/tutup chat, pesan rutin, hidetag, reset link)",
       "permissions": {
         "admin": true,
@@ -7082,7 +7146,10 @@
         "setschedule",
         "reminder",
         "autoopen",
-        "group",
+        "schedule",
+        "remindgc",
+        "pengumuman",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -7090,8 +7157,8 @@
     {
       "name": "Schoolgirl",
       "aliases": [],
-      "category": "animanga",
-      "path": "/command/animanga/Schoolgirl",
+      "category": "waifu",
+      "path": "/command/waifu/Schoolgirl",
       "description": "Koleksi foto/art anime berseragam sekolah",
       "permissions": {},
       "premiumOnly": "",
@@ -7102,7 +7169,7 @@
       "tags": [
         "schoolgirl",
         "seifuku",
-        "animanga",
+        "waifu",
         "limit",
         "limit harian"
       ]
@@ -7245,8 +7312,8 @@
     {
       "name": "SetDesc",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/SetDesc",
+      "category": "group_admin",
+      "path": "/command/group_admin/SetDesc",
       "description": "Ubah deskripsi obrolan grup",
       "permissions": {
         "admin": true,
@@ -7259,7 +7326,7 @@
       "delaySeconds": 0,
       "tags": [
         "setdesc",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -7285,12 +7352,12 @@
     {
       "name": "SetGoodbye",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/SetGoodbye",
+      "category": "group_admin",
+      "path": "/command/group_admin/SetGoodbye",
       "description": "Atur pesan atau cover goodbye grup",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -7300,7 +7367,7 @@
       "tags": [
         "setgoodbye",
         "set-goodbye",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -7308,8 +7375,8 @@
     {
       "name": "SetLang",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/SetLang",
+      "category": "group_admin",
+      "path": "/command/group_admin/SetLang",
       "description": "Mengatur bahasa bot di grup (khusus admin) atau chat pribadi",
       "permissions": {
         "admin": true
@@ -7324,7 +7391,7 @@
         "set-lang",
         "set-language",
         "setlanguage",
-        "group",
+        "group_admin",
         "admin"
       ]
     },
@@ -7368,8 +7435,8 @@
     {
       "name": "SetPPGC",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/SetPPGC",
+      "category": "group_admin",
+      "path": "/command/group_admin/SetPPGC",
       "description": "Mengubah foto profil obrolan grup",
       "permissions": {
         "admin": true,
@@ -7386,7 +7453,7 @@
         "setppgroup",
         "set-group-pict",
         "setgrouppict",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -7486,8 +7553,8 @@
     {
       "name": "SetSubject",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/SetSubject",
+      "category": "group_admin",
+      "path": "/command/group_admin/SetSubject",
       "description": "Ubah nama obrolan grup",
       "permissions": {
         "admin": true,
@@ -7500,7 +7567,7 @@
       "delaySeconds": 0,
       "tags": [
         "setsubject",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -7508,8 +7575,8 @@
     {
       "name": "SetTimezone",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/SetTimezone",
+      "category": "group_admin",
+      "path": "/command/group_admin/SetTimezone",
       "description": "Set zona waktu grup untuk keperluan jadwal dan aktivitas",
       "permissions": {
         "admin": true,
@@ -7522,7 +7589,7 @@
       "delaySeconds": 0,
       "tags": [
         "settimezone",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -7530,12 +7597,12 @@
     {
       "name": "SetWelcome",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/SetWelcome",
+      "category": "group_admin",
+      "path": "/command/group_admin/SetWelcome",
       "description": "Atur pesan atau cover welcome grup",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -7545,7 +7612,7 @@
       "tags": [
         "setwelcome",
         "set-welcome",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -7656,12 +7723,12 @@
     {
       "name": "Sider",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Sider",
+      "category": "group_admin",
+      "path": "/command/group_admin/Sider",
       "description": "Manajemen anggota pasif (sider) dan pembersihan grup",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -7670,7 +7737,7 @@
       "delaySeconds": 0,
       "tags": [
         "sider",
-        "group",
+        "group_admin",
         "admin"
       ]
     },
@@ -7692,10 +7759,31 @@
       ]
     },
     {
+      "name": "SigStick",
+      "aliases": [],
+      "category": "sticker",
+      "path": "/command/sticker/SigStick",
+      "description": "Download stiker pack dari SigStick menggunakan link pack atau slug.",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 1,
+      "limitType": "daily",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "tags": [
+        "sigstick",
+        "sig",
+        "sigstickers",
+        "sticker",
+        "limit",
+        "limit harian"
+      ]
+    },
+    {
       "name": "SimulateGoodbye",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/SimulateGoodbye",
+      "category": "group_admin",
+      "path": "/command/group_admin/SimulateGoodbye",
       "description": "Simulasi pesan goodbye grup dengan data kamu sebagai contoh",
       "permissions": {
         "admin": true,
@@ -7709,7 +7797,7 @@
       "tags": [
         "simulategoodbye",
         "previewgoodbye",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -7717,8 +7805,8 @@
     {
       "name": "SimulateWelcome",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/SimulateWelcome",
+      "category": "group_admin",
+      "path": "/command/group_admin/SimulateWelcome",
       "description": "Simulasi pesan welcome grup dengan data kamu sebagai contoh",
       "permissions": {
         "admin": true,
@@ -7732,7 +7820,7 @@
       "tags": [
         "simulatewelcome",
         "previewwelcome",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -7791,8 +7879,8 @@
     {
       "name": "Slow",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Slow",
+      "category": "audiofx",
+      "path": "/command/audiofx/Slow",
       "description": "Perlambat kecepatan audio (opsional: rasio kecepatan 0.5-0.99, default 0.7)",
       "permissions": {},
       "premiumOnly": "",
@@ -7802,7 +7890,7 @@
       "delaySeconds": 0,
       "tags": [
         "slow",
-        "tools"
+        "audiofx"
       ]
     },
     {
@@ -7842,8 +7930,8 @@
     {
       "name": "SMeme",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/SMeme",
+      "category": "sticker",
+      "path": "/command/sticker/SMeme",
       "description": "Buat stiker meme dengan teks atas dan bawah dari gambar yang dikirim atau direply",
       "permissions": {},
       "premiumOnly": "",
@@ -7856,7 +7944,7 @@
         "ismeme",
         "jsmeme",
         "tsmeme",
-        "tools"
+        "sticker"
       ]
     },
     {
@@ -8104,8 +8192,8 @@
     {
       "name": "Sticker",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Sticker",
+      "category": "sticker",
+      "path": "/command/sticker/Sticker",
       "description": "Membuat sticker dari gambar, video, sticker, atau ZIP yang dikirim atau direply. Mendukung mode bentuk (--circle, --round), crop (--crop, --full, --smart), framerate (-fps=1-60, -fps auto), paksa rasio 1:1 langsung (--direct), dan metadata kustom (--null, --avatar, --ai, --premium).",
       "permissions": {},
       "premiumOnly": "",
@@ -8117,8 +8205,7 @@
         "sticker",
         "stiker",
         "swm",
-        "s",
-        "tools"
+        "s"
       ]
     },
     {
@@ -8145,8 +8232,8 @@
     {
       "name": "Stickerly",
       "aliases": [],
-      "category": "downloader",
-      "path": "/command/downloader/Stickerly",
+      "category": "sticker",
+      "path": "/command/sticker/Stickerly",
       "description": "Download stiker pack dari Sticker.ly menggunakan link, kode pack, atau cari berdasarkan kata kunci.",
       "permissions": {},
       "premiumOnly": "",
@@ -8159,7 +8246,7 @@
         "stickly",
         "sly",
         "stikerly",
-        "downloader",
+        "sticker",
         "limit",
         "limit harian"
       ]
@@ -8167,8 +8254,8 @@
     {
       "name": "StickersGG",
       "aliases": [],
-      "category": "downloader",
-      "path": "/command/downloader/StickersGG",
+      "category": "sticker",
+      "path": "/command/sticker/StickersGG",
       "description": "Download stiker pack dari Stickers.gg menggunakan link atau kategori.",
       "permissions": {},
       "premiumOnly": "",
@@ -8180,7 +8267,7 @@
         "stickersgg",
         "sgg",
         "stickerspack",
-        "downloader",
+        "sticker",
         "limit",
         "limit harian"
       ]
@@ -8200,6 +8287,26 @@
       "tags": [
         "stock",
         "stok",
+        "store"
+      ]
+    },
+    {
+      "name": "Struk",
+      "aliases": [],
+      "category": "store",
+      "path": "/command/store/Struk",
+      "description": "Cetak dan lihat struk thermal kasir resmi untuk transaksi pesanan toko",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "tags": [
+        "struk",
+        "receipt",
+        "notabeli",
+        "cetakstruk",
         "store"
       ]
     },
@@ -8315,8 +8422,8 @@
     {
       "name": "Swimsuit",
       "aliases": [],
-      "category": "animanga",
-      "path": "/command/animanga/Swimsuit",
+      "category": "waifu",
+      "path": "/command/waifu/Swimsuit",
       "description": "Koleksi foto/art anime bertema baju renang / pantai",
       "permissions": {},
       "premiumOnly": "",
@@ -8327,7 +8434,7 @@
       "tags": [
         "swimsuit",
         "bikini",
-        "animanga",
+        "waifu",
         "limit",
         "limit harian"
       ]
@@ -8335,8 +8442,8 @@
     {
       "name": "SyncGroup",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/SyncGroup",
+      "category": "group_admin",
+      "path": "/command/group_admin/SyncGroup",
       "description": "Hapus cache grup agar data diperbarui langsung dari WhatsApp",
       "permissions": {},
       "premiumOnly": "",
@@ -8347,7 +8454,7 @@
       "tags": [
         "syncgroup",
         "sync-group",
-        "group"
+        "group_admin"
       ]
     },
     {
@@ -8375,8 +8482,8 @@
     {
       "name": "TagAll",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/TagAll",
+      "category": "group_admin",
+      "path": "/command/group_admin/TagAll",
       "description": "Tag semua anggota grup dikelompokkan berdasarkan peran",
       "permissions": {
         "admin": true,
@@ -8390,7 +8497,7 @@
       "tags": [
         "tagall",
         "tag",
-        "group",
+        "group_admin",
         "admin"
       ]
     },
@@ -8505,8 +8612,8 @@
     {
       "name": "TelegramSticker",
       "aliases": [],
-      "category": "downloader",
-      "path": "/command/downloader/TelegramSticker",
+      "category": "sticker",
+      "path": "/command/sticker/TelegramSticker",
       "description": "Download stiker pack dari Telegram dan kirim sebagai stiker WhatsApp (mendukung opsi -fps=1-60 atau -fps auto)",
       "permissions": {},
       "premiumOnly": "",
@@ -8518,7 +8625,7 @@
         "telegramsticker",
         "tgsticker",
         "tgs",
-        "downloader",
+        "sticker",
         "limit",
         "limit harian"
       ]
@@ -8526,8 +8633,8 @@
     {
       "name": "TelegramStickerV2",
       "aliases": [],
-      "category": "downloader",
-      "path": "/command/downloader/TelegramStickerV2",
+      "category": "sticker",
+      "path": "/command/sticker/TelegramStickerV2",
       "description": "Download stiker pack Telegram sebagai ZIP (tanpa konversi)",
       "permissions": {},
       "premiumOnly": "",
@@ -8538,7 +8645,7 @@
       "tags": [
         "telegramstickerv2",
         "tgsv2",
-        "downloader",
+        "sticker",
         "limit",
         "limit harian"
       ]
@@ -8793,8 +8900,8 @@
     {
       "name": "ToGif",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/ToGif",
+      "category": "sticker",
+      "path": "/command/sticker/ToGif",
       "description": "Konversi stiker WhatsApp bergerak (animasi) menjadi GIF (reply stiker)",
       "permissions": {},
       "premiumOnly": "",
@@ -8804,14 +8911,14 @@
       "delaySeconds": 0,
       "tags": [
         "togif",
-        "tools"
+        "sticker"
       ]
     },
     {
       "name": "ToImage",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/ToImage",
+      "category": "sticker",
+      "path": "/command/sticker/ToImage",
       "description": "Konversi stiker WhatsApp menjadi gambar/foto biasa (reply stiker)",
       "permissions": {},
       "premiumOnly": "",
@@ -8822,7 +8929,7 @@
       "tags": [
         "toimage",
         "toimg",
-        "tools"
+        "sticker"
       ]
     },
     {
@@ -8864,8 +8971,8 @@
     {
       "name": "TopActive",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/TopActive",
+      "category": "group_admin",
+      "path": "/command/group_admin/TopActive",
       "description": "Menampilkan anggota paling aktif di grup berdasarkan jumlah pesan",
       "permissions": {
         "admin": true,
@@ -8880,7 +8987,7 @@
         "topactive",
         "top-active",
         "topaktif",
-        "group",
+        "group_admin",
         "admin"
       ]
     },
@@ -8906,8 +9013,8 @@
     {
       "name": "TopTV",
       "aliases": [],
-      "category": "media",
-      "path": "/command/media/TopTV",
+      "category": "tools",
+      "path": "/command/tools/TopTV",
       "description": "Ubah video biasa menjadi Video Note bundar (PTV)",
       "permissions": {},
       "premiumOnly": "",
@@ -8920,7 +9027,7 @@
         "toptvmsg",
         "videonote",
         "ptv",
-        "media"
+        "tools"
       ]
     },
     {
@@ -8945,8 +9052,8 @@
     {
       "name": "ToVideo",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/ToVideo",
+      "category": "sticker",
+      "path": "/command/sticker/ToVideo",
       "description": "Konversi stiker WhatsApp bergerak (animasi) menjadi video MP4 (reply stiker)",
       "permissions": {},
       "premiumOnly": "",
@@ -8957,7 +9064,7 @@
       "tags": [
         "tovideo",
         "tovid",
-        "tools"
+        "sticker"
       ]
     },
     {
@@ -9100,8 +9207,8 @@
     {
       "name": "Tupai",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Tupai",
+      "category": "audiofx",
+      "path": "/command/audiofx/Tupai",
       "description": "Efek suara kecil seperti tupai",
       "permissions": {},
       "premiumOnly": "",
@@ -9111,7 +9218,7 @@
       "delaySeconds": 0,
       "tags": [
         "tupai",
-        "tools"
+        "audiofx"
       ]
     },
     {
@@ -9188,8 +9295,8 @@
     {
       "name": "UnbanChat",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/UnbanChat",
+      "category": "group_security",
+      "path": "/command/group_security/UnbanChat",
       "description": "Mencabut blokir bot pada grup tertentu secara selektif atau keseluruhan",
       "permissions": {
         "hasbot": true
@@ -9206,14 +9313,14 @@
         "unbangrup",
         "unban-gc",
         "unban-grup",
-        "group"
+        "group_security"
       ]
     },
     {
       "name": "UnbanMember",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/UnbanMember",
+      "category": "group_security",
+      "path": "/command/group_security/UnbanMember",
       "description": "Cabut ban bot anggota di grup ini",
       "permissions": {
         "admin": true,
@@ -9227,7 +9334,7 @@
       "tags": [
         "unbanmember",
         "unban-member",
-        "group",
+        "group_security",
         "admin"
       ]
     },
@@ -9259,8 +9366,8 @@
     {
       "name": "Underwater",
       "aliases": [],
-      "category": "tools",
-      "path": "/command/tools/Underwater",
+      "category": "audiofx",
+      "path": "/command/audiofx/Underwater",
       "description": "Efek suara seperti di dalam air",
       "permissions": {},
       "premiumOnly": "",
@@ -9270,18 +9377,18 @@
       "delaySeconds": 0,
       "tags": [
         "underwater",
-        "tools"
+        "audiofx"
       ]
     },
     {
       "name": "UnmuteMember",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/UnmuteMember",
+      "category": "group_security",
+      "path": "/command/group_security/UnmuteMember",
       "description": "Unmute anggota tertentu di grup",
       "permissions": {
-        "admin": true,
-        "moderator": true
+        "moderator": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -9291,7 +9398,7 @@
       "tags": [
         "unmutemember",
         "unmute-member",
-        "group",
+        "group_security",
         "admin"
       ]
     },
@@ -9316,8 +9423,8 @@
     {
       "name": "UnpinMsg",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/UnpinMsg",
+      "category": "group_admin",
+      "path": "/command/group_admin/UnpinMsg",
       "description": "Lepas sematan pesan di grup",
       "permissions": {
         "admin": true,
@@ -9333,7 +9440,7 @@
         "unpin",
         "unpinchat",
         "lepassemat",
-        "group",
+        "group_admin",
         "admin"
       ]
     },
@@ -9458,8 +9565,8 @@
     {
       "name": "Waifu",
       "aliases": [],
-      "category": "animanga",
-      "path": "/command/animanga/Waifu",
+      "category": "waifu",
+      "path": "/command/waifu/Waifu",
       "description": "Koleksi foto/art anime waifu acak atau sesuai nama karakter",
       "permissions": {},
       "premiumOnly": "",
@@ -9470,7 +9577,6 @@
       "tags": [
         "waifu",
         "wf",
-        "animanga",
         "limit",
         "limit harian"
       ]
@@ -9498,8 +9604,8 @@
     {
       "name": "Warn",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Warn",
+      "category": "group_security",
+      "path": "/command/group_security/Warn",
       "description": "Beri peringatan kepada anggota grup yang melanggar aturan",
       "permissions": {
         "admin": true,
@@ -9512,15 +9618,15 @@
       "delaySeconds": 0,
       "tags": [
         "warn",
-        "group",
+        "group_security",
         "admin"
       ]
     },
     {
       "name": "Warnings",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Warnings",
+      "category": "group_security",
+      "path": "/command/group_security/Warnings",
       "description": "Lihat riwayat peringatan anggota di grup",
       "permissions": {},
       "premiumOnly": "",
@@ -9531,7 +9637,7 @@
       "tags": [
         "warnings",
         "warnlist",
-        "group"
+        "group_security"
       ]
     },
     {
@@ -9571,8 +9677,8 @@
     {
       "name": "Welcome",
       "aliases": [],
-      "category": "group",
-      "path": "/command/group/Welcome",
+      "category": "group_admin",
+      "path": "/command/group_admin/Welcome",
       "description": "Atur pesan sambutan dan cover welcome untuk anggota baru yang masuk ke grup",
       "permissions": {
         "admin": true,
@@ -9585,7 +9691,7 @@
       "delaySeconds": 0,
       "tags": [
         "welcome",
-        "group",
+        "group_admin",
         "admin",
         "subowner"
       ]
@@ -9725,8 +9831,8 @@
     {
       "name": "Yandere",
       "aliases": [],
-      "category": "animanga",
-      "path": "/command/animanga/Yandere",
+      "category": "waifu",
+      "path": "/command/waifu/Yandere",
       "description": "Cari anime art dan wallpaper langsung di Yande.re",
       "permissions": {},
       "premiumOnly": "",
@@ -9737,7 +9843,7 @@
       "tags": [
         "yandere",
         "yan",
-        "animanga",
+        "waifu",
         "limit",
         "limit harian"
       ]
@@ -9982,8 +10088,8 @@
     {
       "name": "Zerochan",
       "aliases": [],
-      "category": "animanga",
-      "path": "/command/animanga/Zerochan",
+      "category": "waifu",
+      "path": "/command/waifu/Zerochan",
       "description": "Cari anime art dan wallpaper dari seniman di Zerochan",
       "permissions": {},
       "premiumOnly": "",
@@ -9994,7 +10100,7 @@
       "tags": [
         "zerochan",
         "zc",
-        "animanga",
+        "waifu",
         "limit",
         "limit harian"
       ]

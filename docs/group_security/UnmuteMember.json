@@ -1,0 +1,76 @@
+{
+  "name": "UnmuteMember",
+  "commands": [
+    "unmutemember",
+    "unmute-member"
+  ],
+  "aliases": [],
+  "display": [
+    "UnmuteMember"
+  ],
+  "category": "group_security",
+  "categories": [
+    "group_security"
+  ],
+  "tags": [
+    "unmutemember",
+    "unmute-member"
+  ],
+  "description": {
+    "en": "Unmute a specific member in the group",
+    "id": "Unmute anggota tertentu di grup"
+  },
+  "usage": "UnmuteMember",
+  "examples": [
+    "unmutemember",
+    "unmutemember @user",
+    "unmutemember @user1 @user2",
+    "unmute-member",
+    "unmute-member @user",
+    "unmute-member @user1 @user2"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {
+    "moderator": true,
+    "admin": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 547
+  },
+  "lastUpdated": "2026-11-15T16:37:42Z"
+}

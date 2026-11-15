@@ -379,9 +379,9 @@
       "aliases": [],
       "category": "developer",
       "permissions": {
-        "owner": true,
         "moderator": true,
-        "subowner": true
+        "subowner": true,
+        "owner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -406,9 +406,9 @@
       "aliases": [],
       "category": "developer",
       "permissions": {
-        "moderator": true,
         "owner": true,
-        "subowner": true
+        "subowner": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,

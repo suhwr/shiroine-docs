@@ -1,0 +1,64 @@
+{
+  "name": "Kitsune",
+  "commands": [
+    "kitsune",
+    "foxgirl"
+  ],
+  "aliases": [],
+  "display": [
+    "Kitsune"
+  ],
+  "category": "waifu",
+  "categories": [
+    "waifu",
+    "animanga"
+  ],
+  "tags": [
+    "kitsune",
+    "foxgirl"
+  ],
+  "description": {
+    "id": "Koleksi foto/art anime foxgirl (kitsune)",
+    "en": "Random anime foxgirl (kitsune) art"
+  },
+  "usage": "Kitsune",
+  "examples": [
+    ".kitsune",
+    ".kitsune yae miko"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/anime",
+    "line": 250
+  },
+  "lastUpdated": "2026-11-15T16:37:42Z"
+}

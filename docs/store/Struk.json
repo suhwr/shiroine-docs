@@ -1,0 +1,67 @@
+{
+  "name": "Struk",
+  "commands": [
+    "struk",
+    "receipt",
+    "notabeli",
+    "cetakstruk"
+  ],
+  "aliases": [],
+  "display": [
+    "Struk"
+  ],
+  "category": "store",
+  "categories": [
+    "store"
+  ],
+  "tags": [
+    "struk",
+    "receipt",
+    "notabeli",
+    "cetakstruk"
+  ],
+  "description": {
+    "id": "Cetak dan lihat struk thermal kasir resmi untuk transaksi pesanan toko",
+    "en": "Print and view official thermal receipt for store orders"
+  },
+  "usage": "Struk",
+  "examples": [
+    "struk INV-20261114-1234",
+    "struk (reply invoice)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/store",
+    "line": 395
+  },
+  "lastUpdated": "2026-11-15T16:37:42Z"
+}

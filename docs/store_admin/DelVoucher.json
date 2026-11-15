@@ -1,0 +1,64 @@
+{
+  "name": "DelVoucher",
+  "commands": [
+    "delvoucher",
+    "hapusvoucher",
+    "rmvoucher"
+  ],
+  "aliases": [],
+  "display": [
+    "DelVoucher"
+  ],
+  "category": "store_admin",
+  "categories": [
+    "store_admin"
+  ],
+  "tags": [
+    "delvoucher",
+    "hapusvoucher",
+    "rmvoucher"
+  ],
+  "description": {
+    "en": "Delete store voucher coupon (Store Staff / Owner)",
+    "id": "Hapus kupon voucher toko (Staff / Owner Toko)"
+  },
+  "usage": "DelVoucher",
+  "examples": [
+    "delvoucher PROMO5K"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/store",
+    "line": 213
+  },
+  "lastUpdated": "2026-11-15T16:37:42Z"
+}

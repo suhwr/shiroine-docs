@@ -9,14 +9,15 @@
   ],
   "category": "youtube",
   "categories": [
-    "youtube"
+    "youtube",
+    "music"
   ],
   "tags": [
     "play2"
   ],
   "description": {
-    "en": "Search and play videos from YouTube",
-    "id": "Cari dan putar video dari YouTube"
+    "id": "Cari dan putar video dari YouTube",
+    "en": "Search and play videos from YouTube"
   },
   "usage": "Play2",
   "examples": [
@@ -56,5 +57,5 @@
     "file": "internal/plugins/youtube",
     "line": 605
   },
-  "lastUpdated": "2026-11-14T00:26:24Z"
+  "lastUpdated": "2026-11-15T16:37:42Z"
 }

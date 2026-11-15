@@ -1,0 +1,448 @@
+{
+  "commands": [
+    {
+      "name": "AntiBot",
+      "description": "Aktifkan atau nonaktifkan sistem anti-bot untuk grup",
+      "descriptionId": "Aktifkan atau nonaktifkan sistem anti-bot untuk grup",
+      "descriptionEn": "Enable or disable anti-bot system for the group",
+      "aliases": [],
+      "category": "group_security",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "antibot",
+        "group_security",
+        "admin",
+        "subowner"
+      ]
+    },
+    {
+      "name": "AntiLink",
+      "description": "Pengaturan sistem AntiLink untuk memblokir tautan terlarang di grup",
+      "descriptionId": "Pengaturan sistem AntiLink untuk memblokir tautan terlarang di grup",
+      "descriptionEn": "Configure AntiLink system to block prohibited links in group",
+      "aliases": [],
+      "category": "group_security",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "antilink",
+        "group_security",
+        "admin",
+        "subowner"
+      ]
+    },
+    {
+      "name": "AntiMedia",
+      "description": "Atur proteksi anti-media grup: stiker, video, viewonce, gambar, vn, dokumen",
+      "descriptionId": "Atur proteksi anti-media grup: stiker, video, viewonce, gambar, vn, dokumen",
+      "descriptionEn": "Configure group anti-media protection: sticker, video, viewonce, image, voice, doc",
+      "aliases": [],
+      "category": "group_security",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "antimedia",
+        "group_security",
+        "admin",
+        "subowner"
+      ]
+    },
+    {
+      "name": "AntiNSFWMedia",
+      "description": "Aktifkan filter media NSFW otomatis di grup",
+      "descriptionId": "Aktifkan filter media NSFW otomatis di grup",
+      "descriptionEn": "Enable automatic NSFW media filter in group",
+      "aliases": [],
+      "category": "group_security",
+      "permissions": {
+        "admin": true,
+        "subowner": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "antinsfwmedia",
+        "antinsfw",
+        "group_security",
+        "admin",
+        "subowner"
+      ]
+    },
+    {
+      "name": "BadWord",
+      "description": "Kelola filter sensor kata terlarang dan sanksi pelanggaran grup",
+      "descriptionId": "Kelola filter sensor kata terlarang dan sanksi pelanggaran grup",
+      "descriptionEn": "Manage group forbidden badwords filter and violation strikes",
+      "aliases": [],
+      "category": "group_security",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "badword",
+        "group_security",
+        "admin"
+      ]
+    },
+    {
+      "name": "BanChat",
+      "description": "Memblokir bot dari merespons di grup tertentu secara selektif atau keseluruhan",
+      "descriptionId": "Memblokir bot dari merespons di grup tertentu secara selektif atau keseluruhan",
+      "descriptionEn": "Ban bot from responding in specific groups selectively or globally",
+      "aliases": [],
+      "category": "group_security",
+      "permissions": {
+        "hasbot": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "banchat",
+        "ban-chat",
+        "bangc",
+        "bangrup",
+        "ban-gc",
+        "ban-grup",
+        "group_security"
+      ]
+    },
+    {
+      "name": "BanList",
+      "description": "Tampilkan daftar entitas yang diban berdasarkan kategori",
+      "descriptionId": "Tampilkan daftar entitas yang diban berdasarkan kategori",
+      "descriptionEn": "Show list of banned entities by category",
+      "aliases": [],
+      "category": "group_security",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "banlist",
+        "group_security"
+      ]
+    },
+    {
+      "name": "BanMember",
+      "description": "Ban anggota dari penggunaan bot di grup ini",
+      "descriptionId": "Ban anggota dari penggunaan bot di grup ini",
+      "descriptionEn": "Ban member from using the bot in this group",
+      "aliases": [],
+      "category": "group_security",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "banmember",
+        "ban-member",
+        "group_security",
+        "admin"
+      ]
+    },
+    {
+      "name": "ListBanMember",
+      "description": "Tampilkan daftar anggota yang diblokir bot di grup ini",
+      "descriptionId": "Tampilkan daftar anggota yang diblokir bot di grup ini",
+      "descriptionEn": "Show list of members banned by bot in this group",
+      "aliases": [],
+      "category": "group_security",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "listbanmember",
+        "banmemberlist",
+        "group_security",
+        "admin"
+      ]
+    },
+    {
+      "name": "ListMute",
+      "description": "Lihat daftar anggota yang sedang dimute di grup dan unmute secara interaktif",
+      "descriptionId": "Lihat daftar anggota yang sedang dimute di grup dan unmute secara interaktif",
+      "descriptionEn": "View list of currently muted members in the group and unmute interactively",
+      "aliases": [],
+      "category": "group_security",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "listmute",
+        "mutelist",
+        "group_security",
+        "admin"
+      ]
+    },
+    {
+      "name": "ListWarning",
+      "description": "Lihat seluruh anggota yang memiliki peringatan aktif di grup",
+      "descriptionId": "Lihat seluruh anggota yang memiliki peringatan aktif di grup",
+      "descriptionEn": "View all members with active warnings in the group",
+      "aliases": [],
+      "category": "group_security",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "listwarning",
+        "warninglist",
+        "group_security",
+        "admin"
+      ]
+    },
+    {
+      "name": "MuteMember",
+      "description": "Mute anggota tertentu di grup agar pesannya dihapus otomatis",
+      "descriptionId": "Mute anggota tertentu di grup agar pesannya dihapus otomatis",
+      "descriptionEn": "Mute a specific member in the group so messages are auto-deleted",
+      "aliases": [],
+      "category": "group_security",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "mutemember",
+        "mute-member",
+        "group_security",
+        "admin"
+      ]
+    },
+    {
+      "name": "ResetWarn",
+      "description": "Reset seluruh catatan peringatan anggota",
+      "descriptionId": "Reset seluruh catatan peringatan anggota",
+      "descriptionEn": "Reset all warnings for a group member",
+      "aliases": [],
+      "category": "group_security",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "resetwarn",
+        "clearwarn",
+        "group_security",
+        "admin"
+      ]
+    },
+    {
+      "name": "UnbanChat",
+      "description": "Mencabut blokir bot pada grup tertentu secara selektif atau keseluruhan",
+      "descriptionId": "Mencabut blokir bot pada grup tertentu secara selektif atau keseluruhan",
+      "descriptionEn": "Unban bot response in specific groups selectively or globally",
+      "aliases": [],
+      "category": "group_security",
+      "permissions": {
+        "hasbot": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "unbanchat",
+        "unban-chat",
+        "unbangc",
+        "unbangrup",
+        "unban-gc",
+        "unban-grup",
+        "group_security"
+      ]
+    },
+    {
+      "name": "UnbanMember",
+      "description": "Cabut ban bot anggota di grup ini",
+      "descriptionId": "Cabut ban bot anggota di grup ini",
+      "descriptionEn": "Unban member from the bot in this group",
+      "aliases": [],
+      "category": "group_security",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "unbanmember",
+        "unban-member",
+        "group_security",
+        "admin"
+      ]
+    },
+    {
+      "name": "UnmuteMember",
+      "description": "Unmute anggota tertentu di grup",
+      "descriptionId": "Unmute anggota tertentu di grup",
+      "descriptionEn": "Unmute a specific member in the group",
+      "aliases": [],
+      "category": "group_security",
+      "permissions": {
+        "moderator": true,
+        "admin": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "unmutemember",
+        "unmute-member",
+        "group_security",
+        "admin"
+      ]
+    },
+    {
+      "name": "Warn",
+      "description": "Beri peringatan kepada anggota grup yang melanggar aturan",
+      "descriptionId": "Beri peringatan kepada anggota grup yang melanggar aturan",
+      "descriptionEn": "Issue a formal warning to a rule-breaking group member",
+      "aliases": [],
+      "category": "group_security",
+      "permissions": {
+        "admin": true,
+        "moderator": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "warn",
+        "group_security",
+        "admin"
+      ]
+    },
+    {
+      "name": "Warnings",
+      "description": "Lihat riwayat peringatan anggota di grup",
+      "descriptionId": "Lihat riwayat peringatan anggota di grup",
+      "descriptionEn": "View member's warning history in the group",
+      "aliases": [],
+      "category": "group_security",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "warnings",
+        "warnlist",
+        "group_security"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Tupai",
+  "commands": [
+    "tupai"
+  ],
+  "aliases": [],
+  "display": [
+    "Tupai"
+  ],
+  "category": "audiofx",
+  "categories": [
+    "audiofx"
+  ],
+  "tags": [
+    "tupai"
+  ],
+  "description": {
+    "en": "Chipmunk / squirrel voice effect",
+    "id": "Efek suara kecil seperti tupai"
+  },
+  "usage": "Tupai",
+  "examples": [
+    "tupai"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 510
+  },
+  "lastUpdated": "2026-11-15T16:37:42Z"
+}

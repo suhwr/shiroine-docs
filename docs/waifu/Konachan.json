@@ -1,0 +1,64 @@
+{
+  "name": "Konachan",
+  "commands": [
+    "konachan",
+    "kona"
+  ],
+  "aliases": [],
+  "display": [
+    "Konachan"
+  ],
+  "category": "waifu",
+  "categories": [
+    "waifu",
+    "animanga"
+  ],
+  "tags": [
+    "konachan",
+    "kona"
+  ],
+  "description": {
+    "id": "Cari wallpaper anime resolusi tinggi di Konachan",
+    "en": "Search high-resolution anime wallpapers on Konachan"
+  },
+  "usage": "Konachan",
+  "examples": [
+    ".konachan genshin impact",
+    ".kona cyberpunk"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/anime",
+    "line": 346
+  },
+  "lastUpdated": "2026-11-15T16:37:42Z"
+}

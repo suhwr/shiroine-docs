@@ -1,0 +1,76 @@
+{
+  "name": "ListTimezone",
+  "commands": [
+    "listtimezone",
+    "timezones",
+    "tzlist"
+  ],
+  "aliases": [],
+  "display": [
+    "ListTimezone"
+  ],
+  "category": "group_admin",
+  "categories": [
+    "group_admin"
+  ],
+  "tags": [
+    "listtimezone",
+    "timezones",
+    "tzlist"
+  ],
+  "description": {
+    "en": "View list of popular available timezones",
+    "id": "Lihat daftar zona waktu populer yang tersedia"
+  },
+  "usage": "ListTimezone",
+  "examples": [
+    "listtimezone",
+    "tzlist",
+    "timezones"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "private": true,
+    "group": true,
+    "group_community": true,
+    "newsletter": true
+  },
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 16
+  },
+  "lastUpdated": "2026-11-15T16:37:42Z"
+}

@@ -1,0 +1,404 @@
+{
+  "commands": [
+    {
+      "name": "AudioEffect",
+      "description": "Tampilkan daftar semua audio effect yang tersedia",
+      "descriptionId": "Tampilkan daftar semua audio effect yang tersedia",
+      "descriptionEn": "Show list of all available audio effects",
+      "aliases": [],
+      "category": "audiofx",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "audioeffect",
+        "audiofx"
+      ]
+    },
+    {
+      "name": "Bass",
+      "description": "Tambahkan efek bass boost ke audio/video (opsional: tingkat bass 1-100, default 20)",
+      "descriptionId": "Tambahkan efek bass boost ke audio/video (opsional: tingkat bass 1-100, default 20)",
+      "descriptionEn": "Add bass boost effect to audio/video (optional: bass level 1-100, default 20)",
+      "aliases": [],
+      "category": "audiofx",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "bass",
+        "audiofx"
+      ]
+    },
+    {
+      "name": "Blown",
+      "description": "Efek pecah / overdrive kasar pada audio",
+      "descriptionId": "Efek pecah / overdrive kasar pada audio",
+      "descriptionEn": "Blown / overdrive effect on audio",
+      "aliases": [],
+      "category": "audiofx",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "blown",
+        "audiofx"
+      ]
+    },
+    {
+      "name": "Chorus",
+      "description": "Tambahkan efek suara berlapis",
+      "descriptionId": "Tambahkan efek suara berlapis",
+      "descriptionEn": "Add chorus effect to audio",
+      "aliases": [],
+      "category": "audiofx",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "chorus",
+        "audiofx"
+      ]
+    },
+    {
+      "name": "Deep",
+      "description": "Buat suara menjadi lebih dalam",
+      "descriptionId": "Buat suara menjadi lebih dalam",
+      "descriptionEn": "Make audio sound deeper",
+      "aliases": [],
+      "category": "audiofx",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "deep",
+        "audiofx"
+      ]
+    },
+    {
+      "name": "Denoise",
+      "description": "Kurangi noise pada audio",
+      "descriptionId": "Kurangi noise pada audio",
+      "descriptionEn": "Reduce noise in audio",
+      "aliases": [],
+      "category": "audiofx",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "denoise",
+        "audiofx"
+      ]
+    },
+    {
+      "name": "Distortion",
+      "description": "Tambahkan efek distorsi ke audio",
+      "descriptionId": "Tambahkan efek distorsi ke audio",
+      "descriptionEn": "Add distortion effect to audio",
+      "aliases": [],
+      "category": "audiofx",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "distortion",
+        "audiofx"
+      ]
+    },
+    {
+      "name": "EarRape",
+      "description": "Naikkan volume audio secara ekstrem (opsional: tingkat volume 1-50, default 12)",
+      "descriptionId": "Naikkan volume audio secara ekstrem (opsional: tingkat volume 1-50, default 12)",
+      "descriptionEn": "Extreme volume boost effect (optional: volume level 1-50, default 12)",
+      "aliases": [],
+      "category": "audiofx",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "earrape",
+        "audiofx"
+      ]
+    },
+    {
+      "name": "Fast",
+      "description": "Percepat kecepatan audio (opsional: rasio kecepatan 1.0-4.0, default 1.63)",
+      "descriptionId": "Percepat kecepatan audio (opsional: rasio kecepatan 1.0-4.0, default 1.63)",
+      "descriptionEn": "Speed up audio playback (optional: speed ratio 1.0-4.0, default 1.63)",
+      "aliases": [],
+      "category": "audiofx",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "fast",
+        "audiofx"
+      ]
+    },
+    {
+      "name": "Fat",
+      "description": "Efek suara tebal / berat",
+      "descriptionId": "Efek suara tebal / berat",
+      "descriptionEn": "Fat / heavy audio effect",
+      "aliases": [],
+      "category": "audiofx",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "fat",
+        "audiofx"
+      ]
+    },
+    {
+      "name": "Flanger",
+      "description": "Tambahkan efek flanger ke audio",
+      "descriptionId": "Tambahkan efek flanger ke audio",
+      "descriptionEn": "Add flanger effect to audio",
+      "aliases": [],
+      "category": "audiofx",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "flanger",
+        "audiofx"
+      ]
+    },
+    {
+      "name": "HighPass",
+      "description": "Potong frekuensi rendah pada audio (opsional: frekuensi 100-10000Hz, default 500)",
+      "descriptionId": "Potong frekuensi rendah pada audio (opsional: frekuensi 100-10000Hz, default 500)",
+      "descriptionEn": "Cut low frequencies from audio (optional: frequency 100-10000Hz, default 500)",
+      "aliases": [],
+      "category": "audiofx",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "highpass",
+        "audiofx"
+      ]
+    },
+    {
+      "name": "LowPass",
+      "description": "Potong frekuensi tinggi pada audio (opsional: frekuensi 100-10000Hz, default 500)",
+      "descriptionId": "Potong frekuensi tinggi pada audio (opsional: frekuensi 100-10000Hz, default 500)",
+      "descriptionEn": "Cut high frequencies from audio (optional: frequency 100-10000Hz, default 500)",
+      "aliases": [],
+      "category": "audiofx",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "lowpass",
+        "audiofx"
+      ]
+    },
+    {
+      "name": "Nightcore",
+      "description": "Ubah audio menjadi gaya nightcore",
+      "descriptionId": "Ubah audio menjadi gaya nightcore",
+      "descriptionEn": "Convert audio to nightcore style",
+      "aliases": [],
+      "category": "audiofx",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "nightcore",
+        "audiofx"
+      ]
+    },
+    {
+      "name": "Pitch",
+      "description": "Naikkan pitch suara (opsional: tingkat pitch 0.5-2.0, default 1.25)",
+      "descriptionId": "Naikkan pitch suara (opsional: tingkat pitch 0.5-2.0, default 1.25)",
+      "descriptionEn": "Raise audio pitch (optional: pitch level 0.5-2.0, default 1.25)",
+      "aliases": [],
+      "category": "audiofx",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "pitch",
+        "audiofx"
+      ]
+    },
+    {
+      "name": "Reverb",
+      "description": "Tambahkan efek gema ke audio",
+      "descriptionId": "Tambahkan efek gema ke audio",
+      "descriptionEn": "Add reverb effect to audio",
+      "aliases": [],
+      "category": "audiofx",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "reverb",
+        "audiofx"
+      ]
+    },
+    {
+      "name": "Robot",
+      "description": "Ubah suara menjadi efek robot",
+      "descriptionId": "Ubah suara menjadi efek robot",
+      "descriptionEn": "Apply robot voice effect",
+      "aliases": [],
+      "category": "audiofx",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "robot",
+        "audiofx"
+      ]
+    },
+    {
+      "name": "Slow",
+      "description": "Perlambat kecepatan audio (opsional: rasio kecepatan 0.5-0.99, default 0.7)",
+      "descriptionId": "Perlambat kecepatan audio (opsional: rasio kecepatan 0.5-0.99, default 0.7)",
+      "descriptionEn": "Slow down audio playback speed (optional: speed ratio 0.5-0.99, default 0.7)",
+      "aliases": [],
+      "category": "audiofx",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "slow",
+        "audiofx"
+      ]
+    },
+    {
+      "name": "Tupai",
+      "description": "Efek suara kecil seperti tupai",
+      "descriptionId": "Efek suara kecil seperti tupai",
+      "descriptionEn": "Chipmunk / squirrel voice effect",
+      "aliases": [],
+      "category": "audiofx",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "tupai",
+        "audiofx"
+      ]
+    },
+    {
+      "name": "Underwater",
+      "description": "Efek suara seperti di dalam air",
+      "descriptionId": "Efek suara seperti di dalam air",
+      "descriptionEn": "Underwater audio effect",
+      "aliases": [],
+      "category": "audiofx",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "underwater",
+        "audiofx"
+      ]
+    }
+  ]
+}

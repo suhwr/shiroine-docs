@@ -46,6 +46,29 @@
       ]
     },
     {
+      "name": "ListVoucher",
+      "description": "Lihat daftar kupon voucher diskon aktif toko",
+      "descriptionId": "Lihat daftar kupon voucher diskon aktif toko",
+      "descriptionEn": "List active store discount vouchers",
+      "aliases": [],
+      "category": "store",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "listvoucher",
+        "vouchers",
+        "voucher",
+        "kupon",
+        "store"
+      ]
+    },
+    {
       "name": "Pay",
       "description": "Lihat rekening dan metode pembayaran toko",
       "descriptionId": "Lihat rekening dan metode pembayaran toko",
@@ -85,6 +108,29 @@
       "tags": [
         "stock",
         "stok",
+        "store"
+      ]
+    },
+    {
+      "name": "Struk",
+      "description": "Cetak dan lihat struk thermal kasir resmi untuk transaksi pesanan toko",
+      "descriptionId": "Cetak dan lihat struk thermal kasir resmi untuk transaksi pesanan toko",
+      "descriptionEn": "Print and view official thermal receipt for store orders",
+      "aliases": [],
+      "category": "store",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "struk",
+        "receipt",
+        "notabeli",
+        "cetakstruk",
         "store"
       ]
     }

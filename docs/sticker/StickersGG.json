@@ -1,0 +1,66 @@
+{
+  "name": "StickersGG",
+  "commands": [
+    "stickersgg",
+    "sgg",
+    "stickerspack"
+  ],
+  "aliases": [],
+  "display": [
+    "StickersGG"
+  ],
+  "category": "sticker",
+  "categories": [
+    "sticker"
+  ],
+  "tags": [
+    "stickersgg",
+    "sgg",
+    "stickerspack"
+  ],
+  "description": {
+    "id": "Download stiker pack dari Stickers.gg menggunakan link atau kategori.",
+    "en": "Download sticker packs from Stickers.gg via link or category."
+  },
+  "usage": "StickersGG",
+  "examples": [
+    "stickersgg https://stickers.gg/pack/1519-pusheen",
+    "stickersgg 1519-pusheen",
+    "stickersgg cat"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/downloader",
+    "line": 185
+  },
+  "lastUpdated": "2026-11-15T16:37:42Z"
+}

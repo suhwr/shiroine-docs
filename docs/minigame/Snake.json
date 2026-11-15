@@ -15,8 +15,8 @@
     "snake"
   ],
   "description": {
-    "en": "Play Snake",
-    "id": "Mainkan game klasik ular Snake via webview WhatsApp"
+    "id": "Mainkan game klasik ular Snake via webview WhatsApp",
+    "en": "Play Snake"
   },
   "usage": "Snake",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/minigame",
     "line": 1
   },
-  "lastUpdated": "2026-11-14T00:26:24Z"
+  "lastUpdated": "2026-11-15T16:37:42Z"
 }

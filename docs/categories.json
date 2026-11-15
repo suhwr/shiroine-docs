@@ -13,6 +13,12 @@
       "icon": "tv"
     },
     {
+      "id": "audiofx",
+      "name": "Audiofx",
+      "description": "Audiofx commands.",
+      "icon": "box"
+    },
+    {
       "id": "bot",
       "name": "Bot Utilities",
       "description": "General bot settings and diagnostic tools.",
@@ -49,16 +55,16 @@
       "icon": "info"
     },
     {
-      "id": "group",
-      "name": "Group Chat Settings",
-      "description": "Settings and utilities for WhatsApp groups.",
-      "icon": "users"
+      "id": "group_admin",
+      "name": "Group_admin",
+      "description": "Group_admin commands.",
+      "icon": "box"
     },
     {
-      "id": "media",
-      "name": "Media",
-      "description": "Media editing, viewer, and utilities.",
-      "icon": "film"
+      "id": "group_security",
+      "name": "Group_security",
+      "description": "Group_security commands.",
+      "icon": "box"
     },
     {
       "id": "minigame",
@@ -73,12 +79,6 @@
       "icon": "music"
     },
     {
-      "id": "owner",
-      "name": "Bot Owner",
-      "description": "Developer-only and system owner controls.",
-      "icon": "key"
-    },
-    {
       "id": "profile",
       "name": "User Profiles",
       "description": "Track limits, level up, and check stats.",
@@ -89,6 +89,12 @@
       "name": "Information Search",
       "description": "Search tools for Wikipedia, Google, etc.",
       "icon": "search"
+    },
+    {
+      "id": "sticker",
+      "name": "Sticker",
+      "description": "Sticker commands.",
+      "icon": "box"
     },
     {
       "id": "store",
@@ -113,6 +119,12 @@
       "name": "Utility Tools",
       "description": "Various utility and helper tools for daily tasks.",
       "icon": "tool"
+    },
+    {
+      "id": "waifu",
+      "name": "Waifu",
+      "description": "Waifu commands.",
+      "icon": "box"
     },
     {
       "id": "youtube",

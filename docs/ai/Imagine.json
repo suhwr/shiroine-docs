@@ -25,8 +25,8 @@
     "buatgambar"
   ],
   "description": {
-    "id": "Hasilkan gambar AI via Flare 2.5, Grok, Nano Banana (Khusus User Premium, Biaya: 3-5 Limit AI).",
-    "en": "Generate AI images via Flare 2.5, Grok, Nano Banana (Premium Users Only, Cost: 3-5 AI Limits)."
+    "en": "Generate AI images via Flare 2.5, Grok, Nano Banana (Premium Users Only, Cost: 3-5 AI Limits).",
+    "id": "Hasilkan gambar AI via Flare 2.5, Grok, Nano Banana (Khusus User Premium, Biaya: 3-5 Limit AI)."
   },
   "usage": "Imagine",
   "examples": [
@@ -71,5 +71,5 @@
     "file": "internal/plugins/ai",
     "line": 241
   },
-  "lastUpdated": "2026-11-14T00:26:24Z"
+  "lastUpdated": "2026-11-15T16:37:42Z"
 }

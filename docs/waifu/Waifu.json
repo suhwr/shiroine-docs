@@ -1,0 +1,66 @@
+{
+  "name": "Waifu",
+  "commands": [
+    "waifu",
+    "wf"
+  ],
+  "aliases": [],
+  "display": [
+    "Waifu"
+  ],
+  "category": "waifu",
+  "categories": [
+    "waifu",
+    "animanga"
+  ],
+  "tags": [
+    "waifu",
+    "wf"
+  ],
+  "description": {
+    "id": "Koleksi foto/art anime waifu acak atau sesuai nama karakter",
+    "en": "Random anime waifu photo/art or by character name"
+  },
+  "usage": "Waifu",
+  "examples": [
+    ".waifu",
+    ".waifu frieren",
+    ".waifu marin kitagawa",
+    ".waifu #3"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [],
+  "chatTypes": {},
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 1,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/anime",
+    "line": 226
+  },
+  "lastUpdated": "2026-11-15T16:37:42Z"
+}

@@ -1,0 +1,74 @@
+{
+  "name": "AntiSW",
+  "commands": [
+    "antisw",
+    "antiswgc"
+  ],
+  "aliases": [],
+  "display": [
+    "AntiSW"
+  ],
+  "category": "group_admin",
+  "categories": [
+    "group_admin"
+  ],
+  "tags": [
+    "antisw",
+    "antiswgc"
+  ],
+  "description": {
+    "id": "Atur anti tag status WhatsApp (SWGC)",
+    "en": "Configure anti tag status (SWGC)"
+  },
+  "usage": "AntiSW",
+  "examples": [
+    "antiswgc warn",
+    "antiswgc kick",
+    "antiswgc on",
+    "antiswgc off"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {
+    "subowner": true,
+    "admin": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 560
+  },
+  "lastUpdated": "2026-11-15T16:37:42Z"
+}

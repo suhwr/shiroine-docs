@@ -9,14 +9,15 @@
   ],
   "category": "youtube",
   "categories": [
-    "youtube"
+    "youtube",
+    "music"
   ],
   "tags": [
     "album"
   ],
   "description": {
-    "id": "Download album dari YouTube Music",
-    "en": "Download album from YouTube Music"
+    "en": "Download album from YouTube Music",
+    "id": "Download album dari YouTube Music"
   },
   "usage": "Album",
   "examples": [
@@ -56,5 +57,5 @@
     "file": "internal/plugins/youtube",
     "line": 147
   },
-  "lastUpdated": "2026-11-14T00:26:24Z"
+  "lastUpdated": "2026-11-15T16:37:42Z"
 }

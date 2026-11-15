@@ -28,6 +28,56 @@
       ]
     },
     {
+      "name": "AddVoucher",
+      "description": "Tambah kupon voucher diskon toko (Staff / Owner Toko)",
+      "descriptionId": "Tambah kupon voucher diskon toko (Staff / Owner Toko)",
+      "descriptionEn": "Add store discount voucher coupon (Store Staff / Owner)",
+      "aliases": [],
+      "category": "store_admin",
+      "permissions": {
+        "admin": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "addvoucher",
+        "tambahvoucher",
+        "createvoucher",
+        "store_admin",
+        "admin"
+      ]
+    },
+    {
+      "name": "DelVoucher",
+      "description": "Hapus kupon voucher toko (Staff / Owner Toko)",
+      "descriptionId": "Hapus kupon voucher toko (Staff / Owner Toko)",
+      "descriptionEn": "Delete store voucher coupon (Store Staff / Owner)",
+      "aliases": [],
+      "category": "store_admin",
+      "permissions": {
+        "admin": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "delvoucher",
+        "hapusvoucher",
+        "rmvoucher",
+        "store_admin",
+        "admin"
+      ]
+    },
+    {
       "name": "DetailOrder",
       "description": "Lihat rincian lengkap pesanan (Staff Toko / Pembeli)",
       "descriptionId": "Lihat rincian lengkap pesanan (Staff Toko / Pembeli)",

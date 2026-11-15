@@ -15,8 +15,8 @@
     "daily"
   ],
   "description": {
-    "id": "Claim reward harian berdasarkan level",
-    "en": "Claim daily rewards based on your level"
+    "en": "Claim daily rewards based on your level",
+    "id": "Claim reward harian berdasarkan level"
   },
   "usage": "Daily",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/general",
     "line": 219
   },
-  "lastUpdated": "2026-11-14T00:26:24Z"
+  "lastUpdated": "2026-11-15T16:37:42Z"
 }

@@ -15,8 +15,8 @@
     "frogger"
   ],
   "description": {
-    "en": "Play Frogger",
-    "id": "Mainkan game katak menyeberang jalan Frogger via webview WhatsApp"
+    "id": "Mainkan game katak menyeberang jalan Frogger via webview WhatsApp",
+    "en": "Play Frogger"
   },
   "usage": "Frogger",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/minigame",
     "line": 1
   },
-  "lastUpdated": "2026-11-14T00:26:24Z"
+  "lastUpdated": "2026-11-15T16:37:42Z"
 }

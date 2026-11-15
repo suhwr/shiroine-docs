@@ -15,8 +15,8 @@
     "wordle"
   ],
   "description": {
-    "id": "Mulai game tebak kata Wordle / Katla 5 huruf",
-    "en": "Start 5-letter Wordle / Katla guessing game"
+    "en": "Start 5-letter Wordle / Katla guessing game",
+    "id": "Mulai game tebak kata Wordle / Katla 5 huruf"
   },
   "usage": "Wordle",
   "examples": [
@@ -62,5 +62,5 @@
     "file": "internal/plugins/game",
     "line": 465
   },
-  "lastUpdated": "2026-11-14T00:26:24Z"
+  "lastUpdated": "2026-11-15T16:37:42Z"
 }
