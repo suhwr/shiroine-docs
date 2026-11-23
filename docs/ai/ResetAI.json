@@ -26,8 +26,8 @@
     "clearaichat"
   ],
   "description": {
-    "id": "Hapus riwayat obrolan AI fleksibel: per karakter, rewind N pesan terakhir, atau reset total semua karakter (otomatis mendeteksi sesi pribadi & grup)",
-    "en": "Flexible AI chat reset: per character, rewind last N messages, or full wipe across all characters (auto-detects private & group sessions)"
+    "en": "Flexible AI chat reset: per character, rewind last N messages, or full wipe across all characters (auto-detects private & group sessions)",
+    "id": "Hapus riwayat obrolan AI fleksibel: per karakter, rewind N pesan terakhir, atau reset total semua karakter (otomatis mendeteksi sesi pribadi & grup)"
   },
   "usage": "ResetAI",
   "examples": [
@@ -71,5 +71,5 @@
     "file": "internal/plugins/ai",
     "line": 234
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

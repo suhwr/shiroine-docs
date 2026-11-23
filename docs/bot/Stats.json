@@ -17,17 +17,19 @@
     "statistics"
   ],
   "description": {
-    "id": "Tampilkan statistik bot",
-    "en": "Show bot statistics"
+    "id": "Tampilkan statistik bot (hari ini, 7d, 30d, bulanan, all-time) & tracker lonjakan error",
+    "en": "Show bot statistics (today, 7d, 30d, monthly, all-time) & error spike tracker"
   },
   "usage": "Stats",
   "examples": [
     "stats",
-    "stats 10",
+    "stats today",
+    "stats 7d",
+    "stats 30d 10",
     "stats 2025 9",
-    "stats 2025 9 20",
     "stats all",
-    "stats all 10"
+    "stats err",
+    "stats err TikTok"
   ],
   "minArgs": 0,
   "args": {},
@@ -61,7 +63,7 @@
   },
   "source": {
     "file": "internal/plugins/bot",
-    "line": 194
+    "line": 259
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

@@ -19,8 +19,8 @@
     "goruntime"
   ],
   "description": {
-    "id": "Menampilkan status mendalam dari Go runtime & penggunaan memori sistem",
-    "en": "Display in-depth status of Go runtime & system memory usage"
+    "en": "Display in-depth status of Go runtime & system memory usage",
+    "id": "Menampilkan status mendalam dari Go runtime & penggunaan memori sistem"
   },
   "usage": "GoStats",
   "examples": [
@@ -60,5 +60,5 @@
     "file": "internal/plugins/bot",
     "line": 93
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

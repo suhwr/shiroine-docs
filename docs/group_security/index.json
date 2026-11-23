@@ -26,6 +26,30 @@
       ]
     },
     {
+      "name": "AntiKudeta",
+      "description": "Lindungi grup dari kudeta/takeover admin tak tepercaya dan akun bot manual",
+      "descriptionId": "Lindungi grup dari kudeta/takeover admin tak tepercaya dan akun bot manual",
+      "descriptionEn": "Protect group from unauthorized admin or manual bot account takeover",
+      "aliases": [],
+      "category": "group_security",
+      "permissions": {
+        "admin": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "antikudeta",
+        "antitakeover",
+        "group_security",
+        "admin"
+      ]
+    },
+    {
       "name": "AntiLink",
       "description": "Pengaturan sistem AntiLink untuk memblokir tautan terlarang di grup",
       "descriptionId": "Pengaturan sistem AntiLink untuk memblokir tautan terlarang di grup",
@@ -205,8 +229,8 @@
       "aliases": [],
       "category": "group_security",
       "permissions": {
-        "admin": true,
-        "moderator": true
+        "moderator": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -382,8 +406,8 @@
       "aliases": [],
       "category": "group_security",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,

@@ -168,7 +168,7 @@
       "aliases": [],
       "category": "tools",
       "permissions": {},
-      "premiumOnly": "all",
+      "premiumOnly": "",
       "limitCost": 0,
       "limitType": "none",
       "nsfwOnly": false,
@@ -177,9 +177,7 @@
       "requireMedia": [],
       "tags": [
         "bestframe",
-        "tools",
-        "premium",
-        "vip"
+        "tools"
       ]
     },
     {
@@ -734,7 +732,7 @@
       "aliases": [],
       "category": "tools",
       "permissions": {},
-      "premiumOnly": "all",
+      "premiumOnly": "",
       "limitCost": 0,
       "limitType": "none",
       "nsfwOnly": false,
@@ -744,9 +742,7 @@
       "tags": [
         "lens",
         "googlelens",
-        "tools",
-        "premium",
-        "vip"
+        "tools"
       ]
     },
     {
@@ -1019,6 +1015,27 @@
       ]
     },
     {
+      "name": "ReadViewOnce",
+      "description": "Merespon pesan Sekali Lihat (View Once) dengan teguran ramah untuk menghargai privasi",
+      "descriptionId": "Merespon pesan Sekali Lihat (View Once) dengan teguran ramah untuk menghargai privasi",
+      "descriptionEn": "Respond to View Once messages with friendly reminders to respect privacy",
+      "aliases": [],
+      "category": "tools",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "readviewonce",
+        "rvo",
+        "tools"
+      ]
+    },
+    {
       "name": "RemoveBG",
       "description": "Hapus background foto/stiker menggunakan AI (model: pixelcut, removebg, rembg, local)",
       "descriptionId": "Hapus background foto/stiker menggunakan AI (model: pixelcut, removebg, rembg, local)",
@@ -1198,7 +1215,7 @@
       "aliases": [],
       "category": "tools",
       "permissions": {},
-      "premiumOnly": "all",
+      "premiumOnly": "",
       "limitCost": 0,
       "limitType": "none",
       "nsfwOnly": false,
@@ -1207,9 +1224,7 @@
       "requireMedia": [],
       "tags": [
         "smooth",
-        "tools",
-        "premium",
-        "vip"
+        "tools"
       ]
     },
     {
@@ -1244,7 +1259,7 @@
       "aliases": [],
       "category": "tools",
       "permissions": {},
-      "premiumOnly": "all",
+      "premiumOnly": "user",
       "limitCost": 0,
       "limitType": "none",
       "nsfwOnly": false,
@@ -1256,6 +1271,29 @@
         "tools",
         "premium",
         "vip"
+      ]
+    },
+    {
+      "name": "Stitch",
+      "description": "Gabungkan 2 hingga 15 gambar atau album foto secara horizontal atau vertikal",
+      "descriptionId": "Gabungkan 2 hingga 15 gambar atau album foto secara horizontal atau vertikal",
+      "descriptionEn": "Stitch 2 up to 15 images or photo albums horizontally or vertically",
+      "aliases": [],
+      "category": "tools",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "stitch",
+        "collage",
+        "gabung",
+        "gabungfoto",
+        "tools"
       ]
     },
     {
@@ -1590,6 +1628,36 @@
         "tools",
         "limit",
         "limit harian"
+      ]
+    },
+    {
+      "name": "WhatsAppStatus",
+      "description": "Ambil atau lihat pembaruan status WhatsApp yang diterima oleh bot",
+      "descriptionId": "Ambil atau lihat pembaruan status WhatsApp yang diterima oleh bot",
+      "descriptionEn": "Fetch or view WhatsApp status updates collected by the bot",
+      "aliases": [
+        "sw",
+        "statuswa",
+        "swlist",
+        "listsw"
+      ],
+      "category": "tools",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "whatsappstatus",
+        "sw",
+        "statuswa",
+        "swlist",
+        "listsw",
+        "getsw",
+        "tools"
       ]
     }
   ]

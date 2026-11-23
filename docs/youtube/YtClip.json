@@ -18,8 +18,8 @@
     "clip"
   ],
   "description": {
-    "en": "Trim/clip YouTube video or audio instantly without downloading the full video (max 1 minute), supports live stream clipping in H.264 (AVC High)",
-    "id": "Potong klip video atau audio YouTube secara instan tanpa download full video (maks 1 menit), mendukung klip live streaming dalam format H.264 (AVC High)"
+    "id": "Potong klip video atau audio YouTube secara instan tanpa download full video (maks 1 menit), mendukung klip live streaming dalam format H.264 (AVC High)",
+    "en": "Trim/clip YouTube video or audio instantly without downloading the full video (max 1 minute), supports live stream clipping in H.264 (AVC High)"
   },
   "usage": "YtClip",
   "examples": [
@@ -68,5 +68,5 @@
     "file": "internal/plugins/youtube",
     "line": 215
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

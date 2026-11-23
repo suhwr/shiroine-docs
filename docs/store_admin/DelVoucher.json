@@ -19,8 +19,8 @@
     "rmvoucher"
   ],
   "description": {
-    "en": "Delete store voucher coupon (Store Staff / Owner)",
-    "id": "Hapus kupon voucher toko (Staff / Owner Toko)"
+    "id": "Hapus kupon voucher toko (Staff / Owner Toko)",
+    "en": "Delete store voucher coupon (Store Staff / Owner)"
   },
   "usage": "DelVoucher",
   "examples": [
@@ -60,5 +60,5 @@
     "file": "internal/plugins/store",
     "line": 213
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

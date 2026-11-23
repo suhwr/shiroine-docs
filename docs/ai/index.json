@@ -191,13 +191,13 @@
     },
     {
       "name": "Imagine",
-      "description": "Hasilkan gambar AI via Flare 2.5, Grok, Nano Banana (Khusus User Premium, Biaya: 3-5 Limit AI).",
-      "descriptionId": "Hasilkan gambar AI via Flare 2.5, Grok, Nano Banana (Khusus User Premium, Biaya: 3-5 Limit AI).",
-      "descriptionEn": "Generate AI images via Flare 2.5, Grok, Nano Banana (Premium Users Only, Cost: 3-5 AI Limits).",
+      "description": "Hasilkan gambar AI via Flare 2.5, Grok, Nano Banana (Premium User: 3-5 Limit AI, Premium Grup: 5-8 Limit AI).",
+      "descriptionId": "Hasilkan gambar AI via Flare 2.5, Grok, Nano Banana (Premium User: 3-5 Limit AI, Premium Grup: 5-8 Limit AI).",
+      "descriptionEn": "Generate AI images via Flare 2.5, Grok, Nano Banana (User Premium: 3-5 AI Limits, Group Premium: 5-8 AI Limits).",
       "aliases": [],
       "category": "ai",
       "permissions": {},
-      "premiumOnly": "user",
+      "premiumOnly": "all",
       "limitCost": 0,
       "limitType": "ai",
       "nsfwOnly": false,
@@ -220,9 +220,9 @@
     },
     {
       "name": "JadiAnime",
-      "description": "Ubah foto menjadi gaya anime 2D atau Arcane menggunakan AI (Free: 5 AI limit, Premium: 3 AI limit)",
-      "descriptionId": "Ubah foto menjadi gaya anime 2D atau Arcane menggunakan AI (Free: 5 AI limit, Premium: 3 AI limit)",
-      "descriptionEn": "Convert photo to 2D anime or Arcane style using AI (Free: 5 AI limit, Premium: 3 AI limit)",
+      "description": "Ubah foto menjadi gaya Japanese Anime, Studio Ghibli, dll menggunakan AI (Free: 4 AI limit, Grup Prem: 3, User Prem: 2)",
+      "descriptionId": "Ubah foto menjadi gaya Japanese Anime, Studio Ghibli, dll menggunakan AI (Free: 4 AI limit, Grup Prem: 3, User Prem: 2)",
+      "descriptionEn": "Convert photo to Japanese Anime, Studio Ghibli, etc. using AI (Free: 4 AI limits, Group Prem: 3, User Prem: 2)",
       "aliases": [],
       "category": "ai",
       "permissions": {},
@@ -236,6 +236,8 @@
       "tags": [
         "jadianime",
         "toanime",
+        "toghibli",
+        "jadighibli",
         "ai",
         "limit-ai",
         "limit ai"
@@ -381,6 +383,7 @@
         "minimax",
         "wan",
         "seedance",
+        "grok",
         "ai",
         "limit-ai",
         "limit ai"

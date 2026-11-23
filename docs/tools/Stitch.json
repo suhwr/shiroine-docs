@@ -1,30 +1,34 @@
 {
-  "name": "Konachan",
+  "name": "Stitch",
   "commands": [
-    "konachan",
-    "kona"
+    "stitch",
+    "collage",
+    "gabung",
+    "gabungfoto"
   ],
   "aliases": [],
   "display": [
-    "Konachan"
+    "Stitch"
   ],
-  "category": "waifu",
+  "category": "tools",
   "categories": [
-    "waifu",
-    "animanga"
+    "tools"
   ],
   "tags": [
-    "konachan",
-    "kona"
+    "stitch",
+    "collage",
+    "gabung",
+    "gabungfoto"
   ],
   "description": {
-    "id": "Cari wallpaper anime resolusi tinggi di Konachan",
-    "en": "Search high-resolution anime wallpapers on Konachan"
+    "id": "Gabungkan 2 hingga 15 gambar atau album foto secara horizontal atau vertikal",
+    "en": "Stitch 2 up to 15 images or photo albums horizontally or vertically"
   },
-  "usage": "Konachan",
+  "usage": "Stitch",
   "examples": [
-    ".konachan genshin impact",
-    ".kona cyberpunk"
+    "stitch",
+    "stitch --v",
+    "stitch --h"
   ],
   "minArgs": 0,
   "args": {},
@@ -35,7 +39,7 @@
   "premiumOnly": "",
   "nsfwOnly": false,
   "level": 0,
-  "limitCost": 1,
+  "limitCost": 0,
   "delaySeconds": 0,
   "ignoreQueue": false,
   "disableProcessLimit": false,
@@ -57,8 +61,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/anime",
-    "line": 346
+    "file": "internal/plugins/tools",
+    "line": 108
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

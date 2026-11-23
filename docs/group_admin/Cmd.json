@@ -15,14 +15,15 @@
     "cmd"
   ],
   "description": {
-    "en": "Disable or enable bot commands in this group individually or in bulk",
-    "id": "Nonaktifkan atau aktifkan perintah bot di grup ini secara satuan maupun massal"
+    "id": "Nonaktifkan atau aktifkan perintah bot di grup ini secara satuan maupun massal",
+    "en": "Disable or enable bot commands in this group individually or in bulk"
   },
   "usage": "Cmd",
   "examples": [
-    "cmd off sticker ai youtube",
+    "cmd off sticker",
+    "cmd off ai game",
     "cmd off all",
-    "cmd on all",
+    "cmd on sticker",
     "cmd list"
   ],
   "minArgs": 0,
@@ -37,8 +38,7 @@
     "group_community": true
   },
   "permissions": {
-    "admin": true,
-    "subowner": true
+    "admin": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -66,7 +66,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 305
+    "line": 243
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

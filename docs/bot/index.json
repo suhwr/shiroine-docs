@@ -22,46 +22,6 @@
       ]
     },
     {
-      "name": "AutoClear",
-      "description": "Aktifkan/nonaktifkan pembersihan chat otomatis setiap tengah malam",
-      "descriptionId": "Aktifkan/nonaktifkan pembersihan chat otomatis setiap tengah malam",
-      "descriptionEn": "Enable/disable automatic chat clearing every midnight",
-      "aliases": [],
-      "category": "bot",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "requireMedia": [],
-      "tags": [
-        "autoclear",
-        "bot"
-      ]
-    },
-    {
-      "name": "AutoDelete",
-      "description": "Aktifkan/nonaktifkan penghapusan chat otomatis setiap tengah malam",
-      "descriptionId": "Aktifkan/nonaktifkan penghapusan chat otomatis setiap tengah malam",
-      "descriptionEn": "Enable/disable automatic chat deletion every midnight",
-      "aliases": [],
-      "category": "bot",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "requireMedia": [],
-      "tags": [
-        "autodelete",
-        "bot"
-      ]
-    },
-    {
       "name": "AutoRead",
       "description": "Aktifkan/nonaktifkan fitur auto-read pesan",
       "descriptionId": "Aktifkan/nonaktifkan fitur auto-read pesan",
@@ -318,26 +278,6 @@
       "requireMedia": [],
       "tags": [
         "jadibot",
-        "bot"
-      ]
-    },
-    {
-      "name": "JoinMode",
-      "description": "Toggle join command (izin join grup)",
-      "descriptionId": "Toggle join command (izin join grup)",
-      "descriptionEn": "Toggle join command (group join permission)",
-      "aliases": [],
-      "category": "bot",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "requireMedia": [],
-      "tags": [
-        "joinmode",
         "bot"
       ]
     },
@@ -601,9 +541,9 @@
     },
     {
       "name": "Stats",
-      "description": "Tampilkan statistik bot",
-      "descriptionId": "Tampilkan statistik bot",
-      "descriptionEn": "Show bot statistics",
+      "description": "Tampilkan statistik bot (hari ini, 7d, 30d, bulanan, all-time) & tracker lonjakan error",
+      "descriptionId": "Tampilkan statistik bot (hari ini, 7d, 30d, bulanan, all-time) & tracker lonjakan error",
+      "descriptionEn": "Show bot statistics (today, 7d, 30d, monthly, all-time) & error spike tracker",
       "aliases": [],
       "category": "bot",
       "permissions": {},

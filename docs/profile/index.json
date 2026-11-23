@@ -22,9 +22,9 @@
     },
     {
       "name": "CekPremium",
-      "description": "Cek sisa durasi premium",
-      "descriptionId": "Cek sisa durasi premium",
-      "descriptionEn": "Check remaining premium duration",
+      "description": "Cek status dan sisa durasi premium akun maupun grup",
+      "descriptionId": "Cek status dan sisa durasi premium akun maupun grup",
+      "descriptionEn": "Check premium status and remaining duration for your account and group",
       "aliases": [],
       "category": "profile",
       "permissions": {},

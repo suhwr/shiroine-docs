@@ -407,9 +407,9 @@
     },
     {
       "name": "Top",
-      "description": "Melihat leaderboard/top rank bot berdasarkan level, chat, command, atau durasi AFK",
-      "descriptionId": "Melihat leaderboard/top rank bot berdasarkan level, chat, command, atau durasi AFK",
-      "descriptionEn": "View bot leaderboard/top rank by level, chat, command, or AFK duration",
+      "description": "Melihat leaderboard/top rank bot berdasarkan level, chat, command, atau daily streak",
+      "descriptionId": "Melihat leaderboard/top rank bot berdasarkan level, chat, command, atau daily streak",
+      "descriptionEn": "View bot leaderboard/top rank by level, chat, command, or daily streak",
       "aliases": [],
       "category": "general",
       "permissions": {},

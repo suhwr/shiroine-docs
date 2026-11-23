@@ -40,8 +40,8 @@
     "group_community"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true
+    "group_community": true,
+    "group": true
   },
   "permissions": {
     "admin": true,
@@ -73,7 +73,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 85
+    "line": 91
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

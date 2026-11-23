@@ -288,9 +288,9 @@
     },
     {
       "name": "Pixiv",
-      "description": "Download artwork NSFW dari Pixiv (pencarian atau ID/URL)",
-      "descriptionId": "Download artwork NSFW dari Pixiv (pencarian atau ID/URL)",
-      "descriptionEn": "Download NSFW artwork from Pixiv (search or ID/URL)",
+      "description": "Download artwork dari Pixiv (pencarian interaktif atau ID/URL)",
+      "descriptionId": "Download artwork dari Pixiv (pencarian interaktif atau ID/URL)",
+      "descriptionEn": "Download artwork from Pixiv (interactive search or ID/URL)",
       "aliases": [],
       "category": "downloader",
       "permissions": {},

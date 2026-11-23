@@ -86,8 +86,8 @@
       "aliases": [],
       "category": "group_admin",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -186,8 +186,8 @@
       "aliases": [],
       "category": "group_admin",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -237,8 +237,8 @@
       "aliases": [],
       "category": "group_admin",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -388,8 +388,7 @@
       "aliases": [],
       "category": "group_admin",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -401,8 +400,7 @@
       "tags": [
         "cmd",
         "group_admin",
-        "admin",
-        "subowner"
+        "admin"
       ]
     },
     {
@@ -630,9 +628,9 @@
     },
     {
       "name": "GStats",
-      "description": "Menampilkan statistik pesan grup bulan ini termasuk top 3 anggota teraktif",
-      "descriptionId": "Menampilkan statistik pesan grup bulan ini termasuk top 3 anggota teraktif",
-      "descriptionEn": "Show group message statistics this month including top 3 most active members",
+      "description": "Menampilkan statistik pesan grup (hari ini, 7 hari, bulan ini) termasuk top 3 anggota teraktif",
+      "descriptionId": "Menampilkan statistik pesan grup (hari ini, 7 hari, bulan ini) termasuk top 3 anggota teraktif",
+      "descriptionEn": "Show group message statistics (today, 7d, this month) including top 3 most active members",
       "aliases": [],
       "category": "group_admin",
       "permissions": {
@@ -837,9 +835,9 @@
     },
     {
       "name": "ListAktif",
-      "description": "Lihat daftar member yang aktif hari ini beserta total pesannya",
-      "descriptionId": "Lihat daftar member yang aktif hari ini beserta total pesannya",
-      "descriptionEn": "View the list of members active today along with their total messages",
+      "description": "Lihat daftar member yang aktif hari ini beserta jumlah pesannya",
+      "descriptionId": "Lihat daftar member yang aktif hari ini beserta jumlah pesannya",
+      "descriptionEn": "View the list of members active today with their message counts",
       "aliases": [],
       "category": "group_admin",
       "permissions": {
@@ -1253,7 +1251,9 @@
       "description": "Manajemen anggota pasif (sider) dan pembersihan grup",
       "descriptionId": "Manajemen anggota pasif (sider) dan pembersihan grup",
       "descriptionEn": "Manage inactive members (siders) and group cleanup",
-      "aliases": [],
+      "aliases": [
+        "ceksider"
+      ],
       "category": "group_admin",
       "permissions": {
         "admin": true,
@@ -1268,6 +1268,7 @@
       "requireMedia": [],
       "tags": [
         "sider",
+        "ceksider",
         "group_admin",
         "admin"
       ]
@@ -1372,9 +1373,9 @@
     },
     {
       "name": "TopActive",
-      "description": "Menampilkan anggota paling aktif di grup berdasarkan jumlah pesan",
-      "descriptionId": "Menampilkan anggota paling aktif di grup berdasarkan jumlah pesan",
-      "descriptionEn": "Show most active members in the group based on message count",
+      "description": "Menampilkan anggota paling aktif di grup (hari ini, 7d, 30d, bulanan, atau all-time)",
+      "descriptionId": "Menampilkan anggota paling aktif di grup (hari ini, 7d, 30d, bulanan, atau all-time)",
+      "descriptionEn": "Show most active members in the group (today, 7d, 30d, monthly, or all-time)",
       "aliases": [],
       "category": "group_admin",
       "permissions": {

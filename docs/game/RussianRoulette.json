@@ -1,30 +1,34 @@
 {
-  "name": "Safebooru",
+  "name": "RussianRoulette",
   "commands": [
-    "safebooru",
-    "safe"
+    "russianroulette",
+    "roulette",
+    "rroulette",
+    "shotgun",
+    "buckshot"
   ],
   "aliases": [],
   "display": [
-    "Safebooru"
+    "RussianRoulette"
   ],
-  "category": "waifu",
+  "category": "game",
   "categories": [
-    "waifu",
-    "animanga"
+    "game"
   ],
   "tags": [
-    "safebooru",
-    "safe"
+    "russianroulette",
+    "roulette",
+    "rroulette",
+    "shotgun",
+    "buckshot"
   ],
   "description": {
-    "id": "Cari anime art 100% aman (SFW) di Safebooru",
-    "en": "Search 100% safe anime art on Safebooru"
+    "en": "Play interactive tactical Russian Roulette game (swipe reply board message).",
+    "id": "Mainkan game interaktif Russian Roulette taktis bergaya Buckshot (swipe reply pesan papan)."
   },
-  "usage": "Safebooru",
+  "usage": "RussianRoulette",
   "examples": [
-    ".safebooru hatsune miku",
-    ".safe bocchi"
+    "roulette solo / roulette @user"
   ],
   "minArgs": 0,
   "args": {},
@@ -35,10 +39,10 @@
   "premiumOnly": "",
   "nsfwOnly": false,
   "level": 0,
-  "limitCost": 1,
+  "limitCost": 0,
   "delaySeconds": 0,
   "ignoreQueue": false,
-  "disableProcessLimit": false,
+  "disableProcessLimit": true,
   "sendsToPrivate": false,
   "showPromotion": false,
   "disabled": false,
@@ -57,8 +61,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/anime",
-    "line": 382
+    "file": "internal/plugins/game",
+    "line": 2221
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

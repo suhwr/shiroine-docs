@@ -49,9 +49,9 @@
     },
     {
       "name": "Danbooru",
-      "description": "Cari anime art dan wallpaper langsung di Danbooru",
-      "descriptionId": "Cari anime art dan wallpaper langsung di Danbooru",
-      "descriptionEn": "Search anime art and wallpaper directly from Danbooru",
+      "description": "Cari anime art dan wallpaper langsung di Danbooru (pencarian interaktif atau URL)",
+      "descriptionId": "Cari anime art dan wallpaper langsung di Danbooru (pencarian interaktif atau URL)",
+      "descriptionEn": "Search anime art and wallpaper directly from Danbooru (interactive or URL)",
       "aliases": [],
       "category": "waifu",
       "permissions": {},
@@ -64,6 +64,8 @@
       "requireMedia": [],
       "tags": [
         "danbooru",
+        "db",
+        "booru",
         "waifu",
         "limit",
         "limit harian"
@@ -116,29 +118,6 @@
       ]
     },
     {
-      "name": "Konachan",
-      "description": "Cari wallpaper anime resolusi tinggi di Konachan",
-      "descriptionId": "Cari wallpaper anime resolusi tinggi di Konachan",
-      "descriptionEn": "Search high-resolution anime wallpapers on Konachan",
-      "aliases": [],
-      "category": "waifu",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "requireMedia": [],
-      "tags": [
-        "konachan",
-        "kona",
-        "waifu",
-        "limit",
-        "limit harian"
-      ]
-    },
-    {
       "name": "Maid",
       "description": "Koleksi foto/art anime berkostum maid",
       "descriptionId": "Koleksi foto/art anime berkostum maid",
@@ -179,29 +158,6 @@
       "tags": [
         "neko",
         "catgirl",
-        "waifu",
-        "limit",
-        "limit harian"
-      ]
-    },
-    {
-      "name": "Safebooru",
-      "description": "Cari anime art 100% aman (SFW) di Safebooru",
-      "descriptionId": "Cari anime art 100% aman (SFW) di Safebooru",
-      "descriptionEn": "Search 100% safe anime art on Safebooru",
-      "aliases": [],
-      "category": "waifu",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "requireMedia": [],
-      "tags": [
-        "safebooru",
-        "safe",
         "waifu",
         "limit",
         "limit harian"
@@ -255,9 +211,9 @@
     },
     {
       "name": "Waifu",
-      "description": "Koleksi foto/art anime waifu acak atau sesuai nama karakter",
-      "descriptionId": "Koleksi foto/art anime waifu acak atau sesuai nama karakter",
-      "descriptionEn": "Random anime waifu photo/art or by character name",
+      "description": "Koleksi foto/art anime waifu (acak, pencarian interaktif, atau URL post)",
+      "descriptionId": "Koleksi foto/art anime waifu (acak, pencarian interaktif, atau URL post)",
+      "descriptionEn": "Anime waifu art (random, interactive search, or post URL)",
       "aliases": [],
       "category": "waifu",
       "permissions": {},
@@ -276,33 +232,10 @@
       ]
     },
     {
-      "name": "Yandere",
-      "description": "Cari anime art dan wallpaper langsung di Yande.re",
-      "descriptionId": "Cari anime art dan wallpaper langsung di Yande.re",
-      "descriptionEn": "Search anime art and wallpaper directly from Yande.re",
-      "aliases": [],
-      "category": "waifu",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "requireMedia": [],
-      "tags": [
-        "yandere",
-        "yan",
-        "waifu",
-        "limit",
-        "limit harian"
-      ]
-    },
-    {
       "name": "Zerochan",
-      "description": "Cari anime art dan wallpaper dari seniman di Zerochan",
-      "descriptionId": "Cari anime art dan wallpaper dari seniman di Zerochan",
-      "descriptionEn": "Search anime art and wallpapers from artists on Zerochan",
+      "description": "Cari anime art dan wallpaper beresolusi tinggi di Zerochan (pencarian interaktif atau URL)",
+      "descriptionId": "Cari anime art dan wallpaper beresolusi tinggi di Zerochan (pencarian interaktif atau URL)",
+      "descriptionEn": "Search high-resolution anime art and wallpapers on Zerochan (interactive or URL)",
       "aliases": [],
       "category": "waifu",
       "permissions": {},

@@ -17,8 +17,8 @@
     "unmute-member"
   ],
   "description": {
-    "en": "Unmute a specific member in the group",
-    "id": "Unmute anggota tertentu di grup"
+    "id": "Unmute anggota tertentu di grup",
+    "en": "Unmute a specific member in the group"
   },
   "usage": "UnmuteMember",
   "examples": [
@@ -37,12 +37,12 @@
     "group_community"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true
+    "group_community": true,
+    "group": true
   },
   "permissions": {
-    "moderator": true,
-    "admin": true
+    "admin": true,
+    "moderator": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -70,7 +70,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 547
+    "line": 555
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

@@ -1,7 +1,9 @@
 {
   "name": "Danbooru",
   "commands": [
-    "danbooru"
+    "danbooru",
+    "db",
+    "booru"
   ],
   "aliases": [],
   "display": [
@@ -13,16 +15,18 @@
     "animanga"
   ],
   "tags": [
-    "danbooru"
+    "danbooru",
+    "db",
+    "booru"
   ],
   "description": {
-    "id": "Cari anime art dan wallpaper langsung di Danbooru",
-    "en": "Search anime art and wallpaper directly from Danbooru"
+    "id": "Cari anime art dan wallpaper langsung di Danbooru (pencarian interaktif atau URL)",
+    "en": "Search anime art and wallpaper directly from Danbooru (interactive or URL)"
   },
   "usage": "Danbooru",
   "examples": [
     ".danbooru frieren",
-    ".db hatsune miku #3"
+    ".danbooru https://danbooru.donmai.us/posts/8000000"
   ],
   "minArgs": 0,
   "args": {},
@@ -56,7 +60,7 @@
   },
   "source": {
     "file": "internal/plugins/anime",
-    "line": 358
+    "line": 1056
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

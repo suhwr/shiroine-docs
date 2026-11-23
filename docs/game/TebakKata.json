@@ -15,8 +15,8 @@
     "tebakkata"
   ],
   "description": {
-    "id": "Mulai game tebak kata dari petunjuk",
-    "en": "Start word guessing game from hints"
+    "en": "Start word guessing game from hints",
+    "id": "Mulai game tebak kata dari petunjuk"
   },
   "usage": "TebakKata",
   "examples": [
@@ -62,5 +62,5 @@
     "file": "internal/plugins/game",
     "line": 199
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

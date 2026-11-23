@@ -551,8 +551,8 @@
       "path": "/command/group_admin/AntiBug",
       "description": "Atur proteksi anti bug, virtex, dan crash WhatsApp di grup",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -608,6 +608,27 @@
         "group_admin",
         "admin",
         "subowner"
+      ]
+    },
+    {
+      "name": "AntiKudeta",
+      "aliases": [],
+      "category": "group_security",
+      "path": "/command/group_security/AntiKudeta",
+      "description": "Lindungi grup dari kudeta/takeover admin tak tepercaya dan akun bot manual",
+      "permissions": {
+        "admin": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "tags": [
+        "antikudeta",
+        "antitakeover",
+        "group_security",
+        "admin"
       ]
     },
     {
@@ -706,8 +727,8 @@
       "path": "/command/group_admin/AntiSW",
       "description": "Atur anti tag status WhatsApp (SWGC)",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -751,8 +772,8 @@
       "path": "/command/group_admin/AntiVO",
       "description": "Atur proteksi anti pesan sekali lihat (viewonce) di grup",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -876,40 +897,6 @@
       "tags": [
         "audioeffect",
         "audiofx"
-      ]
-    },
-    {
-      "name": "AutoClear",
-      "aliases": [],
-      "category": "bot",
-      "path": "/command/bot/AutoClear",
-      "description": "Aktifkan/nonaktifkan pembersihan chat otomatis setiap tengah malam",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "tags": [
-        "autoclear",
-        "bot"
-      ]
-    },
-    {
-      "name": "AutoDelete",
-      "aliases": [],
-      "category": "bot",
-      "path": "/command/bot/AutoDelete",
-      "description": "Aktifkan/nonaktifkan penghapusan chat otomatis setiap tengah malam",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "tags": [
-        "autodelete",
-        "bot"
       ]
     },
     {
@@ -1308,16 +1295,14 @@
       "path": "/command/tools/BestFrame",
       "description": "Mengambil frame terbaik dari video berdasarkan kualitas visual (sharpness, blur, dll)",
       "permissions": {},
-      "premiumOnly": "all",
+      "premiumOnly": "",
       "limitCost": 0,
       "limitType": "none",
       "nsfwOnly": false,
       "delaySeconds": 0,
       "tags": [
         "bestframe",
-        "tools",
-        "premium",
-        "vip"
+        "tools"
       ]
     },
     {
@@ -1912,7 +1897,7 @@
       "aliases": [],
       "category": "profile",
       "path": "/command/profile/CekPremium",
-      "description": "Cek sisa durasi premium",
+      "description": "Cek status dan sisa durasi premium akun maupun grup",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -2197,8 +2182,7 @@
       "path": "/command/group_admin/Cmd",
       "description": "Nonaktifkan atau aktifkan perintah bot di grup ini secara satuan maupun massal",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -2208,8 +2192,7 @@
       "tags": [
         "cmd",
         "group_admin",
-        "admin",
-        "subowner"
+        "admin"
       ]
     },
     {
@@ -2470,7 +2453,7 @@
       "aliases": [],
       "category": "waifu",
       "path": "/command/waifu/Danbooru",
-      "description": "Cari anime art dan wallpaper langsung di Danbooru",
+      "description": "Cari anime art dan wallpaper langsung di Danbooru (pencarian interaktif atau URL)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -2479,6 +2462,8 @@
       "delaySeconds": 0,
       "tags": [
         "danbooru",
+        "db",
+        "booru",
         "waifu",
         "limit",
         "limit harian"
@@ -3024,9 +3009,7 @@
       "path": "/command/developer/Errors",
       "description": "Melihat log error dependency",
       "permissions": {
-        "owner": true,
-        "subowner": true,
-        "moderator": true
+        "owner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -3037,8 +3020,7 @@
         "errors",
         "errlog",
         "developer",
-        "owner",
-        "subowner"
+        "owner"
       ]
     },
     {
@@ -3903,7 +3885,7 @@
       "aliases": [],
       "category": "group_admin",
       "path": "/command/group_admin/GStats",
-      "description": "Menampilkan statistik pesan grup bulan ini termasuk top 3 anggota teraktif",
+      "description": "Menampilkan statistik pesan grup (hari ini, 7 hari, bulan ini) termasuk top 3 anggota teraktif",
       "permissions": {
         "admin": true,
         "moderator": true
@@ -3960,9 +3942,9 @@
       "path": "/command/developer/HardBan",
       "description": "Ban user secara global (permanen)",
       "permissions": {
+        "owner": true,
         "moderator": true,
-        "subowner": true,
-        "owner": true
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -4033,9 +4015,9 @@
       "path": "/command/developer/HardUnban",
       "description": "Unban user dari daftar ban global",
       "permissions": {
-        "moderator": true,
         "subowner": true,
-        "owner": true
+        "owner": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -4284,9 +4266,9 @@
       "aliases": [],
       "category": "ai",
       "path": "/command/ai/Imagine",
-      "description": "Hasilkan gambar AI via Flare 2.5, Grok, Nano Banana (Khusus User Premium, Biaya: 3-5 Limit AI).",
+      "description": "Hasilkan gambar AI via Flare 2.5, Grok, Nano Banana (Premium User: 3-5 Limit AI, Premium Grup: 5-8 Limit AI).",
       "permissions": {},
-      "premiumOnly": "user",
+      "premiumOnly": "all",
       "limitCost": 0,
       "limitType": "ai",
       "nsfwOnly": false,
@@ -4370,7 +4352,7 @@
       "aliases": [],
       "category": "ai",
       "path": "/command/ai/JadiAnime",
-      "description": "Ubah foto menjadi gaya anime 2D atau Arcane menggunakan AI (Free: 5 AI limit, Premium: 3 AI limit)",
+      "description": "Ubah foto menjadi gaya Japanese Anime, Studio Ghibli, dll menggunakan AI (Free: 4 AI limit, Grup Prem: 3, User Prem: 2)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -4380,6 +4362,8 @@
       "tags": [
         "jadianime",
         "toanime",
+        "toghibli",
+        "jadighibli",
         "ai",
         "limit-ai",
         "limit ai"
@@ -4519,23 +4503,6 @@
       ]
     },
     {
-      "name": "JoinMode",
-      "aliases": [],
-      "category": "bot",
-      "path": "/command/bot/JoinMode",
-      "description": "Toggle join command (izin join grup)",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "tags": [
-        "joinmode",
-        "bot"
-      ]
-    },
-    {
       "name": "JoinReq",
       "aliases": [],
       "category": "group_admin",
@@ -4664,26 +4631,6 @@
       ]
     },
     {
-      "name": "Konachan",
-      "aliases": [],
-      "category": "waifu",
-      "path": "/command/waifu/Konachan",
-      "description": "Cari wallpaper anime resolusi tinggi di Konachan",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "tags": [
-        "konachan",
-        "kona",
-        "waifu",
-        "limit",
-        "limit harian"
-      ]
-    },
-    {
       "name": "Lang",
       "aliases": [],
       "category": "tools",
@@ -4799,7 +4746,7 @@
       "path": "/command/tools/Lens",
       "description": "Cari informasi dari gambar menggunakan Google Lens (kirim atau reply gambar lalu ketik perintah)",
       "permissions": {},
-      "premiumOnly": "all",
+      "premiumOnly": "",
       "limitCost": 0,
       "limitType": "none",
       "nsfwOnly": false,
@@ -4807,9 +4754,7 @@
       "tags": [
         "lens",
         "googlelens",
-        "tools",
-        "premium",
-        "vip"
+        "tools"
       ]
     },
     {
@@ -4930,7 +4875,7 @@
       "aliases": [],
       "category": "group_admin",
       "path": "/command/group_admin/ListAktif",
-      "description": "Lihat daftar member yang aktif hari ini beserta total pesannya",
+      "description": "Lihat daftar member yang aktif hari ini beserta jumlah pesannya",
       "permissions": {
         "admin": true,
         "moderator": true
@@ -4953,8 +4898,8 @@
       "path": "/command/group_security/ListBanMember",
       "description": "Tampilkan daftar anggota yang diblokir bot di grup ini",
       "permissions": {
-        "admin": true,
-        "moderator": true
+        "moderator": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -6238,7 +6183,7 @@
       "aliases": [],
       "category": "downloader",
       "path": "/command/downloader/Pixiv",
-      "description": "Download artwork NSFW dari Pixiv (pencarian atau ID/URL)",
+      "description": "Download artwork dari Pixiv (pencarian interaktif atau ID/URL)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -6563,6 +6508,24 @@
       "delaySeconds": 0,
       "tags": [
         "readqris",
+        "tools"
+      ]
+    },
+    {
+      "name": "ReadViewOnce",
+      "aliases": [],
+      "category": "tools",
+      "path": "/command/tools/ReadViewOnce",
+      "description": "Merespon pesan Sekali Lihat (View Once) dengan teguran ramah untuk menghargai privasi",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "tags": [
+        "readviewonce",
+        "rvo",
         "tools"
       ]
     },
@@ -6995,6 +6958,28 @@
       ]
     },
     {
+      "name": "RussianRoulette",
+      "aliases": [],
+      "category": "game",
+      "path": "/command/game/RussianRoulette",
+      "description": "Mainkan game interaktif Russian Roulette taktis bergaya Buckshot (swipe reply pesan papan).",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "game",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "tags": [
+        "russianroulette",
+        "roulette",
+        "rroulette",
+        "shotgun",
+        "buckshot",
+        "game",
+        "limit-game"
+      ]
+    },
+    {
       "name": "Sad",
       "aliases": [],
       "category": "fun",
@@ -7012,31 +6997,11 @@
       ]
     },
     {
-      "name": "Safebooru",
-      "aliases": [],
-      "category": "waifu",
-      "path": "/command/waifu/Safebooru",
-      "description": "Cari anime art 100% aman (SFW) di Safebooru",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "tags": [
-        "safebooru",
-        "safe",
-        "waifu",
-        "limit",
-        "limit harian"
-      ]
-    },
-    {
       "name": "SambungKata",
       "aliases": [],
       "category": "game",
       "path": "/command/game/SambungKata",
-      "description": "Mulai sambung kata siapa cepat",
+      "description": "Game sambung kata cepat (default Bahasa Indonesia, gunakan .sambungkata en untuk Bahasa Inggris)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -7045,6 +7010,8 @@
       "delaySeconds": 3,
       "tags": [
         "sambungkata",
+        "wordchain",
+        "sambung",
         "game",
         "limit-game"
       ]
@@ -7722,7 +7689,9 @@
     },
     {
       "name": "Sider",
-      "aliases": [],
+      "aliases": [
+        "ceksider"
+      ],
       "category": "group_admin",
       "path": "/command/group_admin/Sider",
       "description": "Manajemen anggota pasif (sider) dan pembersihan grup",
@@ -7737,6 +7706,7 @@
       "delaySeconds": 0,
       "tags": [
         "sider",
+        "ceksider",
         "group_admin",
         "admin"
       ]
@@ -7971,16 +7941,14 @@
       "path": "/command/tools/Smooth",
       "description": "Haluskan video menggunakan interpolasi frame 120fps (Premium, maks. 1:30 menit)",
       "permissions": {},
-      "premiumOnly": "all",
+      "premiumOnly": "",
       "limitCost": 0,
       "limitType": "none",
       "nsfwOnly": false,
       "delaySeconds": 0,
       "tags": [
         "smooth",
-        "tools",
-        "premium",
-        "vip"
+        "tools"
       ]
     },
     {
@@ -8066,7 +8034,7 @@
       "path": "/command/tools/Stabilize",
       "description": "Menstabilkan video yang goyang (khusus premium, maks 5 menit)",
       "permissions": {},
-      "premiumOnly": "all",
+      "premiumOnly": "user",
       "limitCost": 0,
       "limitType": "none",
       "nsfwOnly": false,
@@ -8100,7 +8068,7 @@
       "aliases": [],
       "category": "bot",
       "path": "/command/bot/Stats",
-      "description": "Tampilkan statistik bot",
+      "description": "Tampilkan statistik bot (hari ini, 7d, 30d, bulanan, all-time) & tracker lonjakan error",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -8270,6 +8238,26 @@
         "sticker",
         "limit",
         "limit harian"
+      ]
+    },
+    {
+      "name": "Stitch",
+      "aliases": [],
+      "category": "tools",
+      "path": "/command/tools/Stitch",
+      "description": "Gabungkan 2 hingga 15 gambar atau album foto secara horizontal atau vertikal",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "tags": [
+        "stitch",
+        "collage",
+        "gabung",
+        "gabungfoto",
+        "tools"
       ]
     },
     {
@@ -8956,7 +8944,7 @@
       "aliases": [],
       "category": "general",
       "path": "/command/general/Top",
-      "description": "Melihat leaderboard/top rank bot berdasarkan level, chat, command, atau durasi AFK",
+      "description": "Melihat leaderboard/top rank bot berdasarkan level, chat, command, atau daily streak",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -8973,7 +8961,7 @@
       "aliases": [],
       "category": "group_admin",
       "path": "/command/group_admin/TopActive",
-      "description": "Menampilkan anggota paling aktif di grup berdasarkan jumlah pesan",
+      "description": "Menampilkan anggota paling aktif di grup (hari ini, 7d, 30d, bulanan, atau all-time)",
       "permissions": {
         "admin": true,
         "moderator": true
@@ -9267,6 +9255,7 @@
         "minimax",
         "wan",
         "seedance",
+        "grok",
         "ai",
         "limit-ai",
         "limit ai"
@@ -9387,8 +9376,8 @@
       "path": "/command/group_security/UnmuteMember",
       "description": "Unmute anggota tertentu di grup",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -9567,7 +9556,7 @@
       "aliases": [],
       "category": "waifu",
       "path": "/command/waifu/Waifu",
-      "description": "Koleksi foto/art anime waifu acak atau sesuai nama karakter",
+      "description": "Koleksi foto/art anime waifu (acak, pencarian interaktif, atau URL post)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -9738,6 +9727,33 @@
       ]
     },
     {
+      "name": "WhatsAppStatus",
+      "aliases": [
+        "sw",
+        "statuswa",
+        "swlist",
+        "listsw"
+      ],
+      "category": "tools",
+      "path": "/command/tools/WhatsAppStatus",
+      "description": "Ambil atau lihat pembaruan status WhatsApp yang diterima oleh bot",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "tags": [
+        "whatsappstatus",
+        "sw",
+        "statuswa",
+        "swlist",
+        "listsw",
+        "getsw",
+        "tools"
+      ]
+    },
+    {
       "name": "Wink",
       "aliases": [],
       "category": "fun",
@@ -9776,7 +9792,7 @@
       "aliases": [],
       "category": "game",
       "path": "/command/game/Wordle",
-      "description": "Mulai game tebak kata Wordle / Katla 5 huruf",
+      "description": "Game tebak kata 5 huruf Wordle / Katla (default Bahasa Indonesia, gunakan .wordle en untuk bahasa Inggris)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -9785,6 +9801,7 @@
       "delaySeconds": 3,
       "tags": [
         "wordle",
+        "katla",
         "game",
         "limit-game"
       ]
@@ -9824,26 +9841,6 @@
         "rednote",
         "xhs",
         "downloader",
-        "limit",
-        "limit harian"
-      ]
-    },
-    {
-      "name": "Yandere",
-      "aliases": [],
-      "category": "waifu",
-      "path": "/command/waifu/Yandere",
-      "description": "Cari anime art dan wallpaper langsung di Yande.re",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "tags": [
-        "yandere",
-        "yan",
-        "waifu",
         "limit",
         "limit harian"
       ]
@@ -10090,7 +10087,7 @@
       "aliases": [],
       "category": "waifu",
       "path": "/command/waifu/Zerochan",
-      "description": "Cari anime art dan wallpaper dari seniman di Zerochan",
+      "description": "Cari anime art dan wallpaper beresolusi tinggi di Zerochan (pencarian interaktif atau URL)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,

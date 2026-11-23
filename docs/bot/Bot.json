@@ -15,8 +15,8 @@
     "bot"
   ],
   "description": {
-    "en": "Responds to bot greeting with latency",
-    "id": "Merespon sapaan bot dengan latency"
+    "id": "Merespon sapaan bot dengan latency",
+    "en": "Responds to bot greeting with latency"
   },
   "usage": "Bot",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/bot",
     "line": 27
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

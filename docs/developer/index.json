@@ -327,9 +327,7 @@
       "aliases": [],
       "category": "developer",
       "permissions": {
-        "owner": true,
-        "subowner": true,
-        "moderator": true
+        "owner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -342,8 +340,7 @@
         "errors",
         "errlog",
         "developer",
-        "owner",
-        "subowner"
+        "owner"
       ]
     },
     {
@@ -379,9 +376,9 @@
       "aliases": [],
       "category": "developer",
       "permissions": {
+        "owner": true,
         "moderator": true,
-        "subowner": true,
-        "owner": true
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -461,9 +458,9 @@
       "aliases": [],
       "category": "developer",
       "permissions": {
-        "moderator": true,
         "subowner": true,
-        "owner": true
+        "owner": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,

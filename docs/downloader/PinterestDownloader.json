@@ -21,8 +21,8 @@
     "ptdl"
   ],
   "description": {
-    "id": "Download foto/video dari Pinterest",
-    "en": "Download photo/video from Pinterest"
+    "en": "Download photo/video from Pinterest",
+    "id": "Download foto/video dari Pinterest"
   },
   "usage": "PinterestDownloader",
   "examples": [
@@ -62,5 +62,5 @@
     "file": "internal/plugins/downloader",
     "line": 178
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

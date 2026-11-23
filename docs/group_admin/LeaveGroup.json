@@ -42,9 +42,9 @@
     "group_community"
   ],
   "chatTypes": {
-    "private": true,
     "group": true,
-    "group_community": true
+    "group_community": true,
+    "private": true
   },
   "permissions": {
     "admin": true,
@@ -79,7 +79,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 236
+    "line": 301
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

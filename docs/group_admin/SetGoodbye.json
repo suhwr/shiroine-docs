@@ -17,8 +17,8 @@
     "setgoodbye"
   ],
   "description": {
-    "en": "Set group goodbye message or cover",
-    "id": "Atur pesan atau cover goodbye grup"
+    "id": "Atur pesan atau cover goodbye grup",
+    "en": "Set group goodbye message or cover"
   },
   "usage": "SetGoodbye",
   "examples": [
@@ -68,7 +68,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 151
+    "line": 155
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

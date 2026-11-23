@@ -15,8 +15,8 @@
     "getmsgid"
   ],
   "description": {
-    "en": "Get Message ID from the quoted/replied message",
-    "id": "Ambil Message ID dari pesan yang di-quote/reply"
+    "id": "Ambil Message ID dari pesan yang di-quote/reply",
+    "en": "Get Message ID from the quoted/replied message"
   },
   "usage": "GetMsgID",
   "examples": [
@@ -57,5 +57,5 @@
     "file": "internal/plugins/tools",
     "line": 46
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

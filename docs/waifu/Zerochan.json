@@ -18,13 +18,14 @@
     "zc"
   ],
   "description": {
-    "id": "Cari anime art dan wallpaper dari seniman di Zerochan",
-    "en": "Search anime art and wallpapers from artists on Zerochan"
+    "id": "Cari anime art dan wallpaper beresolusi tinggi di Zerochan (pencarian interaktif atau URL)",
+    "en": "Search high-resolution anime art and wallpapers on Zerochan (interactive or URL)"
   },
   "usage": "Zerochan",
   "examples": [
     ".zerochan frieren",
-    ".zc alya"
+    ".zc raiden shogun",
+    ".zerochan https://www.zerochan.net/4368063"
   ],
   "minArgs": 0,
   "args": {},
@@ -58,7 +59,7 @@
   },
   "source": {
     "file": "internal/plugins/anime",
-    "line": 370
+    "line": 1068
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

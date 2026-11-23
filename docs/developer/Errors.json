@@ -43,9 +43,7 @@
     "newsletter": true
   },
   "permissions": {
-    "owner": true,
-    "subowner": true,
-    "moderator": true
+    "owner": true
   },
   "premiumOnly": "",
   "nsfwOnly": false,
@@ -73,7 +71,7 @@
   },
   "source": {
     "file": "internal/plugins/developer",
-    "line": 166
+    "line": 165
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

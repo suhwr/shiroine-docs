@@ -15,8 +15,8 @@
     "compress"
   ],
   "description": {
-    "id": "Kompresi gambar cerdas dengan kualitas optimal, progressive scan & hemat ukuran",
-    "en": "Smart image compression with progressive scan, optimal quality & maximum size savings"
+    "en": "Smart image compression with progressive scan, optimal quality & maximum size savings",
+    "id": "Kompresi gambar cerdas dengan kualitas optimal, progressive scan & hemat ukuran"
   },
   "usage": "Compress",
   "examples": [
@@ -59,7 +59,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 173
+    "line": 174
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

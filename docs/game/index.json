@@ -370,10 +370,35 @@
       ]
     },
     {
+      "name": "RussianRoulette",
+      "description": "Mainkan game interaktif Russian Roulette taktis bergaya Buckshot (swipe reply pesan papan).",
+      "descriptionId": "Mainkan game interaktif Russian Roulette taktis bergaya Buckshot (swipe reply pesan papan).",
+      "descriptionEn": "Play interactive tactical Russian Roulette game (swipe reply board message).",
+      "aliases": [],
+      "category": "game",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "game",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "requireMedia": [],
+      "tags": [
+        "russianroulette",
+        "roulette",
+        "rroulette",
+        "shotgun",
+        "buckshot",
+        "game",
+        "limit-game"
+      ]
+    },
+    {
       "name": "SambungKata",
-      "description": "Mulai sambung kata siapa cepat",
-      "descriptionId": "Mulai sambung kata siapa cepat",
-      "descriptionEn": "Start a fast word chain",
+      "description": "Game sambung kata cepat (default Bahasa Indonesia, gunakan .sambungkata en untuk Bahasa Inggris)",
+      "descriptionId": "Game sambung kata cepat (default Bahasa Indonesia, gunakan .sambungkata en untuk Bahasa Inggris)",
+      "descriptionEn": "Fast word chain game (default Indonesian, use .sambungkata en for English)",
       "aliases": [],
       "category": "game",
       "permissions": {},
@@ -386,6 +411,8 @@
       "requireMedia": [],
       "tags": [
         "sambungkata",
+        "wordchain",
+        "sambung",
         "game",
         "limit-game"
       ]
@@ -605,9 +632,9 @@
     },
     {
       "name": "Wordle",
-      "description": "Mulai game tebak kata Wordle / Katla 5 huruf",
-      "descriptionId": "Mulai game tebak kata Wordle / Katla 5 huruf",
-      "descriptionEn": "Start 5-letter Wordle / Katla guessing game",
+      "description": "Game tebak kata 5 huruf Wordle / Katla (default Bahasa Indonesia, gunakan .wordle en untuk bahasa Inggris)",
+      "descriptionId": "Game tebak kata 5 huruf Wordle / Katla (default Bahasa Indonesia, gunakan .wordle en untuk bahasa Inggris)",
+      "descriptionEn": "5-letter Wordle guessing game (default Indonesian, use .wordle en for English)",
       "aliases": [],
       "category": "game",
       "permissions": {},
@@ -620,6 +647,7 @@
       "requireMedia": [],
       "tags": [
         "wordle",
+        "katla",
         "game",
         "limit-game"
       ]

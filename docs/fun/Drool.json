@@ -15,8 +15,8 @@
     "drool"
   ],
   "description": {
-    "en": "React with drool",
-    "id": "Reaksi drool"
+    "id": "Reaksi drool",
+    "en": "React with drool"
   },
   "usage": "Drool",
   "examples": [
@@ -56,5 +56,5 @@
     "file": "internal/plugins/fun",
     "line": 1
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

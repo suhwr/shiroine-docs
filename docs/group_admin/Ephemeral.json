@@ -15,8 +15,8 @@
     "ephemeral"
   ],
   "description": {
-    "en": "Configure disappearing / ephemeral messages in group",
-    "id": "Atur pesan sementara (ephemeral / hilang otomatis) di grup"
+    "id": "Atur pesan sementara (ephemeral / hilang otomatis) di grup",
+    "en": "Configure disappearing / ephemeral messages in group"
   },
   "usage": "Ephemeral",
   "examples": [
@@ -67,5 +67,5 @@
     "file": "internal/plugins/group_admin",
     "line": 1
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }
