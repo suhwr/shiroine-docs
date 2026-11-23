@@ -17,8 +17,8 @@
     "autorespo"
   ],
   "description": {
-    "en": "Manage group auto-response system",
-    "id": "Kelola sistem autorespon pesan otomatis grup"
+    "id": "Kelola sistem autorespon pesan otomatis grup",
+    "en": "Manage group auto-response system"
   },
   "usage": "AutoRespon",
   "examples": [
@@ -74,7 +74,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 437
+    "line": 432
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

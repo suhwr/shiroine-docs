@@ -15,8 +15,8 @@
     "cekpremium"
   ],
   "description": {
-    "id": "Cek sisa durasi premium",
-    "en": "Check remaining premium duration"
+    "id": "Cek status dan sisa durasi premium akun maupun grup",
+    "en": "Check premium status and remaining duration for your account and group"
   },
   "usage": "CekPremium",
   "examples": [
@@ -54,7 +54,7 @@
   },
   "source": {
     "file": "internal/plugins/profile",
-    "line": 453
+    "line": 568
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

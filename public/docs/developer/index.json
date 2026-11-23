@@ -230,9 +230,7 @@
       "name": "Errors",
       "description": "View dependency error logs",
       "permissions": {
-        "owner": true,
-        "subowner": true,
-        "moderator": true
+        "owner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -286,9 +284,9 @@
       "name": "HardBan",
       "description": "Ban user globally (permanent)",
       "permissions": {
-        "moderator": true,
         "subowner": true,
-        "owner": true
+        "owner": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -305,9 +303,9 @@
       "name": "HardBanGC",
       "description": "Ban group globally (all bots)",
       "permissions": {
-        "owner": true,
         "subowner": true,
-        "moderator": true
+        "moderator": true,
+        "owner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -325,9 +323,9 @@
       "name": "HardBanList",
       "description": "Show global ban list",
       "permissions": {
-        "moderator": true,
         "subowner": true,
-        "owner": true
+        "owner": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,

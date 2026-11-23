@@ -15,8 +15,8 @@
     "audioeffect"
   ],
   "description": {
-    "id": "Tampilkan daftar semua audio effect yang tersedia",
-    "en": "Show list of all available audio effects"
+    "en": "Show list of all available audio effects",
+    "id": "Tampilkan daftar semua audio effect yang tersedia"
   },
   "usage": "AudioEffect",
   "examples": [
@@ -54,7 +54,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 650
+    "line": 655
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

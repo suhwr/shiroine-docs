@@ -18,6 +18,23 @@
       ]
     },
     {
+      "name": "AntiKudeta",
+      "description": "Protect group from unauthorized admin or manual bot account takeover",
+      "permissions": {
+        "admin": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "antikudeta",
+        "antitakeover"
+      ]
+    },
+    {
       "name": "AntiLink",
       "description": "Configure AntiLink system to block prohibited links in group",
       "permissions": {
@@ -55,8 +72,8 @@
       "name": "AntiNSFWMedia",
       "description": "Enable automatic NSFW media filter in group",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -143,8 +160,8 @@
       "name": "ListBanMember",
       "description": "Show list of members banned by bot in this group",
       "permissions": {
-        "admin": true,
-        "moderator": true
+        "moderator": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -179,8 +196,8 @@
       "name": "ListWarning",
       "description": "View all members with active warnings in the group",
       "permissions": {
-        "admin": true,
-        "moderator": true
+        "moderator": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,

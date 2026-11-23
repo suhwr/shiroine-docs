@@ -1,26 +1,40 @@
 {
-  "name": "AutoDelete",
+  "name": "WhatsAppStatus",
   "commands": [
-    "autodelete"
+    "getsw",
+    "whatsappstatus"
   ],
-  "aliases": [],
+  "aliases": [
+    "sw",
+    "statuswa",
+    "swlist",
+    "listsw"
+  ],
   "display": [
-    "AutoDelete"
+    "WhatsAppStatus"
   ],
-  "category": "bot",
+  "category": "tools",
   "categories": [
-    "bot"
+    "tools"
   ],
   "tags": [
-    "autodelete"
+    "getsw",
+    "whatsappstatus",
+    "sw",
+    "statuswa",
+    "swlist",
+    "listsw"
   ],
   "description": {
-    "id": "Aktifkan/nonaktifkan penghapusan chat otomatis setiap tengah malam",
-    "en": "Enable/disable automatic chat deletion every midnight"
+    "id": "Ambil atau lihat pembaruan status WhatsApp yang diterima oleh bot",
+    "en": "Fetch or view WhatsApp status updates collected by the bot"
   },
-  "usage": "AutoDelete",
+  "usage": "WhatsAppStatus",
   "examples": [
-    "autodelete on"
+    "sw list",
+    "getsw 1",
+    "getsw 62812xxx",
+    "getsw 62812xxx all"
   ],
   "minArgs": 0,
   "args": {},
@@ -53,8 +67,8 @@
     "video": ""
   },
   "source": {
-    "file": "internal/plugins/bot",
-    "line": 152
+    "file": "internal/plugins/tools",
+    "line": 291
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

@@ -16,34 +16,6 @@
       ]
     },
     {
-      "name": "AutoClear",
-      "description": "Enable/disable automatic chat clearing every midnight",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "autoclear"
-      ]
-    },
-    {
-      "name": "AutoDelete",
-      "description": "Enable/disable automatic chat deletion every midnight",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "autodelete"
-      ]
-    },
-    {
       "name": "AutoRead",
       "description": "Enable/disable auto-read message feature",
       "permissions": {},
@@ -224,20 +196,6 @@
       "minArgs": 0,
       "tags": [
         "jadibot"
-      ]
-    },
-    {
-      "name": "JoinMode",
-      "description": "Toggle join command (group join permission)",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "joinmode"
       ]
     },
     {
@@ -443,7 +401,7 @@
     },
     {
       "name": "Stats",
-      "description": "Show bot statistics",
+      "description": "Show bot statistics (today, 7d, 30d, monthly, all-time) & error spike tracker",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,

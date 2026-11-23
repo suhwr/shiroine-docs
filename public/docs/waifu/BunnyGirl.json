@@ -18,8 +18,8 @@
     "bunnygirl"
   ],
   "description": {
-    "en": "Random anime bunny girl art",
-    "id": "Koleksi foto/art anime berkostum bunny"
+    "id": "Koleksi foto/art anime berkostum bunny",
+    "en": "Random anime bunny girl art"
   },
   "usage": "BunnyGirl",
   "examples": [
@@ -58,7 +58,7 @@
   },
   "source": {
     "file": "internal/plugins/anime",
-    "line": 274
+    "line": 996
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

@@ -193,7 +193,7 @@
     },
     {
       "name": "Pixiv",
-      "description": "Download NSFW artwork from Pixiv (search or ID/URL)",
+      "description": "Download artwork from Pixiv (interactive search or ID/URL)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,

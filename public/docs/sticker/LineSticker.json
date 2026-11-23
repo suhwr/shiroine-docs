@@ -19,8 +19,8 @@
     "line"
   ],
   "description": {
-    "en": "Download sticker packs from LINE Store and send them as WhatsApp stickers (static and animated).",
-    "id": "Download stiker pack dari LINE Store dan kirim sebagai stiker WhatsApp (stiker statis maupun animasi)."
+    "id": "Download stiker pack dari LINE Store dan kirim sebagai stiker WhatsApp (stiker statis maupun animasi).",
+    "en": "Download sticker packs from LINE Store and send them as WhatsApp stickers (static and animated)."
   },
   "usage": "LineSticker",
   "examples": [
@@ -61,5 +61,5 @@
     "file": "internal/plugins/downloader",
     "line": 121
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

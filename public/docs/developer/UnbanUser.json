@@ -21,8 +21,8 @@
     "unblacklist"
   ],
   "description": {
-    "en": "Unban a user from all bots you own",
-    "id": "Unban user dari semua bot yang kamu miliki"
+    "id": "Unban user dari semua bot yang kamu miliki",
+    "en": "Unban a user from all bots you own"
   },
   "usage": "UnbanUser",
   "examples": [
@@ -76,5 +76,5 @@
     "file": "internal/plugins/developer",
     "line": 146
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

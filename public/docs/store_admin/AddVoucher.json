@@ -19,8 +19,8 @@
     "createvoucher"
   ],
   "description": {
-    "en": "Add store discount voucher coupon (Store Staff / Owner)",
-    "id": "Tambah kupon voucher diskon toko (Staff / Owner Toko)"
+    "id": "Tambah kupon voucher diskon toko (Staff / Owner Toko)",
+    "en": "Add store discount voucher coupon (Store Staff / Owner)"
   },
   "usage": "AddVoucher",
   "examples": [
@@ -60,5 +60,5 @@
     "file": "internal/plugins/store",
     "line": 203
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

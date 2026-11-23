@@ -1,0 +1,73 @@
+{
+  "name": "ReadViewOnce",
+  "commands": [
+    "rvo",
+    "readviewonce"
+  ],
+  "aliases": [],
+  "display": [
+    "ReadViewOnce"
+  ],
+  "category": "tools",
+  "categories": [
+    "tools"
+  ],
+  "tags": [
+    "rvo",
+    "readviewonce"
+  ],
+  "description": {
+    "id": "Merespon pesan Sekali Lihat (View Once) dengan teguran ramah untuk menghargai privasi",
+    "en": "Respond to View Once messages with friendly reminders to respect privacy"
+  },
+  "usage": "ReadViewOnce",
+  "examples": [
+    "rvo (reply pesan view once)",
+    "rvo (reply view-once message)"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "private",
+    "group",
+    "group_community",
+    "newsletter"
+  ],
+  "chatTypes": {
+    "private": true,
+    "group": true,
+    "group_community": true,
+    "newsletter": true
+  },
+  "permissions": {},
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/tools",
+    "line": 284
+  },
+  "lastUpdated": "2026-11-23T20:18:48Z"
+}

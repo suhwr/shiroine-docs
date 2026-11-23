@@ -35,8 +35,8 @@
     "pengumuman"
   ],
   "description": {
-    "en": "Unified group scheduling system (open/close chat, reminders, hidetag, reset link)",
-    "id": "Sistem penjadwalan terpadu grup (buka/tutup chat, pesan rutin, hidetag, reset link)"
+    "id": "Sistem penjadwalan terpadu grup (buka/tutup chat, pesan rutin, hidetag, reset link)",
+    "en": "Unified group scheduling system (open/close chat, reminders, hidetag, reset link)"
   },
   "usage": "ScheduleGroup",
   "examples": [
@@ -65,8 +65,8 @@
     "group_community"
   ],
   "chatTypes": {
-    "group_community": true,
-    "group": true
+    "group": true,
+    "group_community": true
   },
   "permissions": {
     "admin": true,
@@ -98,7 +98,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 1168
+    "line": 1182
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

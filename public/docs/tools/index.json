@@ -144,7 +144,7 @@
       "name": "BestFrame",
       "description": "Extract the best frame from a video based on visual quality (sharpness, blur, etc.)",
       "permissions": {},
-      "premiumOnly": "all",
+      "premiumOnly": "",
       "limitCost": 0,
       "limitType": "none",
       "nsfwOnly": false,
@@ -514,7 +514,7 @@
       "name": "Lens",
       "description": "Search image information using Google Lens (send or reply to an image then type the command)",
       "permissions": {},
-      "premiumOnly": "all",
+      "premiumOnly": "",
       "limitCost": 0,
       "limitType": "none",
       "nsfwOnly": false,
@@ -729,6 +729,21 @@
       ]
     },
     {
+      "name": "ReadViewOnce",
+      "description": "Respond to View Once messages with friendly reminders to respect privacy",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "rvo",
+        "readviewonce"
+      ]
+    },
+    {
       "name": "RemoveBG",
       "description": "Remove photo/sticker background using AI (models: pixelcut, removebg, rembg, local)",
       "permissions": {},
@@ -854,7 +869,7 @@
       "name": "Smooth",
       "description": "Smooth video with 120fps frame interpolation (Premium, max. 1:30 min)",
       "permissions": {},
-      "premiumOnly": "all",
+      "premiumOnly": "",
       "limitCost": 0,
       "limitType": "none",
       "nsfwOnly": false,
@@ -868,7 +883,7 @@
       "name": "Stabilize",
       "description": "Stabilize shaky video (premium only, max 5 min)",
       "permissions": {},
-      "premiumOnly": "all",
+      "premiumOnly": "",
       "limitCost": 0,
       "limitType": "none",
       "nsfwOnly": false,
@@ -876,6 +891,23 @@
       "minArgs": 0,
       "tags": [
         "stabilize"
+      ]
+    },
+    {
+      "name": "Stitch",
+      "description": "Stitch 2 up to 15 images or photo albums horizontally or vertically",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "stitch",
+        "collage",
+        "gabung",
+        "gabungfoto"
       ]
     },
     {
@@ -1108,6 +1140,25 @@
       "tags": [
         "whatmusic",
         "whatsong"
+      ]
+    },
+    {
+      "name": "WhatsAppStatus",
+      "description": "Fetch or view WhatsApp status updates collected by the bot",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "delaySeconds": 0,
+      "minArgs": 0,
+      "tags": [
+        "getsw",
+        "whatsappstatus",
+        "sw",
+        "statuswa",
+        "swlist",
+        "listsw"
       ]
     }
   ]

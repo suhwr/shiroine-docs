@@ -16,7 +16,7 @@
     },
     {
       "name": "CekPremium",
-      "description": "Check remaining premium duration",
+      "description": "Check premium status and remaining duration for your account and group",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,

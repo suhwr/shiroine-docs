@@ -21,8 +21,8 @@
     "shop"
   ],
   "description": {
-    "en": "Purchase premium subscription using balance with 5% discount",
-    "id": "Beli paket premium langganan via saldo balance dengan diskon 5%"
+    "id": "Beli paket premium langganan via saldo balance dengan diskon 5%",
+    "en": "Purchase premium subscription using balance with 5% discount"
   },
   "usage": "BuyPrem",
   "examples": [
@@ -61,7 +61,7 @@
   },
   "source": {
     "file": "internal/plugins/general",
-    "line": 482
+    "line": 503
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

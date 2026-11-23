@@ -1,0 +1,77 @@
+{
+  "name": "AntiKudeta",
+  "commands": [
+    "antikudeta",
+    "antitakeover"
+  ],
+  "aliases": [],
+  "display": [
+    "AntiKudeta"
+  ],
+  "category": "group_security",
+  "categories": [
+    "group_security"
+  ],
+  "tags": [
+    "antikudeta",
+    "antitakeover"
+  ],
+  "description": {
+    "id": "Lindungi grup dari kudeta/takeover admin tak tepercaya dan akun bot manual",
+    "en": "Protect group from unauthorized admin or manual bot account takeover"
+  },
+  "usage": "AntiKudeta",
+  "examples": [
+    "antikudeta",
+    "antikudeta on",
+    "antikudeta off",
+    "antikudeta trust @admin",
+    "antikudeta untrust @admin",
+    "antikudeta list",
+    "antikudeta set announce on",
+    "antikudeta set default"
+  ],
+  "minArgs": 0,
+  "args": {},
+  "requireMedia": [],
+  "chatPermissions": [
+    "group",
+    "group_community"
+  ],
+  "chatTypes": {
+    "group": true,
+    "group_community": true
+  },
+  "permissions": {
+    "admin": true
+  },
+  "premiumOnly": "",
+  "nsfwOnly": false,
+  "level": 0,
+  "limitCost": 0,
+  "delaySeconds": 0,
+  "ignoreQueue": false,
+  "disableProcessLimit": false,
+  "sendsToPrivate": false,
+  "showPromotion": false,
+  "disabled": false,
+  "disabledReason": "",
+  "customArgsMessage": {
+    "_default": "MissingArguments"
+  },
+  "status": {
+    "enabled": true,
+    "beta": false,
+    "deprecated": false,
+    "hidden": false
+  },
+  "media": {
+    "image": "",
+    "video": ""
+  },
+  "source": {
+    "file": "internal/plugins/group",
+    "line": 463
+  },
+  "lastUpdated": "2026-11-23T20:18:48Z"
+}

@@ -22,8 +22,8 @@
     "cekjob"
   ],
   "description": {
-    "id": "Periksa status pekerjaan video AI yang sedang diproses",
-    "en": "Check the status of an ongoing AI video job"
+    "en": "Check the status of an ongoing AI video job",
+    "id": "Periksa status pekerjaan video AI yang sedang diproses"
   },
   "usage": "JobStatus",
   "examples": [
@@ -62,7 +62,7 @@
   },
   "source": {
     "file": "internal/plugins/ai",
-    "line": 578
+    "line": 677
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

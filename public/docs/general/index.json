@@ -290,7 +290,7 @@
     },
     {
       "name": "Top",
-      "description": "View bot leaderboard/top rank by level, chat, command, or AFK duration",
+      "description": "View bot leaderboard/top rank by level, chat, command, or daily streak",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,

@@ -120,9 +120,9 @@
     },
     {
       "name": "Imagine",
-      "description": "Generate AI images via Flare 2.5, Grok, Nano Banana (Premium Users Only, Cost: 3-5 AI Limits).",
+      "description": "Generate AI images via Flare 2.5, Grok, Nano Banana (User Premium: 3-5 AI Limits, Group Premium: 5-8 AI Limits).",
       "permissions": {},
-      "premiumOnly": "user",
+      "premiumOnly": "all",
       "limitCost": 0,
       "limitType": "ai",
       "nsfwOnly": false,
@@ -139,7 +139,7 @@
     },
     {
       "name": "JadiAnime",
-      "description": "Convert photo to 2D anime or Arcane style using AI (Free: 5 AI limit, Premium: 3 AI limit)",
+      "description": "Convert photo to Japanese Anime, Studio Ghibli, etc. using AI (Free: 4 AI limits, Group Prem: 3, User Prem: 2)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -149,7 +149,9 @@
       "minArgs": 0,
       "tags": [
         "jadianime",
-        "toanime"
+        "toanime",
+        "toghibli",
+        "jadighibli"
       ]
     },
     {
@@ -240,7 +242,8 @@
         "veo",
         "minimax",
         "wan",
-        "seedance"
+        "seedance",
+        "grok"
       ]
     },
     {

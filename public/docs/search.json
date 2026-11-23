@@ -135,9 +135,9 @@
       "aliases": [],
       "category": "ai",
       "path": "/command/ai/Imagine",
-      "description": "Generate AI images via Flare 2.5, Grok, Nano Banana (Premium Users Only, Cost: 3-5 AI Limits).",
+      "description": "Generate AI images via Flare 2.5, Grok, Nano Banana (User Premium: 3-5 AI Limits, Group Premium: 5-8 AI Limits).",
       "permissions": {},
-      "premiumOnly": "user",
+      "premiumOnly": "all",
       "limitCost": 0,
       "limitType": "ai",
       "nsfwOnly": false,
@@ -155,7 +155,7 @@
       "aliases": [],
       "category": "ai",
       "path": "/command/ai/JadiAnime",
-      "description": "Convert photo to 2D anime or Arcane style using AI (Free: 5 AI limit, Premium: 3 AI limit)",
+      "description": "Convert photo to Japanese Anime, Studio Ghibli, etc. using AI (Free: 4 AI limits, Group Prem: 3, User Prem: 2)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -163,7 +163,9 @@
       "nsfwOnly": false,
       "tags": [
         "jadianime",
-        "toanime"
+        "toanime",
+        "toghibli",
+        "jadighibli"
       ]
     },
     {
@@ -273,7 +275,8 @@
         "veo",
         "minimax",
         "wan",
-        "seedance"
+        "seedance",
+        "grok"
       ]
     },
     {
@@ -391,14 +394,16 @@
       "aliases": [],
       "category": "animanga",
       "path": "/command/waifu/Danbooru",
-      "description": "Search anime art and wallpaper directly from Danbooru",
+      "description": "Search anime art and wallpaper directly from Danbooru (interactive or URL)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
       "limitType": "daily",
       "nsfwOnly": false,
       "tags": [
-        "danbooru"
+        "danbooru",
+        "db",
+        "booru"
       ]
     },
     {
@@ -449,22 +454,6 @@
       "tags": [
         "kitsune",
         "foxgirl"
-      ]
-    },
-    {
-      "name": "Konachan",
-      "aliases": [],
-      "category": "animanga",
-      "path": "/command/waifu/Konachan",
-      "description": "Search high-resolution anime wallpapers on Konachan",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "tags": [
-        "konachan",
-        "kona"
       ]
     },
     {
@@ -539,22 +528,6 @@
       ]
     },
     {
-      "name": "Safebooru",
-      "aliases": [],
-      "category": "animanga",
-      "path": "/command/waifu/Safebooru",
-      "description": "Search 100% safe anime art on Safebooru",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "tags": [
-        "safebooru",
-        "safe"
-      ]
-    },
-    {
       "name": "SauceNAO",
       "aliases": [],
       "category": "animanga",
@@ -608,7 +581,7 @@
       "aliases": [],
       "category": "animanga",
       "path": "/command/waifu/Waifu",
-      "description": "Random anime waifu photo/art or by character name",
+      "description": "Anime waifu art (random, interactive search, or post URL)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -637,27 +610,11 @@
       ]
     },
     {
-      "name": "Yandere",
-      "aliases": [],
-      "category": "animanga",
-      "path": "/command/waifu/Yandere",
-      "description": "Search anime art and wallpaper directly from Yande.re",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "tags": [
-        "yandere",
-        "yan"
-      ]
-    },
-    {
       "name": "Zerochan",
       "aliases": [],
       "category": "animanga",
       "path": "/command/waifu/Zerochan",
-      "description": "Search anime art and wallpapers from artists on Zerochan",
+      "description": "Search high-resolution anime art and wallpapers on Zerochan (interactive or URL)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -985,36 +942,6 @@
       ]
     },
     {
-      "name": "AutoClear",
-      "aliases": [],
-      "category": "bot",
-      "path": "/command/bot/AutoClear",
-      "description": "Enable/disable automatic chat clearing every midnight",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "autoclear"
-      ]
-    },
-    {
-      "name": "AutoDelete",
-      "aliases": [],
-      "category": "bot",
-      "path": "/command/bot/AutoDelete",
-      "description": "Enable/disable automatic chat deletion every midnight",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "autodelete"
-      ]
-    },
-    {
       "name": "AutoRead",
       "aliases": [],
       "category": "bot",
@@ -1213,21 +1140,6 @@
       "nsfwOnly": false,
       "tags": [
         "jadibot"
-      ]
-    },
-    {
-      "name": "JoinMode",
-      "aliases": [],
-      "category": "bot",
-      "path": "/command/bot/JoinMode",
-      "description": "Toggle join command (group join permission)",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 0,
-      "limitType": "none",
-      "nsfwOnly": false,
-      "tags": [
-        "joinmode"
       ]
     },
     {
@@ -1449,7 +1361,7 @@
       "aliases": [],
       "category": "bot",
       "path": "/command/bot/Stats",
-      "description": "Show bot statistics",
+      "description": "Show bot statistics (today, 7d, 30d, monthly, all-time) & error spike tracker",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -1772,9 +1684,7 @@
       "path": "/command/developer/Errors",
       "description": "View dependency error logs",
       "permissions": {
-        "owner": true,
-        "subowner": true,
-        "moderator": true
+        "owner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -1831,9 +1741,9 @@
       "path": "/command/developer/HardBan",
       "description": "Ban user globally (permanent)",
       "permissions": {
+        "subowner": true,
         "owner": true,
-        "moderator": true,
-        "subowner": true
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -1851,9 +1761,9 @@
       "path": "/command/developer/HardBanGC",
       "description": "Ban group globally (all bots)",
       "permissions": {
-        "owner": true,
         "subowner": true,
-        "moderator": true
+        "moderator": true,
+        "owner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -2409,7 +2319,7 @@
       "aliases": [],
       "category": "downloader",
       "path": "/command/downloader/Pixiv",
-      "description": "Download NSFW artwork from Pixiv (search or ID/URL)",
+      "description": "Download artwork from Pixiv (interactive search or ID/URL)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -4089,18 +3999,39 @@
       ]
     },
     {
-      "name": "SambungKata",
+      "name": "RussianRoulette",
       "aliases": [],
       "category": "game",
-      "path": "/command/game/SambungKata",
-      "description": "Start a fast word chain",
+      "path": "/command/game/RussianRoulette",
+      "description": "Play interactive tactical Russian Roulette game (swipe reply board message).",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
       "limitType": "game",
       "nsfwOnly": false,
       "tags": [
-        "sambungkata"
+        "russianroulette",
+        "roulette",
+        "rroulette",
+        "shotgun",
+        "buckshot"
+      ]
+    },
+    {
+      "name": "SambungKata",
+      "aliases": [],
+      "category": "game",
+      "path": "/command/game/SambungKata",
+      "description": "Fast word chain game (default Indonesian, use .sambungkata en for English)",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "game",
+      "nsfwOnly": false,
+      "tags": [
+        "sambungkata",
+        "wordchain",
+        "sambung"
       ]
     },
     {
@@ -4261,14 +4192,15 @@
       "aliases": [],
       "category": "game",
       "path": "/command/game/Wordle",
-      "description": "Start 5-letter Wordle / Katla guessing game",
+      "description": "5-letter Wordle guessing game (default Indonesian, use .wordle en for English)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
       "limitType": "game",
       "nsfwOnly": false,
       "tags": [
-        "wordle"
+        "wordle",
+        "katla"
       ]
     },
     {
@@ -4583,7 +4515,7 @@
       "aliases": [],
       "category": "general",
       "path": "/command/general/Top",
-      "description": "View bot leaderboard/top rank by level, chat, command, or AFK duration",
+      "description": "View bot leaderboard/top rank by level, chat, command, or daily streak",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -4692,8 +4624,8 @@
       "path": "/command/group_admin/AntiCall",
       "description": "Configure automatic rejection of WhatsApp group calls",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -4747,8 +4679,8 @@
       "path": "/command/group_admin/AntiSpam",
       "description": "Configure anti spam flood protection in group",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -4821,8 +4753,8 @@
       "path": "/command/group_admin/AutoRespon",
       "description": "Manage group auto-response system",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -4894,8 +4826,7 @@
       "path": "/command/group_admin/Cmd",
       "description": "Disable or enable bot commands in this group individually or in bulk",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -4912,9 +4843,9 @@
       "path": "/command/group_admin/DebugPriority",
       "description": "Debug bot priority and cross-server routing status in group",
       "permissions": {
+        "admin": true,
         "owner": true,
-        "subowner": true,
-        "admin": true
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -4985,7 +4916,7 @@
       "aliases": [],
       "category": "group_admin",
       "path": "/command/group_admin/GStats",
-      "description": "Show group message statistics this month including top 3 most active members",
+      "description": "Show group message statistics (today, 7d, this month) including top 3 most active members",
       "permissions": {
         "admin": true,
         "moderator": true
@@ -5168,11 +5099,11 @@
       "path": "/command/group_admin/LeaveGroup",
       "description": "Remove bot from group or leave groups remotely",
       "permissions": {
-        "bot": true,
-        "hasbot": true,
         "admin": true,
         "owner": true,
-        "subowner": true
+        "subowner": true,
+        "bot": true,
+        "hasbot": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -5212,8 +5143,8 @@
       "path": "/command/group_admin/LinkGC",
       "description": "Get group invite link",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -5230,10 +5161,10 @@
       "aliases": [],
       "category": "group_admin",
       "path": "/command/group_admin/ListAktif",
-      "description": "View the list of members active today along with their total messages",
+      "description": "View the list of members active today with their message counts",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -5441,8 +5372,8 @@
       "path": "/command/group_admin/SetGoodbye",
       "description": "Set group goodbye message or cover",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -5500,8 +5431,8 @@
       "path": "/command/group_admin/SetSubject",
       "description": "Change group chat name",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -5550,7 +5481,9 @@
     },
     {
       "name": "Sider",
-      "aliases": [],
+      "aliases": [
+        "ceksider"
+      ],
       "category": "group_admin",
       "path": "/command/group_admin/Sider",
       "description": "Manage inactive members (siders) and group cleanup",
@@ -5563,7 +5496,8 @@
       "limitType": "none",
       "nsfwOnly": false,
       "tags": [
-        "sider"
+        "sider",
+        "ceksider"
       ]
     },
     {
@@ -5592,8 +5526,8 @@
       "path": "/command/group_admin/SimulateWelcome",
       "description": "Simulate group welcome message using your data as example",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -5627,8 +5561,8 @@
       "path": "/command/group_admin/TagAll",
       "description": "Tag all group members grouped by role",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -5644,7 +5578,7 @@
       "aliases": [],
       "category": "group_admin",
       "path": "/command/group_admin/TopActive",
-      "description": "Show most active members in the group based on message count",
+      "description": "Show most active members in the group (today, 7d, 30d, monthly, or all-time)",
       "permissions": {
         "admin": true,
         "moderator": true
@@ -5705,8 +5639,8 @@
       "path": "/command/group_security/AntiBot",
       "description": "Enable or disable anti-bot system for the group",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -5717,14 +5651,32 @@
       ]
     },
     {
+      "name": "AntiKudeta",
+      "aliases": [],
+      "category": "group_security",
+      "path": "/command/group_security/AntiKudeta",
+      "description": "Protect group from unauthorized admin or manual bot account takeover",
+      "permissions": {
+        "admin": true
+      },
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "antikudeta",
+        "antitakeover"
+      ]
+    },
+    {
       "name": "AntiLink",
       "aliases": [],
       "category": "group_security",
       "path": "/command/group_security/AntiLink",
       "description": "Configure AntiLink system to block prohibited links in group",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -5778,8 +5730,8 @@
       "path": "/command/group_security/BadWord",
       "description": "Manage group forbidden badwords filter and violation strikes",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -5852,8 +5804,8 @@
       "path": "/command/group_security/ListBanMember",
       "description": "Show list of members banned by bot in this group",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -5969,8 +5921,8 @@
       "path": "/command/group_security/UnbanMember",
       "description": "Unban member from the bot in this group",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -5988,8 +5940,8 @@
       "path": "/command/group_security/UnmuteMember",
       "description": "Unmute a specific member in the group",
       "permissions": {
-        "admin": true,
-        "moderator": true
+        "moderator": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -6504,7 +6456,7 @@
       "aliases": [],
       "category": "profile",
       "path": "/command/profile/CekPremium",
-      "description": "Check remaining premium duration",
+      "description": "Check premium status and remaining duration for your account and group",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 0,
@@ -7690,7 +7642,7 @@
       "path": "/command/tools/BestFrame",
       "description": "Extract the best frame from a video based on visual quality (sharpness, blur, etc.)",
       "permissions": {},
-      "premiumOnly": "all",
+      "premiumOnly": "",
       "limitCost": 0,
       "limitType": "none",
       "nsfwOnly": false,
@@ -8085,7 +8037,7 @@
       "path": "/command/tools/Lens",
       "description": "Search image information using Google Lens (send or reply to an image then type the command)",
       "permissions": {},
-      "premiumOnly": "all",
+      "premiumOnly": "",
       "limitCost": 0,
       "limitType": "none",
       "nsfwOnly": false,
@@ -8312,6 +8264,22 @@
       ]
     },
     {
+      "name": "ReadViewOnce",
+      "aliases": [],
+      "category": "tools",
+      "path": "/command/tools/ReadViewOnce",
+      "description": "Respond to View Once messages with friendly reminders to respect privacy",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "rvo",
+        "readviewonce"
+      ]
+    },
+    {
       "name": "RemoveBG",
       "aliases": [],
       "category": "tools",
@@ -8448,7 +8416,7 @@
       "path": "/command/tools/Smooth",
       "description": "Smooth video with 120fps frame interpolation (Premium, max. 1:30 min)",
       "permissions": {},
-      "premiumOnly": "all",
+      "premiumOnly": "",
       "limitCost": 0,
       "limitType": "none",
       "nsfwOnly": false,
@@ -8463,12 +8431,30 @@
       "path": "/command/tools/Stabilize",
       "description": "Stabilize shaky video (premium only, max 5 min)",
       "permissions": {},
-      "premiumOnly": "all",
+      "premiumOnly": "",
       "limitCost": 0,
       "limitType": "none",
       "nsfwOnly": false,
       "tags": [
         "stabilize"
+      ]
+    },
+    {
+      "name": "Stitch",
+      "aliases": [],
+      "category": "tools",
+      "path": "/command/tools/Stitch",
+      "description": "Stitch 2 up to 15 images or photo albums horizontally or vertically",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "stitch",
+        "collage",
+        "gabung",
+        "gabungfoto"
       ]
     },
     {
@@ -8719,6 +8705,31 @@
       ]
     },
     {
+      "name": "WhatsAppStatus",
+      "aliases": [
+        "sw",
+        "statuswa",
+        "swlist",
+        "listsw"
+      ],
+      "category": "tools",
+      "path": "/command/tools/WhatsAppStatus",
+      "description": "Fetch or view WhatsApp status updates collected by the bot",
+      "permissions": {},
+      "premiumOnly": "",
+      "limitCost": 0,
+      "limitType": "none",
+      "nsfwOnly": false,
+      "tags": [
+        "getsw",
+        "whatsappstatus",
+        "sw",
+        "statuswa",
+        "swlist",
+        "listsw"
+      ]
+    },
+    {
       "name": "AnimeWallpaper",
       "aliases": [],
       "category": "waifu",
@@ -8756,14 +8767,16 @@
       "aliases": [],
       "category": "waifu",
       "path": "/command/waifu/Danbooru",
-      "description": "Search anime art and wallpaper directly from Danbooru",
+      "description": "Search anime art and wallpaper directly from Danbooru (interactive or URL)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
       "limitType": "daily",
       "nsfwOnly": false,
       "tags": [
-        "danbooru"
+        "danbooru",
+        "db",
+        "booru"
       ]
     },
     {
@@ -8799,22 +8812,6 @@
       ]
     },
     {
-      "name": "Konachan",
-      "aliases": [],
-      "category": "waifu",
-      "path": "/command/waifu/Konachan",
-      "description": "Search high-resolution anime wallpapers on Konachan",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "tags": [
-        "konachan",
-        "kona"
-      ]
-    },
-    {
       "name": "Maid",
       "aliases": [],
       "category": "waifu",
@@ -8844,22 +8841,6 @@
       "tags": [
         "neko",
         "catgirl"
-      ]
-    },
-    {
-      "name": "Safebooru",
-      "aliases": [],
-      "category": "waifu",
-      "path": "/command/waifu/Safebooru",
-      "description": "Search 100% safe anime art on Safebooru",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "tags": [
-        "safebooru",
-        "safe"
       ]
     },
     {
@@ -8899,7 +8880,7 @@
       "aliases": [],
       "category": "waifu",
       "path": "/command/waifu/Waifu",
-      "description": "Random anime waifu photo/art or by character name",
+      "description": "Anime waifu art (random, interactive search, or post URL)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -8911,27 +8892,11 @@
       ]
     },
     {
-      "name": "Yandere",
-      "aliases": [],
-      "category": "waifu",
-      "path": "/command/waifu/Yandere",
-      "description": "Search anime art and wallpaper directly from Yande.re",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "tags": [
-        "yandere",
-        "yan"
-      ]
-    },
-    {
       "name": "Zerochan",
       "aliases": [],
       "category": "waifu",
       "path": "/command/waifu/Zerochan",
-      "description": "Search anime art and wallpapers from artists on Zerochan",
+      "description": "Search high-resolution anime art and wallpapers on Zerochan (interactive or URL)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,

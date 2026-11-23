@@ -19,17 +19,21 @@
     "topactive"
   ],
   "description": {
-    "id": "Menampilkan anggota paling aktif di grup berdasarkan jumlah pesan",
-    "en": "Show most active members in the group based on message count"
+    "id": "Menampilkan anggota paling aktif di grup (hari ini, 7d, 30d, bulanan, atau all-time)",
+    "en": "Show most active members in the group (today, 7d, 30d, monthly, or all-time)"
   },
   "usage": "TopActive",
   "examples": [
     "topaktif",
-    "topaktif 10",
+    "topaktif today",
+    "topaktif 7d",
+    "topaktif 30d 10",
     "topaktif 2025 9 20",
     "topaktif all",
     "topactive",
-    "topactive 10",
+    "topactive today",
+    "topactive 7d",
+    "topactive 30d 10",
     "topactive 2025 9 20",
     "topactive all"
   ],
@@ -41,8 +45,8 @@
     "group_community"
   ],
   "chatTypes": {
-    "group_community": true,
-    "group": true
+    "group": true,
+    "group_community": true
   },
   "permissions": {
     "admin": true,
@@ -74,7 +78,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 430
+    "line": 394
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

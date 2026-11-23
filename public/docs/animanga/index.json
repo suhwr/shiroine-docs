@@ -87,7 +87,7 @@
     },
     {
       "name": "Danbooru",
-      "description": "Search anime art and wallpaper directly from Danbooru",
+      "description": "Search anime art and wallpaper directly from Danbooru (interactive or URL)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -96,7 +96,9 @@
       "delaySeconds": 0,
       "minArgs": 0,
       "tags": [
-        "danbooru"
+        "danbooru",
+        "db",
+        "booru"
       ]
     },
     {
@@ -144,21 +146,6 @@
       "tags": [
         "kitsune",
         "foxgirl"
-      ]
-    },
-    {
-      "name": "Konachan",
-      "description": "Search high-resolution anime wallpapers on Konachan",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "konachan",
-        "kona"
       ]
     },
     {
@@ -229,21 +216,6 @@
       ]
     },
     {
-      "name": "Safebooru",
-      "description": "Search 100% safe anime art on Safebooru",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "safebooru",
-        "safe"
-      ]
-    },
-    {
       "name": "SauceNAO",
       "description": "Find anime/illustration image source using SauceNAO (send/reply image)",
       "permissions": {},
@@ -291,7 +263,7 @@
     },
     {
       "name": "Waifu",
-      "description": "Random anime waifu photo/art or by character name",
+      "description": "Anime waifu art (random, interactive search, or post URL)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,
@@ -321,23 +293,8 @@
       ]
     },
     {
-      "name": "Yandere",
-      "description": "Search anime art and wallpaper directly from Yande.re",
-      "permissions": {},
-      "premiumOnly": "",
-      "limitCost": 1,
-      "limitType": "daily",
-      "nsfwOnly": false,
-      "delaySeconds": 0,
-      "minArgs": 0,
-      "tags": [
-        "yandere",
-        "yan"
-      ]
-    },
-    {
       "name": "Zerochan",
-      "description": "Search anime art and wallpapers from artists on Zerochan",
+      "description": "Search high-resolution anime art and wallpapers on Zerochan (interactive or URL)",
       "permissions": {},
       "premiumOnly": "",
       "limitCost": 1,

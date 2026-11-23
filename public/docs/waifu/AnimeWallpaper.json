@@ -20,8 +20,8 @@
     "animepaper"
   ],
   "description": {
-    "en": "HD anime wallpapers for phone / desktop",
-    "id": "Koleksi wallpaper anime HD untuk ponsel / desktop"
+    "id": "Koleksi wallpaper anime HD untuk ponsel / desktop",
+    "en": "HD anime wallpapers for phone / desktop"
   },
   "usage": "AnimeWallpaper",
   "examples": [
@@ -61,7 +61,7 @@
   },
   "source": {
     "file": "internal/plugins/anime",
-    "line": 322
+    "line": 1044
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

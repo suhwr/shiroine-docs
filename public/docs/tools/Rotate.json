@@ -15,8 +15,8 @@
     "rotate"
   ],
   "description": {
-    "id": "Putar gambar atau video sebesar sudut tertentu (bebas, misal 45, -30, 270)",
-    "en": "Rotate an image or video by any angle (e.g. 45, -30, 270)"
+    "en": "Rotate an image or video by any angle (e.g. 45, -30, 270)",
+    "id": "Putar gambar atau video sebesar sudut tertentu (bebas, misal 45, -30, 270)"
   },
   "usage": "Rotate",
   "examples": [
@@ -56,7 +56,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 86
+    "line": 87
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

@@ -21,8 +21,8 @@
     "kupon"
   ],
   "description": {
-    "id": "Lihat daftar kupon voucher diskon aktif toko",
-    "en": "List active store discount vouchers"
+    "en": "List active store discount vouchers",
+    "id": "Lihat daftar kupon voucher diskon aktif toko"
   },
   "usage": "ListVoucher",
   "examples": [
@@ -62,5 +62,5 @@
     "file": "internal/plugins/store",
     "line": 223
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

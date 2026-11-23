@@ -4,8 +4,8 @@
       "name": "Add",
       "description": "Add new member(s) to the group",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -109,8 +109,8 @@
       "name": "AntiSW",
       "description": "Configure anti tag status (SWGC)",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -179,8 +179,8 @@
       "name": "Attendance",
       "description": "Manage group attendance and CSV exports (admins)",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -197,8 +197,8 @@
       "name": "AutoRespon",
       "description": "Manage group auto-response system",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -266,8 +266,7 @@
       "name": "Cmd",
       "description": "Disable or enable bot commands in this group individually or in bulk",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -283,9 +282,9 @@
       "name": "DebugPriority",
       "description": "Debug bot priority and cross-server routing status in group",
       "permissions": {
-        "owner": true,
         "subowner": true,
-        "admin": true
+        "admin": true,
+        "owner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -352,7 +351,7 @@
     },
     {
       "name": "GStats",
-      "description": "Show group message statistics this month including top 3 most active members",
+      "description": "Show group message statistics (today, 7d, this month) including top 3 most active members",
       "permissions": {
         "admin": true,
         "moderator": true
@@ -521,11 +520,11 @@
       "name": "LeaveGroup",
       "description": "Remove bot from group or leave groups remotely",
       "permissions": {
-        "admin": true,
-        "owner": true,
         "subowner": true,
         "bot": true,
-        "hasbot": true
+        "hasbot": true,
+        "admin": true,
+        "owner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -580,10 +579,10 @@
     },
     {
       "name": "ListAktif",
-      "description": "View the list of members active today along with their total messages",
+      "description": "View the list of members active today with their message counts",
       "permissions": {
-        "admin": true,
-        "moderator": true
+        "moderator": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -648,8 +647,8 @@
       "name": "PinMsg",
       "description": "Pin message in group for 1 day, 7 days, or 30 days",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -683,8 +682,8 @@
       "name": "Promote",
       "description": "Promote a group member to admin",
       "permissions": {
-        "admin": true,
-        "subowner": true
+        "subowner": true,
+        "admin": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -717,8 +716,8 @@
       "name": "Revoke",
       "description": "Reset group invite link and generate a new one",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -898,15 +897,16 @@
       "delaySeconds": 0,
       "minArgs": 0,
       "tags": [
-        "sider"
+        "sider",
+        "ceksider"
       ]
     },
     {
       "name": "SimulateGoodbye",
       "description": "Simulate group goodbye message using your data as example",
       "permissions": {
-        "subowner": true,
-        "admin": true
+        "admin": true,
+        "subowner": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -956,8 +956,8 @@
       "name": "TagAll",
       "description": "Tag all group members grouped by role",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,
@@ -972,10 +972,10 @@
     },
     {
       "name": "TopActive",
-      "description": "Show most active members in the group based on message count",
+      "description": "Show most active members in the group (today, 7d, 30d, monthly, or all-time)",
       "permissions": {
-        "moderator": true,
-        "admin": true
+        "admin": true,
+        "moderator": true
       },
       "premiumOnly": "",
       "limitCost": 0,

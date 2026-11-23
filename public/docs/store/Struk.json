@@ -21,8 +21,8 @@
     "cetakstruk"
   ],
   "description": {
-    "id": "Cetak dan lihat struk thermal kasir resmi untuk transaksi pesanan toko",
-    "en": "Print and view official thermal receipt for store orders"
+    "en": "Print and view official thermal receipt for store orders",
+    "id": "Cetak dan lihat struk thermal kasir resmi untuk transaksi pesanan toko"
   },
   "usage": "Struk",
   "examples": [
@@ -63,5 +63,5 @@
     "file": "internal/plugins/store",
     "line": 395
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

@@ -15,8 +15,8 @@
     "listaktif"
   ],
   "description": {
-    "id": "Lihat daftar member yang aktif hari ini beserta total pesannya",
-    "en": "View the list of members active today along with their total messages"
+    "id": "Lihat daftar member yang aktif hari ini beserta jumlah pesannya",
+    "en": "View the list of members active today with their message counts"
   },
   "usage": "ListAktif",
   "examples": [
@@ -63,7 +63,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 118
+    "line": 98
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

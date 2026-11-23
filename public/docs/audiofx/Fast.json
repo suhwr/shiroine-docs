@@ -15,8 +15,8 @@
     "fast"
   ],
   "description": {
-    "en": "Speed up audio playback (optional: speed ratio 1.0-4.0, default 1.63)",
-    "id": "Percepat kecepatan audio (opsional: rasio kecepatan 1.0-4.0, default 1.63)"
+    "id": "Percepat kecepatan audio (opsional: rasio kecepatan 1.0-4.0, default 1.63)",
+    "en": "Speed up audio playback (optional: speed ratio 1.0-4.0, default 1.63)"
   },
   "usage": "Fast",
   "examples": [
@@ -55,7 +55,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 440
+    "line": 445
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

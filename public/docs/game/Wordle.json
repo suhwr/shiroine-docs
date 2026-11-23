@@ -1,7 +1,8 @@
 {
   "name": "Wordle",
   "commands": [
-    "wordle"
+    "wordle",
+    "katla"
   ],
   "aliases": [],
   "display": [
@@ -12,15 +13,18 @@
     "game"
   ],
   "tags": [
-    "wordle"
+    "wordle",
+    "katla"
   ],
   "description": {
-    "en": "Start 5-letter Wordle / Katla guessing game",
-    "id": "Mulai game tebak kata Wordle / Katla 5 huruf"
+    "id": "Game tebak kata 5 huruf Wordle / Katla (default Bahasa Indonesia, gunakan .wordle en untuk bahasa Inggris)",
+    "en": "5-letter Wordle guessing game (default Indonesian, use .wordle en for English)"
   },
   "usage": "Wordle",
   "examples": [
-    "wordle"
+    "wordle",
+    "wordle en",
+    "katla"
   ],
   "minArgs": 0,
   "args": {},
@@ -60,7 +64,7 @@
   },
   "source": {
     "file": "internal/plugins/game",
-    "line": 465
+    "line": 498
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

@@ -1,7 +1,9 @@
 {
   "name": "SambungKata",
   "commands": [
-    "sambungkata"
+    "sambungkata",
+    "wordchain",
+    "sambung"
   ],
   "aliases": [],
   "display": [
@@ -12,15 +14,19 @@
     "game"
   ],
   "tags": [
-    "sambungkata"
+    "sambungkata",
+    "wordchain",
+    "sambung"
   ],
   "description": {
-    "id": "Mulai sambung kata siapa cepat",
-    "en": "Start a fast word chain"
+    "en": "Fast word chain game (default Indonesian, use .sambungkata en for English)",
+    "id": "Game sambung kata cepat (default Bahasa Indonesia, gunakan .sambungkata en untuk Bahasa Inggris)"
   },
   "usage": "SambungKata",
   "examples": [
-    "sambungkata"
+    "sambungkata",
+    "sambungkata en",
+    "wordchain"
   ],
   "minArgs": 0,
   "args": {},
@@ -60,7 +66,7 @@
   },
   "source": {
     "file": "internal/plugins/game",
-    "line": 223
+    "line": 361
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

@@ -29,7 +29,7 @@
   "chatPermissions": [],
   "chatTypes": {},
   "permissions": {},
-  "premiumOnly": "all",
+  "premiumOnly": "",
   "nsfwOnly": false,
   "level": 0,
   "limitCost": 0,
@@ -55,7 +55,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 103
+    "line": 104
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

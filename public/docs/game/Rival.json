@@ -15,8 +15,8 @@
     "rival"
   ],
   "description": {
-    "id": "Lihat rival pemain game terdekatmu berdasarkan skor dan ranking",
-    "en": "View your closest game competitor based on score and ranking"
+    "en": "View your closest game competitor based on score and ranking",
+    "id": "Lihat rival pemain game terdekatmu berdasarkan skor dan ranking"
   },
   "usage": "Rival",
   "examples": [
@@ -66,5 +66,5 @@
     "file": "internal/plugins/game",
     "line": 155
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

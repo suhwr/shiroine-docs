@@ -3,7 +3,9 @@
   "commands": [
     "sider"
   ],
-  "aliases": [],
+  "aliases": [
+    "ceksider"
+  ],
   "display": [
     "Sider"
   ],
@@ -12,11 +14,12 @@
     "group_admin"
   ],
   "tags": [
-    "sider"
+    "sider",
+    "ceksider"
   ],
   "description": {
-    "id": "Manajemen anggota pasif (sider) dan pembersihan grup",
-    "en": "Manage inactive members (siders) and group cleanup"
+    "en": "Manage inactive members (siders) and group cleanup",
+    "id": "Manajemen anggota pasif (sider) dan pembersihan grup"
   },
   "usage": "Sider",
   "examples": [
@@ -68,7 +71,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 501
+    "line": 535
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

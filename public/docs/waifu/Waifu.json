@@ -18,14 +18,14 @@
     "wf"
   ],
   "description": {
-    "id": "Koleksi foto/art anime waifu acak atau sesuai nama karakter",
-    "en": "Random anime waifu photo/art or by character name"
+    "id": "Koleksi foto/art anime waifu (acak, pencarian interaktif, atau URL post)",
+    "en": "Anime waifu art (random, interactive search, or post URL)"
   },
   "usage": "Waifu",
   "examples": [
     ".waifu",
     ".waifu frieren",
-    ".waifu marin kitagawa",
+    ".waifu https://yande.re/post/show/1000000",
     ".waifu #3"
   ],
   "minArgs": 0,
@@ -60,7 +60,7 @@
   },
   "source": {
     "file": "internal/plugins/anime",
-    "line": 226
+    "line": 948
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

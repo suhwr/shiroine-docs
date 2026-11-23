@@ -17,8 +17,8 @@
     "pixel"
   ],
   "description": {
-    "id": "Ubah gambar menjadi pixel art. Angka menunjukkan ukuran blok piksel (2-100), makin besar makin kotak-kotak.",
-    "en": "Convert image to pixel art. Number represents pixel block size (2-100), larger means more blocky."
+    "en": "Convert image to pixel art. Number represents pixel block size (2-100), larger means more blocky.",
+    "id": "Ubah gambar menjadi pixel art. Angka menunjukkan ukuran blok piksel (2-100), makin besar makin kotak-kotak."
   },
   "usage": "Pixelate",
   "examples": [
@@ -58,7 +58,7 @@
   },
   "source": {
     "file": "internal/plugins/tools",
-    "line": 56
+    "line": 57
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

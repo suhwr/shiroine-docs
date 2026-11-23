@@ -15,8 +15,8 @@
     "demote"
   ],
   "description": {
-    "id": "Turunkan admin menjadi anggota biasa",
-    "en": "Demote an admin to a regular member"
+    "en": "Demote an admin to a regular member",
+    "id": "Turunkan admin menjadi anggota biasa"
   },
   "usage": "Demote",
   "examples": [
@@ -32,8 +32,8 @@
     "group_community"
   ],
   "chatTypes": {
-    "group": true,
-    "group_community": true
+    "group_community": true,
+    "group": true
   },
   "permissions": {
     "admin": true,
@@ -65,7 +65,7 @@
   },
   "source": {
     "file": "internal/plugins/group",
-    "line": 78
+    "line": 100
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

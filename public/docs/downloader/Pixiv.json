@@ -17,8 +17,8 @@
     "pxdl"
   ],
   "description": {
-    "id": "Download artwork NSFW dari Pixiv (pencarian atau ID/URL)",
-    "en": "Download NSFW artwork from Pixiv (search or ID/URL)"
+    "id": "Download artwork dari Pixiv (pencarian interaktif atau ID/URL)",
+    "en": "Download artwork from Pixiv (interactive search or ID/URL)"
   },
   "usage": "Pixiv",
   "examples": [
@@ -58,7 +58,7 @@
   },
   "source": {
     "file": "internal/plugins/downloader",
-    "line": 191
+    "line": 686
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }

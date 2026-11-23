@@ -2,7 +2,9 @@
   "name": "JadiAnime",
   "commands": [
     "jadianime",
-    "toanime"
+    "toanime",
+    "toghibli",
+    "jadighibli"
   ],
   "aliases": [],
   "display": [
@@ -14,16 +16,23 @@
   ],
   "tags": [
     "jadianime",
-    "toanime"
+    "toanime",
+    "toghibli",
+    "jadighibli"
   ],
   "description": {
-    "id": "Ubah foto menjadi gaya anime 2D atau Arcane menggunakan AI (Free: 5 AI limit, Premium: 3 AI limit)",
-    "en": "Convert photo to 2D anime or Arcane style using AI (Free: 5 AI limit, Premium: 3 AI limit)"
+    "id": "Ubah foto menjadi gaya Japanese Anime, Studio Ghibli, dll menggunakan AI (Free: 4 AI limit, Grup Prem: 3, User Prem: 2)",
+    "en": "Convert photo to Japanese Anime, Studio Ghibli, etc. using AI (Free: 4 AI limits, Group Prem: 3, User Prem: 2)"
   },
   "usage": "JadiAnime",
   "examples": [
     "jadianime",
-    "jadianime arcane"
+    "toanime",
+    "toghibli",
+    "jadighibli",
+    "jadianime ghibli",
+    "jadianime mix",
+    "jadianime one piece"
   ],
   "minArgs": 0,
   "args": {},
@@ -57,7 +66,7 @@
   },
   "source": {
     "file": "internal/plugins/ai",
-    "line": 85
+    "line": 98
   },
-  "lastUpdated": "2026-11-15T16:37:42Z"
+  "lastUpdated": "2026-11-23T20:18:48Z"
 }
